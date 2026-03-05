@@ -1,1039 +1,2114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv source-info-name="Mi EPG Personalizada">
 <channel id="24Horas.co">
-    <display-name /><icon /></channel>
+    <display-name>CO - 24 Horas</display-name>
+    <icon src="https://iptv-epg.org/logos/Colombia/24Horas.co.png" />
+  </channel>
   
 <channel id="AMC.co">
-    <display-name /><icon /></channel>
+    <display-name>CO - AMC</display-name>
+    <icon src="https://iptv-epg.org/logos/Colombia/AMC.co.png" />
+  </channel>
   
 <channel id="AXN.co">
-    <display-name /><icon /></channel>
+    <display-name>CO - AXN</display-name>
+    <icon src="https://iptv-epg.org/logos/Colombia/AXN.co.png" />
+  </channel>
   
 <programme start="20260303000000 +0000" stop="20260303014500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas Central</title>
+    <desc lang="es">Noticiero
+Revisa las noticias más relevantes de la jornada.</desc>
+  </programme>
   
 <programme start="20260303014500 +0000" stop="20260303020000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260303020000 +0000" stop="20260303030000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Vía pública</title>
+    <desc lang="es">Interés general
+Espacio para discutir, entre otros, sobre seguridad ciudadana, urbanismo, educación, salud y transporte. Todos estos temas de gran relevancia en los municipios.</desc>
+  </programme>
   
 <programme start="20260303030000 +0000" stop="20260303033000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260303033000 +0000" stop="20260303034500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260303034500 +0000" stop="20260303040000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260303040000 +0000" stop="20260303043000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260303043000 +0000" stop="20260303044500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260303044500 +0000" stop="20260303053000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas - Al cierre</title>
+    <desc lang="es">Noticiero
+Cerramos el día analizando lo de hoy y mirando lo que se viene hacia adelante.</desc>
+  </programme>
   
 <programme start="20260303053000 +0000" stop="20260303061500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260303061500 +0000" stop="20260303064500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260303064500 +0000" stop="20260303073000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260303073000 +0000" stop="20260303080000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas deportes</title>
+    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
+  </programme>
   
 <programme start="20260303080000 +0000" stop="20260303083000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Hora 24</title>
+    <desc lang="es">Noticiero
+Actualidad e información.</desc>
+  </programme>
   
 <programme start="20260303083000 +0000" stop="20260303090000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">La previa</title>
+    <desc lang="es">Noticiero
+Espacio matutino de noticias, con toda la información de la jornada.</desc>
+  </programme>
   
 <programme start="20260303090000 +0000" stop="20260303110000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas - Tu mañana</title>
+    <desc lang="es">Noticiero
+Revisa las principales noticias de la jornada junto a 24 Horas - Tu mañana.</desc>
+  </programme>
   
 <programme start="20260303110000 +0000" stop="20260303111500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260303111500 +0000" stop="20260303113000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260303113000 +0000" stop="20260303134500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">La mañana informativa</title>
+    <desc lang="es">Noticiero
+Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
+  </programme>
   
 <programme start="20260303134500 +0000" stop="20260303140000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260303140000 +0000" stop="20260303153000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">La mañana informativa</title>
+    <desc lang="es">Noticiero
+Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
+  </programme>
   
 <programme start="20260303153000 +0000" stop="20260303154500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260303154500 +0000" stop="20260303160000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Economía</title>
+    <desc lang="es">Una mirada europea al mundo de la economía y los negocios. Hechos, análisis y las historias reales desde la principales plazas financieras, los mercados clave y las empresas líderes.</desc>
+  </programme>
   
 <programme start="20260303160000 +0000" stop="20260303180000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas al día</title>
+    <desc lang="es">Noticiero
+Conoce los detalles más resaltantes sobre los últimos acontecimientos ocurridos en Chile, América Latina y el mundo, en este segmento especial, donde te presentamos un resumen con informaciones referidas a diversos ámbitos.</desc>
+  </programme>
   
 <programme start="20260303180000 +0000" stop="20260303181500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 cuadros</title>
+    <desc lang="es">Película
+Programa sobre las noticias de los próximos estrenos del cine.</desc>
+  </programme>
   
 <programme start="20260303181500 +0000" stop="20260303184500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Frontera global</title>
+    <desc lang="es">Periodístico
+Programa que brinda información actualizada de los acontecimientos más importantes que suceden en Latinoamérica.</desc>
+  </programme>
   
 <programme start="20260303184500 +0000" stop="20260303193000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260303193000 +0000" stop="20260303194500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">DW analiza</title>
+    <desc lang="es">Noticiero
+Ponemos en contexto la actualidad internacional y analizamos el contexto de los hechos. Hablamos con especialistas para conocer todos los ángulos de la noticia y presentamos todo con un lenguaje para acercar a los más jóvenes.</desc>
+  </programme>
   
 <programme start="20260303194500 +0000" stop="20260303200000 +0000" channel="24Horas.co">
-    <title /></programme>
+    <title lang="es">Página 24</title>
+  </programme>
   
 <programme start="20260303200000 +0000" stop="20260303220000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Noticias 24</title>
+    <desc lang="es">Noticiero
+Resumen noticioso nacional e internacional.</desc>
+  </programme>
   
 <programme start="20260303220000 +0000" stop="20260303224500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Noticias 24</title>
+    <desc lang="es">Noticiero
+Resumen noticioso nacional e internacional.</desc>
+  </programme>
   
 <programme start="20260303224500 +0000" stop="20260304000000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas deportes</title>
+    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
+  </programme>
   
 <programme start="20260304000000 +0000" stop="20260304014500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas Central</title>
+    <desc lang="es">Noticiero
+Revisa las noticias más relevantes de la jornada.</desc>
+  </programme>
   
 <programme start="20260304014500 +0000" stop="20260304020000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260304020000 +0000" stop="20260304030000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Vía pública</title>
+    <desc lang="es">Interés general
+Espacio para discutir, entre otros, sobre seguridad ciudadana, urbanismo, educación, salud y transporte. Todos estos temas de gran relevancia en los municipios.</desc>
+  </programme>
   
 <programme start="20260304030000 +0000" stop="20260304033000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260304033000 +0000" stop="20260304034500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Conciencia 24/7</title>
+    <desc lang="es">Tecnología
+Un nuevo espacio multiplataforma, creado para visibilizar historias de innovación, desarrollo y de futuro que están sucediendo a lo largo de Chile. Un espacio con una amplia oferta de productos de ciencia, tecnología, ciudad y transporte.</desc>
+  </programme>
   
 <programme start="20260304034500 +0000" stop="20260304040000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260304040000 +0000" stop="20260304043000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260304043000 +0000" stop="20260304044500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260304044500 +0000" stop="20260304053000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas - Al cierre</title>
+    <desc lang="es">Noticiero
+Cerramos el día analizando lo de hoy y mirando lo que se viene hacia adelante.</desc>
+  </programme>
   
 <programme start="20260304053000 +0000" stop="20260304061500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
 <programme start="20260304061500 +0000" stop="20260304064500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260304064500 +0000" stop="20260304073000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260304073000 +0000" stop="20260304080000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas deportes</title>
+    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
+  </programme>
   
 <programme start="20260304080000 +0000" stop="20260304083000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Hora 24</title>
+    <desc lang="es">Noticiero
+Actualidad e información.</desc>
+  </programme>
   
 <programme start="20260304083000 +0000" stop="20260304090000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">La previa</title>
+    <desc lang="es">Noticiero
+Espacio matutino de noticias, con toda la información de la jornada.</desc>
+  </programme>
   
 <programme start="20260304090000 +0000" stop="20260304110000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas - Tu mañana</title>
+    <desc lang="es">Noticiero
+Revisa las principales noticias de la jornada junto a 24 Horas - Tu mañana.</desc>
+  </programme>
   
 <programme start="20260304110000 +0000" stop="20260304111500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260304111500 +0000" stop="20260304113000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260304113000 +0000" stop="20260304134500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">La mañana informativa</title>
+    <desc lang="es">Noticiero
+Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
+  </programme>
   
 <programme start="20260304134500 +0000" stop="20260304140000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260304140000 +0000" stop="20260304153000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">La mañana informativa</title>
+    <desc lang="es">Noticiero
+Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
+  </programme>
   
 <programme start="20260304153000 +0000" stop="20260304154500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260304154500 +0000" stop="20260304160000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260304160000 +0000" stop="20260304180000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas al día</title>
+    <desc lang="es">Noticiero
+Conoce los detalles más resaltantes sobre los últimos acontecimientos ocurridos en Chile, América Latina y el mundo, en este segmento especial, donde te presentamos un resumen con informaciones referidas a diversos ámbitos.</desc>
+  </programme>
   
 <programme start="20260304180000 +0000" stop="20260304181500 +0000" channel="24Horas.co">
-    <title /></programme>
+    <title lang="es">Página 24</title>
+  </programme>
   
 <programme start="20260304181500 +0000" stop="20260304183000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260304183000 +0000" stop="20260304184500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Conciencia 24/7</title>
+    <desc lang="es">Tecnología
+Un nuevo espacio multiplataforma, creado para visibilizar historias de innovación, desarrollo y de futuro que están sucediendo a lo largo de Chile. Un espacio con una amplia oferta de productos de ciencia, tecnología, ciudad y transporte.</desc>
+  </programme>
   
 <programme start="20260304184500 +0000" stop="20260304193000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260304193000 +0000" stop="20260304194500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260304194500 +0000" stop="20260304200000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 cuadros</title>
+    <desc lang="es">Película
+Programa sobre las noticias de los próximos estrenos del cine.</desc>
+  </programme>
   
 <programme start="20260304200000 +0000" stop="20260304220000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Noticias 24</title>
+    <desc lang="es">Noticiero
+Resumen noticioso nacional e internacional.</desc>
+  </programme>
   
 <programme start="20260304220000 +0000" stop="20260304224500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Noticias 24</title>
+    <desc lang="es">Noticiero
+Resumen noticioso nacional e internacional.</desc>
+  </programme>
   
 <programme start="20260304224500 +0000" stop="20260305000000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas deportes</title>
+    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
+  </programme>
   
 <programme start="20260305000000 +0000" stop="20260305014500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas Central</title>
+    <desc lang="es">Noticiero
+Revisa las noticias más relevantes de la jornada.</desc>
+  </programme>
   
 <programme start="20260305014500 +0000" stop="20260305020000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260305020000 +0000" stop="20260305030000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Vía pública</title>
+    <desc lang="es">Interés general
+Espacio para discutir, entre otros, sobre seguridad ciudadana, urbanismo, educación, salud y transporte. Todos estos temas de gran relevancia en los municipios.</desc>
+  </programme>
   
 <programme start="20260305030000 +0000" stop="20260305033000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260305033000 +0000" stop="20260305034500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Economía</title>
+    <desc lang="es">Una mirada europea al mundo de la economía y los negocios. Hechos, análisis y las historias reales desde la principales plazas financieras, los mercados clave y las empresas líderes.</desc>
+  </programme>
   
 <programme start="20260305034500 +0000" stop="20260305040000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260305040000 +0000" stop="20260305043000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260305043000 +0000" stop="20260305044500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260305044500 +0000" stop="20260305053000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas - Al cierre</title>
+    <desc lang="es">Noticiero
+Cerramos el día analizando lo de hoy y mirando lo que se viene hacia adelante.</desc>
+  </programme>
   
 <programme start="20260305053000 +0000" stop="20260305061500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260305061500 +0000" stop="20260305064500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260305064500 +0000" stop="20260305073000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260305073000 +0000" stop="20260305080000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas deportes</title>
+    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
+  </programme>
   
 <programme start="20260305080000 +0000" stop="20260305083000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Hora 24</title>
+    <desc lang="es">Noticiero
+Actualidad e información.</desc>
+  </programme>
   
 <programme start="20260305083000 +0000" stop="20260305090000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">La previa</title>
+    <desc lang="es">Noticiero
+Espacio matutino de noticias, con toda la información de la jornada.</desc>
+  </programme>
   
 <programme start="20260305090000 +0000" stop="20260305110000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas - Tu mañana</title>
+    <desc lang="es">Noticiero
+Revisa las principales noticias de la jornada junto a 24 Horas - Tu mañana.</desc>
+  </programme>
   
 <programme start="20260305110000 +0000" stop="20260305111500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260305111500 +0000" stop="20260305113000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260305113000 +0000" stop="20260305134500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">La mañana informativa</title>
+    <desc lang="es">Noticiero
+Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
+  </programme>
   
 <programme start="20260305134500 +0000" stop="20260305140000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260305140000 +0000" stop="20260305153000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">La mañana informativa</title>
+    <desc lang="es">Noticiero
+Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
+  </programme>
   
 <programme start="20260305153000 +0000" stop="20260305154500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260305154500 +0000" stop="20260305160000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">DW analiza</title>
+    <desc lang="es">Noticiero
+Ponemos en contexto la actualidad internacional y analizamos el contexto de los hechos. Hablamos con especialistas para conocer todos los ángulos de la noticia y presentamos todo con un lenguaje para acercar a los más jóvenes.</desc>
+  </programme>
   
 <programme start="20260305160000 +0000" stop="20260305180000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas al día</title>
+    <desc lang="es">Noticiero
+Conoce los detalles más resaltantes sobre los últimos acontecimientos ocurridos en Chile, América Latina y el mundo, en este segmento especial, donde te presentamos un resumen con informaciones referidas a diversos ámbitos.</desc>
+  </programme>
   
 <programme start="20260305180000 +0000" stop="20260305181500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260305181500 +0000" stop="20260305184500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Reporte minero</title>
+    <desc lang="es">Interés general
+Programa del canal 24H dedicado al mercado de la minería.</desc>
+  </programme>
   
 <programme start="20260305184500 +0000" stop="20260305193000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260305193000 +0000" stop="20260305194500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Economía</title>
+    <desc lang="es">Una mirada europea al mundo de la economía y los negocios. Hechos, análisis y las historias reales desde la principales plazas financieras, los mercados clave y las empresas líderes.</desc>
+  </programme>
   
 <programme start="20260305194500 +0000" stop="20260305200000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Conciencia 24/7</title>
+    <desc lang="es">Tecnología
+Un nuevo espacio multiplataforma, creado para visibilizar historias de innovación, desarrollo y de futuro que están sucediendo a lo largo de Chile. Un espacio con una amplia oferta de productos de ciencia, tecnología, ciudad y transporte.</desc>
+  </programme>
   
 <programme start="20260305200000 +0000" stop="20260305220000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Noticias 24</title>
+    <desc lang="es">Noticiero
+Resumen noticioso nacional e internacional.</desc>
+  </programme>
   
 <programme start="20260305220000 +0000" stop="20260305224500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Noticias 24</title>
+    <desc lang="es">Noticiero
+Resumen noticioso nacional e internacional.</desc>
+  </programme>
   
 <programme start="20260305224500 +0000" stop="20260306000000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas deportes</title>
+    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
+  </programme>
   
 <programme start="20260306000000 +0000" stop="20260306014500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas Central</title>
+    <desc lang="es">Noticiero
+Revisa las noticias más relevantes de la jornada.</desc>
+  </programme>
   
 <programme start="20260306014500 +0000" stop="20260306020000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260306020000 +0000" stop="20260306030000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Vía pública</title>
+    <desc lang="es">Interés general
+Espacio para discutir, entre otros, sobre seguridad ciudadana, urbanismo, educación, salud y transporte. Todos estos temas de gran relevancia en los municipios.</desc>
+  </programme>
   
 <programme start="20260306030000 +0000" stop="20260306033000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260306033000 +0000" stop="20260306034500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">DW analiza</title>
+    <desc lang="es">Noticiero
+Ponemos en contexto la actualidad internacional y analizamos el contexto de los hechos. Hablamos con especialistas para conocer todos los ángulos de la noticia y presentamos todo con un lenguaje para acercar a los más jóvenes.</desc>
+  </programme>
   
 <programme start="20260306034500 +0000" stop="20260306040000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260306040000 +0000" stop="20260306043000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260306043000 +0000" stop="20260306044500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260306044500 +0000" stop="20260306053000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas - Al cierre</title>
+    <desc lang="es">Noticiero
+Cerramos el día analizando lo de hoy y mirando lo que se viene hacia adelante.</desc>
+  </programme>
   
 <programme start="20260306053000 +0000" stop="20260306061500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260306061500 +0000" stop="20260306064500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260306064500 +0000" stop="20260306073000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260306073000 +0000" stop="20260306080000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas deportes</title>
+    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
+  </programme>
   
 <programme start="20260306080000 +0000" stop="20260306083000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Hora 24</title>
+    <desc lang="es">Noticiero
+Actualidad e información.</desc>
+  </programme>
   
 <programme start="20260306083000 +0000" stop="20260306090000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">La previa</title>
+    <desc lang="es">Noticiero
+Espacio matutino de noticias, con toda la información de la jornada.</desc>
+  </programme>
   
 <programme start="20260306090000 +0000" stop="20260306110000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas - Tu mañana</title>
+    <desc lang="es">Noticiero
+Revisa las principales noticias de la jornada junto a 24 Horas - Tu mañana.</desc>
+  </programme>
   
 <programme start="20260306110000 +0000" stop="20260306113000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Frontera global</title>
+    <desc lang="es">Periodístico
+Programa que brinda información actualizada de los acontecimientos más importantes que suceden en Latinoamérica.</desc>
+  </programme>
   
 <programme start="20260306113000 +0000" stop="20260306134500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">La mañana informativa</title>
+    <desc lang="es">Noticiero
+Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
+  </programme>
   
 <programme start="20260306134500 +0000" stop="20260306140000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260306140000 +0000" stop="20260306153000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">La mañana informativa</title>
+    <desc lang="es">Noticiero
+Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
+  </programme>
   
 <programme start="20260306153000 +0000" stop="20260306154500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260306154500 +0000" stop="20260306160000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260306160000 +0000" stop="20260306180000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas al día</title>
+    <desc lang="es">Noticiero
+Conoce los detalles más resaltantes sobre los últimos acontecimientos ocurridos en Chile, América Latina y el mundo, en este segmento especial, donde te presentamos un resumen con informaciones referidas a diversos ámbitos.</desc>
+  </programme>
   
 <programme start="20260306180000 +0000" stop="20260306181500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260306181500 +0000" stop="20260306183000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">DW analiza</title>
+    <desc lang="es">Noticiero
+Ponemos en contexto la actualidad internacional y analizamos el contexto de los hechos. Hablamos con especialistas para conocer todos los ángulos de la noticia y presentamos todo con un lenguaje para acercar a los más jóvenes.</desc>
+  </programme>
   
 <programme start="20260306183000 +0000" stop="20260306184500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260306184500 +0000" stop="20260306193000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260306193000 +0000" stop="20260306194500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260306194500 +0000" stop="20260306200000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Economía</title>
+    <desc lang="es">Una mirada europea al mundo de la economía y los negocios. Hechos, análisis y las historias reales desde la principales plazas financieras, los mercados clave y las empresas líderes.</desc>
+  </programme>
   
 <programme start="20260306200000 +0000" stop="20260306220000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Noticias 24</title>
+    <desc lang="es">Noticiero
+Resumen noticioso nacional e internacional.</desc>
+  </programme>
   
 <programme start="20260306220000 +0000" stop="20260306224500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Noticias 24</title>
+    <desc lang="es">Noticiero
+Resumen noticioso nacional e internacional.</desc>
+  </programme>
   
 <programme start="20260306224500 +0000" stop="20260307000000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas deportes</title>
+    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
+  </programme>
   
 <programme start="20260307000000 +0000" stop="20260307014500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 Horas Central</title>
+    <desc lang="es">Noticiero
+Revisa las noticias más relevantes de la jornada.</desc>
+  </programme>
   
 <programme start="20260307014500 +0000" stop="20260307020000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260307020000 +0000" stop="20260307021500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 cuadros</title>
+    <desc lang="es">Película
+Programa sobre las noticias de los próximos estrenos del cine.</desc>
+  </programme>
   
 <programme start="20260307021500 +0000" stop="20260307024500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Especialista responde</title>
+    <desc lang="es">Salud
+Las respuestas a todas las consultas en temas relacionados a la salud y bienestar.</desc>
+  </programme>
   
 <programme start="20260307024500 +0000" stop="20260307030000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260307030000 +0000" stop="20260307033000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260307033000 +0000" stop="20260307034500 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">Entrevistas 24 horas</title>
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+  </programme>
   
 <programme start="20260307034500 +0000" stop="20260307040000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">DW analiza</title>
+    <desc lang="es">Noticiero
+Ponemos en contexto la actualidad internacional y analizamos el contexto de los hechos. Hablamos con especialistas para conocer todos los ángulos de la noticia y presentamos todo con un lenguaje para acercar a los más jóvenes.</desc>
+  </programme>
   
 <programme start="20260307040000 +0000" stop="20260307043000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260307043000 +0000" stop="20260307050000 +0000" channel="24Horas.co">
-    <title /><desc /></programme>
+    <title lang="es">24 horas a la hora</title>
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+  </programme>
   
 <programme start="20260303012000 +0000" stop="20260303030000 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Desierto de oro</title>
+    <title lang="en">Gold</title>
+    <desc lang="es">Cuando dos hombres descubren en un desierto la pepita de oro más grande jamás encontrada, la codicia empieza a adueñarse de ellos. ¿Hasta dónde resistirán las condiciones adversas con tal de asegurar su fortuna?</desc>
+  </programme>
   
 <programme start="20260303030000 +0000" stop="20260303050000 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">El protector</title>
+    <title lang="en">The Marksman</title>
+    <desc lang="es">Jim Hanson, un veterano de guerra, está pasando por un momento difícil, ya que su amada esposa acaba de fallecer y el banco está a punto de quitarle su casa. Hasta que aparecen a su vida una madre y su hijo, dos inmigrantes ilegales.</desc>
+  </programme>
   
 <programme start="20260303050000 +0000" stop="20260303070500 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">HellBoy</title>
+    <desc lang="es">La Agencia para la Investigación y Defensa Paranormal encomienda a Hellboy la tarea de derrotar al espíritu ancestral Nimue, La Reina de la Sangre, que vuelve llena de sed de venganza a sembrar terror y a destruir la raza humana.</desc>
+  </programme>
   
 <programme start="20260303070500 +0000" stop="20260303090500 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Los ilegales</title>
+    <title lang="en">Lawless</title>
+    <desc lang="es">Un sádico policía de Chicago llega a Virginia en 1931 para acabar con el negocio de contrabando de licor de los hermanos Bondurant.</desc>
+  </programme>
   
 <programme start="20260303090500 +0000" stop="20260303105000 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Amenazados en la red</title>
+    <title lang="en">I.T.</title>
+    <desc lang="es">Mike Regan comienza a ver cómo su vida se tambalea cuando un joven hacker de su empresa se siente ninguneado por él y empieza a hacerle la vida imposible a su familia, controlando sus aparatos electrónicos y de comunicación.</desc>
+  </programme>
   
 <programme start="20260303105000 +0000" stop="20260303112500 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E287 Temporada 1 Episodio 287
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260303112500 +0000" stop="20260303120000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E288 Temporada 1 Episodio 288
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260303120000 +0000" stop="20260303123000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E289 Temporada 1 Episodio 289
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260303123000 +0000" stop="20260303130000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E290 Temporada 1 Episodio 290
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260303130000 +0000" stop="20260303133000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E291 Temporada 1 Episodio 291
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260303133000 +0000" stop="20260303140000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E292 Temporada 1 Episodio 292
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260303140000 +0000" stop="20260303143000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E293 Temporada 1 Episodio 293
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260303143000 +0000" stop="20260303150000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E294 Temporada 1 Episodio 294
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260303150000 +0000" stop="20260303153000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E295 Temporada 1 Episodio 295
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260303153000 +0000" stop="20260303160000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E296 Temporada 1 Episodio 296
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260303160000 +0000" stop="20260303162500 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E297 Temporada 1 Episodio 297
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260303162500 +0000" stop="20260303165000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E298 Temporada 1 Episodio 298
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260303165000 +0000" stop="20260303184500 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Fama</title>
+    <title lang="en">Fame</title>
+    <desc lang="es">Sigue a un dotado grupo de bailarines, cantantes, actores y artistas de diferentes disciplinas, a lo largo de cuatro años en la Escuela Superior de Artes Escénicas de Nueva York.</desc>
+  </programme>
   
 <programme start="20260303184500 +0000" stop="20260303211500 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Leyendas de pasión</title>
+    <title lang="en">Legends of the Fall</title>
+    <desc lang="es">El Coronel William Ludlow vive tranquilamente en Montana con sus hijos Tristan, Alfred y Samuel. Luego de la muerte de Samuel, Tristan y Alfred se enamoran de la novia de su hermano fallecido, y su rivalidad empieza a destruir a la familia.</desc>
+  </programme>
   
 <programme start="20260303211500 +0000" stop="20260303232000 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Jungla</title>
+    <title lang="en">Jungle</title>
+    <desc lang="es">Un grupo de amigos se adentra en la selva de Bolivia con un guía fraudulento.</desc>
+  </programme>
   
 <programme start="20260303232000 +0000" stop="20260304010000 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Desierto de oro</title>
+    <title lang="en">Gold</title>
+    <desc lang="es">Cuando dos hombres descubren en un desierto la pepita de oro más grande jamás encontrada, la codicia empieza a adueñarse de ellos. ¿Hasta dónde resistirán las condiciones adversas con tal de asegurar su fortuna?</desc>
+  </programme>
   
 <programme start="20260304010000 +0000" stop="20260304030000 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">El protector</title>
+    <title lang="en">The Marksman</title>
+    <desc lang="es">Jim Hanson, un veterano de guerra, está pasando por un momento difícil, ya que su amada esposa acaba de fallecer y el banco está a punto de quitarle su casa. Hasta que aparecen a su vida una madre y su hijo, dos inmigrantes ilegales.</desc>
+  </programme>
   
 <programme start="20260304030000 +0000" stop="20260304044000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Venom</title>
+    <desc lang="es">Eddie Brock lleva tiempo intentando desenmascarar al famoso genio científico Carlton Drake. Al investigar uno de los experimentos, el ente alienígena Venom se fusiona con el cuerpo de Eddie, y adquiere nuevos e increíbles superpoderes.</desc>
+  </programme>
   
 <programme start="20260304044000 +0000" stop="20260304064000 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Los ilegales</title>
+    <title lang="en">Lawless</title>
+    <desc lang="es">Un sádico policía de Chicago llega a Virginia en 1931 para acabar con el negocio de contrabando de licor de los hermanos Bondurant.</desc>
+  </programme>
   
 <programme start="20260304064000 +0000" stop="20260304083500 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">El orfanato</title>
+    <desc lang="es">Laura se instala con su familia en el orfanato en el que creció de niña. Su propósito es abrir una residencia para infantes discapacitados. Sin embargo, el ambiente del viejo caserón comienza a amenazar la existencia de sus seres queridos.</desc>
+  </programme>
   
 <programme start="20260304083500 +0000" stop="20260304104000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">HellBoy</title>
+    <desc lang="es">La Agencia para la Investigación y Defensa Paranormal encomienda a Hellboy la tarea de derrotar al espíritu ancestral Nimue, La Reina de la Sangre, que vuelve llena de sed de venganza a sembrar terror y a destruir la raza humana.</desc>
+  </programme>
   
 <programme start="20260304104000 +0000" stop="20260304113000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Tales of The Walking Dead</title>
+    <desc lang="es">S1 E1 Evie / Joe
+Un preparacionista abandona su búnker en busca de una preparacionista. En el camino, se encuentra con una aliada peculiar y se unen en busca de sus seres queridos. A veces, los vivos llegan a dar mas miedo que los muertos.</desc>
+  </programme>
   
 <programme start="20260304113000 +0000" stop="20260304120000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E296 Temporada 1 Episodio 296
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260304120000 +0000" stop="20260304123000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E297 Temporada 1 Episodio 297
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260304123000 +0000" stop="20260304130000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E298 Temporada 1 Episodio 298
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260304130000 +0000" stop="20260304133000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E299 Temporada 1 Episodio 299
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260304133000 +0000" stop="20260304140000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E300 Temporada 1 Episodio 300
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260304140000 +0000" stop="20260304143000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E301 Temporada 1 Episodio 301
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260304143000 +0000" stop="20260304150000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E302 Temporada 1 Episodio 302
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260304150000 +0000" stop="20260304153000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E303 Temporada 1 Episodio 303
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260304153000 +0000" stop="20260304160000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E304 Temporada 1 Episodio 304
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260304160000 +0000" stop="20260304163500 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E305 Temporada 1 Episodio 305
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260304163500 +0000" stop="20260304190500 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Realmente amor</title>
+    <title lang="en">Love Actually</title>
+    <desc lang="es">El amor está en todas partes: entre políticos, viudos, jóvenes que sueñan con encontrarlo y parejas que no saben en qué momento lo perdieron. Éste es el recuento de varias historias no siempre alegres y en muchas ocasiones inesperadas.</desc>
+  </programme>
   
 <programme start="20260304190500 +0000" stop="20260304212500 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Posdata: te amo</title>
+    <title lang="en">PS I Love You</title>
+    <desc lang="es">Para Holly la muerte de su marido ensombrece su futuro. Pero la aparición de varios mensajes en los que su esposo le explica cómo seguir adelante, serán el punto de partida para rehacer su vida.</desc>
+  </programme>
   
 <programme start="20260304212500 +0000" stop="20260304232000 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Locos de ira</title>
+    <title lang="en">Anger Management</title>
+    <desc lang="es">Dave es normalmente un hombre centrado y pacífico. Pero después de un enfrentamiento a bordo de un avión, se ve obligado a asistir a terapias para el manejo de la rabia con el Dr. Rydell, quien también puede que necesite un poco de ayuda.</desc>
+  </programme>
   
 <programme start="20260304232000 +0000" stop="20260305011500 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">El protector</title>
+    <title lang="en">The Marksman</title>
+    <desc lang="es">Jim Hanson, un veterano de guerra, está pasando por un momento difícil, ya que su amada esposa acaba de fallecer y el banco está a punto de quitarle su casa. Hasta que aparecen a su vida una madre y su hijo, dos inmigrantes ilegales.</desc>
+  </programme>
   
 <programme start="20260305011500 +0000" stop="20260305030000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Venom</title>
+    <desc lang="es">Eddie Brock lleva tiempo intentando desenmascarar al famoso genio científico Carlton Drake. Al investigar uno de los experimentos, el ente alienígena Venom se fusiona con el cuerpo de Eddie, y adquiere nuevos e increíbles superpoderes.</desc>
+  </programme>
   
 <programme start="20260305030000 +0000" stop="20260305045000 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Rambo II</title>
+    <title lang="en">Rambo: First Blood Part II</title>
+    <desc lang="es">Rambo es enviado de vuelta a Vietnam con una misión: averiguar el paradero de unos soldados norteamericanos desaparecidos. Sin embargo, tras saltar en la jungla portando un cuchillo y un arco con flechas, el plan no saldrá como esperaba.</desc>
+  </programme>
   
 <programme start="20260305045000 +0000" stop="20260305062000 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Presa</title>
+    <title lang="en">Kalahari</title>
+    <desc lang="es">Una pareja de misioneros cristianos en el desierto de Kalahari se enfrenta a una prueba de fe cuando se convierten en el objetivo de una banda de militantes extremistas.</desc>
+  </programme>
   
 <programme start="20260305062000 +0000" stop="20260305080500 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Estación Espacial 76</title>
+    <title lang="en">Space Station 76</title>
+    <desc lang="es">Narra las tensiones que surgen entre una pequeña comunidad de personas y robots que viven en una estación espacial, donde el malestar interno es mucho más peligroso que cualquier asteroide que se aproxime.</desc>
+  </programme>
   
 <programme start="20260305080500 +0000" stop="20260305100000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">El orfanato</title>
+    <desc lang="es">Laura se instala con su familia en el orfanato en el que creció de niña. Su propósito es abrir una residencia para infantes discapacitados. Sin embargo, el ambiente del viejo caserón comienza a amenazar la existencia de sus seres queridos.</desc>
+  </programme>
   
 <programme start="20260305100000 +0000" stop="20260305105000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Tales of The Walking Dead</title>
+    <desc lang="es">S1 E2 Blair / Gina
+Un atraco de acción de amigos de ritmo rápido que distorsiona la realidad, donde una recepcionista descontenta y su autoritario jefe quedan atrapados juntos mientras Atlanta colapsa bajo el Apocalipsis Walker.</desc>
+  </programme>
   
 <programme start="20260305105000 +0000" stop="20260305112500 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E303 Temporada 1 Episodio 303
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260305112500 +0000" stop="20260305120000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E304 Temporada 1 Episodio 304
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260305120000 +0000" stop="20260305123000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E305 Temporada 1 Episodio 305
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260305123000 +0000" stop="20260305130000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E306 Temporada 1 Episodio 306
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260305130000 +0000" stop="20260305133000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E307 Temporada 1 Episodio 307
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260305133000 +0000" stop="20260305140000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E308 Temporada 1 Episodio 308
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260305140000 +0000" stop="20260305143000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E309 Temporada 1 Episodio 309
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260305143000 +0000" stop="20260305150000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E310 Temporada 1 Episodio 310
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260305150000 +0000" stop="20260305153000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E286 Temporada 1 Episodio 286
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260305153000 +0000" stop="20260305160000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E287 Temporada 1 Episodio 287
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260305160000 +0000" stop="20260305182000 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Posdata: te amo</title>
+    <title lang="en">PS I Love You</title>
+    <desc lang="es">Para Holly la muerte de su marido ensombrece su futuro. Pero la aparición de varios mensajes en los que su esposo le explica cómo seguir adelante, serán el punto de partida para rehacer su vida.</desc>
+  </programme>
   
 <programme start="20260305182000 +0000" stop="20260305201500 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Locos de ira</title>
+    <title lang="en">Anger Management</title>
+    <desc lang="es">Dave es normalmente un hombre centrado y pacífico. Pero después de un enfrentamiento a bordo de un avión, se ve obligado a asistir a terapias para el manejo de la rabia con el Dr. Rydell, quien también puede que necesite un poco de ayuda.</desc>
+  </programme>
   
 <programme start="20260305201500 +0000" stop="20260305224000 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Solo los valientes</title>
+    <title lang="en">Only the Brave</title>
+    <desc lang="es">La lucha del heroico cuerpo de bomberos Granite Mountain Hotshots contra un terrible incendio sucedido en Arizona. Este equipo de bomberos locales se convierte en uno de los equipos de lucha contra incendios más heroicos de la nación.</desc>
+  </programme>
   
 <programme start="20260305224000 +0000" stop="20260306003500 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Lo imposible</title>
+    <title lang="en">The Impossible</title>
+    <desc lang="es">De vacaciones en Tailandia, una familia es separada cuando un feroz tsunami golpea a su hotel. Comienza así un frenético y desesperado periplo para rencontrarse y sobrevivir.</desc>
+  </programme>
   
 <programme start="20260306003500 +0000" stop="20260306030000 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Los siete magníficos</title>
+    <title lang="en">The Magnificent Seven</title>
+    <desc lang="es">Siete forajidos son contratados por los habitantes de Rose Creek para defenderse de la constante amenaza del industrial Bartholomew Bogue. Sin embargo, pronto descubrirán que estos hombres luchan por algo más que el dinero.</desc>
+  </programme>
   
 <programme start="20260306030000 +0000" stop="20260306053500 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Golpes del destino</title>
+    <title lang="en">Million Dollar Baby</title>
+    <desc lang="es">La adusta e impenetrable personalidad de Frankie, un entrenador de boxeo, será puesta a prueba con la llegada de Maggie, una joven que persigue el sueño de convertirse en boxeadora profesional.</desc>
+  </programme>
   
 <programme start="20260306053500 +0000" stop="20260306072000 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Rambo II</title>
+    <title lang="en">Rambo: First Blood Part II</title>
+    <desc lang="es">Rambo es enviado de vuelta a Vietnam con una misión: averiguar el paradero de unos soldados norteamericanos desaparecidos. Sin embargo, tras saltar en la jungla portando un cuchillo y un arco con flechas, el plan no saldrá como esperaba.</desc>
+  </programme>
   
 <programme start="20260306072000 +0000" stop="20260306085000 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Presa</title>
+    <title lang="en">Kalahari</title>
+    <desc lang="es">Una pareja de misioneros cristianos en el desierto de Kalahari se enfrenta a una prueba de fe cuando se convierten en el objetivo de una banda de militantes extremistas.</desc>
+  </programme>
   
 <programme start="20260306085000 +0000" stop="20260306103500 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Amenazados en la red</title>
+    <title lang="en">I.T.</title>
+    <desc lang="es">Mike Regan comienza a ver cómo su vida se tambalea cuando un joven hacker de su empresa se siente ninguneado por él y empieza a hacerle la vida imposible a su familia, controlando sus aparatos electrónicos y de comunicación.</desc>
+  </programme>
   
 <programme start="20260306103500 +0000" stop="20260306112500 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Tales of The Walking Dead</title>
+    <desc lang="es">S1 E3 Dee
+Una madre y su hija escapan de la violencia y se refugian en un antiguo barco de vapor. Pero el ambiente pacífico se deteriora cuando un intento de golpe obliga a la madre a revisitar su pasado violento para proteger a su hija.</desc>
+  </programme>
   
 <programme start="20260306112500 +0000" stop="20260306120000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E287 Temporada 1 Episodio 287
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260306120000 +0000" stop="20260306123000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E288 Temporada 1 Episodio 288
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260306123000 +0000" stop="20260306130000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E289 Temporada 1 Episodio 289
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260306130000 +0000" stop="20260306133000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E290 Temporada 1 Episodio 290
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260306133000 +0000" stop="20260306140000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E291 Temporada 1 Episodio 291
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260306140000 +0000" stop="20260306143000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E292 Temporada 1 Episodio 292
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260306143000 +0000" stop="20260306150000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E293 Temporada 1 Episodio 293
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260306150000 +0000" stop="20260306153000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E294 Temporada 1 Episodio 294
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260306153000 +0000" stop="20260306160000 +0000" channel="AMC.co">
-    <title /><desc /></programme>
+    <title lang="es">Planet Action</title>
+    <desc lang="es">S1 E295 Temporada 1 Episodio 295
+Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  </programme>
   
 <programme start="20260306160000 +0000" stop="20260306175000 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Son como niños 2</title>
+    <title lang="en">Grown Ups 2</title>
+    <desc lang="es">Lenny decide mudarse junto a su familia a su pueblo natal. Él pensaba que seguía siendo un lugar tranquilo para criar a sus hijos, pero está lleno de personajes problemáticos que lo harán entender que la locura le sigue a donde vaya.</desc>
+  </programme>
   
 <programme start="20260306175000 +0000" stop="20260306194500 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Lo imposible</title>
+    <title lang="en">The Impossible</title>
+    <desc lang="es">De vacaciones en Tailandia, una familia es separada cuando un feroz tsunami golpea a su hotel. Comienza así un frenético y desesperado periplo para rencontrarse y sobrevivir.</desc>
+  </programme>
   
 <programme start="20260306194500 +0000" stop="20260306221500 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Los siete magníficos</title>
+    <title lang="en">The Magnificent Seven</title>
+    <desc lang="es">Siete forajidos son contratados por los habitantes de Rose Creek para defenderse de la constante amenaza del industrial Bartholomew Bogue. Sin embargo, pronto descubrirán que estos hombres luchan por algo más que el dinero.</desc>
+  </programme>
   
 <programme start="20260306221500 +0000" stop="20260307004000 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Solo los valientes</title>
+    <title lang="en">Only the Brave</title>
+    <desc lang="es">La lucha del heroico cuerpo de bomberos Granite Mountain Hotshots contra un terrible incendio sucedido en Arizona. Este equipo de bomberos locales se convierte en uno de los equipos de lucha contra incendios más heroicos de la nación.</desc>
+  </programme>
   
 <programme start="20260307004000 +0000" stop="20260307030000 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">El ataque</title>
+    <title lang="en">White House Down</title>
+    <desc lang="es">Al policía John Cale le niegan trabajar en el Servicio Secreto, pero como no quiere decepcionar a su hija, la lleva a recorrer la Casa Blanca cuando ésta es tomada por un grupo paramilitar. Ahora Cale debe salvar al presidente y a su hija.</desc>
+  </programme>
 <programme start="20260307030000 +0000" stop="20260307051500 +0000" channel="AMC.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">El pacto</title>
+    <title lang="en">Guy Ritchie's The Covenant</title>
+    <desc lang="es">El sargento Jon Kinley está en su última misión en Afganistán cuando le asignan un intérprete local, Ahmed. Cuando hieren a Kingley, Ahmed arriesga su propia vida para llevar al herido a territorio seguro.</desc>
+  </programme>
   
 <programme start="20260303001000 +0000" stop="20260303010500 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S1 E8 Milagro
+Hondo y el equipo SWAT deben trabajar durante las vacaciones de Navidad debido a que un cartel de drogas está en busca de su alijo de lingotes de oro. Luego, Jessica llama la atención de Michael Plank, presidente de la Comisión de Policía.</desc>
+  </programme>
   
 <programme start="20260303010500 +0000" stop="20260303020000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S1 E9 Punto ciego
+Cuando una queja por mala conducta saca a Hondo del servicio activo, el Deacon interviene para liderar al equipo mientras buscan a una banda que ataca los dispensarios de marihuana.</desc>
+  </programme>
   
 <programme start="20260303020000 +0000" stop="20260303030000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Crimen en el trópico</title>
+    <title lang="en">Tropiques criminels</title>
+    <desc lang="es">S5 E8 Petite Anse
+Un joven cantante de zouk, a punto de alcanzar el éxito, es encontrado muerto en una playa. Mélissa y Gaëlle interrogan a quienes la rodean, desde su pareja hasta los productores y propietarios de un club donde la víctima actuaba...</desc>
+  </programme>
   
 <programme start="20260303030000 +0000" stop="20260303035000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Wild Cards</title>
+    <desc lang="es">S2 E5 Atrápame si puedes
+La mejor amiga de la infancia de Max la visita, lo que la obliga a volver a sus viejas costumbres de estafadora. Mientras Ellis investiga el asesinato de un extenista profesional, las mejores amigas se infiltran para encontrar al asesino.</desc>
+  </programme>
   
 <programme start="20260303035000 +0000" stop="20260303044000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Wild Cards</title>
+    <desc lang="es">S2 E6 Séance y sensibilidad
+Max y Ellis investigan un misterioso asesinato en una familia excéntrica donde todos son sospechosos y hay riquezas en juego. Max adopta una personalidad psíquica y organiza una sesión espiritista para invocar al verdadero asesino.</desc>
+  </programme>
   
 <programme start="20260303044000 +0000" stop="20260303053000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">CSI</title>
+    <title lang="en">Crime Scene Investigation</title>
+    <desc lang="es">S13 E15 No me olvides
+La evidencia sugiere que Sara es culpable de matar a puñaladas a un hombre en una habitación de hotel, pero ella insiste en que alguien la está incriminando.</desc>
+  </programme>
   
 <programme start="20260303053000 +0000" stop="20260303062000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Hawaii-Five-O</title>
+    <desc lang="es">S6 E6 Monstruos
+El equipo busca un asesino en serie inspirado por Frankenstein. Una pandilla invade un banco de sangre y Jerry pide ayuda. Grace va a una fiesta de Halloween escondida y Danny va detrás de ella.</desc>
+  </programme>
   
 <programme start="20260303062000 +0000" stop="20260303071000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Hawaii-Five-O</title>
+    <desc lang="es">S6 E7 Excursionistas
+Un mafioso se esconde en la isla desierta que Steve escogió para su encuentro con Lynn. El equipo busca al padre de un atleta. Él está siendo amenazado de muerte por un apostador.</desc>
+  </programme>
   
 <programme start="20260303071000 +0000" stop="20260303080500 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">CSI: NY</title>
+    <desc lang="es">S4 E19 Falta personal
+CSI investiga la muerte por envenenamiento de un fanático en un juego de baloncesto, momentos después de hacer un tiro de media cancha de un millón de dólares.</desc>
+  </programme>
   
 <programme start="20260303080500 +0000" stop="20260303090000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">CSI: NY</title>
+    <desc lang="es">S4 E20 Taxi
+La búsqueda continúa para atrapar al asesino del taxi, que ahora ha capturado a Reed y utiliza su blog para dar a conocer su próximo ataque.</desc>
+  </programme>
   
 <programme start="20260303090000 +0000" stop="20260303100000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">CSI: NY</title>
+    <desc lang="es">S4 E21 Rehén
+Mac se intercambia por uno de los rehenes en un banco tomado por ladrones que afirman no haber matado a un hombre hallado muerto en la bóveda. Entonces, el investigador debe buscar pruebas que revelen la verdad.</desc>
+  </programme>
   
 <programme start="20260303100000 +0000" stop="20260303110000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">CSI: NY</title>
+    <desc lang="es">S5 E1 Veritas
+Mac apenas escapa de la muerte tras su secuestro y va rápidamente a trabajar para tratar de localizar la ubicación del ladrón de bancos. Durante la investigación, el C.S.I. descubre que la hermana de Flack puede tener una conexión.</desc>
+  </programme>
   
 <programme start="20260303110000 +0000" stop="20260303120000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">CSI: NY</title>
+    <desc lang="es">S4 E19 Falta personal
+CSI investiga la muerte por envenenamiento de un fanático en un juego de baloncesto, momentos después de hacer un tiro de media cancha de un millón de dólares.</desc>
+  </programme>
   
 <programme start="20260303120000 +0000" stop="20260303130000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">CSI: NY</title>
+    <desc lang="es">S4 E20 Taxi
+La búsqueda continúa para atrapar al asesino del taxi, que ahora ha capturado a Reed y utiliza su blog para dar a conocer su próximo ataque.</desc>
+  </programme>
   
 <programme start="20260303130000 +0000" stop="20260303133000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">TeveCompras</title>
+    <desc lang="es">S1 E18 Iwalk Pro 2022 V1
+Un espacio que ofrece información sobre diversos productos disponibles para su compra. A través del programa y de diversos testimonios de expertos y compradores, la audiencia podrá ampliar sus conocimientos sobre el Iwalk Pro 2022 V1.</desc>
+  </programme>
   
 <programme start="20260303133000 +0000" stop="20260303140000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">TeveCompras</title>
+    <desc lang="es">Power Mat V10
+En este programa informercial, se detalla el funcionamiento de cada uno de los productos que se encuentran a la venta de "Teve Compras", los cuales pueden ser adquiridos telefónicamente.</desc>
+  </programme>
   
 <programme start="20260303140000 +0000" stop="20260303143000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">TeveCompras</title>
+    <desc lang="es">Power Mat V10
+En este programa informercial, se detalla el funcionamiento de cada uno de los productos que se encuentran a la venta de "Teve Compras", los cuales pueden ser adquiridos telefónicamente.</desc>
+  </programme>
   
 <programme start="20260303143000 +0000" stop="20260303150000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">TeveCompras</title>
+    <desc lang="es">Power Mat V10
+En este programa informercial, se detalla el funcionamiento de cada uno de los productos que se encuentran a la venta de "Teve Compras", los cuales pueden ser adquiridos telefónicamente.</desc>
+  </programme>
   
 <programme start="20260303150000 +0000" stop="20260303155000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Criminal Minds</title>
+    <desc lang="es">S8 E4 Complejo de Dios
+Después de que un cuerpo sin piernas se encuentre en el desierto de Nuevo México y una víctima con vida aparezca en un hospital con lesiones similares, la UAC se prepara para buscar a un cirujano que realiza amputaciones innecesarias.</desc>
+  </programme>
   
 <programme start="20260303155000 +0000" stop="20260303164000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Criminal Minds</title>
+    <desc lang="es">S8 E5 La buena tierra
+Cuatro hombres desaparecen extrañamente en zonas rurales de Oregon. Entonces, los efectivos de la Unidad de Análisis de Conducta se desplazan al estado para tratar de encontrar un punto en común entre ellos que les permita localizarlos.</desc>
+  </programme>
   
 <programme start="20260303164000 +0000" stop="20260303173000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">NCIS</title>
+    <title lang="en">Navy NCIS: Naval Criminal Investigative Service</title>
+    <desc lang="es">S16 E12 El último enlace
+Un viejo amigo de la familia insta a Gibbs a unírsele en un viaje para encontrar un brazalete de identificación de un militar perdido. Mientras tanto, un teniente de la Marina es envenenado por un infame traficante de drogas.</desc>
+  </programme>
   
 <programme start="20260303173000 +0000" stop="20260303182000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">NCIS: Los Ángeles</title>
+    <title lang="en">NCIS: Los Angeles</title>
+    <desc lang="es">S4 E22 El cuervo y los cisnes
+Hombres armados acechan y atacan a una mujer, que desaparece; otros tres mueren; Hetty asigna crípticamente a G y compañía para investigar; Hetty encuentra a la mujer, un agente de NCIS encubierto; el equipo atrapa a los malos.</desc>
+  </programme>
   
 <programme start="20260303182000 +0000" stop="20260303191000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S1 E10 Captura
+Mientras el equipo SWAT entra a un motín en la prisión para rescatar a los reos civiles, Hondo sospecha del motivo de la revuelta. Y cuando la esposa de Deacon, Annie, hace una visita a la división SWAT, la situación da un giro inesperado.</desc>
+  </programme>
   
 <programme start="20260303191000 +0000" stop="20260303200000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S1 E11 K-Town
+Hondo se une a un viejo amigo de la DEA en un grupo de trabajo para derribar una red de contrabando de drogas y desenmascarar al líder.</desc>
+  </programme>
   
 <programme start="20260303200000 +0000" stop="20260303205000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S1 E12 Contaminación
+Hondo y el equipo SWAT unen fuerzas con el FBI para hallar a los miembros de un grupo de la milicia que planea un ataque terrorista doméstico.</desc>
+  </programme>
   
 <programme start="20260303205000 +0000" stop="20260303214000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S1 E13 Cercos
+La relación secreta de Hondo y Jessica es amenazada cuando Michael Plank, descubre su aventura amorosa. Hondo y el equipo ayudan en una investigación federal, quedando en el centro de un debate municipal sobre inmigración.</desc>
+  </programme>
   
 <programme start="20260303214000 +0000" stop="20260303223000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S1 E14 Fantasmas
+Hondo y su equipo van en busca de un asesino en serie que huyó de la justicia fingiendo su muerte hace dos años.</desc>
+  </programme>
   
 <programme start="20260303223000 +0000" stop="20260303232000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S1 E15 Pandillas
+Hondo lidera una misión personal cuando su amigo es asesinado mientras buscaba información sobre una banda de criminales.</desc>
+  </programme>
   
 <programme start="20260303232000 +0000" stop="20260304001000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S1 E16 Devolución
+Cuando Juliette Carlton, es secuestrada para exigir un rescate, Hondo y el equipo SWAT la buscan por toda la ciudad antes de que sea herida. Además, el equipo entero está preocupado cuando Mumford anuncia que se casará por cuarta vez.</desc>
+  </programme>
   
 <programme start="20260304001000 +0000" stop="20260304010500 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S1 E17 Armería
+Hondo y el equipo SWAT trabaja para reducir una situación de rehenes en la que un ex convicto tiene prisionera a una familia, pero la misión da un giro que impacta a todos.</desc>
+  </programme>
   
 <programme start="20260304010500 +0000" stop="20260304020000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S1 E18 Patrulla
+Hondo lidia con su resentimiento hacia su padre enfermo, Daniel Harrelson, cuando su hermana, Briana, y él intentan convencerlo de que ya no puede vivir solo.</desc>
+  </programme>
   
 <programme start="20260304020000 +0000" stop="20260304025500 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">9-1-1</title>
+    <desc lang="es">S3 E6 Monstruos
+Athena y los 118 responden a extrañas llamadas de emergencia en Halloween. Maddie sigue convencida de que está haciendo lo correcto al recibir una llamada al 911 en sus propias manos.</desc>
+  </programme>
   
 <programme start="20260304025500 +0000" stop="20260304034500 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">9-1-1</title>
+    <desc lang="es">S3 E7 Athena comienza
+Cuando reaparece un arma homicida de un caso cercano a Athena de principios de los años 90, recuerdos de 1989 muestran cómo ella se unió al Departamento de Policía de Los Ángeles y se convirtió en la oficial de policía que es hoy.</desc>
+  </programme>
   
 <programme start="20260304034500 +0000" stop="20260304043500 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">9-1-1</title>
+    <desc lang="es">S3 E8 Mal funcionamiento
+Las emergencias incluyen un accidente de patinaje en un espectáculo de hielo, un accidente que involucra un auto sin conductor y un robot de almacén de cumplimiento que se vuelve pícaro.</desc>
+  </programme>
   
 <programme start="20260304043500 +0000" stop="20260304052500 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">CSI</title>
+    <title lang="en">Crime Scene Investigation</title>
+    <desc lang="es">S13 E17 La muerte de la generación
+El médico forense asistente David Phillips descubre el cadáver de la chica más popular de su clase en su reunión de 15 años.</desc>
+  </programme>
   
 <programme start="20260304052500 +0000" stop="20260304061500 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Hawaii-Five-O</title>
+    <desc lang="es">S6 E9 Farsa
+Después de que un profesor universitario es asesinado, Danny se encubre como su reemplazo y Eric posa a un estudiante universitario. McGarrett da consejos a un joven después de que su padre regresa de la cárcel y quiere regresar a su vida.</desc>
+  </programme>
   
 <programme start="20260304061500 +0000" stop="20260304071000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Hawaii-Five-O</title>
+    <desc lang="es">S6 E10 La dulce ciencia
+El equipo investiga el asesinato del hermano de un boxeador con un futuro prometedor.</desc>
+  </programme>
   
 <programme start="20260304071000 +0000" stop="20260304080500 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">NCIS: New Orleans</title>
+    <desc lang="es">S4 E21 Juegos mentales
+Gregorio llama a Claire McDermott, su antigua profesora de ciencias del comportamiento, cuando el último caso del equipo coincide con el que estudió durante la capacitación del FBI.</desc>
+  </programme>
   
 <programme start="20260304080500 +0000" stop="20260304090000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">NCIS: New Orleans</title>
+    <desc lang="es">S4 E22 El asesinato de Dwayne Pride
+Un periodista realiza un artículo en el que critica el supuesto imprudente uso de la justicia de Pride, y el equipo teme las consecuencias que pueda desencadenar. Además, Rita Devereaux advierte que el artículo es obra de alguien poderoso.</desc>
+  </programme>
   
 <programme start="20260304090000 +0000" stop="20260304100000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">NCIS: New Orleans</title>
+    <desc lang="es">S4 E23 Jaque mate -
+Pride recluta a un equipo no oficial para intentar limpiar su nombre y salvar al escuadrón. ¿Sus viejos métodos servirán para arreglar las cosas? ¿O este será el final de su carrera?</desc>
+  </programme>
   
 <programme start="20260304100000 +0000" stop="20260304110000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">NCIS: New Orleans</title>
+    <desc lang="es">S4 E24 Jaque mate -
+Pride y el equipo descubren un siniestro plan durante la celebración de la Semana de la Flota del Tricentenario de Nueva Orleans.</desc>
+  </programme>
   
 <programme start="20260304110000 +0000" stop="20260304120000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">NCIS: New Orleans</title>
+    <desc lang="es">S4 E21 Juegos mentales
+Gregorio llama a Claire McDermott, su antigua profesora de ciencias del comportamiento, cuando el último caso del equipo coincide con el que estudió durante la capacitación del FBI.</desc>
+  </programme>
   
 <programme start="20260304120000 +0000" stop="20260304130000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">NCIS: New Orleans</title>
+    <desc lang="es">S4 E22 El asesinato de Dwayne Pride
+Un periodista realiza un artículo en el que critica el supuesto imprudente uso de la justicia de Pride, y el equipo teme las consecuencias que pueda desencadenar. Además, Rita Devereaux advierte que el artículo es obra de alguien poderoso.</desc>
+  </programme>
   
 <programme start="20260304130000 +0000" stop="20260304133000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">TeveCompras</title>
+    <desc lang="es">Power Mat V10
+En este programa informercial, se detalla el funcionamiento de cada uno de los productos que se encuentran a la venta de "Teve Compras", los cuales pueden ser adquiridos telefónicamente.</desc>
+  </programme>
   
 <programme start="20260304133000 +0000" stop="20260304140000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">TeveCompras</title>
+    <desc lang="es">Power Mat V10
+En este programa informercial, se detalla el funcionamiento de cada uno de los productos que se encuentran a la venta de "Teve Compras", los cuales pueden ser adquiridos telefónicamente.</desc>
+  </programme>
   
 <programme start="20260304140000 +0000" stop="20260304143000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">TeveCompras</title>
+    <desc lang="es">Power Mat V10
+En este programa informercial, se detalla el funcionamiento de cada uno de los productos que se encuentran a la venta de "Teve Compras", los cuales pueden ser adquiridos telefónicamente.</desc>
+  </programme>
   
 <programme start="20260304143000 +0000" stop="20260304150000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">TeveCompras</title>
+    <desc lang="es">S1 E18 Iwalk Pro 2022 V1
+Un espacio que ofrece información sobre diversos productos disponibles para su compra. A través del programa y de diversos testimonios de expertos y compradores, la audiencia podrá ampliar sus conocimientos sobre el Iwalk Pro 2022 V1.</desc>
+  </programme>
   
 <programme start="20260304150000 +0000" stop="20260304155000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Criminal Minds</title>
+    <desc lang="es">S8 E6 El aprendizaje
+Cuando varias prostitutas en Miami aparecen asesinadas con un estilo similar al de animales muertos encontrados allí, la UAC debe trabajar con rapidez para encontrar a un sujeto que se muestra cada vez más confiado con sus crímenes.</desc>
+  </programme>
   
 <programme start="20260304155000 +0000" stop="20260304164000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Criminal Minds</title>
+    <desc lang="es">S8 E7 Los caídos
+El equipo se desplaza a Santa Bárbara para resolver un nuevo caso. Los cuerpos de varios indigentes aparecen calcinados cerca de un muelle del puerto. Rossi se reencuentra con Emmy, que fue sargento en Vietnam bajo sus órdenes.</desc>
+  </programme>
   
 <programme start="20260304164000 +0000" stop="20260304173000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">NCIS</title>
+    <title lang="en">Navy NCIS: Naval Criminal Investigative Service</title>
+    <desc lang="es">S16 E13 Ella
+Después de que una niña de 9 años desnutrida y confundida se encuentra escondida en una unidad de almacenamiento, el equipo reabre un viejo caso de personas desaparecidas en el cual Ziva tiene un interés especial.</desc>
+  </programme>
   
 <programme start="20260304173000 +0000" stop="20260304182000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">NCIS: Los Ángeles</title>
+    <title lang="en">NCIS: Los Angeles</title>
+    <desc lang="es">S4 E23 Negociación
+Mónica se convierte en el blanco de un tirador desconocido en Hollywood. Deeks, en un papel secreto como Max, la rescata. Mónica es una anfitriona en un club nocturno, que es propiedad de un sudafricano.</desc>
+  </programme>
   
 <programme start="20260304182000 +0000" stop="20260304191000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S1 E19 Fuente
+Jim Street debate si su madre debería vivir con él luego de su liberación de la prisión. Hondo y el equipo están asignados para proteger a un periodista ruso de alto perfil que está de visita en Los Ángeles, California EE. UU.</desc>
+  </programme>
   
 <programme start="20260304191000 +0000" stop="20260304200000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S1 E20 Venganza
+La vida y la carrera de Hondo corren riesgo cuando sus jefes y el secuestrador de su ahijado, Jae Kim, descubren que ha estado vigilando a Kim. Street y su madre, Karen, tienen problemas acostumbrándose a su libertad.</desc>
+  </programme>
   
 <programme start="20260304200000 +0000" stop="20260304205000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S1 E21 Cazado
+Hondo y Deacon deben aplicar su entrenamiento y habilidades SWAT para evadir a una banda de mercenarios armados que los persiguen luego de una emboscada.</desc>
+  </programme>
   
 <programme start="20260304205000 +0000" stop="20260304214000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S1 E22 Engaño
+Una llamada falsa al 911 pone al equipo en la búsqueda para detener los ataques con bombas. La relación de Jim con su madre pone en peligro su carrera, Jessica es arrojada por el presidente de la comisión policial.</desc>
+  </programme>
   
 <programme start="20260304214000 +0000" stop="20260304223000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E1 Ciudad temblorosa
+Un desastre en Los Ángeles entorpece la captura de un par de haitianos traficantes de personas por parte del equipo S.W.A.T. Mientras, Chris intenta arreglar las cosas entre Street y Hondo.</desc>
+  </programme>
   
 <programme start="20260304223000 +0000" stop="20260304232000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E2 Barril de gasolina
+Un secuestro fallido lleva al S.W.A.T. a involucrarse con una despiadada pandilla turca que intenta recuperar la custodia del hijo de su líder. Hondo pretende evitar que el hijo de un amigo de la infancia siga a su padre a la prisión.</desc>
+  </programme>
   
 <programme start="20260304232000 +0000" stop="20260305001000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E3 Fuego y humo
+Hondo interviene para ayudar a la asistente del fiscal de distrito Nia Wells cuando los miembros del jurado en el juicio del despiadado jefe de la mafia son amenazados.</desc>
+  </programme>
   
 <programme start="20260305001000 +0000" stop="20260305010500 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E4 Guardar las apariencias
+La persecución de un despiadado ladrón de drogas obliga a Hondo a trabajar junto al exesposo de Nia. Mientras los recortes presupuestarios amenazan al equipo, Street toma una dura decisión.</desc>
+  </programme>
   
 <programme start="20260305010500 +0000" stop="20260305020000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E5 SOS
+Hondo y Chris se unen para detener a los traficantes de drogas a bordo de un crucero. Street se enfrenta a un oficial rival en la Academia por la oportunidad de volver a unirse a SWAT.</desc>
+  </programme>
   
 <programme start="20260305020000 +0000" stop="20260305025000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">NCIS</title>
+    <title lang="en">Navy NCIS: Naval Criminal Investigative Service</title>
+    <desc lang="es">S23 E8 Stolen Moments
+Un equipo de agentes especiales del Servicio de Investigación Criminal de la Marina de los Estados Unidos, liderados por el agente especial Leroy Jethro Gibbs, investiga los crímenes que se cometen dentro del Cuerpo Naval.</desc>
+  </programme>
   
 <programme start="20260305025000 +0000" stop="20260305034000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">NCIS: Sydney</title>
+    <desc lang="es">S3 E8 Turkey Shoot
+Este talentoso equipo de agentes de los Servicios de Investigación Criminal Naval reside en Sidney, Australia y están dedicados a resolver casos que involucran a los marines y la armada, al tiempo que aprender a trabajar todos juntos.</desc>
+  </programme>
   
 <programme start="20260305034000 +0000" stop="20260305043000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">NCIS</title>
+    <title lang="en">Navy NCIS: Naval Criminal Investigative Service</title>
+    <desc lang="es">S23 E8 Stolen Moments
+Un equipo de agentes especiales del Servicio de Investigación Criminal de la Marina de los Estados Unidos, liderados por el agente especial Leroy Jethro Gibbs, investiga los crímenes que se cometen dentro del Cuerpo Naval.</desc>
+  </programme>
   
 <programme start="20260305043000 +0000" stop="20260305052000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">CSI</title>
+    <title lang="en">Crime Scene Investigation</title>
+    <desc lang="es">S13 E19 Fuego devuelto
+El asesinato de un hermano y una hermana y un par de invasores de casas es parte de un complejo complot de venganza, y un hombre es quemado vivo en la cajuela de su propio automóvil.</desc>
+  </programme>
   
 <programme start="20260305052000 +0000" stop="20260305061500 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Hawaii-Five-O</title>
+    <desc lang="es">S6 E12 El amor da vida en el interior
+El equipo investiga el robo de unas bombas de la segunda guerra mundial.</desc>
+  </programme>
   
 <programme start="20260305061500 +0000" stop="20260305071000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Hawaii-Five-O</title>
+    <desc lang="es">S6 E13 Contén el aliento
+Lou toma medidas extremas para exponer la verdad sobre la muerte de un amigo, mientras Danny, Steve y Chin compiten en una apuesta amistosa que se vuelve mortal.</desc>
+  </programme>
   
 <programme start="20260305071000 +0000" stop="20260305080500 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Hawaii-Five-O</title>
+    <desc lang="es">S10 E4 Aunque la flor sea diminuta, perfuma el césped que la rodea
+El equipo Five-0 pide ayuda a un hacker arrestado, Aaron Wright, cuando secuestran a una niña, pero durante el rescate, los delincuentes son asesinados, y la víctima no es exactamente quien dice ser.</desc>
+  </programme>
   
 <programme start="20260305080500 +0000" stop="20260305090000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Hawaii-Five-O</title>
+    <desc lang="es">S10 E5 No se culpa los espíritus por los apuros
+El equipo Five-0 investiga un violento asalto a un hogar, luego de que un peligroso prisionero escape del sótano. Mientras tanto, Max regresa a la isla como invitado.</desc>
+  </programme>
   
 <programme start="20260305090000 +0000" stop="20260305100000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Hawaii-Five-O</title>
+    <desc lang="es">S10 E6 (todo el conocimiento no se aprende en una sola escuela
+Un golpe le sigue a una fuga mortal que involucra a un auto sin conductor que transporta heroína. Al mismo tiempo, Tani y Quinn están atrapados con un par de YouTubers que son llevados en un paseo.</desc>
+  </programme>
   
 <programme start="20260305100000 +0000" stop="20260305110000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Hawaii-Five-O</title>
+    <desc lang="es">S10 E7 ADN
+Cuando la CIA informa a McGarret que su madre se ha vuelto deshonesta en su misión encubierta y puede haber matado a su compañero, Steve va solo a México para traerla a casa y demostrar su inocencia.</desc>
+  </programme>
   
 <programme start="20260305110000 +0000" stop="20260305120000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Hawaii-Five-O</title>
+    <desc lang="es">S10 E4 Aunque la flor sea diminuta, perfuma el césped que la rodea
+El equipo Five-0 pide ayuda a un hacker arrestado, Aaron Wright, cuando secuestran a una niña, pero durante el rescate, los delincuentes son asesinados, y la víctima no es exactamente quien dice ser.</desc>
+  </programme>
   
 <programme start="20260305120000 +0000" stop="20260305130000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Hawaii-Five-O</title>
+    <desc lang="es">S10 E5 No se culpa los espíritus por los apuros
+El equipo Five-0 investiga un violento asalto a un hogar, luego de que un peligroso prisionero escape del sótano. Mientras tanto, Max regresa a la isla como invitado.</desc>
+  </programme>
   
 <programme start="20260305130000 +0000" stop="20260305133000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">TeveCompras</title>
+    <desc lang="es">Power Mat V10
+En este programa informercial, se detalla el funcionamiento de cada uno de los productos que se encuentran a la venta de "Teve Compras", los cuales pueden ser adquiridos telefónicamente.</desc>
+  </programme>
   
 <programme start="20260305133000 +0000" stop="20260305140000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">TeveCompras</title>
+    <desc lang="es">Power Mat V10
+En este programa informercial, se detalla el funcionamiento de cada uno de los productos que se encuentran a la venta de "Teve Compras", los cuales pueden ser adquiridos telefónicamente.</desc>
+  </programme>
   
 <programme start="20260305140000 +0000" stop="20260305143000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">TeveCompras</title>
+    <desc lang="es">Power Mat V10
+En este programa informercial, se detalla el funcionamiento de cada uno de los productos que se encuentran a la venta de "Teve Compras", los cuales pueden ser adquiridos telefónicamente.</desc>
+  </programme>
   
 <programme start="20260305143000 +0000" stop="20260305150000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">TeveCompras</title>
+    <desc lang="es">Power Mat V10
+En este programa informercial, se detalla el funcionamiento de cada uno de los productos que se encuentran a la venta de "Teve Compras", los cuales pueden ser adquiridos telefónicamente.</desc>
+  </programme>
   
 <programme start="20260305150000 +0000" stop="20260305155000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Criminal Minds</title>
+    <desc lang="es">S8 E8 Las ruedas del autobús
+Cuando un autobús escolar lleno de chicos desaparece, el equipo de la UAC es llamado para ayudar a localizarlos.</desc>
+  </programme>
   
 <programme start="20260305155000 +0000" stop="20260305164000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Criminal Minds</title>
+    <desc lang="es">S8 E9 Gloriosa luz
+Cuando es asesinada una asistente en la conferencia de un popular orador motivacional en Seattle, la UAC ve al orador como el sospechoso principal, pero luego tienen que reorientar su investigación cuando el mismo orador desaparece.</desc>
+  </programme>
   
 <programme start="20260305164000 +0000" stop="20260305173000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">NCIS</title>
+    <title lang="en">Navy NCIS: Naval Criminal Investigative Service</title>
+    <desc lang="es">S16 E14 El pasado nunca muere
+Mcgee visita a su vieja escuela secundaria después de que la contraseña de una computadora, que uso de adolescente, sea vinculada al asesinato de un contratista del departamento de defensa.</desc>
+  </programme>
   
 <programme start="20260305173000 +0000" stop="20260305182000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">NCIS: Los Ángeles</title>
+    <title lang="en">NCIS: Los Angeles</title>
+    <desc lang="es">S4 E24 Descenso
+Una bomba nuclear explota en un desierto en México. G y compañía investigan, Sam y Michelle pasan a la clandestinidad. G y Kensi van a Irán y traen al Chameleon que participa en un acuerdo complejo para ganar las dos bombas que faltan.</desc>
+  </programme>
   
 <programme start="20260305182000 +0000" stop="20260305191000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E6 Nunca más
+La investigación sobre una serie de violentos robos reúne a Jessica con un ex-informante de la mafia israelí. Entonces, Street cuestiona su tratamiento en la Academia, y Chris se enfrenta a un desafío en una cita.</desc>
+  </programme>
   
 <programme start="20260305191000 +0000" stop="20260305200000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E7 Herencia
+Luca y su padre usan la conexión de su familia con un legendario secuestro de cuarenta años para resolver un crimen de imitación. Hondo intenta calmarse tras un control de tránsito impulsado por motivos raciales.</desc>
+  </programme>
   
 <programme start="20260305200000 +0000" stop="20260305205000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E8 La experiencia Tiffany
+La implacable campaña de una blogger en las redes sociales amenaza con interferir en los esfuerzos del equipo SWAT para protegerla de un acosador.</desc>
+  </programme>
   
 <programme start="20260305205000 +0000" stop="20260305214000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E9 Día libre
+El equipo SWAT es llamado para trabajar en su día libre y poner fin a una situación que involucra rehenes. Luego, descubren que uno de los cautivos es un delincuente buscado. Además, Hondo caza a un violador en serie.</desc>
+  </programme>
   
 <programme start="20260305214000 +0000" stop="20260305223000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E10 1000 Julios
+Después de un robo mortal en el Laboratorio de Criminalística del Departamento de Policía de Los Ángeles, el equipo SWAT debe encontrar a los responsables antes de que destruyan la evidencia crucial para procesar sus juicios de alto perfil.</desc>
+  </programme>
   
 <programme start="20260305223000 +0000" stop="20260305232000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E11 Escuela
+El equipo SWAT lidia con dolorosos recuerdos de un tiroteo en una escuela al recibir una advertencia sobre un imitador planeando recrear el crimen. Mientras corren para detener la amenaza, todos reviven aquella antigua tensa misión.</desc>
+  </programme>
   
 <programme start="20260305232000 +0000" stop="20260306001000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E12 Los huesos
+Jessica y Chris van en secreto a México, sin respaldo, para salvar a un agente federal secuestrado por narcotraficantes. Además, la madre de Hondo, Charice, se preocupa de que él esté bajo presión emocional.</desc>
+  </programme>
   
 <programme start="20260306001000 +0000" stop="20260306010500 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E13 Otra vez
+El equipo SWAT corre para hallar un grupo militante cuando estos toman rehenes a cambio de un rescate de $500 millones. Además, la confusión emocional de Hondo comienza a afectar el liderazgo de su equipo.</desc>
+  </programme>
   
 <programme start="20260306010500 +0000" stop="20260306020000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E14 El equipo B
+El equipo trabaja con el FBI para arrestar a un grupo separatista con plutonio de grado de armas. El equipo compite en la competencia anual de policía contra bomberos.</desc>
+  </programme>
   
 <programme start="20260306020000 +0000" stop="20260306025000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">Alert: unidad de personas desaparecidas</title>
+    <title lang="en">Alert: Missing Person Unit</title>
+    <desc lang="es">S3 E3 Carmen
+Sigue a Nikki Parker después de unirse a la Unidad de Personas Desaparecidas del Departamento de Policía de Filadelfia para ayudar a otras personas a encontrar a sus seres queridos, al mismo tiempo que ella busca a su hijo desaparecido.</desc>
+  </programme>
   
 <programme start="20260306025000 +0000" stop="20260306034500 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S6 E15 Proteger y servir
+Cuando Hicks insiste en que el S.W.A.T. participe en el Día de la Patrulla en un esfuerzo por involucrarse de manera más significativa con la comunidad, Hondo y Deacon están muy ocupados asesorando a los miembros más nuevos del equipo.</desc>
+  </programme>
   
 <programme start="20260306034500 +0000" stop="20260306044000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S6 E16 Percance
+Cuando una información clasificada cae en las manos equivocadas, el equipo se apresura a detener un complot peligroso que tiene como objetivo a ex miembros del ejército de los EE. UU.</desc>
+  </programme>
   
 <programme start="20260306044000 +0000" stop="20260306053000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">CSI</title>
+    <title lang="en">Crime Scene Investigation</title>
+    <desc lang="es">S13 E21 Fantasmas del pasado
+Un cazador de fantasmas muere mientras investiga un lugar de asesinato notoriamente espeluznante de varios niños pequeños.</desc>
+  </programme>
   
 <programme start="20260306053000 +0000" stop="20260306062000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Hawaii-Five-O</title>
+    <desc lang="es">S6 E15 El buen soldado
+Un hombre autista ayuda al Five-0 a descubrir los detalles de un asalto a un banco, lo cual lleva a otro enfrentamiento con Gabriel Waincroft. Mientras tanto, Danny ve que el FBI quiere hablar con su madre acerca de la muerte de su hermano.</desc>
+  </programme>
   
 <programme start="20260306062000 +0000" stop="20260306071000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Hawaii-Five-O</title>
+    <desc lang="es">S6 E16 El pilar sólido
+Cuando el informante confidencial de Five-0 es acusado de asesinato, McGarrett le pide a su viejo amigo Odell Martin que lo defienda. Michael Imperioli regresa y Ziggy Marley es la estrella invitada.</desc>
+  </programme>
   
 <programme start="20260306071000 +0000" stop="20260306080500 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">NCIS: Los Ángeles</title>
+    <title lang="en">NCIS: Los Angeles</title>
+    <desc lang="es">S2 E15 Soldados de hojalata
+Dentro de su libreta, por la noche, G agarra a un merodeador, que trabaja para Arkady, quien le da una propina a G. Kensi y sus amigos hacen una estafa a un hombre de negocios extranjero.</desc>
+  </programme>
   
 <programme start="20260306080500 +0000" stop="20260306090000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">NCIS: Los Ángeles</title>
+    <title lang="en">NCIS: Los Angeles</title>
+    <desc lang="es">S2 E16 Estremecimiento vacío
+G y Sam, encubiertos como Chippies, persiguen a ciertos policías corruptos, entre quienes se encuentran el jefe y sus matones, que son identificados por Erik.</desc>
+  </programme>
   
 <programme start="20260306090000 +0000" stop="20260306100000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">NCIS: Los Ángeles</title>
+    <title lang="en">NCIS: Los Angeles</title>
+    <desc lang="es">S2 E17 Personal
+Mientras Deeks sigue su rutina matutina, durante lo que parece ser un atraco de una tienda de conveniencia, un hombre armado le dispara dos veces en el pecho con una pistola. Deeks entra en cirugía. G y Sam investigan en la escena.</desc>
+  </programme>
   
 <programme start="20260306100000 +0000" stop="20260306110000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">NCIS: Los Ángeles</title>
+    <title lang="en">NCIS: Los Angeles</title>
+    <desc lang="es">S2 E18 Peligro inminente
+Uno de los alias de Sam recibe una invitación a Yemen para encontrarse con Abdul; Hetty espera que Abdul los lleve a Saadat, el hermano de Abdul, que se cree es un líder de terroristas.</desc>
+  </programme>
   
 <programme start="20260306110000 +0000" stop="20260306120000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">NCIS: Los Ángeles</title>
+    <title lang="en">NCIS: Los Angeles</title>
+    <desc lang="es">S2 E15 Soldados de hojalata
+Dentro de su libreta, por la noche, G agarra a un merodeador, que trabaja para Arkady, quien le da una propina a G. Kensi y sus amigos hacen una estafa a un hombre de negocios extranjero.</desc>
+  </programme>
   
 <programme start="20260306120000 +0000" stop="20260306130000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">NCIS: Los Ángeles</title>
+    <title lang="en">NCIS: Los Angeles</title>
+    <desc lang="es">S2 E16 Estremecimiento vacío
+G y Sam, encubiertos como Chippies, persiguen a ciertos policías corruptos, entre quienes se encuentran el jefe y sus matones, que son identificados por Erik.</desc>
+  </programme>
   
 <programme start="20260306130000 +0000" stop="20260306133000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">TeveCompras</title>
+    <desc lang="es">Power Mat V10
+En este programa informercial, se detalla el funcionamiento de cada uno de los productos que se encuentran a la venta de "Teve Compras", los cuales pueden ser adquiridos telefónicamente.</desc>
+  </programme>
   
 <programme start="20260306133000 +0000" stop="20260306140000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">TeveCompras</title>
+    <desc lang="es">Power Mat V10
+En este programa informercial, se detalla el funcionamiento de cada uno de los productos que se encuentran a la venta de "Teve Compras", los cuales pueden ser adquiridos telefónicamente.</desc>
+  </programme>
   
 <programme start="20260306140000 +0000" stop="20260306143000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">TeveCompras</title>
+    <desc lang="es">Power Mat V10
+En este programa informercial, se detalla el funcionamiento de cada uno de los productos que se encuentran a la venta de "Teve Compras", los cuales pueden ser adquiridos telefónicamente.</desc>
+  </programme>
   
 <programme start="20260306143000 +0000" stop="20260306150000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">TeveCompras</title>
+    <desc lang="es">Power Mat V10
+En este programa informercial, se detalla el funcionamiento de cada uno de los productos que se encuentran a la venta de "Teve Compras", los cuales pueden ser adquiridos telefónicamente.</desc>
+  </programme>
   
 <programme start="20260306150000 +0000" stop="20260306155000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Criminal Minds</title>
+    <desc lang="es">S8 E10 La lección
+Varios cadáveres masculinos aparecen en extrañas posturas. Entonces, el equipo sale en busca de un asesino que, al parecer, sigue un extraño ritual. Mientras, Reid se pone ansioso ante la posibilidad de conocer a su chica misteriosa.</desc>
+  </programme>
   
 <programme start="20260306155000 +0000" stop="20260306164000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">Criminal Minds</title>
+    <desc lang="es">S8 E11 Perennes
+La Unidad de Análisis de Conducta se enfrenta a uno de los momentos más sorprendentes de su carrera: alguien investiga los casos a los que se enfrentaron y replica el tipo de asesinato que se cometió en cada uno de ellos.</desc>
+  </programme>
   
 <programme start="20260306164000 +0000" stop="20260306173000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">NCIS</title>
+    <title lang="en">Navy NCIS: Naval Criminal Investigative Service</title>
+    <desc lang="es">S16 E15 Asesinato en el Ecuador
+El equipo investiga a un hombre fatal al mar por la borda; Torres está asignado a ser mentor de tres estudiantes de secundaria.</desc>
+  </programme>
   
 <programme start="20260306173000 +0000" stop="20260306182000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">NCIS: Los Ángeles</title>
+    <title lang="en">NCIS: Los Angeles</title>
+    <desc lang="es">S5 E1 Ascensión
+El equipo rescata a Sam y Deeks de sus captores mientras continúan su búsqueda por Sidorov y sus misiles nucleares robados, con la ayuda del viejo enemigo de Callen.</desc>
+  </programme>
   
 <programme start="20260306182000 +0000" stop="20260306191000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E15 Caído
+El SWAT persigue a los asesinos de un oficial antes de que estalle la tensión entre la policía y la comunidad. Mientras, Chris se da cuenta de que ella conocía al caído, y Deacon se prepara para la llegada del nuevo bebé junto a Annie.</desc>
+  </programme>
   
 <programme start="20260306191000 +0000" stop="20260306200000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E16 Orgullo
+Tras el asesinato de una pareja gay, el equipo SWAT debe acudir a un festival sobre los derechos LGBT. Mientras, Street se preocupa cuando su madre desaparece, y Deacon se enfrenta con Annie a grandes gastos médicos para su bebé.</desc>
+  </programme>
   
 <programme start="20260306200000 +0000" stop="20260306205000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E17 Robo
+El equipo SWAT se concentra en una pandilla criminal especializada en el robo de autos lujosos por todo Los Angeles. Además, Hondo ayuda al hijo encarcelado de su amigo de la infancia, Darryl, y Mumford considera una decisión importante.</desc>
+  </programme>
   
 <programme start="20260306205000 +0000" stop="20260306214000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E18 Flujo de dinero
+La investigación de un ataque con armas militares a un autobús de la prisión lleva a Hondo a trabajar con un viejo compañero de equipo del Cuerpo de Marines. Por otro lado, Chris recibe malas noticias sobre alguien que conoció.</desc>
+  </programme>
   
 <programme start="20260306214000 +0000" stop="20260306223000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E19 Invisible
+El equipo persigue a una pandilla especializada en robos a mano armada, que extorsiona a amas de casa indocumentadas en busca de información para robar los hogares de sus empleadores ricos.</desc>
+  </programme>
   
 <programme start="20260306223000 +0000" stop="20260306232000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E20 Combustible para cohetes
+Hondo descubre que una poderosa droga que no se ha visto en la calle en veinte años está de vuelta. Mientras, Chris considera cambiar su situación actual, y a Street le preocupa que su madre esté cometiendo fraude con tarjetas de crédito.</desc>
+  </programme>
   
 <programme start="20260306232000 +0000" stop="20260307001000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E21 Día del terror
+Hondo y Street tienen problemas cuando una investigación para capturar al criminal más buscado de Los Ángeles resulta en la muerte de un inocente.</desc>
+  </programme>
   
 <programme start="20260307001000 +0000" stop="20260307010500 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <desc lang="es">El equipo SWAT persigue a un padre angustiado que ha comenzado a matar descontroladamente a raíz de la muerte de su hija.</desc>
+  </programme>
   
 <programme start="20260307010500 +0000" stop="20260307020000 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">SWAT</title>
+    <title lang="en">S.W.A.T.</title>
+    <desc lang="es">S2 E23 Tribunal popular
+El equipo S.W.A.T. vuelve a perseguir a los Emancipadores cuando organizan una transmisión de un tribunal popular para ejecutar a los políticos.</desc>
+  </programme>
   
 <programme start="20260307020000 +0000" stop="20260307025000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">9-1-1</title>
+    <desc lang="es">S3 E7 Athena comienza
+Cuando reaparece un arma homicida de un caso cercano a Athena de principios de los años 90, recuerdos de 1989 muestran cómo ella se unió al Departamento de Policía de Los Ángeles y se convirtió en la oficial de policía que es hoy.</desc>
+  </programme>
   
 <programme start="20260307025000 +0000" stop="20260307034000 +0000" channel="AXN.co">
-    <title /><desc /></programme>
+    <title lang="es">9-1-1</title>
+    <desc lang="es">S3 E8 Mal funcionamiento
+Las emergencias incluyen un accidente de patinaje en un espectáculo de hielo, un accidente que involucra un auto sin conductor y un robot de almacén de cumplimiento que se vuelve pícaro.</desc>
+  </programme>
   
 <programme start="20260307034000 +0000" stop="20260307043500 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">CSI</title>
+    <title lang="en">Crime Scene Investigation</title>
+    <desc lang="es">S13 E22 Pecados
+CSI busca a un asesino en serie inspirado en el "Infierno" de Dante, y la hija de Brass puede ser una de las próximas víctimas del asesino.</desc>
+  </programme>
   
 <programme start="20260307043500 +0000" stop="20260307052500 +0000" channel="AXN.co">
-    <title /><title /><desc /></programme>
+    <title lang="es">CSI</title>
+    <title lang="en">Crime Scene Investigation</title>
+    <desc lang="es">S14 E1 El infierno de Dante
+El equipo de CSI se apresura a encontrar a Morgan y a Ellie Brass después de su secuestro.</desc>
+  </programme>
   
 </tv>
