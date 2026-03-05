@@ -1,0 +1,32 @@
+name: Extractor de IDs Independiente
+
+on:
+  workflow_dispatch: # Solo se ejecutará cuando tú le des al botón manualmente
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Librerias
+        run: pip install requests
+
+      - name: Ejecutar Extractor
+        run: python extraer_ids.py
+
+      - name: Guardar TXT
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add lista_todos_los_ids.txt
+          git commit -m "Actualización de lista de IDs" || exit 0
+          git push
