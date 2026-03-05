@@ -2,31 +2,44 @@ name: Actualizar EPG Filtrada
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Se ejecuta cada medianoche
-  workflow_dispatch: # Permite ejecutarlo manualmente
+    - cron: '0 0 * * *' # Se ejecuta automáticamente cada medianoche (hora UTC)
+  workflow_dispatch:      # Permite que tú lo ejecutes manualmente cuando quieras
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout código
-        uses: actions/checkout@v3
+    
+    # Permisos necesarios para que el robot pueda escribir en tu repositorio
+    permissions:
+      contents: write
 
-      - name: Instalar Python
-        uses: actions/setup-python@v4
+    steps:
+      - name: 1. Descargar el código del repositorio
+        uses: actions/checkout@v4
+
+      - name: 2. Configurar Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: Instalar dependencias
+      - name: 3. Instalar librerías necesarias
         run: pip install requests
 
-      - name: Ejecutar script de filtrado
+      - name: 4. Ejecutar el script de filtrado
         run: python filter_epg.py
 
-      - name: Subir cambios al repositorio
+      - name: 5. Guardar y subir los cambios
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          
+          # Añadimos el archivo generado (o cualquier cambio)
           git add epg_reducida.xml
-          git commit -m "Actualización automática de EPG" || exit 0
-          git push
+          
+          # Verificamos si hay cambios reales para evitar errores si el archivo es idéntico
+          if git diff --staged --quiet; then
+            echo "No hay cambios en la EPG, nada que actualizar."
+          else
+            git commit -m "Actualización automática de EPG: $(date +'%Y-%m-%d %H:%M')"
+            git push
+          fi
