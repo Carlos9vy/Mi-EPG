@@ -1,1099 +1,795 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv source-info-name="Mi EPG Personalizada" source-info-url="https://iptv-epg.org">
-  <channel id="24Horas.co">
-    <display-name>CO - 24 Horas</display-name>
-    <icon src="https://iptv-epg.org/logos/Colombia/24Horas.co.png" />
+  <channel id="AMC.ar">
+    <display-name>AR - AMC</display-name>
+    <icon src="https://iptv-epg.org/logos/Argentina/AMC.ar.png" />
   </channel>
-  <channel id="AMC.co">
-    <display-name>CO - AMC</display-name>
-    <icon src="https://iptv-epg.org/logos/Colombia/AMC.co.png" />
+  <channel id="Antena3.co">
+    <display-name>CO - Antena 3</display-name>
+    <icon src="https://iptv-epg.org/logos/Colombia/Antena3.co.png" />
   </channel>
   <channel id="AXN.co">
     <display-name>CO - AXN</display-name>
     <icon src="https://iptv-epg.org/logos/Colombia/AXN.co.png" />
   </channel>
-  <programme start="20260303000000 +0000" stop="20260303014500 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas Central</title>
-    <desc lang="es">Noticiero
-Revisa las noticias más relevantes de la jornada.</desc>
-  </programme>
-  <programme start="20260303014500 +0000" stop="20260303020000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260303020000 +0000" stop="20260303030000 +0000" channel="24Horas.co">
-    <title lang="es">Vía pública</title>
-    <desc lang="es">Interés general
-Espacio para discutir, entre otros, sobre seguridad ciudadana, urbanismo, educación, salud y transporte. Todos estos temas de gran relevancia en los municipios.</desc>
-  </programme>
-  <programme start="20260303030000 +0000" stop="20260303033000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260303033000 +0000" stop="20260303034500 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260303034500 +0000" stop="20260303040000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260303040000 +0000" stop="20260303043000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260303043000 +0000" stop="20260303044500 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260303044500 +0000" stop="20260303053000 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas - Al cierre</title>
-    <desc lang="es">Noticiero
-Cerramos el día analizando lo de hoy y mirando lo que se viene hacia adelante.</desc>
-  </programme>
-  <programme start="20260303053000 +0000" stop="20260303061500 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260303061500 +0000" stop="20260303064500 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260303064500 +0000" stop="20260303073000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260303073000 +0000" stop="20260303080000 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas deportes</title>
-    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
-  </programme>
-  <programme start="20260303080000 +0000" stop="20260303083000 +0000" channel="24Horas.co">
-    <title lang="es">Hora 24</title>
-    <desc lang="es">Noticiero
-Actualidad e información.</desc>
-  </programme>
-  <programme start="20260303083000 +0000" stop="20260303090000 +0000" channel="24Horas.co">
-    <title lang="es">La previa</title>
-    <desc lang="es">Noticiero
-Espacio matutino de noticias, con toda la información de la jornada.</desc>
-  </programme>
-  <programme start="20260303090000 +0000" stop="20260303110000 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas - Tu mañana</title>
-    <desc lang="es">Noticiero
-Revisa las principales noticias de la jornada junto a 24 Horas - Tu mañana.</desc>
-  </programme>
-  <programme start="20260303110000 +0000" stop="20260303111500 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260303111500 +0000" stop="20260303113000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260303113000 +0000" stop="20260303134500 +0000" channel="24Horas.co">
-    <title lang="es">La mañana informativa</title>
-    <desc lang="es">Noticiero
-Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
-  </programme>
-  <programme start="20260303134500 +0000" stop="20260303140000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260303140000 +0000" stop="20260303153000 +0000" channel="24Horas.co">
-    <title lang="es">La mañana informativa</title>
-    <desc lang="es">Noticiero
-Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
-  </programme>
-  <programme start="20260303153000 +0000" stop="20260303154500 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260303154500 +0000" stop="20260303160000 +0000" channel="24Horas.co">
-    <title lang="es">Economía</title>
-    <desc lang="es">Una mirada europea al mundo de la economía y los negocios. Hechos, análisis y las historias reales desde la principales plazas financieras, los mercados clave y las empresas líderes.</desc>
-  </programme>
-  <programme start="20260303160000 +0000" stop="20260303180000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas al día</title>
-    <desc lang="es">Noticiero
-Conoce los detalles más resaltantes sobre los últimos acontecimientos ocurridos en Chile, América Latina y el mundo, en este segmento especial, donde te presentamos un resumen con informaciones referidas a diversos ámbitos.</desc>
-  </programme>
-  <programme start="20260303180000 +0000" stop="20260303181500 +0000" channel="24Horas.co">
-    <title lang="es">24 cuadros</title>
-    <desc lang="es">Película
-Programa sobre las noticias de los próximos estrenos del cine.</desc>
-  </programme>
-  <programme start="20260303181500 +0000" stop="20260303184500 +0000" channel="24Horas.co">
-    <title lang="es">Frontera global</title>
-    <desc lang="es">Periodístico
-Programa que brinda información actualizada de los acontecimientos más importantes que suceden en Latinoamérica.</desc>
-  </programme>
-  <programme start="20260303184500 +0000" stop="20260303193000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260303193000 +0000" stop="20260303194500 +0000" channel="24Horas.co">
-    <title lang="es">DW analiza</title>
-    <desc lang="es">Noticiero
-Ponemos en contexto la actualidad internacional y analizamos el contexto de los hechos. Hablamos con especialistas para conocer todos los ángulos de la noticia y presentamos todo con un lenguaje para acercar a los más jóvenes.</desc>
-  </programme>
-  <programme start="20260303194500 +0000" stop="20260303200000 +0000" channel="24Horas.co">
-    <title lang="es">Página 24</title>
-  </programme>
-  <programme start="20260303200000 +0000" stop="20260303220000 +0000" channel="24Horas.co">
-    <title lang="es">Noticias 24</title>
-    <desc lang="es">Noticiero
-Resumen noticioso nacional e internacional.</desc>
-  </programme>
-  <programme start="20260303220000 +0000" stop="20260303224500 +0000" channel="24Horas.co">
-    <title lang="es">Noticias 24</title>
-    <desc lang="es">Noticiero
-Resumen noticioso nacional e internacional.</desc>
-  </programme>
-  <programme start="20260303224500 +0000" stop="20260304000000 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas deportes</title>
-    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
-  </programme>
-  <programme start="20260304000000 +0000" stop="20260304014500 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas Central</title>
-    <desc lang="es">Noticiero
-Revisa las noticias más relevantes de la jornada.</desc>
-  </programme>
-  <programme start="20260304014500 +0000" stop="20260304020000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260304020000 +0000" stop="20260304030000 +0000" channel="24Horas.co">
-    <title lang="es">Vía pública</title>
-    <desc lang="es">Interés general
-Espacio para discutir, entre otros, sobre seguridad ciudadana, urbanismo, educación, salud y transporte. Todos estos temas de gran relevancia en los municipios.</desc>
-  </programme>
-  <programme start="20260304030000 +0000" stop="20260304033000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260304033000 +0000" stop="20260304034500 +0000" channel="24Horas.co">
-    <title lang="es">Conciencia 24/7</title>
-    <desc lang="es">Tecnología
-Un nuevo espacio multiplataforma, creado para visibilizar historias de innovación, desarrollo y de futuro que están sucediendo a lo largo de Chile. Un espacio con una amplia oferta de productos de ciencia, tecnología, ciudad y transporte.</desc>
-  </programme>
-  <programme start="20260304034500 +0000" stop="20260304040000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260304040000 +0000" stop="20260304043000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260304043000 +0000" stop="20260304044500 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260304044500 +0000" stop="20260304053000 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas - Al cierre</title>
-    <desc lang="es">Noticiero
-Cerramos el día analizando lo de hoy y mirando lo que se viene hacia adelante.</desc>
-  </programme>
-  <programme start="20260304053000 +0000" stop="20260304061500 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260304061500 +0000" stop="20260304064500 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260304064500 +0000" stop="20260304073000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260304073000 +0000" stop="20260304080000 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas deportes</title>
-    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
-  </programme>
-  <programme start="20260304080000 +0000" stop="20260304083000 +0000" channel="24Horas.co">
-    <title lang="es">Hora 24</title>
-    <desc lang="es">Noticiero
-Actualidad e información.</desc>
-  </programme>
-  <programme start="20260304083000 +0000" stop="20260304090000 +0000" channel="24Horas.co">
-    <title lang="es">La previa</title>
-    <desc lang="es">Noticiero
-Espacio matutino de noticias, con toda la información de la jornada.</desc>
-  </programme>
-  <programme start="20260304090000 +0000" stop="20260304110000 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas - Tu mañana</title>
-    <desc lang="es">Noticiero
-Revisa las principales noticias de la jornada junto a 24 Horas - Tu mañana.</desc>
-  </programme>
-  <programme start="20260304110000 +0000" stop="20260304111500 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260304111500 +0000" stop="20260304113000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260304113000 +0000" stop="20260304134500 +0000" channel="24Horas.co">
-    <title lang="es">La mañana informativa</title>
-    <desc lang="es">Noticiero
-Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
-  </programme>
-  <programme start="20260304134500 +0000" stop="20260304140000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260304140000 +0000" stop="20260304153000 +0000" channel="24Horas.co">
-    <title lang="es">La mañana informativa</title>
-    <desc lang="es">Noticiero
-Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
-  </programme>
-  <programme start="20260304153000 +0000" stop="20260304154500 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260304154500 +0000" stop="20260304160000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260304160000 +0000" stop="20260304180000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas al día</title>
-    <desc lang="es">Noticiero
-Conoce los detalles más resaltantes sobre los últimos acontecimientos ocurridos en Chile, América Latina y el mundo, en este segmento especial, donde te presentamos un resumen con informaciones referidas a diversos ámbitos.</desc>
-  </programme>
-  <programme start="20260304180000 +0000" stop="20260304181500 +0000" channel="24Horas.co">
-    <title lang="es">Página 24</title>
-  </programme>
-  <programme start="20260304181500 +0000" stop="20260304183000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260304183000 +0000" stop="20260304184500 +0000" channel="24Horas.co">
-    <title lang="es">Conciencia 24/7</title>
-    <desc lang="es">Tecnología
-Un nuevo espacio multiplataforma, creado para visibilizar historias de innovación, desarrollo y de futuro que están sucediendo a lo largo de Chile. Un espacio con una amplia oferta de productos de ciencia, tecnología, ciudad y transporte.</desc>
-  </programme>
-  <programme start="20260304184500 +0000" stop="20260304193000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260304193000 +0000" stop="20260304194500 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260304194500 +0000" stop="20260304200000 +0000" channel="24Horas.co">
-    <title lang="es">24 cuadros</title>
-    <desc lang="es">Película
-Programa sobre las noticias de los próximos estrenos del cine.</desc>
-  </programme>
-  <programme start="20260304200000 +0000" stop="20260304220000 +0000" channel="24Horas.co">
-    <title lang="es">Noticias 24</title>
-    <desc lang="es">Noticiero
-Resumen noticioso nacional e internacional.</desc>
-  </programme>
-  <programme start="20260304220000 +0000" stop="20260304224500 +0000" channel="24Horas.co">
-    <title lang="es">Noticias 24</title>
-    <desc lang="es">Noticiero
-Resumen noticioso nacional e internacional.</desc>
-  </programme>
-  <programme start="20260304224500 +0000" stop="20260305000000 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas deportes</title>
-    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
-  </programme>
-  <programme start="20260305000000 +0000" stop="20260305014500 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas Central</title>
-    <desc lang="es">Noticiero
-Revisa las noticias más relevantes de la jornada.</desc>
-  </programme>
-  <programme start="20260305014500 +0000" stop="20260305020000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260305020000 +0000" stop="20260305030000 +0000" channel="24Horas.co">
-    <title lang="es">Vía pública</title>
-    <desc lang="es">Interés general
-Espacio para discutir, entre otros, sobre seguridad ciudadana, urbanismo, educación, salud y transporte. Todos estos temas de gran relevancia en los municipios.</desc>
-  </programme>
-  <programme start="20260305030000 +0000" stop="20260305033000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260305033000 +0000" stop="20260305034500 +0000" channel="24Horas.co">
-    <title lang="es">Economía</title>
-    <desc lang="es">Una mirada europea al mundo de la economía y los negocios. Hechos, análisis y las historias reales desde la principales plazas financieras, los mercados clave y las empresas líderes.</desc>
-  </programme>
-  <programme start="20260305034500 +0000" stop="20260305040000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260305040000 +0000" stop="20260305043000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260305043000 +0000" stop="20260305044500 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260305044500 +0000" stop="20260305053000 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas - Al cierre</title>
-    <desc lang="es">Noticiero
-Cerramos el día analizando lo de hoy y mirando lo que se viene hacia adelante.</desc>
-  </programme>
-  <programme start="20260305053000 +0000" stop="20260305061500 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260305061500 +0000" stop="20260305064500 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260305064500 +0000" stop="20260305073000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260305073000 +0000" stop="20260305080000 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas deportes</title>
-    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
-  </programme>
-  <programme start="20260305080000 +0000" stop="20260305083000 +0000" channel="24Horas.co">
-    <title lang="es">Hora 24</title>
-    <desc lang="es">Noticiero
-Actualidad e información.</desc>
-  </programme>
-  <programme start="20260305083000 +0000" stop="20260305090000 +0000" channel="24Horas.co">
-    <title lang="es">La previa</title>
-    <desc lang="es">Noticiero
-Espacio matutino de noticias, con toda la información de la jornada.</desc>
-  </programme>
-  <programme start="20260305090000 +0000" stop="20260305110000 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas - Tu mañana</title>
-    <desc lang="es">Noticiero
-Revisa las principales noticias de la jornada junto a 24 Horas - Tu mañana.</desc>
-  </programme>
-  <programme start="20260305110000 +0000" stop="20260305111500 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260305111500 +0000" stop="20260305113000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260305113000 +0000" stop="20260305134500 +0000" channel="24Horas.co">
-    <title lang="es">La mañana informativa</title>
-    <desc lang="es">Noticiero
-Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
-  </programme>
-  <programme start="20260305134500 +0000" stop="20260305140000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260305140000 +0000" stop="20260305153000 +0000" channel="24Horas.co">
-    <title lang="es">La mañana informativa</title>
-    <desc lang="es">Noticiero
-Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
-  </programme>
-  <programme start="20260305153000 +0000" stop="20260305154500 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260305154500 +0000" stop="20260305160000 +0000" channel="24Horas.co">
-    <title lang="es">DW analiza</title>
-    <desc lang="es">Noticiero
-Ponemos en contexto la actualidad internacional y analizamos el contexto de los hechos. Hablamos con especialistas para conocer todos los ángulos de la noticia y presentamos todo con un lenguaje para acercar a los más jóvenes.</desc>
-  </programme>
-  <programme start="20260305160000 +0000" stop="20260305180000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas al día</title>
-    <desc lang="es">Noticiero
-Conoce los detalles más resaltantes sobre los últimos acontecimientos ocurridos en Chile, América Latina y el mundo, en este segmento especial, donde te presentamos un resumen con informaciones referidas a diversos ámbitos.</desc>
-  </programme>
-  <programme start="20260305180000 +0000" stop="20260305181500 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260305181500 +0000" stop="20260305184500 +0000" channel="24Horas.co">
-    <title lang="es">Reporte minero</title>
-    <desc lang="es">Interés general
-Programa del canal 24H dedicado al mercado de la minería.</desc>
-  </programme>
-  <programme start="20260305184500 +0000" stop="20260305193000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260305193000 +0000" stop="20260305194500 +0000" channel="24Horas.co">
-    <title lang="es">Economía</title>
-    <desc lang="es">Una mirada europea al mundo de la economía y los negocios. Hechos, análisis y las historias reales desde la principales plazas financieras, los mercados clave y las empresas líderes.</desc>
-  </programme>
-  <programme start="20260305194500 +0000" stop="20260305200000 +0000" channel="24Horas.co">
-    <title lang="es">Conciencia 24/7</title>
-    <desc lang="es">Tecnología
-Un nuevo espacio multiplataforma, creado para visibilizar historias de innovación, desarrollo y de futuro que están sucediendo a lo largo de Chile. Un espacio con una amplia oferta de productos de ciencia, tecnología, ciudad y transporte.</desc>
-  </programme>
-  <programme start="20260305200000 +0000" stop="20260305220000 +0000" channel="24Horas.co">
-    <title lang="es">Noticias 24</title>
-    <desc lang="es">Noticiero
-Resumen noticioso nacional e internacional.</desc>
-  </programme>
-  <programme start="20260305220000 +0000" stop="20260305224500 +0000" channel="24Horas.co">
-    <title lang="es">Noticias 24</title>
-    <desc lang="es">Noticiero
-Resumen noticioso nacional e internacional.</desc>
-  </programme>
-  <programme start="20260305224500 +0000" stop="20260306000000 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas deportes</title>
-    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
-  </programme>
-  <programme start="20260306000000 +0000" stop="20260306014500 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas Central</title>
-    <desc lang="es">Noticiero
-Revisa las noticias más relevantes de la jornada.</desc>
-  </programme>
-  <programme start="20260306014500 +0000" stop="20260306020000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260306020000 +0000" stop="20260306030000 +0000" channel="24Horas.co">
-    <title lang="es">Vía pública</title>
-    <desc lang="es">Interés general
-Espacio para discutir, entre otros, sobre seguridad ciudadana, urbanismo, educación, salud y transporte. Todos estos temas de gran relevancia en los municipios.</desc>
-  </programme>
-  <programme start="20260306030000 +0000" stop="20260306033000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260306033000 +0000" stop="20260306034500 +0000" channel="24Horas.co">
-    <title lang="es">DW analiza</title>
-    <desc lang="es">Noticiero
-Ponemos en contexto la actualidad internacional y analizamos el contexto de los hechos. Hablamos con especialistas para conocer todos los ángulos de la noticia y presentamos todo con un lenguaje para acercar a los más jóvenes.</desc>
-  </programme>
-  <programme start="20260306034500 +0000" stop="20260306040000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260306040000 +0000" stop="20260306043000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260306043000 +0000" stop="20260306044500 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260306044500 +0000" stop="20260306053000 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas - Al cierre</title>
-    <desc lang="es">Noticiero
-Cerramos el día analizando lo de hoy y mirando lo que se viene hacia adelante.</desc>
-  </programme>
-  <programme start="20260306053000 +0000" stop="20260306061500 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260306061500 +0000" stop="20260306064500 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260306064500 +0000" stop="20260306073000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260306073000 +0000" stop="20260306080000 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas deportes</title>
-    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
-  </programme>
-  <programme start="20260306080000 +0000" stop="20260306083000 +0000" channel="24Horas.co">
-    <title lang="es">Hora 24</title>
-    <desc lang="es">Noticiero
-Actualidad e información.</desc>
-  </programme>
-  <programme start="20260306083000 +0000" stop="20260306090000 +0000" channel="24Horas.co">
-    <title lang="es">La previa</title>
-    <desc lang="es">Noticiero
-Espacio matutino de noticias, con toda la información de la jornada.</desc>
-  </programme>
-  <programme start="20260306090000 +0000" stop="20260306110000 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas - Tu mañana</title>
-    <desc lang="es">Noticiero
-Revisa las principales noticias de la jornada junto a 24 Horas - Tu mañana.</desc>
-  </programme>
-  <programme start="20260306110000 +0000" stop="20260306113000 +0000" channel="24Horas.co">
-    <title lang="es">Frontera global</title>
-    <desc lang="es">Periodístico
-Programa que brinda información actualizada de los acontecimientos más importantes que suceden en Latinoamérica.</desc>
-  </programme>
-  <programme start="20260306113000 +0000" stop="20260306134500 +0000" channel="24Horas.co">
-    <title lang="es">La mañana informativa</title>
-    <desc lang="es">Noticiero
-Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
-  </programme>
-  <programme start="20260306134500 +0000" stop="20260306140000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260306140000 +0000" stop="20260306153000 +0000" channel="24Horas.co">
-    <title lang="es">La mañana informativa</title>
-    <desc lang="es">Noticiero
-Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
-  </programme>
-  <programme start="20260306153000 +0000" stop="20260306154500 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260306154500 +0000" stop="20260306160000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260306160000 +0000" stop="20260306180000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas al día</title>
-    <desc lang="es">Noticiero
-Conoce los detalles más resaltantes sobre los últimos acontecimientos ocurridos en Chile, América Latina y el mundo, en este segmento especial, donde te presentamos un resumen con informaciones referidas a diversos ámbitos.</desc>
-  </programme>
-  <programme start="20260306180000 +0000" stop="20260306181500 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260306181500 +0000" stop="20260306183000 +0000" channel="24Horas.co">
-    <title lang="es">DW analiza</title>
-    <desc lang="es">Noticiero
-Ponemos en contexto la actualidad internacional y analizamos el contexto de los hechos. Hablamos con especialistas para conocer todos los ángulos de la noticia y presentamos todo con un lenguaje para acercar a los más jóvenes.</desc>
-  </programme>
-  <programme start="20260306183000 +0000" stop="20260306184500 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260306184500 +0000" stop="20260306193000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260306193000 +0000" stop="20260306194500 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260306194500 +0000" stop="20260306200000 +0000" channel="24Horas.co">
-    <title lang="es">Economía</title>
-    <desc lang="es">Una mirada europea al mundo de la economía y los negocios. Hechos, análisis y las historias reales desde la principales plazas financieras, los mercados clave y las empresas líderes.</desc>
-  </programme>
-  <programme start="20260306200000 +0000" stop="20260306220000 +0000" channel="24Horas.co">
-    <title lang="es">Noticias 24</title>
-    <desc lang="es">Noticiero
-Resumen noticioso nacional e internacional.</desc>
-  </programme>
-  <programme start="20260306220000 +0000" stop="20260306224500 +0000" channel="24Horas.co">
-    <title lang="es">Noticias 24</title>
-    <desc lang="es">Noticiero
-Resumen noticioso nacional e internacional.</desc>
-  </programme>
-  <programme start="20260306224500 +0000" stop="20260307000000 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas deportes</title>
-    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
-  </programme>
-  <programme start="20260307000000 +0000" stop="20260307014500 +0000" channel="24Horas.co">
-    <title lang="es">24 Horas Central</title>
-    <desc lang="es">Noticiero
-Revisa las noticias más relevantes de la jornada.</desc>
-  </programme>
-  <programme start="20260307014500 +0000" stop="20260307020000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260307020000 +0000" stop="20260307021500 +0000" channel="24Horas.co">
-    <title lang="es">24 cuadros</title>
-    <desc lang="es">Película
-Programa sobre las noticias de los próximos estrenos del cine.</desc>
-  </programme>
-  <programme start="20260307021500 +0000" stop="20260307024500 +0000" channel="24Horas.co">
-    <title lang="es">Especialista responde</title>
-    <desc lang="es">Salud
-Las respuestas a todas las consultas en temas relacionados a la salud y bienestar.</desc>
-  </programme>
-  <programme start="20260307024500 +0000" stop="20260307030000 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260307030000 +0000" stop="20260307033000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260307033000 +0000" stop="20260307034500 +0000" channel="24Horas.co">
-    <title lang="es">Entrevistas 24 horas</title>
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-  </programme>
-  <programme start="20260307034500 +0000" stop="20260307040000 +0000" channel="24Horas.co">
-    <title lang="es">DW analiza</title>
-    <desc lang="es">Noticiero
-Ponemos en contexto la actualidad internacional y analizamos el contexto de los hechos. Hablamos con especialistas para conocer todos los ángulos de la noticia y presentamos todo con un lenguaje para acercar a los más jóvenes.</desc>
-  </programme>
-  <programme start="20260307040000 +0000" stop="20260307043000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260307043000 +0000" stop="20260307050000 +0000" channel="24Horas.co">
-    <title lang="es">24 horas a la hora</title>
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-  </programme>
-  <programme start="20260303012000 +0000" stop="20260303030000 +0000" channel="AMC.co">
-    <title lang="es">Desierto de oro</title>
-    <title lang="en">Gold</title>
-    <desc lang="es">Cuando dos hombres descubren en un desierto la pepita de oro más grande jamás encontrada, la codicia empieza a adueñarse de ellos. ¿Hasta dónde resistirán las condiciones adversas con tal de asegurar su fortuna?</desc>
-  </programme>
-  <programme start="20260303030000 +0000" stop="20260303050000 +0000" channel="AMC.co">
+  <channel id="Atreseries.es">
+    <display-name>ES - Atreseries</display-name>
+    <icon src="https://iptv-epg.org/logos/Spain/Atreseries.es.png" />
+  </channel>
+  <programme start="20260303010000 +0000" stop="20260303030000 +0000" channel="AMC.ar">
     <title lang="es">El protector</title>
     <title lang="en">The Marksman</title>
     <desc lang="es">Jim Hanson, un veterano de guerra, está pasando por un momento difícil, ya que su amada esposa acaba de fallecer y el banco está a punto de quitarle su casa. Hasta que aparecen a su vida una madre y su hijo, dos inmigrantes ilegales.</desc>
   </programme>
-  <programme start="20260303050000 +0000" stop="20260303070500 +0000" channel="AMC.co">
+  <programme start="20260303030000 +0000" stop="20260303050500 +0000" channel="AMC.ar">
     <title lang="es">HellBoy</title>
     <desc lang="es">La Agencia para la Investigación y Defensa Paranormal encomienda a Hellboy la tarea de derrotar al espíritu ancestral Nimue, La Reina de la Sangre, que vuelve llena de sed de venganza a sembrar terror y a destruir la raza humana.</desc>
   </programme>
-  <programme start="20260303070500 +0000" stop="20260303090500 +0000" channel="AMC.co">
+  <programme start="20260303050500 +0000" stop="20260303070500 +0000" channel="AMC.ar">
     <title lang="es">Los ilegales</title>
     <title lang="en">Lawless</title>
     <desc lang="es">Un sádico policía de Chicago llega a Virginia en 1931 para acabar con el negocio de contrabando de licor de los hermanos Bondurant.</desc>
   </programme>
-  <programme start="20260303090500 +0000" stop="20260303105000 +0000" channel="AMC.co">
+  <programme start="20260303070500 +0000" stop="20260303085000 +0000" channel="AMC.ar">
     <title lang="es">Amenazados en la red</title>
     <title lang="en">I.T.</title>
     <desc lang="es">Mike Regan comienza a ver cómo su vida se tambalea cuando un joven hacker de su empresa se siente ninguneado por él y empieza a hacerle la vida imposible a su familia, controlando sus aparatos electrónicos y de comunicación.</desc>
   </programme>
-  <programme start="20260303105000 +0000" stop="20260303112500 +0000" channel="AMC.co">
+  <programme start="20260303085000 +0000" stop="20260303092500 +0000" channel="AMC.ar">
     <title lang="es">Planet Action</title>
     <desc lang="es">S1 E287 Temporada 1 Episodio 287
 Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
   </programme>
-  <programme start="20260303112500 +0000" stop="20260303120000 +0000" channel="AMC.co">
+  <programme start="20260303092500 +0000" stop="20260303100000 +0000" channel="AMC.ar">
     <title lang="es">Planet Action</title>
     <desc lang="es">S1 E288 Temporada 1 Episodio 288
 Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
   </programme>
-  <programme start="20260303120000 +0000" stop="20260303123000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E289 Temporada 1 Episodio 289
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260303100000 +0000" stop="20260303103000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260303123000 +0000" stop="20260303130000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E290 Temporada 1 Episodio 290
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260303103000 +0000" stop="20260303110000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260303130000 +0000" stop="20260303133000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E291 Temporada 1 Episodio 291
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260303110000 +0000" stop="20260303113000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260303133000 +0000" stop="20260303140000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E292 Temporada 1 Episodio 292
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260303113000 +0000" stop="20260303120000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260303140000 +0000" stop="20260303143000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E293 Temporada 1 Episodio 293
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260303120000 +0000" stop="20260303123000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260303143000 +0000" stop="20260303150000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E294 Temporada 1 Episodio 294
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260303123000 +0000" stop="20260303130000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260303150000 +0000" stop="20260303153000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E295 Temporada 1 Episodio 295
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260303130000 +0000" stop="20260303133000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260303153000 +0000" stop="20260303160000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E296 Temporada 1 Episodio 296
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260303133000 +0000" stop="20260303140000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260303160000 +0000" stop="20260303162500 +0000" channel="AMC.co">
+  <programme start="20260303140000 +0000" stop="20260303142500 +0000" channel="AMC.ar">
     <title lang="es">Planet Action</title>
     <desc lang="es">S1 E297 Temporada 1 Episodio 297
 Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
   </programme>
-  <programme start="20260303162500 +0000" stop="20260303165000 +0000" channel="AMC.co">
+  <programme start="20260303142500 +0000" stop="20260303145000 +0000" channel="AMC.ar">
     <title lang="es">Planet Action</title>
     <desc lang="es">S1 E298 Temporada 1 Episodio 298
 Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
   </programme>
-  <programme start="20260303165000 +0000" stop="20260303184500 +0000" channel="AMC.co">
+  <programme start="20260303145000 +0000" stop="20260303164500 +0000" channel="AMC.ar">
     <title lang="es">Fama</title>
     <title lang="en">Fame</title>
     <desc lang="es">Sigue a un dotado grupo de bailarines, cantantes, actores y artistas de diferentes disciplinas, a lo largo de cuatro años en la Escuela Superior de Artes Escénicas de Nueva York.</desc>
   </programme>
-  <programme start="20260303184500 +0000" stop="20260303211500 +0000" channel="AMC.co">
+  <programme start="20260303164500 +0000" stop="20260303191500 +0000" channel="AMC.ar">
     <title lang="es">Leyendas de pasión</title>
     <title lang="en">Legends of the Fall</title>
     <desc lang="es">El Coronel William Ludlow vive tranquilamente en Montana con sus hijos Tristan, Alfred y Samuel. Luego de la muerte de Samuel, Tristan y Alfred se enamoran de la novia de su hermano fallecido, y su rivalidad empieza a destruir a la familia.</desc>
   </programme>
-  <programme start="20260303211500 +0000" stop="20260303232000 +0000" channel="AMC.co">
+  <programme start="20260303191500 +0000" stop="20260303212000 +0000" channel="AMC.ar">
     <title lang="es">Jungla</title>
     <title lang="en">Jungle</title>
     <desc lang="es">Un grupo de amigos se adentra en la selva de Bolivia con un guía fraudulento.</desc>
   </programme>
-  <programme start="20260303232000 +0000" stop="20260304010000 +0000" channel="AMC.co">
+  <programme start="20260303212000 +0000" stop="20260303230000 +0000" channel="AMC.ar">
     <title lang="es">Desierto de oro</title>
     <title lang="en">Gold</title>
     <desc lang="es">Cuando dos hombres descubren en un desierto la pepita de oro más grande jamás encontrada, la codicia empieza a adueñarse de ellos. ¿Hasta dónde resistirán las condiciones adversas con tal de asegurar su fortuna?</desc>
   </programme>
-  <programme start="20260304010000 +0000" stop="20260304030000 +0000" channel="AMC.co">
+  <programme start="20260303230000 +0000" stop="20260304010000 +0000" channel="AMC.ar">
     <title lang="es">El protector</title>
     <title lang="en">The Marksman</title>
     <desc lang="es">Jim Hanson, un veterano de guerra, está pasando por un momento difícil, ya que su amada esposa acaba de fallecer y el banco está a punto de quitarle su casa. Hasta que aparecen a su vida una madre y su hijo, dos inmigrantes ilegales.</desc>
   </programme>
-  <programme start="20260304030000 +0000" stop="20260304044000 +0000" channel="AMC.co">
+  <programme start="20260304010000 +0000" stop="20260304024000 +0000" channel="AMC.ar">
     <title lang="es">Venom</title>
     <desc lang="es">Eddie Brock lleva tiempo intentando desenmascarar al famoso genio científico Carlton Drake. Al investigar uno de los experimentos, el ente alienígena Venom se fusiona con el cuerpo de Eddie, y adquiere nuevos e increíbles superpoderes.</desc>
   </programme>
-  <programme start="20260304044000 +0000" stop="20260304064000 +0000" channel="AMC.co">
+  <programme start="20260304024000 +0000" stop="20260304044000 +0000" channel="AMC.ar">
     <title lang="es">Los ilegales</title>
-    <title lang="en">Lawless</title>
     <desc lang="es">Un sádico policía de Chicago llega a Virginia en 1931 para acabar con el negocio de contrabando de licor de los hermanos Bondurant.</desc>
   </programme>
-  <programme start="20260304064000 +0000" stop="20260304083500 +0000" channel="AMC.co">
+  <programme start="20260304044000 +0000" stop="20260304063500 +0000" channel="AMC.ar">
     <title lang="es">El orfanato</title>
     <desc lang="es">Laura se instala con su familia en el orfanato en el que creció de niña. Su propósito es abrir una residencia para infantes discapacitados. Sin embargo, el ambiente del viejo caserón comienza a amenazar la existencia de sus seres queridos.</desc>
   </programme>
-  <programme start="20260304083500 +0000" stop="20260304104000 +0000" channel="AMC.co">
+  <programme start="20260304063500 +0000" stop="20260304084000 +0000" channel="AMC.ar">
     <title lang="es">HellBoy</title>
     <desc lang="es">La Agencia para la Investigación y Defensa Paranormal encomienda a Hellboy la tarea de derrotar al espíritu ancestral Nimue, La Reina de la Sangre, que vuelve llena de sed de venganza a sembrar terror y a destruir la raza humana.</desc>
   </programme>
-  <programme start="20260304104000 +0000" stop="20260304113000 +0000" channel="AMC.co">
+  <programme start="20260304084000 +0000" stop="20260304093000 +0000" channel="AMC.ar">
     <title lang="es">Tales of The Walking Dead</title>
-    <desc lang="es">S1 E1 Evie / Joe
-Un preparacionista abandona su búnker en busca de una preparacionista. En el camino, se encuentra con una aliada peculiar y se unen en busca de sus seres queridos. A veces, los vivos llegan a dar mas miedo que los muertos.</desc>
+    <desc lang="es">Un preparacionista abandona su búnker en busca de una preparacionista. En el camino, se encuentra con una aliada peculiar y se unen en busca de sus seres queridos. A veces, los vivos llegan a dar mas miedo que los muertos.</desc>
   </programme>
-  <programme start="20260304113000 +0000" stop="20260304120000 +0000" channel="AMC.co">
+  <programme start="20260304093000 +0000" stop="20260304100000 +0000" channel="AMC.ar">
     <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E296 Temporada 1 Episodio 296
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+    <desc lang="es">Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
   </programme>
-  <programme start="20260304120000 +0000" stop="20260304123000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E297 Temporada 1 Episodio 297
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260304100000 +0000" stop="20260304103000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260304123000 +0000" stop="20260304130000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E298 Temporada 1 Episodio 298
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260304103000 +0000" stop="20260304110000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260304130000 +0000" stop="20260304133000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E299 Temporada 1 Episodio 299
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260304110000 +0000" stop="20260304113000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260304133000 +0000" stop="20260304140000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E300 Temporada 1 Episodio 300
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260304113000 +0000" stop="20260304120000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260304140000 +0000" stop="20260304143000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E301 Temporada 1 Episodio 301
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260304120000 +0000" stop="20260304123000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260304143000 +0000" stop="20260304150000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E302 Temporada 1 Episodio 302
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260304123000 +0000" stop="20260304130000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260304150000 +0000" stop="20260304153000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E303 Temporada 1 Episodio 303
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260304130000 +0000" stop="20260304133000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260304153000 +0000" stop="20260304160000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E304 Temporada 1 Episodio 304
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260304133000 +0000" stop="20260304140000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260304160000 +0000" stop="20260304163500 +0000" channel="AMC.co">
+  <programme start="20260304140000 +0000" stop="20260304143500 +0000" channel="AMC.ar">
     <title lang="es">Planet Action</title>
     <desc lang="es">S1 E305 Temporada 1 Episodio 305
 Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
   </programme>
-  <programme start="20260304163500 +0000" stop="20260304190500 +0000" channel="AMC.co">
+  <programme start="20260304143500 +0000" stop="20260304170500 +0000" channel="AMC.ar">
     <title lang="es">Realmente amor</title>
     <title lang="en">Love Actually</title>
     <desc lang="es">El amor está en todas partes: entre políticos, viudos, jóvenes que sueñan con encontrarlo y parejas que no saben en qué momento lo perdieron. Éste es el recuento de varias historias no siempre alegres y en muchas ocasiones inesperadas.</desc>
   </programme>
-  <programme start="20260304190500 +0000" stop="20260304212500 +0000" channel="AMC.co">
+  <programme start="20260304170500 +0000" stop="20260304192500 +0000" channel="AMC.ar">
     <title lang="es">Posdata: te amo</title>
     <title lang="en">PS I Love You</title>
     <desc lang="es">Para Holly la muerte de su marido ensombrece su futuro. Pero la aparición de varios mensajes en los que su esposo le explica cómo seguir adelante, serán el punto de partida para rehacer su vida.</desc>
   </programme>
-  <programme start="20260304212500 +0000" stop="20260304232000 +0000" channel="AMC.co">
+  <programme start="20260304192500 +0000" stop="20260304212000 +0000" channel="AMC.ar">
     <title lang="es">Locos de ira</title>
     <title lang="en">Anger Management</title>
     <desc lang="es">Dave es normalmente un hombre centrado y pacífico. Pero después de un enfrentamiento a bordo de un avión, se ve obligado a asistir a terapias para el manejo de la rabia con el Dr. Rydell, quien también puede que necesite un poco de ayuda.</desc>
   </programme>
-  <programme start="20260304232000 +0000" stop="20260305011500 +0000" channel="AMC.co">
+  <programme start="20260304212000 +0000" stop="20260304231500 +0000" channel="AMC.ar">
     <title lang="es">El protector</title>
     <title lang="en">The Marksman</title>
     <desc lang="es">Jim Hanson, un veterano de guerra, está pasando por un momento difícil, ya que su amada esposa acaba de fallecer y el banco está a punto de quitarle su casa. Hasta que aparecen a su vida una madre y su hijo, dos inmigrantes ilegales.</desc>
   </programme>
-  <programme start="20260305011500 +0000" stop="20260305030000 +0000" channel="AMC.co">
+  <programme start="20260304231500 +0000" stop="20260305010000 +0000" channel="AMC.ar">
     <title lang="es">Venom</title>
     <desc lang="es">Eddie Brock lleva tiempo intentando desenmascarar al famoso genio científico Carlton Drake. Al investigar uno de los experimentos, el ente alienígena Venom se fusiona con el cuerpo de Eddie, y adquiere nuevos e increíbles superpoderes.</desc>
   </programme>
-  <programme start="20260305030000 +0000" stop="20260305045000 +0000" channel="AMC.co">
+  <programme start="20260305010000 +0000" stop="20260305025000 +0000" channel="AMC.ar">
     <title lang="es">Rambo II</title>
     <title lang="en">Rambo: First Blood Part II</title>
     <desc lang="es">Rambo es enviado de vuelta a Vietnam con una misión: averiguar el paradero de unos soldados norteamericanos desaparecidos. Sin embargo, tras saltar en la jungla portando un cuchillo y un arco con flechas, el plan no saldrá como esperaba.</desc>
   </programme>
-  <programme start="20260305045000 +0000" stop="20260305062000 +0000" channel="AMC.co">
+  <programme start="20260305025000 +0000" stop="20260305042000 +0000" channel="AMC.ar">
     <title lang="es">Presa</title>
     <title lang="en">Kalahari</title>
     <desc lang="es">Una pareja de misioneros cristianos en el desierto de Kalahari se enfrenta a una prueba de fe cuando se convierten en el objetivo de una banda de militantes extremistas.</desc>
   </programme>
-  <programme start="20260305062000 +0000" stop="20260305080500 +0000" channel="AMC.co">
+  <programme start="20260305042000 +0000" stop="20260305060500 +0000" channel="AMC.ar">
     <title lang="es">Estación Espacial 76</title>
     <title lang="en">Space Station 76</title>
     <desc lang="es">Narra las tensiones que surgen entre una pequeña comunidad de personas y robots que viven en una estación espacial, donde el malestar interno es mucho más peligroso que cualquier asteroide que se aproxime.</desc>
   </programme>
-  <programme start="20260305080500 +0000" stop="20260305100000 +0000" channel="AMC.co">
+  <programme start="20260305060500 +0000" stop="20260305080000 +0000" channel="AMC.ar">
     <title lang="es">El orfanato</title>
     <desc lang="es">Laura se instala con su familia en el orfanato en el que creció de niña. Su propósito es abrir una residencia para infantes discapacitados. Sin embargo, el ambiente del viejo caserón comienza a amenazar la existencia de sus seres queridos.</desc>
   </programme>
-  <programme start="20260305100000 +0000" stop="20260305105000 +0000" channel="AMC.co">
+  <programme start="20260305080000 +0000" stop="20260305085000 +0000" channel="AMC.ar">
     <title lang="es">Tales of The Walking Dead</title>
     <desc lang="es">S1 E2 Blair / Gina
 Un atraco de acción de amigos de ritmo rápido que distorsiona la realidad, donde una recepcionista descontenta y su autoritario jefe quedan atrapados juntos mientras Atlanta colapsa bajo el Apocalipsis Walker.</desc>
   </programme>
-  <programme start="20260305105000 +0000" stop="20260305112500 +0000" channel="AMC.co">
+  <programme start="20260305085000 +0000" stop="20260305092500 +0000" channel="AMC.ar">
     <title lang="es">Planet Action</title>
     <desc lang="es">S1 E303 Temporada 1 Episodio 303
 Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
   </programme>
-  <programme start="20260305112500 +0000" stop="20260305120000 +0000" channel="AMC.co">
+  <programme start="20260305092500 +0000" stop="20260305100000 +0000" channel="AMC.ar">
     <title lang="es">Planet Action</title>
     <desc lang="es">S1 E304 Temporada 1 Episodio 304
 Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
   </programme>
-  <programme start="20260305120000 +0000" stop="20260305123000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E305 Temporada 1 Episodio 305
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260305100000 +0000" stop="20260305103000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260305123000 +0000" stop="20260305130000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E306 Temporada 1 Episodio 306
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260305103000 +0000" stop="20260305110000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260305130000 +0000" stop="20260305133000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E307 Temporada 1 Episodio 307
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260305110000 +0000" stop="20260305113000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260305133000 +0000" stop="20260305140000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E308 Temporada 1 Episodio 308
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260305113000 +0000" stop="20260305120000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260305140000 +0000" stop="20260305143000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E309 Temporada 1 Episodio 309
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260305120000 +0000" stop="20260305123000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260305143000 +0000" stop="20260305150000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E310 Temporada 1 Episodio 310
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260305123000 +0000" stop="20260305130000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260305150000 +0000" stop="20260305153000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E286 Temporada 1 Episodio 286
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260305130000 +0000" stop="20260305133000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260305153000 +0000" stop="20260305160000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E287 Temporada 1 Episodio 287
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260305133000 +0000" stop="20260305140000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260305160000 +0000" stop="20260305182000 +0000" channel="AMC.co">
+  <programme start="20260305140000 +0000" stop="20260305162000 +0000" channel="AMC.ar">
     <title lang="es">Posdata: te amo</title>
     <title lang="en">PS I Love You</title>
     <desc lang="es">Para Holly la muerte de su marido ensombrece su futuro. Pero la aparición de varios mensajes en los que su esposo le explica cómo seguir adelante, serán el punto de partida para rehacer su vida.</desc>
   </programme>
-  <programme start="20260305182000 +0000" stop="20260305201500 +0000" channel="AMC.co">
+  <programme start="20260305162000 +0000" stop="20260305181500 +0000" channel="AMC.ar">
     <title lang="es">Locos de ira</title>
     <title lang="en">Anger Management</title>
     <desc lang="es">Dave es normalmente un hombre centrado y pacífico. Pero después de un enfrentamiento a bordo de un avión, se ve obligado a asistir a terapias para el manejo de la rabia con el Dr. Rydell, quien también puede que necesite un poco de ayuda.</desc>
   </programme>
-  <programme start="20260305201500 +0000" stop="20260305224000 +0000" channel="AMC.co">
+  <programme start="20260305181500 +0000" stop="20260305204000 +0000" channel="AMC.ar">
     <title lang="es">Solo los valientes</title>
     <title lang="en">Only the Brave</title>
     <desc lang="es">La lucha del heroico cuerpo de bomberos Granite Mountain Hotshots contra un terrible incendio sucedido en Arizona. Este equipo de bomberos locales se convierte en uno de los equipos de lucha contra incendios más heroicos de la nación.</desc>
   </programme>
-  <programme start="20260305224000 +0000" stop="20260306003500 +0000" channel="AMC.co">
+  <programme start="20260305204000 +0000" stop="20260305223500 +0000" channel="AMC.ar">
     <title lang="es">Lo imposible</title>
     <title lang="en">The Impossible</title>
     <desc lang="es">De vacaciones en Tailandia, una familia es separada cuando un feroz tsunami golpea a su hotel. Comienza así un frenético y desesperado periplo para rencontrarse y sobrevivir.</desc>
   </programme>
-  <programme start="20260306003500 +0000" stop="20260306030000 +0000" channel="AMC.co">
+  <programme start="20260305223500 +0000" stop="20260306010000 +0000" channel="AMC.ar">
     <title lang="es">Los siete magníficos</title>
     <title lang="en">The Magnificent Seven</title>
     <desc lang="es">Siete forajidos son contratados por los habitantes de Rose Creek para defenderse de la constante amenaza del industrial Bartholomew Bogue. Sin embargo, pronto descubrirán que estos hombres luchan por algo más que el dinero.</desc>
   </programme>
-  <programme start="20260306030000 +0000" stop="20260306053500 +0000" channel="AMC.co">
+  <programme start="20260306010000 +0000" stop="20260306033500 +0000" channel="AMC.ar">
     <title lang="es">Golpes del destino</title>
     <title lang="en">Million Dollar Baby</title>
     <desc lang="es">La adusta e impenetrable personalidad de Frankie, un entrenador de boxeo, será puesta a prueba con la llegada de Maggie, una joven que persigue el sueño de convertirse en boxeadora profesional.</desc>
   </programme>
-  <programme start="20260306053500 +0000" stop="20260306072000 +0000" channel="AMC.co">
+  <programme start="20260306033500 +0000" stop="20260306052000 +0000" channel="AMC.ar">
     <title lang="es">Rambo II</title>
     <title lang="en">Rambo: First Blood Part II</title>
     <desc lang="es">Rambo es enviado de vuelta a Vietnam con una misión: averiguar el paradero de unos soldados norteamericanos desaparecidos. Sin embargo, tras saltar en la jungla portando un cuchillo y un arco con flechas, el plan no saldrá como esperaba.</desc>
   </programme>
-  <programme start="20260306072000 +0000" stop="20260306085000 +0000" channel="AMC.co">
+  <programme start="20260306052000 +0000" stop="20260306065000 +0000" channel="AMC.ar">
     <title lang="es">Presa</title>
     <title lang="en">Kalahari</title>
     <desc lang="es">Una pareja de misioneros cristianos en el desierto de Kalahari se enfrenta a una prueba de fe cuando se convierten en el objetivo de una banda de militantes extremistas.</desc>
   </programme>
-  <programme start="20260306085000 +0000" stop="20260306103500 +0000" channel="AMC.co">
+  <programme start="20260306065000 +0000" stop="20260306083500 +0000" channel="AMC.ar">
     <title lang="es">Amenazados en la red</title>
     <title lang="en">I.T.</title>
     <desc lang="es">Mike Regan comienza a ver cómo su vida se tambalea cuando un joven hacker de su empresa se siente ninguneado por él y empieza a hacerle la vida imposible a su familia, controlando sus aparatos electrónicos y de comunicación.</desc>
   </programme>
-  <programme start="20260306103500 +0000" stop="20260306112500 +0000" channel="AMC.co">
+  <programme start="20260306083500 +0000" stop="20260306092500 +0000" channel="AMC.ar">
     <title lang="es">Tales of The Walking Dead</title>
     <desc lang="es">S1 E3 Dee
 Una madre y su hija escapan de la violencia y se refugian en un antiguo barco de vapor. Pero el ambiente pacífico se deteriora cuando un intento de golpe obliga a la madre a revisitar su pasado violento para proteger a su hija.</desc>
   </programme>
-  <programme start="20260306112500 +0000" stop="20260306120000 +0000" channel="AMC.co">
+  <programme start="20260306092500 +0000" stop="20260306100000 +0000" channel="AMC.ar">
     <title lang="es">Planet Action</title>
     <desc lang="es">S1 E287 Temporada 1 Episodio 287
 Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
   </programme>
-  <programme start="20260306120000 +0000" stop="20260306123000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E288 Temporada 1 Episodio 288
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260306100000 +0000" stop="20260306103000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260306123000 +0000" stop="20260306130000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E289 Temporada 1 Episodio 289
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260306103000 +0000" stop="20260306110000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260306130000 +0000" stop="20260306133000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E290 Temporada 1 Episodio 290
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260306110000 +0000" stop="20260306113000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260306133000 +0000" stop="20260306140000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E291 Temporada 1 Episodio 291
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260306113000 +0000" stop="20260306120000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260306140000 +0000" stop="20260306143000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E292 Temporada 1 Episodio 292
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260306120000 +0000" stop="20260306123000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260306143000 +0000" stop="20260306150000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E293 Temporada 1 Episodio 293
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260306123000 +0000" stop="20260306130000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260306150000 +0000" stop="20260306153000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E294 Temporada 1 Episodio 294
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260306130000 +0000" stop="20260306133000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260306153000 +0000" stop="20260306160000 +0000" channel="AMC.co">
-    <title lang="es">Planet Action</title>
-    <desc lang="es">S1 E295 Temporada 1 Episodio 295
-Vive el detrás de escena de las mejores películas de acción. Desde tiroteos de vaqueros hasta coches en explosión, acrobacias, peleas en el espacio y monstruos rugientes. Conoce todos los secretos de tus héroes de acción favoritos.</desc>
+  <programme start="20260306133000 +0000" stop="20260306140000 +0000" channel="AMC.ar">
+    <title lang="es">Infomerciales</title>
+    <desc lang="es">Publicidad
+Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
   </programme>
-  <programme start="20260306160000 +0000" stop="20260306175000 +0000" channel="AMC.co">
+  <programme start="20260306140000 +0000" stop="20260306155000 +0000" channel="AMC.ar">
     <title lang="es">Son como niños 2</title>
     <title lang="en">Grown Ups 2</title>
     <desc lang="es">Lenny decide mudarse junto a su familia a su pueblo natal. Él pensaba que seguía siendo un lugar tranquilo para criar a sus hijos, pero está lleno de personajes problemáticos que lo harán entender que la locura le sigue a donde vaya.</desc>
   </programme>
-  <programme start="20260306175000 +0000" stop="20260306194500 +0000" channel="AMC.co">
+  <programme start="20260306155000 +0000" stop="20260306174500 +0000" channel="AMC.ar">
     <title lang="es">Lo imposible</title>
     <title lang="en">The Impossible</title>
     <desc lang="es">De vacaciones en Tailandia, una familia es separada cuando un feroz tsunami golpea a su hotel. Comienza así un frenético y desesperado periplo para rencontrarse y sobrevivir.</desc>
   </programme>
-  <programme start="20260306194500 +0000" stop="20260306221500 +0000" channel="AMC.co">
+  <programme start="20260306174500 +0000" stop="20260306201500 +0000" channel="AMC.ar">
     <title lang="es">Los siete magníficos</title>
     <title lang="en">The Magnificent Seven</title>
     <desc lang="es">Siete forajidos son contratados por los habitantes de Rose Creek para defenderse de la constante amenaza del industrial Bartholomew Bogue. Sin embargo, pronto descubrirán que estos hombres luchan por algo más que el dinero.</desc>
   </programme>
-  <programme start="20260306221500 +0000" stop="20260307004000 +0000" channel="AMC.co">
+  <programme start="20260306201500 +0000" stop="20260306224000 +0000" channel="AMC.ar">
     <title lang="es">Solo los valientes</title>
     <title lang="en">Only the Brave</title>
     <desc lang="es">La lucha del heroico cuerpo de bomberos Granite Mountain Hotshots contra un terrible incendio sucedido en Arizona. Este equipo de bomberos locales se convierte en uno de los equipos de lucha contra incendios más heroicos de la nación.</desc>
   </programme>
-  <programme start="20260307004000 +0000" stop="20260307030000 +0000" channel="AMC.co">
+  <programme start="20260306224000 +0000" stop="20260307010000 +0000" channel="AMC.ar">
     <title lang="es">El ataque</title>
     <title lang="en">White House Down</title>
     <desc lang="es">Al policía John Cale le niegan trabajar en el Servicio Secreto, pero como no quiere decepcionar a su hija, la lleva a recorrer la Casa Blanca cuando ésta es tomada por un grupo paramilitar. Ahora Cale debe salvar al presidente y a su hija.</desc>
   </programme>
-  <programme start="20260307030000 +0000" stop="20260307051500 +0000" channel="AMC.co">
+  <programme start="20260307010000 +0000" stop="20260307031500 +0000" channel="AMC.ar">
     <title lang="es">El pacto</title>
     <title lang="en">Guy Ritchie's The Covenant</title>
     <desc lang="es">El sargento Jon Kinley está en su última misión en Afganistán cuando le asignan un intérprete local, Ahmed. Cuando hieren a Kingley, Ahmed arriesga su propia vida para llevar al herido a territorio seguro.</desc>
+  </programme>
+  <programme start="20260307031500 +0000" stop="20260307050500 +0000" channel="AMC.ar">
+    <title lang="es">Rambo III</title>
+    <desc lang="es">Cuando descubre que el coronel Trautman ha caído en manos soviéticas en Afganistán, Rambo regresa al servicio para intentar liberarlo. Después de contactar a la resistencia del lugar, entra en la zona sitiada por las tropas enemigas.</desc>
+  </programme>
+  <programme start="20260303001200 +0000" stop="20260303011200 +0000" channel="Antena3.co">
+    <title lang="es">Pasapalabra</title>
+    <desc lang="es">S10 E1472 Rosa y Manu: Un duelo de récords #10. 1472
+Manu, el concursante más longevo de la historia de Pasapalabra, lucha con Rosa por llevarse el mayor bote de la historia del programa, que supera los 2,7 millones de euros.</desc>
+  </programme>
+  <programme start="20260303011200 +0000" stop="20260303023000 +0000" channel="Antena3.co">
+    <title lang="es">El hormiguero</title>
+    <desc lang="es">Episodio 2298
+Presentado por Pablo Motos, en colaboración con las marionetas Trancas, Barrancas y Petancas, este espacio te trae el mejor entretenimiento, con contenidos de humor, magia, entrevistas y experimentos de divulgación científica.</desc>
+  </programme>
+  <programme start="20260303023000 +0000" stop="20260303034400 +0000" channel="Antena3.co">
+    <title lang="es">Lo de Évole</title>
+    <desc lang="es">Episodio 72
+Serie documental, presentada y dirigida por Jordi Évole, que aborda distintas historias personales con un hilo común y con el trasfondo social, que ya se ha convertido en sello del periodista.</desc>
+  </programme>
+  <programme start="20260303034400 +0000" stop="20260303051000 +0000" channel="Antena3.co">
+    <title lang="es">Cristo y Rey</title>
+    <desc lang="es">S1 E8 La única fiera que no pude domar
+Ángel y Bárbara luchan por la custodia de sus hijos. Para asegurar su victoria, Ángel ha comprado a cualquiera que pudiera declarar a favor de Bárbara. Desesperada, ella recurre a Juan Carlos I, pero el único dispuesto a ayudarla es Chelo.</desc>
+  </programme>
+  <programme start="20260303051000 +0000" stop="20260303061200 +0000" channel="Antena3.co">
+    <title lang="es">El chiringuito internacional</title>
+    <desc lang="es">La actualidad deportiva de cada jornada desde la óptica de un gran equipo de periodistas, árbitros, exfutbolistas y agentes dirigidos por Josep Pedrerol.</desc>
+  </programme>
+  <programme start="20260303061200 +0000" stop="20260303074000 +0000" channel="Antena3.co">
+    <title lang="es">Zapeando</title>
+    <desc lang="es">S1 E3051 Temporada 1 Episodio 3051
+Una mujer roba un jamón ibérico de 420 euros en un supermercado de Mallorca y lo devuelve medio comido. Además, llamó la atención por la forma en la que estaba cortado.</desc>
+  </programme>
+  <programme start="20260303074000 +0000" stop="20260303075500 +0000" channel="Antena3.co">
+    <title lang="es">Noticias de la mañana</title>
+    <desc lang="es">Noticiero
+Todos los días el mejor equipo técnico y de redacción presenta un análisis informativo correspondiente a la actualidad nacional e internacional con seriedad e imparcialidad.</desc>
+  </programme>
+  <programme start="20260303075500 +0000" stop="20260303120000 +0000" channel="Antena3.co">
+    <title lang="es">Espejo público</title>
+    <desc lang="es">Noticiero
+Magazine informativo donde el público es el principal protagonista, así como la calle y el acontecer diario. Una parte importante del espacio gira en torno a un tema de actualidad, político o social.</desc>
+  </programme>
+  <programme start="20260303120000 +0000" stop="20260303130000 +0000" channel="Antena3.co">
+    <title lang="es">Cocina abierta de Karlos Arguiñano</title>
+    <desc lang="es">Cocina
+Karlos abre las puertas y ventanas de su programa a nuevos tipos de cocina, pero sin descuidar la cocina casera y de temporada que es la que practica a diario desde que comenzó a cocinar en televisión.</desc>
+  </programme>
+  <programme start="20260303130000 +0000" stop="20260303140000 +0000" channel="Antena3.co">
+    <title lang="es">El chiringuito internacional</title>
+    <desc lang="es">La actualidad deportiva de cada jornada desde la óptica de un gran equipo de periodistas, árbitros, exfutbolistas y agentes dirigidos por Josep Pedrerol.</desc>
+  </programme>
+  <programme start="20260303140000 +0000" stop="20260303144500 +0000" channel="Antena3.co">
+    <title lang="es">Noticias</title>
+    <desc lang="es">Noticiero
+Toda la información sobre política, economía, sociedad, tecnología, espectáculos y mucho más.</desc>
+  </programme>
+  <programme start="20260303144500 +0000" stop="20260303174500 +0000" channel="Antena3.co">
+    <title lang="es">Espejo público</title>
+    <desc lang="es">Noticiero
+Magazine informativo donde el público es el principal protagonista, así como la calle y el acontecer diario. Una parte importante del espacio gira en torno a un tema de actualidad, político o social.</desc>
+  </programme>
+  <programme start="20260303174500 +0000" stop="20260303181500 +0000" channel="Antena3.co">
+    <title lang="es">Tu tiempo</title>
+    <desc lang="es">Clima
+Un espacio abierto para gente como tú: preocupada, interesada en el tiempo y que quiere compartir sus ideas o comentarios con otros usuarios. De esta forma, en esta sección podrás comentar lo que pienses del cambio climático.</desc>
+  </programme>
+  <programme start="20260303181500 +0000" stop="20260303184500 +0000" channel="Antena3.co">
+    <title lang="es">Cocina abierta de Karlos Arguiñano</title>
+    <desc lang="es">Cocina
+Karlos abre las puertas y ventanas de su programa a nuevos tipos de cocina, pero sin descuidar la cocina casera y de temporada que es la que practica a diario desde que comenzó a cocinar en televisión.</desc>
+  </programme>
+  <programme start="20260303184500 +0000" stop="20260303200000 +0000" channel="Antena3.co">
+    <title lang="es">Pasapalabra</title>
+    <desc lang="es">Entretenimientos
+Un concurso en el que los participantes deberán intentar conseguir los máximos segundos posibles en las diferentes pruebas del programa, escudados por invitados de lujo, para enfrentarse al rosco en intentar alzarse con el codiciado bote.</desc>
+  </programme>
+  <programme start="20260303200000 +0000" stop="20260303204500 +0000" channel="Antena3.co">
+    <title lang="es">Noticias</title>
+    <desc lang="es">Noticiero
+Toda la información sobre política, economía, sociedad, tecnología, espectáculos y mucho más.</desc>
+  </programme>
+  <programme start="20260303204500 +0000" stop="20260303221500 +0000" channel="Antena3.co">
+    <title lang="es">Y ahora sonsoles</title>
+    <desc lang="es">Interés general
+Programa de actualidad en directo presentado por Sonsoles Ónega. Un espacio que contará con los mejores invitados y colaboradores en plató para comentar las noticias y sucesos más relevantes.</desc>
+  </programme>
+  <programme start="20260303221500 +0000" stop="20260303233000 +0000" channel="Antena3.co">
+    <title lang="es">Sueños de libertad</title>
+    <desc lang="es">Drama
+Begoña Montes es una mujer que vive atrapada en un matrimonio tóxico y busca la ansiada libertad en la España de 1958. Amor, rivalidad, familia, amistad, duelos de clases y, una historia optimista y esperanzadora.</desc>
+  </programme>
+  <programme start="20260303233000 +0000" stop="20260304003000 +0000" channel="Antena3.co">
+    <title lang="es">La ruleta de la suerte</title>
+    <desc lang="es">Entretenimientos
+Presentado por Jorge Fernández y Laura Moure, tres concursantes se enfrentan a un panel en blanco en el que deben adivinar las letras correctas con la ayuda de una ruleta.</desc>
+  </programme>
+  <programme start="20260304003000 +0000" stop="20260304013000 +0000" channel="Antena3.co">
+    <title lang="es">Pasapalabra</title>
+    <desc lang="es">Entretenimientos
+Un concurso en el que los participantes deberán intentar conseguir los máximos segundos posibles en las diferentes pruebas del programa, escudados por invitados de lujo, para enfrentarse al rosco en intentar alzarse con el codiciado bote.</desc>
+  </programme>
+  <programme start="20260304013000 +0000" stop="20260304021500 +0000" channel="Antena3.co">
+    <title lang="es">El hormiguero</title>
+    <desc lang="es">Talk Show
+Presentado por Pablo Motos, en colaboración con las marionetas Trancas, Barrancas y Petancas, este espacio te trae el mejor entretenimiento, con contenidos de humor, magia, entrevistas y experimentos de divulgación científica.</desc>
+  </programme>
+  <programme start="20260304021500 +0000" stop="20260304050000 +0000" channel="Antena3.co">
+    <title lang="es">Equipo de investigación</title>
+    <desc lang="es">Periodístico
+Un profesional equipo de periodistas, encabezados por Gloria Serra, nos muestran mediante reportajes de profundidad diversos temas de interés social.</desc>
+  </programme>
+  <programme start="20260304050000 +0000" stop="20260304060000 +0000" channel="Antena3.co">
+    <title lang="es">El chiringuito internacional</title>
+    <desc lang="es">La actualidad deportiva de cada jornada desde la óptica de un gran equipo de periodistas, árbitros, exfutbolistas y agentes dirigidos por Josep Pedrerol.</desc>
+  </programme>
+  <programme start="20260304060000 +0000" stop="20260304071500 +0000" channel="Antena3.co">
+    <title lang="es">Zapeando</title>
+    <desc lang="es">Entretenimientos
+Un original formato que desmenuzará con humor y desenfado los mejores momentos de las cadenas nacionales e internacionales. Cada tarde, Frank Blanco y sus colaboradores comentarán lo mejor y lo peor de la televisión.</desc>
+  </programme>
+  <programme start="20260304071500 +0000" stop="20260304074500 +0000" channel="Antena3.co">
+    <title lang="es">Noticias de la mañana</title>
+    <desc lang="es">Magazine
+En un ambiente informal, se detallan las noticias que incluyen notas cotidianas que involucran el día vivir de la familia ecuatoriana, también tiene notas internacionales de relevancia económica, política y del espectáculo.</desc>
+  </programme>
+  <programme start="20260304074500 +0000" stop="20260304120000 +0000" channel="Antena3.co">
+    <title lang="es">Espejo público</title>
+    <desc lang="es">Noticiero
+Magazine informativo donde el público es el principal protagonista, así como la calle y el acontecer diario. Una parte importante del espacio gira en torno a un tema de actualidad, político o social.</desc>
+  </programme>
+  <programme start="20260304120000 +0000" stop="20260304130000 +0000" channel="Antena3.co">
+    <title lang="es">Cocina abierta de Karlos Arguiñano</title>
+    <desc lang="es">Cocina
+Karlos abre las puertas y ventanas de su programa a nuevos tipos de cocina, pero sin descuidar la cocina casera y de temporada que es la que practica a diario desde que comenzó a cocinar en televisión.</desc>
+  </programme>
+  <programme start="20260304130000 +0000" stop="20260304140000 +0000" channel="Antena3.co">
+    <title lang="es">El chiringuito internacional</title>
+    <desc lang="es">La actualidad deportiva de cada jornada desde la óptica de un gran equipo de periodistas, árbitros, exfutbolistas y agentes dirigidos por Josep Pedrerol.</desc>
+  </programme>
+  <programme start="20260304140000 +0000" stop="20260304144500 +0000" channel="Antena3.co">
+    <title lang="es">Noticias</title>
+    <desc lang="es">Noticiero
+Toda la información sobre política, economía, sociedad, tecnología, espectáculos y mucho más.</desc>
+  </programme>
+  <programme start="20260304144500 +0000" stop="20260304174500 +0000" channel="Antena3.co">
+    <title lang="es">Espejo público</title>
+    <desc lang="es">Noticiero
+Magazine informativo donde el público es el principal protagonista, así como la calle y el acontecer diario. Una parte importante del espacio gira en torno a un tema de actualidad, político o social.</desc>
+  </programme>
+  <programme start="20260304174500 +0000" stop="20260304181500 +0000" channel="Antena3.co">
+    <title lang="es">Tu tiempo</title>
+    <desc lang="es">Clima
+Un espacio abierto para gente como tú: preocupada, interesada en el tiempo y que quiere compartir sus ideas o comentarios con otros usuarios. De esta forma, en esta sección podrás comentar lo que pienses del cambio climático.</desc>
+  </programme>
+  <programme start="20260304181500 +0000" stop="20260304184500 +0000" channel="Antena3.co">
+    <title lang="es">Cocina abierta de Karlos Arguiñano</title>
+    <desc lang="es">Cocina
+Karlos abre las puertas y ventanas de su programa a nuevos tipos de cocina, pero sin descuidar la cocina casera y de temporada que es la que practica a diario desde que comenzó a cocinar en televisión.</desc>
+  </programme>
+  <programme start="20260304184500 +0000" stop="20260304200000 +0000" channel="Antena3.co">
+    <title lang="es">Pasapalabra</title>
+    <desc lang="es">Entretenimientos
+Un concurso en el que los participantes deberán intentar conseguir los máximos segundos posibles en las diferentes pruebas del programa, escudados por invitados de lujo, para enfrentarse al rosco en intentar alzarse con el codiciado bote.</desc>
+  </programme>
+  <programme start="20260304200000 +0000" stop="20260304204500 +0000" channel="Antena3.co">
+    <title lang="es">Noticias</title>
+    <desc lang="es">Noticiero
+Toda la información sobre política, economía, sociedad, tecnología, espectáculos y mucho más.</desc>
+  </programme>
+  <programme start="20260304204500 +0000" stop="20260304221500 +0000" channel="Antena3.co">
+    <title lang="es">Y ahora sonsoles</title>
+    <desc lang="es">Interés general
+Programa de actualidad en directo presentado por Sonsoles Ónega. Un espacio que contará con los mejores invitados y colaboradores en plató para comentar las noticias y sucesos más relevantes.</desc>
+  </programme>
+  <programme start="20260304221500 +0000" stop="20260304233000 +0000" channel="Antena3.co">
+    <title lang="es">Sueños de libertad</title>
+    <desc lang="es">Drama
+Begoña Montes es una mujer que vive atrapada en un matrimonio tóxico y busca la ansiada libertad en la España de 1958. Amor, rivalidad, familia, amistad, duelos de clases y, una historia optimista y esperanzadora.</desc>
+  </programme>
+  <programme start="20260304233000 +0000" stop="20260305003000 +0000" channel="Antena3.co">
+    <title lang="es">La ruleta de la suerte</title>
+    <desc lang="es">Entretenimientos
+Presentado por Jorge Fernández y Laura Moure, tres concursantes se enfrentan a un panel en blanco en el que deben adivinar las letras correctas con la ayuda de una ruleta.</desc>
+  </programme>
+  <programme start="20260305003000 +0000" stop="20260305013000 +0000" channel="Antena3.co">
+    <title lang="es">Pasapalabra</title>
+    <desc lang="es">Entretenimientos
+Un concurso en el que los participantes deberán intentar conseguir los máximos segundos posibles en las diferentes pruebas del programa, escudados por invitados de lujo, para enfrentarse al rosco en intentar alzarse con el codiciado bote.</desc>
+  </programme>
+  <programme start="20260305013000 +0000" stop="20260305021500 +0000" channel="Antena3.co">
+    <title lang="es">El hormiguero</title>
+    <desc lang="es">Talk Show
+Presentado por Pablo Motos, en colaboración con las marionetas Trancas, Barrancas y Petancas, este espacio te trae el mejor entretenimiento, con contenidos de humor, magia, entrevistas y experimentos de divulgación científica.</desc>
+  </programme>
+  <programme start="20260305021500 +0000" stop="20260305034500 +0000" channel="Antena3.co">
+    <title lang="es">El capitán en Japón</title>
+    <desc lang="es">Documental
+En esta nueva entrega, Joaquín, Susana Saborido y sus hijas, Salma y Daniela, se embarcan en un viaje inolvidable por Japón, un país lleno de contrastes, tradición y sorpresas.</desc>
+  </programme>
+  <programme start="20260305034500 +0000" stop="20260305050000 +0000" channel="Antena3.co">
+    <title lang="es">Lo de Évole</title>
+    <desc lang="es">Documental
+Serie documental, presentada y dirigida por Jordi Évole, que aborda distintas historias personales con un hilo común y con el trasfondo social, que ya se ha convertido en sello del periodista.</desc>
+  </programme>
+  <programme start="20260305050000 +0000" stop="20260305060000 +0000" channel="Antena3.co">
+    <title lang="es">El chiringuito internacional</title>
+    <desc lang="es">La actualidad deportiva de cada jornada desde la óptica de un gran equipo de periodistas, árbitros, exfutbolistas y agentes dirigidos por Josep Pedrerol.</desc>
+  </programme>
+  <programme start="20260305060000 +0000" stop="20260305071500 +0000" channel="Antena3.co">
+    <title lang="es">Zapeando</title>
+    <desc lang="es">Entretenimientos
+Un original formato que desmenuzará con humor y desenfado los mejores momentos de las cadenas nacionales e internacionales. Cada tarde, Frank Blanco y sus colaboradores comentarán lo mejor y lo peor de la televisión.</desc>
+  </programme>
+  <programme start="20260305071500 +0000" stop="20260305074500 +0000" channel="Antena3.co">
+    <title lang="es">Noticias de la mañana</title>
+    <desc lang="es">Noticiero
+Todos los días el mejor equipo técnico y de redacción presenta un análisis informativo correspondiente a la actualidad nacional e internacional con seriedad e imparcialidad.</desc>
+  </programme>
+  <programme start="20260305074500 +0000" stop="20260305120000 +0000" channel="Antena3.co">
+    <title lang="es">Espejo público</title>
+    <desc lang="es">Noticiero
+Magazine informativo donde el público es el principal protagonista, así como la calle y el acontecer diario. Una parte importante del espacio gira en torno a un tema de actualidad, político o social.</desc>
+  </programme>
+  <programme start="20260305120000 +0000" stop="20260305130000 +0000" channel="Antena3.co">
+    <title lang="es">Cocina abierta de Karlos Arguiñano</title>
+    <desc lang="es">Cocina
+Karlos abre las puertas y ventanas de su programa a nuevos tipos de cocina, pero sin descuidar la cocina casera y de temporada que es la que practica a diario desde que comenzó a cocinar en televisión.</desc>
+  </programme>
+  <programme start="20260305130000 +0000" stop="20260305140000 +0000" channel="Antena3.co">
+    <title lang="es">El chiringuito internacional</title>
+    <desc lang="es">La actualidad deportiva de cada jornada desde la óptica de un gran equipo de periodistas, árbitros, exfutbolistas y agentes dirigidos por Josep Pedrerol.</desc>
+  </programme>
+  <programme start="20260305140000 +0000" stop="20260305144500 +0000" channel="Antena3.co">
+    <title lang="es">Noticias</title>
+    <desc lang="es">Noticiero
+Toda la información sobre política, economía, sociedad, tecnología, espectáculos y mucho más.</desc>
+  </programme>
+  <programme start="20260305144500 +0000" stop="20260305174500 +0000" channel="Antena3.co">
+    <title lang="es">Espejo público</title>
+    <desc lang="es">Noticiero
+Magazine informativo donde el público es el principal protagonista, así como la calle y el acontecer diario. Una parte importante del espacio gira en torno a un tema de actualidad, político o social.</desc>
+  </programme>
+  <programme start="20260305174500 +0000" stop="20260305181500 +0000" channel="Antena3.co">
+    <title lang="es">Tu tiempo</title>
+    <desc lang="es">Clima
+Un espacio abierto para gente como tú: preocupada, interesada en el tiempo y que quiere compartir sus ideas o comentarios con otros usuarios. De esta forma, en esta sección podrás comentar lo que pienses del cambio climático.</desc>
+  </programme>
+  <programme start="20260305181500 +0000" stop="20260305184500 +0000" channel="Antena3.co">
+    <title lang="es">Cocina abierta de Karlos Arguiñano</title>
+    <desc lang="es">Cocina
+Karlos abre las puertas y ventanas de su programa a nuevos tipos de cocina, pero sin descuidar la cocina casera y de temporada que es la que practica a diario desde que comenzó a cocinar en televisión.</desc>
+  </programme>
+  <programme start="20260305184500 +0000" stop="20260305200000 +0000" channel="Antena3.co">
+    <title lang="es">Pasapalabra</title>
+    <desc lang="es">Entretenimientos
+Un concurso en el que los participantes deberán intentar conseguir los máximos segundos posibles en las diferentes pruebas del programa, escudados por invitados de lujo, para enfrentarse al rosco en intentar alzarse con el codiciado bote.</desc>
+  </programme>
+  <programme start="20260305200000 +0000" stop="20260305204500 +0000" channel="Antena3.co">
+    <title lang="es">Noticias</title>
+    <desc lang="es">Noticiero
+Toda la información sobre política, economía, sociedad, tecnología, espectáculos y mucho más.</desc>
+  </programme>
+  <programme start="20260305204500 +0000" stop="20260305221500 +0000" channel="Antena3.co">
+    <title lang="es">Y ahora sonsoles</title>
+    <desc lang="es">Interés general
+Programa de actualidad en directo presentado por Sonsoles Ónega. Un espacio que contará con los mejores invitados y colaboradores en plató para comentar las noticias y sucesos más relevantes.</desc>
+  </programme>
+  <programme start="20260305221500 +0000" stop="20260305233000 +0000" channel="Antena3.co">
+    <title lang="es">Sueños de libertad</title>
+    <desc lang="es">Drama
+Begoña Montes es una mujer que vive atrapada en un matrimonio tóxico y busca la ansiada libertad en la España de 1958. Amor, rivalidad, familia, amistad, duelos de clases y, una historia optimista y esperanzadora.</desc>
+  </programme>
+  <programme start="20260305233000 +0000" stop="20260306003000 +0000" channel="Antena3.co">
+    <title lang="es">La ruleta de la suerte</title>
+    <desc lang="es">Entretenimientos
+Presentado por Jorge Fernández y Laura Moure, tres concursantes se enfrentan a un panel en blanco en el que deben adivinar las letras correctas con la ayuda de una ruleta.</desc>
+  </programme>
+  <programme start="20260306003000 +0000" stop="20260306013000 +0000" channel="Antena3.co">
+    <title lang="es">Pasapalabra</title>
+    <desc lang="es">Entretenimientos
+Un concurso en el que los participantes deberán intentar conseguir los máximos segundos posibles en las diferentes pruebas del programa, escudados por invitados de lujo, para enfrentarse al rosco en intentar alzarse con el codiciado bote.</desc>
+  </programme>
+  <programme start="20260306013000 +0000" stop="20260306021500 +0000" channel="Antena3.co">
+    <title lang="es">El hormiguero</title>
+    <desc lang="es">Talk Show
+Presentado por Pablo Motos, en colaboración con las marionetas Trancas, Barrancas y Petancas, este espacio te trae el mejor entretenimiento, con contenidos de humor, magia, entrevistas y experimentos de divulgación científica.</desc>
+  </programme>
+  <programme start="20260306021500 +0000" stop="20260306034500 +0000" channel="Antena3.co">
+    <title lang="es">Entre tierras</title>
+    <desc lang="es">Drama
+María, una mujer andaluza dedicada a cuidar de su familia desde que murió su padre, decide sacrificarse por los suyos y acepta casarse con un terrateniente manchego que viene a su pueblo buscando esposa.</desc>
+  </programme>
+  <programme start="20260306034500 +0000" stop="20260306050000 +0000" channel="Antena3.co">
+    <title lang="es">Equipo de investigación</title>
+    <desc lang="es">Periodístico
+Un profesional equipo de periodistas, encabezados por Gloria Serra, nos muestran mediante reportajes de profundidad diversos temas de interés social.</desc>
+  </programme>
+  <programme start="20260306050000 +0000" stop="20260306060000 +0000" channel="Antena3.co">
+    <title lang="es">El chiringuito internacional</title>
+    <desc lang="es">La actualidad deportiva de cada jornada desde la óptica de un gran equipo de periodistas, árbitros, exfutbolistas y agentes dirigidos por Josep Pedrerol.</desc>
+  </programme>
+  <programme start="20260306060000 +0000" stop="20260306071500 +0000" channel="Antena3.co">
+    <title lang="es">Zapeando</title>
+    <desc lang="es">Entretenimientos
+Un original formato que desmenuzará con humor y desenfado los mejores momentos de las cadenas nacionales e internacionales. Cada tarde, Frank Blanco y sus colaboradores comentarán lo mejor y lo peor de la televisión.</desc>
+  </programme>
+  <programme start="20260306071500 +0000" stop="20260306074500 +0000" channel="Antena3.co">
+    <title lang="es">Noticias de la mañana</title>
+    <desc lang="es">Noticiero
+Todos los días el mejor equipo técnico y de redacción presenta un análisis informativo correspondiente a la actualidad nacional e internacional con seriedad e imparcialidad.</desc>
+  </programme>
+  <programme start="20260306074500 +0000" stop="20260306120000 +0000" channel="Antena3.co">
+    <title lang="es">Espejo público</title>
+    <desc lang="es">Noticiero
+Magazine informativo donde el público es el principal protagonista, así como la calle y el acontecer diario. Una parte importante del espacio gira en torno a un tema de actualidad, político o social.</desc>
+  </programme>
+  <programme start="20260306120000 +0000" stop="20260306130000 +0000" channel="Antena3.co">
+    <title lang="es">Cocina abierta de Karlos Arguiñano</title>
+    <desc lang="es">Cocina
+Karlos abre las puertas y ventanas de su programa a nuevos tipos de cocina, pero sin descuidar la cocina casera y de temporada que es la que practica a diario desde que comenzó a cocinar en televisión.</desc>
+  </programme>
+  <programme start="20260306130000 +0000" stop="20260306140000 +0000" channel="Antena3.co">
+    <title lang="es">El chiringuito internacional</title>
+    <desc lang="es">La actualidad deportiva de cada jornada desde la óptica de un gran equipo de periodistas, árbitros, exfutbolistas y agentes dirigidos por Josep Pedrerol.</desc>
+  </programme>
+  <programme start="20260306140000 +0000" stop="20260306144500 +0000" channel="Antena3.co">
+    <title lang="es">Noticias</title>
+    <desc lang="es">Noticiero
+Toda la información sobre política, economía, sociedad, tecnología, espectáculos y mucho más.</desc>
+  </programme>
+  <programme start="20260306144500 +0000" stop="20260306174500 +0000" channel="Antena3.co">
+    <title lang="es">Espejo público</title>
+    <desc lang="es">Noticiero
+Magazine informativo donde el público es el principal protagonista, así como la calle y el acontecer diario. Una parte importante del espacio gira en torno a un tema de actualidad, político o social.</desc>
+  </programme>
+  <programme start="20260306174500 +0000" stop="20260306181500 +0000" channel="Antena3.co">
+    <title lang="es">Tu tiempo</title>
+    <desc lang="es">Clima
+Un espacio abierto para gente como tú: preocupada, interesada en el tiempo y que quiere compartir sus ideas o comentarios con otros usuarios. De esta forma, en esta sección podrás comentar lo que pienses del cambio climático.</desc>
+  </programme>
+  <programme start="20260306181500 +0000" stop="20260306184500 +0000" channel="Antena3.co">
+    <title lang="es">Cocina abierta de Karlos Arguiñano</title>
+    <desc lang="es">Cocina
+Karlos abre las puertas y ventanas de su programa a nuevos tipos de cocina, pero sin descuidar la cocina casera y de temporada que es la que practica a diario desde que comenzó a cocinar en televisión.</desc>
+  </programme>
+  <programme start="20260306184500 +0000" stop="20260306200000 +0000" channel="Antena3.co">
+    <title lang="es">Pasapalabra</title>
+    <desc lang="es">Entretenimientos
+Un concurso en el que los participantes deberán intentar conseguir los máximos segundos posibles en las diferentes pruebas del programa, escudados por invitados de lujo, para enfrentarse al rosco en intentar alzarse con el codiciado bote.</desc>
+  </programme>
+  <programme start="20260306200000 +0000" stop="20260306204500 +0000" channel="Antena3.co">
+    <title lang="es">Noticias</title>
+    <desc lang="es">Noticiero
+Toda la información sobre política, economía, sociedad, tecnología, espectáculos y mucho más.</desc>
+  </programme>
+  <programme start="20260306204500 +0000" stop="20260306221500 +0000" channel="Antena3.co">
+    <title lang="es">Y ahora sonsoles</title>
+    <desc lang="es">Interés general
+Programa de actualidad en directo presentado por Sonsoles Ónega. Un espacio que contará con los mejores invitados y colaboradores en plató para comentar las noticias y sucesos más relevantes.</desc>
+  </programme>
+  <programme start="20260306221500 +0000" stop="20260306233000 +0000" channel="Antena3.co">
+    <title lang="es">Sueños de libertad</title>
+    <desc lang="es">Drama
+Begoña Montes es una mujer que vive atrapada en un matrimonio tóxico y busca la ansiada libertad en la España de 1958. Amor, rivalidad, familia, amistad, duelos de clases y, una historia optimista y esperanzadora.</desc>
+  </programme>
+  <programme start="20260306233000 +0000" stop="20260307003000 +0000" channel="Antena3.co">
+    <title lang="es">La ruleta de la suerte</title>
+    <desc lang="es">Entretenimientos
+Presentado por Jorge Fernández y Laura Moure, tres concursantes se enfrentan a un panel en blanco en el que deben adivinar las letras correctas con la ayuda de una ruleta.</desc>
+  </programme>
+  <programme start="20260307003000 +0000" stop="20260307013000 +0000" channel="Antena3.co">
+    <title lang="es">Pasapalabra</title>
+    <desc lang="es">Entretenimientos
+Un concurso en el que los participantes deberán intentar conseguir los máximos segundos posibles en las diferentes pruebas del programa, escudados por invitados de lujo, para enfrentarse al rosco en intentar alzarse con el codiciado bote.</desc>
+  </programme>
+  <programme start="20260307013000 +0000" stop="20260307021500 +0000" channel="Antena3.co">
+    <title lang="es">El hormiguero</title>
+    <desc lang="es">Talk Show
+Presentado por Pablo Motos, en colaboración con las marionetas Trancas, Barrancas y Petancas, este espacio te trae el mejor entretenimiento, con contenidos de humor, magia, entrevistas y experimentos de divulgación científica.</desc>
+  </programme>
+  <programme start="20260307021500 +0000" stop="20260307050000 +0000" channel="Antena3.co">
+    <title lang="es">El desafío</title>
+    <desc lang="es">Entretenimientos
+Un grupo de ocho famosos se enfrentarán a difíciles pruebas cada semana con el objetivo de ser el mejor en el juego. Estos participantes tendrán que rendir al máximo en algunas pruebas fijas que tendrá cada emisión.</desc>
   </programme>
   <programme start="20260303001000 +0000" stop="20260303010500 +0000" channel="AXN.co">
     <title lang="es">SWAT</title>
@@ -1766,5 +1462,379 @@ CSI busca a un asesino en serie inspirado en el "Infierno" de Dante, y la hija d
     <title lang="en">Crime Scene Investigation</title>
     <desc lang="es">S14 E1 El infierno de Dante
 El equipo de CSI se apresura a encontrar a Morgan y a Ellie Brass después de su secuestro.</desc>
+  </programme>
+  <programme start="20260302233000 +0000" stop="20260303010000 +0000" channel="Atreseries.es">
+    <title lang="es">Bright minds: Ojo por ojo</title>
+    <desc lang="es">En París, Astrid y Raphaëlle descubren un ojo humano en el fondo de un tarro de cebollas. Al mismo tiempo, en Burdeos, Alexandra Ehle investiga un cadáver al que le han extirpado ambos ojos.</desc>
+  </programme>
+  <programme start="20260303010000 +0000" stop="20260303014500 +0000" channel="Atreseries.es">
+    <title lang="es">Sportium Game Show</title>
+    <desc lang="es">Espacio conducido por Sofía Del Prado y con la colaboración de Gemma Manzanero, Marc Vila y Juanma Pastor, en el que se repasan las mejores apuestas y cuotas deportivas, y donde se descubren toda la variedad de juegos de casino, slots y poker de Sportium.</desc>
+  </programme>
+  <programme start="20260303014500 +0000" stop="20260303025700 +0000" channel="Atreseries.es">
+    <title lang="es">Con el culo al aire</title>
+    <desc lang="es">S3 E28 Chus, la hermana de Lola, se presenta en el campin para quedarse y cuidar de ella ahora que su hija mayor se ha largado. Dani está muy contento pero Lola, en cambio, se muestra horrorizada, pues sabe que su hermana no quiere cuidarla sino vengarse de ella por haberse acostado con su marido.</desc>
+  </programme>
+  <programme start="20260303025700 +0000" stop="20260303050000 +0000" channel="Atreseries.es">
+    <title lang="es">Con el culo al aire</title>
+    <desc lang="es">S3 E29 Jorge abandona Nueva York y vuelve al campin a buscar a Eli. Pero ella no quiere saber nada de él, pues cree que solamente ha vuelto porque espera un hijo suyo. Jorge insiste en que la quiere, pero Eli necesita una verdadera prueba de amor. Jorge no lo duda ni un momento y le pide matrimonio en el abarrotado Estadio Vicente Calderón.</desc>
+  </programme>
+  <programme start="20260303050000 +0000" stop="20260303051000 +0000" channel="Atreseries.es">
+    <title lang="es">Más de series</title>
+    <desc lang="es">Programa de producción propia que muestra curiosidades sobre las series de Atresmedia.</desc>
+  </programme>
+  <programme start="20260303051000 +0000" stop="20260303060300 +0000" channel="Atreseries.es">
+    <title lang="es">Intuición Criminal</title>
+    <desc lang="es">S5 E5 Carlo Michalek
+Mientras Angelika y Franitschek investigan el macabro asesinato del profesor Carlo, Jan finalmente decide revelar todo lo que sabe sobre el asesinato de Nico Schnabel.</desc>
+  </programme>
+  <programme start="20260303060300 +0000" stop="20260303065600 +0000" channel="Atreseries.es">
+    <title lang="es">Intuición Criminal</title>
+    <desc lang="es">S7 E6 Heidi Hofreiter
+Heidi Hofreiter necesita resolver un fraude salarial a gran escala. Para ello, contrata a Angelika y Franitschek, que se topan con inconsistencias en la contabilidad, empleados fantasmas y un misterioso accidente.</desc>
+  </programme>
+  <programme start="20260303065600 +0000" stop="20260303075000 +0000" channel="Atreseries.es">
+    <title lang="es">Intuición Criminal</title>
+    <desc lang="es">S7 E7 Niklas Neumann
+El millonario Niklas Neumann contrata a Angelika para investigar el secuestro de Yasmin, pero cuando descubre que es solo una muñeca, decide mantenerse al margen. Pero todo se complica cuando sus empleados denuncian un brutal ataque.</desc>
+  </programme>
+  <programme start="20260303075000 +0000" stop="20260303084300 +0000" channel="Atreseries.es">
+    <title lang="es">Intuición Criminal</title>
+    <desc lang="es">S7 E8 Simon Rosenstrauss
+Para evitar un acto de venganza que parece tener su origen en la Segunda Guerra Mundial, el abogado Simon Rosenstrauss recurre a Angelika y Franitschek.</desc>
+  </programme>
+  <programme start="20260303084300 +0000" stop="20260303093600 +0000" channel="Atreseries.es">
+    <title lang="es">Intuición Criminal</title>
+    <desc lang="es">S7 E9 Lisa Migutsch
+Una joven con amnesia recurre a Angelika en busca de ayuda. La detective debe averiguar de dónde sacó una misteriosa bolsa llena de dinero y cómo llegó la abundante cantidad de sangre a su chaqueta.</desc>
+  </programme>
+  <programme start="20260303093600 +0000" stop="20260303103000 +0000" channel="Atreseries.es">
+    <title lang="es">Intuición Criminal</title>
+    <desc lang="es">S7 E10 Therese Hasenauer Kralik
+Tras la muerte del Sr. Huber, la Sra. Hasenauer-Kralik contrata los servicios de Angelika y Franitschek para encontrar a su heredero y así desocupar el apartamento en el que se encontraba alojado.</desc>
+  </programme>
+  <programme start="20260303103000 +0000" stop="20260303112200 +0000" channel="Atreseries.es">
+    <title lang="es">Rizzoli &amp; Isles</title>
+    <desc lang="es">S6 E15 Muerto de miedo
+Tras la aparición de un cadáver en una escena que parece sacada de una película de terror, la brigada descubre que se trataba de un "juego".</desc>
+  </programme>
+  <programme start="20260303112200 +0000" stop="20260303121400 +0000" channel="Atreseries.es">
+    <title lang="es">Rizzoli &amp; Isles</title>
+    <desc lang="es">S6 E16 Oriente encuentra a Occidente
+Jane y Maura entran en el impenetrable mundo de una banda de Europa del Este. Un remedio casero le provoca a Maura un efecto inesperado.</desc>
+  </programme>
+  <programme start="20260303121400 +0000" stop="20260303130600 +0000" channel="Atreseries.es">
+    <title lang="es">Rizzoli &amp; Isles</title>
+    <desc lang="es">S7 E8 2M7258-100
+Jane pone en peligro su seguridad para infiltrarse en una carcel y conseguir información de una mujer de la que se cree que está involucrada en un doble asesinato.</desc>
+  </programme>
+  <programme start="20260303130600 +0000" stop="20260303135800 +0000" channel="Atreseries.es">
+    <title lang="es">Rizzoli &amp; Isles</title>
+    <desc lang="es">S7 E9 65 Horas
+Justo el día en el que Jane tiene que ir a testificar en el juicio de un homicidio, se da cuenta de que la prueba clave para el caso ha sido robada. Frankie decide aprender algunos trucos de magia para impresionar a Nina.</desc>
+  </programme>
+  <programme start="20260303135800 +0000" stop="20260303145000 +0000" channel="Atreseries.es">
+    <title lang="es">Rizzoli &amp; Isles</title>
+    <desc lang="es">S7 E10 En la riqueza y en la pobreza
+El equipo investiga el asesinato de un contable forense. Jane toma una decisión que puede cambiarle la vida.</desc>
+  </programme>
+  <programme start="20260303145000 +0000" stop="20260303154100 +0000" channel="Atreseries.es">
+    <title lang="es">Hudson y Rex</title>
+    <desc lang="es">S3 E7 Cuestión de camada
+Rex es sospechoso tras encontrarse su ADN en la escena del asesinato de un ex informante de la policía.</desc>
+  </programme>
+  <programme start="20260303154100 +0000" stop="20260303163300 +0000" channel="Atreseries.es">
+    <title lang="es">Hudson y Rex</title>
+    <desc lang="es">S3 E8 La Bella durmiente
+Charlie y Rex investigan un cuento de hadas convertido en pesadilla cuando una princesa muere sospechosamente en la fiesta de cumpleaños de un niño.</desc>
+  </programme>
+  <programme start="20260303163300 +0000" stop="20260303172500 +0000" channel="Atreseries.es">
+    <title lang="es">Hudson y Rex</title>
+    <desc lang="es">S3 E9 Asuntos enterrados
+Charlie y Rex corren un grave peligro al verse cautivos de un secuestrador que busca venganza.</desc>
+  </programme>
+  <programme start="20260303172500 +0000" stop="20260303181600 +0000" channel="Atreseries.es">
+    <title lang="es">Hudson y Rex</title>
+    <desc lang="es">S4 E6 El puente del muerto
+Después de que unos delincuentes secuestren un camión que transportaba explosivos líquidos, Charlie y Rex se ven envueltos en una carrera contrarreloj para evitar que el caso explote por los aires.</desc>
+  </programme>
+  <programme start="20260303181600 +0000" stop="20260303190800 +0000" channel="Atreseries.es">
+    <title lang="es">Hudson y Rex : Una puñalada en la dark web</title>
+    <desc lang="es">S4 E7 Una pun~alada en la dark web
+Cuando un florista que cultiva hongos mágicos es asesinado, Hudson y Rex investigan el sórdido mundo interno de Internet.</desc>
+  </programme>
+  <programme start="20260303190800 +0000" stop="20260303200000 +0000" channel="Atreseries.es">
+    <title lang="es">Hudson y Rex</title>
+    <desc lang="es">S4 E8 Muerte súbita
+El nuevo jugador y estrella rusa del equipo de hockey Ice Pirates es encontrado asesinado la mañana después de unirse a otros jugadores en una caminata nocturna de formación de equipo. La sospecha cae inmediatamente sobre el capitán del equipo.</desc>
+  </programme>
+  <programme start="20260303200000 +0000" stop="20260303205800 +0000" channel="Atreseries.es">
+    <title lang="es">Bright minds</title>
+    <desc lang="es">S1 E5 El recinto cerrado
+Un escritor famoso es encontrado muerto en su casa, envenenado. Raphaêlle está convencida de que fue asesinado, ¡pero el apartamento estaba cerrado por dentro! Astrid y Raphaêlle tendrán que investigar entre algunas personalidades muy coloridas del mundo editorial. Eso los lleva a investigar un trágico incendio que podría haber llevado a un caso de venganza maquiavélica...</desc>
+  </programme>
+  <programme start="20260303205800 +0000" stop="20260303215600 +0000" channel="Atreseries.es">
+    <title lang="es">Bright minds</title>
+    <desc lang="es">S6 E2 El internado
+La investigación sobre Odin lleva a Astrid y Raphaëlle hasta un internado de aspecto inquietante, el Overlook School. Allí, un alumno ha muerto en circunstancias tan extrañas como sospechosas. Lo desconcertante es que el caso guarda una extraña similitud con la primera víctima que investigaron en esta temporada. Entre muros cargados de secretos, alumnos herméticos y un claustro que esconde más de lo que muestra, el dúo se enfrenta a un rompecabezas cada vez más complejo. ¿Casualidad o un plan siniestro que une ambos crímenes?</desc>
+  </programme>
+  <programme start="20260303215600 +0000" stop="20260303225400 +0000" channel="Atreseries.es">
+    <title lang="es">Bright minds</title>
+    <desc lang="es">S1 E7 El hombre que no existía
+Un hombre se derrumba y muere en un autobús. Está cubierto de sangre, pero no tiene heridas visibles. ¿Podría haber sido asesinado por una enfermedad extremadamente contagiosa? La investigación pronto lleva al dúo a confrontar a Cassandre Germain, el carismático líder de un peligroso grupo ecoterrorista. Entonces Raphaëlle es retirada repentinamente del caso por sus superiores...</desc>
+  </programme>
+  <programme start="20260303225400 +0000" stop="20260303235200 +0000" channel="Atreseries.es">
+    <title lang="es">Bright minds</title>
+    <desc lang="es">S1 E8 La muerte y compañía
+William es el presidente de una sociedad de autismo a la que Astrid asiste y su hermano muere en circunstancias misteriosas. Poco después, se encuentra un cuerpo. Toda la evidencia apunta a la culpa del hermano de William, a pesar de que fue declarado muerto tres días antes...</desc>
+  </programme>
+  <programme start="20260303235200 +0000" stop="20260304005000 +0000" channel="Atreseries.es">
+    <title lang="es">Bright minds</title>
+    <desc lang="es">S1 E4 Eslabón perdido
+Un empleado del Museo de Historia Natural es encontrado muerto al pie de un esqueleto de dinosaurio. No se ve ni una gota de agua y, sin embargo ... ¡la víctima se ahogó! Raphaëlle y Astrid investigan si algo más aparte del tráfico de fósiles, será la causa de esta desaparición.</desc>
+  </programme>
+  <programme start="20260304005000 +0000" stop="20260304013000 +0000" channel="Atreseries.es">
+    <title lang="es">Sportium Game Show</title>
+    <desc lang="es">Espacio conducido por Sofía Del Prado y con la colaboración de Gemma Manzanero, Marc Vila y Juanma Pastor, en el que se repasan las mejores apuestas y cuotas deportivas, y donde se descubren toda la variedad de juegos de casino, slots y poker de Sportium.</desc>
+  </programme>
+  <programme start="20260304013000 +0000" stop="20260304025000 +0000" channel="Atreseries.es">
+    <title lang="es">Con el culo al aire</title>
+    <desc lang="es">S3 E30 Begoña quiere tener otro hijo de Ángel, aunque con el matiz de que esta vez solo quiere su semen. Al enterarse, el joven trata que Sandra no conozca las intenciones de Begoña, ya que teme que su relación pueda correr peligro.</desc>
+  </programme>
+  <programme start="20260304025000 +0000" stop="20260304050000 +0000" channel="Atreseries.es">
+    <title lang="es">Con el culo al aire</title>
+    <desc lang="es">S3 E31 Con el campin en un buen momento y todos los bungalós ocupados, los servicios del recinto empiezan a colapsarse. Los baños, el bar y la doctora están saturados y los campistas más veteranos, con Tino al frente, reclaman preferencia en su uso por ser huéspedes más antiguos. El conflicto acabará en una guerra entre los nuevos y los de siempre. José Luis y Sonsoles, por su parte, deciden sacar tajada de esta disputa vendiendo comida a los nuevos vecinos.</desc>
+  </programme>
+  <programme start="20260304050000 +0000" stop="20260304051000 +0000" channel="Atreseries.es">
+    <title lang="es">Más de series</title>
+    <desc lang="es">Programa de producción propia que muestra curiosidades sobre las series de Atresmedia.</desc>
+  </programme>
+  <programme start="20260304051000 +0000" stop="20260304080000 +0000" channel="Atreseries.es">
+    <title lang="es">Intuición Criminal</title>
+    <desc lang="es">Angelika Schnell es una exitosa y caótica investigadora del departamento de policía de Viena. Madre divorciada y gran profesional, debe lidiar con su exmarido, el médico forense Stefan Schnell, y sus dos asistentes de equipo, Franitschek y Maja.</desc>
+  </programme>
+  <programme start="20260304080000 +0000" stop="20260304100000 +0000" channel="Atreseries.es">
+    <title lang="es">Intuición Criminal</title>
+    <desc lang="es">Angelika Schnell es una exitosa y caótica investigadora del departamento de policía de Viena. Madre divorciada y gran profesional, debe lidiar con su exmarido, el médico forense Stefan Schnell, y sus dos asistentes de equipo, Franitschek y Maja.</desc>
+  </programme>
+  <programme start="20260304100000 +0000" stop="20260304120000 +0000" channel="Atreseries.es">
+    <title lang="es">Rizzoli &amp; Isles</title>
+    <desc lang="es">Séptima y última temporada de esta serie protagonizada por las agentes Rizzoli e Isles en el que continúan resolviendo complicados casos criminales.</desc>
+  </programme>
+  <programme start="20260304120000 +0000" stop="20260304151500 +0000" channel="Atreseries.es">
+    <title lang="es">Rizzoli &amp; Isles</title>
+    <desc lang="es">Séptima y última temporada de esta serie protagonizada por las agentes Rizzoli e Isles en el que continúan resolviendo complicados casos criminales.</desc>
+  </programme>
+  <programme start="20260304151500 +0000" stop="20260304180000 +0000" channel="Atreseries.es">
+    <title lang="es">Hudson y Rex</title>
+    <desc lang="es">Charlie Hudson es un policía que siempre ha querido hacer este trabajo. Cuando sabe que el perro pastor alemán Rex tiene que ser sacrificado decide quedárselo como compañero.</desc>
+  </programme>
+  <programme start="20260304180000 +0000" stop="20260304200000 +0000" channel="Atreseries.es">
+    <title lang="es">Hudson y Rex</title>
+    <desc lang="es">Charlie Hudson es un policía que siempre ha querido hacer este trabajo. Cuando sabe que el perro pastor alemán Rex tiene que ser sacrificado decide quedárselo como compañero.</desc>
+  </programme>
+  <programme start="20260304200000 +0000" stop="20260304230000 +0000" channel="Atreseries.es">
+    <title lang="es">The Mysteries of Laura</title>
+    <desc lang="es">Laura Diamond es una extraordinaria detective de Nueva York que como muchas madres trabajadoras debe compaginar su complicada vida personal con su intensa y sagaz actividad profesional.</desc>
+  </programme>
+  <programme start="20260304230000 +0000" stop="20260305010000 +0000" channel="Atreseries.es">
+    <title lang="es">The Mysteries of Laura</title>
+    <desc lang="es">Laura Diamond es una extraordinaria detective de Nueva York que como muchas madres trabajadoras debe compaginar su complicada vida personal con su intensa y sagaz actividad profesional.</desc>
+  </programme>
+  <programme start="20260305010000 +0000" stop="20260305014500 +0000" channel="Atreseries.es">
+    <title lang="es">The game show</title>
+    <desc lang="es">Espacio conducido por Cristina Porta, Gemma Manzanero y Aitor Fernández en el que se repasan las mejores estrategias de juego para la Ruleta, el Black Jack y el Poker.</desc>
+  </programme>
+  <programme start="20260305014500 +0000" stop="20260305050000 +0000" channel="Atreseries.es">
+    <title lang="es">Con el culo al aire</title>
+    <desc lang="es">El campin y sus 'bungalows' vuelven para seguir acogiendo a ciudadanos maltratados por la crisis. La tercera temporada de la serie da comienzo con el fin de la época estival y el abandono del complejo por parte de los turistas. Ahora, para poder llegar a fin de mes, todos necesitan una nueva fuente de ingresos.</desc>
+  </programme>
+  <programme start="20260305050000 +0000" stop="20260305053000 +0000" channel="Atreseries.es">
+    <title lang="es">Más de series</title>
+    <desc lang="es">Programa de producción propia que muestra curiosidades sobre las series de Atresmedia.</desc>
+  </programme>
+  <programme start="20260305053000 +0000" stop="20260305065500 +0000" channel="Atreseries.es">
+    <title lang="es">Con el culo al aire</title>
+    <desc lang="es">El campin y sus 'bungalows' vuelven para seguir acogiendo a ciudadanos maltratados por la crisis. La tercera temporada de la serie da comienzo con el fin de la época estival y el abandono del complejo por parte de los turistas. Ahora, para poder llegar a fin de mes, todos necesitan una nueva fuente de ingresos.</desc>
+  </programme>
+  <programme start="20260305065500 +0000" stop="20260305082000 +0000" channel="Atreseries.es">
+    <title lang="es">Con el culo al aire</title>
+    <desc lang="es">El campin y sus 'bungalows' vuelven para seguir acogiendo a ciudadanos maltratados por la crisis. La tercera temporada de la serie da comienzo con el fin de la época estival y el abandono del complejo por parte de los turistas. Ahora, para poder llegar a fin de mes, todos necesitan una nueva fuente de ingresos.</desc>
+  </programme>
+  <programme start="20260305082000 +0000" stop="20260305100700 +0000" channel="Atreseries.es">
+    <title lang="es">Aquí no hay quien viva</title>
+    <desc lang="es">Los cotilleos, romances, filias y fobias que tienen lugar en una comunidad de vecinos son tratados en clave de humor en esta comedia coral. Entre los protagonistas se encuentran una pareja de gays, tres ancianas cotillas que comparten piso, un particular portero y el sufrido presidente de la escalera.</desc>
+  </programme>
+  <programme start="20260305100700 +0000" stop="20260305115500 +0000" channel="Atreseries.es">
+    <title lang="es">Aquí no hay quien viva</title>
+    <desc lang="es">Los cotilleos, romances, filias y fobias que tienen lugar en una comunidad de vecinos son tratados en clave de humor en esta comedia coral. Entre los protagonistas se encuentran una pareja de gays, tres ancianas cotillas que comparten piso, un particular portero y el sufrido presidente de la escalera.</desc>
+  </programme>
+  <programme start="20260305115500 +0000" stop="20260305124300 +0000" channel="Atreseries.es">
+    <title lang="es">El mentalista</title>
+    <desc lang="es">Simon Baker es Patrick Jane, un asesor de la Brigada de Investigación Criminal (CBI) con un increíble historial a la hora de resolver crímenes usando sus habilidades de observación.</desc>
+  </programme>
+  <programme start="20260305124300 +0000" stop="20260305133200 +0000" channel="Atreseries.es">
+    <title lang="es">El mentalista</title>
+    <desc lang="es">Simon Baker es Patrick Jane, un asesor de la Brigada de Investigación Criminal (CBI) con un increíble historial a la hora de resolver crímenes usando sus habilidades de observación.</desc>
+  </programme>
+  <programme start="20260305133200 +0000" stop="20260305142000 +0000" channel="Atreseries.es">
+    <title lang="es">El mentalista</title>
+    <desc lang="es">Simon Baker es Patrick Jane, un asesor de la Brigada de Investigación Criminal (CBI) con un increíble historial a la hora de resolver crímenes usando sus habilidades de observación.</desc>
+  </programme>
+  <programme start="20260305142000 +0000" stop="20260305150900 +0000" channel="Atreseries.es">
+    <title lang="es">El mentalista</title>
+    <desc lang="es">Simon Baker es Patrick Jane, un asesor de la Brigada de Investigación Criminal (CBI) con un increíble historial a la hora de resolver crímenes usando sus habilidades de observación.</desc>
+  </programme>
+  <programme start="20260305150900 +0000" stop="20260305155700 +0000" channel="Atreseries.es">
+    <title lang="es">El mentalista</title>
+    <desc lang="es">Simon Baker es Patrick Jane, un asesor de la Brigada de Investigación Criminal (CBI) con un increíble historial a la hora de resolver crímenes usando sus habilidades de observación.</desc>
+  </programme>
+  <programme start="20260305155700 +0000" stop="20260305164600 +0000" channel="Atreseries.es">
+    <title lang="es">El mentalista</title>
+    <desc lang="es">Simon Baker es Patrick Jane, un asesor de la Brigada de Investigación Criminal (CBI) con un increíble historial a la hora de resolver crímenes usando sus habilidades de observación.</desc>
+  </programme>
+  <programme start="20260305164600 +0000" stop="20260305173400 +0000" channel="Atreseries.es">
+    <title lang="es">El mentalista</title>
+    <desc lang="es">Simon Baker es Patrick Jane, un asesor de la Brigada de Investigación Criminal (CBI) con un increíble historial a la hora de resolver crímenes usando sus habilidades de observación.</desc>
+  </programme>
+  <programme start="20260305173400 +0000" stop="20260305182300 +0000" channel="Atreseries.es">
+    <title lang="es">El mentalista</title>
+    <desc lang="es">Simon Baker es Patrick Jane, un asesor de la Brigada de Investigación Criminal (CBI) con un increíble historial a la hora de resolver crímenes usando sus habilidades de observación.</desc>
+  </programme>
+  <programme start="20260305182300 +0000" stop="20260305191100 +0000" channel="Atreseries.es">
+    <title lang="es">El mentalista</title>
+    <desc lang="es">Simon Baker es Patrick Jane, un asesor de la Brigada de Investigación Criminal (CBI) con un increíble historial a la hora de resolver crímenes usando sus habilidades de observación.</desc>
+  </programme>
+  <programme start="20260305191100 +0000" stop="20260305200000 +0000" channel="Atreseries.es">
+    <title lang="es">El mentalista</title>
+    <desc lang="es">Simon Baker es Patrick Jane, un asesor de la Brigada de Investigación Criminal (CBI) con un increíble historial a la hora de resolver crímenes usando sus habilidades de observación.</desc>
+  </programme>
+  <programme start="20260305200000 +0000" stop="20260305210200 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el paraíso</title>
+    <desc lang="es">Un nuevo detective se siente como pez fuera del agua cuando se une a las fuerzas policiales caribeñas.</desc>
+  </programme>
+  <programme start="20260305210200 +0000" stop="20260305220400 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el paraíso</title>
+    <desc lang="es">Un nuevo detective se siente como pez fuera del agua cuando se une a las fuerzas policiales caribeñas.</desc>
+  </programme>
+  <programme start="20260305220400 +0000" stop="20260305230600 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el paraíso</title>
+    <desc lang="es">Un nuevo detective se siente como pez fuera del agua cuando se une a las fuerzas policiales caribeñas.</desc>
+  </programme>
+  <programme start="20260305230600 +0000" stop="20260306000800 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el paraíso</title>
+    <desc lang="es">Un nuevo detective se siente como pez fuera del agua cuando se une a las fuerzas policiales caribeñas.</desc>
+  </programme>
+  <programme start="20260306000800 +0000" stop="20260306011000 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el paraíso</title>
+    <desc lang="es">Un nuevo detective se siente como pez fuera del agua cuando se une a las fuerzas policiales caribeñas.</desc>
+  </programme>
+  <programme start="20260306011000 +0000" stop="20260306015000 +0000" channel="Atreseries.es">
+    <title lang="es">Sportium Game Show</title>
+    <desc lang="es">Espacio conducido por Sofía Del Prado y con la colaboración de Gemma Manzanero, Marc Vila y Juanma Pastor, en el que se repasan las mejores apuestas y cuotas deportivas, y donde se descubren toda la variedad de juegos de casino, slots y poker de Sportium.</desc>
+  </programme>
+  <programme start="20260306015000 +0000" stop="20260306025300 +0000" channel="Atreseries.es">
+    <title lang="es">Aquí no hay quien viva</title>
+    <desc lang="es">Telecomedia que sigue la vida cotidiana de un edificio poblado por individuos muy particulares. Los vecinos son seres un tanto especiales entre los que no falta una pareja joven, una familia de clase media, dos amigas que comparten vivienda, un portero un tanto marciano y un nutrido grupo de cotillas.</desc>
+  </programme>
+  <programme start="20260306025300 +0000" stop="20260306035600 +0000" channel="Atreseries.es">
+    <title lang="es">Aquí no hay quien viva</title>
+    <desc lang="es">Los cotilleos, romances, filias y fobias que tienen lugar en una comunidad de vecinos son tratados en clave de humor en esta comedia coral. Entre los protagonistas se encuentran una pareja de gays, tres ancianas cotillas que comparten piso, un particular portero y el sufrido presidente de la escalera.</desc>
+  </programme>
+  <programme start="20260306035600 +0000" stop="20260306050000 +0000" channel="Atreseries.es">
+    <title lang="es">Aquí no hay quien viva</title>
+    <desc lang="es">Lucía (María Adánez) y Roberto (Daniel Guzmán) son una pareja de novios que acaba de mudarse a un curioso edificio. Los vecinos son seres un tanto especiales entre los que no falta una familia de clase media, una pareja de homosexuales y un nutrido grupo de cotillas.</desc>
+  </programme>
+  <programme start="20260306050000 +0000" stop="20260306053000 +0000" channel="Atreseries.es">
+    <title lang="es">Más de series</title>
+    <desc lang="es">Programa de producción propia que muestra curiosidades sobre las series de Atresmedia.</desc>
+  </programme>
+  <programme start="20260306053000 +0000" stop="20260306064600 +0000" channel="Atreseries.es">
+    <title lang="es">Allí abajo</title>
+    <desc lang="es">Segunda temporada de la serie en la que Carmen e Iñaki, una andaluza y un vasco, se enamoran en unas circumstancias algo complicadas. Tras superar bastantes obstáculos, la joven viaja al norte para conocer las costumbres y las amistades de su chico. Lo mejor llegará cuando las vecinas y el padre de Carmen desembarquen en Euskadi para protegerla.</desc>
+  </programme>
+  <programme start="20260306064600 +0000" stop="20260306080300 +0000" channel="Atreseries.es">
+    <title lang="es">Allí abajo</title>
+    <desc lang="es">Segunda temporada de la serie en la que Carmen e Iñaki, una andaluza y un vasco, se enamoran en unas circumstancias algo complicadas. Tras superar bastantes obstáculos, la joven viaja al norte para conocer las costumbres y las amistades de su chico. Lo mejor llegará cuando las vecinas y el padre de Carmen desembarquen en Euskadi para protegerla.</desc>
+  </programme>
+  <programme start="20260306080300 +0000" stop="20260306092000 +0000" channel="Atreseries.es">
+    <title lang="es">Allí abajo</title>
+    <desc lang="es">Segunda temporada de la serie en la que Carmen e Iñaki, una andaluza y un vasco, se enamoran en unas circumstancias algo complicadas. Tras superar bastantes obstáculos, la joven viaja al norte para conocer las costumbres y las amistades de su chico. Lo mejor llegará cuando las vecinas y el padre de Carmen desembarquen en Euskadi para protegerla.</desc>
+  </programme>
+  <programme start="20260306092000 +0000" stop="20260306102300 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el paraíso</title>
+    <desc lang="es">Un nuevo detective se siente como pez fuera del agua cuando se une a las fuerzas policiales caribeñas.</desc>
+  </programme>
+  <programme start="20260306102300 +0000" stop="20260306112700 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el paraíso</title>
+    <desc lang="es">Un nuevo detective se siente como pez fuera del agua cuando se une a las fuerzas policiales caribeñas.</desc>
+  </programme>
+  <programme start="20260306112700 +0000" stop="20260306123000 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el paraíso</title>
+    <desc lang="es">Un nuevo detective se siente como pez fuera del agua cuando se une a las fuerzas policiales caribeñas.</desc>
+  </programme>
+  <programme start="20260306123000 +0000" stop="20260306133400 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el paraíso</title>
+    <desc lang="es">Un nuevo detective se siente como pez fuera del agua cuando se une a las fuerzas policiales caribeñas.</desc>
+  </programme>
+  <programme start="20260306133400 +0000" stop="20260306143800 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el paraíso</title>
+    <desc lang="es">Un nuevo detective se siente como pez fuera del agua cuando se une a las fuerzas policiales caribeñas.</desc>
+  </programme>
+  <programme start="20260306143800 +0000" stop="20260306154100 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el paraíso</title>
+    <desc lang="es">Un nuevo detective se siente como pez fuera del agua cuando se une a las fuerzas policiales caribeñas.</desc>
+  </programme>
+  <programme start="20260306154100 +0000" stop="20260306164500 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el paraíso</title>
+    <desc lang="es">Un nuevo detective se siente como pez fuera del agua cuando se une a las fuerzas policiales caribeñas.</desc>
+  </programme>
+  <programme start="20260306164500 +0000" stop="20260306174900 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el paraíso</title>
+    <desc lang="es">Un nuevo detective se siente como pez fuera del agua cuando se une a las fuerzas policiales caribeñas.</desc>
+  </programme>
+  <programme start="20260306174900 +0000" stop="20260306185200 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el paraíso</title>
+    <desc lang="es">Un nuevo detective se siente como pez fuera del agua cuando se une a las fuerzas policiales caribeñas.</desc>
+  </programme>
+  <programme start="20260306185200 +0000" stop="20260306195600 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el paraíso</title>
+    <desc lang="es">Un nuevo detective se siente como pez fuera del agua cuando se une a las fuerzas policiales caribeñas.</desc>
+  </programme>
+  <programme start="20260306195600 +0000" stop="20260306210000 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el paraíso</title>
+    <desc lang="es">Un nuevo detective se siente como pez fuera del agua cuando se une a las fuerzas policiales caribeñas.</desc>
+  </programme>
+  <programme start="20260306210000 +0000" stop="20260306215700 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el trópico</title>
+    <desc lang="es">La comandante Melissa Sainte-Rose, una fiel seguidora de las normas y el orden, se traslada a su isla natal, Martinica, donde debe trabajar con la capitana Gaelle Crivelli. Junto al teniente Aurélien Charlery se completarán a la perfección para resolver cualquier caso.</desc>
+  </programme>
+  <programme start="20260306215700 +0000" stop="20260306225500 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el trópico</title>
+    <desc lang="es">La comandante Melissa Sainte-Rose, una fiel seguidora de las normas y el orden, se traslada a su isla natal, Martinica, donde debe trabajar con la capitana Gaelle Crivelli. Junto al teniente Aurélien Charlery se completarán a la perfección para resolver cualquier caso.</desc>
+  </programme>
+  <programme start="20260306225500 +0000" stop="20260306235200 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el trópico</title>
+    <desc lang="es">La comandante Melissa Sainte-Rose, una fiel seguidora de las normas y el orden, se traslada a su isla natal, Martinica, donde debe trabajar con la capitana Gaelle Crivelli. Junto al teniente Aurélien Charlery se completarán a la perfección para resolver cualquier caso.</desc>
+  </programme>
+  <programme start="20260306235200 +0000" stop="20260307005000 +0000" channel="Atreseries.es">
+    <title lang="es">Crimen en el trópico</title>
+    <desc lang="es">La comandante Melissa Sainte-Rose, una fiel seguidora de las normas y el orden, se traslada a su isla natal, Martinica, donde debe trabajar con la capitana Gaelle Crivelli. Junto al teniente Aurélien Charlery se completarán a la perfección para resolver cualquier caso.</desc>
+  </programme>
+  <programme start="20260307005000 +0000" stop="20260307013000 +0000" channel="Atreseries.es">
+    <title lang="es">Sportium Game Show</title>
+    <desc lang="es">Espacio conducido por Sofía Del Prado y con la colaboración de Gemma Manzanero, Marc Vila y Juanma Pastor, en el que se repasan las mejores apuestas y cuotas deportivas, y donde se descubren toda la variedad de juegos de casino, slots y poker de Sportium.</desc>
+  </programme>
+  <programme start="20260307013000 +0000" stop="20260307030000 +0000" channel="Atreseries.es">
+    <title lang="es">Aquí no hay quien viva</title>
+    <desc lang="es">Los cotilleos, romances, filias y fobias que tienen lugar en una comunidad de vecinos son tratados en clave de humor en esta comedia coral. En la tercera temporada de la serie, las tramas giran alrededor de la fuerte crisis de pareja que viven Roberto y Lucía; la fuga del caradura Andrés Guerra, en busca y captura por fraude fiscal, y en la nueva vida que inician Belén y Emilio como pareja. Además, la actriz Carmen Balagué se incorpora al reparto dando vida a Nieves, la hermana mayor del sufrido Juan Cuesta.</desc>
+  </programme>
+  <programme start="20260307030000 +0000" stop="20260307050000 +0000" channel="Atreseries.es">
+    <title lang="es">Aquí no hay quien viva</title>
+    <desc lang="es">Los cotilleos, romances, filias y fobias que tienen lugar en una comunidad de vecinos son tratados en clave de humor en esta comedia coral. Entre los protagonistas se encuentran una pareja de gays, tres ancianas cotillas que comparten piso, un particular portero y el sufrido presidente de la escalera.</desc>
+  </programme>
+  <programme start="20260307050000 +0000" stop="20260307064600 +0000" channel="Atreseries.es">
+    <title lang="es">Allí abajo</title>
+    <desc lang="es">Tercera temporada de la comedia sobre las relaciones entre vascos y andaluces. Una vez que Iñaki descubre que tiene una plaza en la cocina de Arzak, él y Carmen se trasladan a vivir al norte. Esto contrasta con Maritxu que, después de iniciar un romance con Don Benjumea, se instala en Sevilla y tendrá que luchar por una herencia inesperada. En Euskadi, Bego toma las riendas de la taberna Kaia, y descubrirá una grieta que amenaza el local.</desc>
   </programme>
 </tv>
