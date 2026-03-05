@@ -99,6 +99,7 @@ HBOPop.co
 HBOSignature.co
 HBOXtreme.co
 History.co
+HISTORY2.uy
 History2.co
 HOLATV.co
 KANALD.uy
