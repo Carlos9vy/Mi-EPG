@@ -4,11 +4,8 @@ import os
 import gzip
 import io
 
-# 1. Agrega aquí todas las URLs que necesites
 EPG_SOURCES = [
-    "https://iptv-epg.org/files/epg-ztjwyq.xml",
-    "https://iptv-epg.org/files/epg-bo.xml",
-    "https://iptv-epg.org/files/epg-py.xml" # Ejemplo de fuente comprimida
+    "https://iptv-epg.org/files/epg-ztjwyq.xml"
 ]
 
 CANALES_FILE = "canales.txt"
@@ -19,11 +16,10 @@ def filter_epg():
         print("Error: No existe canales.txt")
         return
 
-    # Leer canales y limpiar espacios
     with open(CANALES_FILE, 'r', encoding='utf-8') as f:
         whitelist = set(line.strip() for line in f if line.strip())
     
-    print(f"Buscando {len(whitelist)} canales en {len(EPG_SOURCES)} fuentes.")
+    print(f"Buscando {len(whitelist)} canales.")
 
     with open(OUTPUT_FILE, 'wb') as f:
         f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
@@ -32,44 +28,34 @@ def filter_epg():
         headers = {'User-Agent': 'Mozilla/5.0'}
 
         for url in EPG_SOURCES:
-            print(f"--- Procesando: {url} ---")
             try:
                 r = requests.get(url, headers=headers, timeout=60)
                 r.raise_for_status()
                 
-                # Detectar si el archivo está comprimido en GZIP
-                if url.endswith(".gz") or r.content[:2] == b'\x1f\x8b':
-                    content = gzip.decompress(r.content)
-                else:
-                    content = r.content
+                content = gzip.decompress(r.content) if (url.endswith(".gz") or r.content[:2] == b'\x1f\x8b') else r.content
 
+                # Usamos iterparse pero recuperamos el objeto completo
                 context = ET.iterparse(io.BytesIO(content), events=('end',))
                 
-                c_count = 0
-                p_count = 0
-
                 for event, elem in context:
-                    if elem.tag == 'channel':
-                        if elem.get('id') in whitelist:
-                            f.write(ET.tostring(elem, encoding='utf-8'))
-                            f.write(b'\n')
-                            c_count += 1
+                    if elem.tag == 'channel' and elem.get('id') in whitelist:
+                        # Forzamos la escritura completa del nodo
+                        f.write(ET.tostring(elem, encoding='utf-8', method='xml'))
+                        f.write(b'\n')
                     
-                    elif elem.tag == 'programme':
-                        if elem.get('channel') in whitelist:
-                            f.write(ET.tostring(elem, encoding='utf-8'))
-                            f.write(b'\n')
-                            p_count += 1
+                    elif elem.tag == 'programme' and elem.get('channel') in whitelist:
+                        # Forzamos la escritura completa del nodo
+                        f.write(ET.tostring(elem, encoding='utf-8', method='xml'))
+                        f.write(b'\n')
                     
-                    elem.clear() # Liberar memoria RAM
+                    # No limpiamos el elemento inmediatamente para asegurar que se procesen los hijos
+                    # elem.clear() <- Quitamos esto de aquí dentro para probar
                 
-                print(f"Logrado: {c_count} canales y {p_count} programas.")
-
             except Exception as e:
-                print(f"Error en esta fuente: {e}")
+                print(f"Error: {e}")
 
         f.write(b'</tv>')
-    print("\n¡Proceso finalizado con éxito!")
+    print("¡EPG Generada con éxito!")
 
 if __name__ == "__main__":
     filter_epg()
