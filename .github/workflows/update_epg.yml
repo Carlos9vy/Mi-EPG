@@ -3,7 +3,7 @@ name: Actualizar EPG Filtrada
 on:
   schedule:
     - cron: '0 0 * * *' # Se ejecuta automáticamente cada medianoche (hora UTC)
-  workflow_dispatch:      # Permite que tú lo ejecutes manualmente cuando quieras
+  workflow_dispatch:      # Permite ejecución manual desde la pestaña Actions
 
 jobs:
   build:
@@ -25,21 +25,22 @@ jobs:
       - name: 3. Instalar librerías necesarias
         run: pip install requests
 
-      - name: 4. Ejecutar el script de filtrado
+      - name: 4. Ejecutar el script de filtrado y detección de errores
         run: python filter_epg.py
 
-      - name: 5. Guardar y subir los cambios
+      - name: 5. Guardar y subir los cambios (EPG + Log de Errores)
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # Añadimos el archivo generado (o cualquier cambio)
-          git add epg_reducida.xml
+          # Añadimos la EPG generada y el reporte de canales no encontrados
+          git add epg_reducida.xml errores_canales.txt
           
-          # Verificamos si hay cambios reales para evitar errores si el archivo es idéntico
+          # Verificamos si hay cambios reales para evitar commits vacíos
           if git diff --staged --quiet; then
-            echo "No hay cambios en la EPG, nada que actualizar."
+            echo "No hay cambios detectados en la EPG ni en los errores."
           else
-            git commit -m "Actualización automática de EPG: $(date +'%Y-%m-%d %H:%M')"
+            git commit -m "Actualización automática EPG: $(date +'%Y-%m-%d %H:%M')"
             git push
+          
           fi
