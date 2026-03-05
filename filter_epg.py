@@ -11,46 +11,58 @@ def filter_epg():
         print("Error: No existe canales.txt")
         return
 
+    # Cargamos canales y limpiamos espacios o líneas vacías
     with open(CANALES_FILE, 'r') as f:
         whitelist = set(line.strip() for line in f if line.strip())
     
-    print(f"Buscando estos {len(whitelist)} canales: {whitelist}")
+    print(f"Lista de búsqueda: {whitelist}")
 
     with open(OUTPUT_FILE, 'wb') as f:
+        # Escribimos la cabecera idéntica a la original
         f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
-        f.write(b'<tv>\n')
+        f.write(b'<tv source-info-name="IPTV-EPG.org" source-info-url="https://iptv-epg.org">\n')
+
+        headers = {'User-Agent': 'Mozilla/5.0'}
 
         for url in EPG_SOURCES:
-            print(f"Descargando de: {url}")
+            print(f"Conectando a: {url}")
             try:
-                r = requests.get(url, stream=True)
-                # Usamos iterparse para no cargar todo en RAM
-                context = ET.iterparse(r.raw, events=('end',))
+                # Quitamos el stream=True momentáneamente para asegurar descarga completa
+                r = requests.get(url, headers=headers, timeout=60)
+                r.raise_for_status()
                 
-                encontrados_id = 0
-                encontrados_prog = 0
+                # Usamos iterparse sobre el contenido descargado
+                import io
+                content = io.BytesIO(r.content)
+                context = ET.iterparse(content, events=('end',))
+                
+                c_count = 0
+                p_count = 0
 
                 for event, elem in context:
+                    # Filtro de canales
                     if elem.tag == 'channel':
-                        canal_id = elem.get('id')
-                        if canal_id in whitelist:
+                        cid = elem.get('id')
+                        if cid in whitelist:
                             f.write(ET.tostring(elem, encoding='utf-8'))
                             f.write(b'\n')
-                            encontrados_id += 1
+                            c_count += 1
                     
+                    # Filtro de programas (la guía)
                     elif elem.tag == 'programme':
-                        prog_id = elem.get('channel')
-                        if prog_id in whitelist:
+                        pid = elem.get('channel')
+                        if pid in whitelist:
                             f.write(ET.tostring(elem, encoding='utf-8'))
                             f.write(b'\n')
-                            encontrados_prog += 1
+                            p_count += 1
                     
+                    # Importante: liberar memoria
                     elem.clear()
                 
-                print(f"Resultado: {encontrados_id} canales y {encontrados_prog} programas hallados.")
+                print(f"Encontrados: {c_count} canales y {p_count} programas.")
 
             except Exception as e:
-                print(f"Error procesando URL: {e}")
+                print(f"Error procesando: {e}")
 
         f.write(b'</tv>')
 
