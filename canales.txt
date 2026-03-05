@@ -29,7 +29,7 @@ DHE.cl
 DIRECTVSports.pe
 Discovery.cl
 DiscoveryChannel.ar
-DiscoveryHomeAndHealth.pe
+DiscoveryHome&Health.pe
 InvestigationDiscovery.co
 DiscoveryKids.co
 DiscoveryScience.co
@@ -45,7 +45,7 @@ Enlace.co
 EnlaceJuvenil.co
 ESNE.mx
 ESPN.ar
-ESPNSur3.er
+ESPNSur3.ar
 ESPN2.uy
 ESPN3.ar
 ESPN3.co
@@ -55,11 +55,28 @@ ESPN6.uy
 ESPN7.uy
 EuroChannel.co
 EWTN.cl
-Film&Arts.co
-
-
-
-
+film&arts.co
+FOODNETWORK.uy
+FRANCE24.uy
+FX.co
+GoldenEdge.mx
+GolfChannel.co
+HBO.co
+HBO2.mx
+HBO2.co
+HBOFamily.co
+HBOMundi.co
+HBOPlus(Panamericano).co
+HBOPop.co
+HBOSignature.co
+HBOXtreme.co
+History.co
+History2.co
+HOLATV.co
+KANALD.uy
+LASESTRELLAS.uy
+Lifetime.co
+Mega.cl
 
 
 
