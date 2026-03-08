@@ -1,0 +1,57 @@
+REPORTE DE COBERTURA DE DÍAS POR FUENTE
+========================================
+
+--- FUENTE 1 (epg-ztjwyq.xml) ---
+Inicia:  07/02/2024 15:00
+Finaliza: 10/03/2026 20:54
+Total días de programación: 762 días y 5 horas
+----------------------------------------
+
+--- FUENTE 2 (epg-bo.xml) ---
+Inicia:  05/03/2026 23:00
+Finaliza: 10/03/2026 04:50
+Total días de programación: 4 días y 5 horas
+----------------------------------------
+
+--- FUENTE 3 (epg-cr.xml) ---
+Inicia:  05/03/2026 23:00
+Finaliza: 10/03/2026 04:55
+Total días de programación: 4 días y 5 horas
+----------------------------------------
+
+--- FUENTE 4 (epg-do.xml) ---
+Inicia:  05/03/2026 23:00
+Finaliza: 10/03/2026 04:50
+Total días de programación: 4 días y 5 horas
+----------------------------------------
+
+--- FUENTE 5 (epg-sv.xml) ---
+Inicia:  06/03/2026 00:00
+Finaliza: 10/03/2026 04:56
+Total días de programación: 4 días y 4 horas
+----------------------------------------
+
+--- FUENTE 6 (epg-gt.xml) ---
+Inicia:  05/03/2026 23:00
+Finaliza: 10/03/2026 04:56
+Total días de programación: 4 días y 5 horas
+----------------------------------------
+
+--- FUENTE 7 (epg-hn.xml) ---
+Inicia:  05/03/2026 23:00
+Finaliza: 10/03/2026 04:56
+Total días de programación: 4 días y 5 horas
+----------------------------------------
+
+--- FUENTE 8 (epg-py.xml) ---
+Inicia:  05/03/2026 23:01
+Finaliza: 10/03/2026 04:57
+Total días de programación: 4 días y 5 horas
+----------------------------------------
+
+--- FUENTE 9 (epg-pa.xml) ---
+Inicia:  05/03/2026 23:00
+Finaliza: 10/03/2026 04:57
+Total días de programación: 4 días y 5 horas
+----------------------------------------
+
