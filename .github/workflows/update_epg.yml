@@ -2,14 +2,14 @@ name: Actualizar EPG Filtrada
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Se ejecuta automáticamente cada medianoche (hora UTC)
-  workflow_dispatch:      # Permite ejecución manual desde la pestaña Actions
+    - cron: '0 0 * * *' # Ejecución automática cada medianoche (UTC)
+  workflow_dispatch:      # Permite ejecución manual
 
 jobs:
   build:
     runs-on: ubuntu-latest
     
-    # Permisos necesarios para que el robot pueda escribir en tu repositorio
+    # Permisos para que el robot pueda guardar los archivos en tu repositorio
     permissions:
       contents: write
 
@@ -22,25 +22,24 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: 3. Instalar librerías necesarias
+      - name: 3. Instalar librerías
         run: pip install requests
 
-      - name: 4. Ejecutar el script de filtrado y detección de errores
+      - name: 4. Ejecutar script de filtrado y optimización
         run: python filter_epg.py
 
-      - name: 5. Guardar y subir los cambios (EPG + Log de Errores)
+      - name: 5. Guardar y subir cambios (XML, GZ y Errores)
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # Añadimos la EPG generada y el reporte de canales no encontrados
-          git add epg_reducida.xml errores_canales.txt
+          # Agregamos los tres archivos resultantes
+          git add epg_reducida.xml epg_reducida.xml.gz errores_canales.txt
           
-          # Verificamos si hay cambios reales para evitar commits vacíos
+          # Verificamos si hay cambios antes de hacer el commit
           if git diff --staged --quiet; then
-            echo "No hay cambios detectados en la EPG ni en los errores."
+            echo "No hay cambios nuevos para subir."
           else
-            git commit -m "Actualización automática EPG: $(date +'%Y-%m-%d %H:%M')"
+            git commit -m "Actualización EPG optimizada: $(date +'%Y-%m-%d %H:%M')"
             git push
-          
           fi
