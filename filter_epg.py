@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 import requests
 import os
 import gzip
+import io
 
 EPG_SOURCES = [
     "https://iptv-epg.org/files/epg-ztjwyq.xml",
@@ -27,48 +28,64 @@ def filter_epg():
         whitelist = set(line.strip() for line in f if line.strip())
     
     canales_encontrados = set()
-    new_tv = ET.Element('tv', {'source-info-name': 'EPG Optimizada LG Netcast'})
+    
+    # Creamos la raíz del XML
+    root = ET.Element('tv', {'generator-info-name': 'Generador EPG Pro', 'generator-info-url': 'https://github.com'})
 
     headers = {'User-Agent': 'Mozilla/5.0'}
 
     for url in EPG_SOURCES:
         try:
+            print(f"Escaneando a fondo: {url}")
             r = requests.get(url, headers=headers, timeout=60)
+            r.raise_for_status()
+            
             content = gzip.decompress(r.content) if (url.endswith(".gz") or r.content[:2] == b'\x1f\x8b') else r.content
-            tree = ET.fromstring(content)
             
-            for channel in tree.findall('channel'):
-                cid = channel.get('id')
-                if cid in whitelist and cid not in canales_encontrados:
-                    new_tv.append(channel)
-                    canales_encontrados.add(cid)
+            # Usamos iterparse para no saltarnos ninguna línea por pesada que sea
+            context = ET.iterparse(io.BytesIO(content), events=('start', 'end'))
             
-            for programme in tree.findall('programme'):
-                if programme.get('channel') in whitelist:
-                    # OPTIMIZACIÓN: Quitamos etiquetas pesadas que Netcast no suele usar
-                    for tag in ['credits', 'country', 'date', 'language']:
-                        elem = programme.find(tag)
-                        if elem is not None: programme.remove(elem)
-                    new_tv.append(programme)
+            for event, elem in context:
+                # Al encontrar el final de una etiqueta...
+                if event == 'end':
+                    # Si es un CANAL
+                    if elem.tag == 'channel':
+                        cid = elem.get('id')
+                        if cid in whitelist and cid not in canales_encontrados:
+                            root.append(elem)
+                            canales_encontrados.add(cid)
+                    
+                    # Si es un PROGRAMA
+                    elif elem.tag == 'programme':
+                        pid = elem.get('channel')
+                        if pid in whitelist:
+                            # Limpieza rápida para que LG Netcast no se sature
+                            for extra in ['credits', 'country', 'language']:
+                                target = elem.find(extra)
+                                if target is not None: elem.remove(target)
+                            root.append(elem)
+                    
+                    # Importante: No limpiar 'elem' aquí porque lo acabamos de añadir a 'root'
+                    # Solo lo removemos del árbol temporal de lectura para ahorrar RAM
+                    # (Pero en este caso, al ser filtrado, lo mantenemos en memoria root)
+
         except Exception as e:
-            print(f"Error: {e}")
+            print(f"Error crítico leyendo fuente: {e}")
 
-    # 1. Guardar XML normal
-    final_tree = ET.ElementTree(new_tv)
-    final_tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
-
-    # 2. Guardar versión GZIP (La que mejor le va a LG Netcast)
+    # Guardado final (XML y GZ)
+    tree = ET.ElementTree(root)
+    tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
-        final_tree.write(f, encoding='utf-8', xml_declaration=True)
+        tree.write(f, encoding='utf-8', xml_declaration=True)
 
-    # 3. Reporte de errores
-    canales_con_error = whitelist - canales_encontrados
+    # Reporte de canales que el código NO pudo encontrar
+    faltantes = whitelist - canales_encontrados
     with open(LOG_ERRORES, 'w', encoding='utf-8') as f:
-        if canales_con_error:
-            f.write("⚠️ NO ENCONTRADOS:\n")
-            for c in sorted(canales_con_error): f.write(f"- {c}\n")
+        if faltantes:
+            f.write("⚠️ ESTOS CANALES NO SE LEYERON (REVISA EL ID):\n")
+            for c in sorted(faltantes): f.write(f"- {c}\n")
         else:
-            f.write("✅ Todo OK.")
+            f.write("✅ ¡Éxito! Se leyó toda la información de tu lista.")
 
 if __name__ == "__main__":
     filter_epg()
