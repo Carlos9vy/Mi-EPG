@@ -1,63 +1,62 @@
 #EXTM3U
-#PLAYLIST: The Pitt - Temporada 1
 
-#EXTINF:-1 tvg-id="pitt-s01e01" tvg-logo="https://image.tmdb.org/t/p/w500/ayWb4xVUahzP7xDlILfyoZTzB6B.jpg" group-title="The Pitt", 1. Hora uno: 7:00 AM - 8:00 AM
+#EXTINF:-1 tvg-type="serie" tvg-id="pitt-s01e01" tvg-logo="https://image.tmdb.org/t/p/w500/ayWb4xVUahzP7xDlILfyoZTzB6B.jpg" group-title="The Pitt", 1. Hora uno: 7:00 AM - 8:00 AM
 #EXTVODDESC: Mientras intenta olvidar el aniversario de la muerte de su mentor, el Dr. Robby introduce a un nuevo grupo de internos en la vida de Urgencias.
 http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_01.mkv
 
-#EXTINF:-1 tvg-id="pitt-s01e02" tvg-logo="https://image.tmdb.org/t/p/w500/6ArDi8ixkE3SZRBfn0PkLBRqdkO.jpg" group-title="The Pitt", 2. Hora dos: 8:00 AM - 9:00 AM
+#EXTINF:-1 tvg-type="serie" tvg-id="pitt-s01e02" tvg-logo="https://image.tmdb.org/t/p/w500/6ArDi8ixkE3SZRBfn0PkLBRqdkO.jpg" group-title="The Pitt", 2. Hora dos: 8:00 AM - 9:00 AM
 #EXTVODDESC: Robby ayuda a sus hermanos a afrontar la muerte de su padre. Samira se enfrenta a policías que persiguen a una mujer con una enfermedad rara.
 http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_02.mkv
 
-#EXTINF:-1 tvg-id="pitt-s01e03" tvg-logo="https://image.tmdb.org/t/p/w500/oBACF8XZBn0yO8HcNoUEHXUIFIt.jpg" group-title="The Pitt", 3. Hora tres: 9:00 AM - 10:00 AM
+#EXTINF:-1 tvg-type="serie" tvg-id="pitt-s01e03" tvg-logo="https://image.tmdb.org/t/p/w500/oBACF8XZBn0yO8HcNoUEHXUIFIt.jpg" group-title="The Pitt", 3. Hora tres: 9:00 AM - 10:00 AM
 #EXTVODDESC: Samira hace todo lo posible por mantener a Whitaker en el buen camino. La sobredosis de un adolescente desata el conflicto en Urgencias.
 http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_03.mkv
 
-#EXTINF:-1 tvg-id="pitt-s01e04" tvg-logo="https://image.tmdb.org/t/p/w500/pF2vCpszIqVnBzeXOHCzrRHQhyO.jpg" group-title="The Pitt", 4. Hora cuatro: 10:00 AM - 11:00 AM
+#EXTINF:-1 tvg-type="serie" tvg-id="pitt-s01e04" tvg-logo="https://image.tmdb.org/t/p/w500/pF2vCpszIqVnBzeXOHCzrRHQhyO.jpg" group-title="The Pitt", 4. Hora cuatro: 10:00 AM - 11:00 AM
 #EXTVODDESC: Se hacen apuestas sobre el paradero de una ambulancia robada, Santos aprende una lección y Whitaker ayuda a domar a «El Kraken».
 http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_04.mkv
 
-#EXTINF:-1 tvg-id="pitt-s01e05" tvg-logo="https://image.tmdb.org/t/p/w500/yTZeG8q10PgHsaD65zhgMFIrDtc.jpg" group-title="The Pitt", 5. Hora cinco: 11:00 AM - 12:00 PM
+#EXTINF:-1 tvg-type="serie" tvg-id="pitt-s01e05" tvg-logo="https://image.tmdb.org/t/p/w500/yTZeG8q10PgHsaD65zhgMFIrDtc.jpg" group-title="The Pitt", 5. Hora cinco: 11:00 AM - 12:00 PM
 #EXTVODDESC: Santos y Collins se enfrentan a dilemas morales. El enfoque de Samira se gana los elogios de los pacientes y los reproches de Robby.
 http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_05.mkv
 
-#EXTINF:-1 tvg-id="pitt-s01e06" tvg-logo="https://image.tmdb.org/t/p/w500/eQkpHLRtGAgVl1c0rVWBC8r2lgo.jpg" group-title="The Pitt", 6. Hora seis: 12:00 PM - 1:00 PM
+#EXTINF:-1 tvg-type="serie" tvg-id="pitt-s01e06" tvg-logo="https://image.tmdb.org/t/p/w500/eQkpHLRtGAgVl1c0rVWBC8r2lgo.jpg" group-title="The Pitt", 6. Hora seis: 12:00 PM - 1:00 PM
 #EXTVODDESC: Mientras Robby se enfrenta a un ultimátum del hospital, Mel, Javadi y Collins gestionan dinámicas madre-hija únicas.
 http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_06.mkv
 
-#EXTINF:-1 tvg-id="pitt-s01e07" tvg-logo="https://image.tmdb.org/t/p/w500/nof5sLfwbTHnzt7PsgXtYc8qots.jpg" group-title="The Pitt", 7. Hora siete: 1:00 PM - 2:00 PM
+#EXTINF:-1 tvg-type="serie" tvg-id="pitt-s01e07" tvg-logo="https://image.tmdb.org/t/p/w500/nof5sLfwbTHnzt7PsgXtYc8qots.jpg" group-title="The Pitt", 7. Hora siete: 1:00 PM - 2:00 PM
 #EXTVODDESC: Tras examinar a una influencer con síntomas extraños, Samira se enfrenta a Robby. Santos se enfrenta a un paciente acusado de agresión.
 http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_07.mkv
 
-#EXTINF:-1 tvg-id="pitt-s01e08" tvg-logo="https://image.tmdb.org/t/p/w500/9VR1E1q3IN7zoNmzZKvqAzxcpv6.jpg" group-title="The Pitt", 8. Hora ocho: 2:00 PM - 3:00 PM
+#EXTINF:-1 tvg-type="serie" tvg-id="pitt-s01e08" tvg-logo="https://image.tmdb.org/t/p/w500/9VR1E1q3IN7zoNmzZKvqAzxcpv6.jpg" group-title="The Pitt", 8. Hora ocho: 2:00 PM - 3:00 PM
 #EXTVODDESC: Mientras Robby atiende a un paciente mayor relacionado con la historia de Pittsburgh, otros miembros del equipo intentan reanimar a un joven ahogado.
 http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_08.mkv
 
-#EXTINF:-1 tvg-id="pitt-s01e09" tvg-logo="https://image.tmdb.org/t/p/w500/hgoLaQ9c4uJ1QY8X9cOBeiWKhPg.jpg" group-title="The Pitt", 9. Hora nueve: 3:00 PM - 4:00 PM
+#EXTINF:-1 tvg-type="serie" tvg-id="pitt-s01e09" tvg-logo="https://image.tmdb.org/t/p/w500/hgoLaQ9c4uJ1QY8X9cOBeiWKhPg.jpg" group-title="The Pitt", 9. Hora nueve: 3:00 PM - 4:00 PM
 #EXTVODDESC: Después de la reunión con Robby, Dana evita una pelea en la sala de espera y Whitaker encuentra un punto en común con 'El Kraken'.
 http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_09.mkv
 
-#EXTINF:-1 tvg-id="pitt-s01e10" tvg-logo="https://image.tmdb.org/t/p/w500/xH8XPQbB6MZabyvEj6yK6jiVQxT.jpg" group-title="The Pitt", 10. Hora diez: 4:00 PM - 5:00 PM
+#EXTINF:-1 tvg-type="serie" tvg-id="pitt-s01e10" tvg-logo="https://image.tmdb.org/t/p/w500/xH8XPQbB6MZabyvEj6yK6jiVQxT.jpg" group-title="The Pitt", 10. Hora diez: 4:00 PM - 5:00 PM
 #EXTVODDESC: Con un miembro menos en el equipo del Pitt, Robby confía en que su equipo se haga cargo. Más tarde, Santos finalmente da voz a sus sospechas.
 http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_10.mkv
 
-#EXTINF:-1 tvg-id="pitt-s01e11" tvg-logo="https://image.tmdb.org/t/p/w500/sjJBIya3Hn7o9Goatd3TxiOLQiq.jpg" group-title="The Pitt", 11. Hora once: 5:00 PM - 6:00 PM
+#EXTINF:-1 tvg-type="serie" tvg-id="pitt-s01e11" tvg-logo="https://image.tmdb.org/t/p/w500/sjJBIya3Hn7o9Goatd3TxiOLQiq.jpg" group-title="The Pitt", 11. Hora once: 5:00 PM - 6:00 PM
 #EXTVODDESC: Mientras Robby intenta manejar discretamente una situación con el personal, Collins acompaña a una madre subrogada en un parto complicado.
 http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_11.mkv
 
-#EXTINF:-1 tvg-id="pitt-s01e12" tvg-logo="https://image.tmdb.org/t/p/w500/o4RHUNjjVTai7XbJqnF8aZ6QvRB.jpg" group-title="The Pitt", 12. Hora doce: 6:00 PM - 7:00 PM
+#EXTINF:-1 tvg-type="serie" tvg-id="pitt-s01e12" tvg-logo="https://image.tmdb.org/t/p/w500/o4RHUNjjVTai7XbJqnF8aZ6QvRB.jpg" group-title="The Pitt", 12. Hora doce: 6:00 PM - 7:00 PM
 #EXTVODDESC: Cuando docenas de pacientes críticos inundan urgencias, Robby y su equipo luchan por mantener el ritmo en medio de una rápida disminución de los suministros.
 http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_12.mkv
 
-#EXTINF:-1 tvg-id="pitt-s01e13" tvg-logo="https://image.tmdb.org/t/p/w500/xJF2Mqqj50G1uke9f5bOVAJDmer.jpg" group-title="The Pitt", 13. Hora trece: 7:00 PM - 8:00 PM
+#EXTINF:-1 tvg-type="serie" tvg-id="pitt-s01e13" tvg-logo="https://image.tmdb.org/t/p/w500/xJF2Mqqj50G1uke9f5bOVAJDmer.jpg" group-title="The Pitt", 13. Hora trece: 7:00 PM - 8:00 PM
 #EXTVODDESC: Cuando comienza el turno de noche y aumenta el número de muertos, Robby se niega a abandonar a una víctima masiva, incluso después de que Abbott intervenga. Incapaces de encontrar un médico de guardia, Santos y Samira intentan arriesgarse para salvar la vida de sus pacientes.
 http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_13.mkv
 
-#EXTINF:-1 tvg-id="pitt-s01e14" tvg-logo="https://image.tmdb.org/t/p/w500/rtqwpIO26nLKR2QHKJqzs5l2PVz.jpg" group-title="The Pitt", 14. Hora catorce: 8:00 PM - 9:00 PM
+#EXTINF:-1 tvg-type="serie" tvg-id="pitt-s01e14" tvg-logo="https://image.tmdb.org/t/p/w500/rtqwpIO26nLKR2QHKJqzs5l2PVz.jpg" group-title="The Pitt", 14. Hora catorce: 8:00 PM - 9:00 PM
 #EXTVODDESC: Cuando Urgencias empieza a calmarse, Robby lucha por superar una pérdida, mientras que Abbott y Samira se enfrentan al rápido deterioro de un paciente.
 http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_14.mkv
 
-#EXTINF:-1 tvg-id="pitt-s01e15" tvg-logo="https://image.tmdb.org/t/p/w500/bmkXebhqV00lfS5DiXtBHnqbQKm.jpg" group-title="The Pitt", 15. Hora quince: 9:00 PM - 10:00 PM
+#EXTINF:-1 tvg-type="serie" tvg-id="pitt-s01e15" tvg-logo="https://image.tmdb.org/t/p/w500/bmkXebhqV00lfS5DiXtBHnqbQKm.jpg" group-title="The Pitt", 15. Hora quince: 9:00 PM - 10:00 PM
 #EXTVODDESC: Mientras el turno de día se prepara para volver finalmente a casa, Robby recurre a métodos poco ortodoxos para convencer al padre de un adolescente en estado crítico de que le permita recibir tratamiento.
 http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_15.mkv
 
