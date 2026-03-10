@@ -1,159 +1,159 @@
-LISTA DE LOGOS DE TUS CANALES
-==============================
+REPORTE DE LOGOS (ORDENADO SEGÚN CANALES.TXT)
+=============================================
 
-A&E.co | (CO - A&E) -> https://iptv-epg.org/logos/Colombia/A%26E.co.png
-AMC.ar | (AR - AMC) -> https://iptv-epg.org/logos/Argentina/AMC.ar.png
-AXN.co | (CO - AXN) -> https://iptv-epg.org/logos/Colombia/AXN.co.png
-AmericaTelevision.pe | (PE - América Televisión) -> https://iptv-epg.org/logos/Peru/AmericaTelevision.pe.png
-AnimalPlanet.co | (CO - Animal Planet) -> https://iptv-epg.org/logos/Colombia/AnimalPlanet.co.png
-Antena3.co | (CO - Antena 3) -> https://iptv-epg.org/logos/Colombia/Antena3.co.png
-Atreseries.es | (ES - Atreseries) -> https://iptv-epg.org/logos/Spain/Atreseries.es.png
-AzCorazón.mx | (MX - Az Corazón) -> https://iptv-epg.org/logos/Mexico/AzCoraz%C3%B3n.mx.png
-AztecaInternacional.us | (US - Azteca Internacional) -> https://iptv-epg.org/logos/USA/AztecaInternacional.us.png
-BabyFirst.us | (US - BABY FIRST) -> https://iptv-epg.org/logos/USA/BabyFirst.us.png
-BabyTV.cl | (CL - BabyTV) -> https://iptv-epg.org/logos/Chile/BabyTV.cl.png
-CGTNEspanol.es | (ES - CGTN Español) -> https://iptv-epg.org/logos/Spain/CGTNEspanol.es.png
-CLAROSPORTS.uy | (UY - CLAROSPORTS) -> https://iptv-epg.org/logos/Uruguay/CLAROSPORTS.uy.png
-CNNChile.cl | (CL - CNN Chile) -> https://iptv-epg.org/logos/Chile/CNNChile.cl.png
-Canal5.mx | (MX - Canal 5) -> https://iptv-epg.org/logos/Mexico/Canal5.mx.png
-CartoonNetwork.co | (CO - Cartoon Network) -> https://iptv-epg.org/logos/Colombia/CartoonNetwork.co.png
-Cartoonito.co | (CO - Cartoonito) -> https://iptv-epg.org/logos/Colombia/Cartoonito.co.png
-Cinecanal.co | (CO - Cinecanal) -> https://iptv-epg.org/logos/Colombia/Cinecanal.co.png
-Cinemax.co | (CO - Cinemax) -> https://iptv-epg.org/logos/Colombia/Cinemax.co.png
-Citytv.co | (CO - Citytv) -> https://iptv-epg.org/logos/Colombia/Citytv.co.png
-ComedyCentral.co | (CO - Comedy Central) -> https://iptv-epg.org/logos/Colombia/ComedyCentral.co.png
-DAZN1.es | (ES - DAZN 1) -> https://iptv-epg.org/logos/Spain/DAZN1.es.png
-DAZN2.es | (ES - DAZN 2) -> https://iptv-epg.org/logos/Spain/DAZN2.es.png
-DAZN3.es | (ES - DAZN 3) -> https://iptv-epg.org/logos/Spain/DAZN3.es.png
-DHE.cl | (CL - DHE) -> https://iptv-epg.org/logos/Chile/DHE.cl.png
-DIRECTVSports.pe | (PE - DIRECTV Sports) -> https://iptv-epg.org/logos/Peru/DIRECTVSports.pe.png
-DISNEYJR.uy | (UY - DISNEY JR) -> https://iptv-epg.org/logos/Uruguay/DISNEYJR.uy.png
-DePelícula.mx | (MX - De Película) -> https://iptv-epg.org/logos/Mexico/DePel%C3%ADcula.mx.png
-Discovery.cl | (CL - Discovery) -> https://iptv-epg.org/logos/Chile/Discovery.cl.png
-DiscoveryChannel.ar | (AR - Discovery Channel) -> https://iptv-epg.org/logos/Argentina/DiscoveryChannel.ar.png
-DiscoveryHome&Health.pe | (PE - Discovery Home & Health) -> https://iptv-epg.org/logos/Peru/DiscoveryHome%26Health.pe.png
-DiscoveryKids.co | (CO - Discovery Kids) -> https://iptv-epg.org/logos/Colombia/DiscoveryKids.co.png
-DiscoveryScience.co | (CO - Discovery Science) -> https://iptv-epg.org/logos/Colombia/DiscoveryScience.co.png
-DiscoveryTheater.cl | (CL - Discovery Theater) -> https://iptv-epg.org/logos/Chile/DiscoveryTheater.cl.png
-DiscoveryTurbo.co | (CO - Discovery Turbo) -> https://iptv-epg.org/logos/Colombia/DiscoveryTurbo.co.png
-DiscoveryWorld.co | (CO - Discovery World) -> https://iptv-epg.org/logos/Colombia/DiscoveryWorld.co.png
-DisneyChannel.ar | (AR - Disney Channel) -> https://iptv-epg.org/logos/Argentina/DisneyChannel.ar.png
-DisneyChannel.co | (CO - Disney Channel) -> https://iptv-epg.org/logos/Colombia/DisneyChannel.co.png
-E!.co | (CO - E!) -> https://iptv-epg.org/logos/Colombia/E%21.co.png
-ESNE.mx | (MX - ESNE) -> https://iptv-epg.org/logos/Mexico/ESNE.mx.png
-ESPN.ar | (AR - ESPN) -> https://iptv-epg.org/logos/Argentina/ESPN.ar.png
-ESPN.uy | (UY - ESPN) -> https://iptv-epg.org/logos/Uruguay/ESPN.uy.png
-ESPN2.ar | (AR - ESPN 2) -> https://iptv-epg.org/logos/Argentina/ESPN2.ar.png
-ESPN2.cl | (CL - ESPN 2) -> https://iptv-epg.org/logos/Chile/ESPN2.cl.png
-ESPN2.co | (CO - ESPN 2) -> https://iptv-epg.org/logos/Colombia/ESPN2.co.png
-ESPN2.uy | (UY - ESPN 2) -> https://iptv-epg.org/logos/Uruguay/ESPN2.uy.png
-ESPN2Colombia.ec | (EC - ESPN 2 Colombia) -> https://iptv-epg.org/logos/Ecuador/ESPN2Colombia.ec.png
-ESPN3.ar | (AR - ESPN 3) -> https://iptv-epg.org/logos/Argentina/ESPN3.ar.png
-ESPN3.cl | (CL - ESPN 3) -> https://iptv-epg.org/logos/Chile/ESPN3.cl.png
-ESPN3.co | (CO - ESPN 3) -> https://iptv-epg.org/logos/Colombia/ESPN3.co.png
-ESPN3.uy | (UY - ESPN 3) -> https://iptv-epg.org/logos/Uruguay/ESPN3.uy.png
-ESPN3Andina.ec | (EC - ESPN 3 Andina) -> https://iptv-epg.org/logos/Ecuador/ESPN3Andina.ec.png
-ESPN4.ar | (AR - ESPN 4) -> https://iptv-epg.org/logos/Argentina/ESPN4.ar.png
-ESPN4.cl | (CL - ESPN 4) -> https://iptv-epg.org/logos/Chile/ESPN4.cl.png
-ESPN4.ec | (EC - ESPN 4) -> https://iptv-epg.org/logos/Ecuador/ESPN4.ec.png
-ESPN4.uy | (UY - ESPN 4) -> https://iptv-epg.org/logos/Uruguay/ESPN4.uy.png
-ESPN5.ec | (EC - ESPN 5) -> https://iptv-epg.org/logos/Ecuador/ESPN5.ec.png
-ESPN5.uy | (UY - ESPN 5) -> https://iptv-epg.org/logos/Uruguay/ESPN5.uy.png
-ESPN6.uy | (UY - ESPN 6) -> https://iptv-epg.org/logos/Uruguay/ESPN6.uy.png
-ESPN7.ec | (EC - ESPN 7) -> https://iptv-epg.org/logos/Ecuador/ESPN7.ec.png
-ESPN7.uy | (UY - ESPN 7) -> https://iptv-epg.org/logos/Uruguay/ESPN7.uy.png
-ESPNColombia.ec | (EC - ESPN Colombia) -> https://iptv-epg.org/logos/Ecuador/ESPNColombia.ec.png
-ESPNSur3.ar | (AR - ESPN Sur 3) -> 
-EWTN.cl | (CL - EWTN) -> https://iptv-epg.org/logos/Chile/EWTN.cl.png
-EcuadorTV.ec | (EC - Ecuador TV) -> https://iptv-epg.org/logos/Ecuador/EcuadorTV.ec.png
-Ecuavisa.ec | (EC - Ecuavisa) -> https://iptv-epg.org/logos/Ecuador/Ecuavisa.ec.png
-EcuavisaInternacional.ec | (EC - Ecuavisa Internacional) -> https://iptv-epg.org/logos/Ecuador/EcuavisaInternacional.ec.png
-ElGourmet.co | (CO - El Gourmet) -> https://iptv-epg.org/logos/Colombia/ElGourmet.co.png
-Enlace.co | (CO - Enlace) -> https://iptv-epg.org/logos/Colombia/Enlace.co.png
-EnlaceJuvenil.co | (CO - Enlace Juvenil) -> https://iptv-epg.org/logos/Colombia/EnlaceJuvenil.co.png
-Eurochannel.co | (CO - Eurochannel) -> https://iptv-epg.org/logos/Colombia/Eurochannel.co.png
-FOODNETWORK.uy | (UY - FOOD NETWORK) -> https://iptv-epg.org/logos/Uruguay/FOODNETWORK.uy.png
-FRANCE24.uy | (UY - FRANCE 24) -> https://iptv-epg.org/logos/Uruguay/FRANCE24.uy.png
-FX.co | (CO - FX) -> https://iptv-epg.org/logos/Colombia/FX.co.png
-Gamavision.ec | (EC - Gamavisión) -> https://iptv-epg.org/logos/Ecuador/Gamavision.ec.png
-Golden.mx | (MX - Golden) -> https://iptv-epg.org/logos/Mexico/Golden.mx.png
-GoldenEdge.mx | (MX - Golden Edge) -> https://iptv-epg.org/logos/Mexico/GoldenEdge.mx.png
-GoldenPremier.mx | (MX - Golden Premier) -> https://iptv-epg.org/logos/Mexico/GoldenPremier.mx.png
-GoldenPremier2.mx | (MX - Golden Premier 2) -> https://iptv-epg.org/logos/Mexico/GoldenPremier2.mx.png
-GolfChannel.co | (CO - Golf Channel) -> https://iptv-epg.org/logos/Colombia/GolfChannel.co.png
-GolfChannel.ec | (EC - Golf Channel) -> https://iptv-epg.org/logos/Ecuador/GolfChannel.ec.png
-HBO.co | (CO - HBO) -> https://iptv-epg.org/logos/Colombia/HBO.co.png
-HBO.ec | (EC - HBO) -> https://iptv-epg.org/logos/Ecuador/HBO.ec.png
-HBO2.co | (CO - HBO 2) -> https://iptv-epg.org/logos/Colombia/HBO2.co.png
-HBO2.mx | (MX - HBO 2) -> https://iptv-epg.org/logos/Mexico/HBO2.mx.png
-HBOFamily.co | (CO - HBO Family) -> https://iptv-epg.org/logos/Colombia/HBOFamily.co.png
-HBOMundi.co | (CO - HBO Mundi) -> https://iptv-epg.org/logos/Colombia/HBOMundi.co.png
-HBOPLUS.uy | (UY - HBO PLUS) -> https://iptv-epg.org/logos/Uruguay/HBOPLUS.uy.png
-HBOPlus(Panamericano).co | (CO - HBO Plus (Panamericano)) -> https://iptv-epg.org/logos/Colombia/HBOPlus%28Panamericano%29.co.png
-HBOPop.co | (CO - HBO Pop) -> https://iptv-epg.org/logos/Colombia/HBOPop.co.png
-HBOSignature.co | (CO - HBO Signature) -> https://iptv-epg.org/logos/Colombia/HBOSignature.co.png
-HBOXtreme.co | (CO - HBO Xtreme) -> https://iptv-epg.org/logos/Colombia/HBOXtreme.co.png
-HISTORY2.uy | (UY - HISTORY 2) -> https://iptv-epg.org/logos/Uruguay/HISTORY2.uy.png
-HOLATV.co | (CO - HOLA TV) -> https://iptv-epg.org/logos/Colombia/HOLATV.co.png
-History.co | (CO - History) -> https://iptv-epg.org/logos/Colombia/History.co.png
-History2.co | (CO - History 2) -> https://iptv-epg.org/logos/Colombia/History2.co.png
-InvestigationDiscovery.co | (CO - Investigation Discovery) -> https://iptv-epg.org/logos/Colombia/InvestigationDiscovery.co.png
-KANALD.uy | (UY - KANAL D) -> https://iptv-epg.org/logos/Uruguay/KANALD.uy.png
-LASESTRELLAS.uy | (UY - LAS ESTRELLAS) -> https://iptv-epg.org/logos/Uruguay/LASESTRELLAS.uy.png
-Lifetime.co | (CO - Lifetime) -> https://iptv-epg.org/logos/Colombia/Lifetime.co.png
-M+LigadeCampeones.es | (ES - M+ Liga de Campeones) -> https://iptv-epg.org/logos/Spain/M%2BLigadeCampeones.es.png
-M+LigadeCampeones2.es | (ES - M+ Liga de Campeones 2) -> https://iptv-epg.org/logos/Spain/M%2BLigadeCampeones2.es.png
-M+LigadeCampeones3.es | (ES - M+ Liga de Campeones 3) -> https://iptv-epg.org/logos/Spain/M%2BLigadeCampeones3.es.png
-M+LigadeCampeones4.es | (ES - M+ Liga de Campeones 4) -> https://iptv-epg.org/logos/Spain/M%2BLigadeCampeones4.es.png
-MTV.es | (ES - MTV) -> https://iptv-epg.org/logos/Spain/MTV.es.png
-Mega.cl | (CL - Mega) -> https://iptv-epg.org/logos/Chile/Mega.cl.png
-NationalGeographic.ar | (AR - National Geographic) -> https://iptv-epg.org/logos/Argentina/NationalGeographic.ar.png
-Nick.cl | (CL - Nick) -> https://iptv-epg.org/logos/Chile/Nick.cl.png
-OromarTV.ec | (EC - Oromar Televisión) -> https://iptv-epg.org/logos/Ecuador/OromarTV.ec.png
-PPV14SEXTREME.uy | (UY - PPV 14 SEXTREME) -> https://iptv-epg.org/logos/Uruguay/PPV14SEXTREME.uy.png
-Pasiones.co | (CO - Pasiones) -> https://iptv-epg.org/logos/Colombia/Pasiones.co.png
-Playboy.co | (CO - Playboy) -> https://iptv-epg.org/logos/Colombia/Playboy.co.png
-RTS.ec | (EC - RTS Red Telesistema) -> https://iptv-epg.org/logos/Ecuador/RTS.ec.png
-RTU.ec | (EC - RTU) -> https://iptv-epg.org/logos/Ecuador/RTU.ec.png
-RaiItalia.cl | (CL - Rai Italia) -> https://iptv-epg.org/logos/Chile/RaiItalia.cl.png
-SPACE.uy | (UY - SPACE) -> https://iptv-epg.org/logos/Uruguay/SPACE.uy.png
-STARCHANNEL.uy | (UY - STAR CHANNEL) -> https://iptv-epg.org/logos/Uruguay/STARCHANNEL.uy.png
-STARChannel.ec | (EC - STAR Channel) -> https://iptv-epg.org/logos/Ecuador/STARChannel.ec.png
-SUNCHANNEL.uy | (UY - SUN CHANNEL) -> https://iptv-epg.org/logos/Uruguay/SUNCHANNEL.uy.png
-SkySports16.mx | (MX - Sky Sports 16) -> https://iptv-epg.org/logos/Mexico/SkySports16.mx.png
-Sony.cl | (CL - Sony) -> https://iptv-epg.org/logos/Chile/Sony.cl.png
-Sony.mx | (MX - Sony) -> https://iptv-epg.org/logos/Mexico/Sony.mx.png
-SonyEntertainmentTelevisionAndesfeed.ec | (EC - Sony Entertainment Television Andes feed) -> https://iptv-epg.org/logos/Ecuador/SonyEntertainmentTelevisionAndesfeed.ec.png
-Space.cl | (CL - Space) -> https://iptv-epg.org/logos/Chile/Space.cl.png
-StarChannel.pe | (PE - Star Channel) -> https://iptv-epg.org/logos/Peru/StarChannel.pe.png
-StudioUniversal.ar | (AR - Studio Universal) -> https://iptv-epg.org/logos/Argentina/StudioUniversal.ar.png
-StudioUniversal.cl | (CL - Studio Universal) -> https://iptv-epg.org/logos/Chile/StudioUniversal.cl.png
-TCM.co | (CO - TCM) -> https://iptv-epg.org/logos/Colombia/TCM.co.png
-TCtv.ec | (EC - TC Televisión) -> https://iptv-epg.org/logos/Ecuador/TCtv.ec.png
-TLC.co | (CO - TLC) -> https://iptv-epg.org/logos/Colombia/TLC.co.png
-TLNovelas.cl | (CL - TLNovelas) -> https://iptv-epg.org/logos/Chile/TLNovelas.cl.png
-TLNovelas.ve | (VE - TLNovelas) -> https://iptv-epg.org/logos/Venezuela/TLNovelas.ve.png
-TNT.cl | (CL - TNT) -> https://iptv-epg.org/logos/Chile/TNT.cl.png
-TNT.co | (CO - TNT) -> https://iptv-epg.org/logos/Colombia/TNT.co.png
-TNTNOVELAS.uy | (UY - TNT NOVELAS) -> https://iptv-epg.org/logos/Uruguay/TNTNOVELAS.uy.png
-TNTSeries.pe | (PE - TNT Series) -> https://iptv-epg.org/logos/Peru/TNTSeries.pe.png
-TNTSports.cl | (CL - TNT Sports) -> https://iptv-epg.org/logos/Chile/TNTSports.cl.png
-TNTSportsPremium.cl | (CL - TNT Sports Premium) -> https://iptv-epg.org/logos/Chile/TNTSportsPremium.cl.png
-TVE.uy | (UY - TVE) -> https://iptv-epg.org/logos/Uruguay/TVE.uy.png
-Teleamazonas.ec | (EC - Teleamazonas) -> https://iptv-epg.org/logos/Ecuador/Teleamazonas.ec.png
-TelemundoInternacional.ec | (EC - Telemundo Internacional) -> https://iptv-epg.org/logos/Ecuador/TelemundoInternacional.ec.png
-Telesur.pe | (PE - Telesur) -> https://iptv-epg.org/logos/Peru/Telesur.pe.png
-Tooncast.co | (CO - Tooncast) -> https://iptv-epg.org/logos/Colombia/Tooncast.co.png
-TyCSports.ar | (AR - TyC Sports) -> https://iptv-epg.org/logos/Argentina/TyCSports.ar.png
-TyCSports.co | (CO - TyC Sports) -> https://iptv-epg.org/logos/Colombia/TyCSports.co.png
-UNIVERSO.us | (US - Universo) -> https://iptv-epg.org/logos/USA/UNIVERSO.us.png
-USA.uy | (UY - USA) -> https://iptv-epg.org/logos/Uruguay/USA.uy.png
-Unitel.pe | (PE - Unitel) -> https://iptv-epg.org/logos/Peru/Unitel.pe.png
-UniversalTV.ar | (AR - Universal TV) -> https://iptv-epg.org/logos/Argentina/UniversalTV.ar.png
-UniversalTV.co | (CO - Universal TV) -> https://iptv-epg.org/logos/Colombia/UniversalTV.co.png
-Venus.ar | (AR - Venus) -> https://iptv-epg.org/logos/Argentina/Venus.ar.png
-Venus.co | (CO - Venus) -> https://iptv-epg.org/logos/Colombia/Venus.co.png
-WarnerChannel.ar | (AR - Warner Channel) -> https://iptv-epg.org/logos/Argentina/WarnerChannel.ar.png
-WarnerChannel.co | (CO - Warner Channel) -> https://iptv-epg.org/logos/Colombia/WarnerChannel.co.png
-Zoom.co | (CO - Zoom) -> https://iptv-epg.org/logos/Colombia/Zoom.co.png
-film&arts.co | (CO - film&arts) -> https://iptv-epg.org/logos/Colombia/film%26arts.co.png
+Ecuavisa.ec -> https://iptv-epg.org/logos/Ecuador/Ecuavisa.ec.png
+EcuavisaInternacional.ec -> https://iptv-epg.org/logos/Ecuador/EcuavisaInternacional.ec.png
+RTS.ec -> https://iptv-epg.org/logos/Ecuador/RTS.ec.png
+TCtv.ec -> https://iptv-epg.org/logos/Ecuador/TCtv.ec.png
+Teleamazonas.ec -> https://iptv-epg.org/logos/Ecuador/Teleamazonas.ec.png
+Gamavision.ec -> https://iptv-epg.org/logos/Ecuador/Gamavision.ec.png
+RTU.ec -> https://iptv-epg.org/logos/Ecuador/RTU.ec.png
+EcuadorTV.ec -> https://iptv-epg.org/logos/Ecuador/EcuadorTV.ec.png
+OromarTV.ec -> https://iptv-epg.org/logos/Ecuador/OromarTV.ec.png
+A&E.co -> https://iptv-epg.org/logos/Colombia/A%26E.co.png
+AMC.ar -> https://iptv-epg.org/logos/Argentina/AMC.ar.png
+AXN.co -> https://iptv-epg.org/logos/Colombia/AXN.co.png
+AmericaTelevision.pe -> https://iptv-epg.org/logos/Peru/AmericaTelevision.pe.png
+AnimalPlanet.co -> https://iptv-epg.org/logos/Colombia/AnimalPlanet.co.png
+Antena3.co -> https://iptv-epg.org/logos/Colombia/Antena3.co.png
+Atreseries.es -> https://iptv-epg.org/logos/Spain/Atreseries.es.png
+AzCorazón.mx -> https://iptv-epg.org/logos/Mexico/AzCoraz%C3%B3n.mx.png
+AztecaInternacional.us -> https://iptv-epg.org/logos/USA/AztecaInternacional.us.png
+BabyTV.cl -> https://iptv-epg.org/logos/Chile/BabyTV.cl.png
+BabyFirst.us -> https://iptv-epg.org/logos/USA/BabyFirst.us.png
+Canal5.mx -> https://iptv-epg.org/logos/Mexico/Canal5.mx.png
+CartoonNetwork.co -> https://iptv-epg.org/logos/Colombia/CartoonNetwork.co.png
+Cartoonito.co -> https://iptv-epg.org/logos/Colombia/Cartoonito.co.png
+CGTNEspanol.es -> https://iptv-epg.org/logos/Spain/CGTNEspanol.es.png
+Cinecanal.co -> https://iptv-epg.org/logos/Colombia/Cinecanal.co.png
+Cinemax.co -> https://iptv-epg.org/logos/Colombia/Cinemax.co.png
+Citytv.co -> https://iptv-epg.org/logos/Colombia/Citytv.co.png
+CLAROSPORTS.uy -> https://iptv-epg.org/logos/Uruguay/CLAROSPORTS.uy.png
+CNNChile.cl -> https://iptv-epg.org/logos/Chile/CNNChile.cl.png
+ComedyCentral.co -> https://iptv-epg.org/logos/Colombia/ComedyCentral.co.png
+DAZN1.es -> https://iptv-epg.org/logos/Spain/DAZN1.es.png
+DAZN2.es -> https://iptv-epg.org/logos/Spain/DAZN2.es.png
+DAZN3.es -> https://iptv-epg.org/logos/Spain/DAZN3.es.png
+DePelícula.mx -> https://iptv-epg.org/logos/Mexico/DePel%C3%ADcula.mx.png
+DHE.cl -> https://iptv-epg.org/logos/Chile/DHE.cl.png
+DIRECTVSports.pe -> https://iptv-epg.org/logos/Peru/DIRECTVSports.pe.png
+Discovery.cl -> https://iptv-epg.org/logos/Chile/Discovery.cl.png
+DiscoveryChannel.ar -> https://iptv-epg.org/logos/Argentina/DiscoveryChannel.ar.png
+DiscoveryHome&Health.pe -> https://iptv-epg.org/logos/Peru/DiscoveryHome%26Health.pe.png
+InvestigationDiscovery.co -> https://iptv-epg.org/logos/Colombia/InvestigationDiscovery.co.png
+DiscoveryKids.co -> https://iptv-epg.org/logos/Colombia/DiscoveryKids.co.png
+DiscoveryScience.co -> https://iptv-epg.org/logos/Colombia/DiscoveryScience.co.png
+DiscoveryTheater.cl -> https://iptv-epg.org/logos/Chile/DiscoveryTheater.cl.png
+DiscoveryTurbo.co -> https://iptv-epg.org/logos/Colombia/DiscoveryTurbo.co.png
+DiscoveryWorld.co -> https://iptv-epg.org/logos/Colombia/DiscoveryWorld.co.png
+DisneyChannel.co -> https://iptv-epg.org/logos/Colombia/DisneyChannel.co.png
+DisneyChannel.ar -> https://iptv-epg.org/logos/Argentina/DisneyChannel.ar.png
+DISNEYJR.uy -> https://iptv-epg.org/logos/Uruguay/DISNEYJR.uy.png
+E!.co -> https://iptv-epg.org/logos/Colombia/E%21.co.png
+ElGourmet.co -> https://iptv-epg.org/logos/Colombia/ElGourmet.co.png
+Enlace.co -> https://iptv-epg.org/logos/Colombia/Enlace.co.png
+EnlaceJuvenil.co -> https://iptv-epg.org/logos/Colombia/EnlaceJuvenil.co.png
+ESNE.mx -> https://iptv-epg.org/logos/Mexico/ESNE.mx.png
+ESPN.ar -> https://iptv-epg.org/logos/Argentina/ESPN.ar.png
+ESPNColombia.ec -> https://iptv-epg.org/logos/Ecuador/ESPNColombia.ec.png
+ESPN.uy -> https://iptv-epg.org/logos/Uruguay/ESPN.uy.png
+ESPNSur3.ar -> 
+ESPN2.uy -> https://iptv-epg.org/logos/Uruguay/ESPN2.uy.png
+ESPN2.ar -> https://iptv-epg.org/logos/Argentina/ESPN2.ar.png
+ESPN2.cl -> https://iptv-epg.org/logos/Chile/ESPN2.cl.png
+ESPN2.co -> https://iptv-epg.org/logos/Colombia/ESPN2.co.png
+ESPN2Colombia.ec -> https://iptv-epg.org/logos/Ecuador/ESPN2Colombia.ec.png
+ESPN3Andina.ec -> https://iptv-epg.org/logos/Ecuador/ESPN3Andina.ec.png
+ESPN3.ar -> https://iptv-epg.org/logos/Argentina/ESPN3.ar.png
+ESPN3.co -> https://iptv-epg.org/logos/Colombia/ESPN3.co.png
+ESPN3.uy -> https://iptv-epg.org/logos/Uruguay/ESPN3.uy.png
+ESPN3.cl -> https://iptv-epg.org/logos/Chile/ESPN3.cl.png
+ESPN4.ec -> https://iptv-epg.org/logos/Ecuador/ESPN4.ec.png
+ESPN4.ar -> https://iptv-epg.org/logos/Argentina/ESPN4.ar.png
+ESPN4.cl -> https://iptv-epg.org/logos/Chile/ESPN4.cl.png
+ESPN4.uy -> https://iptv-epg.org/logos/Uruguay/ESPN4.uy.png
+ESPN5.ec -> https://iptv-epg.org/logos/Ecuador/ESPN5.ec.png
+ESPN5.uy -> https://iptv-epg.org/logos/Uruguay/ESPN5.uy.png
+ESPN6.uy -> https://iptv-epg.org/logos/Uruguay/ESPN6.uy.png
+ESPN7.ec -> https://iptv-epg.org/logos/Ecuador/ESPN7.ec.png
+ESPN7.uy -> https://iptv-epg.org/logos/Uruguay/ESPN7.uy.png
+Eurochannel.co -> https://iptv-epg.org/logos/Colombia/Eurochannel.co.png
+EWTN.cl -> https://iptv-epg.org/logos/Chile/EWTN.cl.png
+film&arts.co -> https://iptv-epg.org/logos/Colombia/film%26arts.co.png
+FOODNETWORK.uy -> https://iptv-epg.org/logos/Uruguay/FOODNETWORK.uy.png
+FRANCE24.uy -> https://iptv-epg.org/logos/Uruguay/FRANCE24.uy.png
+FX.co -> https://iptv-epg.org/logos/Colombia/FX.co.png
+Golden.mx -> https://iptv-epg.org/logos/Mexico/Golden.mx.png
+GoldenEdge.mx -> https://iptv-epg.org/logos/Mexico/GoldenEdge.mx.png
+GoldenPremier.mx -> https://iptv-epg.org/logos/Mexico/GoldenPremier.mx.png
+GoldenPremier2.mx -> https://iptv-epg.org/logos/Mexico/GoldenPremier2.mx.png
+GolfChannel.ec -> https://iptv-epg.org/logos/Ecuador/GolfChannel.ec.png
+GolfChannel.co -> https://iptv-epg.org/logos/Colombia/GolfChannel.co.png
+HBO.ec -> https://iptv-epg.org/logos/Ecuador/HBO.ec.png
+HBO.co -> https://iptv-epg.org/logos/Colombia/HBO.co.png
+HBO2.mx -> https://iptv-epg.org/logos/Mexico/HBO2.mx.png
+HBO2.co -> https://iptv-epg.org/logos/Colombia/HBO2.co.png
+HBOFamily.co -> https://iptv-epg.org/logos/Colombia/HBOFamily.co.png
+HBOMundi.co -> https://iptv-epg.org/logos/Colombia/HBOMundi.co.png
+HBOPlus(Panamericano).co -> https://iptv-epg.org/logos/Colombia/HBOPlus%28Panamericano%29.co.png
+HBOPLUS.uy -> https://iptv-epg.org/logos/Uruguay/HBOPLUS.uy.png
+HBOPop.co -> https://iptv-epg.org/logos/Colombia/HBOPop.co.png
+HBOSignature.co -> https://iptv-epg.org/logos/Colombia/HBOSignature.co.png
+HBOXtreme.co -> https://iptv-epg.org/logos/Colombia/HBOXtreme.co.png
+History.co -> https://iptv-epg.org/logos/Colombia/History.co.png
+HISTORY2.uy -> https://iptv-epg.org/logos/Uruguay/HISTORY2.uy.png
+History2.co -> https://iptv-epg.org/logos/Colombia/History2.co.png
+HOLATV.co -> https://iptv-epg.org/logos/Colombia/HOLATV.co.png
+KANALD.uy -> https://iptv-epg.org/logos/Uruguay/KANALD.uy.png
+LASESTRELLAS.uy -> https://iptv-epg.org/logos/Uruguay/LASESTRELLAS.uy.png
+Lifetime.co -> https://iptv-epg.org/logos/Colombia/Lifetime.co.png
+Mega.cl -> https://iptv-epg.org/logos/Chile/Mega.cl.png
+M+LigadeCampeones.es -> https://iptv-epg.org/logos/Spain/M%2BLigadeCampeones.es.png
+M+LigadeCampeones2.es -> https://iptv-epg.org/logos/Spain/M%2BLigadeCampeones2.es.png
+M+LigadeCampeones3.es -> https://iptv-epg.org/logos/Spain/M%2BLigadeCampeones3.es.png
+M+LigadeCampeones4.es -> https://iptv-epg.org/logos/Spain/M%2BLigadeCampeones4.es.png
+MTV.es -> https://iptv-epg.org/logos/Spain/MTV.es.png
+NationalGeographic.ar -> https://iptv-epg.org/logos/Argentina/NationalGeographic.ar.png
+Nick.cl -> https://iptv-epg.org/logos/Chile/Nick.cl.png
+Pasiones.co -> https://iptv-epg.org/logos/Colombia/Pasiones.co.png
+Playboy.co -> https://iptv-epg.org/logos/Colombia/Playboy.co.png
+RaiItalia.cl -> https://iptv-epg.org/logos/Chile/RaiItalia.cl.png
+SkySports16.mx -> https://iptv-epg.org/logos/Mexico/SkySports16.mx.png
+PPV14SEXTREME.uy -> https://iptv-epg.org/logos/Uruguay/PPV14SEXTREME.uy.png
+SonyEntertainmentTelevisionAndesfeed.ec -> https://iptv-epg.org/logos/Ecuador/SonyEntertainmentTelevisionAndesfeed.ec.png
+Sony.mx -> https://iptv-epg.org/logos/Mexico/Sony.mx.png
+Sony.cl -> https://iptv-epg.org/logos/Chile/Sony.cl.png
+SPACE.uy -> https://iptv-epg.org/logos/Uruguay/SPACE.uy.png
+Space.cl -> https://iptv-epg.org/logos/Chile/Space.cl.png
+STARChannel.ec -> https://iptv-epg.org/logos/Ecuador/STARChannel.ec.png
+StarChannel.pe -> https://iptv-epg.org/logos/Peru/StarChannel.pe.png
+STARCHANNEL.uy -> https://iptv-epg.org/logos/Uruguay/STARCHANNEL.uy.png
+StudioUniversal.ar -> https://iptv-epg.org/logos/Argentina/StudioUniversal.ar.png
+StudioUniversal.cl -> https://iptv-epg.org/logos/Chile/StudioUniversal.cl.png
+SUNCHANNEL.uy -> https://iptv-epg.org/logos/Uruguay/SUNCHANNEL.uy.png
+TCM.co -> https://iptv-epg.org/logos/Colombia/TCM.co.png
+TelemundoInternacional.ec -> https://iptv-epg.org/logos/Ecuador/TelemundoInternacional.ec.png
+Telesur.pe -> https://iptv-epg.org/logos/Peru/Telesur.pe.png
+TLC.co -> https://iptv-epg.org/logos/Colombia/TLC.co.png
+TLNovelas.cl -> https://iptv-epg.org/logos/Chile/TLNovelas.cl.png
+TLNovelas.ve -> https://iptv-epg.org/logos/Venezuela/TLNovelas.ve.png
+TNT.co -> https://iptv-epg.org/logos/Colombia/TNT.co.png
+TNT.cl -> https://iptv-epg.org/logos/Chile/TNT.cl.png
+TNTNOVELAS.uy -> https://iptv-epg.org/logos/Uruguay/TNTNOVELAS.uy.png
+TNTSeries.pe -> https://iptv-epg.org/logos/Peru/TNTSeries.pe.png
+TNTSports.cl -> https://iptv-epg.org/logos/Chile/TNTSports.cl.png
+TNTSportsPremium.cl -> https://iptv-epg.org/logos/Chile/TNTSportsPremium.cl.png
+Tooncast.co -> https://iptv-epg.org/logos/Colombia/Tooncast.co.png
+TVE.uy -> https://iptv-epg.org/logos/Uruguay/TVE.uy.png
+TyCSports.ar -> https://iptv-epg.org/logos/Argentina/TyCSports.ar.png
+TyCSports.co -> https://iptv-epg.org/logos/Colombia/TyCSports.co.png
+Unitel.pe -> https://iptv-epg.org/logos/Peru/Unitel.pe.png
+UniversalTV.co -> https://iptv-epg.org/logos/Colombia/UniversalTV.co.png
+UniversalTV.ar -> https://iptv-epg.org/logos/Argentina/UniversalTV.ar.png
+UNIVERSO.us -> https://iptv-epg.org/logos/USA/UNIVERSO.us.png
+USA.uy -> https://iptv-epg.org/logos/Uruguay/USA.uy.png
+Venus.ar -> https://iptv-epg.org/logos/Argentina/Venus.ar.png
+Venus.co -> https://iptv-epg.org/logos/Colombia/Venus.co.png
+WarnerChannel.ar -> https://iptv-epg.org/logos/Argentina/WarnerChannel.ar.png
+WarnerChannel.co -> https://iptv-epg.org/logos/Colombia/WarnerChannel.co.png
+Zoom.co -> https://iptv-epg.org/logos/Colombia/Zoom.co.png
