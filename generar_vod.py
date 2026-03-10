@@ -2,10 +2,10 @@ import requests
 import os
 
 # --- CONFIGURACIÓN ---
-API_KEY = "TU_API_KEY_AQUI" # Pon aquí tu clave de TMDB
+API_KEY = "35808c87beebe2b0aaa71aeeccd1caf8" # Pon aquí tu clave de TMDB
 ID_SERIE_TMDB = "242131"     # ID de la serie "The Pitt"
 TEMPORADA = 1
-URL_BASE_VIDEO = "https://tu-servidor.com/videos/thepitt/s01e" # Ejemplo de base de tus links
+URL_BASE_VIDEO = "http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_01.mkv" # Ejemplo de base de tus links
 
 def obtener_datos_serie():
     url = f"https://api.themoviedb.org/3/tv/{ID_SERIE_TMDB}/season/{TEMPORADA}?api_key={API_KEY}&language=es-ES"
