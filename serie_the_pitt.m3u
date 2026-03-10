@@ -1,0 +1,42 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="pitt-1x1" tvg-logo="https://image.tmdb.org/t/p/w500None" group-title="The Pitt", 1. Episodio 1
+#EXTVODDESC: Sin descripción disponible.
+http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_01.mkv01.mp4
+
+#EXTINF:-1 tvg-id="pitt-1x2" tvg-logo="https://image.tmdb.org/t/p/w500None" group-title="The Pitt", 2. Episodio 2
+#EXTVODDESC: Sin descripción disponible.
+http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_01.mkv02.mp4
+
+#EXTINF:-1 tvg-id="pitt-1x3" tvg-logo="https://image.tmdb.org/t/p/w500None" group-title="The Pitt", 3. Episodio 3
+#EXTVODDESC: Sin descripción disponible.
+http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_01.mkv03.mp4
+
+#EXTINF:-1 tvg-id="pitt-1x4" tvg-logo="https://image.tmdb.org/t/p/w500None" group-title="The Pitt", 4. Episodio 4
+#EXTVODDESC: Sin descripción disponible.
+http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_01.mkv04.mp4
+
+#EXTINF:-1 tvg-id="pitt-1x5" tvg-logo="https://image.tmdb.org/t/p/w500None" group-title="The Pitt", 5. Episodio 5
+#EXTVODDESC: Sin descripción disponible.
+http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_01.mkv05.mp4
+
+#EXTINF:-1 tvg-id="pitt-1x6" tvg-logo="https://image.tmdb.org/t/p/w500None" group-title="The Pitt", 6. Episodio 6
+#EXTVODDESC: Sin descripción disponible.
+http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_01.mkv06.mp4
+
+#EXTINF:-1 tvg-id="pitt-1x7" tvg-logo="https://image.tmdb.org/t/p/w500None" group-title="The Pitt", 7. Episodio 7
+#EXTVODDESC: Sin descripción disponible.
+http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_01.mkv07.mp4
+
+#EXTINF:-1 tvg-id="pitt-1x8" tvg-logo="https://image.tmdb.org/t/p/w500None" group-title="The Pitt", 8. Episodio 8
+#EXTVODDESC: Sin descripción disponible.
+http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_01.mkv08.mp4
+
+#EXTINF:-1 tvg-id="pitt-1x9" tvg-logo="https://image.tmdb.org/t/p/w500None" group-title="The Pitt", 9. Episodio 9
+#EXTVODDESC: Sin descripción disponible.
+http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_01.mkv09.mp4
+
+#EXTINF:-1 tvg-id="pitt-1x10" tvg-logo="https://image.tmdb.org/t/p/w500None" group-title="The Pitt", 10. Episodio 10
+#EXTVODDESC: Sin descripción disponible.
+http://series.tuxchannel.mx:80/series/the_pitt/s_01_e_01.mkv10.mp4
+
