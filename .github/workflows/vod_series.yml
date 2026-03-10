@@ -1,0 +1,28 @@
+name: Generar VOD con Info en Español
+
+on:
+  workflow_dispatch: # Se activa manual
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Descargar repo
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Instalar Requests
+        run: pip install requests
+      - name: Correr Generador
+        run: python generar_vod.py
+      - name: Guardar M3U
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add serie_the_pitt.m3u
+          git commit -m "Actualización de serie con info español" || exit 0
+          git push
