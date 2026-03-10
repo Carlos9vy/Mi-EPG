@@ -1,0 +1,28 @@
+name: Extractor de Logos de mis Canales
+
+on:
+  workflow_dispatch: # Botón manual
+
+jobs:
+  extract_logos:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Librerias
+        run: pip install requests
+      - name: Ejecutar Extractor de Logos
+        run: python extraer_logos.py
+      - name: Guardar TXT
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add lista_logos_canales.txt
+          git commit -m "Actualización de lista de logos" || exit 0
+          git push
