@@ -122,6 +122,7 @@ Sony.mx
 Sony.cl
 SPACE.uy
 Space.cl
+StarChannel.cl
 STARChannel.ec
 StarChannel.pe
 STARCHANNEL.uy
