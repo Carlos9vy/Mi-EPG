@@ -139,6 +139,7 @@ TNT.co
 TNT.cl
 TNTNOVELAS.uy
 TNTSeries.pe
+TNTSeries.pa
 TNTSports.cl
 TNTSportsPremium.cl
 Tooncast.co
