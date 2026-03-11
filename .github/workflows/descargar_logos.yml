@@ -1,0 +1,58 @@
+name: Descargador de Logos Automático
+
+on:
+  workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña "Actions"
+
+jobs:
+  descargar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Instalar librerías
+        run: pip install requests
+
+      - name: Ejecutar script de descarga
+        run: |
+          python - <<EOF
+          import os
+          import requests
+
+          lista_txt = "lista_logos_canales.txt"
+          carpeta_destino = "logos"
+
+          if not os.path.exists(carpeta_destino):
+              os.makedirs(carpeta_destino)
+
+          with open(lista_txt, 'r', encoding='utf-8') as f:
+              for linea in f:
+                  if "->" in linea:
+                      partes = linea.split("->")
+                      # Usamos el tvg-id como nombre de archivo para que coincida con la lista M3U
+                      nombre_archivo = partes[0].strip() + ".png"
+                      url_logo = partes[1].strip()
+                      ruta_final = os.path.join(carpeta_destino, nombre_archivo)
+                      
+                      try:
+                          r = requests.get(url_logo, timeout=15)
+                          if r.status_code == 200:
+                              with open(ruta_final, 'wb') as img:
+                                  img.write(r.content)
+                              print(f"Descargado: {nombre_archivo}")
+                      except:
+                          print(f"Error con: {nombre_archivo}")
+          EOF
+
+      - name: Guardar cambios en el repositorio
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add logos/
+          git commit -m "Actualización automática de logos" || exit 0
+          git push
