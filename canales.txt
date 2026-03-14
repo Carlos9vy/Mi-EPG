@@ -31,6 +31,8 @@ ComedyCentral.co
 DAZN1.es
 DAZN2.es
 DAZN3.es
+DAZNF1.es
+DAZNLaLiga.es
 DePelícula.mx
 DHE.cl
 DIRECTVSports.pe
@@ -109,6 +111,8 @@ M+LigadeCampeones.es
 M+LigadeCampeones2.es
 M+LigadeCampeones3.es
 M+LigadeCampeones4.es
+M+#Vamos.es
+M+LaLigaTV.es
 MTV.es
 NationalGeographic.ar
 Nick.cl
