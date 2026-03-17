@@ -15,7 +15,8 @@ EPG_SOURCES = [
     "https://iptv-epg.org/files/epg-gt.xml",
     "https://iptv-epg.org/files/epg-hn.xml",
     "https://iptv-epg.org/files/epg-py.xml",
-    "https://iptv-epg.org/files/epg-pa.xml"
+    "https://iptv-epg.org/files/epg-pa.xml",
+    "https://www.open-epg.com/generate/aYzuzNSenh.xml.gz" 
 ]
 
 CANALES_FILE = "canales.txt"
