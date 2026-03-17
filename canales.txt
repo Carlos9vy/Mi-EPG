@@ -78,6 +78,7 @@ ESPN5.uy
 ESPN6.uy
 ESPN7.ec
 ESPN7.uy
+Canal.ESPN.Premium.(Chile).sv
 Eurochannel.co
 EWTN.cl
 film&arts.co
