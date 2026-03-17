@@ -6,7 +6,7 @@ import io
 
 EPG_SOURCES = [
     "https://iptv-epg.org/files/epg-ztjwyq.xml",
-    "https://www.open-epg.com/generate/aYzuzNSenh.xml", 
+    "https://www.open-epg.com/generate/aYzuzNSenh.xml",
     "https://iptv-epg.org/files/epg-bo.xml",
     "https://iptv-epg.org/files/epg-cr.xml",
     "https://iptv-epg.org/files/epg-do.xml",
@@ -14,7 +14,8 @@ EPG_SOURCES = [
     "https://iptv-epg.org/files/epg-gt.xml",
     "https://iptv-epg.org/files/epg-hn.xml",
     "https://iptv-epg.org/files/epg-py.xml",
-    "https://iptv-epg.org/files/epg-pa.xml"
+    "https://iptv-epg.org/files/epg-pa.xml",
+    "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz" 
 ]
 
 CANALES_FILE = "canales.txt"
