@@ -14,7 +14,8 @@ EPG_SOURCES = [
     "https://iptv-epg.org/files/epg-gt.xml",
     "https://iptv-epg.org/files/epg-hn.xml",
     "https://iptv-epg.org/files/epg-py.xml",
-    "https://iptv-epg.org/files/epg-pa.xml"
+    "https://iptv-epg.org/files/epg-pa.xml",
+    "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz" 
 ]
 
 ARCHIVO_SALIDA = "lista_todos_los_ids.txt"
