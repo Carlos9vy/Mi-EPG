@@ -6,6 +6,7 @@ from datetime import datetime
 
 EPG_SOURCES = [
     "https://iptv-epg.org/files/epg-ztjwyq.xml",
+    "https://www.open-epg.com/generate/aYzuzNSenh.xml", 
     "https://iptv-epg.org/files/epg-bo.xml",
     "https://iptv-epg.org/files/epg-cr.xml",
     "https://iptv-epg.org/files/epg-do.xml",
