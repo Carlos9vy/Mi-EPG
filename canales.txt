@@ -86,8 +86,8 @@ ESPN7.uy
 Canal.ESPN.Premium.(Chile).sv
 ESPN Premium.cl
 ESPN PREMIUM HD.ar
-FOX SPORTS HD.ar
-FOX SPORTS 2 HD.ar
+FOX Sports
+FOXSports2.ar
 FOXSports3.ar
 Eurochannel.co
 EWTN.cl
