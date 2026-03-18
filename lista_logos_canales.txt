@@ -12,6 +12,7 @@ EcuadorTV.ec -> https://iptv-epg.org/logos/Ecuador/EcuadorTV.ec.png
 OromarTV.ec -> https://iptv-epg.org/logos/Ecuador/OromarTV.ec.png
 A&E.co -> https://iptv-epg.org/logos/Colombia/A%26E.co.png
 AMC.ar -> https://iptv-epg.org/logos/Argentina/AMC.ar.png
+AMC SERIES.ar -> https://images.open-epg.com/11574609.png
 AXN.co -> https://iptv-epg.org/logos/Colombia/AXN.co.png
 AmericaTelevision.pe -> https://iptv-epg.org/logos/Peru/AmericaTelevision.pe.png
 AnimalPlanet.co -> https://iptv-epg.org/logos/Colombia/AnimalPlanet.co.png
@@ -25,6 +26,7 @@ Canal5.mx -> https://iptv-epg.org/logos/Mexico/Canal5.mx.png
 CartoonNetwork.co -> https://iptv-epg.org/logos/Colombia/CartoonNetwork.co.png
 Cartoonito.co -> https://iptv-epg.org/logos/Colombia/Cartoonito.co.png
 CGTNEspanol.es -> https://iptv-epg.org/logos/Spain/CGTNEspanol.es.png
+CGTN Documentary.es -> https://images.open-epg.com/12901029.png
 Cinecanal.co -> https://iptv-epg.org/logos/Colombia/Cinecanal.co.png
 Cinemax.co -> https://iptv-epg.org/logos/Colombia/Cinemax.co.png
 Citytv.co -> https://iptv-epg.org/logos/Colombia/Citytv.co.png
@@ -34,9 +36,17 @@ ComedyCentral.co -> https://iptv-epg.org/logos/Colombia/ComedyCentral.co.png
 DAZN1.es -> https://iptv-epg.org/logos/Spain/DAZN1.es.png
 DAZN2.es -> https://iptv-epg.org/logos/Spain/DAZN2.es.png
 DAZN3.es -> https://iptv-epg.org/logos/Spain/DAZN3.es.png
+DAZNF1.es -> https://iptv-epg.org/logos/Spain/DAZNF1.es.png
+DAZNLaLiga.es -> https://iptv-epg.org/logos/Spain/DAZNLaLiga.es.png
 DePelícula.mx -> https://iptv-epg.org/logos/Mexico/DePel%C3%ADcula.mx.png
 DHE.cl -> https://iptv-epg.org/logos/Chile/DHE.cl.png
 DIRECTVSports.pe -> https://iptv-epg.org/logos/Peru/DIRECTVSports.pe.png
+DSPORTS HD.ve -> https://images.open-epg.com/12665680.png
+DIRECTVSports2.pe -> https://iptv-epg.org/logos/Peru/DIRECTVSports2.pe.png
+DSPORTS 2 HD.ve -> https://images.open-epg.com/12665679.png
+DIRECTVSports+.pe -> https://iptv-epg.org/logos/Peru/DIRECTVSports%2B.pe.png
+DSPORTS + HD.ve -> https://images.open-epg.com/12665678.png
+DIRECTVSportsFight.pe -> https://iptv-epg.org/logos/Peru/DIRECTVSportsFight.pe.png
 Discovery.cl -> https://iptv-epg.org/logos/Chile/Discovery.cl.png
 DiscoveryChannel.ar -> https://iptv-epg.org/logos/Argentina/DiscoveryChannel.ar.png
 DiscoveryHome&Health.pe -> https://iptv-epg.org/logos/Peru/DiscoveryHome%26Health.pe.png
@@ -56,7 +66,9 @@ EnlaceJuvenil.co -> https://iptv-epg.org/logos/Colombia/EnlaceJuvenil.co.png
 ESNE.mx -> https://iptv-epg.org/logos/Mexico/ESNE.mx.png
 ESPN.ar -> https://iptv-epg.org/logos/Argentina/ESPN.ar.png
 ESPNColombia.ec -> https://iptv-epg.org/logos/Ecuador/ESPNColombia.ec.png
+ESPN.cl -> https://iptv-epg.org/logos/Chile/ESPN.cl.png
 ESPN.uy -> https://iptv-epg.org/logos/Uruguay/ESPN.uy.png
+ESPNSur2.ar -> 
 ESPNSur3.ar -> 
 ESPN2.uy -> https://iptv-epg.org/logos/Uruguay/ESPN2.uy.png
 ESPN2.ar -> https://iptv-epg.org/logos/Argentina/ESPN2.ar.png
@@ -77,6 +89,12 @@ ESPN5.uy -> https://iptv-epg.org/logos/Uruguay/ESPN5.uy.png
 ESPN6.uy -> https://iptv-epg.org/logos/Uruguay/ESPN6.uy.png
 ESPN7.ec -> https://iptv-epg.org/logos/Ecuador/ESPN7.ec.png
 ESPN7.uy -> https://iptv-epg.org/logos/Uruguay/ESPN7.uy.png
+Canal.ESPN.Premium.(Chile).sv -> (Sin logo encontrado)
+ESPN Premium.cl -> https://images.open-epg.com/34218.png
+ESPN PREMIUM HD.ar -> https://images.open-epg.com/25789.png
+FOX Sports -> 
+FOXSports2.ar -> https://iptv-epg.org/logos/Argentina/FOXSports2.ar.png
+FOXSports3.ar -> https://iptv-epg.org/logos/Argentina/FOXSports3.ar.png
 Eurochannel.co -> https://iptv-epg.org/logos/Colombia/Eurochannel.co.png
 EWTN.cl -> https://iptv-epg.org/logos/Chile/EWTN.cl.png
 film&arts.co -> https://iptv-epg.org/logos/Colombia/film%26arts.co.png
@@ -105,6 +123,7 @@ HISTORY2.uy -> https://iptv-epg.org/logos/Uruguay/HISTORY2.uy.png
 History2.co -> https://iptv-epg.org/logos/Colombia/History2.co.png
 HOLATV.co -> https://iptv-epg.org/logos/Colombia/HOLATV.co.png
 KANALD.uy -> https://iptv-epg.org/logos/Uruguay/KANALD.uy.png
+Kanal D Drama.cl -> https://images.open-epg.com/34227.png
 LASESTRELLAS.uy -> https://iptv-epg.org/logos/Uruguay/LASESTRELLAS.uy.png
 Lifetime.co -> https://iptv-epg.org/logos/Colombia/Lifetime.co.png
 Mega.cl -> https://iptv-epg.org/logos/Chile/Mega.cl.png
@@ -112,10 +131,13 @@ M+LigadeCampeones.es -> https://iptv-epg.org/logos/Spain/M%2BLigadeCampeones.es.
 M+LigadeCampeones2.es -> https://iptv-epg.org/logos/Spain/M%2BLigadeCampeones2.es.png
 M+LigadeCampeones3.es -> https://iptv-epg.org/logos/Spain/M%2BLigadeCampeones3.es.png
 M+LigadeCampeones4.es -> https://iptv-epg.org/logos/Spain/M%2BLigadeCampeones4.es.png
+M+#Vamos.es -> https://iptv-epg.org/logos/Spain/M%2B%23Vamos.es.png
+M+LaLigaTV.es -> https://iptv-epg.org/logos/Spain/M%2BLaLigaTV.es.png
 MTV.es -> https://iptv-epg.org/logos/Spain/MTV.es.png
 NationalGeographic.ar -> https://iptv-epg.org/logos/Argentina/NationalGeographic.ar.png
 Nick.cl -> https://iptv-epg.org/logos/Chile/Nick.cl.png
 Pasiones.co -> https://iptv-epg.org/logos/Colombia/Pasiones.co.png
+Plim Plim.ar -> https://images.open-epg.com/nologo.png
 Playboy.co -> https://iptv-epg.org/logos/Colombia/Playboy.co.png
 RaiItalia.cl -> https://iptv-epg.org/logos/Chile/RaiItalia.cl.png
 SkySports16.mx -> https://iptv-epg.org/logos/Mexico/SkySports16.mx.png
@@ -125,6 +147,8 @@ Sony.mx -> https://iptv-epg.org/logos/Mexico/Sony.mx.png
 Sony.cl -> https://iptv-epg.org/logos/Chile/Sony.cl.png
 SPACE.uy -> https://iptv-epg.org/logos/Uruguay/SPACE.uy.png
 Space.cl -> https://iptv-epg.org/logos/Chile/Space.cl.png
+Space.pe -> https://iptv-epg.org/logos/Peru/Space.pe.png
+StarChannel.cl -> https://iptv-epg.org/logos/Chile/StarChannel.cl.png
 STARChannel.ec -> https://iptv-epg.org/logos/Ecuador/STARChannel.ec.png
 StarChannel.pe -> https://iptv-epg.org/logos/Peru/StarChannel.pe.png
 STARCHANNEL.uy -> https://iptv-epg.org/logos/Uruguay/STARCHANNEL.uy.png
@@ -141,8 +165,10 @@ TNT.co -> https://iptv-epg.org/logos/Colombia/TNT.co.png
 TNT.cl -> https://iptv-epg.org/logos/Chile/TNT.cl.png
 TNTNOVELAS.uy -> https://iptv-epg.org/logos/Uruguay/TNTNOVELAS.uy.png
 TNTSeries.pe -> https://iptv-epg.org/logos/Peru/TNTSeries.pe.png
+TNTSeriesPAN.ec -> https://iptv-epg.org/logos/Ecuador/TNTSeriesPAN.ec.png
 TNTSports.cl -> https://iptv-epg.org/logos/Chile/TNTSports.cl.png
 TNTSportsPremium.cl -> https://iptv-epg.org/logos/Chile/TNTSportsPremium.cl.png
+TNT SPORTS PREMIUM.ar -> https://images.open-epg.com/35650.png
 Tooncast.co -> https://iptv-epg.org/logos/Colombia/Tooncast.co.png
 TVE.uy -> https://iptv-epg.org/logos/Uruguay/TVE.uy.png
 TyCSports.ar -> https://iptv-epg.org/logos/Argentina/TyCSports.ar.png
