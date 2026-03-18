@@ -9,6 +9,7 @@ EcuadorTV.ec
 OromarTV.ec
 A&E.co
 AMC.ar
+AMC SERIES.ar
 AXN.co
 AmericaTelevision.pe
 AnimalPlanet.co
@@ -22,6 +23,7 @@ Canal5.mx
 CartoonNetwork.co
 Cartoonito.co
 CGTNEspanol.es
+CGTN Documentary.es
 Cinecanal.co
 Cinemax.co
 Citytv.co
@@ -36,6 +38,9 @@ DAZNLaLiga.es
 DePelícula.mx
 DHE.cl
 DIRECTVSports.pe
+DSPORTS HD.ve
+DSPORTS + HD.ve
+DSPORTS 2 HD.ve
 Discovery.cl
 DiscoveryChannel.ar
 DiscoveryHome&Health.pe
@@ -79,6 +84,10 @@ ESPN6.uy
 ESPN7.ec
 ESPN7.uy
 Canal.ESPN.Premium.(Chile).sv
+ESPN Premium.cl
+ESPN PREMIUM HD.ar
+FOX SPORTS HD.ar
+FOX SPORTS 2 HD.ar
 Eurochannel.co
 EWTN.cl
 film&arts.co
@@ -107,6 +116,7 @@ HISTORY2.uy
 History2.co
 HOLATV.co
 KANALD.uy
+Kanal D Drama.cl
 LASESTRELLAS.uy
 Lifetime.co
 Mega.cl
@@ -120,6 +130,7 @@ MTV.es
 NationalGeographic.ar
 Nick.cl
 Pasiones.co
+Plim Plim.ar
 Playboy.co
 RaiItalia.cl
 SkySports16.mx
@@ -150,6 +161,7 @@ TNTSeries.pe
 TNTSeriesPAN.ec
 TNTSports.cl
 TNTSportsPremium.cl
+TNT SPORTS PREMIUM.ar
 Tooncast.co
 TVE.uy
 TyCSports.ar
