@@ -38,9 +38,13 @@ DAZNLaLiga.es
 DePelícula.mx
 DHE.cl
 DIRECTVSports.pe
+DIRECTVSports.uy
 DSPORTS HD.ve
-DSPORTS + HD.ve
+DIRECTVSports2.uy
 DSPORTS 2 HD.ve
+DIRECTVSports+.uy
+DSPORTS + HD.ve
+DIRECTVSportsFight.uy
 Discovery.cl
 DiscoveryChannel.ar
 DiscoveryHome&Health.pe
