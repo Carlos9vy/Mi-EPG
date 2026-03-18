@@ -9,6 +9,7 @@ EcuadorTV.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Ec
 OromarTV.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/OromarTV.ec.png
 A&E.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/A%26E.co.png
 AMC.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/AMC.ar.png
+AMC SERIES.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/AMC_SERIES.ar.png
 AXN.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/AXN.co.png
 AmericaTelevision.pe -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/AmericaTelevision.pe.png
 AnimalPlanet.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/AnimalPlanet.co.png
@@ -22,6 +23,7 @@ Canal5.mx -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Canal
 CartoonNetwork.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/CartoonNetwork.co.png
 Cartoonito.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Cartoonito.co.png
 CGTNEspanol.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/CGTNEspanol.es.png
+CGTN Documentary.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/CGTN_Documentary.es.png
 Cinecanal.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Cinecanal.co.png
 Cinemax.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Cinemax.co.png
 Citytv.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Citytv.co.png
@@ -31,9 +33,17 @@ ComedyCentral.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logo
 DAZN1.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DAZN1.es.png
 DAZN2.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DAZN2.es.png
 DAZN3.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DAZN3.es.png
+DAZNF1.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DAZNF1.es.png
+DAZNLaLiga.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DAZNLaLiga.es.png
 DePelícula.mx -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DePel%C3%ADcula.mx.png
 DHE.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DHE.cl.png
 DIRECTVSports.pe -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DIRECTVSports.pe.png
+DSPORTS HD.ve -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DSPORTS_HD.ve.png
+DIRECTVSports2.pe -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DIRECTVSports2.pe.png
+DSPORTS 2 HD.ve -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DSPORTS_2_HD.ve.png
+DIRECTVSports+.pe -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DIRECTVSports%2B.pe.png
+DSPORTS + HD.ve -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DSPORTS_%2B_HD.ve.png
+DIRECTVSportsFight.pe -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DIRECTVSportsFight.pe.png
 Discovery.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Discovery.cl.png
 DiscoveryChannel.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DiscoveryChannel.ar.png
 DiscoveryHome&Health.pe -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DiscoveryHome%26Health.pe.png
@@ -53,6 +63,7 @@ EnlaceJuvenil.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logo
 ESNE.mx -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESNE.mx.png
 ESPN.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN.ar.png
 ESPNColombia.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPNColombia.ec.png
+ESPN.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN.cl.png
 ESPN.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN.uy.png
 ESPN2.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN2.uy.png
 ESPN2.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN2.ar.png
@@ -73,6 +84,10 @@ ESPN5.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN5.
 ESPN6.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN6.uy.png
 ESPN7.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN7.ec.png
 ESPN7.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN7.uy.png
+ESPN Premium.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN_Premium.cl.png
+ESPN PREMIUM HD.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN_PREMIUM_HD.ar.png
+FOXSports2.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/FOXSports2.ar.png
+FOXSports3.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/FOXSports3.ar.png
 Eurochannel.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Eurochannel.co.png
 EWTN.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/EWTN.cl.png
 film&arts.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/film%26arts.co.png
@@ -101,6 +116,7 @@ HISTORY2.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/HIS
 History2.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/History2.co.png
 HOLATV.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/HOLATV.co.png
 KANALD.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/KANALD.uy.png
+Kanal D Drama.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Kanal_D_Drama.cl.png
 LASESTRELLAS.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/LASESTRELLAS.uy.png
 Lifetime.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Lifetime.co.png
 Mega.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Mega.cl.png
@@ -108,10 +124,13 @@ M+LigadeCampeones.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/
 M+LigadeCampeones2.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/M%2BLigadeCampeones2.es.png
 M+LigadeCampeones3.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/M%2BLigadeCampeones3.es.png
 M+LigadeCampeones4.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/M%2BLigadeCampeones4.es.png
+M+#Vamos.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/M%2B%23Vamos.es.png
+M+LaLigaTV.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/M%2BLaLigaTV.es.png
 MTV.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/MTV.es.png
 NationalGeographic.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/NationalGeographic.ar.png
 Nick.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Nick.cl.png
 Pasiones.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Pasiones.co.png
+Plim Plim.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Plim_Plim.ar.png
 Playboy.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Playboy.co.png
 RaiItalia.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/RaiItalia.cl.png
 SkySports16.mx -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/SkySports16.mx.png
@@ -121,6 +140,8 @@ Sony.mx -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Sony.mx
 Sony.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Sony.cl.png
 SPACE.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/SPACE.uy.png
 Space.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Space.cl.png
+Space.pe -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Space.pe.png
+StarChannel.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/StarChannel.cl.png
 STARChannel.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/STARChannel.ec.png
 StarChannel.pe -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/StarChannel.pe.png
 STARCHANNEL.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/STARCHANNEL.uy.png
@@ -137,8 +158,10 @@ TNT.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/TNT.co.p
 TNT.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/TNT.cl.png
 TNTNOVELAS.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/TNTNOVELAS.uy.png
 TNTSeries.pe -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/TNTSeries.pe.png
+TNTSeriesPAN.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/TNTSeriesPAN.ec.png
 TNTSports.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/TNTSports.cl.png
 TNTSportsPremium.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/TNTSportsPremium.cl.png
+TNT SPORTS PREMIUM.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/TNT_SPORTS_PREMIUM.ar.png
 Tooncast.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Tooncast.co.png
 TVE.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/TVE.uy.png
 TyCSports.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/TyCSports.ar.png
