@@ -89,6 +89,7 @@ ESPN PREMIUM HD.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/lo
 FOXSportsConoSur.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/FOXSportsConoSur.ar.png
 FOXSports2.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/FOXSports2.ar.png
 FOXSports3.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/FOXSports3.ar.png
+FIFA+.us -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/FIFA%2B.us.png
 Eurochannel.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Eurochannel.co.png
 EWTN.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/EWTN.cl.png
 film&arts.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/film%26arts.co.png
