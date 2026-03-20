@@ -92,7 +92,7 @@ ESPN7.uy -> https://iptv-epg.org/logos/Uruguay/ESPN7.uy.png
 Canal.ESPN.Premium.(Chile).sv -> (Sin logo encontrado)
 ESPN Premium.cl -> https://images.open-epg.com/34218.png
 ESPN PREMIUM HD.ar -> https://images.open-epg.com/25789.png
-FOX Sports -> 
+FOXSportsConoSur.ar -> https://iptv-epg.org/logos/Argentina/FOXSportsConoSur.ar.png
 FOXSports2.ar -> https://iptv-epg.org/logos/Argentina/FOXSports2.ar.png
 FOXSports3.ar -> https://iptv-epg.org/logos/Argentina/FOXSports3.ar.png
 Eurochannel.co -> https://iptv-epg.org/logos/Colombia/Eurochannel.co.png
