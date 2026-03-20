@@ -86,6 +86,7 @@ ESPN7.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN7.
 ESPN7.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN7.uy.png
 ESPN Premium.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN_Premium.cl.png
 ESPN PREMIUM HD.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN_PREMIUM_HD.ar.png
+FOXSportsConoSur.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/FOXSportsConoSur.ar.png
 FOXSports2.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/FOXSports2.ar.png
 FOXSports3.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/FOXSports3.ar.png
 Eurochannel.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Eurochannel.co.png
