@@ -95,6 +95,7 @@ ESPN PREMIUM HD.ar -> https://images.open-epg.com/25789.png
 FOXSportsConoSur.ar -> https://iptv-epg.org/logos/Argentina/FOXSportsConoSur.ar.png
 FOXSports2.ar -> https://iptv-epg.org/logos/Argentina/FOXSports2.ar.png
 FOXSports3.ar -> https://iptv-epg.org/logos/Argentina/FOXSports3.ar.png
+FIFA+.us -> https://iptv-epg.org/logos/USA/FIFA%2B.us.png
 Eurochannel.co -> https://iptv-epg.org/logos/Colombia/Eurochannel.co.png
 EWTN.cl -> https://iptv-epg.org/logos/Chile/EWTN.cl.png
 film&arts.co -> https://iptv-epg.org/logos/Colombia/film%26arts.co.png
