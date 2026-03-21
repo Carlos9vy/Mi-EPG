@@ -67,16 +67,19 @@ ESPN.cl
 ESPN.uy
 ESPNSur2.ar
 ESPNSur3.ar
+ESPN.mx
 ESPN2.uy
 ESPN2.ar
 ESPN2.cl
 ESPN2.co
 ESPN2Colombia.ec
+ESPN2.mx
 ESPN3Andina.ec
 ESPN3.ar
 ESPN3.co
 ESPN3.uy
 ESPN3.cl
+ESPN3.mx
 ESPN4.ec
 ESPN4.ar
 ESPN4.cl
@@ -89,6 +92,7 @@ ESPN7.uy
 Canal.ESPN.Premium.(Chile).sv
 ESPN Premium.cl
 ESPN PREMIUM HD.ar
+ESPN+.mx
 FOXSportsConoSur.ar
 FOXSports2.ar
 FOXSports3.ar
