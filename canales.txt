@@ -68,6 +68,7 @@ ESPN.uy
 ESPNSur2.ar
 ESPNSur3.ar
 ESPN.mx
+ESPNNorte.mx
 ESPN2.uy
 ESPN2.ar
 ESPN2.cl
