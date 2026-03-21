@@ -85,8 +85,10 @@ ESPN4.ec
 ESPN4.ar
 ESPN4.cl
 ESPN4.uy
+Canal.ESPN.4.(México).sv
 ESPN5.ec
 ESPN5.uy
+Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv
 ESPN6.uy
 ESPN7.ec
 ESPN7.uy
