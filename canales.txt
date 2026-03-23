@@ -28,6 +28,8 @@ Cinecanal.co
 Cinemax.co
 Citytv.co
 CLAROSPORTS.uy
+CLAROSPORTS.mx
+CLAROSPORTS.ve
 CNNChile.cl
 ComedyCentral.co
 DAZN1.es
@@ -185,6 +187,7 @@ UNIVERSO.us
 USA.uy
 Venus.ar
 Venus.co
+VENEVISION.ve
 WarnerChannel.ar
 WarnerChannel.co
 Zoom.co
