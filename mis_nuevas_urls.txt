@@ -28,6 +28,8 @@ Cinecanal.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Ci
 Cinemax.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Cinemax.co.png
 Citytv.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Citytv.co.png
 CLAROSPORTS.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/CLAROSPORTS.uy.png
+CLAROSPORTS.mx -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/CLAROSPORTS.mx.png
+CLAROSPORTS.ve -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/CLAROSPORTS.ve.png
 CNNChile.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/CNNChile.cl.png
 ComedyCentral.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ComedyCentral.co.png
 DAZN1.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DAZN1.es.png
@@ -65,16 +67,19 @@ ESPN.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN.ar
 ESPNColombia.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPNColombia.ec.png
 ESPN.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN.cl.png
 ESPN.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN.uy.png
+ESPN.mx -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN.mx.png
 ESPN2.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN2.uy.png
 ESPN2.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN2.ar.png
 ESPN2.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN2.cl.png
 ESPN2.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN2.co.png
 ESPN2Colombia.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN2Colombia.ec.png
+ESPN2.mx -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN2.mx.png
 ESPN3Andina.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN3Andina.ec.png
 ESPN3.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN3.ar.png
 ESPN3.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN3.co.png
 ESPN3.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN3.uy.png
 ESPN3.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN3.cl.png
+ESPN3.mx -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN3.mx.png
 ESPN4.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN4.ec.png
 ESPN4.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN4.ar.png
 ESPN4.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN4.cl.png
@@ -86,6 +91,7 @@ ESPN7.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN7.
 ESPN7.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN7.uy.png
 ESPN Premium.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN_Premium.cl.png
 ESPN PREMIUM HD.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN_PREMIUM_HD.ar.png
+ESPN+.mx -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ESPN%2B.mx.png
 FOXSportsConoSur.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/FOXSportsConoSur.ar.png
 FOXSports2.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/FOXSports2.ar.png
 FOXSports3.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/FOXSports3.ar.png
@@ -175,6 +181,7 @@ UNIVERSO.us -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/UNI
 USA.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/USA.uy.png
 Venus.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Venus.ar.png
 Venus.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Venus.co.png
+VENEVISION.ve -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/VENEVISION.ve.png
 WarnerChannel.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/WarnerChannel.ar.png
 WarnerChannel.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/WarnerChannel.co.png
 Zoom.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Zoom.co.png
