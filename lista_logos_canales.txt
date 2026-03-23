@@ -31,6 +31,8 @@ Cinecanal.co -> https://iptv-epg.org/logos/Colombia/Cinecanal.co.png
 Cinemax.co -> https://iptv-epg.org/logos/Colombia/Cinemax.co.png
 Citytv.co -> https://iptv-epg.org/logos/Colombia/Citytv.co.png
 CLAROSPORTS.uy -> https://iptv-epg.org/logos/Uruguay/CLAROSPORTS.uy.png
+CLAROSPORTS.mx -> https://images.open-epg.com/32415.png
+CLAROSPORTS.ve -> https://images.open-epg.com/12665706.png
 CNNChile.cl -> https://iptv-epg.org/logos/Chile/CNNChile.cl.png
 ComedyCentral.co -> https://iptv-epg.org/logos/Colombia/ComedyCentral.co.png
 DAZN1.es -> https://iptv-epg.org/logos/Spain/DAZN1.es.png
@@ -70,28 +72,35 @@ ESPN.cl -> https://iptv-epg.org/logos/Chile/ESPN.cl.png
 ESPN.uy -> https://iptv-epg.org/logos/Uruguay/ESPN.uy.png
 ESPNSur2.ar -> 
 ESPNSur3.ar -> 
+ESPN.mx -> https://iptv-epg.org/logos/Mexico/ESPN.mx.png
+ESPNNorte.mx -> 
 ESPN2.uy -> https://iptv-epg.org/logos/Uruguay/ESPN2.uy.png
 ESPN2.ar -> https://iptv-epg.org/logos/Argentina/ESPN2.ar.png
 ESPN2.cl -> https://iptv-epg.org/logos/Chile/ESPN2.cl.png
 ESPN2.co -> https://iptv-epg.org/logos/Colombia/ESPN2.co.png
 ESPN2Colombia.ec -> https://iptv-epg.org/logos/Ecuador/ESPN2Colombia.ec.png
+ESPN2.mx -> https://iptv-epg.org/logos/Mexico/ESPN2.mx.png
 ESPN3Andina.ec -> https://iptv-epg.org/logos/Ecuador/ESPN3Andina.ec.png
 ESPN3.ar -> https://iptv-epg.org/logos/Argentina/ESPN3.ar.png
 ESPN3.co -> https://iptv-epg.org/logos/Colombia/ESPN3.co.png
 ESPN3.uy -> https://iptv-epg.org/logos/Uruguay/ESPN3.uy.png
 ESPN3.cl -> https://iptv-epg.org/logos/Chile/ESPN3.cl.png
+ESPN3.mx -> https://iptv-epg.org/logos/Mexico/ESPN3.mx.png
 ESPN4.ec -> https://iptv-epg.org/logos/Ecuador/ESPN4.ec.png
 ESPN4.ar -> https://iptv-epg.org/logos/Argentina/ESPN4.ar.png
 ESPN4.cl -> https://iptv-epg.org/logos/Chile/ESPN4.cl.png
 ESPN4.uy -> https://iptv-epg.org/logos/Uruguay/ESPN4.uy.png
+Canal.ESPN.4.(México).sv -> (Sin logo encontrado)
 ESPN5.ec -> https://iptv-epg.org/logos/Ecuador/ESPN5.ec.png
 ESPN5.uy -> https://iptv-epg.org/logos/Uruguay/ESPN5.uy.png
+Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv -> (Sin logo encontrado)
 ESPN6.uy -> https://iptv-epg.org/logos/Uruguay/ESPN6.uy.png
 ESPN7.ec -> https://iptv-epg.org/logos/Ecuador/ESPN7.ec.png
 ESPN7.uy -> https://iptv-epg.org/logos/Uruguay/ESPN7.uy.png
 Canal.ESPN.Premium.(Chile).sv -> (Sin logo encontrado)
 ESPN Premium.cl -> https://images.open-epg.com/34218.png
 ESPN PREMIUM HD.ar -> https://images.open-epg.com/25789.png
+ESPN+.mx -> https://iptv-epg.org/logos/Mexico/ESPN%2B.mx.png
 FOXSportsConoSur.ar -> https://iptv-epg.org/logos/Argentina/FOXSportsConoSur.ar.png
 FOXSports2.ar -> https://iptv-epg.org/logos/Argentina/FOXSports2.ar.png
 FOXSports3.ar -> https://iptv-epg.org/logos/Argentina/FOXSports3.ar.png
@@ -181,6 +190,7 @@ UNIVERSO.us -> https://iptv-epg.org/logos/USA/UNIVERSO.us.png
 USA.uy -> https://iptv-epg.org/logos/Uruguay/USA.uy.png
 Venus.ar -> https://iptv-epg.org/logos/Argentina/Venus.ar.png
 Venus.co -> https://iptv-epg.org/logos/Colombia/Venus.co.png
+VENEVISION.ve -> https://images.open-epg.com/12665703.png
 WarnerChannel.ar -> https://iptv-epg.org/logos/Argentina/WarnerChannel.ar.png
 WarnerChannel.co -> https://iptv-epg.org/logos/Colombia/WarnerChannel.co.png
 Zoom.co -> https://iptv-epg.org/logos/Colombia/Zoom.co.png
