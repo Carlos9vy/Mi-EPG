@@ -24,6 +24,8 @@ CartoonNetwork.co
 Cartoonito.co
 CGTNEspanol.es
 CGTN Documentary.es
+Caracol.co
+RCN.co
 Cinecanal.co
 Cinemax.co
 Citytv.co
@@ -190,6 +192,7 @@ Venus.co
 VENEVISION.ve
 WarnerChannel.ar
 WarnerChannel.co
+WinSports.co
 Zoom.co
 
 
