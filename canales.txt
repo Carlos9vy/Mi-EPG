@@ -41,16 +41,16 @@ DAZNF1.es
 DAZNLaLiga.es
 DePelícula.mx
 DHE.cl
-DIRECTVSports.uy
+DIRECTVSports.cl
 DIRECTVSports.pe
 DSPORTS HD.ve
-DIRECTVSports2.uy
+DIRECTVSports2.cl
 DIRECTVSports2.pe
 DSPORTS 2 HD.ve
-DIRECTVSports+.uy
+DIRECTVSports+.cl
 DIRECTVSports+.pe
 DSPORTS + HD.ve
-DIRECTVSportsFight.uy
+DIRECTVSportsFight.cl
 DIRECTVSportsFight.pe
 Discovery.cl
 DiscoveryChannel.ar
