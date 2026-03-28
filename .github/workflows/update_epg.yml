@@ -2,19 +2,17 @@ name: Actualizar EPG Filtrada
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Ejecución automática cada medianoche (UTC)
-  workflow_dispatch:      # Permite ejecución manual
+    - cron: '0 0 * * *' 
+  workflow_dispatch:      
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    # Permisos para que el robot pueda guardar los archivos en tu repositorio
     permissions:
       contents: write
 
     steps:
-      - name: 1. Descargar el código del repositorio
+      - name: 1. Descargar el código
         uses: actions/checkout@v4
 
       - name: 2. Configurar Python
@@ -23,23 +21,24 @@ jobs:
           python-version: '3.x'
 
       - name: 3. Instalar librerías
-        run: pip install requests
+        run: |
+          pip install requests
+          # No necesitamos pytz si usamos el método de datetime puro que te daré abajo
 
-      - name: 4. Ejecutar script de filtrado y optimización
+      - name: 4. Ejecutar script de filtrado y shift
         run: python filter_epg.py
 
-      - name: 5. Guardar y subir cambios (XML, GZ y Errores)
+      - name: 5. Guardar y subir cambios
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # Agregamos los tres archivos resultantes
+          # Añadimos los resultados. El shift.txt no se añade aquí porque tú lo editas manual.
           git add epg_reducida.xml epg_reducida.xml.gz errores_canales.txt
           
-          # Verificamos si hay cambios antes de hacer el commit
           if git diff --staged --quiet; then
-            echo "No hay cambios nuevos para subir."
+            echo "Sin cambios en la EPG."
           else
-            git commit -m "Actualización EPG optimizada: $(date +'%Y-%m-%d %H:%M')"
+            git commit -m "EPG Actualizada con Shift: $(date +'%Y-%m-%d %H:%M')"
             git push
           fi
