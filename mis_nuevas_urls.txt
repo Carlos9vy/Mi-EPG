@@ -24,6 +24,8 @@ CartoonNetwork.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/log
 Cartoonito.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Cartoonito.co.png
 CGTNEspanol.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/CGTNEspanol.es.png
 CGTN Documentary.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/CGTN_Documentary.es.png
+Caracol.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Caracol.co.png
+RCN.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/RCN.co.png
 Cinecanal.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Cinecanal.co.png
 Cinemax.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Cinemax.co.png
 Citytv.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Citytv.co.png
@@ -39,12 +41,16 @@ DAZNF1.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DAZNF
 DAZNLaLiga.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DAZNLaLiga.es.png
 DePelícula.mx -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DePel%C3%ADcula.mx.png
 DHE.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DHE.cl.png
+DIRECTVSports.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DIRECTVSports.cl.png
 DIRECTVSports.pe -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DIRECTVSports.pe.png
 DSPORTS HD.ve -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DSPORTS_HD.ve.png
+DIRECTVSports2.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DIRECTVSports2.cl.png
 DIRECTVSports2.pe -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DIRECTVSports2.pe.png
 DSPORTS 2 HD.ve -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DSPORTS_2_HD.ve.png
+DIRECTVSports+.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DIRECTVSports%2B.cl.png
 DIRECTVSports+.pe -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DIRECTVSports%2B.pe.png
 DSPORTS + HD.ve -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DSPORTS_%2B_HD.ve.png
+DIRECTVSportsFight.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DIRECTVSportsFight.cl.png
 DIRECTVSportsFight.pe -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DIRECTVSportsFight.pe.png
 Discovery.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Discovery.cl.png
 DiscoveryChannel.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DiscoveryChannel.ar.png
@@ -184,4 +190,6 @@ Venus.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Venus.
 VENEVISION.ve -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/VENEVISION.ve.png
 WarnerChannel.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/WarnerChannel.ar.png
 WarnerChannel.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/WarnerChannel.co.png
+WinSports.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/WinSports.co.png
+Win+Futbol.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Win%2BFutbol.co.png
 Zoom.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Zoom.co.png
