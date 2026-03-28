@@ -27,6 +27,8 @@ CartoonNetwork.co -> https://iptv-epg.org/logos/Colombia/CartoonNetwork.co.png
 Cartoonito.co -> https://iptv-epg.org/logos/Colombia/Cartoonito.co.png
 CGTNEspanol.es -> https://iptv-epg.org/logos/Spain/CGTNEspanol.es.png
 CGTN Documentary.es -> https://images.open-epg.com/12901029.png
+Caracol.co -> https://iptv-epg.org/logos/Colombia/Caracol.co.png
+RCN.co -> https://iptv-epg.org/logos/Colombia/RCN.co.png
 Cinecanal.co -> https://iptv-epg.org/logos/Colombia/Cinecanal.co.png
 Cinemax.co -> https://iptv-epg.org/logos/Colombia/Cinemax.co.png
 Citytv.co -> https://iptv-epg.org/logos/Colombia/Citytv.co.png
@@ -42,12 +44,16 @@ DAZNF1.es -> https://iptv-epg.org/logos/Spain/DAZNF1.es.png
 DAZNLaLiga.es -> https://iptv-epg.org/logos/Spain/DAZNLaLiga.es.png
 DePelícula.mx -> https://iptv-epg.org/logos/Mexico/DePel%C3%ADcula.mx.png
 DHE.cl -> https://iptv-epg.org/logos/Chile/DHE.cl.png
+DIRECTVSports.cl -> https://iptv-epg.org/logos/Chile/DIRECTVSports.cl.png
 DIRECTVSports.pe -> https://iptv-epg.org/logos/Peru/DIRECTVSports.pe.png
 DSPORTS HD.ve -> https://images.open-epg.com/12665680.png
+DIRECTVSports2.cl -> https://iptv-epg.org/logos/Chile/DIRECTVSports2.cl.png
 DIRECTVSports2.pe -> https://iptv-epg.org/logos/Peru/DIRECTVSports2.pe.png
 DSPORTS 2 HD.ve -> https://images.open-epg.com/12665679.png
+DIRECTVSports+.cl -> https://iptv-epg.org/logos/Chile/DIRECTVSports%2B.cl.png
 DIRECTVSports+.pe -> https://iptv-epg.org/logos/Peru/DIRECTVSports%2B.pe.png
 DSPORTS + HD.ve -> https://images.open-epg.com/12665678.png
+DIRECTVSportsFight.cl -> https://iptv-epg.org/logos/Chile/DIRECTVSportsFight.cl.png
 DIRECTVSportsFight.pe -> https://iptv-epg.org/logos/Peru/DIRECTVSportsFight.pe.png
 Discovery.cl -> https://iptv-epg.org/logos/Chile/Discovery.cl.png
 DiscoveryChannel.ar -> https://iptv-epg.org/logos/Argentina/DiscoveryChannel.ar.png
@@ -193,4 +199,6 @@ Venus.co -> https://iptv-epg.org/logos/Colombia/Venus.co.png
 VENEVISION.ve -> https://images.open-epg.com/12665703.png
 WarnerChannel.ar -> https://iptv-epg.org/logos/Argentina/WarnerChannel.ar.png
 WarnerChannel.co -> https://iptv-epg.org/logos/Colombia/WarnerChannel.co.png
+WinSports.co -> https://iptv-epg.org/logos/Colombia/WinSports.co.png
+Win+Futbol.co -> https://images.open-epg.com/26679.png
 Zoom.co -> https://iptv-epg.org/logos/Colombia/Zoom.co.png
