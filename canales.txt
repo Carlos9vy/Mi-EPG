@@ -184,6 +184,7 @@ TNTSportsPremium.cl
 TNT SPORTS PREMIUM.ar
 Tooncast.co
 TVE.uy
+TUDNMexico.mx
 TyCSports.ar
 TyCSports.co
 Unitel.pe
