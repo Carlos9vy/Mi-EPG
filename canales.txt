@@ -185,6 +185,7 @@ TNT SPORTS PREMIUM.ar
 Tooncast.co
 TVE.uy
 TUDNMexico.mx
+TUDNMexico.gt
 TyCSports.ar
 TyCSports.co
 Unitel.pe
