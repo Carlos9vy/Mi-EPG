@@ -73,6 +73,7 @@ ESPN.ar
 ESPNColombia.ec
 ESPN.cl
 ESPN.uy
+ESPN.pe
 ESPNSur2.ar
 ESPNSur3.ar
 ESPN.mx
