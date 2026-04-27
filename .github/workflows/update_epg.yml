@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    
     permissions:
       contents: write
 
@@ -21,11 +22,12 @@ jobs:
           python-version: '3.x'
 
       - name: 3. Instalar librerías
-        run: |
-          pip install requests
-          # No necesitamos pytz si usamos el método de datetime puro que te daré abajo
+        run: pip install requests
 
       - name: 4. Ejecutar script de filtrado y shift
+        # ESTA ES LA PARTE QUE FALTABA: Conectamos el Secret con el script
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: python filter_epg.py
 
       - name: 5. Guardar y subir cambios
@@ -33,12 +35,11 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # Añadimos los resultados. El shift.txt no se añade aquí porque tú lo editas manual.
           git add epg_reducida.xml epg_reducida.xml.gz errores_canales.txt
           
           if git diff --staged --quiet; then
             echo "Sin cambios en la EPG."
           else
-            git commit -m "EPG Actualizada con Shift: $(date +'%Y-%m-%d %H:%M')"
+            git commit -m "EPG Actualizada con Shift y TMDB: $(date +'%Y-%m-%d %H:%M')"
             git push
           fi
