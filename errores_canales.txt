@@ -1,5 +1,5 @@
-⚠️ CANALES NO ENCONTRADOS:
-- AMC SERIES.ar
-- ESPN PREMIUM HD.ar
-- Plim Plim.ar
-- TNT SPORTS PREMIUM.ar
+⚠️ Faltantes:
+AMC SERIES.ar
+ESPN PREMIUM HD.ar
+Plim Plim.ar
+TNT SPORTS PREMIUM.ar
