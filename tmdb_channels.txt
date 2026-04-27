@@ -15,7 +15,6 @@ HBOPop.co
 HBOSignature.co
 HBOXtreme.co
 Sony.cl
-NationalGeographic.ar
 Space.cl
 StarChannel.cl
 StudioUniversal.ar
