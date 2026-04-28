@@ -10,38 +10,37 @@ jobs:
       contents: write
 
     steps:
-      - name: 1. Descargar Repositorio
+      - name: 1. Checkout
         uses: actions/checkout@v4
 
-      - name: 2. Configurar Python
+      - name: 2. Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: 3. Instalar Librerías (Requests + Pillow)
+      - name: 3. Dependencies
         run: pip install requests Pillow
 
-      - name: 4. Ejecutar Script de Prueba
+      - name: 4. Run Script
         run: python prueba_logos_estandar.py
 
-      - name: 5. Subir Cambios (Modo Seguro)
+      - name: 5. Force Upload
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "TesterRobot"
           
-          # Añadir archivo de URLs si existe
-          [ -f urls_estandarizadas.txt ] && git add urls_estandarizadas.txt
+          # Asegurar que la carpeta existe para Git
+          mkdir -p logos_estandar
+          touch logos_estandar/.keep
           
-          # Añadir logos solo si la carpeta tiene archivos PNG
-          # El '|| true' evita que el workflow falle si no hay archivos
-          if ls logos_estandar/*.png 1> /dev/null 2>&1; then
-            git add logos_estandar/*.png
-          fi
+          # Añadir todo de forma explícita
+          git add logos_estandar/*.png || true
+          git add logos_estandar/.keep || true
+          git add urls_estandarizadas.txt || true
           
-          # Commit y Push solo si hay cambios reales detectados
-          if git diff --staged --quiet; then
-            echo "Sin cambios o logos nuevos para subir."
-          else
-            git commit -m "Experimento: Logos estandarizados (400x225)"
-            git push
-          fi
+          # Mostrar estado en logs para depuración
+          git status
+          
+          # Hacer commit y subir
+          git commit -m "Update: Logos estandarizados 400x225" || echo "Sin cambios"
+          git push
