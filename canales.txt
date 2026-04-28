@@ -179,6 +179,7 @@ TLNovelas.ve
 TNT.co
 TNT.cl
 TNTNOVELAS.uy
+TNTNovelas.bo
 TNTSeries.pe
 TNTSeriesPAN.ec
 TNTSports.cl
