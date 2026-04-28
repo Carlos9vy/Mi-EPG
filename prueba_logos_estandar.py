@@ -35,10 +35,10 @@ def procesar_imagen_estandar(contenido_img, ruta_destino):
         lienzo.paste(img, offset, img)
         lienzo.save(ruta_destino, "PNG")
         return True
-    except: return False
+    except:
+        return False
 
 def ejecutar_prueba():
-    # 1. Preparación de carpetas y anclaje
     if not os.path.exists(CARPETA_PRUEBA):
         os.makedirs(CARPETA_PRUEBA)
     with open(os.path.join(CARPETA_PRUEBA, ".keep"), "w") as f:
@@ -52,10 +52,9 @@ def ejecutar_prueba():
         whitelist = [line.strip() for line in f if line.strip()]
 
     logos_dict = {}
-    # 2. Escaneo de fuentes
     for url in EPG_SOURCES:
         try:
-            r = requests.get(url, timeout=20)
+            r = requests.get(url, timeout=25)
             content = gzip.decompress(r.content) if r.content[:2] == b'\x1f\x8b' else r.content
             context = ET.iterparse(io.BytesIO(content), events=('end',))
             for _, elem in context:
@@ -63,11 +62,12 @@ def ejecutar_prueba():
                     cid = elem.get('id')
                     if cid in whitelist and cid not in logos_dict:
                         icon = elem.find('icon')
-                        if icon is not None: logos_dict[cid] = icon.get('src')
+                        if icon is not None:
+                            logos_dict[cid] = icon.get('src')
                 elem.clear()
-        except: continue
+        except:
+            continue
 
-    # 3. Procesamiento y Generación de Lista
     nuevas_urls = []
     conteo_exito = 0
     for cid in whitelist:
@@ -77,6 +77,23 @@ def ejecutar_prueba():
             ruta_final = os.path.join(CARPETA_PRUEBA, nombre_archivo)
             
             try:
-                r_img = requests.get(logos_dict[cid], timeout=10)
-                if r_img.status_code == 200 and procesar_imagen_estandar(r_img.content, ruta_final):
-                    url_raw = f"https://raw.githubusercontent.com/{REPO}/
+                r_img = requests.get(logos_dict[cid], timeout=15)
+                if r_img.status_code == 200:
+                    if procesar_imagen_estandar(r_img.content, ruta_final):
+                        # LINEA CORREGIDA (Sin cortes)
+                        url_raw = f"https://raw.githubusercontent.com/{REPO}/main/{CARPETA_PRUEBA}/{urllib.parse.quote(nombre_archivo)}"
+                        nuevas_urls.append(f"{cid} -> {url_raw}\n")
+                        conteo_exito += 1
+            except:
+                continue
+    
+    with open(LISTA_PRUEBA, 'w', encoding='utf-8') as f:
+        f.writelines(nuevas_urls)
+    
+    print(f"--- REPORTE FINAL ---")
+    print(f"Canales cargados: {len(whitelist)}")
+    print(f"Logos encontrados: {len(logos_dict)}")
+    print(f"Logos procesados: {conteo_exito}")
+
+if __name__ == "__main__":
+    ejecutar_prueba()
