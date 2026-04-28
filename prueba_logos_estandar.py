@@ -43,21 +43,18 @@ def ejecutar_prueba():
     if not os.path.exists(CARPETA_PRUEBA): os.makedirs(CARPETA_PRUEBA)
 
     if not os.path.exists(CANALES_FILE):
-        print(f"ERROR FATAL: No se encuentra {CANALES_FILE}")
+        print("ERROR: canales.txt no encontrado.")
         return
 
     with open(CANALES_FILE, 'r', encoding='utf-8') as f:
         whitelist = [line.strip() for line in f if line.strip()]
     
-    print(f"--- PASO 1: Cargados {len(whitelist)} IDs de canales.txt ---")
-    for c in whitelist: print(f"  ID a buscar: '{c}'")
-
     logos_dict = {}
     headers = {'User-Agent': 'Mozilla/5.0'}
 
+    # PASO 2: Búsqueda
     for url in EPG_SOURCES:
         try:
-            print(f"--- PASO 2: Escaneando {url.split('/')[-1]} ---")
             r = requests.get(url, headers=headers, timeout=30)
             content = gzip.decompress(r.content) if r.content[:2] == b'\x1f\x8b' else r.content
             context = ET.iterparse(io.BytesIO(content), events=('end',))
@@ -68,38 +65,42 @@ def ejecutar_prueba():
                         icon = elem.find('icon')
                         if icon is not None:
                             src = icon.get('src')
-                            logos_dict[cid] = src
-                            print(f"    [OK] Logo encontrado para: {cid}")
+                            if src: logos_dict[cid] = src
                 elem.clear()
-        except Exception as e:
-            print(f"    [X] Error en fuente: {e}")
+        except: continue
 
     print(f"--- PASO 3: Descargando {len(logos_dict)} logos encontrados ---")
     nuevas_urls = []
+    exitos = 0
+    
     for cid in whitelist:
         if cid in logos_dict:
-            nombre_archivo = f"{cid}.png".replace(" ", "_")
+            # Limpiamos el nombre del archivo para que no de problemas
+            nombre_archivo = "".join([c if c.isalnum() or c in "._-" else "_" for c in cid]) + ".png"
             ruta_final = os.path.join(CARPETA_PRUEBA, nombre_archivo)
             
             try:
-                print(f"    -> Descargando imagen para {cid} desde {logos_dict[cid][:50]}...")
-                r_img = requests.get(logos_dict[cid], timeout=15)
+                url_logo = logos_dict[cid]
+                print(f"    -> Descargando: {cid}")
+                r_img = requests.get(url_logo, timeout=15, headers=headers)
+                
                 if r_img.status_code == 200:
                     if procesar_imagen_estandar(r_img.content, ruta_final):
+                        # URL corregida
                         url_raw = f"https://raw.githubusercontent.com/{REPO}/main/{CARPETA_PRUEBA}/{urllib.parse.quote(nombre_archivo)}"
                         nuevas_urls.append(f"{cid} -> {url_raw}")
-                        print(f"       [EXITO] Imagen guardada y URL generada.")
+                        exitos += 1
                 else:
-                    print(f"       [FALLO] HTTP {r_img.status_code}")
+                    print(f"       [FALLO HTTP {r_img.status_code}]")
             except Exception as e:
-                print(f"       [ERROR] {e}")
+                print(f"       [ERROR EN ID {cid}]: {e}")
     
     if nuevas_urls:
         with open(LISTA_PRUEBA, 'w', encoding='utf-8') as f:
             f.write("\n".join(nuevas_urls))
-        print(f"\nFIN: Se generaron {len(nuevas_urls)} URLs correctamente.")
+        print(f"\nÉXITO: Se generaron {exitos} logos estandarizados.")
     else:
-        print("\nFIN: No se generó nada. Revisa los pasos anteriores para ver donde falló.")
+        print("\nAVISO: No se pudo generar ninguna URL.")
 
 if __name__ == "__main__":
     ejecutar_prueba()
