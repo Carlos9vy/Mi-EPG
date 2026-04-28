@@ -1,0 +1,33 @@
+name: Test Logos Estandarizados (Prueba)
+
+on:
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Librerías
+        run: pip install requests Pillow
+
+      - name: Ejecutar Prueba
+        run: python prueba_logos_estandar.py
+
+      - name: Subir a Carpeta de Prueba
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "TesterRobot"
+          git add logos_estandar/*.png urls_estandarizadas.txt
+          git commit -m "Experimento: Logos estandarizados en carpeta aislada" || exit 0
+          git push
