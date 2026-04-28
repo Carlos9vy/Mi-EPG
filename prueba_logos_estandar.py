@@ -6,7 +6,7 @@ import os
 import urllib.parse
 from PIL import Image
 
-# Configuración
+# Configuración idéntica a tus robots anteriores para asegurar éxito
 EPG_SOURCES = [
     "https://iptv-epg.org/files/epg-ztjwyq.xml",
     "https://www.open-epg.com/generate/aYzuzNSenh.xml",
@@ -29,74 +29,75 @@ ANCHO, ALTO = 400, 225
 def procesar_imagen_estandar(contenido_img, ruta_destino):
     try:
         img = Image.open(io.BytesIO(contenido_img)).convert("RGBA")
+        # Ajustar manteniendo proporción
         img.thumbnail((ANCHO, ALTO), Image.Resampling.LANCZOS)
+        # Crear lienzo transparente
         lienzo = Image.new("RGBA", (ANCHO, ALTO), (0, 0, 0, 0))
+        # Centrar
         offset = ((ANCHO - img.width) // 2, (ALTO - img.height) // 2)
         lienzo.paste(img, offset, img)
         lienzo.save(ruta_destino, "PNG")
         return True
-    except: return False
+    except:
+        return False
 
 def ejecutar_prueba():
-    if not os.path.exists(CARPETA_PRUEBA): os.makedirs(CARPETA_PRUEBA)
-    with open(os.path.join(CARPETA_PRUEBA, ".keep"), "w") as f: f.write("keep")
+    # Crear carpeta si no existe
+    if not os.path.exists(CARPETA_PRUEBA):
+        os.makedirs(CARPETA_PRUEBA)
 
     if not os.path.exists(CANALES_FILE):
-        print("ERROR: canales.txt no encontrado.")
+        print("Error: canales.txt no encontrado")
         return
 
-    # Leer canales y normalizar para comparar mejor
     with open(CANALES_FILE, 'r', encoding='utf-8') as f:
-        original_list = [line.strip() for line in f if line.strip()]
-        # Creamos un set en minúsculas para comparar sin errores de escritura
-        whitelist_lower = {c.lower(): c for c in original_list}
+        whitelist = [line.strip() for line in f if line.strip()]
 
     logos_dict = {}
-    print(f"Buscando logos para {len(original_list)} canales...")
+    headers = {'User-Agent': 'Mozilla/5.0'}
 
+    # 1. Búsqueda de URLs (Lógica probada que ya te funcionaba)
     for url in EPG_SOURCES:
         try:
-            print(f"Escaneando: {url.split('/')[-1]}")
-            r = requests.get(url, timeout=20)
+            r = requests.get(url, headers=headers, timeout=30)
             content = gzip.decompress(r.content) if r.content[:2] == b'\x1f\x8b' else r.content
             context = ET.iterparse(io.BytesIO(content), events=('end',))
             for _, elem in context:
                 if elem.tag == 'channel':
                     cid = elem.get('id')
-                    if cid and cid.lower() in whitelist_lower:
-                        # Si coincide el ID (ignorando mayúsculas)
-                        id_original = whitelist_lower[cid.lower()]
-                        if id_original not in logos_dict:
-                            icon = elem.find('icon')
-                            if icon is not None:
-                                logos_dict[id_original] = icon.get('src')
-                                print(f"  [!] Encontrado: {id_original}")
+                    if cid in whitelist and cid not in logos_dict:
+                        icon = elem.find('icon')
+                        if icon is not None:
+                            logos_dict[cid] = icon.get('src')
                 elem.clear()
-        except Exception as e:
-            print(f"  [X] Error en fuente: {e}")
+        except:
+            continue
 
+    # 2. Descarga y Procesamiento
     nuevas_urls = []
-    exitos = 0
-    for cid in original_list:
+    for cid in whitelist:
         if cid in logos_dict:
-            nombre_archivo = f"{cid.replace(' ', '_')}_std.png"
+            # Usamos el nombre exacto del ID para evitar fallos de coincidencia
+            nombre_archivo = f"{cid}.png".replace(" ", "_")
             ruta_final = os.path.join(CARPETA_PRUEBA, nombre_archivo)
+            
             try:
-                r_img = requests.get(logos_dict[cid], timeout=10)
-                if r_img.status_code == 200 and procesar_imagen_estandar(r_img.content, ruta_final):
-                    url_raw = f"https://raw.githubusercontent.com/{REPO}/main/{CARPETA_PRUEBA}/{urllib.parse.quote(nombre_archivo)}"
-                    nuevas_urls.append(f"{cid} -> {url_raw}\n")
-                    exitos += 1
-            except: continue
+                r_img = requests.get(logos_dict[cid], timeout=15)
+                if r_img.status_code == 200:
+                    if procesar_imagen_estandar(r_img.content, ruta_final):
+                        # URL Raw de GitHub corregida
+                        url_raw = f"https://raw.githubusercontent.com/{REPO}/main/{CARPETA_PRUEBA}/{urllib.parse.quote(nombre_archivo)}"
+                        nuevas_urls.append(f"{cid} -> {url_raw}")
+            except:
+                continue
     
-    with open(LISTA_PRUEBA, 'w', encoding='utf-8') as f:
-        f.writelines(nuevas_urls)
-    
-    print("\n" + "="*30)
-    print(f"REPORT FINAL:")
-    print(f"Logos encontrados en XML: {len(logos_dict)}")
-    print(f"Logos descargados y procesados: {exitos}")
-    print("="*30)
+    # 3. Guardar archivo de texto (Solo si hay contenido)
+    if nuevas_urls:
+        with open(LISTA_PRUEBA, 'w', encoding='utf-8') as f:
+            f.write("\n".join(nuevas_urls))
+        print(f"Éxito: Se procesaron {len(nuevas_urls)} logos.")
+    else:
+        print("Aviso: No se generaron URLs nuevas.")
 
 if __name__ == "__main__":
     ejecutar_prueba()
