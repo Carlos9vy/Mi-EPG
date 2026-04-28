@@ -28,19 +28,10 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "TesterRobot"
-          
-          # Asegurar que la carpeta existe para Git
           mkdir -p logos_estandar
           touch logos_estandar/.keep
-          
-          # Añadir todo de forma explícita
           git add logos_estandar/*.png || true
           git add logos_estandar/.keep || true
           git add urls_estandarizadas.txt || true
-          
-          # Mostrar estado en logs para depuración
-          git status
-          
-          # Hacer commit y subir
           git commit -m "Update: Logos estandarizados 400x225" || echo "Sin cambios"
           git push
