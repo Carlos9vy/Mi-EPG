@@ -10,24 +10,38 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout
+      - name: 1. Descargar Repositorio
         uses: actions/checkout@v4
 
-      - name: Python
+      - name: 2. Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: Librerías
+      - name: 3. Instalar Librerías (Requests + Pillow)
         run: pip install requests Pillow
 
-      - name: Ejecutar Prueba
+      - name: 4. Ejecutar Script de Prueba
         run: python prueba_logos_estandar.py
 
-      - name: Subir a Carpeta de Prueba
+      - name: 5. Subir Cambios (Modo Seguro)
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "TesterRobot"
-          git add logos_estandar/*.png urls_estandarizadas.txt
-          git commit -m "Experimento: Logos estandarizados en carpeta aislada" || exit 0
-          git push
+          
+          # Añadir archivo de URLs si existe
+          [ -f urls_estandarizadas.txt ] && git add urls_estandarizadas.txt
+          
+          # Añadir logos solo si la carpeta tiene archivos PNG
+          # El '|| true' evita que el workflow falle si no hay archivos
+          if ls logos_estandar/*.png 1> /dev/null 2>&1; then
+            git add logos_estandar/*.png
+          fi
+          
+          # Commit y Push solo si hay cambios reales detectados
+          if git diff --staged --quiet; then
+            echo "Sin cambios o logos nuevos para subir."
+          else
+            git commit -m "Experimento: Logos estandarizados (400x225)"
+            git push
+          fi
