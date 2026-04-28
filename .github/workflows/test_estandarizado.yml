@@ -24,14 +24,11 @@ jobs:
       - name: 4. Run Script
         run: python prueba_logos_estandar.py
 
-      - name: 5. Force Upload
+      - name: 5. Upload Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "TesterRobot"
-          mkdir -p logos_estandar
-          touch logos_estandar/.keep
           git add logos_estandar/*.png || true
-          git add logos_estandar/.keep || true
           git add urls_estandarizadas.txt || true
-          git commit -m "Update: Logos estandarizados 400x225" || echo "Sin cambios"
+          git commit -m "Prueba de logos estandarizados" || echo "Sin cambios"
           git push
