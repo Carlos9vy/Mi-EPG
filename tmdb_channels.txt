@@ -6,6 +6,7 @@ Golden.mx
 GoldenEdge.mx
 GoldenPremier.mx
 GoldenPremier2.mx
+HBO.ec
 HBO.co
 HBO2.co
 HBOFamily.co
