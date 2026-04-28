@@ -35,65 +35,68 @@ def procesar_imagen_estandar(contenido_img, ruta_destino):
         lienzo.paste(img, offset, img)
         lienzo.save(ruta_destino, "PNG")
         return True
-    except:
-        return False
+    except: return False
 
 def ejecutar_prueba():
-    if not os.path.exists(CARPETA_PRUEBA):
-        os.makedirs(CARPETA_PRUEBA)
-    with open(os.path.join(CARPETA_PRUEBA, ".keep"), "w") as f:
-        f.write("keep")
+    if not os.path.exists(CARPETA_PRUEBA): os.makedirs(CARPETA_PRUEBA)
+    with open(os.path.join(CARPETA_PRUEBA, ".keep"), "w") as f: f.write("keep")
 
     if not os.path.exists(CANALES_FILE):
-        print(f"ERROR: No se encontró {CANALES_FILE}")
+        print("ERROR: canales.txt no encontrado.")
         return
 
+    # Leer canales y normalizar para comparar mejor
     with open(CANALES_FILE, 'r', encoding='utf-8') as f:
-        whitelist = [line.strip() for line in f if line.strip()]
+        original_list = [line.strip() for line in f if line.strip()]
+        # Creamos un set en minúsculas para comparar sin errores de escritura
+        whitelist_lower = {c.lower(): c for c in original_list}
 
     logos_dict = {}
+    print(f"Buscando logos para {len(original_list)} canales...")
+
     for url in EPG_SOURCES:
         try:
-            r = requests.get(url, timeout=25)
+            print(f"Escaneando: {url.split('/')[-1]}")
+            r = requests.get(url, timeout=20)
             content = gzip.decompress(r.content) if r.content[:2] == b'\x1f\x8b' else r.content
             context = ET.iterparse(io.BytesIO(content), events=('end',))
             for _, elem in context:
                 if elem.tag == 'channel':
                     cid = elem.get('id')
-                    if cid in whitelist and cid not in logos_dict:
-                        icon = elem.find('icon')
-                        if icon is not None:
-                            logos_dict[cid] = icon.get('src')
+                    if cid and cid.lower() in whitelist_lower:
+                        # Si coincide el ID (ignorando mayúsculas)
+                        id_original = whitelist_lower[cid.lower()]
+                        if id_original not in logos_dict:
+                            icon = elem.find('icon')
+                            if icon is not None:
+                                logos_dict[id_original] = icon.get('src')
+                                print(f"  [!] Encontrado: {id_original}")
                 elem.clear()
-        except:
-            continue
+        except Exception as e:
+            print(f"  [X] Error en fuente: {e}")
 
     nuevas_urls = []
-    conteo_exito = 0
-    for cid in whitelist:
+    exitos = 0
+    for cid in original_list:
         if cid in logos_dict:
-            nombre_limpio = "".join([c if c.isalnum() or c in "._-" else "_" for c in cid])
-            nombre_archivo = f"{nombre_limpio}_std.png"
+            nombre_archivo = f"{cid.replace(' ', '_')}_std.png"
             ruta_final = os.path.join(CARPETA_PRUEBA, nombre_archivo)
-            
             try:
-                r_img = requests.get(logos_dict[cid], timeout=15)
-                if r_img.status_code == 200:
-                    if procesar_imagen_estandar(r_img.content, ruta_final):
-                        # LINEA CORREGIDA (Sin cortes)
-                        url_raw = f"https://raw.githubusercontent.com/{REPO}/main/{CARPETA_PRUEBA}/{urllib.parse.quote(nombre_archivo)}"
-                        nuevas_urls.append(f"{cid} -> {url_raw}\n")
-                        conteo_exito += 1
-            except:
-                continue
+                r_img = requests.get(logos_dict[cid], timeout=10)
+                if r_img.status_code == 200 and procesar_imagen_estandar(r_img.content, ruta_final):
+                    url_raw = f"https://raw.githubusercontent.com/{REPO}/main/{CARPETA_PRUEBA}/{urllib.parse.quote(nombre_archivo)}"
+                    nuevas_urls.append(f"{cid} -> {url_raw}\n")
+                    exitos += 1
+            except: continue
     
     with open(LISTA_PRUEBA, 'w', encoding='utf-8') as f:
         f.writelines(nuevas_urls)
     
-    print(f"--- REPORTE FINAL ---")
-    print(f"Canales cargados: {len(whitelist)}")
-    print(f"Logos encontrados: {len(logos_dict)}")
-    print(f"Logos procesados: {conteo_exito}")
+    print("\n" + "="*30)
+    print(f"REPORT FINAL:")
+    print(f"Logos encontrados en XML: {len(logos_dict)}")
+    print(f"Logos descargados y procesados: {exitos}")
+    print("="*30)
 
 if __name__ == "__main__":
     ejecutar_prueba()
