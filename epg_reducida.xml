@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="EPG Pro Ultra" generator-info-url="https://github.com"><channel id="AMC.ar">
+<tv generator-info-name="EPG Pro Ultra v2" generator-info-url="https://github.com"><channel id="AMC.ar">
     <display-name>AR - AMC</display-name>
     <icon src="https://iptv-epg.org/logos/Argentina/AMC.ar.png" />
   </channel>
@@ -28276,7 +28276,7 @@ Disfruta de las mejores entrevistas con las personalidades de Hollywood y conoce
     <desc lang="es">Wesley Gibson es un oficinista cuya vida no tiene dirección. Después de que su padre es asesinado, conoce a Fox, quien lo recluta en la Fraternidad, una sociedad secreta de asesinos que recibe órdenes de Dios.</desc>
   </programme>
   <programme start="20260507110000 +0000" stop="20260507114400 +0000" channel="Cinemax.co">
-    <title lang="es">The Seat Filler</title>
+    <title lang="es">Filler</title>
   </programme>
   <programme start="20260507114400 +0000" stop="20260507133300 +0000" channel="Cinemax.co">
     <title lang="es">Locas vacaciones sobre ruedas</title>
@@ -58234,8 +58234,8 @@ Disfruta las emociones de esta competencia del PGA Tour que se celebra a princip
     <title lang="es">Jumanji: En la selva</title>
   <desc>Un videojuego absorbe a cuatro estudiantes. Una vez en la selva, deben embarcarse en una búsqueda en sus avatares, que no coinciden para nada con la realidad. [TMDB]</desc></programme>
   <programme start="20260504121200 +0000" stop="20260504140000 +0000" channel="HBO.ec">
-    <title lang="es">¡Huye!</title>
-  <desc>Un joven afroamericano visita a la familia de su novia blanca, un matrimonio adinerado. Para Chris y su novia Rose ha llegado el momento de conocer a los futuros suegros, por lo que ella le invita a pasar un fin de semana en el campo con sus padres, Missy y Dean. Al principio, Chris piensa que el comportamiento "demasiado" complaciente de los padres se debe a su nerviosismo por la relación interracial de su hija, pero a medida que pasan las horas, una serie de descubrimientos cada vez más inquietantes le llevan a descubrir una verdad inimaginable. [TMDB]</desc></programme>
+    <title lang="es">Déjame salir</title>
+  </programme>
   <programme start="20260504140000 +0000" stop="20260504160400 +0000" channel="HBO.ec">
     <title lang="es">Cónclave</title>
   <desc>Sigue la historia del cardenal Lawrence, un hombre que tiene la tarea de dirigir un proceso encubierto para la elección de un nuevo Papa. [TMDB]</desc></programme>
@@ -58270,11 +58270,11 @@ Disfruta las emociones de esta competencia del PGA Tour que se celebra a princip
     <title lang="es">Kitty Likes To Dance</title>
   </programme>
   <programme start="20260505063000 +0000" stop="20260505073000 +0000" channel="HBO.ec">
-    <title lang="es">Half a Man</title>
+    <title lang="es">Half Man</title>
   </programme>
   <programme start="20260505073000 +0000" stop="20260505090000 +0000" channel="HBO.ec">
-    <title lang="es">Verano infernal</title>
-  <desc>El monitor Jason Hochberg, de 24 años, llega al campamento Pineway pensando que su mayor problema es que se siente desconectado de sus compañeros adolescentes. Lo que no sabe es que un asesino enmascarado está al acecho, matando brutalmente a los monitores uno a uno. [TMDB]</desc></programme>
+    <title lang="es">Hell of a Summer</title>
+  </programme>
   <programme start="20260505090000 +0000" stop="20260505105500 +0000" channel="HBO.ec">
     <title lang="es">Contrabando</title>
   <desc>Cuando su cuñado se enfrenta con un capo de la droga, el hombre de familia Chris Farraday recurre a una habilidad que abandonó hace mucho tiempo, el contrabando, para pagar la deuda. Pero el trabajo sale mal, y Farraday se ve buscado por policías, ladrones y asesinos por igual. [TMDB]</desc></programme>
@@ -58291,8 +58291,8 @@ Disfruta las emociones de esta competencia del PGA Tour que se celebra a princip
     <title lang="es">El Robo Perfecto: Pantera</title>
   <desc>Big Nick está buscando en Europa a Donnie, quien está envuelto en el peligroso mundo de los ladrones de diamantes y la infame mafia Panther, mientras planean un atraco masivo al mayor intercambio de diamantes del mundo. [TMDB]</desc></programme>
   <programme start="20260505202000 +0000" stop="20260505205500 +0000" channel="HBO.ec">
-    <title lang="es">La última gran estafa</title>
-  <desc>Después de sus últimas bombas cinematográficas, el productor Max Barber crea una nueva película, todo para matar a su protagonista, Duke Montana, en un truco para el seguro. Pero cuando Duke no puede ser asesinado en un truco básico, Max lo pone en situaciones más peligrosas. [TMDB]</desc></programme>
+    <title lang="es">The Comeback</title>
+  <desc>Para Valerie Cherish, ningún precio es demasiado alto para aferrarse a los focos. Desesperada por revivir su carrera, acepta protagonizar un reality show, permitiendo que las cámaras sigan cada uno de sus movimientos mientras consigue un papel en una nueva comedia de televisión. [TMDB]</desc></programme>
   <programme start="20260505205500 +0000" stop="20260505224000 +0000" channel="HBO.ec">
     <title lang="es">Anaconda</title>
   <desc>Doug y Griff, amigos de toda la vida, atraviesan una crisis de mediana edad y deciden realizar el remake de su película favorita de su juventud: Anaconda (1997). Viajan a la selva amazónica para filmar su versión, pero pronto descubren que una anaconda real los acecha, convirtiendo su proyecto cinematográfico en una lucha por sobrevivir. La película combina comedia, acción y terror en una experiencia cinematográfica única. [TMDB]</desc></programme>
@@ -58301,10 +58301,10 @@ Disfruta las emociones de esta competencia del PGA Tour que se celebra a princip
   </programme>
   <programme start="20260506032000 +0000" stop="20260506032000 +0000" channel="HBO.ec">
     <title lang="es">Liga de la Justicia</title>
-  <desc>Motivado por la fe que había recuperado en la humanidad e inspirado por la acción altruista de Superman, Bruce Wayne recluta la ayuda de su nueva aliada, Diana Prince, para enfrentarse a un enemigo aún mayor. Juntos, Batman y Wonder Woman se mueven rápidamente para intentar encontrar y reclutar un equipo de metahumanos que combata esta nueva amenaza. El problema es que a pesar de la formación de esta liga de héroes sin precedentes –Batman, Wonder Woman, Aquaman, Cyborg y Flash– puede que sea demasiado tarde para salvar el planeta de una amenaza de proporciones catastróficas [TMDB]</desc></programme>
+  <desc>El esperado reinicio del mas grande equipo de súper héroes de todos los tiempos: Batman, Superman, Flash, Mujer Maravilla, Chica Halcón, Linterna Verde y Detective Marciano. [TMDB]</desc></programme>
   <programme start="20260506032000 +0000" stop="20260506052500 +0000" channel="HBO.ec">
     <title lang="es">Liga de la Justicia</title>
-  <desc>Motivado por la fe que había recuperado en la humanidad e inspirado por la acción altruista de Superman, Bruce Wayne recluta la ayuda de su nueva aliada, Diana Prince, para enfrentarse a un enemigo aún mayor. Juntos, Batman y Wonder Woman se mueven rápidamente para intentar encontrar y reclutar un equipo de metahumanos que combata esta nueva amenaza. El problema es que a pesar de la formación de esta liga de héroes sin precedentes –Batman, Wonder Woman, Aquaman, Cyborg y Flash– puede que sea demasiado tarde para salvar el planeta de una amenaza de proporciones catastróficas [TMDB]</desc></programme>
+  <desc>El esperado reinicio del mas grande equipo de súper héroes de todos los tiempos: Batman, Superman, Flash, Mujer Maravilla, Chica Halcón, Linterna Verde y Detective Marciano. [TMDB]</desc></programme>
   <programme start="20260506052500 +0000" stop="20260506072500 +0000" channel="HBO.ec">
     <title lang="es">Titanes del Pacífico: La insurrección</title>
   <desc>Un futuro cercano. Han pasado 10 años tras la primera invasión que sufrió la humanidad, pero la lucha aún no ha terminado. El planeta vuelve a ser asediado por los Kaiju, una raza de alienígenas colosales, que emergen desde un portal interdimensional con el objetivo de destruir a la raza humana. Ante esta nueva amenaza, los Jaegers, robots gigantes de guerra pilotados por dos personas para sobrellevar la inmensa carga neuronal que conlleva manipularlos, ya no están a la altura de lo que se les viene encima. Será entonces cuando los supervivientes de la primera invasión, además de nuevos personajes como el hijo de Pentecost, tendrán que idear la manera de sorprender al enorme enemigo, apostando por nuevas estrategias defensivas y de ataque. Con la Tierra en ruinas e intentando reconstruirse, esta nueva batalla puede ser decisiva para el futuro... [TMDB]</desc></programme>
@@ -58315,8 +58315,8 @@ Disfruta las emociones de esta competencia del PGA Tour que se celebra a princip
     <title lang="es">Quiero Matar a mi Jefe</title>
   <desc>Para Nick, Kurt y Dale, la única solución para hacer su rutina diaria más tolerable sería hacer desaparecer a sus insoportables jefes. Con la ayuda de unas copas de más y el consejo poco fiable de un expresidiario buscavidas, los tres idean un enrevesado e infalible plan para deshacerse para siempre de sus superiores. El único problema es que el plan es tan infalible como el cerebro que lo concibe. [TMDB]</desc></programme>
   <programme start="20260506104500 +0000" stop="20260506130500 +0000" channel="HBO.ec">
-    <title lang="es">El juego de la fortuna</title>
-  <desc>Billy Beane (Brad Pitt) es el gerente general del equipo de béisbol Atléticos de Oakland, que acaba de perder otra temporada más. Decidido a relanzar el equipo, y con la ayuda del joven economista Peter Brand (Jonah Hill), utilizará las estadísticas de éste para fichar a los jugadores que cree más oportunos. Un método que no es compartido por sus compañeros, ni por el entrenador del equipo Art Howe (Philip Seymour Hoffman). [TMDB]</desc></programme>
+    <title lang="es">Moneyball: Rompiendo las reglas</title>
+  </programme>
   <programme start="20260506130500 +0000" stop="20260506151000 +0000" channel="HBO.ec">
     <title lang="es">El libro de los secretos</title>
   <desc>En un futuro apocalíptico, 30 años después del "resplandor" que aniquiló la casi totalidad de la sociedad civilizada, unos pocos humanos sobreviven en un ambiente increíblemente hostil y árido. Violaciones, canibalismo y salvajismo imperan en unas derruidas ciudades donde el más fuerte y el que posee el agua impone su ley. Vagando por la carretera, un guerrero solitario (Denzel Washington) se dirige al oeste con una sola misión: proteger un misterioso libro que lleva en su mochila. [TMDB]</desc></programme>
@@ -58327,8 +58327,8 @@ Disfruta las emociones de esta competencia del PGA Tour que se celebra a princip
     <title lang="es">Ludlow's Fourth Hottest Professor</title>
   </programme>
   <programme start="20260506175000 +0000" stop="20260506182500 +0000" channel="HBO.ec">
-    <title lang="es">La última gran estafa</title>
-  <desc>Después de sus últimas bombas cinematográficas, el productor Max Barber crea una nueva película, todo para matar a su protagonista, Duke Montana, en un truco para el seguro. Pero cuando Duke no puede ser asesinado en un truco básico, Max lo pone en situaciones más peligrosas. [TMDB]</desc></programme>
+    <title lang="es">The Comeback</title>
+  <desc>Para Valerie Cherish, ningún precio es demasiado alto para aferrarse a los focos. Desesperada por revivir su carrera, acepta protagonizar un reality show, permitiendo que las cámaras sigan cada uno de sus movimientos mientras consigue un papel en una nueva comedia de televisión. [TMDB]</desc></programme>
   <programme start="20260506182500 +0000" stop="20260506204000 +0000" channel="HBO.ec">
     <title lang="es">Jurassic World 2: El Reino Caído</title>
   <desc>Una erupción volcánica amenaza a los dinosaurios restantes en la Isla Nublar, donde las criaturas han vagado libremente durante años tras de la desaparición del parque temático "Jurassic World". Claire Dearing, ex gerente del parque, ahora fundó el Grupo de Protección de Dinosaurios, una organización dedicada a intentar preservarlos. Cuando a Claire le ofrecen la oportunidad de rescatar algunos ejemplares de la isla, acude a Owen Grady, el ex entrenador de dinosaurios que trabajó en el parque, para que la ayude a evitar la extinción de los dinosaurios... Secuela de "Jurassic World". [TMDB]</desc></programme>
@@ -58366,7 +58366,7 @@ Disfruta las emociones de esta competencia del PGA Tour que se celebra a princip
     <title lang="es">Barbie</title>
   <desc>Una muñeca que vive en 'Barbieland' es expulsada al mundo real por no ser lo suficientemente perfecta. Basada en la popular muñeca Barbie. [TMDB]</desc></programme>
   <programme start="20260507165000 +0000" stop="20260507175000 +0000" channel="HBO.ec">
-    <title lang="es">Half a Man</title>
+    <title lang="es">Half Man</title>
   </programme>
   <programme start="20260507175000 +0000" stop="20260507201500 +0000" channel="HBO.ec">
     <title lang="es">Rápidos y furiosos 8</title>
@@ -66744,12 +66744,12 @@ En Vivo.</desc>
     <desc lang="es">RC Celta de Vigo vs. Elche.</desc>
   </programme>
   <programme start="20260503223000 +0000" stop="20260504000200 +0000" channel="GoldenPremier.mx">
-    <title lang="es">La Muchacha de la limpieza</title>
+    <title lang="es">La muchacha de la limpieza</title>
     <desc lang="es">La muchacha de la limpieza.</desc>
   </programme>
   <programme start="20260504000200 +0000" stop="20260504020000 +0000" channel="GoldenPremier.mx">
-    <title lang="es">Jungle Cruise</title>
-    <desc lang="es">Film ambientado a principios del siglo XX. Frank (Interpretado por Dwayne Johnson) es el carismático capitán de una peculiar embarcación que recorre la selva amazónica. Allí, a pesar de los peligros que el río Amazonas les tiene preparados, Frank llevará en su barco a la científica Lily Houghton (Interpretada por Emily Blunt) y a su hermano McGregor Houghton (Interpretado por Jack Whitehall). [TMDB]</desc>
+    <title lang="es">Jungle</title>
+    <desc lang="es">Jungle.</desc>
   </programme>
   <programme start="20260504020000 +0000" stop="20260504043100 +0000" channel="GoldenPremier.mx">
     <title lang="es">Perdida (Gone Girl)</title>
@@ -66764,7 +66764,7 @@ En Vivo.</desc>
     <desc lang="es">Si estás enamorado, y estás desesperado, eres capaz de todo de una forma o de mil formas. Eso exactamente lo que le pasa a Martina y Lupita, dos muchachas de servicio que deciden hacerlo todo por amor, cuando su patrona, Marcela, no las deja ir a una boda en su pueblo. Las dos hermanas le roban ropa y zapatos y huyen al pueblo, donde Lupita buscará impresionar a su novio Pepe, para que finalmente se case con ella. Cuando Marcela descubre el robo, recluta a Marifer, su inocente pobre amiga para ir a buscarlas, recuperar sus cosas y hacer justicia. Así su fin de semana de descanso se convierte en un revelador viaje de peripecias y descubrimientos que cambiarán la vida de todas. ¿Qué le dijiste a Dios? es una divertida comedia que cuenta, al ritmo de las mejores rolas de Juan Gabriel, las historias de amor, amistad y traición de estas cuatro mujeres, que comprenderán por qué dicen que más vale pedir perdón que pedir permiso”. [TMDB]</desc>
   </programme>
   <programme start="20260504073400 +0000" stop="20260504090900 +0000" channel="GoldenPremier.mx">
-    <title lang="es">Las Horas Contigo</title>
+    <title lang="es">Las horas contigo</title>
     <desc lang="es">Las horas contigo.</desc>
   </programme>
   <programme start="20260504090900 +0000" stop="20260504104700 +0000" channel="GoldenPremier.mx">
@@ -66789,7 +66789,7 @@ En Vivo.</desc>
   </programme>
   <programme start="20260504172900 +0000" stop="20260504191300 +0000" channel="GoldenPremier.mx">
     <title lang="es">Almas gemelas</title>
-    <desc lang="es">En una sociedad utópica futurista, las emociones humanas han sido erradicadas y todo el mundo vive en paz. Pero cuando unas enfermedades nuevas surgen, todo cambia para el ilustrador Silas y su ayudante, Nia. Ambos están infectados, y para sobrevivir, deben huir juntos. [TMDB]</desc>
+    <desc lang="es">Almas gemelas.</desc>
   </programme>
   <programme start="20260504191300 +0000" stop="20260504210000 +0000" channel="GoldenPremier.mx">
     <title lang="es">Sin Límites</title>
@@ -66804,15 +66804,15 @@ En Vivo.</desc>
     <desc lang="es">Side Hustle.</desc>
   </programme>
   <programme start="20260505002400 +0000" stop="20260505021400 +0000" channel="GoldenPremier.mx">
-    <title lang="es">El Aprendiz</title>
-    <desc lang="es">Un joven Donald Trump, ansioso por hacerse un nombre como heredero hambriento de una familia adinerada en la Nueva York de los años 70, cae bajo el hechizo de Roy Cohn, el abogado despiadado que ayudaría a crear al Donald Trump que conocemos hoy. [TMDB]</desc>
+    <title lang="es">El aprendiz</title>
+    <desc lang="es">El aprendiz.</desc>
   </programme>
   <programme start="20260505021400 +0000" stop="20260505040600 +0000" channel="GoldenPremier.mx">
-    <title lang="es">Asesino a Sueldo</title>
-    <desc lang="es">A Slevin la vida no le ha ido nada bien. Su casa acaba de ser declarada en ruinas y ha sorprendido a su novia en la cama con otro. En un intento por perder de vista Los Ángeles durante un tiempo, se marcha a vivir a Nueva York al apartamento de su amigo Nick Fisher. Pero dos de los peores gángsteres de la ciudad, El Rabino y El Jefe, antiguos socios y ahora enemigos irreconciliables, se cruzarán en su vida cuando uno de ellos pretenda vengar la muerte de su hijo asesinando al primogénito del otro. La idea para no desencadenar una guerra de bandas: buscar a un jugador que le deba mucho dinero al Jefe y obligarle a matar al hijo del Rabino. [TMDB]</desc>
+    <title lang="es">El Caso Slevin</title>
+    <desc lang="es">El Caso Slevin.</desc>
   </programme>
   <programme start="20260505040600 +0000" stop="20260505054600 +0000" channel="GoldenPremier.mx">
-    <title lang="es">Submerged</title>
+    <title lang="es">Pánico bajo el agua</title>
     <desc lang="es">Pánico bajo el agua.</desc>
   </programme>
   <programme start="20260505054600 +0000" stop="20260505071800 +0000" channel="GoldenPremier.mx">
@@ -66828,7 +66828,7 @@ En Vivo.</desc>
     <desc lang="es">Aunque suene increíble, al pequeño Ulises de tan sólo nueve años, de un día para otro le creció el bigote. Esta situación, en apariencia ordinaria, desata una serie de acontecimientos extraordinarios, para él, su mamá y sus mejores amigos [TMDB]</desc>
   </programme>
   <programme start="20260505103200 +0000" stop="20260505121500 +0000" channel="GoldenPremier.mx">
-    <title lang="es">Me Late Chocolate</title>
+    <title lang="es">Me late chocolate</title>
     <desc lang="es">Me late chocolate.</desc>
   </programme>
   <programme start="20260505121500 +0000" stop="20260505135600 +0000" channel="GoldenPremier.mx">
@@ -66836,7 +66836,7 @@ En Vivo.</desc>
     <desc lang="es">Oscar y Arturo son dos actores sin fortuna que sobreviven al desempleo con una rutina callejera, en donde uno representa al ladrón y el otro al policía. Gracias a este performance son “contratados” para jugarle una peligrosa broma a un alto ejecutivo; aunque en realidad se trata de una trampa que los llevará a ser perseguidos por el comandante Narváez, quien bajo las órdenes de un viejo truhán tratará de inculparlos de secuestro. Ahora, nuestros héroes deberán enfrentar el engaño, encontrar el amor y castigar al mal. [TMDB]</desc>
   </programme>
   <programme start="20260505135600 +0000" stop="20260505154900 +0000" channel="GoldenPremier.mx">
-    <title lang="es">Una última y nos vamos</title>
+    <title lang="es">Una Última y nos vamos</title>
     <desc lang="es">Una Última y nos vamos.</desc>
   </programme>
   <programme start="20260505154900 +0000" stop="20260505173100 +0000" channel="GoldenPremier.mx">
@@ -66856,7 +66856,7 @@ En Vivo.</desc>
     <desc lang="es">Conduciendo a través del kilómetro 31 de un camino solo, Agata Hameran golpea a un muchacho. Deja su coche para ayudar a la víctima y otro coche la atropella y se cae a un coma profundo. Su hermana gemela Catalina telepáticamente siente el dolor de Agata y oye su cuchicheo para la ayuda. Juntos con su novio Nuno y el compañero de Agata Omar, devuelven al km 31 del camino y averiguan que el lugar es rodeado por accidentes sobrenaturales causados por el fantasma de una madre que perdió a su muchacho hace muchos años. Adelante, Catalina revela que el espíritu de Agata se atrapa entre los mundos de la vida y los muertos. [TMDB]</desc>
   </programme>
   <programme start="20260505224700 +0000" stop="20260506000000 +0000" channel="GoldenPremier.mx">
-    <title lang="es">The Family Holiday</title>
+    <title lang="es">Family Holiday</title>
     <desc lang="es">Family Holiday.</desc>
   </programme>
   <programme start="20260506000000 +0000" stop="20260506014700 +0000" channel="GoldenPremier.mx">
@@ -66872,7 +66872,7 @@ En Vivo.</desc>
     <desc lang="es">Un vertiginoso asesino, Travis Conrad (Ethan Hawke) a quien se le da una oportunidad para redimirse después de que su jefe lo resucitara temporalmente después de haber sido asesinado en el trabajo.</desc>
   </programme>
   <programme start="20260506051400 +0000" stop="20260506065800 +0000" channel="GoldenPremier.mx">
-    <title lang="es">Because I Said So</title>
+    <title lang="es">¡Porque lo digo yo!</title>
     <desc lang="es">¡Porque lo digo yo!</desc>
   </programme>
   <programme start="20260506065800 +0000" stop="20260506083800 +0000" channel="GoldenPremier.mx">
@@ -66880,7 +66880,7 @@ En Vivo.</desc>
     <desc lang="es">Obsesión Perfecta.</desc>
   </programme>
   <programme start="20260506083800 +0000" stop="20260506101800 +0000" channel="GoldenPremier.mx">
-    <title lang="es">Descifrando a Annie Parker</title>
+    <title lang="es">Decoding Annie Parker</title>
     <desc lang="es">Decoding Annie Parker.</desc>
   </programme>
   <programme start="20260506101800 +0000" stop="20260506122300 +0000" channel="GoldenPremier.mx">
@@ -66892,7 +66892,7 @@ En Vivo.</desc>
     <desc lang="es">Escuela de mujeres.</desc>
   </programme>
   <programme start="20260506140100 +0000" stop="20260506154500 +0000" channel="GoldenPremier.mx">
-    <title lang="es">Because I Said So</title>
+    <title lang="es">¡Porque lo digo yo!</title>
     <desc lang="es">¡Porque lo digo yo!</desc>
   </programme>
   <programme start="20260506154500 +0000" stop="20260506172000 +0000" channel="GoldenPremier.mx">
@@ -66904,8 +66904,8 @@ En Vivo.</desc>
     <desc lang="es">Punto de ruptura.</desc>
   </programme>
   <programme start="20260506190200 +0000" stop="20260506210000 +0000" channel="GoldenPremier.mx">
-    <title lang="es">Ciudad sin Ley</title>
-    <desc lang="es">Ma Seok-do trabaja como jefe de escuadrón de detectives. Su equipo lucha por reventar una red criminal que originalmente provenía de Yanbian, China y dirigida por Jang Chen. [TMDB]</desc>
+    <title lang="es">Sin ley</title>
+    <desc lang="es">Sin ley.</desc>
   </programme>
   <programme start="20260506210000 +0000" stop="20260506224500 +0000" channel="GoldenPremier.mx">
     <title lang="es">Frontera</title>
@@ -66920,8 +66920,8 @@ En Vivo.</desc>
     <desc lang="es">El capitán Krause atraviesa el Atlántico al mando de un convoy internacional de 37 naves en una peligrosa misión para llevar soldados y provisiones a las Fuerzas Aliadas. [TMDB]</desc>
   </programme>
   <programme start="20260507015800 +0000" stop="20260507035300 +0000" channel="GoldenPremier.mx">
-    <title lang="es">Los Caballeros</title>
-    <desc lang="es">Un capo de la droga con un marcado estilo británico intenta vender su imperio a una dinastía de multimillonarios procedentes de Oklahoma. [TMDB]</desc>
+    <title lang="es">Los caballeros</title>
+    <desc lang="es">Cuando el aristócrata Eddie hereda la finca familiar, descubre que alberga un enorme imperio de cannabis... y que sus propietarios no se van a ir a ninguna parte. [TMDB]</desc>
   </programme>
   <programme start="20260507035300 +0000" stop="20260507061500 +0000" channel="GoldenPremier.mx">
     <title lang="es">Z, La Ciudad Perdida</title>
@@ -66964,7 +66964,7 @@ En Vivo.</desc>
     <desc lang="es">Santi (Emiliano Aramayo) es un niño que ha tenido que lidiar con la separación de sus padres, Rodrigo (Mauricio Ochmann) y Alejandra (Fernanda Castillo). Ellos están obligados a verse de vez en cuando, ya que, comparten el tiempo de su hijo. Un día reciben la noticia de que Santi debe someterse a una cirugía para no perder la vista, así que éste hace una lista de deseos para cumplirlos juntos con sus dos padres, antes de la operación. Rodrigo y Alejandra deberán aprender a convivir, embarcándose – sin sospecharlo – en un viaje que al final, hará que sea muy difícil separarse de nuevo.</desc>
   </programme>
   <programme start="20260507210000 +0000" stop="20260507223400 +0000" channel="GoldenPremier.mx">
-    <title lang="es">Mamá o papá</title>
+    <title lang="es">Papá o mamá</title>
     <desc lang="es">Papá o mamá.</desc>
   </programme>
   <programme start="20260507223400 +0000" stop="20260508001100 +0000" channel="GoldenPremier.mx">
@@ -66973,11 +66973,11 @@ En Vivo.</desc>
   </programme>
   <programme start="20260508001100 +0000" stop="20260508014300 +0000" channel="GoldenPremier.mx">
     <title lang="es">Ten cuidado con lo que deseas</title>
-    <desc lang="es">Ten cuidado con lo que deseas.</desc>
+    <desc lang="es">Un joven estudiante inicia una relación con la solitaria Lena, una mujer casada con uno de los hombres más ricos de la ciudad. Un día, el marido de Lena aparece muerto y el estudiante se convierte en el principal sospechoso del asesinato. [TMDB]</desc>
   </programme>
   <programme start="20260508014300 +0000" stop="20260508030800 +0000" channel="GoldenPremier.mx">
-    <title lang="es">La batalla de los super simios</title>
-    <desc lang="es">Tras reconocer el poder del simio que tienen cautivo, el ejército diseña un robot, Mecha Ape. Cuando su primera prueba sale terriblemente mal, los militares deben liberar al simio encarcelado para detener la colosal máquina de guerra. [TMDB]</desc>
+    <title lang="es">Ape vs. Mecha Ape</title>
+    <desc lang="es">Ape vs. Mecha Ape.</desc>
   </programme>
   <programme start="20260508030800 +0000" stop="20260508043400 +0000" channel="GoldenPremier.mx">
     <title lang="es">Pánico en las Alturas</title>
@@ -66988,7 +66988,7 @@ En Vivo.</desc>
     <desc lang="es">Luis, adolescente de origen nativo americano, se inscribe en un colegio militar en busca de un futuro mejor. Sus nuevos compañeros y él se ven sometidos a un sistema jerárquico brutal, en el que los alumnos veteranos humillan a los recién llegados. [TMDB]</desc>
   </programme>
   <programme start="20260504003000 +0000" stop="20260504020200 +0000" channel="GoldenPremier2.mx">
-    <title lang="es">La Muchacha de la limpieza</title>
+    <title lang="es">La muchacha de la limpieza</title>
     <desc lang="es">La muchacha de la limpieza.</desc>
   </programme>
   <programme start="20260504020200 +0000" stop="20260504040000 +0000" channel="GoldenPremier2.mx">
@@ -66997,7 +66997,7 @@ En Vivo.</desc>
   </programme>
   <programme start="20260504040000 +0000" stop="20260504063100 +0000" channel="GoldenPremier2.mx">
     <title lang="es">Perdida</title>
-    <desc lang="es">El día de su quinto aniversario de boda, Nick Dunne informa de que su esposa Amy ha desaparecido misteriosamente. Pronto la presión policial y mediática hace que el retrato de felicidad doméstica que ofrece Nick empiece a tambalearse. Además, su extraña conducta lo convierte en sospechoso, y todo el mundo comienza a preguntase si Nick mató a su esposa... [TMDB]</desc>
+    <desc lang="es">Perdida.</desc>
   </programme>
   <programme start="20260504063100 +0000" stop="20260504080500 +0000" channel="GoldenPremier2.mx">
     <title lang="es">Guadalupe Reyes</title>
@@ -67008,7 +67008,7 @@ En Vivo.</desc>
     <desc lang="es">Si estás enamorado, y estás desesperado, eres capaz de todo de una forma o de mil formas. Eso exactamente lo que le pasa a Martina y Lupita, dos muchachas de servicio que deciden hacerlo todo por amor, cuando su patrona, Marcela, no las deja ir a una boda en su pueblo. Las dos hermanas le roban ropa y zapatos y huyen al pueblo, donde Lupita buscará impresionar a su novio Pepe, para que finalmente se case con ella. Cuando Marcela descubre el robo, recluta a Marifer, su inocente pobre amiga para ir a buscarlas, recuperar sus cosas y hacer justicia. Así su fin de semana de descanso se convierte en un revelador viaje de peripecias y descubrimientos que cambiarán la vida de todas. ¿Qué le dijiste a Dios? es una divertida comedia que cuenta, al ritmo de las mejores rolas de Juan Gabriel, las historias de amor, amistad y traición de estas cuatro mujeres, que comprenderán por qué dicen que más vale pedir perdón que pedir permiso”. [TMDB]</desc>
   </programme>
   <programme start="20260504093400 +0000" stop="20260504110900 +0000" channel="GoldenPremier2.mx">
-    <title lang="es">Las Horas Contigo</title>
+    <title lang="es">Las horas contigo</title>
     <desc lang="es">Las horas contigo.</desc>
   </programme>
   <programme start="20260504110900 +0000" stop="20260504124700 +0000" channel="GoldenPremier2.mx">
@@ -67033,7 +67033,7 @@ En Vivo.</desc>
   </programme>
   <programme start="20260504192900 +0000" stop="20260504211300 +0000" channel="GoldenPremier2.mx">
     <title lang="es">Almas gemelas</title>
-    <desc lang="es">En una sociedad utópica futurista, las emociones humanas han sido erradicadas y todo el mundo vive en paz. Pero cuando unas enfermedades nuevas surgen, todo cambia para el ilustrador Silas y su ayudante, Nia. Ambos están infectados, y para sobrevivir, deben huir juntos. [TMDB]</desc>
+    <desc lang="es">Almas gemelas.</desc>
   </programme>
   <programme start="20260504211300 +0000" stop="20260504230000 +0000" channel="GoldenPremier2.mx">
     <title lang="es">Sin Límites</title>
@@ -67048,15 +67048,15 @@ En Vivo.</desc>
     <desc lang="es">Side Hustle F..k.</desc>
   </programme>
   <programme start="20260505022400 +0000" stop="20260505041400 +0000" channel="GoldenPremier2.mx">
-    <title lang="es">El Aprendiz</title>
-    <desc lang="es">Un joven Donald Trump, ansioso por hacerse un nombre como heredero hambriento de una familia adinerada en la Nueva York de los años 70, cae bajo el hechizo de Roy Cohn, el abogado despiadado que ayudaría a crear al Donald Trump que conocemos hoy. [TMDB]</desc>
+    <title lang="es">El aprendiz</title>
+    <desc lang="es">El aprendiz.</desc>
   </programme>
   <programme start="20260505041400 +0000" stop="20260505060600 +0000" channel="GoldenPremier2.mx">
     <title lang="es">La suerte de Slevin</title>
     <desc lang="es">La suerte de Slevin.</desc>
   </programme>
   <programme start="20260505060600 +0000" stop="20260505074600 +0000" channel="GoldenPremier2.mx">
-    <title lang="es">Submerged</title>
+    <title lang="es">Pánico bajo el agua</title>
     <desc lang="es">Pánico bajo el agua.</desc>
   </programme>
   <programme start="20260505074600 +0000" stop="20260505091800 +0000" channel="GoldenPremier2.mx">
@@ -67072,7 +67072,7 @@ En Vivo.</desc>
     <desc lang="es">Aunque suene increíble, al pequeño Ulises de tan sólo nueve años, de un día para otro le creció el bigote. Esta situación, en apariencia ordinaria, desata una serie de acontecimientos extraordinarios, para él, su mamá y sus mejores amigos [TMDB]</desc>
   </programme>
   <programme start="20260505123200 +0000" stop="20260505141500 +0000" channel="GoldenPremier2.mx">
-    <title lang="es">Me Late Chocolate</title>
+    <title lang="es">Me late chocolate</title>
     <desc lang="es">Me late chocolate.</desc>
   </programme>
   <programme start="20260505141500 +0000" stop="20260505155600 +0000" channel="GoldenPremier2.mx">
@@ -67080,7 +67080,7 @@ En Vivo.</desc>
     <desc lang="es">Oscar y Arturo son dos actores sin fortuna que sobreviven al desempleo con una rutina callejera, en donde uno representa al ladrón y el otro al policía. Gracias a este performance son “contratados” para jugarle una peligrosa broma a un alto ejecutivo; aunque en realidad se trata de una trampa que los llevará a ser perseguidos por el comandante Narváez, quien bajo las órdenes de un viejo truhán tratará de inculparlos de secuestro. Ahora, nuestros héroes deberán enfrentar el engaño, encontrar el amor y castigar al mal. [TMDB]</desc>
   </programme>
   <programme start="20260505155600 +0000" stop="20260505174900 +0000" channel="GoldenPremier2.mx">
-    <title lang="es">Una última y nos vamos</title>
+    <title lang="es">Una Última y nos vamos</title>
     <desc lang="es">Una Última y nos vamos.</desc>
   </programme>
   <programme start="20260505174900 +0000" stop="20260505193100 +0000" channel="GoldenPremier2.mx">
@@ -67100,7 +67100,7 @@ En Vivo.</desc>
     <desc lang="es">Conduciendo a través del kilómetro 31 de un camino solo, Agata Hameran golpea a un muchacho. Deja su coche para ayudar a la víctima y otro coche la atropella y se cae a un coma profundo. Su hermana gemela Catalina telepáticamente siente el dolor de Agata y oye su cuchicheo para la ayuda. Juntos con su novio Nuno y el compañero de Agata Omar, devuelven al km 31 del camino y averiguan que el lugar es rodeado por accidentes sobrenaturales causados por el fantasma de una madre que perdió a su muchacho hace muchos años. Adelante, Catalina revela que el espíritu de Agata se atrapa entre los mundos de la vida y los muertos. [TMDB]</desc>
   </programme>
   <programme start="20260506004700 +0000" stop="20260506020000 +0000" channel="GoldenPremier2.mx">
-    <title lang="es">The Family Holiday</title>
+    <title lang="es">Family Holiday</title>
     <desc lang="es">Family Holiday.</desc>
   </programme>
   <programme start="20260506020000 +0000" stop="20260506034700 +0000" channel="GoldenPremier2.mx">
@@ -67116,7 +67116,7 @@ En Vivo.</desc>
     <desc lang="es">Un vertiginoso asesino, Travis Conrad (Ethan Hawke) a quien se le da una oportunidad para redimirse después de que su jefe lo resucitara temporalmente después de haber sido asesinado en el trabajo.</desc>
   </programme>
   <programme start="20260506071400 +0000" stop="20260506085800 +0000" channel="GoldenPremier2.mx">
-    <title lang="es">Because I Said So</title>
+    <title lang="es">¡Porque lo digo yo!</title>
     <desc lang="es">¡Porque lo digo yo!</desc>
   </programme>
   <programme start="20260506085800 +0000" stop="20260506103800 +0000" channel="GoldenPremier2.mx">
@@ -67136,7 +67136,7 @@ En Vivo.</desc>
     <desc lang="es">Escuela de mujeres.</desc>
   </programme>
   <programme start="20260506160100 +0000" stop="20260506174500 +0000" channel="GoldenPremier2.mx">
-    <title lang="es">Because I Said So</title>
+    <title lang="es">¡Porque lo digo yo!</title>
     <desc lang="es">¡Porque lo digo yo!</desc>
   </programme>
   <programme start="20260506174500 +0000" stop="20260506192000 +0000" channel="GoldenPremier2.mx">
@@ -67148,8 +67148,8 @@ En Vivo.</desc>
     <desc lang="es">Punto de ruptura.</desc>
   </programme>
   <programme start="20260506210200 +0000" stop="20260506230000 +0000" channel="GoldenPremier2.mx">
-    <title lang="es">Ciudad sin Ley</title>
-    <desc lang="es">Ma Seok-do trabaja como jefe de escuadrón de detectives. Su equipo lucha por reventar una red criminal que originalmente provenía de Yanbian, China y dirigida por Jang Chen. [TMDB]</desc>
+    <title lang="es">Sin ley</title>
+    <desc lang="es">Sin ley.</desc>
   </programme>
   <programme start="20260506230000 +0000" stop="20260507004500 +0000" channel="GoldenPremier2.mx">
     <title lang="es">Frontera</title>
@@ -67208,7 +67208,7 @@ En Vivo.</desc>
     <desc lang="es">Santi (Emiliano Aramayo) es un niño que ha tenido que lidiar con la separación de sus padres, Rodrigo (Mauricio Ochmann) y Alejandra (Fernanda Castillo). Ellos están obligados a verse de vez en cuando, ya que, comparten el tiempo de su hijo. Un día reciben la noticia de que Santi debe someterse a una cirugía para no perder la vista, así que éste hace una lista de deseos para cumplirlos juntos con sus dos padres, antes de la operación. Rodrigo y Alejandra deberán aprender a convivir, embarcándose – sin sospecharlo – en un viaje que al final, hará que sea muy difícil separarse de nuevo.</desc>
   </programme>
   <programme start="20260507230000 +0000" stop="20260508003400 +0000" channel="GoldenPremier2.mx">
-    <title lang="es">Mamá o papá</title>
+    <title lang="es">Papá o mamá</title>
     <desc lang="es">Papá o mamá.</desc>
   </programme>
   <programme start="20260508003400 +0000" stop="20260508021100 +0000" channel="GoldenPremier2.mx">
@@ -67217,11 +67217,11 @@ En Vivo.</desc>
   </programme>
   <programme start="20260508021100 +0000" stop="20260508034300 +0000" channel="GoldenPremier2.mx">
     <title lang="es">Ten cuidado con lo que deseas</title>
-    <desc lang="es">Ten cuidado con lo que deseas.</desc>
+    <desc lang="es">Un joven estudiante inicia una relación con la solitaria Lena, una mujer casada con uno de los hombres más ricos de la ciudad. Un día, el marido de Lena aparece muerto y el estudiante se convierte en el principal sospechoso del asesinato. [TMDB]</desc>
   </programme>
   <programme start="20260508034300 +0000" stop="20260508050800 +0000" channel="GoldenPremier2.mx">
-    <title lang="es">La batalla de los súper simios</title>
-    <desc lang="es">La batalla de los súper simios.</desc>
+    <title lang="es">La batalla de los super simios</title>
+    <desc lang="es">Tras reconocer el poder del simio que tienen cautivo, el ejército diseña un robot, Mecha Ape. Cuando su primera prueba sale terriblemente mal, los militares deben liberar al simio encarcelado para detener la colosal máquina de guerra. [TMDB]</desc>
   </programme>
   <programme start="20260503220000 +0000" stop="20260503230000 +0000" channel="ESNE.mx">
     <title lang="es">Vidas Ejemplares</title>
