@@ -7,9 +7,9 @@ import time
 import re
 import urllib.parse
 from datetime import datetime, timedelta
-from difflib import SequenceMatcher # Para comparar similitud de textos
+from difflib import SequenceMatcher
 
-# Configuración
+# Fuentes
 EPG_SOURCES = [
     "https://iptv-epg.org/files/epg-ztjwyq.xml",
     "https://www.open-epg.com/generate/aYzuzNSenh.xml",
@@ -34,8 +34,10 @@ TMDB_KEY = os.getenv('TMDB_API_KEY')
 cache_tmdb = {}
 
 def similar(a, b):
-    """Calcula qué tan parecidos son dos títulos (0.0 a 1.0)"""
-    return SequenceMatcher(None, a.lower(), b.lower()).ratio()
+    """Compara si una cadena está contenida en la otra o viceversa para mayor flexibilidad"""
+    a, b = a.lower(), b.lower()
+    if a in b or b in a: return 1.0 # Si una contiene a la otra, es match perfecto para nosotros
+    return SequenceMatcher(None, a, b).ratio()
 
 def apply_shift(timestr, hours_val):
     if not timestr or len(timestr) < 14: return timestr
@@ -51,33 +53,31 @@ def apply_shift(timestr, hours_val):
 def buscar_en_tmdb(titulo_original):
     if not TMDB_KEY or not titulo_original: return None, None
     
-    # Limpieza básica para la búsqueda
+    # Limpieza: quitar (2024), [HD], etc.
     query = re.sub(r'\(.*?\)|\[.*?\]', '', titulo_original).replace('|', '').strip()
     if query in cache_tmdb: return cache_tmdb[query]
     
     headers = {'User-Agent': 'Mozilla/5.0'}
     try:
-        time.sleep(0.2) # Evitar bloqueo de API
+        time.sleep(0.1)
+        # Usamos search/multi para capturar tanto series como películas
         url = f"https://api.themoviedb.org/3/search/multi?api_key={TMDB_KEY}&query={urllib.parse.quote(query)}&language=es-MX"
         r = requests.get(url, headers=headers, timeout=10)
         
         if r.status_code == 200:
             results = r.json().get('results')
             if results:
-                # Tomamos el primer resultado que sea película o serie
-                res = results[0]
-                tmdb_title = res.get('title') or res.get('name')
-                tmdb_desc = res.get('overview')
-
-                # --- COMPARACIÓN DE SEGURIDAD ---
-                # Si el parecido entre el título original y el de TMDB es menor al 70%, lo rechazamos.
-                # Esto evita que "Prueba de Fuego" se convierta en "Maze Runner: Prueba de Fuego".
-                if tmdb_title and similar(query, tmdb_title) > 0.7:
-                    data = (tmdb_title, tmdb_desc)
-                    cache_tmdb[query] = data
-                    return data
-                else:
-                    print(f"      [!] Match rechazado por baja similitud: {query} vs {tmdb_title}")
+                # Buscamos el mejor match en los primeros 3 resultados
+                for res in results[:3]:
+                    tmdb_title = res.get('title') or res.get('name')
+                    tmdb_desc = res.get('overview')
+                    
+                    if tmdb_title and tmdb_desc and len(tmdb_desc) > 20:
+                        # Si el título se parece al menos un 50% o uno contiene al otro
+                        if similar(query, tmdb_title) > 0.5:
+                            data = (tmdb_title, tmdb_desc)
+                            cache_tmdb[query] = data
+                            return data
     except: pass
     return None, None
 
@@ -101,7 +101,7 @@ def filter_epg():
             tmdb_whitelist = set(line.strip() for line in f if line.strip())
 
     canales_encontrados = set()
-    root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra v2', 'generator-info-url': 'https://github.com'})
+    root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra v3', 'generator-info-url': 'https://github.com'})
 
     for url in EPG_SOURCES:
         try:
@@ -127,25 +127,21 @@ def filter_epg():
                         title_elem = elem.find('title')
                         desc_elem = elem.find('desc')
                         
-                        # --- LÓGICA DE SUSTITUCIÓN INTELIGENTE ---
+                        # LÓGICA DE SUSTITUCIÓN
                         if pid in tmdb_whitelist and title_elem is not None:
                             original_title = title_elem.text
                             original_desc = desc_elem.text if desc_elem is not None else ""
                             
-                            # Decidimos si la descripción original es "pobre"
-                            # (Si es menor a 45 caracteres o si es igual al título)
-                            desc_insuficiente = (len(original_desc) < 45 or 
-                                               original_desc.strip().lower() == original_title.strip().lower())
-                            
-                            if desc_insuficiente:
+                            # Forzamos búsqueda si la descripción es corta o genérica
+                            if len(original_desc) < 100 or original_desc.strip().lower() == original_title.strip().lower():
                                 oficial_title, oficial_desc = buscar_en_tmdb(original_title)
-                                if oficial_desc and len(oficial_desc) > 10:
+                                if oficial_desc:
                                     title_elem.text = oficial_title
                                     if desc_elem is None:
                                         desc_elem = ET.SubElement(elem, 'desc')
                                     desc_elem.text = oficial_desc + " [TMDB]"
                         
-                        # Limpieza de etiquetas no deseadas para aligerar el XML
+                        # Limpieza
                         for extra in ['credits', 'country', 'language', 'sub-title']:
                             target = elem.find(extra)
                             if target is not None: elem.remove(target)
@@ -158,7 +154,6 @@ def filter_epg():
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
-    print("EPG generada correctamente.")
 
 if __name__ == "__main__":
     filter_epg()
