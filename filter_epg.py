@@ -4,10 +4,12 @@ import os
 import gzip
 import io
 import time
-import re # Importamos para limpiar títulos
+import re
+import urllib.parse
 from datetime import datetime, timedelta
+from difflib import SequenceMatcher # Para comparar similitud de textos
 
-# ... (Configuración de archivos y apply_shift se mantienen igual) ...
+# Configuración
 EPG_SOURCES = [
     "https://iptv-epg.org/files/epg-ztjwyq.xml",
     "https://www.open-epg.com/generate/aYzuzNSenh.xml",
@@ -27,10 +29,13 @@ SHIFT_FILE = "shift.txt"
 TMDB_CHANNELS_FILE = "tmdb_channels.txt"
 OUTPUT_FILE = "epg_reducida.xml"
 OUTPUT_GZ = "epg_reducida.xml.gz"
-LOG_ERRORES = "errores_canales.txt"
 
 TMDB_KEY = os.getenv('TMDB_API_KEY')
 cache_tmdb = {}
+
+def similar(a, b):
+    """Calcula qué tan parecidos son dos títulos (0.0 a 1.0)"""
+    return SequenceMatcher(None, a.lower(), b.lower()).ratio()
 
 def apply_shift(timestr, hours_val):
     if not timestr or len(timestr) < 14: return timestr
@@ -43,43 +48,37 @@ def apply_shift(timestr, hours_val):
         return new_dt.strftime("%Y%m%d%H%M%S") + " " + offset
     except: return timestr
 
-def buscar_en_tmdb(titulo_sucio):
-    """Busca en TMDB con filtros de precisión"""
-    if not TMDB_KEY or not titulo_sucio: return None, None
+def buscar_en_tmdb(titulo_original):
+    if not TMDB_KEY or not titulo_original: return None, None
     
-    # Limpieza: quitar cosas como (2020), [HD], etc.
-    query = re.sub(r'\(.*?\)|\[.*?\]', '', titulo_sucio).replace('|', '').strip()
+    # Limpieza básica para la búsqueda
+    query = re.sub(r'\(.*?\)|\[.*?\]', '', titulo_original).replace('|', '').strip()
     if query in cache_tmdb: return cache_tmdb[query]
     
     headers = {'User-Agent': 'Mozilla/5.0'}
     try:
-        time.sleep(0.2)
-        url_movie = f"https://api.themoviedb.org/3/search/movie?api_key={TMDB_KEY}&query={query}&language=es-MX"
-        r = requests.get(url_movie, headers=headers, timeout=5)
-        if r.status_code == 200:
-            results = r.json().get('results')
-            if results:
-                res = results[0]
-                # VALIDACIÓN DE SEGURIDAD:
-                # Si el título de TMDB es MUCHO más largo que el original, sospechamos (ej: Prueba de fuego vs Maze Runner...)
-                if len(res.get('title', '')) > len(query) + 15:
-                    return None, None
-                
-                data = (res.get('title'), res.get('overview'))
-                cache_tmdb[query] = data
-                return data
+        time.sleep(0.2) # Evitar bloqueo de API
+        url = f"https://api.themoviedb.org/3/search/multi?api_key={TMDB_KEY}&query={urllib.parse.quote(query)}&language=es-MX"
+        r = requests.get(url, headers=headers, timeout=10)
         
-        # Probar como Serie si no es película
-        url_tv = f"https://api.themoviedb.org/3/search/tv?api_key={TMDB_KEY}&query={query}&language=es-MX"
-        r = requests.get(url_tv, headers=headers, timeout=5)
         if r.status_code == 200:
             results = r.json().get('results')
             if results:
+                # Tomamos el primer resultado que sea película o serie
                 res = results[0]
-                data = (res.get('name'), res.get('overview'))
-                cache_tmdb[query] = data
-                return data
-    except: return None, None
+                tmdb_title = res.get('title') or res.get('name')
+                tmdb_desc = res.get('overview')
+
+                # --- COMPARACIÓN DE SEGURIDAD ---
+                # Si el parecido entre el título original y el de TMDB es menor al 70%, lo rechazamos.
+                # Esto evita que "Prueba de Fuego" se convierta en "Maze Runner: Prueba de Fuego".
+                if tmdb_title and similar(query, tmdb_title) > 0.7:
+                    data = (tmdb_title, tmdb_desc)
+                    cache_tmdb[query] = data
+                    return data
+                else:
+                    print(f"      [!] Match rechazado por baja similitud: {query} vs {tmdb_title}")
+    except: pass
     return None, None
 
 def filter_epg():
@@ -102,13 +101,12 @@ def filter_epg():
             tmdb_whitelist = set(line.strip() for line in f if line.strip())
 
     canales_encontrados = set()
-    root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra', 'generator-info-url': 'https://github.com'})
+    root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra v2', 'generator-info-url': 'https://github.com'})
 
     for url in EPG_SOURCES:
         try:
             print(f"Leyendo fuente: {url}")
             r = requests.get(url, timeout=60)
-            r.raise_for_status()
             content = gzip.decompress(r.content) if (url.endswith(".gz") or r.content[:2] == b'\x1f\x8b') else r.content
             context = ET.iterparse(io.BytesIO(content), events=('end',))
             
@@ -128,35 +126,39 @@ def filter_epg():
                         
                         title_elem = elem.find('title')
                         desc_elem = elem.find('desc')
-
-                        # --- CAMBIO CRÍTICO AQUÍ ---
-                        # Solo buscar en TMDB si:
-                        # 1. El canal está en la lista de TMDB
-                        # 2. NO tiene descripción original O la descripción es muy corta (menos de 30 letras)
                         
-                        tiene_desc_pobre = desc_elem is None or len(desc_elem.text or "") < 30
+                        # --- LÓGICA DE SUSTITUCIÓN INTELIGENTE ---
+                        if pid in tmdb_whitelist and title_elem is not None:
+                            original_title = title_elem.text
+                            original_desc = desc_elem.text if desc_elem is not None else ""
+                            
+                            # Decidimos si la descripción original es "pobre"
+                            # (Si es menor a 45 caracteres o si es igual al título)
+                            desc_insuficiente = (len(original_desc) < 45 or 
+                                               original_desc.strip().lower() == original_title.strip().lower())
+                            
+                            if desc_insuficiente:
+                                oficial_title, oficial_desc = buscar_en_tmdb(original_title)
+                                if oficial_desc and len(oficial_desc) > 10:
+                                    title_elem.text = oficial_title
+                                    if desc_elem is None:
+                                        desc_elem = ET.SubElement(elem, 'desc')
+                                    desc_elem.text = oficial_desc + " [TMDB]"
                         
-                        if pid in tmdb_whitelist and title_elem is not None and tiene_desc_pobre:
-                            oficial_title, oficial_desc = buscar_en_tmdb(title_elem.text)
-                            if oficial_title:
-                                title_elem.text = oficial_title
-                            if oficial_desc:
-                                if desc_elem is None: desc_elem = ET.SubElement(elem, 'desc')
-                                desc_elem.text = oficial_desc + " [TMDB]"
-                        # ---------------------------
-
-                        # Limpieza final de etiquetas
+                        # Limpieza de etiquetas no deseadas para aligerar el XML
                         for extra in ['credits', 'country', 'language', 'sub-title']:
                             target = elem.find(extra)
                             if target is not None: elem.remove(target)
                         
                         root.append(elem)
-        except Exception as e: print(f"Error: {e}")
+        except Exception as e:
+            print(f" Error: {e}")
 
     tree = ET.ElementTree(root)
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
+    print("EPG generada correctamente.")
 
 if __name__ == "__main__":
     filter_epg()
