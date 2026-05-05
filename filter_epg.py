@@ -38,16 +38,29 @@ def similar(a, b):
     if a in b or b in a: return 1.0
     return SequenceMatcher(None, a, b).ratio()
 
-def validar_descripciones(desc_orig, desc_tmdb):
-    if not desc_orig or len(desc_orig) < 10: return True # Si no hay original, aceptamos TMDB
+def extraer_info_episodio(texto):
+    """Detecta si hay datos de Temporada o Episodio en el texto original"""
+    if not texto: return ""
+    # Busca patrones como T1 E2, Temp 1, Ep 5, S01E02, etc.
+    patrones = [
+        r'[TS]\d+\s?[E]\d+', 
+        r'Temporada\s?\d+', 
+        r'Episodio\s?\d+',
+        r'Capítulo\s?\d+'
+    ]
+    encontrados = []
+    for p in patrones:
+        match = re.search(p, texto, re.IGNORECASE)
+        if match: encontrados.append(match.group())
     
+    return " | ".join(encontrados) if encontrados else ""
+
+def validar_descripciones(desc_orig, desc_tmdb):
+    if not desc_orig or len(desc_orig) < 15: return True
     palabras_orig = set(re.findall(r'\w{5,}', desc_orig.lower()))
     palabras_tmdb = set(re.findall(r'\w{5,}', desc_tmdb.lower()))
-    
     if not palabras_orig: return True
-    
     coincidencias = palabras_orig.intersection(palabras_tmdb)
-    # Bajamos a 1 coincidencia o 30% de similitud para no ser tan estrictos
     return len(coincidencias) >= 1
 
 def apply_shift(timestr, hours_val):
@@ -77,17 +90,13 @@ def buscar_en_tmdb(titulo_original, desc_original=""):
                 t_desc = res.get('overview', '')
                 
                 if not t_title or not t_desc: continue
-
-                # Filtro Maze Runner: Si el original NO lo dice, pero TMDB sí, saltamos este resultado
                 if "maze runner" in t_title.lower() and "maze runner" not in query.lower():
                     continue
 
-                # Si el título coincide bien (>50%), validamos descripción
-                if similar(query, t_title) > 0.5:
+                if similar(query, t_title) > 0.45:
                     if validar_descripciones(desc_original, t_desc):
                         cache_tmdb[query] = (t_title, t_desc)
                         return t_title, t_desc
-                        
     except: pass
     return None, None
 
@@ -110,12 +119,12 @@ def filter_epg():
                     cid, val = line.strip().split(',')
                     shifts[cid.strip()] = val.strip()
 
-    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra Final Fix'})
+    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra Hybrid'})
     canales_procesados = set()
 
     for url in EPG_SOURCES:
         try:
-            print(f"Leyendo: {url.split('/')[-1]}")
+            print(f"Procesando: {url.split('/')[-1]}")
             r = requests.get(url, timeout=60)
             data = gzip.decompress(r.content) if (url.endswith(".gz") or r.content[:2] == b'\x1f\x8b') else r.content
             temp_root = ET.fromstring(data)
@@ -141,13 +150,20 @@ def filter_epg():
                             orig_title = t_elem.text
                             orig_desc = d_elem.text if d_elem is not None else ""
                             
+                            # Extraemos T1 E5 o similares antes de sobreescribir
+                            info_capitulo = extraer_info_episodio(orig_desc)
+                            
                             new_t, new_d = buscar_en_tmdb(orig_title, orig_desc)
                             
                             if new_d:
                                 t_elem.text = new_t
                                 if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
-                                d_elem.text = new_d + " [TMDB]"
-                            # Si TMDB falló, NO borramos la descripción original, la dejamos como estaba.
+                                
+                                # Fusión: Info Episodio + Descripción TMDB
+                                final_desc = ""
+                                if info_capitulo: final_desc += f"[{info_capitulo}] "
+                                final_desc += f"{new_d} [TMDB]"
+                                d_elem.text = final_desc
 
                     for tag in ['credits', 'country', 'language', 'sub-title']:
                         extra = prog.find(tag)
