@@ -6,6 +6,7 @@ import io
 import time
 import re
 import urllib.parse
+import unicodedata
 from datetime import datetime, timedelta
 from difflib import SequenceMatcher
 
@@ -33,35 +34,22 @@ OUTPUT_GZ = "epg_reducida.xml.gz"
 TMDB_KEY = os.getenv('TMDB_API_KEY')
 cache_tmdb = {}
 
+def remover_tildes(texto):
+    if not texto: return ""
+    return ''.join(c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn').lower()
+
 def similar(a, b):
-    a, b = str(a).lower(), str(b).lower()
+    a, b = remover_tildes(a), remover_tildes(b)
     if a in b or b in a: return 1.0
     return SequenceMatcher(None, a, b).ratio()
 
-def extraer_info_episodio(texto):
-    """Detecta si hay datos de Temporada o Episodio en el texto original"""
-    if not texto: return ""
-    # Busca patrones como T1 E2, Temp 1, Ep 5, S01E02, etc.
-    patrones = [
-        r'[TS]\d+\s?[E]\d+', 
-        r'Temporada\s?\d+', 
-        r'Episodio\s?\d+',
-        r'Capítulo\s?\d+'
-    ]
-    encontrados = []
+def es_descripcion_de_episodio(texto):
+    """Detecta si la descripción original es de un episodio específico"""
+    if not texto: return False
+    patrones = [r'[TS]\d+\s?[E]\d+', r'Temporada\s?\d+', r'Episodio\s?\d+', r'Capítulo\s?\d+', r'S\d+E\d+']
     for p in patrones:
-        match = re.search(p, texto, re.IGNORECASE)
-        if match: encontrados.append(match.group())
-    
-    return " | ".join(encontrados) if encontrados else ""
-
-def validar_descripciones(desc_orig, desc_tmdb):
-    if not desc_orig or len(desc_orig) < 15: return True
-    palabras_orig = set(re.findall(r'\w{5,}', desc_orig.lower()))
-    palabras_tmdb = set(re.findall(r'\w{5,}', desc_tmdb.lower()))
-    if not palabras_orig: return True
-    coincidencias = palabras_orig.intersection(palabras_tmdb)
-    return len(coincidencias) >= 1
+        if re.search(p, texto, re.IGNORECASE): return True
+    return False
 
 def apply_shift(timestr, hours_val):
     if not timestr or len(timestr) < 14: return timestr
@@ -74,13 +62,17 @@ def apply_shift(timestr, hours_val):
     except: return timestr
 
 def buscar_en_tmdb(titulo_original, desc_original=""):
-    if not TMDB_KEY or not titulo_original: return None, None
+    if not TMDB_KEY or not titulo_original: return None, None, None
+    
+    # Limpiar query para búsqueda
     query = re.sub(r'\(.*?\)|\[.*?\]', '', titulo_original).replace('|', '').strip()
-    if query in cache_tmdb: return cache_tmdb[query]
+    query_norm = remover_tildes(query)
+    
+    if query_norm in cache_tmdb: return cache_tmdb[query_norm]
     
     headers = {'User-Agent': 'Mozilla/5.0'}
     try:
-        time.sleep(0.1)
+        time.sleep(0.15)
         url = f"https://api.themoviedb.org/3/search/multi?api_key={TMDB_KEY}&query={urllib.parse.quote(query)}&language=es-MX"
         r = requests.get(url, headers=headers, timeout=10)
         if r.status_code == 200:
@@ -88,17 +80,21 @@ def buscar_en_tmdb(titulo_original, desc_original=""):
             for res in results[:3]:
                 t_title = res.get('title') or res.get('name', '')
                 t_desc = res.get('overview', '')
-                
-                if not t_title or not t_desc: continue
-                if "maze runner" in t_title.lower() and "maze runner" not in query.lower():
-                    continue
+                # Obtener año (release_date para cine, first_air_date para TV)
+                release_date = res.get('release_date') or res.get('first_air_date') or ""
+                year = release_date[:4] if len(release_date) >= 4 else ""
 
+                if not t_title or not t_desc: continue
+                
+                # Filtro Maze Runner
+                if "maze runner" in t_title.lower() and "maze runner" not in query.lower(): continue
+
+                # Comparación con normalización de tildes
                 if similar(query, t_title) > 0.45:
-                    if validar_descripciones(desc_original, t_desc):
-                        cache_tmdb[query] = (t_title, t_desc)
-                        return t_title, t_desc
+                    cache_tmdb[query_norm] = (t_title, t_desc, year)
+                    return t_title, t_desc, year
     except: pass
-    return None, None
+    return None, None, None
 
 def filter_epg():
     if not os.path.exists(CANALES_FILE): return
@@ -106,25 +102,21 @@ def filter_epg():
     with open(CANALES_FILE, 'r', encoding='utf-8') as f:
         whitelist = set(line.strip() for line in f if line.strip())
     
-    tmdb_whitelist = set()
-    if os.path.exists(TMDB_CHANNELS_FILE):
-        with open(TMDB_CHANNELS_FILE, 'r', encoding='utf-8') as f:
-            tmdb_whitelist = set(line.strip() for line in f if line.strip())
+    tmdb_whitelist = set(line.strip() for line in (open(TMDB_CHANNELS_FILE, 'r', encoding='utf-8') if os.path.exists(TMDB_CHANNELS_FILE) else []))
 
     shifts = {}
     if os.path.exists(SHIFT_FILE):
-        with open(SHIFT_FILE, 'r', encoding='utf-8') as f:
-            for line in f:
-                if ',' in line:
-                    cid, val = line.strip().split(',')
-                    shifts[cid.strip()] = val.strip()
+        for line in open(SHIFT_FILE, 'r', encoding='utf-8'):
+            if ',' in line:
+                cid, val = line.strip().split(',')
+                shifts[cid.strip()] = val.strip()
 
-    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra Hybrid'})
+    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra v6'})
     canales_procesados = set()
 
     for url in EPG_SOURCES:
         try:
-            print(f"Procesando: {url.split('/')[-1]}")
+            print(f"Descargando: {url.split('/')[-1]}")
             r = requests.get(url, timeout=60)
             data = gzip.decompress(r.content) if (url.endswith(".gz") or r.content[:2] == b'\x1f\x8b') else r.content
             temp_root = ET.fromstring(data)
@@ -150,20 +142,22 @@ def filter_epg():
                             orig_title = t_elem.text
                             orig_desc = d_elem.text if d_elem is not None else ""
                             
-                            # Extraemos T1 E5 o similares antes de sobreescribir
-                            info_capitulo = extraer_info_episodio(orig_desc)
+                            new_t, new_d, new_y = buscar_en_tmdb(orig_title, orig_desc)
                             
-                            new_t, new_d = buscar_en_tmdb(orig_title, orig_desc)
-                            
-                            if new_d:
-                                t_elem.text = new_t
+                            if new_t:
+                                # 1. Actualizar Título con Año
+                                if new_y: t_elem.text = f"{new_t} ({new_y})"
+                                else: t_elem.text = new_t
+                                
+                                # 2. Lógica de Descripción para Series
                                 if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
                                 
-                                # Fusión: Info Episodio + Descripción TMDB
-                                final_desc = ""
-                                if info_capitulo: final_desc += f"[{info_capitulo}] "
-                                final_desc += f"{new_d} [TMDB]"
-                                d_elem.text = final_desc
+                                if es_descripcion_de_episodio(orig_desc):
+                                    # Si es serie con info de capítulo, NO tocamos la descripción
+                                    pass 
+                                else:
+                                    # Si es película o descripción general, usamos TMDB
+                                    d_elem.text = f"{new_d} [TMDB]"
 
                     for tag in ['credits', 'country', 'language', 'sub-title']:
                         extra = prog.find(tag)
