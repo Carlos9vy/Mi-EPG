@@ -34,6 +34,7 @@ TMDB_KEY = os.getenv('TMDB_API_KEY')
 cache_tmdb = {}
 
 def similar(a, b):
+    # Comparación muy básica para no bloquear resultados
     a, b = str(a).lower(), str(b).lower()
     if a in b or b in a: return 1.0
     return SequenceMatcher(None, a, b).ratio()
@@ -55,32 +56,34 @@ def buscar_en_tmdb(titulo_original):
     
     headers = {'User-Agent': 'Mozilla/5.0'}
     try:
-        time.sleep(0.15)
+        time.sleep(0.1)
         url = f"https://api.themoviedb.org/3/search/multi?api_key={TMDB_KEY}&query={urllib.parse.quote(query)}&language=es-MX"
         r = requests.get(url, headers=headers, timeout=10)
         if r.status_code == 200:
-            results = r.json().get('results')
-            for res in results[:3]:
+            results = r.json().get('results', [])
+            if results:
+                res = results[0] # Tomamos el primer resultado directo como antes
                 t_title = res.get('title') or res.get('name')
                 t_desc = res.get('overview')
-                if t_title and t_desc and len(t_desc) > 10:
-                    if similar(query, t_title) > 0.4: # Bajamos el umbral para asegurar que entre
-                        cache_tmdb[query] = (t_title, t_desc)
-                        return t_title, t_desc
+                
+                # --- Único Filtro de Seguridad ---
+                # Si el título de TMDB no tiene NADA que ver con el original, lo ignoramos
+                if t_title and similar(query, t_title) > 0.3:
+                    cache_tmdb[query] = (t_title, t_desc)
+                    return t_title, t_desc
     except: pass
     return None, None
 
 def filter_epg():
     if not os.path.exists(CANALES_FILE): return
 
-    # Cargar archivos de configuración con limpieza de espacios
     with open(CANALES_FILE, 'r', encoding='utf-8') as f:
-        whitelist = [line.strip() for line in f if line.strip()]
+        whitelist = set(line.strip() for line in f if line.strip())
     
-    tmdb_whitelist = []
+    tmdb_whitelist = set()
     if os.path.exists(TMDB_CHANNELS_FILE):
         with open(TMDB_CHANNELS_FILE, 'r', encoding='utf-8') as f:
-            tmdb_whitelist = [line.strip() for line in f if line.strip()]
+            tmdb_whitelist = set(line.strip() for line in f if line.strip())
 
     shifts = {}
     if os.path.exists(SHIFT_FILE):
@@ -90,70 +93,58 @@ def filter_epg():
                     cid, val = line.strip().split(',')
                     shifts[cid.strip()] = val.strip()
 
-    # Nodo raíz de la nueva EPG
-    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra v4'})
+    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra Fix'})
     canales_procesados = set()
 
     for url in EPG_SOURCES:
         try:
-            print(f"Procesando: {url.split('/')[-1]}")
+            print(f"Leyendo: {url.split('/')[-1]}")
             r = requests.get(url, timeout=60)
             data = gzip.decompress(r.content) if (url.endswith(".gz") or r.content[:2] == b'\x1f\x8b') else r.content
-            
-            # CARGA COMPLETA EN MEMORIA (Evita errores de guardado)
             temp_root = ET.fromstring(data)
 
-            # 1. Copiar Canales
             for channel in temp_root.findall('channel'):
                 cid = channel.get('id')
                 if cid in whitelist and cid not in canales_procesados:
                     new_root.append(channel)
                     canales_procesados.add(cid)
 
-            # 2. Copiar y Modificar Programas
             for prog in temp_root.findall('programme'):
                 pid = prog.get('channel')
                 if pid in whitelist:
-                    # Ajuste de hora
+                    # Shift
                     if pid in shifts:
                         prog.set('start', apply_shift(prog.get('start'), shifts[pid]))
                         prog.set('stop', apply_shift(prog.get('stop'), shifts[pid]))
 
-                    # Lógica TMDB
+                    # TMDB (Volvemos a la lógica simple que funcionaba)
                     if pid in tmdb_whitelist:
                         t_elem = prog.find('title')
-                        d_elem = prog.find('desc')
-                        
-                        orig_title = t_elem.text if t_elem is not None else ""
-                        orig_desc = d_elem.text if d_elem is not None else ""
-
-                        # Si la descripción es corta o nula, buscamos
-                        if len(orig_desc) < 150: 
-                            new_t, new_d = buscar_en_tmdb(orig_title)
+                        if t_elem is not None and t_elem.text:
+                            new_t, new_d = buscar_en_tmdb(t_elem.text)
                             if new_d:
-                                if t_elem is not None: t_elem.text = new_t
+                                t_elem.text = new_t
+                                d_elem = prog.find('desc')
                                 if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
                                 d_elem.text = new_d + " [TMDB]"
-                    
-                    # Limpieza de etiquetas basura
+
+                    # Limpieza
                     for tag in ['credits', 'country', 'language', 'sub-title']:
                         extra = prog.find(tag)
                         if extra is not None: prog.remove(extra)
                     
                     new_root.append(prog)
             
-            # Limpiar memoria de la fuente actual
             temp_root.clear()
-
         except Exception as e:
-            print(f" Error: {e}")
+            print(f"Error: {e}")
 
-    # Guardar archivos
+    # Guardado
     tree = ET.ElementTree(new_root)
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
-    print("¡EPG finalizada con éxito!")
+    print("Hecho.")
 
 if __name__ == "__main__":
     filter_epg()
