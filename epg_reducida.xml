@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="EPG Pro Ultra v3" generator-info-url="https://github.com"><channel id="AMC.ar">
+<tv generator-info-name="EPG Pro Ultra v4"><channel id="AMC.ar">
     <display-name>AR - AMC</display-name>
     <icon src="https://iptv-epg.org/logos/Argentina/AMC.ar.png" />
   </channel>
@@ -755,7 +755,7 @@
   <programme start="20260504051000 +0000" stop="20260504065000 +0000" channel="AMC.ar">
     <title lang="es">Inmersión</title>
     <title lang="en">The Dive</title>
-    <desc lang="es">Dos hermanas van a bucear a un hermoso y remoto lugar. Una de las hermanas es golpeada por una roca, dejándola atrapada 28 metros más abajo.</desc>
+    <desc lang="es">Ricardo, un padre de clase media, lleva a sus dos hijas a la casa familiar, junto al lago, en el Sur de Chile. Un día, en un yate, ven a tres jóvenes pescadores locales pidiendo ayuda desde otro barco que se está hundiendo. Ricardo se niega a ayudar, argumentando que parecen sospechosos y exasperando a su hija mayor. Sus prejuicios serán el comienzo de un viaje tenso que no terminará bien. [TMDB]</desc>
   </programme>
   <programme start="20260504065000 +0000" stop="20260504082500 +0000" channel="AMC.ar">
     <title lang="es">El mundo maravilloso de Willy</title>
@@ -864,7 +864,7 @@ Vive el detrás de escena de las mejores películas de acción. Desde tiroteos d
   <programme start="20260505070000 +0000" stop="20260505084500 +0000" channel="AMC.ar">
     <title lang="es">Respira</title>
     <title lang="en">Breathe</title>
-    <desc lang="es">Dos desconocidos amenazan a una madre y a su hija en una Tierra que quedó inhabitable por falta de oxígeno.</desc>
+    <desc lang="es">Un apasionado equipo médico se dedica a salvar vidas en un abarrotado hospital público en el que la tensión —y el romance— aceleran el pulso. [TMDB]</desc>
   </programme>
   <programme start="20260505084500 +0000" stop="20260505091000 +0000" channel="AMC.ar">
     <title lang="es">Planet Action</title>
@@ -934,7 +934,7 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
   <programme start="20260505180000 +0000" stop="20260505193500 +0000" channel="AMC.ar">
     <title lang="es">Carnada</title>
     <title lang="en">Something in the Water</title>
-    <desc lang="es">Un grupo de cinco amigas deben luchar por sus vidas en aguas abiertas después de que una boda de ensueño se transforme en una pesadilla.</desc>
+    <desc lang="es">Cuando dos criminales, Jasper y Bristol, llevan a cabo un robo de cuarenta millones de dólares en oro, dejando tras de sí varios agentes de policía muertos, el detective Edgar Clenteen se hace cargo del caso. Jasper es encarcelado y acaba compartiendo celda con Alvin Sanders, un ladrón de poca monta. Tras sufrir un ataque al corazón, Jasper le da a Alvin un mensaje para su mujer. El detective Clenteen le ofrecerá a Sanders la libertad a cambio de colaborar con él. [TMDB]</desc>
   </programme>
   <programme start="20260505193500 +0000" stop="20260505213000 +0000" channel="AMC.ar">
     <title lang="es">Son como niños 2</title>
@@ -1077,7 +1077,7 @@ Vive el detrás de escena de las mejores películas de acción. Desde tiroteos d
   <programme start="20260507044500 +0000" stop="20260507062000 +0000" channel="AMC.ar">
     <title lang="es">Carnada</title>
     <title lang="en">Something in the Water</title>
-    <desc lang="es">Un grupo de cinco amigas deben luchar por sus vidas en aguas abiertas después de que una boda de ensueño se transforme en una pesadilla.</desc>
+    <desc lang="es">Cuando dos criminales, Jasper y Bristol, llevan a cabo un robo de cuarenta millones de dólares en oro, dejando tras de sí varios agentes de policía muertos, el detective Edgar Clenteen se hace cargo del caso. Jasper es encarcelado y acaba compartiendo celda con Alvin Sanders, un ladrón de poca monta. Tras sufrir un ataque al corazón, Jasper le da a Alvin un mensaje para su mujer. El detective Clenteen le ofrecerá a Sanders la libertad a cambio de colaborar con él. [TMDB]</desc>
   </programme>
   <programme start="20260507062000 +0000" stop="20260507081500 +0000" channel="AMC.ar">
     <title lang="es">El diario de Bridget Jones</title>
@@ -4122,9 +4122,9 @@ Conoce el set de filmación y todo el backstage de las películas: Toy Story 4, 
     <desc lang="es">Los hermanos Templeton se han convertido en adultos y se han alejado el uno del otro, pero un nuevo jefe bebé con un enfoque de vanguardia está a punto de unirlos nuevamente e inspirar un nuevo negocio familiar.</desc>
   </programme>
   <programme start="20260505221000 +0000" stop="20260506000500 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Pokémon: Detective Pikachu</title>
+    <title lang="es">Pokémon Detective Pikachu</title>
     <title lang="en">Pokémon Detective Pikachu</title>
-    <desc lang="es">En un mundo donde las personas recolectan Pokémon para luchar, un niño se encuentra con un Pikachu inteligente que habla y busca ser un detective.</desc>
+    <desc lang="es">Un joven une fuerzas con el detective Pikachu para desentrañar el misterio detrás de la desaparición de su padre. El dúo dinámico descubre una trama tortuosa que representa una amenaza para el mundo Pokémon. [TMDB]</desc>
   </programme>
   <programme start="20260506000500 +0000" stop="20260506020000 +0000" channel="StudioUniversal.ar">
     <title lang="es">Gato con botas: el último deseo</title>
@@ -4182,9 +4182,9 @@ Conoce el set de filmación y todo el backstage de las películas: Toy Story 4, 
     <desc lang="es">Un año después de los últimos eventos, Miles Morales es abordado en forma inesperada por Gwen Stacy, su interés amoroso. Ambos emprenden una épica misión a través del Multiverso para salvar al mundo de un poderoso antagonista.</desc>
   </programme>
   <programme start="20260506202500 +0000" stop="20260506221500 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Los tipos malos</title>
+    <title lang="es">Los tipos malos 2</title>
     <title lang="en">The Bad Guys</title>
-    <desc lang="es">Cinco famosos delincuentes tratan de realizar su empresa más complicada hasta la fecha: portarse bien.</desc>
+    <desc lang="es">Un genial equipo de animales que no respetan la ley, los ahora muy reformados Tipos Malos, se esfuerzan (mucho, muchísimo) en ser buenos, pero se ven envueltos involuntariamente en un golpe de envergadura mundial planeado por un inesperado grupo de criminales: las Tipas Malas. [TMDB]</desc>
   </programme>
   <programme start="20260506221500 +0000" stop="20260507000500 +0000" channel="StudioUniversal.ar">
     <title lang="es">Hotel Transylvania</title>
@@ -4196,9 +4196,9 @@ Conoce el set de filmación y todo el backstage de las películas: Toy Story 4, 
     <desc lang="es">Nuestra familia de monstruos favorita se embarca en un crucero de lujo para que por fin Drac pueda tomarse un descanso de proveer de vacaciones al resto en el hotel.</desc>
   </programme>
   <programme start="20260507020000 +0000" stop="20260507043000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Rápidos y furiosos: Hobbs &amp; Shaw</title>
+    <title lang="es">Rápidos y Furiosos: Hobbs y Shaw</title>
     <title lang="en">Fast &amp; Furious Presents: Hobbs &amp; Shaw</title>
-    <desc lang="es">El abogado Luke Hobbs y el marginado Deckard Shaw forman una alianza improbable cuando un villano cibernético amenaza el futuro de la humanidad.</desc>
+    <desc lang="es">Desde que Hobbs, agente del Servicio de Seguridad Diplomática de Estados Unidos, y el británico Shaw, proscrito sin ley, se enfrentaron por primera vez, solo han intercambiado bofetadas y malas palabras. Pero cuando las despiadadas acciones de Brixton, un anarquista cibergenéticamente mejorado, amenazan el futuro de la humanidad, ambos se unen para derrotarlo. [TMDB]</desc>
   </programme>
   <programme start="20260507043000 +0000" stop="20260507062000 +0000" channel="StudioUniversal.ar">
     <title lang="es">Duro de cuidar 2</title>
@@ -4244,9 +4244,9 @@ Te mostramos los detrás de escenas y las curiosidades de los rodajes de las pel
     <desc lang="es">Una niña pequeña vive en un mundo de adultos junto a su madre, quien espera que su hija crezca rápido. Pero, gracias al excéntrico y amable aviador que tiene como vecino, escuchará fascinada las interesantes historias sobre el Principito.</desc>
   </programme>
   <programme start="20260507212500 +0000" stop="20260507232000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Pokémon: Detective Pikachu</title>
+    <title lang="es">Pokémon Detective Pikachu</title>
     <title lang="en">Pokémon Detective Pikachu</title>
-    <desc lang="es">En un mundo donde las personas recolectan Pokémon para luchar, un niño se encuentra con un Pikachu inteligente que habla y busca ser un detective.</desc>
+    <desc lang="es">Un joven une fuerzas con el detective Pikachu para desentrañar el misterio detrás de la desaparición de su padre. El dúo dinámico descubre una trama tortuosa que representa una amenaza para el mundo Pokémon. [TMDB]</desc>
   </programme>
   <programme start="20260507232000 +0000" stop="20260508020000 +0000" channel="StudioUniversal.ar">
     <title lang="es">Spider-Man: A través del Spider-Verso</title>
@@ -5009,10 +5009,9 @@ Jake espera poder reconquistar el corazón de Celeste componiéndole canciones d
 Charlie pauta una colonoscopia para evitar viajar a conocer a los padres de Chelsey, pero durante el proceso, esta cambia los planes y convence a sus padres de que sean ellos quienes vayan a visitarla.</desc>
   </programme>
   <programme start="20260504082500 +0000" stop="20260504084800 +0000" channel="WarnerChannel.ar">
-    <title lang="es">Obreros milagrosos</title>
+    <title lang="es">Obreros Milagrosos</title>
     <title lang="en">Miracle Workers</title>
-    <desc lang="es">S3 E1 Oregon Trail: Hittin' the Trail
-La historia sigue a un grupo de viajeros en el Oregon Trail en el oeste de Estados Unidos alrededor de 1844.</desc>
+    <desc lang="es">Un Dios aburrido de todo planea destruir la Tierra y pasar a otra cosa. Pero en las oficinas de Heaven Inc, dos ángeles de poca monta intentarán convencer a su jefe de salvar a la humanidad, apostando que pueden lograr un milagro casi imposible. [TMDB]</desc>
   </programme>
   <programme start="20260504084800 +0000" stop="20260504090000 +0000" channel="WarnerChannel.ar">
     <title lang="es">Hollywood One on One</title>
@@ -5025,10 +5024,9 @@ Disfruta de las mejores entrevistas con las personalidades de Hollywood y conoce
 Disfruta de las mejores entrevistas con las personalidades de Hollywood y conoce todos los detalles de sus nuevos proyectos.</desc>
   </programme>
   <programme start="20260504091000 +0000" stop="20260504093400 +0000" channel="WarnerChannel.ar">
-    <title lang="es">Corte nocturna</title>
+    <title lang="es">Corte Nocturna</title>
     <title lang="en">Night Court</title>
-    <desc lang="es">S1 E4 Dan contra las citas
-Dan intenta volver al mundo de las citas, pero le resulta más complicado de lo previsto.</desc>
+    <desc lang="es">En esta secuela, la jueza optimista y sin complejos Abby Stone, la hija del difunto Harry Stone, sigue los pasos de su padre mientras preside el turno de noche de un tribunal de acusación de Manhattan y trata de poner orden en su equipo de bichos raros y cínicos, sobre todo el ex fiscal del tribunal nocturno Dan Fielding . [TMDB]</desc>
   </programme>
   <programme start="20260504093400 +0000" stop="20260504100300 +0000" channel="WarnerChannel.ar">
     <title lang="es">Cobra Kai</title>
@@ -5040,9 +5038,8 @@ Dan intenta volver al mundo de las citas, pero le resulta más complicado de lo 
     <desc lang="es">Pete Mitchell, un impetuoso y temerario piloto naval, es aceptado en la escuela de élite Fighter School de Miramar, también conocida como Top Gun. Allí, competirá con sus compañeros por quedarse con el prestigioso Top Gun Trophy.</desc>
   </programme>
   <programme start="20260504115700 +0000" stop="20260504121800 +0000" channel="WarnerChannel.ar">
-    <title lang="es">The Big Bang Theory</title>
-    <desc lang="es">S7 E7 El protón desplazado
-Sheldon busca venganza cuando Leonard le pide ayuda a Arthur en un proyecto.</desc>
+    <title lang="es">La Teoría del Big Bang</title>
+    <desc lang="es">Leonard y Sheldon son dos físicos que comparten trabajo y apartamento. La serie comienza con la mudanza de Penny, su nueva y atractiva vecina, y hace hincapié en la dificultad de los físicos para relacionarse con personas fuera de su entorno para dar lugar a situaciones cómicas. [TMDB]</desc>
   </programme>
   <programme start="20260504121800 +0000" stop="20260504124000 +0000" channel="WarnerChannel.ar">
     <title lang="es">The Big Bang Theory</title>
@@ -5085,10 +5082,9 @@ A Charlie le suspenden su licencia de conducir y se sentirá humillado al tener 
 Jake se muda con su madre cuando descubre que Alan está saliendo con la madre de Eldridge. Mientras tanto, Charlie decide frenar un poco sus hábitos de bebida.</desc>
   </programme>
   <programme start="20260504145700 +0000" stop="20260504152200 +0000" channel="WarnerChannel.ar">
-    <title lang="es">Dos hombres y medio</title>
+    <title lang="es">Dos Hombres y Medio</title>
     <title lang="en">Two and a Half Men</title>
-    <desc lang="es">S8 E2 Una botella de vino y un taladro
-Charlie hace lo imposible para convencer a Alan de que acepte la oferta de Lyndsey de vivir juntos.</desc>
+    <desc lang="es">Charlie Harper un soltero que tiene todo lo que un hombre necesita: Dinero, un jaguar en el garaje y mujeres. Su informal estilo de vida en Malibú, es interrupida drásticamente con la llegada de su hermano Alan quien está muy deprimido tras afrontar un divorcio, y de su hijo de 10 años, Jake, que se mudan para quedarse a vivir con él. De este modo, juntos inician un camino en el que deben afrontar los retos e ir madurando poco a poco. [TMDB]</desc>
   </programme>
   <programme start="20260504152200 +0000" stop="20260504155300 +0000" channel="WarnerChannel.ar">
     <title lang="es">Cobra Kai</title>
@@ -5135,9 +5131,8 @@ Tras una pelea con Bernadette, Howard termina en el sofá de Raj. Sheldon debe e
 El último descubrimiento científico de Sheldon lo hace sentir un fraude y amenaza con ser su más pesada carga de por vida. Mientras tanto, el gesto romántico que tiene Howard con Bernadette hace que Penny baje la guardia con Leonard.</desc>
   </programme>
   <programme start="20260505042700 +0000" stop="20260505044800 +0000" channel="WarnerChannel.ar">
-    <title lang="es">The Big Bang Theory</title>
-    <desc lang="es">S7 E7 El protón desplazado
-Sheldon busca venganza cuando Leonard le pide ayuda a Arthur en un proyecto.</desc>
+    <title lang="es">La Teoría del Big Bang</title>
+    <desc lang="es">Leonard y Sheldon son dos físicos que comparten trabajo y apartamento. La serie comienza con la mudanza de Penny, su nueva y atractiva vecina, y hace hincapié en la dificultad de los físicos para relacionarse con personas fuera de su entorno para dar lugar a situaciones cómicas. [TMDB]</desc>
   </programme>
   <programme start="20260505044800 +0000" stop="20260505051000 +0000" channel="WarnerChannel.ar">
     <title lang="es">The Big Bang Theory</title>
@@ -5180,10 +5175,9 @@ A Charlie le suspenden su licencia de conducir y se sentirá humillado al tener 
 Jake se muda con su madre cuando descubre que Alan está saliendo con la madre de Eldridge. Mientras tanto, Charlie decide frenar un poco sus hábitos de bebida.</desc>
   </programme>
   <programme start="20260505072100 +0000" stop="20260505074400 +0000" channel="WarnerChannel.ar">
-    <title lang="es">Dos hombres y medio</title>
+    <title lang="es">Dos Hombres y Medio</title>
     <title lang="en">Two and a Half Men</title>
-    <desc lang="es">S8 E2 Una botella de vino y un taladro
-Charlie hace lo imposible para convencer a Alan de que acepte la oferta de Lyndsey de vivir juntos.</desc>
+    <desc lang="es">Charlie Harper un soltero que tiene todo lo que un hombre necesita: Dinero, un jaguar en el garaje y mujeres. Su informal estilo de vida en Malibú, es interrupida drásticamente con la llegada de su hermano Alan quien está muy deprimido tras afrontar un divorcio, y de su hijo de 10 años, Jake, que se mudan para quedarse a vivir con él. De este modo, juntos inician un camino en el que deben afrontar los retos e ir madurando poco a poco. [TMDB]</desc>
   </programme>
   <programme start="20260505074400 +0000" stop="20260505083200 +0000" channel="WarnerChannel.ar">
     <title lang="es">Encontrados</title>
@@ -5266,16 +5260,14 @@ Mientras Charlie está inhabilitado debido a su cirugía plástica, Alan está g
 Charlie no haya qué hacer cuando descubre que la chica de su cita es cuatro años mayor que él. Alan, por su lado, usará su imaginación para consumir -antes de que expiren- las pastillas "azules" que tanto lo hacen disfrutar.</desc>
   </programme>
   <programme start="20260505150700 +0000" stop="20260505153000 +0000" channel="WarnerChannel.ar">
-    <title lang="es">Dos hombres y medio</title>
+    <title lang="es">Dos Hombres y Medio</title>
     <title lang="en">Two and a Half Men</title>
-    <desc lang="es">S8 E7 La gazeta de la perra loca
-La nueva novia de Charlie no puede soportar el acoso de Rose. Ahora, Charlie deberá tomar una decisión.</desc>
+    <desc lang="es">Charlie Harper un soltero que tiene todo lo que un hombre necesita: Dinero, un jaguar en el garaje y mujeres. Su informal estilo de vida en Malibú, es interrupida drásticamente con la llegada de su hermano Alan quien está muy deprimido tras afrontar un divorcio, y de su hijo de 10 años, Jake, que se mudan para quedarse a vivir con él. De este modo, juntos inician un camino en el que deben afrontar los retos e ir madurando poco a poco. [TMDB]</desc>
   </programme>
   <programme start="20260505153000 +0000" stop="20260505155500 +0000" channel="WarnerChannel.ar">
-    <title lang="es">Dos hombres y medio</title>
+    <title lang="es">Dos Hombres y Medio</title>
     <title lang="en">Two and a Half Men</title>
-    <desc lang="es">S8 E8 Primavera en un palito
-Charlie y Alan intentan conectar a su madre con Russell, el farmacéutico.</desc>
+    <desc lang="es">Charlie Harper un soltero que tiene todo lo que un hombre necesita: Dinero, un jaguar en el garaje y mujeres. Su informal estilo de vida en Malibú, es interrupida drásticamente con la llegada de su hermano Alan quien está muy deprimido tras afrontar un divorcio, y de su hijo de 10 años, Jake, que se mudan para quedarse a vivir con él. De este modo, juntos inician un camino en el que deben afrontar los retos e ir madurando poco a poco. [TMDB]</desc>
   </programme>
   <programme start="20260505155500 +0000" stop="20260505161700 +0000" channel="WarnerChannel.ar">
     <title lang="es">Dos hombres y medio</title>
@@ -5362,16 +5354,14 @@ Mientras Charlie está inhabilitado debido a su cirugía plástica, Alan está g
 Charlie no haya qué hacer cuando descubre que la chica de su cita es cuatro años mayor que él. Alan, por su lado, usará su imaginación para consumir -antes de que expiren- las pastillas "azules" que tanto lo hacen disfrutar.</desc>
   </programme>
   <programme start="20260506062400 +0000" stop="20260506064400 +0000" channel="WarnerChannel.ar">
-    <title lang="es">Dos hombres y medio</title>
+    <title lang="es">Dos Hombres y Medio</title>
     <title lang="en">Two and a Half Men</title>
-    <desc lang="es">S8 E7 La gazeta de la perra loca
-La nueva novia de Charlie no puede soportar el acoso de Rose. Ahora, Charlie deberá tomar una decisión.</desc>
+    <desc lang="es">Charlie Harper un soltero que tiene todo lo que un hombre necesita: Dinero, un jaguar en el garaje y mujeres. Su informal estilo de vida en Malibú, es interrupida drásticamente con la llegada de su hermano Alan quien está muy deprimido tras afrontar un divorcio, y de su hijo de 10 años, Jake, que se mudan para quedarse a vivir con él. De este modo, juntos inician un camino en el que deben afrontar los retos e ir madurando poco a poco. [TMDB]</desc>
   </programme>
   <programme start="20260506064400 +0000" stop="20260506070600 +0000" channel="WarnerChannel.ar">
-    <title lang="es">Dos hombres y medio</title>
+    <title lang="es">Dos Hombres y Medio</title>
     <title lang="en">Two and a Half Men</title>
-    <desc lang="es">S8 E8 Primavera en un palito
-Charlie y Alan intentan conectar a su madre con Russell, el farmacéutico.</desc>
+    <desc lang="es">Charlie Harper un soltero que tiene todo lo que un hombre necesita: Dinero, un jaguar en el garaje y mujeres. Su informal estilo de vida en Malibú, es interrupida drásticamente con la llegada de su hermano Alan quien está muy deprimido tras afrontar un divorcio, y de su hijo de 10 años, Jake, que se mudan para quedarse a vivir con él. De este modo, juntos inician un camino en el que deben afrontar los retos e ir madurando poco a poco. [TMDB]</desc>
   </programme>
   <programme start="20260506070600 +0000" stop="20260506072900 +0000" channel="WarnerChannel.ar">
     <title lang="es">Dos hombres y medio</title>
@@ -5397,10 +5387,9 @@ Cobra Kai gana su segundo alumno. Daniel tiene un intrincado plan para vengarse 
 Mandy descubre que Meemaw opera un negocio ilegal de apuestas deportivas y decide unirse. Mientras tanto, a Georgie le cuesta ocultar el nuevo trabajo de Mandy.</desc>
   </programme>
   <programme start="20260506091900 +0000" stop="20260506094300 +0000" channel="WarnerChannel.ar">
-    <title lang="es">Corte nocturna</title>
+    <title lang="es">Corte Nocturna</title>
     <title lang="en">Night Court</title>
-    <desc lang="es">S1 E6 Amiguitos de la justicia
-El sobrino adolescente de Gurgs y algunos de sus compañeros de estudios visitan la corte para un proyecto escolar.</desc>
+    <desc lang="es">En esta secuela, la jueza optimista y sin complejos Abby Stone, la hija del difunto Harry Stone, sigue los pasos de su padre mientras preside el turno de noche de un tribunal de acusación de Manhattan y trata de poner orden en su equipo de bichos raros y cínicos, sobre todo el ex fiscal del tribunal nocturno Dan Fielding . [TMDB]</desc>
   </programme>
   <programme start="20260506094300 +0000" stop="20260506102600 +0000" channel="WarnerChannel.ar">
     <title lang="es">Cobra Kai</title>
@@ -5449,10 +5438,9 @@ Cuando Sheldon trata de ser espontáneo en los "Jueves Donde Todo Puede Suceder"
 Alan está avergonzado de no poder comprarle un regalo de cumpleaños a Lyndsey. Por esta razón, decide ponerse creativo.</desc>
   </programme>
   <programme start="20260506143400 +0000" stop="20260506145800 +0000" channel="WarnerChannel.ar">
-    <title lang="es">Dos hombres y medio</title>
+    <title lang="es">Dos Hombres y Medio</title>
     <title lang="en">Two and a Half Men</title>
-    <desc lang="es">S8 E12 Cereal de hoyitos y palitos o mi perrito murió
-Cuando Charlie y Courtney se separan, Charlie cae en una depresión y va a ver a su psiquiatra.</desc>
+    <desc lang="es">Charlie Harper un soltero que tiene todo lo que un hombre necesita: Dinero, un jaguar en el garaje y mujeres. Su informal estilo de vida en Malibú, es interrupida drásticamente con la llegada de su hermano Alan quien está muy deprimido tras afrontar un divorcio, y de su hijo de 10 años, Jake, que se mudan para quedarse a vivir con él. De este modo, juntos inician un camino en el que deben afrontar los retos e ir madurando poco a poco. [TMDB]</desc>
   </programme>
   <programme start="20260506145800 +0000" stop="20260506152200 +0000" channel="WarnerChannel.ar">
     <title lang="es">Dos hombres y medio</title>
@@ -5491,7 +5479,7 @@ La clase del dojo de Johnny atrae a un grupo de inadaptados mientras su hijo Rob
   <programme start="20260506190000 +0000" stop="20260506210300 +0000" channel="WarnerChannel.ar">
     <title lang="es">Reminiscencia</title>
     <title lang="en">Reminiscence</title>
-    <desc lang="es">Un científico descubre una forma de revivir el pasado y utiliza la tecnología para buscar su amor perdido hace mucho tiempo.</desc>
+    <desc lang="es">Nick Bannister, un investigador privado que se interna en el oscuro y seductor mundo del pasado, ayuda a sus clientes a recuperar recuerdos perdidos. Vive a orillas de la costa de Miami que se encuentra sumergida en gran parte bajo el mar. Un día, su vida cambia cuando aparece Mae, una nueva clienta. Aunque Mae solo acude a su consulta para encontrar un objeto perdido, se convertirá en una peligrosa obsesión. Mientras Bannister intenta encontrar el motivo de la desaparición de Mae, descubre una violenta conspiración y, al final, deberá responder a la gran pregunta: ¿Hasta dónde llegarías para aferrarte a tus seres queridos? [TMDB]</desc>
   </programme>
   <programme start="20260506210300 +0000" stop="20260506225500 +0000" channel="WarnerChannel.ar">
     <title lang="es">17 otra vez</title>
@@ -5550,10 +5538,9 @@ Cuando Sheldon trata de ser espontáneo en los "Jueves Donde Todo Puede Suceder"
 Alan está avergonzado de no poder comprarle un regalo de cumpleaños a Lyndsey. Por esta razón, decide ponerse creativo.</desc>
   </programme>
   <programme start="20260507062900 +0000" stop="20260507065100 +0000" channel="WarnerChannel.ar">
-    <title lang="es">Dos hombres y medio</title>
+    <title lang="es">Dos Hombres y Medio</title>
     <title lang="en">Two and a Half Men</title>
-    <desc lang="es">S8 E12 Cereal de hoyitos y palitos o mi perrito murió
-Cuando Charlie y Courtney se separan, Charlie cae en una depresión y va a ver a su psiquiatra.</desc>
+    <desc lang="es">Charlie Harper un soltero que tiene todo lo que un hombre necesita: Dinero, un jaguar en el garaje y mujeres. Su informal estilo de vida en Malibú, es interrupida drásticamente con la llegada de su hermano Alan quien está muy deprimido tras afrontar un divorcio, y de su hijo de 10 años, Jake, que se mudan para quedarse a vivir con él. De este modo, juntos inician un camino en el que deben afrontar los retos e ir madurando poco a poco. [TMDB]</desc>
   </programme>
   <programme start="20260507065100 +0000" stop="20260507071200 +0000" channel="WarnerChannel.ar">
     <title lang="es">Dos hombres y medio</title>
@@ -5644,10 +5631,9 @@ Cuando el intento de Alan de darle a Jake un divertido fin de semana de padre e 
 Berta renuncia a su trabajo, y Charlie descubre rápidamente que él no puede funcionar sin ella. Los intentos de Alan por encargarse de esas labores pueden hacerla a ella aun más necesaria.</desc>
   </programme>
   <programme start="20260507145900 +0000" stop="20260507152100 +0000" channel="WarnerChannel.ar">
-    <title lang="es">Dos hombres y medio</title>
+    <title lang="es">Dos Hombres y Medio</title>
     <title lang="en">Two and a Half Men</title>
-    <desc lang="es">S1 E5 Solteras y divorciadas
-Los partidos de fútbol de Jake llevan a Alan y Charlie a tener encuentros con las atractivas madres de sus compañeros.</desc>
+    <desc lang="es">Charlie Harper un soltero que tiene todo lo que un hombre necesita: Dinero, un jaguar en el garaje y mujeres. Su informal estilo de vida en Malibú, es interrupida drásticamente con la llegada de su hermano Alan quien está muy deprimido tras afrontar un divorcio, y de su hijo de 10 años, Jake, que se mudan para quedarse a vivir con él. De este modo, juntos inician un camino en el que deben afrontar los retos e ir madurando poco a poco. [TMDB]</desc>
   </programme>
   <programme start="20260507152100 +0000" stop="20260507154300 +0000" channel="WarnerChannel.ar">
     <title lang="es">Dos hombres y medio</title>
@@ -14792,10 +14778,9 @@ Espacio de contenido infomercial.</desc>
     <desc lang="es">La Niñera es una comedia de televisión estadounidense originalmente transmitida en 1993-99 en CBS, con Fran Drescher como Fran Fine, una nativa judía que se convierte en la niñera de tres niños de la alta sociedad de Nueva York y Gran Bretaña. Creada y producida por Drescher y su entonces marido Peter Marc Jacobson, The Nanny tomó gran parte de su inspiración de la vida personal de Drescher creciendo en Queens. [TMDB]</desc>
   </programme>
   <programme start="20260504143000 +0000" stop="20260504150000 +0000" channel="Sony.cl">
-    <title lang="es">La niñera</title>
+    <title lang="es">La Niñera</title>
     <title lang="en">The Nanny</title>
-    <desc lang="es">S1 E6 El mayordomo, el marido, la esposa y su madre
-Fran convence a la familia Sheffield para que la ayuden a engañar un primo molesto.</desc>
+    <desc lang="es">La Niñera es una comedia de televisión estadounidense originalmente transmitida en 1993-99 en CBS, con Fran Drescher como Fran Fine, una nativa judía que se convierte en la niñera de tres niños de la alta sociedad de Nueva York y Gran Bretaña. Creada y producida por Drescher y su entonces marido Peter Marc Jacobson, The Nanny tomó gran parte de su inspiración de la vida personal de Drescher creciendo en Queens. [TMDB]</desc>
   </programme>
   <programme start="20260504150000 +0000" stop="20260504153500 +0000" channel="Sony.cl">
     <title lang="es">La Niñera</title>
@@ -14912,10 +14897,9 @@ Espacio de contenido infomercial.</desc>
 Espacio de contenido infomercial.</desc>
   </programme>
   <programme start="20260505140000 +0000" stop="20260505143500 +0000" channel="Sony.cl">
-    <title lang="es">La niñera</title>
+    <title lang="es">La Niñera</title>
     <title lang="en">The Nanny</title>
-    <desc lang="es">S1 E6 El mayordomo, el marido, la esposa y su madre
-Fran convence a la familia Sheffield para que la ayuden a engañar un primo molesto.</desc>
+    <desc lang="es">La Niñera es una comedia de televisión estadounidense originalmente transmitida en 1993-99 en CBS, con Fran Drescher como Fran Fine, una nativa judía que se convierte en la niñera de tres niños de la alta sociedad de Nueva York y Gran Bretaña. Creada y producida por Drescher y su entonces marido Peter Marc Jacobson, The Nanny tomó gran parte de su inspiración de la vida personal de Drescher creciendo en Queens. [TMDB]</desc>
   </programme>
   <programme start="20260505143500 +0000" stop="20260505150500 +0000" channel="Sony.cl">
     <title lang="es">La Niñera</title>
@@ -15004,8 +14988,7 @@ El Dr. Shaun Murphy sospecha que su paciente está mintiendo sobre el motivo de 
   </programme>
   <programme start="20260506090000 +0000" stop="20260506100000 +0000" channel="Sony.cl">
     <title lang="es">Casados con hijos</title>
-    <desc lang="es">S1 E17 La nuera
-Nacho lleva días desaparecido: en el matrimonio de Lucho conoció a una garzona con la que comenzó un apasionado romance.</desc>
+    <desc lang="es">La serie describe la vida de los Bundy, una familia disfuncional que vive en Chicago, Illinois, conformada por Al (Ed O'Neil), Peggy (Katey Sagal), Kelly (Christina Applegate), Bud (David Faustino) y Buck, su perro. Parodia de una típica familia norteamericana de los años 80: un marido al que poco le importaba su familia; la señora, una impulsiva compradora; la hija, que es el estereotipo de "rubia sexy y tonta"; y el hijo, un perdedor que busca ser atractivo. Posteriormente se unirían a la familia Seven, un hijo adoptado. [TMDB]</desc>
   </programme>
   <programme start="20260506100000 +0000" stop="20260506110000 +0000" channel="Sony.cl">
     <title lang="es">Bettys Diagnose</title>
@@ -15588,8 +15571,7 @@ Los Flanders obtienen la custodia de los hijos de los Simpson después de que un
   <programme start="20260505022600 +0000" stop="20260505025900 +0000" channel="StarChannel.cl">
     <title lang="es">Los Simpson</title>
     <title lang="en">The Simpsons</title>
-    <desc lang="es">S7 E4 Bart vende su alma
-Bart le vende su alma a Milhouse por cinco dólares y Moe transforma su bar en un restaurante familiar.</desc>
+    <desc lang="es">La familia Simpson (Homero, Marge, Bart, Lisa y Maggie), y un reparto virtual de miles, viven aventuras cotidianas en Springfield, una ciudad estadounidense promedio. [TMDB]</desc>
   </programme>
   <programme start="20260505025900 +0000" stop="20260505052500 +0000" channel="StarChannel.cl">
     <title lang="es">El Diablo viste a la moda</title>
@@ -15668,8 +15650,7 @@ Cuando Castle y Beckett descubren que una víctima de asesinato pudo ser envenen
   <programme start="20260506015300 +0000" stop="20260506022600 +0000" channel="StarChannel.cl">
     <title lang="es">Los Simpson</title>
     <title lang="en">The Simpsons</title>
-    <desc lang="es">S7 E5 Lisa, la vegetariana
-Lisa se da cuenta de que está mal comer animales luego de pasar el día con un corderito en un zoológico local.</desc>
+    <desc lang="es">La familia Simpson (Homero, Marge, Bart, Lisa y Maggie), y un reparto virtual de miles, viven aventuras cotidianas en Springfield, una ciudad estadounidense promedio. [TMDB]</desc>
   </programme>
   <programme start="20260506022600 +0000" stop="20260506030000 +0000" channel="StarChannel.cl">
     <title lang="es">Los Simpson</title>
@@ -15697,8 +15678,7 @@ Turk está celoso de J.D. por su nuevo puesto de poder en Sacred Heart. Mientras
   </programme>
   <programme start="20260506091100 +0000" stop="20260506093300 +0000" channel="StarChannel.cl">
     <title lang="es">Scrubs</title>
-    <desc lang="es">S8 E8 Mi abogado enamorado
-Dr. Cox tiene problemas para delegar su autoridad en su nuevo puesto. Ted se enamora de una contante en el hospital.</desc>
+    <desc lang="es">Scrubs es una comedia disparatada que se centra en la vida de unos internos recién llegados a un hospital académico, narrando en clave humorística su entrada en la medicina real. Sus dudas y contradicciones forman parte de su proceso de aprendizaje, así como hacer frente a sus errores y a tratar a los pacientes. El tono satírico de la serie entronca más con el espíritu de la mítica ‘M.A.S.H’ que con las series de hospitales más convencionales como ‘Urgencias’ o ‘Anatomía de Grey’, mostrando una visión desacomplejada e hilarante de los dramas hospitalarios. [TMDB]</desc>
   </programme>
   <programme start="20260506093300 +0000" stop="20260506095400 +0000" channel="StarChannel.cl">
     <title lang="es">Scrubs</title>
@@ -15737,7 +15717,7 @@ Un misterioso hombre armado toma a varias personas que viajan en metro como rehe
   <programme start="20260506211900 +0000" stop="20260506232800 +0000" channel="StarChannel.cl">
     <title lang="es">Un par nada ejemplar</title>
     <title lang="en">Role Models</title>
-    <desc lang="es">Por mal comportamiento, dos repartidores de bebidas energizantes deben hacer servicio comunitario participando en un programa de ayuda a los jóvenes.</desc>
+    <desc lang="es">Tras estrellar el vehículo de la empresa, Danny y Wheeler, dos vendedores de una bebida energética, son arrestados y condenados a realizar ciento cincuenta horas de servicio a la comunidad y deben ocuparse de un adolescente antisocial. [TMDB]</desc>
   </programme>
   <programme start="20260506232800 +0000" stop="20260507015300 +0000" channel="StarChannel.cl">
     <title lang="es">El Diablo viste a la moda</title>
@@ -15778,8 +15758,7 @@ A medida que se acerca la boda de Janitor y Lady, JD, el Dr. Cox y Turk intentan
   </programme>
   <programme start="20260507092600 +0000" stop="20260507094800 +0000" channel="StarChannel.cl">
     <title lang="es">Scrubs</title>
-    <desc lang="es">S8 E13 Mi Luna llena
-Eliot y Turk deben lidiar con cuatro pasantes engreidos y varios pacientes complicados en una noche de luna llena.</desc>
+    <desc lang="es">Scrubs es una comedia disparatada que se centra en la vida de unos internos recién llegados a un hospital académico, narrando en clave humorística su entrada en la medicina real. Sus dudas y contradicciones forman parte de su proceso de aprendizaje, así como hacer frente a sus errores y a tratar a los pacientes. El tono satírico de la serie entronca más con el espíritu de la mítica ‘M.A.S.H’ que con las series de hospitales más convencionales como ‘Urgencias’ o ‘Anatomía de Grey’, mostrando una visión desacomplejada e hilarante de los dramas hospitalarios. [TMDB]</desc>
   </programme>
   <programme start="20260507094800 +0000" stop="20260507100900 +0000" channel="StarChannel.cl">
     <title lang="es">Scrubs</title>
@@ -15788,8 +15767,7 @@ J.D. Y Eliot estan molestos al saber que Kim y Sean salen juntos, el hijo de J.D
   </programme>
   <programme start="20260507100900 +0000" stop="20260507120000 +0000" channel="StarChannel.cl">
     <title lang="es">Scrubs</title>
-    <desc lang="es">S8 E8 Mi abogado enamorado
-Dr. Cox tiene problemas para delegar su autoridad en su nuevo puesto. Ted se enamora de una contante en el hospital.</desc>
+    <desc lang="es">Scrubs es una comedia disparatada que se centra en la vida de unos internos recién llegados a un hospital académico, narrando en clave humorística su entrada en la medicina real. Sus dudas y contradicciones forman parte de su proceso de aprendizaje, así como hacer frente a sus errores y a tratar a los pacientes. El tono satírico de la serie entronca más con el espíritu de la mítica ‘M.A.S.H’ que con las series de hospitales más convencionales como ‘Urgencias’ o ‘Anatomía de Grey’, mostrando una visión desacomplejada e hilarante de los dramas hospitalarios. [TMDB]</desc>
   </programme>
   <programme start="20260507120000 +0000" stop="20260507131400 +0000" channel="StarChannel.cl">
     <title lang="es">Castle</title>
@@ -15832,7 +15810,7 @@ La doctora Kelly Nieman está implicada en un crimen. La policía requiere la co
   </programme>
   <programme start="20260508022700 +0000" stop="20260508030000 +0000" channel="StarChannel.cl">
     <title lang="es">Los Simpson</title>
-    <desc lang="es">Troy McClure es el presentador de este especial, que incluye los primeros cortos del dibujo animado, datos curiosos e imágenes nunca vistas.</desc>
+    <desc lang="es">La familia Simpson (Homero, Marge, Bart, Lisa y Maggie), y un reparto virtual de miles, viven aventuras cotidianas en Springfield, una ciudad estadounidense promedio. [TMDB]</desc>
   </programme>
   <programme start="20260508030000 +0000" stop="20260508050300 +0000" channel="StarChannel.cl">
     <title lang="es">Palm Springs</title>
@@ -27856,7 +27834,7 @@ Dos encargados de un parque, un arrendajo azul llamado Mordecai y un mapache lla
   <programme start="20260504072300 +0000" stop="20260504090700 +0000" channel="Cinecanal.co">
     <title lang="es">Cada respiración que tomas</title>
     <title lang="en">You Belong to Me</title>
-    <desc lang="es">La carrera profesional de un psiquiatra está en peligro después de que uno de sus pacientes se quita la vida.</desc>
+    <desc lang="es">La carrera profesional de un psiquiatra está en peligro después de que uno de sus pacientes se quita la vida. [TMDB]</desc>
   </programme>
   <programme start="20260504090700 +0000" stop="20260504120000 +0000" channel="Cinecanal.co">
     <title lang="es">S.O.S.: Familia en apuros</title>
@@ -27890,7 +27868,7 @@ Dos encargados de un parque, un arrendajo azul llamado Mordecai y un mapache lla
   <programme start="20260505004800 +0000" stop="20260505030000 +0000" channel="Cinecanal.co">
     <title lang="es">Cuando ellas quieren</title>
     <title lang="en">Book Club</title>
-    <desc lang="es">Cuatro amigas de toda la vida han cambiado sus vidas para siempre después de leer 50 Shades of Grey en su club de libros mensual.</desc>
+    <desc lang="es">Cuatro mujeres, cuatro amigas de toda la vida forman parte de un Club de Lectura que se reúnen mensualmente. No es el tipo de libros que suelen leer, pero ‘Cincuenta sombras de Grey’ llama su atención y lo eligen como lectura del mes. Tras leerlo, la vida de estas sexagenarias cambia para siempre. [TMDB]</desc>
   </programme>
   <programme start="20260505030000 +0000" stop="20260505051500 +0000" channel="Cinecanal.co">
     <title lang="es">El cisne negro</title>
@@ -28027,7 +28005,7 @@ Dos encargados de un parque, un arrendajo azul llamado Mordecai y un mapache lla
   <programme start="20260507201000 +0000" stop="20260507222100 +0000" channel="Cinecanal.co">
     <title lang="es">Cuando ellas quieren</title>
     <title lang="en">Book Club</title>
-    <desc lang="es">Cuatro amigas de toda la vida han cambiado sus vidas para siempre después de leer 50 Shades of Grey en su club de libros mensual.</desc>
+    <desc lang="es">Cuatro mujeres, cuatro amigas de toda la vida forman parte de un Club de Lectura que se reúnen mensualmente. No es el tipo de libros que suelen leer, pero ‘Cincuenta sombras de Grey’ llama su atención y lo eligen como lectura del mes. Tras leerlo, la vida de estas sexagenarias cambia para siempre. [TMDB]</desc>
   </programme>
   <programme start="20260507222100 +0000" stop="20260508003400 +0000" channel="Cinecanal.co">
     <title lang="es">Loca por las compras</title>
@@ -39327,7 +39305,7 @@ Al prosperar dentro y fuera del aula, Greg empodera al equipo de hockey antes de
   <programme start="20260505010000 +0000" stop="20260505025300 +0000" channel="HBO.co">
     <title lang="es">Exterminio: El templo de huesos</title>
     <title lang="en">28 Years Later: The Bone Temple</title>
-    <desc lang="es">Un mensajero en bicicleta despierta de un coma para descubrir que el mundo ha sido invadido por zombis tras el brote de un virus.</desc>
+    <desc lang="es">El Dr. Kelson se encuentra en una nueva relación impactante, con consecuencias que podrían cambiar el mundo tal como lo conocen, y el encuentro de Spike con Jimmy Crystal se convierte en una pesadilla de la que no puede escapar. [TMDB]</desc>
   </programme>
   <programme start="20260505025300 +0000" stop="20260505044400 +0000" channel="HBO.co">
     <title lang="es">Mortal Kombat</title>
@@ -40068,9 +40046,9 @@ Disfruta de las mejores películas de HBO.</desc>
     <desc lang="es">La vida ideal del pequeño Tim comienza a desmoronarse cuando sus padres le anuncian que va a tener un hermanito. Luego de su nacimiento, Tim descubrirá que el bebé tiene un comportamiento extraño: viste traje y corbata, y puede hablar.</desc>
   </programme>
   <programme start="20260508010000 +0000" stop="20260508024900 +0000" channel="HBOFamily.co">
-    <title lang="es">Paddington: aventura en la selva</title>
+    <title lang="es">Paddington: Aventura en la selva</title>
     <title lang="en">Paddington in Peru: Lost in the Jungle</title>
-    <desc lang="es">Paddington, el oso amante de la mermelada, se pierde en la selva en una emocionante y riesgosa aventura cuando regresa a visitar a su tía Lucy.</desc>
+    <desc lang="es">Paddington viaja a Perú para visitar a su querida tía Lucy, que ahora reside en el Hogar de Osos Jubilados. Con la familia Brown a cuestas, se desata una emocionante aventura cuando un misterio los sumerge en un viaje inesperado a través de la selva amazónica y hasta las cimas de las montañas de Perú. [TMDB]</desc>
   </programme>
   <programme start="20260508024900 +0000" stop="20260508045200 +0000" channel="HBOFamily.co">
     <title lang="es">El Hombre Araña</title>
@@ -40084,12 +40062,12 @@ Disfruta de las mejores películas de HBO.</desc>
   <programme start="20260504020000 +0000" stop="20260504044500 +0000" channel="HBOMundi.co">
     <title lang="es">Una batalla tras otra</title>
     <title lang="en">One Battle After Another</title>
-    <desc lang="es">Cuando su malvado enemigo resurge después de 16 años, una banda de exrevolucionarios se reúne para rescatar a la hija de uno de los suyos.</desc>
+    <desc lang="es">Cuando su malvado némesis resurge después de 16 años, una banda de ex revolucionarios se reúne para rescatar a la hija de uno de los suyos. [TMDB]</desc>
   </programme>
   <programme start="20260504044500 +0000" stop="20260504065500 +0000" channel="HBOMundi.co">
-    <title lang="es">The Alto Knights: mafia y poder</title>
+    <title lang="es">The Alto Knights: Mafia y poder</title>
     <title lang="en">The Alto Knights</title>
-    <desc lang="es">La lucha entre Vito Genovese y Frank Costello, una pareja de italoamericanos que dirigen dos familias del crimen distintas a mediados del siglo XX.</desc>
+    <desc lang="es">Dos de los jefes del crimen organizado más conocidos de Nueva York, Frank Costello y Vito Genovese, compiten por el control de las calles de la ciudad. Aunque eran mejores amigos, los celos mezquinos y una serie de traiciones los colocan en una carrera mortal que cambiará la Mafia (y Estados Unidos) para siempre. [TMDB]</desc>
   </programme>
   <programme start="20260504065500 +0000" stop="20260504090000 +0000" channel="HBOMundi.co">
     <title lang="es">Animales nocturnos</title>
@@ -40135,7 +40113,7 @@ Disfruta de las mejores películas de HBO.</desc>
   </programme>
   <programme start="20260505020000 +0000" stop="20260505034000 +0000" channel="HBOMundi.co">
     <title lang="es">Oh, Hi!</title>
-    <desc lang="es">La primera escapada romántica de fin de semana de Iris e Isaac sale mal de la manera más inesperada.</desc>
+    <desc lang="es">La primera escapada romántica de fin de semana de Iris e Isaac se tuerce de la forma más inesperada. Cuando la relación se desmorona, la desesperada esperanza de Iris de que la reticencia de su novio a comprometerse sea simplemente confusión la lleva a tomar medidas cada vez más desquiciadas para consolidar la relación. [TMDB]</desc>
   </programme>
   <programme start="20260505034000 +0000" stop="20260505052000 +0000" channel="HBOMundi.co">
     <title lang="es">Un día de esos</title>
@@ -40192,7 +40170,7 @@ Disfruta de las mejores películas de HBO.</desc>
   <programme start="20260506002500 +0000" stop="20260506020000 +0000" channel="HBOMundi.co">
     <title lang="es">Honey, no</title>
     <title lang="en">Honey, Don't!</title>
-    <desc lang="es">Honey O'Donahue, una investigadora privada de un pueblo pequeño, se adentra en una serie de extrañas muertes vinculadas a una misteriosa iglesia.</desc>
+    <desc lang="es">Honey O'Donahue, una detective privada de un pequeño pueblo, investiga una serie de extrañas muertes relacionadas con una misteriosa iglesia. Segunda parte de la trilogía temática de Ethan Coen y Tricia Cooke, tras 'Dos chicas a la fuga'. [TMDB]</desc>
   </programme>
   <programme start="20260506020000 +0000" stop="20260506040600 +0000" channel="HBOMundi.co">
     <title lang="es">Roman J. Israel, Esq.</title>
@@ -40238,7 +40216,7 @@ Disfruta de las mejores películas de HBO.</desc>
   <programme start="20260506185600 +0000" stop="20260506204100 +0000" channel="HBOMundi.co">
     <title lang="es">No nos dejes caer esta noche</title>
     <title lang="en">Don't Let's Go to the Dogs Tonight</title>
-    <desc lang="es">En plena guerra de independencia en Zimbabue, Bobo, una niña de ocho años, crece absorbiendo las tensiones de ambos bandos.</desc>
+    <desc lang="es">El tumultuoso mundo de Bobo, una niña de 8 años cuya infancia transcurre en la granja familiar de Rodesia, ahora Zimbabue, mientras la guerra de los arbustos hace estragos. Con este violento telón de fondo, y a través de sus ojos, somos testigos del desesperado apego de la familia a la tierra africana y de las profundas cicatrices de una guerra que transforma la tierra y el alma. [TMDB]</desc>
   </programme>
   <programme start="20260506204100 +0000" stop="20260506225500 +0000" channel="HBOMundi.co">
     <title lang="es">Anónimo</title>
@@ -40252,9 +40230,9 @@ Disfruta de las mejores películas de HBO.</desc>
 A medida que el conflicto entre Édouard y Mark llega a su punto máximo, Adèle queda atrapada en el fuego cruzado y se ve obligada a huir.</desc>
   </programme>
   <programme start="20260506235600 +0000" stop="20260507020100 +0000" channel="HBOMundi.co">
-    <title lang="es">The Alto Knights: mafia y poder</title>
+    <title lang="es">The Alto Knights: Mafia y poder</title>
     <title lang="en">The Alto Knights</title>
-    <desc lang="es">La lucha entre Vito Genovese y Frank Costello, una pareja de italoamericanos que dirigen dos familias del crimen distintas a mediados del siglo XX.</desc>
+    <desc lang="es">Dos de los jefes del crimen organizado más conocidos de Nueva York, Frank Costello y Vito Genovese, compiten por el control de las calles de la ciudad. Aunque eran mejores amigos, los celos mezquinos y una serie de traiciones los colocan en una carrera mortal que cambiará la Mafia (y Estados Unidos) para siempre. [TMDB]</desc>
   </programme>
   <programme start="20260507020100 +0000" stop="20260507034100 +0000" channel="HBOMundi.co">
     <title lang="es">El asesino del juego de citas</title>
@@ -40289,7 +40267,7 @@ A medida que el conflicto entre Édouard y Mark llega a su punto máximo, Adèle
   <programme start="20260507123000 +0000" stop="20260507151500 +0000" channel="HBOMundi.co">
     <title lang="es">Una batalla tras otra</title>
     <title lang="en">One Battle After Another</title>
-    <desc lang="es">Cuando su malvado enemigo resurge después de 16 años, una banda de exrevolucionarios se reúne para rescatar a la hija de uno de los suyos.</desc>
+    <desc lang="es">Cuando su malvado némesis resurge después de 16 años, una banda de ex revolucionarios se reúne para rescatar a la hija de uno de los suyos. [TMDB]</desc>
   </programme>
   <programme start="20260507151500 +0000" stop="20260507164500 +0000" channel="HBOMundi.co">
     <title lang="es">La boda de mi ex</title>
@@ -40428,9 +40406,9 @@ A medida que el conflicto entre Édouard y Mark llega a su punto máximo, Adèle
     <desc lang="es">Caleb es un programador muy listo que ha sido seleccionado para participar en un proyecto secreto que involucra a Ava, una robot con avances de inteligencia artificial. Pero saber de su existencia puede ser peligroso.</desc>
   </programme>
   <programme start="20260505180100 +0000" stop="20260505193100 +0000" channel="HBOPlus(Panamericano).co">
-    <title lang="es">Harpía: acecho maligno</title>
+    <title lang="es">Harpía: Acecho maligno</title>
     <title lang="en">The Beldham</title>
-    <desc lang="es">Una madre primeriza lucha contra una presencia ancestral que acecha en el hogar familiar, amenazando su seguridad, su cordura y la vida de su hijo.</desc>
+    <desc lang="es">Cuando se quedó embarazada, Harper ya sabía que tener un hijo no iba a ser tarea fácil. Lo que no esperaba es, además, tener que lidiar con una presencia maligna que habita en la granja familiar desde hace generaciones. [TMDB]</desc>
   </programme>
   <programme start="20260505193100 +0000" stop="20260505214100 +0000" channel="HBOPlus(Panamericano).co">
     <title lang="es">El rey Arturo: la leyenda de la espada</title>
@@ -40525,9 +40503,9 @@ Una reflexión sobre la adolescencia a través de un grupo de estudiantes de ins
     <desc lang="es">Thomas Anderson lleva una vida cómoda como una eminencia dentro del mundo de los videojuegos, pero tiene problemas para discernir entre lo que es realidad y lo que no lo es. Thomas deberá decidir si sigue al conejo blanco una vez más.</desc>
   </programme>
   <programme start="20260507072600 +0000" stop="20260507090000 +0000" channel="HBOPlus(Panamericano).co">
-    <title lang="es">En el interior</title>
+    <title lang="es">Olivia en el interior</title>
     <title lang="en">Crawlspace</title>
-    <desc lang="es">Un hombre viudo se muda a su nuevo hogar, aparentemente perfecto, con su hija y su nueva mujer, pero nada resultará como esperaban.</desc>
+    <desc lang="es">Olivia es una adolescente introvertida y tímida que usa cuadernos y post-its para expresar lo que no puede hacer en su vida diaria. Vive en un hogar problemático y siente que no tiene amistades en quienes confiar; El estado emocional de Olivia se llevará al límite. [TMDB]</desc>
   </programme>
   <programme start="20260507090000 +0000" stop="20260507114500 +0000" channel="HBOPlus(Panamericano).co">
     <title lang="es">2012</title>
@@ -40541,7 +40519,7 @@ Una reflexión sobre la adolescencia a través de un grupo de estudiantes de ins
   <programme start="20260507133000 +0000" stop="20260507155500 +0000" channel="HBOPlus(Panamericano).co">
     <title lang="es">Pecadores</title>
     <title lang="en">Sinners</title>
-    <desc lang="es">Dos hermanos gemelos regresan a su pueblo natal para empezar de nuevo, solo para descubrir que un mal aún mayor les espera para darles la bienvenida.</desc>
+    <desc lang="es">Intentando dejar atrás sus vidas problemáticas, los hermanos gemelos regresan a su pueblo natal para empezar de nuevo, solo para descubrir que un mal aún mayor los espera para darles la bienvenida. [TMDB]</desc>
   </programme>
   <programme start="20260507155500 +0000" stop="20260507172000 +0000" channel="HBOPlus(Panamericano).co">
     <title lang="es">La aparición</title>
@@ -40574,7 +40552,7 @@ Una reflexión sobre la adolescencia a través de un grupo de estudiantes de ins
   <programme start="20260508030000 +0000" stop="20260508052500 +0000" channel="HBOPlus(Panamericano).co">
     <title lang="es">Pecadores</title>
     <title lang="en">Sinners</title>
-    <desc lang="es">Dos hermanos gemelos regresan a su pueblo natal para empezar de nuevo, solo para descubrir que un mal aún mayor les espera para darles la bienvenida.</desc>
+    <desc lang="es">Intentando dejar atrás sus vidas problemáticas, los hermanos gemelos regresan a su pueblo natal para empezar de nuevo, solo para descubrir que un mal aún mayor los espera para darles la bienvenida. [TMDB]</desc>
   </programme>
   <programme start="20260504010400 +0000" stop="20260504025900 +0000" channel="HBOPop.co">
     <title lang="es">Con derecho a roce</title>
@@ -40667,8 +40645,7 @@ Después de una larga y aclamada carrera en Broadway, el comediante Alex Edelman
   </programme>
   <programme start="20260505090100 +0000" stop="20260505101600 +0000" channel="HBOPop.co">
     <title lang="es">Marc Maron: ¡Pánico!</title>
-    <desc lang="es">Especial
-El comediante y podcaster Marc Maron ofrece su perspectiva incisiva sobre nuestro mundo cada vez más incierto.</desc>
+    <desc lang="es">El comediante y podcaster Marc Maron presenta su segundo especial para HBO, donde ofrece una mirada honesta y matizada sobre el mundo cada vez más incierto en el que vivimos. [TMDB]</desc>
   </programme>
   <programme start="20260505101600 +0000" stop="20260505115600 +0000" channel="HBOPop.co">
     <title lang="es">Nanny McPhee, la nana mágica</title>
@@ -40867,9 +40844,9 @@ El comediante John Oliver es el encargado de este espacio de humor que, durante 
 Especial de comedia de la comediante y actriz Yvonne Orji, quien celebra sus raíces nigerio-estadounidenses en HBO.</desc>
   </programme>
   <programme start="20260504074100 +0000" stop="20260504090000 +0000" channel="HBOSignature.co">
-    <title lang="es">El alma de América</title>
+    <title lang="es">El Alma de America</title>
     <title lang="en">The Soul of America</title>
-    <desc lang="es">El biográfo presidencial Jon Meacham examina el pasado de los Estados Unidos para ofrecer una visión de su situación política e histórica actual.</desc>
+    <desc lang="es">El escritor, periodista, historiador y biógrafo presidencial ganador del Premio Pulitzer John Meacham ofrece sus conocimientos oportunos e invaluables sobre el momento político e histórico actual del país al examinar su pasado. Basado en su bestseller de 2018 del mismo nombre. [TMDB]</desc>
   </programme>
   <programme start="20260504090000 +0000" stop="20260504104000 +0000" channel="HBOSignature.co">
     <title lang="es">En la carrera con Beto</title>
@@ -40912,10 +40889,9 @@ Drew Michael protagoniza su primer especial de HBO, que sigue al comediante mien
 En la fiesta de treinta y tantos de Miranda, Carrie, Samantha y la cumpleañera deciden empezar a tener sexo sin amor, como los hombres, pero Charlotte no se suma.</desc>
   </programme>
   <programme start="20260504214900 +0000" stop="20260504221900 +0000" channel="HBOSignature.co">
-    <title lang="es">Sexo en la ciudad</title>
+    <title lang="es">Sexo en la Ciudad</title>
     <title lang="en">Sex and the City</title>
-    <desc lang="es">S1 E2 Modelos y mortales
-Carrie experimenta con un modelo atractivo e investiga: ¿cuánto poder tiene la gente bonita?</desc>
+    <desc lang="es">Sigue la historia de cuatro mejores amigas, la columnista Carrie Bradshaw, la abogada Miranda Hobbes, la pija Charlotte York y la promiscua Samantha Jones, todas solteras y de unos treinta y tantos años, que persiguen sus carreras y hablan de sus vidas sexuales, todo ello mientras intentan sobrevivir en la escena social de Nueva York. [TMDB]</desc>
   </programme>
   <programme start="20260504221900 +0000" stop="20260504224800 +0000" channel="HBOSignature.co">
     <title lang="es">Sexo en la ciudad</title>
@@ -40942,16 +40918,14 @@ Luego de que Carrie se topa con una conocida, envidia su poder sexual. Las chica
 ¿Cuántos de nosotros tenemos sexo con personas que nos avergonzaría presentar a nuestros amigos? En su primera cita oficial con Mr. Big, Carrie se pregunta si él la llevó a ese restaurante en particular porque se avergüenza de ella.</desc>
   </programme>
   <programme start="20260505001900 +0000" stop="20260505004900 +0000" channel="HBOSignature.co">
-    <title lang="es">Sexo en la ciudad</title>
+    <title lang="es">Sexo en la Ciudad</title>
     <title lang="en">Sex and the City</title>
-    <desc lang="es">S1 E7 Los monógamos
-Carrie pasa todo su tiempo con Mr. Big. Cuando se entera de que él sale también con otras mujeres, no puede soportarlo.</desc>
+    <desc lang="es">Sigue la historia de cuatro mejores amigas, la columnista Carrie Bradshaw, la abogada Miranda Hobbes, la pija Charlotte York y la promiscua Samantha Jones, todas solteras y de unos treinta y tantos años, que persiguen sus carreras y hablan de sus vidas sexuales, todo ello mientras intentan sobrevivir en la escena social de Nueva York. [TMDB]</desc>
   </programme>
   <programme start="20260505004900 +0000" stop="20260505011900 +0000" channel="HBOSignature.co">
-    <title lang="es">Sexo en la ciudad</title>
+    <title lang="es">Sexo en la Ciudad</title>
     <title lang="en">Sex and the City</title>
-    <desc lang="es">S1 E8 Tres es multitud
-Carrie no solo se entera de que Mr. Big estuvo casado anteriormente, sino que él y su ex participaron en un trío.</desc>
+    <desc lang="es">Sigue la historia de cuatro mejores amigas, la columnista Carrie Bradshaw, la abogada Miranda Hobbes, la pija Charlotte York y la promiscua Samantha Jones, todas solteras y de unos treinta y tantos años, que persiguen sus carreras y hablan de sus vidas sexuales, todo ello mientras intentan sobrevivir en la escena social de Nueva York. [TMDB]</desc>
   </programme>
   <programme start="20260505011900 +0000" stop="20260505014800 +0000" channel="HBOSignature.co">
     <title lang="es">Sexo en la ciudad</title>
@@ -40980,7 +40954,7 @@ Mr. Big presenta a Carrie como una amiga ante su madre, lo que lleva a esta a pr
   <programme start="20260505031900 +0000" stop="20260505051400 +0000" channel="HBOSignature.co">
     <title lang="es">Mala educación</title>
     <title lang="en">Bad Education</title>
-    <desc lang="es">La historia de los mayores escándalos de malversación en la educación pública en la historia de los Estados Unidos.</desc>
+    <desc lang="es">Film sobre uno de los mayores escándalos de malversación en la educación pública en la historia de los Estados Unidos. Frank Tassone (Hugh Jackman) es uno de los gerentes más destacados del distrito escolar de Roslyn, que vive para asegurarse que la educación de los alumnos sea la mejor que estos puedan recibir. De forma paralela, se lucra personalmente con los fondos públicos para vivir una vida llena de lujos. [TMDB]</desc>
   </programme>
   <programme start="20260505051400 +0000" stop="20260505070600 +0000" channel="HBOSignature.co">
     <title lang="es">Hijo nativo</title>
@@ -41007,9 +40981,9 @@ Mr. Big presenta a Carrie como una amiga ante su madre, lo que lleva a esta a pr
     <desc lang="es">Una mirada al corredor de bolsa y consultor financiero Bernie Madoff en 2008, año en el que fue arrestado por perpetrar quizás el fraude financiero más grande en la historia de los Estados Unidos.</desc>
   </programme>
   <programme start="20260505144000 +0000" stop="20260505165200 +0000" channel="HBOSignature.co">
-    <title lang="es">Tony Hawk: hasta que las ruedas aguanten</title>
+    <title lang="es">Tony Hawk: Hasta Que Las Ruedas Aguanten</title>
     <title lang="en">Tony Hawk: Until the Wheels Fall Off</title>
-    <desc lang="es">Una mirada amplia y definitiva a la vida y la carrera icónica de Hawk, y su relación con el deporte del que ha sido sinónimo durante décadas.</desc>
+    <desc lang="es">La vida personal del famoso skater Tony Hawk, su carrera y su relación con el skateboarding, incluyendo imágenes nunca vistas y un acceso sin precedentes a Hawk, junto con entrevistas con figuras del mundo del skate. [TMDB]</desc>
   </programme>
   <programme start="20260505165200 +0000" stop="20260505185200 +0000" channel="HBOSignature.co">
     <title lang="es">Cambio de juego</title>
@@ -41023,8 +40997,7 @@ Yasmin y Whitney crean una estrategia para ayudar a Tender a conectarse con el n
   </programme>
   <programme start="20260505195200 +0000" stop="20260505205200 +0000" channel="HBOSignature.co">
     <title lang="es">Industry</title>
-    <desc lang="es">S4 E2 El Comandante y la Dama Gris
-Yasmin intenta revivir el impulso de Henry, mientras que el interés de Harper en Tender se despierta.</desc>
+    <desc lang="es">Un grupo de ambiciosos jóvenes recién graduados navegan por el ambiente tenso y competitivo de un importante banco de inversión de Londres. [TMDB]</desc>
   </programme>
   <programme start="20260505205200 +0000" stop="20260505215200 +0000" channel="HBOSignature.co">
     <title lang="es">Industry</title>
@@ -41105,8 +41078,7 @@ Martin Hart y Rustin Cohle proporcionan nuevos conocimientos sobre el asesinato 
   </programme>
   <programme start="20260506201200 +0000" stop="20260506211100 +0000" channel="HBOSignature.co">
     <title lang="es">True Detective</title>
-    <desc lang="es">S1 E2 Visiones
-Presionado por encontrar a un sospechoso en el asesinato de Dora Lange, Quesada piensa en cambiar la línea de investigación.</desc>
+    <desc lang="es">En Luisiana, en 1995, dos detectives investigan el atroz asesinato de una joven que fue sometida a un ritual pagano. En el año 2012, unos policías interrogan a estos dos detectives, dado que sospechan que el asesino de 1995 ha regresado [TMDB]</desc>
   </programme>
   <programme start="20260506211100 +0000" stop="20260506221100 +0000" channel="HBOSignature.co">
     <title lang="es">True Detective</title>
@@ -41174,8 +41146,7 @@ Narra las maquinaciones políticas que llevaron al controvertido resultado de la
   </programme>
   <programme start="20260507143500 +0000" stop="20260507162500 +0000" channel="HBOSignature.co">
     <title lang="es">El niño de mamá</title>
-    <desc lang="es">Documental
-La crianza del guionista ganador del Oscar, Dustin Lance Black y cómo la cercanía con su madre lo llevó al activismo y lo inspiró.</desc>
+    <desc lang="es">La educación del guionista ganador del Oscar Dustin Lance Black y cómo la estrecha relación con su madre le condujo hacia el activismo y lo inspiró. [TMDB]</desc>
   </programme>
   <programme start="20260507162500 +0000" stop="20260507172900 +0000" channel="HBOSignature.co">
     <title lang="es">Nikki Glasser: algún día morirás</title>
@@ -41208,9 +41179,8 @@ La solitaria multimillonaria Lady Trieu finalmente entra en escena con una miste
 El origen de Looking Glass es finalmente revelado, ya que es la verdad detrás de la mentira más grande en la historia de los Estados Unidos. El Hombre Más Listo Del Mundo planea un arriesgado escape.</desc>
   </programme>
   <programme start="20260507222200 +0000" stop="20260507233000 +0000" channel="HBOSignature.co">
-    <title lang="es">Watchmen</title>
-    <desc lang="es">S1 E6 Este ser extraordinario
-Bajo la profunda influencia de la nostalgia, Angela recibe un relato de primera mano del viaje de su abuelo.</desc>
+    <title lang="es">Watchmen, los vigilantes</title>
+    <desc lang="es">En 1985, donde existen antiguos superhéroes, el asesinato de un colega empuja al vigilante activo Rorschach a realizar su propia investigación, descubriendo algo que podría cambiar por completo el curso de la historia tal y como la conocemos. [TMDB]</desc>
   </programme>
   <programme start="20260507233000 +0000" stop="20260508003500 +0000" channel="HBOSignature.co">
     <title lang="es">Watchmen</title>
@@ -50346,10 +50316,9 @@ Cuando una joven toma a un hombre como rehén, Benson se arriesga a desactivar l
 Las sospechas de Benson sobre una víctima de secuestro los llevan a descubrir una peligrosa red de criminales preparados a silenciar a cualquiera que se les interponga en el camino.</desc>
   </programme>
   <programme start="20260504101500 +0000" stop="20260504110000 +0000" channel="UniversalTV.co">
-    <title lang="es">La ley y el orden: UVE</title>
+    <title lang="es">La Ley y el Orden: Unidad de Víctimas Especiales</title>
     <title lang="en">Law and Order: Special Victims Unit</title>
-    <desc lang="es">S20 E1 Hombre levantado
-Un adolescente se niega a nombrar a su atacante. Mientras tanto, Benson y Rollins revelan importantes cambios en la vida.</desc>
+    <desc lang="es">Serie surgida a la sombra de "Law &amp; Order". Una unidad especial de la policía de Nueva York se dedica a investigar delitos de carácter sexual: violaciones, pedofilia y malos tratos infantiles. [TMDB]</desc>
   </programme>
   <programme start="20260504110000 +0000" stop="20260504115000 +0000" channel="UniversalTV.co">
     <title lang="es">La ley y el orden: UVE</title>
@@ -50378,9 +50347,8 @@ Con la situación todavía tensa entre el jefe Boden y Bennie Severide, las cosa
 Se produce una tragedia cuando un intento de rescate en un edificio de departamentos sale mal, dejando a los hombres y mujeres del destacamento 51 afectados por la pérdida de la víctima.</desc>
   </programme>
   <programme start="20260504151000 +0000" stop="20260504160000 +0000" channel="UniversalTV.co">
-    <title lang="es">Chicago Fire</title>
-    <desc lang="es">S1 E20 Ambición
-Mills es objeto del resentimiento de sus colegas cuando Severide apoya su deseo de unirse a la brigada.</desc>
+    <title lang="es">Chicago en llamas</title>
+    <desc lang="es">Las decisiones de los bomberos, equipos de rescate y paramédicos de la estación de bomberos 51 hacen la diferencia entre la vida y la muerte. Pero eso no es lo único, también se crea una gran familia entre los miembros del equipo. Dirigidos por el jefe Wallace Boden, la Unidad 51 lo deja todo en cada rescate de esta noble profesión. [TMDB]</desc>
   </programme>
   <programme start="20260504160000 +0000" stop="20260504165000 +0000" channel="UniversalTV.co">
     <title lang="es">La ley y el orden: UVE</title>
@@ -50395,10 +50363,9 @@ Cuando una joven toma a un hombre como rehén, Benson se arriesga a desactivar l
 Las sospechas de Benson sobre una víctima de secuestro los llevan a descubrir una peligrosa red de criminales preparados a silenciar a cualquiera que se les interponga en el camino.</desc>
   </programme>
   <programme start="20260504174000 +0000" stop="20260504183000 +0000" channel="UniversalTV.co">
-    <title lang="es">La ley y el orden: UVE</title>
+    <title lang="es">La Ley y el Orden: Unidad de Víctimas Especiales</title>
     <title lang="en">Law and Order: Special Victims Unit</title>
-    <desc lang="es">S20 E1 Hombre levantado
-Un adolescente se niega a nombrar a su atacante. Mientras tanto, Benson y Rollins revelan importantes cambios en la vida.</desc>
+    <desc lang="es">Serie surgida a la sombra de "Law &amp; Order". Una unidad especial de la policía de Nueva York se dedica a investigar delitos de carácter sexual: violaciones, pedofilia y malos tratos infantiles. [TMDB]</desc>
   </programme>
   <programme start="20260504183000 +0000" stop="20260504192000 +0000" channel="UniversalTV.co">
     <title lang="es">Policías de Chicago</title>
@@ -50429,9 +50396,8 @@ Con la situación todavía tensa entre el jefe Boden y Bennie Severide, las cosa
 Se produce una tragedia cuando un intento de rescate en un edificio de departamentos sale mal, dejando a los hombres y mujeres del destacamento 51 afectados por la pérdida de la víctima.</desc>
   </programme>
   <programme start="20260504224000 +0000" stop="20260504233000 +0000" channel="UniversalTV.co">
-    <title lang="es">Chicago Fire</title>
-    <desc lang="es">S1 E20 Ambición
-Mills es objeto del resentimiento de sus colegas cuando Severide apoya su deseo de unirse a la brigada.</desc>
+    <title lang="es">Chicago en llamas</title>
+    <desc lang="es">Las decisiones de los bomberos, equipos de rescate y paramédicos de la estación de bomberos 51 hacen la diferencia entre la vida y la muerte. Pero eso no es lo único, también se crea una gran familia entre los miembros del equipo. Dirigidos por el jefe Wallace Boden, la Unidad 51 lo deja todo en cada rescate de esta noble profesión. [TMDB]</desc>
   </programme>
   <programme start="20260504233000 +0000" stop="20260505002000 +0000" channel="UniversalTV.co">
     <title lang="es">La ley y el orden: UVE</title>
@@ -50484,9 +50450,8 @@ Con la situación todavía tensa entre el jefe Boden y Bennie Severide, las cosa
 Se produce una tragedia cuando un intento de rescate en un edificio de departamentos sale mal, dejando a los hombres y mujeres del destacamento 51 afectados por la pérdida de la víctima.</desc>
   </programme>
   <programme start="20260505070000 +0000" stop="20260505075000 +0000" channel="UniversalTV.co">
-    <title lang="es">Chicago Fire</title>
-    <desc lang="es">S1 E20 Ambición
-Mills es objeto del resentimiento de sus colegas cuando Severide apoya su deseo de unirse a la brigada.</desc>
+    <title lang="es">Chicago en llamas</title>
+    <desc lang="es">Las decisiones de los bomberos, equipos de rescate y paramédicos de la estación de bomberos 51 hacen la diferencia entre la vida y la muerte. Pero eso no es lo único, también se crea una gran familia entre los miembros del equipo. Dirigidos por el jefe Wallace Boden, la Unidad 51 lo deja todo en cada rescate de esta noble profesión. [TMDB]</desc>
   </programme>
   <programme start="20260505075000 +0000" stop="20260505084000 +0000" channel="UniversalTV.co">
     <title lang="es">Policías de Chicago</title>
@@ -50505,10 +50470,9 @@ Las preocupaciones financieras de la junta causan tensión entre la Jefa Goodwin
 El Dr. Charles se entera de un hecho preocupante sobre el hombre que le disparó. Mientras tanto, el Dr. Rhodes y el Dr. Bekker llegan a un acuerdo durante una cirugía complicada.</desc>
   </programme>
   <programme start="20260505101500 +0000" stop="20260505110000 +0000" channel="UniversalTV.co">
-    <title lang="es">La ley y el orden: UVE</title>
+    <title lang="es">La Ley y el Orden: Unidad de Víctimas Especiales</title>
     <title lang="en">Law and Order: Special Victims Unit</title>
-    <desc lang="es">S13 E12 La historia oficial
-El equipo investiga un caso de violación que involucra a un contratista de defensa.</desc>
+    <desc lang="es">Serie surgida a la sombra de "Law &amp; Order". Una unidad especial de la policía de Nueva York se dedica a investigar delitos de carácter sexual: violaciones, pedofilia y malos tratos infantiles. [TMDB]</desc>
   </programme>
   <programme start="20260505110000 +0000" stop="20260505115000 +0000" channel="UniversalTV.co">
     <title lang="es">La ley y el orden: UVE</title>
@@ -50527,14 +50491,12 @@ El doctor Choi y Goodwin discuten sobre ética médica cuando un paciente se nie
 Ethan intenta diagnosticar a un hombre sin síntomas, mientras que la paranoia de Sarah llega al extremo cuando usa spray de pimienta en un paciente agresivo.</desc>
   </programme>
   <programme start="20260505133000 +0000" stop="20260505142000 +0000" channel="UniversalTV.co">
-    <title lang="es">Chicago Fire</title>
-    <desc lang="es">S1 E21 Represalias
-Regresa el detective Voight buscando que Dawson le devuelva el favor de haber ayudado a su hermano Antonio.</desc>
+    <title lang="es">Chicago en llamas</title>
+    <desc lang="es">Las decisiones de los bomberos, equipos de rescate y paramédicos de la estación de bomberos 51 hacen la diferencia entre la vida y la muerte. Pero eso no es lo único, también se crea una gran familia entre los miembros del equipo. Dirigidos por el jefe Wallace Boden, la Unidad 51 lo deja todo en cada rescate de esta noble profesión. [TMDB]</desc>
   </programme>
   <programme start="20260505142000 +0000" stop="20260505151000 +0000" channel="UniversalTV.co">
-    <title lang="es">Chicago Fire</title>
-    <desc lang="es">S1 E22 Los líderes lideran
-Severide, frustrado, recurre a un aliado inusitado para resolver su dilema actual.</desc>
+    <title lang="es">Chicago en llamas</title>
+    <desc lang="es">Las decisiones de los bomberos, equipos de rescate y paramédicos de la estación de bomberos 51 hacen la diferencia entre la vida y la muerte. Pero eso no es lo único, también se crea una gran familia entre los miembros del equipo. Dirigidos por el jefe Wallace Boden, la Unidad 51 lo deja todo en cada rescate de esta noble profesión. [TMDB]</desc>
   </programme>
   <programme start="20260505151000 +0000" stop="20260505160000 +0000" channel="UniversalTV.co">
     <title lang="es">Chicago Fire</title>
@@ -50578,14 +50540,12 @@ El equipo investiga una operación de esquema piramidal que puede estar relacion
 Cuando el equipo encuentra el cadáver de una madre viuda en el baúl de su auto, quedan impactados al descubrir que la víctima había estado en contacto constante con Justin, el hijo ahora reformado de Voight.</desc>
   </programme>
   <programme start="20260505210000 +0000" stop="20260505215000 +0000" channel="UniversalTV.co">
-    <title lang="es">Chicago Fire</title>
-    <desc lang="es">S1 E21 Represalias
-Regresa el detective Voight buscando que Dawson le devuelva el favor de haber ayudado a su hermano Antonio.</desc>
+    <title lang="es">Chicago en llamas</title>
+    <desc lang="es">Las decisiones de los bomberos, equipos de rescate y paramédicos de la estación de bomberos 51 hacen la diferencia entre la vida y la muerte. Pero eso no es lo único, también se crea una gran familia entre los miembros del equipo. Dirigidos por el jefe Wallace Boden, la Unidad 51 lo deja todo en cada rescate de esta noble profesión. [TMDB]</desc>
   </programme>
   <programme start="20260505215000 +0000" stop="20260505224000 +0000" channel="UniversalTV.co">
-    <title lang="es">Chicago Fire</title>
-    <desc lang="es">S1 E22 Los líderes lideran
-Severide, frustrado, recurre a un aliado inusitado para resolver su dilema actual.</desc>
+    <title lang="es">Chicago en llamas</title>
+    <desc lang="es">Las decisiones de los bomberos, equipos de rescate y paramédicos de la estación de bomberos 51 hacen la diferencia entre la vida y la muerte. Pero eso no es lo único, también se crea una gran familia entre los miembros del equipo. Dirigidos por el jefe Wallace Boden, la Unidad 51 lo deja todo en cada rescate de esta noble profesión. [TMDB]</desc>
   </programme>
   <programme start="20260505224000 +0000" stop="20260505233000 +0000" channel="UniversalTV.co">
     <title lang="es">Chicago Fire</title>
@@ -50605,10 +50565,9 @@ Una miembro de un grupo de empoderamiento de mujeres es encontrada asesinada, ll
 El equipo debe develar el misterio de una joven con doble personalidad y víctima de un ataque sexual. Pero cuando desaparece luego de ser atacada, el equipo no solo debe descubrir su identidad sino también su paradero.</desc>
   </programme>
   <programme start="20260506011000 +0000" stop="20260506020000 +0000" channel="UniversalTV.co">
-    <title lang="es">La ley y el orden: UVE</title>
+    <title lang="es">La Ley y el Orden: Unidad de Víctimas Especiales</title>
     <title lang="en">Law and Order: Special Victims Unit</title>
-    <desc lang="es">S20 E7 Cuidador
-La policía lucha contra un crimen inconcebible cuando matan a una familia mientras duerme.</desc>
+    <desc lang="es">Serie surgida a la sombra de "Law &amp; Order". Una unidad especial de la policía de Nueva York se dedica a investigar delitos de carácter sexual: violaciones, pedofilia y malos tratos infantiles. [TMDB]</desc>
   </programme>
   <programme start="20260506020000 +0000" stop="20260506025000 +0000" channel="UniversalTV.co">
     <title lang="es">La ley y el orden: UVE</title>
@@ -50635,14 +50594,12 @@ El hallazgo de los restos de una joven conduce a los detectives al tóxico entor
 Cuando entra un llamado sobre una mujer que acuchilló a un hombre y huyó, Burgess y Lindsay salen a investigar y encuentran a una joven con el arma en la mano.</desc>
   </programme>
   <programme start="20260506052000 +0000" stop="20260506061000 +0000" channel="UniversalTV.co">
-    <title lang="es">Chicago Fire</title>
-    <desc lang="es">S1 E21 Represalias
-Regresa el detective Voight buscando que Dawson le devuelva el favor de haber ayudado a su hermano Antonio.</desc>
+    <title lang="es">Chicago en llamas</title>
+    <desc lang="es">Las decisiones de los bomberos, equipos de rescate y paramédicos de la estación de bomberos 51 hacen la diferencia entre la vida y la muerte. Pero eso no es lo único, también se crea una gran familia entre los miembros del equipo. Dirigidos por el jefe Wallace Boden, la Unidad 51 lo deja todo en cada rescate de esta noble profesión. [TMDB]</desc>
   </programme>
   <programme start="20260506061000 +0000" stop="20260506070000 +0000" channel="UniversalTV.co">
-    <title lang="es">Chicago Fire</title>
-    <desc lang="es">S1 E22 Los líderes lideran
-Severide, frustrado, recurre a un aliado inusitado para resolver su dilema actual.</desc>
+    <title lang="es">Chicago en llamas</title>
+    <desc lang="es">Las decisiones de los bomberos, equipos de rescate y paramédicos de la estación de bomberos 51 hacen la diferencia entre la vida y la muerte. Pero eso no es lo único, también se crea una gran familia entre los miembros del equipo. Dirigidos por el jefe Wallace Boden, la Unidad 51 lo deja todo en cada rescate de esta noble profesión. [TMDB]</desc>
   </programme>
   <programme start="20260506070000 +0000" stop="20260506075000 +0000" channel="UniversalTV.co">
     <title lang="es">Chicago Fire</title>
@@ -50666,21 +50623,18 @@ El doctor Choi y Goodwin discuten sobre ética médica cuando un paciente se nie
 Ethan intenta diagnosticar a un hombre sin síntomas, mientras que la paranoia de Sarah llega al extremo cuando usa spray de pimienta en un paciente agresivo.</desc>
   </programme>
   <programme start="20260506101500 +0000" stop="20260506110000 +0000" channel="UniversalTV.co">
-    <title lang="es">La ley y el orden: UVE</title>
+    <title lang="es">La Ley y el Orden: Unidad de Víctimas Especiales</title>
     <title lang="en">Law and Order: Special Victims Unit</title>
-    <desc lang="es">S13 E14 Invasión doméstica
-Un hombre armado irrumpe en una casa de familia y mata a los padres, dejando a la hija adolescente en estado crítico.</desc>
+    <desc lang="es">Serie surgida a la sombra de "Law &amp; Order". Una unidad especial de la policía de Nueva York se dedica a investigar delitos de carácter sexual: violaciones, pedofilia y malos tratos infantiles. [TMDB]</desc>
   </programme>
   <programme start="20260506110000 +0000" stop="20260506115500 +0000" channel="UniversalTV.co">
-    <title lang="es">La ley y el orden: UVE</title>
+    <title lang="es">La Ley y el Orden: Unidad de Víctimas Especiales</title>
     <title lang="en">Law and Order: Special Victims Unit</title>
-    <desc lang="es">S13 E15 Coto de caza
-El crimen interfiere en el viaje romántico de Benson y Haden y los lleva a cuestionarse su relación.</desc>
+    <desc lang="es">Serie surgida a la sombra de "Law &amp; Order". Una unidad especial de la policía de Nueva York se dedica a investigar delitos de carácter sexual: violaciones, pedofilia y malos tratos infantiles. [TMDB]</desc>
   </programme>
   <programme start="20260506115500 +0000" stop="20260506125000 +0000" channel="UniversalTV.co">
     <title lang="es">Chicago Med</title>
-    <desc lang="es">S3 E7 Sobre aguas turbulentas
-El doctor Charles es criticado por sus colegas por su decisión médica respecto de un recién nacido que está enfermo.</desc>
+    <desc lang="es">Muestra el caótico día a día del hospital más colapsado de Chicago, y el duro trabajo que realiza su entregado equipo de médicos y enfermeras para que el sistema siga funcionando. Al mismo tiempo que afrontan sus problemas personales, estos médicos tendrán que resolver casos de extraordinaria gravedad. [TMDB]</desc>
   </programme>
   <programme start="20260506125000 +0000" stop="20260506134000 +0000" channel="UniversalTV.co">
     <title lang="es">Chicago Med</title>
@@ -50688,9 +50642,8 @@ El doctor Charles es criticado por sus colegas por su decisión médica respecto
 Dr. Choi lucha por ayudar a una mujer a lidiar con la anorexia. Mientras tanto, luego de una suspensión de dos semanas, el Dr. Charles pone inmediatamente a prueba a la Dra. Reese a su regreso.</desc>
   </programme>
   <programme start="20260506134000 +0000" stop="20260506143000 +0000" channel="UniversalTV.co">
-    <title lang="es">Chicago Fire</title>
-    <desc lang="es">S1 E24 Viaje infernal
-Se producen grandes tensiones cuando la brigada responde a un llamado de la penitenciaría del condado de Cook.</desc>
+    <title lang="es">Chicago en llamas</title>
+    <desc lang="es">Las decisiones de los bomberos, equipos de rescate y paramédicos de la estación de bomberos 51 hacen la diferencia entre la vida y la muerte. Pero eso no es lo único, también se crea una gran familia entre los miembros del equipo. Dirigidos por el jefe Wallace Boden, la Unidad 51 lo deja todo en cada rescate de esta noble profesión. [TMDB]</desc>
   </programme>
   <programme start="20260506143000 +0000" stop="20260506152000 +0000" channel="UniversalTV.co">
     <title lang="es">Chicago Fire</title>
@@ -50715,10 +50668,9 @@ Una miembro de un grupo de empoderamiento de mujeres es encontrada asesinada, ll
 El equipo debe develar el misterio de una joven con doble personalidad y víctima de un ataque sexual. Pero cuando desaparece luego de ser atacada, el equipo no solo debe descubrir su identidad sino también su paradero.</desc>
   </programme>
   <programme start="20260506175000 +0000" stop="20260506184000 +0000" channel="UniversalTV.co">
-    <title lang="es">La ley y el orden: UVE</title>
+    <title lang="es">La Ley y el Orden: Unidad de Víctimas Especiales</title>
     <title lang="en">Law and Order: Special Victims Unit</title>
-    <desc lang="es">S20 E7 Cuidador
-La policía lucha contra un crimen inconcebible cuando matan a una familia mientras duerme.</desc>
+    <desc lang="es">Serie surgida a la sombra de "Law &amp; Order". Una unidad especial de la policía de Nueva York se dedica a investigar delitos de carácter sexual: violaciones, pedofilia y malos tratos infantiles. [TMDB]</desc>
   </programme>
   <programme start="20260506184000 +0000" stop="20260506193000 +0000" channel="UniversalTV.co">
     <title lang="es">Policías de Chicago</title>
@@ -50739,9 +50691,8 @@ Llaman reportando un auto desvalijado. Burgess y Tay responden y descubren a un 
 Cuando Platt va a cenar a la casa de su padre, Robert, le advierte que tenga cuidado con su nueva novia, Natalie. Después de la cena, Platt es atacada físicamente cuando está entrando al auto.</desc>
   </programme>
   <programme start="20260506211000 +0000" stop="20260506220000 +0000" channel="UniversalTV.co">
-    <title lang="es">Chicago Fire</title>
-    <desc lang="es">S1 E24 Viaje infernal
-Se producen grandes tensiones cuando la brigada responde a un llamado de la penitenciaría del condado de Cook.</desc>
+    <title lang="es">Chicago en llamas</title>
+    <desc lang="es">Las decisiones de los bomberos, equipos de rescate y paramédicos de la estación de bomberos 51 hacen la diferencia entre la vida y la muerte. Pero eso no es lo único, también se crea una gran familia entre los miembros del equipo. Dirigidos por el jefe Wallace Boden, la Unidad 51 lo deja todo en cada rescate de esta noble profesión. [TMDB]</desc>
   </programme>
   <programme start="20260506220000 +0000" stop="20260506225000 +0000" channel="UniversalTV.co">
     <title lang="es">Chicago Fire</title>
@@ -50760,10 +50711,9 @@ Tras el incidente de Heather, el teniente Casey está teniendo dificultades para
 Una camarera de un restaurante de moda de Nueva York es atacada sexualmente en una fiesta VIP después de la hora de cierre.</desc>
   </programme>
   <programme start="20260507003000 +0000" stop="20260507012000 +0000" channel="UniversalTV.co">
-    <title lang="es">La ley y el orden: UVE</title>
+    <title lang="es">La Ley y el Orden: Unidad de Víctimas Especiales</title>
     <title lang="en">Law and Order: Special Victims Unit</title>
-    <desc lang="es">S20 E9 Mea culpa
-Sintiéndose inseguro y culpable, Stone le pide ayuda a Benson para investigar un posible caso de acoso en su pasado.</desc>
+    <desc lang="es">Serie surgida a la sombra de "Law &amp; Order". Una unidad especial de la policía de Nueva York se dedica a investigar delitos de carácter sexual: violaciones, pedofilia y malos tratos infantiles. [TMDB]</desc>
   </programme>
   <programme start="20260507012000 +0000" stop="20260507021000 +0000" channel="UniversalTV.co">
     <title lang="es">La ley y el orden: UVE</title>
@@ -50779,8 +50729,7 @@ Hay vidas en juego mientras detectives y fiscales buscan justicia en la ciudad d
   </programme>
   <programme start="20260507030000 +0000" stop="20260507035000 +0000" channel="UniversalTV.co">
     <title lang="es">The Hunting Party</title>
-    <desc lang="es">S1 E6 Arlo Brandt
-Arlo Brandt, un acaparador convertido en asesino serial, emerge del Pozo con intenciones nuevas.</desc>
+    <desc lang="es">Un pequeño equipo de investigadores se reúnen para localizar y capturar a los asesinos más peligrosos, todos los cuales acaban de escapar de una prisión secreta que se supone que no existe. [TMDB]</desc>
   </programme>
   <programme start="20260507035000 +0000" stop="20260507044000 +0000" channel="UniversalTV.co">
     <title lang="es">Policías de Chicago</title>
@@ -50795,9 +50744,8 @@ Al responder a un llamado sobre un bolso sospechoso en el paseo de la costa lacu
 Luego que un hombre encapuchado dispara sobre su patrullero, Roman queda herido y Burgess sale a perseguir al tirador, perdiéndolo de vista por un momento y disparándole cuando lo vuelve a ver.</desc>
   </programme>
   <programme start="20260507053000 +0000" stop="20260507062000 +0000" channel="UniversalTV.co">
-    <title lang="es">Chicago Fire</title>
-    <desc lang="es">S1 E24 Viaje infernal
-Se producen grandes tensiones cuando la brigada responde a un llamado de la penitenciaría del condado de Cook.</desc>
+    <title lang="es">Chicago en llamas</title>
+    <desc lang="es">Las decisiones de los bomberos, equipos de rescate y paramédicos de la estación de bomberos 51 hacen la diferencia entre la vida y la muerte. Pero eso no es lo único, también se crea una gran familia entre los miembros del equipo. Dirigidos por el jefe Wallace Boden, la Unidad 51 lo deja todo en cada rescate de esta noble profesión. [TMDB]</desc>
   </programme>
   <programme start="20260507062000 +0000" stop="20260507071000 +0000" channel="UniversalTV.co">
     <title lang="es">Chicago Fire</title>
@@ -50817,8 +50765,7 @@ Cuando un auto se abre paso entre una multitud de asistentes a un concierto y se
   </programme>
   <programme start="20260507084500 +0000" stop="20260507093000 +0000" channel="UniversalTV.co">
     <title lang="es">Chicago Med</title>
-    <desc lang="es">S3 E7 Sobre aguas turbulentas
-El doctor Charles es criticado por sus colegas por su decisión médica respecto de un recién nacido que está enfermo.</desc>
+    <desc lang="es">Muestra el caótico día a día del hospital más colapsado de Chicago, y el duro trabajo que realiza su entregado equipo de médicos y enfermeras para que el sistema siga funcionando. Al mismo tiempo que afrontan sus problemas personales, estos médicos tendrán que resolver casos de extraordinaria gravedad. [TMDB]</desc>
   </programme>
   <programme start="20260507093000 +0000" stop="20260507101500 +0000" channel="UniversalTV.co">
     <title lang="es">Chicago Med</title>
@@ -50868,10 +50815,9 @@ El teniente Severide está ansioso por implicar al pirómano en serie, mientras 
 Una camarera de un restaurante de moda de Nueva York es atacada sexualmente en una fiesta VIP después de la hora de cierre.</desc>
   </programme>
   <programme start="20260507170000 +0000" stop="20260507175000 +0000" channel="UniversalTV.co">
-    <title lang="es">La ley y el orden: UVE</title>
+    <title lang="es">La Ley y el Orden: Unidad de Víctimas Especiales</title>
     <title lang="en">Law and Order: Special Victims Unit</title>
-    <desc lang="es">S20 E9 Mea culpa
-Sintiéndose inseguro y culpable, Stone le pide ayuda a Benson para investigar un posible caso de acoso en su pasado.</desc>
+    <desc lang="es">Serie surgida a la sombra de "Law &amp; Order". Una unidad especial de la policía de Nueva York se dedica a investigar delitos de carácter sexual: violaciones, pedofilia y malos tratos infantiles. [TMDB]</desc>
   </programme>
   <programme start="20260507175000 +0000" stop="20260507184000 +0000" channel="UniversalTV.co">
     <title lang="es">La ley y el orden: UVE</title>
@@ -50918,16 +50864,14 @@ El teniente Severide está ansioso por implicar al pirómano en serie, mientras 
 La Unidad de Víctimas Especiales es convocada para investigar el caso de una joven que fue drogada y asaltada sexualmente. Esta afirma que fue abordada por un famoso cirujano famoso y su novia.</desc>
   </programme>
   <programme start="20260508003000 +0000" stop="20260508012000 +0000" channel="UniversalTV.co">
-    <title lang="es">La ley y el orden: UVE</title>
+    <title lang="es">La Ley y el Orden: Unidad de Víctimas Especiales</title>
     <title lang="en">Law and Order: Special Victims Unit</title>
-    <desc lang="es">S20 E12 Querido Ben
-Stone se ocupa de un antiguo caso no resuelto de un violador serial que consumió la carrera de su padre.</desc>
+    <desc lang="es">Serie surgida a la sombra de "Law &amp; Order". Una unidad especial de la policía de Nueva York se dedica a investigar delitos de carácter sexual: violaciones, pedofilia y malos tratos infantiles. [TMDB]</desc>
   </programme>
   <programme start="20260508012000 +0000" stop="20260508021000 +0000" channel="UniversalTV.co">
-    <title lang="es">La ley y el orden: UVE</title>
+    <title lang="es">La Ley y el Orden: Unidad de Víctimas Especiales</title>
     <title lang="en">Law and Order: Special Victims Unit</title>
-    <desc lang="es">S20 E13 Una historia de más infortunio
-Benson trata de ayudar a dos hermanas adolescentes cuyo padre ha sido asesinado.</desc>
+    <desc lang="es">Serie surgida a la sombra de "Law &amp; Order". Una unidad especial de la policía de Nueva York se dedica a investigar delitos de carácter sexual: violaciones, pedofilia y malos tratos infantiles. [TMDB]</desc>
   </programme>
   <programme start="20260508021000 +0000" stop="20260508030000 +0000" channel="UniversalTV.co">
     <title lang="es">La ley y el orden</title>
@@ -58263,8 +58207,8 @@ Disfruta las emociones de esta competencia del PGA Tour que se celebra a princip
     <title lang="es">Kitty Likes To Dance</title>
   </programme>
   <programme start="20260505063000 +0000" stop="20260505073000 +0000" channel="HBO.ec">
-    <title lang="es">Half Man</title>
-  </programme>
+    <title lang="es">Hombre a medias</title>
+  <desc>Cuando Ruben, el "hermano" de Niall con quien no tiene relación, aparece en su boda, se desata una explosión de violencia que transporta de nuevo a través de sus vidas. [TMDB]</desc></programme>
   <programme start="20260505073000 +0000" stop="20260505090000 +0000" channel="HBO.ec">
     <title lang="es">Hell of a Summer</title>
   </programme>
@@ -58359,8 +58303,8 @@ Disfruta las emociones de esta competencia del PGA Tour que se celebra a princip
     <title lang="es">Barbie</title>
   <desc>Una muñeca que vive en 'Barbieland' es expulsada al mundo real por no ser lo suficientemente perfecta. Basada en la popular muñeca Barbie. [TMDB]</desc></programme>
   <programme start="20260507165000 +0000" stop="20260507175000 +0000" channel="HBO.ec">
-    <title lang="es">Half Man</title>
-  </programme>
+    <title lang="es">Hombre a medias</title>
+  <desc>Cuando Ruben, el "hermano" de Niall con quien no tiene relación, aparece en su boda, se desata una explosión de violencia que transporta de nuevo a través de sus vidas. [TMDB]</desc></programme>
   <programme start="20260507175000 +0000" stop="20260507201500 +0000" channel="HBO.ec">
     <title lang="es">Rápidos y furiosos 8</title>
   <desc>Con Dom y Letty de luna de miel, Brian y Mia fuera del juego y el resto de la pandilla exonerada de todo cargo, el equipo está instalado en una vida aparentemente normal. Pero cuando una misteriosa mujer (Theron) seduce a Dom (Diesel) para regresar nuevamente al mundo del crimen, se ve incapaz de rechazar la oportunidad, traicionando así a todo el mundo cercano a él. [TMDB]</desc></programme>
@@ -65344,9 +65288,9 @@ Vive las emociones de los partidos de la 67º edición de la CONMEBOL Libertador
     <desc lang="es">Una joven de clase apuesta que le dará un beso a un chico humilde. Lo que comienza como un juego termina en un romance ensombrecido por la diferencia de clases. Lucharán para conservar su amor, pero el precio a pagar será alto.</desc>
   </programme>
   <programme start="20260504224100 +0000" stop="20260505002900 +0000" channel="Golden.mx">
-    <title lang="es">Mis huellas a casa</title>
+    <title lang="es">Mis Huellas a Casa</title>
     <title lang="en">A Dog's Way Home</title>
-    <desc lang="es">Una perra viaja cuatrocientas millas en busca de su dueño a través de un desierto de Colorado. Hay lazos que la distancia no puede romper.</desc>
+    <desc lang="es">Mis Huellas a Casa narra las tiernas aventuras de Bella, una cachorrita que se embarca en una aventura para regresar a casa después de ser separada de su amado humano. [TMDB]</desc>
   </programme>
   <programme start="20260505002900 +0000" stop="20260505023000 +0000" channel="Golden.mx">
     <title lang="es">Extraordinario</title>
@@ -65388,9 +65332,9 @@ Vive las emociones de los partidos de la 67º edición de la CONMEBOL Libertador
     <desc lang="es">La historia inspiradora y conmovedora de August Pullman. Nacido con diferencias faciales que, hasta ahora, le han impedido ir a una escuela convencional, Auggie se convierte en el héroe más improbable cuando ingresa al quinto grado local.</desc>
   </programme>
   <programme start="20260505171700 +0000" stop="20260505190500 +0000" channel="Golden.mx">
-    <title lang="es">Mis huellas a casa</title>
+    <title lang="es">Mis Huellas a Casa</title>
     <title lang="en">A Dog's Way Home</title>
-    <desc lang="es">Una perra viaja cuatrocientas millas en busca de su dueño a través de un desierto de Colorado. Hay lazos que la distancia no puede romper.</desc>
+    <desc lang="es">Mis Huellas a Casa narra las tiernas aventuras de Bella, una cachorrita que se embarca en una aventura para regresar a casa después de ser separada de su amado humano. [TMDB]</desc>
   </programme>
   <programme start="20260505190500 +0000" stop="20260505204200 +0000" channel="Golden.mx">
     <title lang="es">Los Picapiedra</title>
@@ -65488,7 +65432,7 @@ Vive las emociones de los partidos de la 67º edición de la CONMEBOL Libertador
   <programme start="20260507110600 +0000" stop="20260507131900 +0000" channel="Golden.mx">
     <title lang="es">Resistencia</title>
     <title lang="en">Resistance</title>
-    <desc lang="es">Marcel Marceau, el mimo más conocido y admirado, fue un héroe secreto que salvó las vidas de muchos niños judíos durante la Segunda Guerra Mundial.</desc>
+    <desc lang="es">En medio de una futura guerra entre la raza humana y las fuerzas de la inteligencia artificial, Joshua, un curtido ex agente de las fuerzas especiales que sufre por la desaparición de su esposa, es reclutado para cazar y matar al Creador, el arquitecto de IA avanzada que ha desarrollado un arma misteriosa con el poder de poner fin a la guerra, e incluso a toda la humanidad. Joshua y su equipo de agentes de élite viajan a través de las líneas enemigas hasta el corazón oscuro del territorio ocupado por la IA. Una vez allí, descubren que el arma que acabará con el mundo y que les han ordenado destruir es una IA que ha adoptado la forma de una niña pequeña. [TMDB]</desc>
   </programme>
   <programme start="20260507131900 +0000" stop="20260507155400 +0000" channel="Golden.mx">
     <title lang="es">Forrest Gump</title>
@@ -65532,7 +65476,7 @@ Vive las emociones de los partidos de la 67º edición de la CONMEBOL Libertador
   <programme start="20260504024300 +0000" stop="20260504042400 +0000" channel="GoldenEdge.mx">
     <title lang="es">El despertar de un asesino</title>
     <title lang="en">Wake Up</title>
-    <desc lang="es">Un hombre despierta en una cama de hospital sin memoria de quién es, y descubre que la policía lo busca por asesinato.</desc>
+    <desc lang="es">Un hombre se despierta en el hospital sin recordar quién es y descubre que la policía le busca por cometer una serie de asesinatos. [TMDB]</desc>
   </programme>
   <programme start="20260504042400 +0000" stop="20260504065800 +0000" channel="GoldenEdge.mx">
     <title lang="es">Noé</title>
@@ -65592,7 +65536,7 @@ Vive las emociones de los partidos de la 67º edición de la CONMEBOL Libertador
   <programme start="20260505030000 +0000" stop="20260505043300 +0000" channel="GoldenEdge.mx">
     <title lang="es">Imágenes del más allá</title>
     <title lang="en">Shutter</title>
-    <desc lang="es">Una pareja de recién casados descubre imágenes fantasmagóricas, perturbadoras en las fotografías que ellos revelan después de un trágico accidente.</desc>
+    <desc lang="es">Cabía suponer que para el fotógrafo Ben y su reciente esposa Jane, el nuevo encargo que aquél recibe -una lucrativa sesión fotográfica de modas en Tokio- sería una mezcla de luna de miel y trabajo. Cargados con tan exótica oportunidad profesional y las ilimitadas posibilidades de un nuevo matrimonio, Ben y Jane llegan al Japón. Pero mientras circulan por una carretera de montaña que conduce al Monte Fuji, su automóvil arrolla a una joven que estaba en medio de la carretera y que se había materializado de no se sabe dónde. Al recuperar la consciencia después del accidente, Ben y Jane son incapaces de hallar rastro alguno de la muchacha que Jane cree haber golpeado con el coche... [TMDB]</desc>
   </programme>
   <programme start="20260505043300 +0000" stop="20260505062300 +0000" channel="GoldenEdge.mx">
     <title lang="es">Usuario - Cicada 3301</title>
@@ -65649,9 +65593,9 @@ Vive las emociones de los partidos de la 67º edición de la CONMEBOL Libertador
     <desc lang="es">Una joven tiene una visión sobre un accidente en la autopista. Después, se encuentra atrapada entre los autos que vio convertidos en chatarra. Cuando su premonición cobre vida ante sus ojos, la chica intentará evadir su destino.</desc>
   </programme>
   <programme start="20260506003000 +0000" stop="20260506021300 +0000" channel="GoldenEdge.mx">
-    <title lang="es">Mi muerte</title>
+    <title lang="es">Aquellos que desean mi muerte</title>
     <title lang="en">Death of Me</title>
-    <desc lang="es">Una pareja de vacaciones debe descubrir el misterio detrás de un extraño video que muestra a uno de ellos matando al otro.</desc>
+    <desc lang="es">Un adolescente testigo de un asesinato es perseguido por dos asesinos gemelos a través de las tierras salvajes de Montana. Aunque cuenta con un experto de la supervivencia para evitar que los secuaces le den caza, un incendio cercano pronto amenaza con robar la vida de todos los implicados. [TMDB]</desc>
   </programme>
   <programme start="20260506021300 +0000" stop="20260506040300 +0000" channel="GoldenEdge.mx">
     <title lang="es">Ritual del más allá</title>
