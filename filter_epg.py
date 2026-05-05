@@ -39,20 +39,16 @@ def similar(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
 def validar_descripciones(desc_orig, desc_tmdb):
-    """Compara si ambas descripciones comparten palabras clave importantes"""
-    if not desc_orig or not desc_tmdb: return False
+    if not desc_orig or len(desc_orig) < 10: return True # Si no hay original, aceptamos TMDB
     
-    # Limpiamos y sacamos palabras de más de 4 letras
     palabras_orig = set(re.findall(r'\w{5,}', desc_orig.lower()))
     palabras_tmdb = set(re.findall(r'\w{5,}', desc_tmdb.lower()))
     
-    if not palabras_orig: return True # Si el original no tiene descripción, dejamos pasar
+    if not palabras_orig: return True
     
-    # Vemos cuántas palabras coinciden
     coincidencias = palabras_orig.intersection(palabras_tmdb)
-    
-    # Si comparten al menos 2 palabras clave, es muy probable que sea la misma película
-    return len(coincidencias) >= 2
+    # Bajamos a 1 coincidencia o 30% de similitud para no ser tan estrictos
+    return len(coincidencias) >= 1
 
 def apply_shift(timestr, hours_val):
     if not timestr or len(timestr) < 14: return timestr
@@ -76,25 +72,22 @@ def buscar_en_tmdb(titulo_original, desc_original=""):
         r = requests.get(url, headers=headers, timeout=10)
         if r.status_code == 200:
             results = r.json().get('results', [])
-            for res in results[:3]: # Analizamos los 3 primeros para buscar el match de descripción
+            for res in results[:3]:
                 t_title = res.get('title') or res.get('name', '')
                 t_desc = res.get('overview', '')
                 
                 if not t_title or not t_desc: continue
 
-                # VALIDACIÓN 1: El título debe parecerse
-                titulos_parecidos = similar(query, t_title) > 0.4
-                
-                # VALIDACIÓN 2: Las descripciones deben hablar de lo mismo
-                descripciones_coinciden = validar_descripciones(desc_original, t_desc)
+                # Filtro Maze Runner: Si el original NO lo dice, pero TMDB sí, saltamos este resultado
+                if "maze runner" in t_title.lower() and "maze runner" not in query.lower():
+                    continue
 
-                if titulos_parecidos and descripciones_coinciden:
-                    # Filtro extra: Si el original NO dice Maze Runner, el resultado NO debe decir Maze Runner
-                    if "maze runner" in t_title.lower() and "maze runner" not in query.lower():
-                        continue
+                # Si el título coincide bien (>50%), validamos descripción
+                if similar(query, t_title) > 0.5:
+                    if validar_descripciones(desc_original, t_desc):
+                        cache_tmdb[query] = (t_title, t_desc)
+                        return t_title, t_desc
                         
-                    cache_tmdb[query] = (t_title, t_desc)
-                    return t_title, t_desc
     except: pass
     return None, None
 
@@ -117,7 +110,7 @@ def filter_epg():
                     cid, val = line.strip().split(',')
                     shifts[cid.strip()] = val.strip()
 
-    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra Validated'})
+    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra Final Fix'})
     canales_procesados = set()
 
     for url in EPG_SOURCES:
@@ -144,17 +137,17 @@ def filter_epg():
                         t_elem = prog.find('title')
                         d_elem = prog.find('desc')
                         
-                        if t_elem is not None and t_elem.text:
+                        if t_elem is not None:
                             orig_title = t_elem.text
                             orig_desc = d_elem.text if d_elem is not None else ""
                             
-                            # Enviamos título Y descripción para validar
                             new_t, new_d = buscar_en_tmdb(orig_title, orig_desc)
                             
                             if new_d:
                                 t_elem.text = new_t
                                 if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
                                 d_elem.text = new_d + " [TMDB]"
+                            # Si TMDB falló, NO borramos la descripción original, la dejamos como estaba.
 
                     for tag in ['credits', 'country', 'language', 'sub-title']:
                         extra = prog.find(tag)
@@ -170,7 +163,6 @@ def filter_epg():
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
-    print("Finalizado con validación cruzada.")
 
 if __name__ == "__main__":
     filter_epg()
