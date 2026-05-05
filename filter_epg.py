@@ -4,9 +4,10 @@ import os
 import gzip
 import io
 import time
+import re # Importamos para limpiar títulos
 from datetime import datetime, timedelta
 
-# Configuración de archivos
+# ... (Configuración de archivos y apply_shift se mantienen igual) ...
 EPG_SOURCES = [
     "https://iptv-epg.org/files/epg-ztjwyq.xml",
     "https://www.open-epg.com/generate/aYzuzNSenh.xml",
@@ -43,28 +44,32 @@ def apply_shift(timestr, hours_val):
     except: return timestr
 
 def buscar_en_tmdb(titulo_sucio):
-    """Busca en TMDB y devuelve (Titulo_Oficial, Sinopsis)"""
+    """Busca en TMDB con filtros de precisión"""
     if not TMDB_KEY or not titulo_sucio: return None, None
     
-    query = titulo_sucio.replace('|', '').strip()
+    # Limpieza: quitar cosas como (2020), [HD], etc.
+    query = re.sub(r'\(.*?\)|\[.*?\]', '', titulo_sucio).replace('|', '').strip()
     if query in cache_tmdb: return cache_tmdb[query]
     
     headers = {'User-Agent': 'Mozilla/5.0'}
     try:
-        time.sleep(0.3) # Protección de API
-        
-        # 1. Probar como Película
+        time.sleep(0.2)
         url_movie = f"https://api.themoviedb.org/3/search/movie?api_key={TMDB_KEY}&query={query}&language=es-MX"
         r = requests.get(url_movie, headers=headers, timeout=5)
         if r.status_code == 200:
             results = r.json().get('results')
             if results:
                 res = results[0]
+                # VALIDACIÓN DE SEGURIDAD:
+                # Si el título de TMDB es MUCHO más largo que el original, sospechamos (ej: Prueba de fuego vs Maze Runner...)
+                if len(res.get('title', '')) > len(query) + 15:
+                    return None, None
+                
                 data = (res.get('title'), res.get('overview'))
                 cache_tmdb[query] = data
                 return data
         
-        # 2. Probar como Serie (TV)
+        # Probar como Serie si no es película
         url_tv = f"https://api.themoviedb.org/3/search/tv?api_key={TMDB_KEY}&query={query}&language=es-MX"
         r = requests.get(url_tv, headers=headers, timeout=5)
         if r.status_code == 200:
@@ -117,33 +122,30 @@ def filter_epg():
                 elif elem.tag == 'programme':
                     pid = elem.get('channel')
                     if pid in whitelist:
-                        # 1. Ajuste de hora
                         if pid in shifts:
                             elem.set('start', apply_shift(elem.get('start'), shifts[pid]))
                             elem.set('stop', apply_shift(elem.get('stop'), shifts[pid]))
                         
                         title_elem = elem.find('title')
                         desc_elem = elem.find('desc')
-                        category_elem = elem.find('category')
 
-                        # 2. MEJORA ULTRA: Título y Descripción de TMDB
-                        if pid in tmdb_whitelist and title_elem is not None:
+                        # --- CAMBIO CRÍTICO AQUÍ ---
+                        # Solo buscar en TMDB si:
+                        # 1. El canal está en la lista de TMDB
+                        # 2. NO tiene descripción original O la descripción es muy corta (menos de 30 letras)
+                        
+                        tiene_desc_pobre = desc_elem is None or len(desc_elem.text or "") < 30
+                        
+                        if pid in tmdb_whitelist and title_elem is not None and tiene_desc_pobre:
                             oficial_title, oficial_desc = buscar_en_tmdb(title_elem.text)
                             if oficial_title:
                                 title_elem.text = oficial_title
                             if oficial_desc:
                                 if desc_elem is None: desc_elem = ET.SubElement(elem, 'desc')
                                 desc_elem.text = oficial_desc + " [TMDB]"
+                        # ---------------------------
 
-                        # 3. Corrección de Espacios y Limpieza
-                        if title_elem is not None and title_elem.text:
-                            t_text = title_elem.text.strip()
-                            if not t_text.endswith((' ', '.', ':', '-', '!', '?')): title_elem.text = t_text + " "
-                        
-                        if category_elem is not None and category_elem.text:
-                            c_text = category_elem.text.strip()
-                            if not c_text.endswith((' ', '.', ':', '-')): category_elem.text = c_text + " "
-
+                        # Limpieza final de etiquetas
                         for extra in ['credits', 'country', 'language', 'sub-title']:
                             target = elem.find(extra)
                             if target is not None: elem.remove(target)
