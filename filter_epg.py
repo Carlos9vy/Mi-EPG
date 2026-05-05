@@ -34,10 +34,25 @@ TMDB_KEY = os.getenv('TMDB_API_KEY')
 cache_tmdb = {}
 
 def similar(a, b):
-    # Comparación muy básica para no bloquear resultados
     a, b = str(a).lower(), str(b).lower()
     if a in b or b in a: return 1.0
     return SequenceMatcher(None, a, b).ratio()
+
+def validar_descripciones(desc_orig, desc_tmdb):
+    """Compara si ambas descripciones comparten palabras clave importantes"""
+    if not desc_orig or not desc_tmdb: return False
+    
+    # Limpiamos y sacamos palabras de más de 4 letras
+    palabras_orig = set(re.findall(r'\w{5,}', desc_orig.lower()))
+    palabras_tmdb = set(re.findall(r'\w{5,}', desc_tmdb.lower()))
+    
+    if not palabras_orig: return True # Si el original no tiene descripción, dejamos pasar
+    
+    # Vemos cuántas palabras coinciden
+    coincidencias = palabras_orig.intersection(palabras_tmdb)
+    
+    # Si comparten al menos 2 palabras clave, es muy probable que sea la misma película
+    return len(coincidencias) >= 2
 
 def apply_shift(timestr, hours_val):
     if not timestr or len(timestr) < 14: return timestr
@@ -49,7 +64,7 @@ def apply_shift(timestr, hours_val):
         return new_dt.strftime("%Y%m%d%H%M%S") + " " + offset
     except: return timestr
 
-def buscar_en_tmdb(titulo_original):
+def buscar_en_tmdb(titulo_original, desc_original=""):
     if not TMDB_KEY or not titulo_original: return None, None
     query = re.sub(r'\(.*?\)|\[.*?\]', '', titulo_original).replace('|', '').strip()
     if query in cache_tmdb: return cache_tmdb[query]
@@ -61,14 +76,23 @@ def buscar_en_tmdb(titulo_original):
         r = requests.get(url, headers=headers, timeout=10)
         if r.status_code == 200:
             results = r.json().get('results', [])
-            if results:
-                res = results[0] # Tomamos el primer resultado directo como antes
-                t_title = res.get('title') or res.get('name')
-                t_desc = res.get('overview')
+            for res in results[:3]: # Analizamos los 3 primeros para buscar el match de descripción
+                t_title = res.get('title') or res.get('name', '')
+                t_desc = res.get('overview', '')
                 
-                # --- Único Filtro de Seguridad ---
-                # Si el título de TMDB no tiene NADA que ver con el original, lo ignoramos
-                if t_title and similar(query, t_title) > 0.3:
+                if not t_title or not t_desc: continue
+
+                # VALIDACIÓN 1: El título debe parecerse
+                titulos_parecidos = similar(query, t_title) > 0.4
+                
+                # VALIDACIÓN 2: Las descripciones deben hablar de lo mismo
+                descripciones_coinciden = validar_descripciones(desc_original, t_desc)
+
+                if titulos_parecidos and descripciones_coinciden:
+                    # Filtro extra: Si el original NO dice Maze Runner, el resultado NO debe decir Maze Runner
+                    if "maze runner" in t_title.lower() and "maze runner" not in query.lower():
+                        continue
+                        
                     cache_tmdb[query] = (t_title, t_desc)
                     return t_title, t_desc
     except: pass
@@ -93,7 +117,7 @@ def filter_epg():
                     cid, val = line.strip().split(',')
                     shifts[cid.strip()] = val.strip()
 
-    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra Fix'})
+    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra Validated'})
     canales_procesados = set()
 
     for url in EPG_SOURCES:
@@ -112,23 +136,26 @@ def filter_epg():
             for prog in temp_root.findall('programme'):
                 pid = prog.get('channel')
                 if pid in whitelist:
-                    # Shift
                     if pid in shifts:
                         prog.set('start', apply_shift(prog.get('start'), shifts[pid]))
                         prog.set('stop', apply_shift(prog.get('stop'), shifts[pid]))
 
-                    # TMDB (Volvemos a la lógica simple que funcionaba)
                     if pid in tmdb_whitelist:
                         t_elem = prog.find('title')
+                        d_elem = prog.find('desc')
+                        
                         if t_elem is not None and t_elem.text:
-                            new_t, new_d = buscar_en_tmdb(t_elem.text)
+                            orig_title = t_elem.text
+                            orig_desc = d_elem.text if d_elem is not None else ""
+                            
+                            # Enviamos título Y descripción para validar
+                            new_t, new_d = buscar_en_tmdb(orig_title, orig_desc)
+                            
                             if new_d:
                                 t_elem.text = new_t
-                                d_elem = prog.find('desc')
                                 if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
                                 d_elem.text = new_d + " [TMDB]"
 
-                    # Limpieza
                     for tag in ['credits', 'country', 'language', 'sub-title']:
                         extra = prog.find(tag)
                         if extra is not None: prog.remove(extra)
@@ -139,12 +166,11 @@ def filter_epg():
         except Exception as e:
             print(f"Error: {e}")
 
-    # Guardado
     tree = ET.ElementTree(new_root)
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
-    print("Hecho.")
+    print("Finalizado con validación cruzada.")
 
 if __name__ == "__main__":
     filter_epg()
