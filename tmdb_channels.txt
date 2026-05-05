@@ -19,7 +19,7 @@ Sony.cl
 Space.cl
 StarChannel.cl
 StudioUniversal.ar
-TNT.co
+TNT.cl
 UniversalTV.co
 WarnerChannel.ar
 
