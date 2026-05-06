@@ -87646,10 +87646,6 @@ Repetición.</desc>
     <display-name>BO - TNT Novelas</display-name>
     <icon src="https://iptv-epg.org/logos/Bolivia/TNTNovelas.bo.png" />
   </channel>
-  <programme start="20260505045100 +0000" stop="20260505054200 +0000" channel="TNTNovelas.bo">
-    <desc lang="es">Sin Tetas no hay paraíso.</desc>
-    <title lang="es">Sin Tetas no hay paraíso</title>
-  </programme>
   <programme start="20260505054200 +0000" stop="20260505063000 +0000" channel="TNTNovelas.bo">
     <desc lang="es">Fuerza de Mujer.</desc>
     <title lang="es">Fuerza de Mujer</title>
