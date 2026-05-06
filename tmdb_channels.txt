@@ -11,15 +11,19 @@ HBO.co
 HBO2.co
 HBOFamily.co
 HBOMundi.co
-HBOPlus(Panamericano).co
+HBOPLUS.uy
 HBOPop.co
 HBOSignature.co
 HBOXtreme.co
+NationalGeographic.ar
 Sony.cl
-Space.cl
+Space.pe
+STARCHANNEL.uy
 StarChannel.cl
 StudioUniversal.ar
 TNT.cl
 UniversalTV.co
+UniversalTV.ar
 WarnerChannel.ar
+WarnerChannel.co
 
