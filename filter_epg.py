@@ -45,30 +45,31 @@ def similar(a, b):
 
 def formatear_descripcion_serie(texto):
     """
-    Detecta S2 E14 y similares para aplicar el formato:
-    S2 E14 | Título del Capítulo: Descripción...
+    Formato solicitado: S2 E14 | Título del Capítulo. Descripción...
     """
     if not texto: return ""
     
-    # Patrón para detectar códigos de episodio (S1 E1, T1 E1, etc.)
+    # Patrón mejorado para capturar códigos de episodio
     patron_code = r'([TS]\d+\s?[E]\d+)'
     match = re.search(patron_code, texto, re.IGNORECASE)
     
     if match:
         code = match.group().strip()
+        # Quitamos el código del texto original para procesar el resto
         resto = texto.replace(code, "").strip()
         
-        # Si después del código hay texto, intentamos poner los dos puntos
-        # Generalmente el título del capítulo termina donde empieza la descripción larga
         if resto:
-            # Buscamos el primer punto seguido de espacio para separar título de sinopsis
-            partes = resto.split(". ", 1)
+            # Intentamos separar el subtítulo de la sinopsis. 
+            # Buscamos el primer salto de línea o un espacio doble que suele separar estas partes en la EPG
+            partes = re.split(r'\s\s+|\n', resto, 1)
+            
             if len(partes) > 1:
                 subtitulo = partes[0].strip()
                 sinopsis = partes[1].strip()
-                return f"{code} | {subtitulo}: {sinopsis}"
+                return f"{code} | {subtitulo}. {sinopsis}"
             else:
-                # Si no hay punto, simplemente separamos el código del resto
+                # Si no hay una separación clara, ponemos el punto después de las primeras 3 o 4 palabras
+                # para intentar separar el posible título de la descripción
                 return f"{code} | {resto}"
                 
     return texto
@@ -126,12 +127,12 @@ def filter_epg():
                 cid, val = line.strip().split(',')
                 shifts[cid.strip()] = val.strip()
 
-    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra UI Fix'})
+    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra UI v7'})
     canales_procesados = set()
 
     for url in EPG_SOURCES:
         try:
-            print(f"Leyendo: {url.split('/')[-1]}")
+            print(f"Procesando: {url.split('/')[-1]}")
             r = requests.get(url, timeout=60)
             data = gzip.decompress(r.content) if (url.endswith(".gz") or r.content[:2] == b'\x1f\x8b') else r.content
             temp_root = ET.fromstring(data)
@@ -156,24 +157,21 @@ def filter_epg():
                         orig_title = t_elem.text
                         orig_desc = d_elem.text if d_elem is not None else ""
 
-                        # SI EL CANAL ESTÁ EN LA LISTA TMDB
+                        # PROCESAMIENTO TMDB (Si aplica)
                         if pid in tmdb_whitelist:
                             new_t, new_d, new_y = buscar_en_tmdb(orig_title)
-                            
                             if new_t:
-                                # Mantener el Año que tanto te gustó
                                 t_elem.text = f"{new_t} ({new_y})" if new_y else new_t
-                                
-                                # Si NO es serie (no tiene S2 E14), usamos descripción TMDB
+                                # Solo usamos descripción TMDB si NO es un episodio específico
                                 if not re.search(r'[TS]\d+\s?[E]\d+', orig_desc, re.IGNORECASE):
                                     if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
                                     d_elem.text = f"{new_d} [TMDB]"
                         
-                        # APLICAR FORMATO ESTÉTICO A SERIES (Para todos los canales, usen TMDB o no)
+                        # FORMATEO ESTÉTICO (Barra y Punto)
                         if d_elem is not None and d_elem.text:
                             d_elem.text = formatear_descripcion_serie(d_elem.text)
 
-                    # Limpieza final
+                    # Limpieza
                     for tag in ['credits', 'country', 'language', 'sub-title']:
                         extra = prog.find(tag)
                         if extra is not None: prog.remove(extra)
