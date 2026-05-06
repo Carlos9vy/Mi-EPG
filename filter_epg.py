@@ -43,13 +43,35 @@ def similar(a, b):
     if a in b or b in a: return 1.0
     return SequenceMatcher(None, a, b).ratio()
 
-def es_descripcion_de_episodio(texto):
-    """Detecta si la descripción original es de un episodio específico"""
-    if not texto: return False
-    patrones = [r'[TS]\d+\s?[E]\d+', r'Temporada\s?\d+', r'Episodio\s?\d+', r'Capítulo\s?\d+', r'S\d+E\d+']
-    for p in patrones:
-        if re.search(p, texto, re.IGNORECASE): return True
-    return False
+def formatear_descripcion_serie(texto):
+    """
+    Detecta S2 E14 y similares para aplicar el formato:
+    S2 E14 | Título del Capítulo: Descripción...
+    """
+    if not texto: return ""
+    
+    # Patrón para detectar códigos de episodio (S1 E1, T1 E1, etc.)
+    patron_code = r'([TS]\d+\s?[E]\d+)'
+    match = re.search(patron_code, texto, re.IGNORECASE)
+    
+    if match:
+        code = match.group().strip()
+        resto = texto.replace(code, "").strip()
+        
+        # Si después del código hay texto, intentamos poner los dos puntos
+        # Generalmente el título del capítulo termina donde empieza la descripción larga
+        if resto:
+            # Buscamos el primer punto seguido de espacio para separar título de sinopsis
+            partes = resto.split(". ", 1)
+            if len(partes) > 1:
+                subtitulo = partes[0].strip()
+                sinopsis = partes[1].strip()
+                return f"{code} | {subtitulo}: {sinopsis}"
+            else:
+                # Si no hay punto, simplemente separamos el código del resto
+                return f"{code} | {resto}"
+                
+    return texto
 
 def apply_shift(timestr, hours_val):
     if not timestr or len(timestr) < 14: return timestr
@@ -61,13 +83,10 @@ def apply_shift(timestr, hours_val):
         return new_dt.strftime("%Y%m%d%H%M%S") + " " + offset
     except: return timestr
 
-def buscar_en_tmdb(titulo_original, desc_original=""):
+def buscar_en_tmdb(titulo_original):
     if not TMDB_KEY or not titulo_original: return None, None, None
-    
-    # Limpiar query para búsqueda
     query = re.sub(r'\(.*?\)|\[.*?\]', '', titulo_original).replace('|', '').strip()
     query_norm = remover_tildes(query)
-    
     if query_norm in cache_tmdb: return cache_tmdb[query_norm]
     
     headers = {'User-Agent': 'Mozilla/5.0'}
@@ -80,16 +99,12 @@ def buscar_en_tmdb(titulo_original, desc_original=""):
             for res in results[:3]:
                 t_title = res.get('title') or res.get('name', '')
                 t_desc = res.get('overview', '')
-                # Obtener año (release_date para cine, first_air_date para TV)
                 release_date = res.get('release_date') or res.get('first_air_date') or ""
                 year = release_date[:4] if len(release_date) >= 4 else ""
 
                 if not t_title or not t_desc: continue
-                
-                # Filtro Maze Runner
                 if "maze runner" in t_title.lower() and "maze runner" not in query.lower(): continue
 
-                # Comparación con normalización de tildes
                 if similar(query, t_title) > 0.45:
                     cache_tmdb[query_norm] = (t_title, t_desc, year)
                     return t_title, t_desc, year
@@ -111,12 +126,12 @@ def filter_epg():
                 cid, val = line.strip().split(',')
                 shifts[cid.strip()] = val.strip()
 
-    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra v6'})
+    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra UI Fix'})
     canales_procesados = set()
 
     for url in EPG_SOURCES:
         try:
-            print(f"Descargando: {url.split('/')[-1]}")
+            print(f"Leyendo: {url.split('/')[-1]}")
             r = requests.get(url, timeout=60)
             data = gzip.decompress(r.content) if (url.endswith(".gz") or r.content[:2] == b'\x1f\x8b') else r.content
             temp_root = ET.fromstring(data)
@@ -134,40 +149,38 @@ def filter_epg():
                         prog.set('start', apply_shift(prog.get('start'), shifts[pid]))
                         prog.set('stop', apply_shift(prog.get('stop'), shifts[pid]))
 
-                    if pid in tmdb_whitelist:
-                        t_elem = prog.find('title')
-                        d_elem = prog.find('desc')
-                        
-                        if t_elem is not None:
-                            orig_title = t_elem.text
-                            orig_desc = d_elem.text if d_elem is not None else ""
-                            
-                            new_t, new_d, new_y = buscar_en_tmdb(orig_title, orig_desc)
+                    t_elem = prog.find('title')
+                    d_elem = prog.find('desc')
+                    
+                    if t_elem is not None:
+                        orig_title = t_elem.text
+                        orig_desc = d_elem.text if d_elem is not None else ""
+
+                        # SI EL CANAL ESTÁ EN LA LISTA TMDB
+                        if pid in tmdb_whitelist:
+                            new_t, new_d, new_y = buscar_en_tmdb(orig_title)
                             
                             if new_t:
-                                # 1. Actualizar Título con Año
-                                if new_y: t_elem.text = f"{new_t} ({new_y})"
-                                else: t_elem.text = new_t
+                                # Mantener el Año que tanto te gustó
+                                t_elem.text = f"{new_t} ({new_y})" if new_y else new_t
                                 
-                                # 2. Lógica de Descripción para Series
-                                if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
-                                
-                                if es_descripcion_de_episodio(orig_desc):
-                                    # Si es serie con info de capítulo, NO tocamos la descripción
-                                    pass 
-                                else:
-                                    # Si es película o descripción general, usamos TMDB
+                                # Si NO es serie (no tiene S2 E14), usamos descripción TMDB
+                                if not re.search(r'[TS]\d+\s?[E]\d+', orig_desc, re.IGNORECASE):
+                                    if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
                                     d_elem.text = f"{new_d} [TMDB]"
+                        
+                        # APLICAR FORMATO ESTÉTICO A SERIES (Para todos los canales, usen TMDB o no)
+                        if d_elem is not None and d_elem.text:
+                            d_elem.text = formatear_descripcion_serie(d_elem.text)
 
+                    # Limpieza final
                     for tag in ['credits', 'country', 'language', 'sub-title']:
                         extra = prog.find(tag)
                         if extra is not None: prog.remove(extra)
                     
                     new_root.append(prog)
-            
             temp_root.clear()
-        except Exception as e:
-            print(f"Error: {e}")
+        except Exception as e: print(f"Error: {e}")
 
     tree = ET.ElementTree(new_root)
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
