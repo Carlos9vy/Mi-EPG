@@ -42,32 +42,21 @@ TMDB_KEY = os.getenv('TMDB_API_KEY')
 
 def formatear_descripcion_serie(texto):
     if not texto: return ""
-    
-    # Buscamos S1 E3, T2 E10, etc.
     patron_code = r'([TS]\d+\s?[E]\d+)'
     match = re.search(patron_code, texto, re.IGNORECASE)
-    
     if match:
         code = match.group().strip()
-        # Quitamos el código y limpiamos guiones extra al inicio
         resto = texto.replace(code, "").strip()
         resto = re.sub(r'^[—\-\s]+', '', resto)
-        
         if resto:
-            # Dividimos por el salto de línea para procesar solo la primera parte
             partes = resto.split('\n', 1)
             titulo_capitulo = partes[0].strip()
-            
-            # Agregamos el punto si no lo tiene
             if titulo_capitulo and not titulo_capitulo.endswith('.'):
                 titulo_capitulo += "."
-            
-            # Si hay una descripción debajo, mantenemos el salto de línea (\n)
             if len(partes) > 1:
                 return f"{code} | {titulo_capitulo}\n{partes[1].strip()}"
             else:
                 return f"{code} | {titulo_capitulo}"
-                
     return texto
 
 def buscar_en_tmdb(titulo_original):
@@ -78,7 +67,8 @@ def buscar_en_tmdb(titulo_original):
         r = requests.get(url, timeout=10)
         if r.status_code == 200:
             results = r.json().get('results', [])
-            for res in results[:1]:
+            if results:
+                res = results[0]
                 t_title = res.get('title') or res.get('name', '')
                 t_desc = res.get('overview', '')
                 date = res.get('release_date') or res.get('first_air_date') or ""
@@ -88,7 +78,9 @@ def buscar_en_tmdb(titulo_original):
     return None, None, None
 
 def filter_epg():
-    if not os.path.exists(CANALES_FILE): return
+    if not os.path.exists(CANALES_FILE):
+        print(f"Error: No se encuentra {CANALES_FILE}")
+        return
     
     whitelist = {}
     with open(CANALES_FILE, 'r', encoding='utf-8') as f:
@@ -101,22 +93,28 @@ def filter_epg():
                 whitelist[cid.strip()] = f_req.strip().lower()
             else:
                 whitelist[line] = None
+    
+    print(f"INFO: Se cargaron {len(whitelist)} IDs de canales.")
 
     tmdb_whitelist = set(line.strip() for line in (open(TMDB_CHANNELS_FILE, 'r', encoding='utf-8') if os.path.exists(TMDB_CHANNELS_FILE) else []))
     
-    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro v12 Final-Style'})
+    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro v13 Debug'})
     canales_procesados = set()
     canales_con_programas = set()
 
     for url in EPG_SOURCES:
         url_tag = url.lower()
         try:
-            print(f"Descargando: {url.split('/')[-1]}")
+            print(f"Intentando descargar: {url.split('/')[-1]}")
             r = requests.get(url, timeout=45)
-            if r.status_code != 200: continue
+            if r.status_code != 200:
+                print(f"  Saltando: Error HTTP {r.status_code}")
+                continue
+            
             data = gzip.decompress(r.content) if (url.endswith(".gz") or r.content[:2] == b'\x1f\x8b') else r.content
             temp_root = ET.fromstring(data)
 
+            # 1. Procesar Canales
             for channel in temp_root.findall('channel'):
                 cid = channel.get('id')
                 if cid in whitelist and cid not in canales_procesados:
@@ -125,6 +123,8 @@ def filter_epg():
                     new_root.append(channel)
                     canales_procesados.add(cid)
 
+            # 2. Procesar Programas
+            count_prog = 0
             for prog in temp_root.findall('programme'):
                 pid = prog.get('channel')
                 if pid in whitelist:
@@ -152,15 +152,19 @@ def filter_epg():
 
                     new_root.append(prog)
                     canales_con_programas.add(pid)
+                    count_prog += 1
             
+            print(f"  Éxito: Se extrajeron {count_prog} programas.")
             temp_root.clear()
-        except: pass
+        except Exception as e:
+            print(f"  Error procesando {url}: {e}")
 
+    # Guardado
     tree = ET.ElementTree(new_root)
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
-    print("Hecho.")
+    print(f"Proceso finalizado. Total canales: {len(canales_procesados)}")
 
 if __name__ == "__main__":
     filter_epg()
