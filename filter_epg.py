@@ -44,34 +44,18 @@ def similar(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
 def formatear_descripcion_serie(texto):
-    """
-    Formato solicitado: S2 E14 | Título del Capítulo. Descripción...
-    """
     if not texto: return ""
-    
-    # Patrón mejorado para capturar códigos de episodio
     patron_code = r'([TS]\d+\s?[E]\d+)'
     match = re.search(patron_code, texto, re.IGNORECASE)
-    
     if match:
         code = match.group().strip()
-        # Quitamos el código del texto original para procesar el resto
         resto = texto.replace(code, "").strip()
-        
         if resto:
-            # Intentamos separar el subtítulo de la sinopsis. 
-            # Buscamos el primer salto de línea o un espacio doble que suele separar estas partes en la EPG
             partes = re.split(r'\s\s+|\n', resto, 1)
-            
             if len(partes) > 1:
-                subtitulo = partes[0].strip()
-                sinopsis = partes[1].strip()
-                return f"{code} | {subtitulo}. {sinopsis}"
+                return f"{code} | {partes[0].strip()}. {partes[1].strip()}"
             else:
-                # Si no hay una separación clara, ponemos el punto después de las primeras 3 o 4 palabras
-                # para intentar separar el posible título de la descripción
                 return f"{code} | {resto}"
-                
     return texto
 
 def apply_shift(timestr, hours_val):
@@ -102,10 +86,8 @@ def buscar_en_tmdb(titulo_original):
                 t_desc = res.get('overview', '')
                 release_date = res.get('release_date') or res.get('first_air_date') or ""
                 year = release_date[:4] if len(release_date) >= 4 else ""
-
                 if not t_title or not t_desc: continue
                 if "maze runner" in t_title.lower() and "maze runner" not in query.lower(): continue
-
                 if similar(query, t_title) > 0.45:
                     cache_tmdb[query_norm] = (t_title, t_desc, year)
                     return t_title, t_desc, year
@@ -127,15 +109,25 @@ def filter_epg():
                 cid, val = line.strip().split(',')
                 shifts[cid.strip()] = val.strip()
 
-    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra UI v7'})
+    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra v8 Anti-Crash'})
     canales_procesados = set()
 
     for url in EPG_SOURCES:
         try:
             print(f"Procesando: {url.split('/')[-1]}")
-            r = requests.get(url, timeout=60)
+            r = requests.get(url, timeout=45) # Timeout prudente
+            if r.status_code != 200:
+                print(f"  Error HTTP {r.status_code}. Saltando fuente.")
+                continue
+
             data = gzip.decompress(r.content) if (url.endswith(".gz") or r.content[:2] == b'\x1f\x8b') else r.content
-            temp_root = ET.fromstring(data)
+            
+            # --- MEJORA CRÍTICA: Captura de errores XML ---
+            try:
+                temp_root = ET.fromstring(data)
+            except ET.ParseError as pe:
+                print(f"  Error de estructura XML en {url.split('/')[-1]}: {pe}. Saltando fuente.")
+                continue
 
             for channel in temp_root.findall('channel'):
                 cid = channel.get('id')
@@ -157,33 +149,31 @@ def filter_epg():
                         orig_title = t_elem.text
                         orig_desc = d_elem.text if d_elem is not None else ""
 
-                        # PROCESAMIENTO TMDB (Si aplica)
                         if pid in tmdb_whitelist:
                             new_t, new_d, new_y = buscar_en_tmdb(orig_title)
                             if new_t:
                                 t_elem.text = f"{new_t} ({new_y})" if new_y else new_t
-                                # Solo usamos descripción TMDB si NO es un episodio específico
                                 if not re.search(r'[TS]\d+\s?[E]\d+', orig_desc, re.IGNORECASE):
                                     if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
                                     d_elem.text = f"{new_d} [TMDB]"
                         
-                        # FORMATEO ESTÉTICO (Barra y Punto)
                         if d_elem is not None and d_elem.text:
                             d_elem.text = formatear_descripcion_serie(d_elem.text)
 
-                    # Limpieza
                     for tag in ['credits', 'country', 'language', 'sub-title']:
                         extra = prog.find(tag)
                         if extra is not None: prog.remove(extra)
                     
                     new_root.append(prog)
             temp_root.clear()
-        except Exception as e: print(f"Error: {e}")
+        except Exception as e:
+            print(f"  Error inesperado en {url}: {e}")
 
     tree = ET.ElementTree(new_root)
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
+    print("Finalizado con éxito.")
 
 if __name__ == "__main__":
     filter_epg()
