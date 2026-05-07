@@ -1225,10 +1225,6 @@
     <display-name>BO - TNT Novelas</display-name>
     <icon src="https://iptv-epg.org/logos/Bolivia/TNTNovelas.bo.png" />
   </channel>
-  <programme start="20260506040000 +0000" stop="20260506045100 +0000" channel="TNTNovelas.bo">
-    <desc lang="es">Sin Tetas no hay paraíso.</desc>
-    <title lang="es">Sin Tetas no hay paraíso</title>
-  </programme>
   <programme start="20260506045100 +0000" stop="20260506054200 +0000" channel="TNTNovelas.bo">
     <desc lang="es">Sin Tetas no hay paraíso.</desc>
     <title lang="es">Sin Tetas no hay paraíso</title>
@@ -1325,10 +1321,6 @@
     <display-name>GT - Tu Deportes Network (TUDN) México</display-name>
     <icon src="https://iptv-epg.org/logos/Guatemala/TUDNMexico.gt.png" />
   </channel>
-  <programme start="20260506040000 +0000" stop="20260506080000 +0000" channel="TUDNMexico.gt">
-    <desc lang="es">TUDN.</desc>
-    <title lang="es">TUDN</title>
-  </programme>
   <programme start="20260506080000 +0000" stop="20260506120000 +0000" channel="TUDNMexico.gt">
     <desc lang="es">TUDN.</desc>
     <title lang="es">TUDN</title>
