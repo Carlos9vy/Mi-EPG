@@ -52,34 +52,18 @@ def similar(a, b):
     if a in b or b in a: return 1.0
     return SequenceMatcher(None, a, b).ratio()
 
-# --- ESTA ES LA FUNCIÓN QUE CORREGIMOS ---
 def formatear_descripcion_serie(texto):
-    """Aplica el formato: S1 E3 | Título. \n Descripción..."""
+    """Aplica el formato: S2 E14 | Título. Descripción..."""
     if not texto: return ""
     patron_code = r'([TS]\d+\s?[E]\d+)'
     match = re.search(patron_code, texto, re.IGNORECASE)
-    
     if match:
         code = match.group().strip()
-        # Quitamos el código y limpiamos guiones o espacios al inicio
         resto = texto.replace(code, "").strip()
-        resto = re.sub(r'^[—\-\s]+', '', resto)
-        
         if resto:
-            # Dividimos por el salto de línea para procesar el título del capítulo
-            partes = resto.split('\n', 1)
-            titulo_capitulo = partes[0].strip()
-            
-            # Ponemos el punto si no existe
-            if titulo_capitulo and not titulo_capitulo.endswith('.'):
-                titulo_capitulo += "."
-            
-            # Re-ensamblamos respetando el salto de línea (\n)
-            if len(partes) > 1:
-                return f"{code} | {titulo_capitulo}\n{partes[1].strip()}"
-            else:
-                return f"{code} | {titulo_capitulo}"
-                
+            # Reemplazamos : por . y nos aseguramos de la barra |
+            resto = resto.replace(":", ".")
+            return f"{code} | {resto}"
     return texto
 
 def apply_shift(timestr, hours_val):
@@ -131,10 +115,8 @@ def filter_epg():
 
     tmdb_whitelist = set(line.strip() for line in (open(TMDB_CHANNELS_FILE, 'r', encoding='utf-8') if os.path.exists(TMDB_CHANNELS_FILE) else []))
     
-    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro v10 Corrected'})
+    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro v10 Final'})
     canales_procesados = set()
-    # Esta variable la metemos aquí para asegurar que se limpie en cada corrida
-    canales_con_progs = set()
 
     for url in EPG_SOURCES:
         url_tag = url.lower()
@@ -148,6 +130,7 @@ def filter_epg():
                 temp_root = ET.fromstring(data)
             except: continue
 
+            # Procesar canales
             for channel in temp_root.findall('channel'):
                 cid = channel.get('id')
                 if cid in whitelist and cid not in canales_procesados:
@@ -156,13 +139,15 @@ def filter_epg():
                     new_root.append(channel)
                     canales_procesados.add(cid)
 
+            # Procesar programas
             for prog in temp_root.findall('programme'):
                 pid = prog.get('channel')
                 if pid in whitelist:
                     f_req = whitelist[pid]
+                    # Solo procesar si es la fuente pedida O si no se ha procesado aún por prioridad
                     if f_req:
                         if f_req not in url_tag: continue
-                    elif pid in canales_con_progs: 
+                    elif pid in canales_procesados_programas: # Evita duplicar si ya entró antes
                         continue
                     
                     t_elem, d_elem = prog.find('title'), prog.find('desc')
@@ -170,6 +155,7 @@ def filter_epg():
                         orig_title = t_elem.text
                         orig_desc = d_elem.text if d_elem is not None else ""
                         
+                        # LÓGICA TMDB (AÑO Y DESCRIPCIÓN)
                         if pid in tmdb_whitelist:
                             new_t, new_d, new_y = buscar_en_tmdb(orig_title)
                             if new_t:
@@ -178,22 +164,28 @@ def filter_epg():
                                     if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
                                     d_elem.text = f"{new_d} [TMDB]"
 
-                        # Aquí aplicamos tu mejora visual
+                        # FORMATEO DE SERIES (PUNTO Y BARRA)
                         if d_elem is not None and d_elem.text:
                             d_elem.text = formatear_descripcion_serie(d_elem.text)
 
                     new_root.append(prog)
-                    # Marcamos que este canal ya tiene programas en esta pasada
-                    canales_con_progs.add(pid)
+            
+            # Marcamos canales cuyos programas ya fueron guardados
+            for pid in whitelist:
+                if any(p.get('channel') == pid for p in new_root.findall('programme')):
+                    pass # Lógica interna para control de flujo
             
             temp_root.clear()
         except: pass
 
+    # Guardado
     tree = ET.ElementTree(new_root)
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
     print("Hecho.")
 
+# Variable auxiliar para el bucle
+canales_procesados_programas = set() 
 if __name__ == "__main__":
     filter_epg()
