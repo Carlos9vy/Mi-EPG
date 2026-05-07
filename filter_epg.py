@@ -10,10 +10,18 @@ import unicodedata
 from datetime import datetime, timedelta
 from difflib import SequenceMatcher
 
-# Fuentes
+# --- CONFIGURACIÓN DE FUENTES (20 FUENTES) ---
 EPG_SOURCES = [
-    "https://iptv-epg.org/files/epg-ztjwyq.xml",
-    "https://www.open-epg.com/generate/aYzuzNSenh.xml",
+    "https://iptv-epg.org/files/epg-ar.xml",
+    "https://iptv-epg.org/files/epg-cl.xml",
+    "https://iptv-epg.org/files/epg-co.xml",
+    "https://iptv-epg.org/files/epg-ec.xml",
+    "https://iptv-epg.org/files/epg-mx.xml",
+    "https://iptv-epg.org/files/epg-pe.xml",
+    "https://iptv-epg.org/files/epg-es.xml",
+    "https://iptv-epg.org/files/epg-us.xml",
+    "https://iptv-epg.org/files/epg-uy.xml",
+    "https://iptv-epg.org/files/epg-ve.xml",
     "https://iptv-epg.org/files/epg-bo.xml",
     "https://iptv-epg.org/files/epg-cr.xml",
     "https://iptv-epg.org/files/epg-do.xml",
@@ -22,7 +30,8 @@ EPG_SOURCES = [
     "https://iptv-epg.org/files/epg-hn.xml",
     "https://iptv-epg.org/files/epg-py.xml",
     "https://iptv-epg.org/files/epg-pa.xml",
-    "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz" 
+    "https://www.open-epg.com/generate/aYzuzNSenh.xml",
+    "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz"
 ]
 
 CANALES_FILE = "canales.txt"
@@ -33,6 +42,8 @@ OUTPUT_GZ = "epg_reducida.xml.gz"
 
 TMDB_KEY = os.getenv('TMDB_API_KEY')
 cache_tmdb = {}
+
+# --- FUNCIONES DE LÓGICA ---
 
 def remover_tildes(texto):
     if not texto: return ""
@@ -97,9 +108,19 @@ def buscar_en_tmdb(titulo_original):
 def filter_epg():
     if not os.path.exists(CANALES_FILE): return
 
+    # Carga de canales con soporte para direccionamiento: id (fuente)
+    whitelist = {}
     with open(CANALES_FILE, 'r', encoding='utf-8') as f:
-        whitelist = set(line.strip() for line in f if line.strip())
-    
+        for line in f:
+            line = line.strip()
+            if not line: continue
+            match = re.match(r'(.+?)\s*\((.+?)\)', line)
+            if match:
+                cid, fuente = match.groups()
+                whitelist[cid.strip()] = fuente.strip().lower()
+            else:
+                whitelist[line] = None
+
     tmdb_whitelist = set(line.strip() for line in (open(TMDB_CHANNELS_FILE, 'r', encoding='utf-8') if os.path.exists(TMDB_CHANNELS_FILE) else []))
 
     shifts = {}
@@ -109,35 +130,47 @@ def filter_epg():
                 cid, val = line.strip().split(',')
                 shifts[cid.strip()] = val.strip()
 
-    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra v8 Anti-Crash'})
+    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro Ultra Hybrid v9'})
     canales_procesados = set()
 
     for url in EPG_SOURCES:
+        url_tag = url.lower()
         try:
-            print(f"Procesando: {url.split('/')[-1]}")
-            r = requests.get(url, timeout=45) # Timeout prudente
-            if r.status_code != 200:
-                print(f"  Error HTTP {r.status_code}. Saltando fuente.")
-                continue
+            print(f"Descargando: {url.split('/')[-1]}")
+            r = requests.get(url, timeout=45)
+            if r.status_code != 200: continue
 
             data = gzip.decompress(r.content) if (url.endswith(".gz") or r.content[:2] == b'\x1f\x8b') else r.content
             
-            # --- MEJORA CRÍTICA: Captura de errores XML ---
             try:
                 temp_root = ET.fromstring(data)
-            except ET.ParseError as pe:
-                print(f"  Error de estructura XML en {url.split('/')[-1]}: {pe}. Saltando fuente.")
+            except ET.ParseError:
+                print(f"  Error XML en {url.split('/')[-1]}. Saltando.")
                 continue
 
+            # 1. Filtrar Canales
             for channel in temp_root.findall('channel'):
                 cid = channel.get('id')
                 if cid in whitelist and cid not in canales_procesados:
+                    fuente_req = whitelist[cid]
+                    if fuente_req and fuente_req not in url_tag: continue
+                    
                     new_root.append(channel)
                     canales_procesados.add(cid)
 
+            # 2. Filtrar Programas
             for prog in temp_root.findall('programme'):
                 pid = prog.get('channel')
                 if pid in whitelist:
+                    fuente_req = whitelist[pid]
+                    
+                    # Si pedimos fuente específica y no es esta, saltar
+                    if fuente_req and fuente_req not in url_tag: continue
+                    
+                    # Si ya lo procesamos en otra fuente y no es la específica pedida, saltar
+                    if pid in canales_procesados and not (fuente_req and fuente_req in url_tag):
+                        continue
+
                     if pid in shifts:
                         prog.set('start', apply_shift(prog.get('start'), shifts[pid]))
                         prog.set('stop', apply_shift(prog.get('stop'), shifts[pid]))
@@ -166,14 +199,13 @@ def filter_epg():
                     
                     new_root.append(prog)
             temp_root.clear()
-        except Exception as e:
-            print(f"  Error inesperado en {url}: {e}")
+        except Exception as e: print(f"  Error: {e}")
 
     tree = ET.ElementTree(new_root)
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
-    print("Finalizado con éxito.")
+    print("¡Proceso completado!")
 
 if __name__ == "__main__":
     filter_epg()
