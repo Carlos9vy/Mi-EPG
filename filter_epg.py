@@ -2,15 +2,12 @@ import xml.etree.ElementTree as ET
 import requests
 import os
 import gzip
-import io
-import time
 import re
 import urllib.parse
 import unicodedata
 from datetime import datetime, timedelta
-from difflib import SequenceMatcher
 
-# --- TUS 20 FUENTES ---
+# --- CONFIGURACIÓN ---
 EPG_SOURCES = [
     "https://iptv-epg.org/files/epg-ar.xml",
     "https://iptv-epg.org/files/epg-cl.xml",
@@ -79,9 +76,10 @@ def buscar_en_tmdb(titulo_original):
 
 def filter_epg():
     if not os.path.exists(CANALES_FILE):
-        print(f"Error: No se encuentra {CANALES_FILE}")
+        print("ERROR: No existe canales.txt")
         return
     
+    # Cargar lista de canales
     whitelist = {}
     with open(CANALES_FILE, 'r', encoding='utf-8') as f:
         for line in f:
@@ -94,77 +92,80 @@ def filter_epg():
             else:
                 whitelist[line] = None
     
-    print(f"INFO: Se cargaron {len(whitelist)} IDs de canales.")
-
-    tmdb_whitelist = set(line.strip() for line in (open(TMDB_CHANNELS_FILE, 'r', encoding='utf-8') if os.path.exists(TMDB_CHANNELS_FILE) else []))
+    print(f"INFO: {len(whitelist)} canales cargados desde canales.txt")
     
-    new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro v13 Debug'})
-    canales_procesados = set()
-    canales_con_programas = set()
+    tmdb_list = []
+    if os.path.exists(TMDB_CHANNELS_FILE):
+        with open(TMDB_CHANNELS_FILE, 'r', encoding='utf-8') as f:
+            tmdb_list = [l.strip() for l in f if l.strip()]
+
+    new_root = ET.Element('tv', {'generator-info-name': 'EPG_Carlos_v14'})
+    canales_agregados = set()
+    programas_agregados = set() # Control para no repetir programas del mismo canal
 
     for url in EPG_SOURCES:
-        url_tag = url.lower()
+        print(f"--- Procesando: {url.split('/')[-1]} ---")
         try:
-            print(f"Intentando descargar: {url.split('/')[-1]}")
-            r = requests.get(url, timeout=45)
+            r = requests.get(url, timeout=60)
             if r.status_code != 200:
-                print(f"  Saltando: Error HTTP {r.status_code}")
+                print(f"Error {r.status_code}")
                 continue
             
-            data = gzip.decompress(r.content) if (url.endswith(".gz") or r.content[:2] == b'\x1f\x8b') else r.content
-            temp_root = ET.fromstring(data)
-
-            # 1. Procesar Canales
+            content = r.content
+            if url.endswith(".gz") or content[:2] == b'\x1f\x8b':
+                content = gzip.decompress(content)
+            
+            temp_root = ET.fromstring(content)
+            
+            # Canales
             for channel in temp_root.findall('channel'):
                 cid = channel.get('id')
-                if cid in whitelist and cid not in canales_procesados:
+                if cid in whitelist and cid not in canales_agregados:
                     f_req = whitelist[cid]
-                    if f_req and f_req not in url_tag: continue
+                    if f_req and f_req not in url.lower(): continue
                     new_root.append(channel)
-                    canales_procesados.add(cid)
+                    canales_agregados.add(cid)
 
-            # 2. Procesar Programas
-            count_prog = 0
+            # Programas
+            count = 0
             for prog in temp_root.findall('programme'):
                 pid = prog.get('channel')
                 if pid in whitelist:
                     f_req = whitelist[pid]
-                    if f_req:
-                        if f_req not in url_tag: continue
-                    elif pid in canales_con_programas:
+                    # Si ya tenemos programas para este canal, solo aceptamos más si es la fuente específica
+                    if pid in programas_agregados and not f_req:
+                        continue
+                    if f_req and f_req not in url.lower():
                         continue
                     
+                    # Aplicar TMDB y Formato
                     t_elem = prog.find('title')
                     d_elem = prog.find('desc')
-                    
                     if t_elem is not None:
-                        orig_title = t_elem.text
-                        if pid in tmdb_whitelist:
-                            new_t, new_d, new_y = buscar_en_tmdb(orig_title)
-                            if new_t:
-                                t_elem.text = f"{new_t} ({new_y})" if new_y else new_t
+                        if pid in tmdb_list:
+                            nt, nd, ny = buscar_en_tmdb(t_elem.text)
+                            if nt:
+                                t_elem.text = f"{nt} ({ny})" if ny else nt
                                 if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
-                                if not d_elem.text or "[TMDB]" not in d_elem.text:
-                                    d_elem.text = f"{new_d} [TMDB]"
-
+                                d_elem.text = f"{nd} [TMDB]"
+                        
                         if d_elem is not None and d_elem.text:
                             d_elem.text = formatear_descripcion_serie(d_elem.text)
 
                     new_root.append(prog)
-                    canales_con_programas.add(pid)
-                    count_prog += 1
-            
-            print(f"  Éxito: Se extrajeron {count_prog} programas.")
-            temp_root.clear()
-        except Exception as e:
-            print(f"  Error procesando {url}: {e}")
+                    programas_agregados.add(pid)
+                    count += 1
+            print(f"Agregados {count} programas.")
 
-    # Guardado
-    tree = ET.ElementTree(new_root)
-    tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
+        except Exception as e:
+            print(f"Error en fuente: {e}")
+
+    # Guardar
+    ET.ElementTree(new_root).write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
-        tree.write(f, encoding='utf-8', xml_declaration=True)
-    print(f"Proceso finalizado. Total canales: {len(canales_procesados)}")
+        f.write(ET.tostring(new_root, encoding='utf-8'))
+    
+    print(f"FIN: {len(canales_agregados)} canales con guía.")
 
 if __name__ == "__main__":
     filter_epg()
