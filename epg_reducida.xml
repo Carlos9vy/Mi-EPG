@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="EPG_Carlos_v14"><channel id="AMC.ar">
+<tv generator-info-name="EPG Pro v10 Corrected"><channel id="AMC.ar">
     <display-name>AR - AMC</display-name>
     <icon src="https://iptv-epg.org/logos/Argentina/AMC.ar.png" />
   </channel>
@@ -82,12 +82,12 @@
       <actor>Côme Thiry</actor>
     </credits>
     <date>2019</date>
-    <desc lang="es"> [TMDB]</desc>
+    <desc lang="es">Gemma y Tom buscan comprar su primera casa. Para ello, visitan una inmobiliaria donde los recibe un extraño agente de ventas, que los acompaña a una misteriosa y peculiar urbanización donde todas las casas son iguales.</desc>
     <icon src="https://cdn.mitvstatic.com/programs/fallback_movies_l_l.jpg" />
     <rating system="IMDB">
       <value>5.8</value>
     </rating>
-    <title lang="es">The Vivero Letter (2000)</title>
+    <title lang="es">Vivero</title>
     <title lang="en">Vivarium</title>
   </programme>
   <programme start="20260506055200 +0000" stop="20260506063900 +0000" channel="DiscoveryChannel.ar">
@@ -152,7 +152,8 @@ Vive las emociones de los partidos de la 67º edición de la CONMEBOL Libertador
     <title lang="es">Rosario Central (Arg) vs. Libertad (Par)</title>
   </programme>
   <programme start="20260506062700 +0000" stop="20260506071100 +0000" channel="NationalGeographic.ar">
-    <desc lang="es">Un profesor recientemente diagnosticado con una enfermedad terminal, regresa viejo y desilucionado  a su hogar en Australia para morir en la naturaleza, en donde creció siendo joven. Sus planes se complican cuando trayecto a su destino conoce a un niño deambulando a la deriba, que ha perdido a sus padres en un accidente, ese encuentro no estaba previsto y sin tiempo para cambiar sus plantes decide llevarlo. El y el muchacho no se llevan bien al principio, pero despues comienzan a entablar una amistad,  en el camino el niño recibirá una enseñanza de vida, justo las habilidades de la supervivencia. [TMDB]</desc>
+    <desc lang="es">S5 E3 | Boda tribal.
+Hazen viaja a Papúa Nueva Guinea para encontrarse con la tribu Mirr, cazadores-recolectores famosos por su rica cultura y por ser protectores feroces de su tierra y su gente.</desc>
     <icon src="https://cdn.mitvstatic.com/programs/ar_solo-contra-el-mundo-s05e03-boda-tribal_l_l.jpg" />
     <title lang="es">Solo contra el mundo (1980)</title>
     <title lang="en">Primal Survivor</title>
@@ -179,7 +180,8 @@ Vive las emociones de los partidos de la 67º edición de la CONMEBOL Libertador
     <title lang="es">Sportia</title>
   </programme>
   <programme start="20260506055000 +0000" stop="20260506064000 +0000" channel="UniversalTV.ar">
-    <desc lang="es">El Distrito 21 del Departamento de Policía de Chicago está compuesto de policías uniformados, que tratan con la delincuencia callejera, y la Unidad de Inteligencia, ocupada de los delitos graves como el tráfico de drogas y asesinatos de alto perfil. [TMDB]</desc>
+    <desc lang="es">S4 E3 | A toda potencia.
+Cuando Platt va a cenar a la casa de su padre, Robert, le advierte que tenga cuidado con su nueva novia, Natalie. Después de la cena, Platt es atacada físicamente cuando está entrando al auto.</desc>
     <icon src="https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_l.jpg" />
     <title lang="es">Policías de Chicago (2014)</title>
     <title lang="en">Chicago PD</title>
@@ -189,7 +191,8 @@ Vive las emociones de los partidos de la 67º edición de la CONMEBOL Libertador
     <title lang="es">Venus</title>
   </programme>
   <programme start="20260506060100 +0000" stop="20260506062400 +0000" channel="WarnerChannel.ar">
-    <desc lang="es">Charlie Harper un soltero que tiene todo lo que un hombre necesita: Dinero, un jaguar en el garaje y mujeres. Su informal estilo de vida en Malibú, es interrupida drásticamente con la llegada de su hermano Alan quien está muy deprimido tras afrontar un divorcio, y de su hijo de 10 años, Jake, que se mudan para quedarse a vivir con él. De este modo, juntos inician un camino en el que deben afrontar los retos e ir madurando poco a poco. [TMDB]</desc>
+    <desc lang="es">S8 E6 | Vibrando con tu mágico error.
+Charlie no haya qué hacer cuando descubre que la chica de su cita es cuatro años mayor que él. Alan, por su lado, usará su imaginación para consumir -antes de que expiren- las pastillas "azules" que tanto lo hacen disfrutar.</desc>
     <icon src="https://cdn.mitvstatic.com/programs/ar_dos-hombres-y-medio-s08e06-vibrando-con-tu-magico-error_l_l.jpg" />
     <title lang="es">Dos Hombres y Medio (2003)</title>
     <title lang="en">Two and a Half Men</title>
@@ -882,12 +885,12 @@ Francesco Rosario Capra tenía 6 años cuando sus padres abandonaron Bisacquino,
       <actor>Ava Telek</actor>
     </credits>
     <date>2018</date>
-    <desc lang="es">Estudiantes marginados se enfrentan a la vida en una escuela secundaria de Michigan en 1980. [TMDB]</desc>
+    <desc lang="es">Un padre trastornado (Hirsch) encierra a su hija de 7 años en una casa, advirtiéndola de los peligros que hay fuera. Pero el misterioso Sr. Snowcone (Dern) la convence para que se escape y se una a él en una búsqueda profunda de lazos familiares, libertad y venganza. [TMDB]</desc>
     <icon src="https://cdn.mitvstatic.com/programs/fallback_movies_l_l.jpg" />
     <rating system="IMDB">
       <value>6.7</value>
     </rating>
-    <title lang="es">Jóvenes y rebeldes (1999)</title>
+    <title lang="es">Freaks (2019)</title>
   </programme>
   <programme start="20260506080000 +0000" stop="20260506130000 +0000" channel="GolfChannel.co">
     <desc lang="es">Manténgase al día con todo lo que sucede en el mundo del golf con Golf Central, la única fuente de noticias diarias en vivo del juego.</desc>
@@ -1140,7 +1143,8 @@ Betty se disfraza de anciana para aceptar un trabajo temporal, solo para descubr
     <title lang="es">Sportia</title>
   </programme>
   <programme start="20260506061000 +0000" stop="20260506070000 +0000" channel="UniversalTV.co">
-    <desc lang="es">Las decisiones de los bomberos, equipos de rescate y paramédicos de la estación de bomberos 51 hacen la diferencia entre la vida y la muerte. Pero eso no es lo único, también se crea una gran familia entre los miembros del equipo. Dirigidos por el jefe Wallace Boden, la Unidad 51 lo deja todo en cada rescate de esta noble profesión. [TMDB]</desc>
+    <desc lang="es">S1 E22 | Los líderes lideran.
+Severide, frustrado, recurre a un aliado inusitado para resolver su dilema actual.</desc>
     <icon src="https://cdn.mitvstatic.com/programs/co_chicago-fire-t01e22-los-lideres-lideran_l_l.jpg" />
     <title lang="es">Chicago en llamas (2012)</title>
   </programme>
@@ -1149,7 +1153,8 @@ Betty se disfraza de anciana para aceptar un trabajo temporal, solo para descubr
     <title lang="es">Venus</title>
   </programme>
   <programme start="20260506055500 +0000" stop="20260506061700 +0000" channel="WarnerChannel.co">
-    <desc lang="es">Leonard y Sheldon son dos físicos que comparten trabajo y apartamento. La serie comienza con la mudanza de Penny, su nueva y atractiva vecina, y hace hincapié en la dificultad de los físicos para relacionarse con personas fuera de su entorno para dar lugar a situaciones cómicas. [TMDB]</desc>
+    <desc lang="es">S7 E12 | La ramificación de la indecisión.
+Después de que Leonard intenta ayudar a Penny a seguir un papel fallido en un programa de televisión, toma una decisión importante. Mientras tanto, Raj y Stuart intentan practicar sus habilidades sociales, y Sheldon intenta ser gracioso.</desc>
     <icon src="https://cdn.mitvstatic.com/programs/co_the-big-bang-theory-t07e12-the-hesitation-ramification_l_l.jpg" />
     <title lang="es">La Teoría del Big Bang (2007)</title>
   </programme>
@@ -1508,8 +1513,8 @@ Vive los partidos de la temporada 2026 de la MLB, con las emociones de la liga d
     <title lang="es">Obsesión Perfecta</title>
   </programme>
   <programme start="20260506071400 +0000" stop="20260506085800 +0000" channel="GoldenPremier2.mx">
-    <desc lang="es"> [TMDB]</desc>
-    <title lang="es">Because I Said So (2007)</title>
+    <desc lang="es">¡Porque lo digo yo!</desc>
+    <title lang="es">¡Porque lo digo yo!</title>
   </programme>
   <programme start="20260506062300 +0000" stop="20260506090800 +0000" channel="HBO2.mx">
     <category lang="es">C.Ficción</category>
