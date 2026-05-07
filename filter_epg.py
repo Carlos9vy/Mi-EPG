@@ -57,8 +57,17 @@ def similar(a, b):
     if a == b or a in b or b in a: return 1.0
     return SequenceMatcher(None, a, b).ratio()
 
-def formatear_descripcion_general(texto):
+def formatear_descripcion_quirurgica(texto):
+    """
+    Formatea el contenido extraído de <desc>.
+    Solo añade punto a la primera línea si hay un salto de línea posterior.
+    """
     if not texto: return ""
+    
+    # Limpiamos espacios basura al inicio/final pero mantenemos saltos internos
+    texto = texto.strip()
+    
+    # Manejo de Series con código (S1 E3 | Título.)
     patron_code = r'([TS]\d+\s?[E]\d+)'
     match = re.search(patron_code, texto, re.IGNORECASE)
     
@@ -69,14 +78,26 @@ def formatear_descripcion_general(texto):
         
         if "\n" in resto:
             partes = resto.split("\n", 1)
-            titulo_capitulo = partes[0].strip().replace(":", ".")
-            sinopsis = partes[1].strip()
-            return f"{code} | {titulo_capitulo}.\n{sinopsis}"
+            encabezado = partes[0].strip()
+            # Si el encabezado no tiene punto, se lo ponemos
+            if encabezado and not encabezado.endswith(('.', ':', '!', '?')):
+                encabezado += "."
+            return f"{code} | {encabezado}\n{partes[1].strip()}"
         else:
-            resto = resto.replace(":", ".")
-            return f"{code} | {resto}."
+            if resto and not resto.endswith(('.', ':', '!', '?')):
+                resto += "."
+            return f"{code} | {resto}"
+
+    # Manejo de Magacines/Otros (Primera línea sin código)
+    if "\n" in texto:
+        partes = texto.split("\n", 1)
+        primera_linea = partes[0].strip()
+        # Solo ponemos punto si es una línea corta (encabezado) y no tiene puntuación
+        if primera_linea and not primera_linea.endswith(('.', ':', '!', '?')):
+            primera_linea += "."
+        return f"{primera_linea}\n{partes[1].strip()}"
     
-    return texto.strip().replace(":", ".")
+    return texto
 
 def buscar_en_tmdb(lista_titulos):
     if not TMDB_KEY or not lista_titulos: return None, None, None
@@ -95,7 +116,6 @@ def buscar_en_tmdb(lista_titulos):
                     t_title = res.get('title') or res.get('name', '')
                     t_desc = res.get('overview', '')
                     if es_ingles(t_desc): t_desc = ""
-                    
                     date = res.get('release_date') or res.get('first_air_date') or ""
                     year = date[:4] if len(date) >= 4 else ""
                     if t_title and similar(query, t_title) > 0.45:
@@ -152,12 +172,11 @@ def filter_epg():
                     if f_req and f_req not in url_tag: continue
                     
                     titulos_disponibles = [t.text for t in prog.findall('title') if t.text]
-                    d_elem = prog.find('desc')
+                    d_elem = prog.find('desc') # AQUÍ TRABAJAMOS ESPECÍFICAMENTE CON LA DESCRIPCIÓN
                     
                     if titulos_disponibles:
                         orig_desc = d_elem.text if d_elem is not None else ""
-                        # Detectamos si la fuente original tiene info de episodio (S1 E1)
-                        es_serie_especifica = re.search(r'[TS]\d+\s?[E]\d+', orig_desc, re.IGNORECASE)
+                        es_serie_original = re.search(r'[TS]\d+\s?[E]\d+', orig_desc, re.IGNORECASE)
 
                         if pid in tmdb_whitelist:
                             new_t, new_d, new_y = buscar_en_tmdb(titulos_disponibles)
@@ -165,26 +184,19 @@ def filter_epg():
                                 main_title_elem = prog.find('title')
                                 main_title_elem.text = f"{new_t} ({new_y})" if new_y else new_t
                                 
-                                # LÓGICA DE PRIORIDAD SUGERIDA:
-                                # 1. Si TMDB tiene descripción de episodio (contiene S00 E00), la usamos.
-                                # 2. Si TMDB solo tiene descripción general y la original es específica, dejamos la original.
-                                # 3. Si ninguna es específica, usamos TMDB si está en español.
-                                
                                 tmdb_es_especifica = re.search(r'[TS]\d+\s?[E]\d+', new_d, re.IGNORECASE) if new_d else False
                                 
                                 if new_d:
                                     if tmdb_es_especifica:
-                                        # TMDB es mejor (tiene episodio detallado)
                                         if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
                                         d_elem.text = f"{new_d} [TMDB]"
-                                    elif not es_serie_especifica:
-                                        # Ninguno tiene episodio, usamos TMDB por calidad general
+                                    elif not es_serie_original:
                                         if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
                                         d_elem.text = f"{new_d} [TMDB]"
-                                    # Si es_serie_especifica es True y tmdb_es_especifica es False, NO HACEMOS NADA (queda la original)
 
+                        # Aplicamos el formato solo al contenido de <desc>
                         if d_elem is not None and d_elem.text:
-                            d_elem.text = formatear_descripcion_general(d_elem.text)
+                            d_elem.text = formatear_descripcion_quirurgica(d_elem.text)
 
                     new_root.append(prog)
                     programas_procesados.add(prog_id)
@@ -195,7 +207,7 @@ def filter_epg():
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
-    print("EPG Finalizada con éxito.")
+    print("EPG lista con corrección específica en descripciones.")
 
 if __name__ == "__main__":
     filter_epg()
