@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="EPG Pro v13 Debug"><channel id="AMC.ar">
+<tv generator-info-name="EPG_Carlos_v14"><channel id="AMC.ar">
     <display-name>AR - AMC</display-name>
     <icon src="https://iptv-epg.org/logos/Argentina/AMC.ar.png" />
   </channel>
