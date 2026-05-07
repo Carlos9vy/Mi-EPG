@@ -1225,10 +1225,6 @@
     <display-name>BO - TNT Novelas</display-name>
     <icon src="https://iptv-epg.org/logos/Bolivia/TNTNovelas.bo.png" />
   </channel>
-  <programme start="20260506030900 +0000" stop="20260506040000 +0000" channel="TNTNovelas.bo">
-    <desc lang="es">El Chico De Oro.</desc>
-    <title lang="es">El Chico De Oro</title>
-  </programme>
   <programme start="20260506040000 +0000" stop="20260506045100 +0000" channel="TNTNovelas.bo">
     <desc lang="es">Sin Tetas no hay paraíso.</desc>
     <title lang="es">Sin Tetas no hay paraíso</title>
