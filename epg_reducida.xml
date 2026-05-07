@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="EPG Pro Ultra UI v7"><channel id="ESPN.co"><display-name>ESPN.co</display-name><icon src="https://images.open-epg.com/25689.png" /></channel>
+<tv generator-info-name="EPG Pro Ultra v8 Anti-Crash"><channel id="ESPN.co"><display-name>ESPN.co</display-name><icon src="https://images.open-epg.com/25689.png" /></channel>
 <channel id="Win+Futbol.co"><display-name>Win+Futbol.co</display-name><icon src="https://images.open-epg.com/26679.png" /></channel>
 <channel id="CGTN Documentary.es"><display-name>CGTN Documentary.es</display-name><icon src="https://images.open-epg.com/12901029.png" /></channel>
 <channel id="CLAROSPORTS.ve"><display-name>CLAROSPORTS.ve</display-name><icon src="https://images.open-epg.com/12665706.png" /></channel>
