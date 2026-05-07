@@ -42,6 +42,12 @@ OUTPUT_GZ = "epg_reducida.xml.gz"
 TMDB_KEY = os.getenv('TMDB_API_KEY')
 cache_tmdb = {}
 
+def es_ingles(texto):
+    if not texto: return False
+    palabras_en = {'the', 'and', 'with', 'from', 'season', 'episode', 'series'}
+    palabras_texto = set(re.findall(r'\b\w+\b', texto.lower()))
+    return len(palabras_texto.intersection(palabras_en)) > 2
+
 def remover_tildes(texto):
     if not texto: return ""
     return ''.join(c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn').lower()
@@ -51,65 +57,55 @@ def similar(a, b):
     if a == b or a in b or b in a: return 1.0
     return SequenceMatcher(None, a, b).ratio()
 
-def formatear_descripcion_serie(texto):
-    """
-    Formato: S1 E3 | Título del capítulo.
-    Mantiene el salto de línea para la sinopsis.
-    """
+def formatear_descripcion_general(texto):
     if not texto: return ""
-    
-    # Patrón para detectar códigos de temporada/episodio
     patron_code = r'([TS]\d+\s?[E]\d+)'
     match = re.search(patron_code, texto, re.IGNORECASE)
     
     if match:
         code = match.group().upper().strip()
-        # Extraemos el resto y limpiamos basura como el guion largo (—)
         resto = texto.replace(match.group(), "").strip()
         resto = re.sub(r'^[:\-\s—]+', '', resto)
         
-        # Si hay un salto de línea en la fuente original, lo respetamos
         if "\n" in resto:
             partes = resto.split("\n", 1)
             titulo_capitulo = partes[0].strip().replace(":", ".")
             sinopsis = partes[1].strip()
-            # Retornamos con el punto después del título del capítulo y el salto de línea
             return f"{code} | {titulo_capitulo}.\n{sinopsis}"
         else:
-            # Si no hay salto, solo aplicamos punto y barra
             resto = resto.replace(":", ".")
             return f"{code} | {resto}."
-            
-    return texto
+    
+    return texto.strip().replace(":", ".")
 
-def buscar_en_tmdb(titulo_original):
-    if not TMDB_KEY or not titulo_original: return None, None, None
-    query = re.sub(r'\(.*?\)|\[.*?\]', '', titulo_original).replace('|', '').strip()
-    query_norm = remover_tildes(query)
-    
-    if query_norm in cache_tmdb: return cache_tmdb[query_norm]
-    
-    try:
-        time.sleep(0.2)
-        url = f"https://api.themoviedb.org/3/search/multi?api_key={TMDB_KEY}&query={urllib.parse.quote(query)}&language=es-MX"
-        r = requests.get(url, timeout=10)
-        if r.status_code == 200:
-            results = r.json().get('results', [])
-            for res in results[:3]:
-                t_title = res.get('title') or res.get('name', '')
-                t_desc = res.get('overview', '')
-                date = res.get('release_date') or res.get('first_air_date') or ""
-                year = date[:4] if len(date) >= 4 else ""
-                if t_title and similar(query, t_title) > 0.45:
-                    cache_tmdb[query_norm] = (t_title, t_desc, year)
-                    return t_title, t_desc, year
-    except: pass
+def buscar_en_tmdb(lista_titulos):
+    if not TMDB_KEY or not lista_titulos: return None, None, None
+    for titulo in lista_titulos:
+        if not titulo: continue
+        query = re.sub(r'\(.*?\)|\[.*?\]', '', titulo).replace('|', '').strip()
+        query_norm = remover_tildes(query)
+        if query_norm in cache_tmdb: return cache_tmdb[query_norm]
+        try:
+            time.sleep(0.2)
+            url = f"https://api.themoviedb.org/3/search/multi?api_key={TMDB_KEY}&query={urllib.parse.quote(query)}&language=es-MX"
+            r = requests.get(url, timeout=10)
+            if r.status_code == 200:
+                results = r.json().get('results', [])
+                for res in results[:3]:
+                    t_title = res.get('title') or res.get('name', '')
+                    t_desc = res.get('overview', '')
+                    if es_ingles(t_desc): t_desc = ""
+                    
+                    date = res.get('release_date') or res.get('first_air_date') or ""
+                    year = date[:4] if len(date) >= 4 else ""
+                    if t_title and similar(query, t_title) > 0.45:
+                        cache_tmdb[query_norm] = (t_title, t_desc, year)
+                        return t_title, t_desc, year
+        except: continue
     return None, None, None
 
 def filter_epg():
-    if not os.path.exists(CANALES_FILE): 
-        print(f"Error: No se encuentra {CANALES_FILE}")
-        return
+    if not os.path.exists(CANALES_FILE): return
     
     whitelist = {}
     with open(CANALES_FILE, 'r', encoding='utf-8') as f:
@@ -124,7 +120,6 @@ def filter_epg():
                 whitelist[line] = None
 
     tmdb_whitelist = set(line.strip() for line in (open(TMDB_CHANNELS_FILE, 'r', encoding='utf-8') if os.path.exists(TMDB_CHANNELS_FILE) else []))
-    
     new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro v10 Final'})
     canales_procesados = set()
     programas_procesados = set()
@@ -132,19 +127,13 @@ def filter_epg():
     for url in EPG_SOURCES:
         url_tag = url.lower()
         try:
-            print(f"Descargando: {url.split('/')[-1]}")
             r = requests.get(url, timeout=45)
             if r.status_code != 200: continue
-            
             content = r.content
             if url.endswith(".gz") or content[:2] == b'\x1f\x8b':
                 content = gzip.decompress(content)
-            
-            try:
-                temp_root = ET.fromstring(content)
-            except: continue
+            temp_root = ET.fromstring(content)
 
-            # Procesar canales
             for channel in temp_root.findall('channel'):
                 cid = channel.get('id')
                 if cid in whitelist and cid not in canales_procesados:
@@ -153,59 +142,60 @@ def filter_epg():
                     new_root.append(channel)
                     canales_procesados.add(cid)
 
-            # Procesar programas
             for prog in temp_root.findall('programme'):
                 pid = prog.get('channel')
                 start_time = prog.get('start')
-                
-                # Evitar duplicados si el programa ya se procesó para este canal/hora
                 prog_id = f"{pid}_{start_time}"
                 
                 if pid in whitelist and prog_id not in programas_procesados:
                     f_req = whitelist[pid]
                     if f_req and f_req not in url_tag: continue
                     
-                    t_elem = prog.find('title')
+                    titulos_disponibles = [t.text for t in prog.findall('title') if t.text]
                     d_elem = prog.find('desc')
                     
-                    if t_elem is not None:
-                        orig_title = t_elem.text
+                    if titulos_disponibles:
                         orig_desc = d_elem.text if d_elem is not None else ""
-                        
-                        # Detectar si es una serie con episodio detallado
-                        es_serie = re.search(r'[TS]\d+\s?[E]\d+', orig_desc, re.IGNORECASE)
+                        # Detectamos si la fuente original tiene info de episodio (S1 E1)
+                        es_serie_especifica = re.search(r'[TS]\d+\s?[E]\d+', orig_desc, re.IGNORECASE)
 
-                        # LÓGICA TMDB
                         if pid in tmdb_whitelist:
-                            new_t, new_d, new_y = buscar_en_tmdb(orig_title)
+                            new_t, new_d, new_y = buscar_en_tmdb(titulos_disponibles)
                             if new_t:
-                                # Agregamos año al título
-                                t_elem.text = f"{new_t} ({new_y})" if new_y else new_t
-                                # Solo usamos descripción de TMDB si la original está vacía o no es episodio específico
-                                if not es_serie or not orig_desc:
-                                    if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
-                                    d_elem.text = f"{new_d} [TMDB]"
+                                main_title_elem = prog.find('title')
+                                main_title_elem.text = f"{new_t} ({new_y})" if new_y else new_t
+                                
+                                # LÓGICA DE PRIORIDAD SUGERIDA:
+                                # 1. Si TMDB tiene descripción de episodio (contiene S00 E00), la usamos.
+                                # 2. Si TMDB solo tiene descripción general y la original es específica, dejamos la original.
+                                # 3. Si ninguna es específica, usamos TMDB si está en español.
+                                
+                                tmdb_es_especifica = re.search(r'[TS]\d+\s?[E]\d+', new_d, re.IGNORECASE) if new_d else False
+                                
+                                if new_d:
+                                    if tmdb_es_especifica:
+                                        # TMDB es mejor (tiene episodio detallado)
+                                        if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
+                                        d_elem.text = f"{new_d} [TMDB]"
+                                    elif not es_serie_especifica:
+                                        # Ninguno tiene episodio, usamos TMDB por calidad general
+                                        if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
+                                        d_elem.text = f"{new_d} [TMDB]"
+                                    # Si es_serie_especifica es True y tmdb_es_especifica es False, NO HACEMOS NADA (queda la original)
 
-                        # APLICAR FORMATEO DE SERIE (Punto, Barra y Salto de línea)
                         if d_elem is not None and d_elem.text:
-                            d_elem.text = formatear_descripcion_serie(d_elem.text)
+                            d_elem.text = formatear_descripcion_general(d_elem.text)
 
                     new_root.append(prog)
                     programas_procesados.add(prog_id)
-            
             temp_root.clear()
-        except Exception as e:
-            print(f"Error procesando {url}: {e}")
+        except: pass
 
-    # Guardado final
-    print(f"Guardando archivos en {OUTPUT_FILE}...")
     tree = ET.ElementTree(new_root)
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
-    
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
-    
-    print("¡Proceso completado con éxito!")
+    print("EPG Finalizada con éxito.")
 
 if __name__ == "__main__":
     filter_epg()
