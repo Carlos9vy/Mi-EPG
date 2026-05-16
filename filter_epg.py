@@ -35,27 +35,8 @@ EPG_SOURCES = [
 ]
 
 CANALES_FILE = "canales.txt"
-TMDB_CHANNELS_FILE = "tmdb_channels.txt"
 OUTPUT_FILE = "epg_reducida.xml"
 OUTPUT_GZ = "epg_reducida.xml.gz"
-
-TMDB_KEY = os.getenv('TMDB_API_KEY')
-cache_tmdb = {}
-
-def es_ingles(texto):
-    if not texto: return False
-    palabras_en = {'the', 'and', 'with', 'from', 'season', 'episode', 'series'}
-    palabras_texto = set(re.findall(r'\b\w+\b', texto.lower()))
-    return len(palabras_texto.intersection(palabras_en)) > 2
-
-def remover_tildes(texto):
-    if not texto: return ""
-    return ''.join(c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn').lower()
-
-def similar(a, b):
-    a, b = remover_tildes(a), remover_tildes(b)
-    if a == b or a in b or b in a: return 1.0
-    return SequenceMatcher(None, a, b).ratio()
 
 def formatear_descripcion_quirurgica(texto):
     """
@@ -97,35 +78,15 @@ def formatear_descripcion_quirurgica(texto):
             primera_linea += "."
         return f"{primera_linea}\n{partes[1].strip()}"
     
+    # Texto simple sin saltos
+    if texto and not texto.endswith(('.', ':', '!', '?')):
+        texto += "."
     return texto
 
-def buscar_en_tmdb(lista_titulos):
-    if not TMDB_KEY or not lista_titulos: return None, None, None
-    for titulo in lista_titulos:
-        if not titulo: continue
-        query = re.sub(r'\(.*?\)|\[.*?\]', '', titulo).replace('|', '').strip()
-        query_norm = remover_tildes(query)
-        if query_norm in cache_tmdb: return cache_tmdb[query_norm]
-        try:
-            time.sleep(0.2)
-            url = f"https://api.themoviedb.org/3/search/multi?api_key={TMDB_KEY}&query={urllib.parse.quote(query)}&language=es-MX"
-            r = requests.get(url, timeout=10)
-            if r.status_code == 200:
-                results = r.json().get('results', [])
-                for res in results[:3]:
-                    t_title = res.get('title') or res.get('name', '')
-                    t_desc = res.get('overview', '')
-                    if es_ingles(t_desc): t_desc = ""
-                    date = res.get('release_date') or res.get('first_air_date') or ""
-                    year = date[:4] if len(date) >= 4 else ""
-                    if t_title and similar(query, t_title) > 0.45:
-                        cache_tmdb[query_norm] = (t_title, t_desc, year)
-                        return t_title, t_desc, year
-        except: continue
-    return None, None, None
-
 def filter_epg():
-    if not os.path.exists(CANALES_FILE): return
+    if not os.path.exists(CANALES_FILE): 
+        print(f"Error: No se encuentra el archivo {CANALES_FILE}")
+        return
     
     whitelist = {}
     with open(CANALES_FILE, 'r', encoding='utf-8') as f:
@@ -139,7 +100,6 @@ def filter_epg():
             else:
                 whitelist[line] = None
 
-    tmdb_whitelist = set(line.strip() for line in (open(TMDB_CHANNELS_FILE, 'r', encoding='utf-8') if os.path.exists(TMDB_CHANNELS_FILE) else []))
     new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro v10 Final'})
     canales_procesados = set()
     programas_procesados = set()
@@ -154,6 +114,7 @@ def filter_epg():
                 content = gzip.decompress(content)
             temp_root = ET.fromstring(content)
 
+            # 1. Procesar Canales
             for channel in temp_root.findall('channel'):
                 cid = channel.get('id')
                 if cid in whitelist and cid not in canales_procesados:
@@ -162,52 +123,35 @@ def filter_epg():
                     new_root.append(channel)
                     canales_procesados.add(cid)
 
+            # 2. Procesar Programas (Descripciones)
             for prog in temp_root.findall('programme'):
                 pid = prog.get('channel')
                 start_time = prog.get('start')
                 prog_id = f"{pid}_{start_time}"
                 
-                if pid in whitelist and prog_id not in programas_procesados:
+                if pid in whitelist and prog_id not in programas_processed_check := prog_id in programas_procesados:
+                    if prog_id in programas_procesados: continue
                     f_req = whitelist[pid]
                     if f_req and f_req not in url_tag: continue
                     
-                    titulos_disponibles = [t.text for t in prog.findall('title') if t.text]
-                    d_elem = prog.find('desc') # AQUÍ TRABAJAMOS ESPECÍFICAMENTE CON LA DESCRIPCIÓN
+                    d_elem = prog.find('desc')
                     
-                    if titulos_disponibles:
-                        orig_desc = d_elem.text if d_elem is not None else ""
-                        es_serie_original = re.search(r'[TS]\d+\s?[E]\d+', orig_desc, re.IGNORECASE)
-
-                        if pid in tmdb_whitelist:
-                            new_t, new_d, new_y = buscar_en_tmdb(titulos_disponibles)
-                            if new_t:
-                                main_title_elem = prog.find('title')
-                                main_title_elem.text = f"{new_t} ({new_y})" if new_y else new_t
-                                
-                                tmdb_es_especifica = re.search(r'[TS]\d+\s?[E]\d+', new_d, re.IGNORECASE) if new_d else False
-                                
-                                if new_d:
-                                    if tmdb_es_especifica:
-                                        if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
-                                        d_elem.text = f"{new_d} [TMDB]"
-                                    elif not es_serie_original:
-                                        if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
-                                        d_elem.text = f"{new_d} [TMDB]"
-
-                        # Aplicamos el formato solo al contenido de <desc>
-                        if d_elem is not None and d_elem.text:
-                            d_elem.text = formatear_descripcion_quirurgica(d_elem.text)
+                    # Formateamos quirúrgicamente la descripción original de la fuente
+                    if d_elem is not None and d_elem.text:
+                        d_elem.text = formatear_descripcion_quirurgica(d_elem.text)
 
                     new_root.append(prog)
                     programas_procesados.add(prog_id)
             temp_root.clear()
-        except: pass
+        except Exception as e: 
+            print(f"Error procesando fuente {url.split('/')[-1]}: {e}")
+            pass
 
     tree = ET.ElementTree(new_root)
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
-    print("EPG lista con corrección específica en descripciones.")
+    print("EPG procesada con éxito sin TMDB.")
 
 if __name__ == "__main__":
     filter_epg()
