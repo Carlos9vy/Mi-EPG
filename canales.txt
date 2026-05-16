@@ -100,7 +100,7 @@ ESPN4.uy
 ESPN 4.mx (open-epg)
 ESPN5.ec
 ESPN5.uy
-Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv (epgshare01)
+Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv
 ESPN6.uy
 ESPN7.ec
 ESPN7.uy
@@ -190,7 +190,7 @@ TNT SPORTS PREMIUM.ar
 Tooncast.co
 TVE.uy
 TUDNMexico.mx (iptv-epg)
-Canal.TUDN.(México).sv (epgshare01)
+Canal.TUDN.(México).sv
 TUDNMexico.gt
 TyCSports.ar
 TyCSports.co
@@ -213,7 +213,7 @@ UltraMex.us (iptv-epg)
 UltraTainment.us (iptv-epg)
 Venus.ar
 Venus.co
-VENEVISION.ve
+VENEVISION.ve (open-epg)
 WarnerChannel.ar
 WarnerChannel.co
 WinSports.co
