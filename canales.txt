@@ -154,7 +154,7 @@ MTV.es
 NationalGeographic.ar
 Nick.cl
 Pasiones.co
-Plim Plim.ar
+PlimPlim.ar (open-epg)
 Playboy.co
 RaiItalia.cl
 SkySports16.mx
