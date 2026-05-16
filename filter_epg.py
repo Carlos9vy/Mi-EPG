@@ -39,16 +39,9 @@ OUTPUT_FILE = "epg_reducida.xml"
 OUTPUT_GZ = "epg_reducida.xml.gz"
 
 def formatear_descripcion_quirurgica(texto):
-    """
-    Formatea el contenido extraído de <desc>.
-    Solo añade punto a la primera línea si hay un salto de línea posterior.
-    """
     if not texto: return ""
-    
-    # Limpiamos espacios basura al inicio/final pero mantenemos saltos internos
     texto = texto.strip()
     
-    # Manejo de Series con código (S1 E3 | Título.)
     patron_code = r'([TS]\d+\s?[E]\d+)'
     match = re.search(patron_code, texto, re.IGNORECASE)
     
@@ -60,7 +53,6 @@ def formatear_descripcion_quirurgica(texto):
         if "\n" in resto:
             partes = resto.split("\n", 1)
             encabezado = partes[0].strip()
-            # Si el encabezado no tiene punto, se lo ponemos
             if encabezado and not encabezado.endswith(('.', ':', '!', '?')):
                 encabezado += "."
             return f"{code} | {encabezado}\n{partes[1].strip()}"
@@ -69,16 +61,13 @@ def formatear_descripcion_quirurgica(texto):
                 resto += "."
             return f"{code} | {resto}"
 
-    # Manejo de Magacines/Otros (Primera línea sin código)
     if "\n" in texto:
         partes = texto.split("\n", 1)
         primera_linea = partes[0].strip()
-        # Solo ponemos punto si es una línea corta (encabezado) y no tiene puntuación
         if primera_linea and not primera_linea.endswith(('.', ':', '!', '?')):
             primera_linea += "."
         return f"{primera_linea}\n{partes[1].strip()}"
     
-    # Texto simple sin saltos
     if texto and not texto.endswith(('.', ':', '!', '?')):
         texto += "."
     return texto
@@ -104,14 +93,25 @@ def filter_epg():
     canales_procesados = set()
     programas_procesados = set()
 
+    # CORRECCIÓN: Definimos los Headers para saltar bloqueos de seguridad
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    }
+
     for url in EPG_SOURCES:
         url_tag = url.lower()
+        nombre_archivo = url.split('/')[-1]
         try:
-            r = requests.get(url, timeout=45)
-            if r.status_code != 200: continue
+            # CORRECCIÓN: Agregamos headers y un timeout prudente de 30 segundos
+            r = requests.get(url, headers=headers, timeout=30)
+            if r.status_code != 200: 
+                print(f"Saltando {nombre_archivo}: Error de estado {r.status_code}")
+                continue
+                
             content = r.content
             if url.endswith(".gz") or content[:2] == b'\x1f\x8b':
                 content = gzip.decompress(content)
+            
             temp_root = ET.fromstring(content)
 
             # 1. Procesar Canales
@@ -123,35 +123,35 @@ def filter_epg():
                     new_root.append(channel)
                     canales_procesados.add(cid)
 
-            # 2. Procesar Programas (Descripciones)
+            # 2. Procesar Programas
             for prog in temp_root.findall('programme'):
                 pid = prog.get('channel')
                 start_time = prog.get('start')
                 prog_id = f"{pid}_{start_time}"
                 
-                # CORRECCIÓN AQUÍ: Condición limpia sin operadores extraños
                 if pid in whitelist and prog_id not in programas_procesados:
                     f_req = whitelist[pid]
                     if f_req and f_req not in url_tag: continue
                     
                     d_elem = prog.find('desc')
-                    
-                    # Formateamos quirúrgicamente la descripción original de la fuente
                     if d_elem is not None and d_elem.text:
                         d_elem.text = formatear_descripcion_quirurgica(d_elem.text)
 
                     new_root.append(prog)
                     programas_procesados.add(prog_id)
+            
+            print(f"Fuente procesada con éxito: {nombre_archivo}")
             temp_root.clear()
+            
         except Exception as e: 
-            print(f"Error procesando fuente {url.split('/')[-1]}: {e}")
+            print(f"Error procesando fuente {nombre_archivo}: {e}")
             pass
 
     tree = ET.ElementTree(new_root)
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
-    print("EPG procesada con éxito sin TMDB.")
+    print("EPG reducida generada con éxito combinando todas las fuentes.")
 
 if __name__ == "__main__":
     filter_epg()
