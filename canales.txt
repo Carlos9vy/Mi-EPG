@@ -189,7 +189,8 @@ TNTSportsPremium.cl
 TNT SPORTS PREMIUM.ar
 Tooncast.co
 TVE.uy
-Canal.TUDN.(México).sv
+TUDNMexico.mx (iptv-epg)
+Canal.TUDN.(México).sv (epgshare01)
 TUDNMexico.gt
 TyCSports.ar
 TyCSports.co
@@ -198,6 +199,18 @@ UniversalTV.co
 UniversalTV.ar
 UNIVERSO.us
 USA.uy
+UltraBanda.us (iptv-epg)
+UltraCine.us (iptv-epg)
+UltraClasico.us (iptv-epg)
+UltraDocumentary.us (iptv-epg)
+UltraFamilia.us (iptv-epg)
+UltraFiesta.us (iptv-epg)
+UltraFilm.us (iptv-epg)
+UltraKidz.us (iptv-epg)
+UltraLuna.us (iptv-epg)
+UltraMacho.us (iptv-epg)
+UltraMex.us (iptv-epg)
+UltraTainment.us (iptv-epg)
 Venus.ar
 Venus.co
 VENEVISION.ve
