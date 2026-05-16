@@ -9,7 +9,7 @@ EcuadorTV.ec
 OromarTV.ec
 A&E.co
 AMC.ar
-AMCSeries.ar
+AmcSeries.ar (open-epg)
 AXN.co
 AmericaTelevision.pe
 AnimalPlanet.co
@@ -65,7 +65,7 @@ DiscoveryWorld.co
 DisneyChannel.co
 DisneyChannel.ar
 DISNEYJR.uy
-E!.cl
+ENTERTAINMENTTELEVISION.uy
 ElGourmet.co
 Enlace.co
 EnlaceJuvenil.co
@@ -85,26 +85,26 @@ ESPN2.ar
 ESPN2.cl
 ESPN2.co
 ESPN2Colombia.ec
-ESPN2.mx
+ESPN 2.mx (open-epg)
 ESPN3Andina.ec
 ESPN3.ar
 ESPN3.co
 ESPN3.uy
 ESPN3.cl
-ESPN3.mx
+ESPN 3.mx (open-epg)
 ESPN4.ec
 ESPN4.ar
 ESPN4.cl
 ESPN4.uy
-Canal.ESPN.4.(México).sv
+ESPN 4.mx (open-epg)
 ESPN5.ec
 ESPN5.uy
-Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv
+Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv (epgshare01)
 ESPN6.uy
 ESPN7.ec
 ESPN7.uy
 Canal.ESPN.Premium.(Chile).sv
-ESPN Premium.cl
+ESPN Premium HD.cl (open-epg)
 ESPN PREMIUM HD.ar
 ESPN+.mx
 FOXSportsConoSur.ar
