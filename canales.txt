@@ -49,6 +49,7 @@ DIRECTVSports2.pe
 DSPORTS 2 HD.ve
 DIRECTVSports+.cl
 DIRECTVSports+.pe
+DSPORTS + HD.ve (open-epg)
 DSPORTS + HD.ve
 DIRECTVSportsFight.cl
 DIRECTVSportsFight.pe
