@@ -3,10 +3,18 @@ import requests
 import gzip
 import io
 
-# Las 9 fuentes en orden
+# --- LAS 20 FUENTES COMPLETAS EN ORDEN ---
 EPG_SOURCES = [
-    "https://iptv-epg.org/files/epg-ztjwyq.xml",
-    "https://www.open-epg.com/generate/aYzuzNSenh.xml",
+    "https://iptv-epg.org/files/epg-ar.xml",
+    "https://iptv-epg.org/files/epg-cl.xml",
+    "https://iptv-epg.org/files/epg-co.xml",
+    "https://iptv-epg.org/files/epg-ec.xml",
+    "https://iptv-epg.org/files/epg-mx.xml",
+    "https://iptv-epg.org/files/epg-pe.xml",
+    "https://iptv-epg.org/files/epg-es.xml",
+    "https://iptv-epg.org/files/epg-us.xml",
+    "https://iptv-epg.org/files/epg-uy.xml",
+    "https://iptv-epg.org/files/epg-ve.xml",
     "https://iptv-epg.org/files/epg-bo.xml",
     "https://iptv-epg.org/files/epg-cr.xml",
     "https://iptv-epg.org/files/epg-do.xml",
@@ -15,10 +23,22 @@ EPG_SOURCES = [
     "https://iptv-epg.org/files/epg-hn.xml",
     "https://iptv-epg.org/files/epg-py.xml",
     "https://iptv-epg.org/files/epg-pa.xml",
-    "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz" 
+    "https://www.open-epg.com/generate/aYzuzNSenh.xml",
+    "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz"
 ]
 
 ARCHIVO_SALIDA = "lista_todos_los_ids.txt"
+
+def obtener_etiqueta_fuente(url):
+    """Detecta qué palabra clave poner entre paréntesis según la URL."""
+    url_low = url.lower()
+    if "iptv-epg.org" in url_low:
+        return "iptv-epg"
+    elif "open-epg.com" in url_low:
+        return "open-epg"
+    elif "epgshare01.online" in url_low:
+        return "epgshare01"
+    return "fuente"
 
 def extraer_todos_los_ids():
     headers = {'User-Agent': 'Mozilla/5.0'}
@@ -27,12 +47,13 @@ def extraer_todos_los_ids():
         f.write("REPORTE DE IDS DISPONIBLES POR FUENTE\n")
         f.write("====================================\n\n")
 
-        # Recorremos cada URL con su índice (1, 2, 3...)
         for i, url in enumerate(EPG_SOURCES, start=1):
-            print(f"Procesando Fuente {i}: {url}")
+            print(f"Procesando Fuente {i}/{len(EPG_SOURCES)}: {url.split('/')[-1]}")
             
-            # Escribimos el encabezado para esta URL
-            f.write(f"--- ID URL {i} ({url}) ---\n")
+            # Encabezado con el formato que lee tu flujo de trabajo
+            f.write(f"Fuente {i}: {url}\n")
+            
+            etiqueta = obtener_etiqueta_fuente(url)
             
             try:
                 r = requests.get(url, headers=headers, timeout=60)
@@ -45,9 +66,9 @@ def extraer_todos_los_ids():
                 for event, elem in context:
                     if elem.tag == 'channel':
                         canal_id = elem.get('id')
-                        nombre = elem.findtext('display-name') or "Sin nombre"
                         if canal_id:
-                            f.write(f"{canal_id}  |  ({nombre})\n")
+                            # Te escribe directo el formato: id_canal (identificador)
+                            f.write(f"{canal_id.strip()} ({etiqueta})\n")
                             contador += 1
                         elem.clear()
                 
@@ -56,8 +77,9 @@ def extraer_todos_los_ids():
                 
             except Exception as e:
                 f.write(f"Error al procesar esta fuente: {e}\n\n")
+                print(f"Error en Fuente {i}: {e}")
     
-    print(f"¡Hecho! El archivo {ARCHIVO_SALIDA} ha sido organizado por fuentes.")
+    print(f"¡Hecho! Lista generada en {ARCHIVO_SALIDA}")
 
 if __name__ == "__main__":
     extraer_todos_los_ids()
