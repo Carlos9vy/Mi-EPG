@@ -129,8 +129,8 @@ def filter_epg():
                 start_time = prog.get('start')
                 prog_id = f"{pid}_{start_time}"
                 
-                if pid in whitelist and prog_id not in programas_processed_check := prog_id in programas_procesados:
-                    if prog_id in programas_procesados: continue
+                # CORRECCIÓN AQUÍ: Condición limpia sin operadores extraños
+                if pid in whitelist and prog_id not in programas_procesados:
                     f_req = whitelist[pid]
                     if f_req and f_req not in url_tag: continue
                     
