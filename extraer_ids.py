@@ -30,7 +30,6 @@ EPG_SOURCES = [
 ARCHIVO_SALIDA = "lista_todos_los_ids.txt"
 
 def obtener_etiqueta_fuente(url):
-    """Detecta qué palabra clave poner entre paréntesis según la URL."""
     url_low = url.lower()
     if "iptv-epg.org" in url_low:
         return "iptv-epg"
@@ -41,7 +40,10 @@ def obtener_etiqueta_fuente(url):
     return "fuente"
 
 def extraer_todos_los_ids():
-    headers = {'User-Agent': 'Mozilla/5.0'}
+    # Fingimos ser un navegador real para que no nos bloqueen
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    }
     
     with open(ARCHIVO_SALIDA, 'w', encoding='utf-8') as f:
         f.write("REPORTE DE IDS DISPONIBLES POR FUENTE\n")
@@ -49,14 +51,12 @@ def extraer_todos_los_ids():
 
         for i, url in enumerate(EPG_SOURCES, start=1):
             print(f"Procesando Fuente {i}/{len(EPG_SOURCES)}: {url.split('/')[-1]}")
-            
-            # Encabezado con el formato que lee tu flujo de trabajo
             f.write(f"Fuente {i}: {url}\n")
-            
             etiqueta = obtener_etiqueta_fuente(url)
             
             try:
-                r = requests.get(url, headers=headers, timeout=60)
+                # CORRECCIÓN: Pasamos los headers y reducimos el timeout a 15 segundos
+                r = requests.get(url, headers=headers, timeout=15)
                 r.raise_for_status()
                 
                 content = gzip.decompress(r.content) if (url.endswith(".gz") or r.content[:2] == b'\x1f\x8b') else r.content
@@ -67,7 +67,6 @@ def extraer_todos_los_ids():
                     if elem.tag == 'channel':
                         canal_id = elem.get('id')
                         if canal_id:
-                            # Te escribe directo el formato: id_canal (identificador)
                             f.write(f"{canal_id.strip()} ({etiqueta})\n")
                             contador += 1
                         elem.clear()
@@ -76,8 +75,9 @@ def extraer_todos_los_ids():
                 f.write("-" * 50 + "\n\n")
                 
             except Exception as e:
-                f.write(f"Error al procesar esta fuente: {e}\n\n")
-                print(f"Error en Fuente {i}: {e}")
+                # Si una fuente falla o tarda más de 15 segundos, se escribe el error y se salta a la siguiente
+                f.write(f"Error o Tiempo Límite excedido en esta fuente: {e}\n\n")
+                print(f"Saltando Fuente {i} por error: {e}")
     
     print(f"¡Hecho! Lista generada en {ARCHIVO_SALIDA}")
 
