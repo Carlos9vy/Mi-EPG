@@ -45,14 +45,10 @@ def obtener_etiqueta_fuente(url):
     return "fuente"
 
 def formatear_descripcion_quirurgica(texto):
-    """
-    Aplica tus correcciones visuales a la descripción original de la fuente.
-    Mantiene barras, códigos de series y añade puntos antes de los saltos de línea.
-    """
     if not texto: return ""
     texto = texto.strip()
     
-    # Formato para Series (ej. S1 E3 o T1 E2)
+    # 1. Manejo de Series con códigos tipo S1 E3 o T1 E2
     patron_code = r'([TS]\d+\s?[E]\d+)'
     match = re.search(patron_code, texto, re.IGNORECASE)
     
@@ -72,15 +68,17 @@ def formatear_descripcion_quirurgica(texto):
                 resto += "."
             return f"{code} | {resto}"
 
-    # Formateo para Magacines u otros programas con saltos de línea
+    # 2. Formato de barras para saltos de línea (como en Antena 3)
     if "\n" in texto:
-        partes = texto.split("\n", 1)
-        primera_linea = partes[0].strip()
-        if primera_linea and not primera_linea.endswith(('.', ':', '!', '?')):
-            primera_linea += "."
-        return f"{primera_linea}\n{partes[1].strip()}"
-    
-    # Texto simple
+        partes = [p.strip() for p in texto.split("\n") if p.strip()]
+        if len(partes) >= 2:
+            subtitulo = partes[0]
+            cuerpo = " ".join(partes[1:])
+            if subtitulo and not subtitulo.endswith(('.', ':', '!', '?')):
+                return f"{subtitulo} | {cuerpo}"
+            return f"{subtitulo} {cuerpo}"
+
+    # 3. Texto plano de una sola línea
     if texto and not texto.endswith(('.', ':', '!', '?')):
         texto += "."
     return texto
@@ -124,50 +122,52 @@ def filter_epg():
             if url.endswith(".gz") or content[:2] == b'\x1f\x8b':
                 content = gzip.decompress(content)
             
-            context = ET.iterparse(io.BytesIO(content), events=('end',))
+            # CORRECCIÓN: Obtenemos el contexto y el root del archivo para limpiarlo de forma segura
+            context = ET.iterparse(io.BytesIO(content), events=('start', 'end'))
+            context = iter(context)
+            event, root_fuente = next(context)
             
+            contador = 0
             for event, elem in context:
-                # 1. Procesar Canales (Mantiene la estructura intacta)
-                if elem.tag == 'channel':
-                    cid = elem.get('id')
-                    if cid in whitelist and cid not in canales_procesados:
-                        f_req = whitelist[cid]
-                        if f_req and f_req != etiqueta_actual: 
-                            elem.clear()
-                            continue
-                        
-                        clon_canal = copy.deepcopy(elem)
-                        new_root.append(clon_canal)
-                        canales_procesados.add(cid)
-                    
-                    elem.clear()
+                if event == 'end':
+                    # 1. Procesar Canales
+                    if elem.tag == 'channel':
+                        cid = elem.get('id')
+                        if cid in whitelist and cid not in canales_procesados:
+                            f_req = whitelist[cid]
+                            if f_req and f_req != etiqueta_actual: 
+                                continue
+                            
+                            clon_canal = copy.deepcopy(elem)
+                            new_root.append(clon_canal)
+                            canales_procesados.add(cid)
 
-                # 2. Procesar Programas (Respeta la información e historial tal cual viene de la fuente)
-                elif elem.tag == 'programme':
-                    pid = elem.get('channel')
-                    start_time = elem.get('start')
-                    prog_id = f"{pid}_{start_time}"
-                    
-                    if pid in whitelist and prog_id not in programas_procesados:
-                        f_req = whitelist[pid]
-                        if f_req and f_req != etiqueta_actual: 
-                            elem.clear()
-                            continue
+                    # 2. Procesar Programas
+                    elif elem.tag == 'programme':
+                        pid = elem.get('channel')
+                        start_time = elem.get('start')
+                        prog_id = f"{pid}_{start_time}"
                         
-                        # Clonamos el programa original sin alterar sus fechas (start/stop)
-                        clon_prog = copy.deepcopy(elem)
-                        
-                        # Buscamos la descripción original para aplicar tus mejoras estéticas
-                        d_elem = clon_prog.find('desc')
-                        if d_elem is not None and d_elem.text:
-                            d_elem.text = formatear_descripcion_quirurgica(d_elem.text)
+                        if pid in whitelist and prog_id not in programas_procesados:
+                            f_req = whitelist[pid]
+                            if f_req and f_req != etiqueta_actual: 
+                                continue
+                            
+                            clon_prog = copy.deepcopy(elem)
+                            
+                            d_elem = clon_prog.find('desc')
+                            if d_elem is not None and d_elem.text:
+                                d_elem.text = formatear_descripcion_quirurgica(d_elem.text)
 
-                        new_root.append(clon_prog)
-                        programas_procesados.add(prog_id)
+                            new_root.append(clon_prog)
+                            programas_procesados.add(prog_id)
                     
-                    elem.clear()
+                    # CORRECCIÓN DE RAM SEGURO: Limpia el documento fuente por bloques sin romper los hilos
+                    contador += 1
+                    if contador % 10000 == 0:
+                        root_fuente.clear()
             
-            print(f"Fuente procesada con éxito: {nombre_archivo} ({etiqueta_actual})")
+            print(f"Fuente procesada al 100% con éxito: {nombre_archivo} ({etiqueta_actual})")
             
         except Exception as e: 
             print(f"Error procesando fuente {nombre_archivo}: {e}")
@@ -177,7 +177,7 @@ def filter_epg():
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
-    print("EPG reducida generada respetando fielmente los datos y tiempos de las fuentes.")
+    print("EPG reducida generada con éxito extrayendo absolutamente todos los días disponibles.")
 
 if __name__ == "__main__":
     filter_epg()
