@@ -1,16 +1,12 @@
-Import xml.etree.ElementTree as ET
+import xml.etree.ElementTree as ET
 import requests
 import os
 import gzip
 import io
-import time
 import re
-import urllib.parse
-import unicodedata
-from datetime import datetime, timedelta
-from difflib import SequenceMatcher
+import copy
 
-# --- CONFIGURACIÓN DE 20 FUENTES ---
+# --- CONFIGURACIÓN DE FUENTES ---
 EPG_SOURCES = [
     "https://iptv-epg.org/files/epg-ar.xml",
     "https://iptv-epg.org/files/epg-cl.xml",
@@ -35,71 +31,58 @@ EPG_SOURCES = [
 ]
 
 CANALES_FILE = "canales.txt"
-SHIFT_FILE = "shift.txt"
-TMDB_CHANNELS_FILE = "tmdb_channels.txt"
 OUTPUT_FILE = "epg_reducida.xml"
 OUTPUT_GZ = "epg_reducida.xml.gz"
 
-TMDB_KEY = os.getenv('TMDB_API_KEY')
-cache_tmdb = {}
+def obtener_etiqueta_fuente(url):
+    """Asigna la etiqueta exacta que el usuario escribe en canales.txt"""
+    url_low = url.lower()
+    if "iptv-epg.org" in url_low:
+        return "iptv-epg"
+    elif "open-epg.com" in url_low:
+        return "open-epg"
+    elif "epgshare01.online" in url_low:
+        return "epgshare01"
+    return "fuente"
 
-def remover_tildes(texto):
+def formatear_descripcion_quirurgica(texto):
     if not texto: return ""
-    return ''.join(c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn').lower()
-
-def similar(a, b):
-    a, b = remover_tildes(a), remover_tildes(b)
-    if a in b or b in a: return 1.0
-    return SequenceMatcher(None, a, b).ratio()
-
-def formatear_descripcion_serie(texto):
-    """Aplica el formato: S2 E14 | Título. Descripción..."""
-    if not texto: return ""
+    texto = texto.strip()
+    
     patron_code = r'([TS]\d+\s?[E]\d+)'
     match = re.search(patron_code, texto, re.IGNORECASE)
+    
     if match:
-        code = match.group().strip()
-        resto = texto.replace(code, "").strip()
-        if resto:
-            # Reemplazamos : por . y nos aseguramos de la barra |
-            resto = resto.replace(":", ".")
+        code = match.group().upper().strip()
+        resto = texto.replace(match.group(), "").strip()
+        resto = re.sub(r'^[:\-\s—]+', '', resto)
+        
+        if "\n" in resto:
+            partes = resto.split("\n", 1)
+            encabezado = partes[0].strip()
+            if encabezado and not encabezado.endswith(('.', ':', '!', '?')):
+                encabezado += "."
+            return f"{code} | {encabezado}\n{partes[1].strip()}"
+        else:
+            if resto and not resto.endswith(('.', ':', '!', '?')):
+                resto += "."
             return f"{code} | {resto}"
+
+    if "\n" in texto:
+        partes = texto.split("\n", 1)
+        primera_linea = partes[0].strip()
+        if primera_linea and not primera_linea.endswith(('.', ':', '!', '?')):
+            primera_linea += "."
+        return f"{primera_linea}\n{partes[1].strip()}"
+    
+    if texto and not texto.endswith(('.', ':', '!', '?')):
+        texto += "."
     return texto
 
-def apply_shift(timestr, hours_val):
-    if not timestr or len(timestr) < 14: return timestr
-    try:
-        base_time, offset = timestr[:14], timestr[15:]
-        dt = datetime.strptime(base_time, "%Y%m%d%H%M%S")
-        new_dt = dt + timedelta(minutes=int(float(hours_val) * 60))
-        return new_dt.strftime("%Y%m%d%H%M%S") + " " + offset
-    except: return timestr
-
-def buscar_en_tmdb(titulo_original):
-    if not TMDB_KEY or not titulo_original: return None, None, None
-    query = re.sub(r'\(.*?\)|\[.*?\]', '', titulo_original).replace('|', '').strip()
-    query_norm = remover_tildes(query)
-    if query_norm in cache_tmdb: return cache_tmdb[query_norm]
-    
-    try:
-        time.sleep(0.2)
-        url = f"https://api.themoviedb.org/3/search/multi?api_key={TMDB_KEY}&query={urllib.parse.quote(query)}&language=es-MX"
-        r = requests.get(url, timeout=10)
-        if r.status_code == 200:
-            results = r.json().get('results', [])
-            for res in results[:3]:
-                t_title = res.get('title') or res.get('name', '')
-                t_desc = res.get('overview', '')
-                date = res.get('release_date') or res.get('first_air_date') or ""
-                year = date[:4] if len(date) >= 4 else ""
-                if t_title and t_desc and similar(query, t_title) > 0.45:
-                    cache_tmdb[query_norm] = (t_title, t_desc, year)
-                    return t_title, t_desc, year
-    except: pass
-    return None, None, None
-
 def filter_epg():
-    if not os.path.exists(CANALES_FILE): return
+    if not os.path.exists(CANALES_FILE): 
+        print(f"Error: No se encuentra el archivo {CANALES_FILE}")
+        return
     
     whitelist = {}
     with open(CANALES_FILE, 'r', encoding='utf-8') as f:
@@ -113,79 +96,83 @@ def filter_epg():
             else:
                 whitelist[line] = None
 
-    tmdb_whitelist = set(line.strip() for line in (open(TMDB_CHANNELS_FILE, 'r', encoding='utf-8') if os.path.exists(TMDB_CHANNELS_FILE) else []))
-    
     new_root = ET.Element('tv', {'generator-info-name': 'EPG Pro v10 Final'})
     canales_procesados = set()
+    programas_procesados = set()
+
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    }
 
     for url in EPG_SOURCES:
-        url_tag = url.lower()
+        # CORRECCIÓN CLAVE: Usamos la etiqueta limpia (iptv-epg, open-epg, epgshare01) para validar
+        etiqueta_actual = obtener_etiqueta_fuente(url)
+        nombre_archivo = url.split('/')[-1]
+        
         try:
-            print(f"Descargando: {url.split('/')[-1]}")
-            r = requests.get(url, timeout=45)
-            if r.status_code != 200: continue
-            data = gzip.decompress(r.content) if (url.endswith(".gz") or r.content[:2] == b'\x1f\x8b') else r.content
+            r = requests.get(url, headers=headers, timeout=45)
+            if r.status_code != 200: 
+                print(f"Saltando {nombre_archivo}: Error {r.status_code}")
+                continue
+                
+            content = r.content
+            if url.endswith(".gz") or content[:2] == b'\x1f\x8b':
+                content = gzip.decompress(content)
             
-            try:
-                temp_root = ET.fromstring(data)
-            except: continue
-
-            # Procesar canales
-            for channel in temp_root.findall('channel'):
-                cid = channel.get('id')
-                if cid in whitelist and cid not in canales_procesados:
-                    f_req = whitelist[cid]
-                    if f_req and f_req not in url_tag: continue
-                    new_root.append(channel)
-                    canales_procesados.add(cid)
-
-            # Procesar programas
-            for prog in temp_root.findall('programme'):
-                pid = prog.get('channel')
-                if pid in whitelist:
-                    f_req = whitelist[pid]
-                    # Solo procesar si es la fuente pedida O si no se ha procesado aún por prioridad
-                    if f_req:
-                        if f_req not in url_tag: continue
-                    elif pid in canales_procesados_programas: # Evita duplicar si ya entró antes
-                        continue
-                    
-                    t_elem, d_elem = prog.find('title'), prog.find('desc')
-                    if t_elem is not None:
-                        orig_title = t_elem.text
-                        orig_desc = d_elem.text if d_elem is not None else ""
+            context = ET.iterparse(io.BytesIO(content), events=('end',))
+            
+            for event, elem in context:
+                # 1. Procesar Canales
+                if elem.tag == 'channel':
+                    cid = elem.get('id')
+                    if cid in whitelist and cid not in canales_procesados:
+                        f_req = whitelist[cid]
+                        # CORRECCIÓN: Compara contra la etiqueta, no contra el nombre del archivo
+                        if f_req and f_req != etiqueta_actual: 
+                            elem.clear()
+                            continue
                         
-                        # LÓGICA TMDB (AÑO Y DESCRIPCIÓN)
-                        if pid in tmdb_whitelist:
-                            new_t, new_d, new_y = buscar_en_tmdb(orig_title)
-                            if new_t:
-                                t_elem.text = f"{new_t} ({new_y})" if new_y else new_t
-                                if not re.search(r'[TS]\d+\s?[E]\d+', orig_desc, re.IGNORECASE):
-                                    if d_elem is None: d_elem = ET.SubElement(prog, 'desc')
-                                    d_elem.text = f"{new_d} [TMDB]"
+                        clon_canal = copy.deepcopy(elem)
+                        new_root.append(clon_canal)
+                        canales_procesados.add(cid)
+                    
+                    elem.clear()
 
-                        # FORMATEO DE SERIES (PUNTO Y BARRA)
+                # 2. Procesar Programas
+                elif elem.tag == 'programme':
+                    pid = elem.get('channel')
+                    start_time = elem.get('start')
+                    prog_id = f"{pid}_{start_time}"
+                    
+                    if pid in whitelist and prog_id not in programas_procesados:
+                        f_req = whitelist[pid]
+                        # CORRECCIÓN: Compara contra la etiqueta, no contra el nombre del archivo
+                        if f_req and f_req != etiqueta_actual: 
+                            elem.clear()
+                            continue
+                        
+                        clon_prog = copy.deepcopy(elem)
+                        
+                        d_elem = clon_prog.find('desc')
                         if d_elem is not None and d_elem.text:
-                            d_elem.text = formatear_descripcion_serie(d_elem.text)
+                            d_elem.text = formatear_descripcion_quirurgica(d_elem.text)
 
-                    new_root.append(prog)
+                        new_root.append(clon_prog)
+                        programas_procesados.add(prog_id)
+                    
+                    elem.clear()
             
-            # Marcamos canales cuyos programas ya fueron guardados
-            for pid in whitelist:
-                if any(p.get('channel') == pid for p in new_root.findall('programme')):
-                    pass # Lógica interna para control de flujo
+            print(f"Fuente procesada con éxito: {nombre_archivo} ({etiqueta_actual})")
             
-            temp_root.clear()
-        except: pass
+        except Exception as e: 
+            print(f"Error procesando fuente {nombre_archivo}: {e}")
+            pass
 
-    # Guardado
     tree = ET.ElementTree(new_root)
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
-    print("Hecho.")
+    print("EPG emparejada perfectamente usando etiquetas inteligentes.")
 
-# Variable auxiliar para el bucle
-canales_procesados_programas = set() 
 if __name__ == "__main__":
     filter_epg()
