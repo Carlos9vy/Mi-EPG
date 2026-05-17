@@ -189,7 +189,9 @@ TNT SPORTS PREMIUM.ar
 Tooncast.co
 TVE.uy
 TUDNMexico.mx
-Canal.TUDN.(México).sv
+Canal.TUDN.(Centroamérica).sv (epgshare01)
+Canal.TUDN.(Estados.Unidos).sv (epgshare01)
+Canal.TUDN.(México).sv (epgshare01)
 TUDNMexico.gt
 TyCSports.ar
 TyCSports.co
