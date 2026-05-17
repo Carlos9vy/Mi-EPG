@@ -27,6 +27,9 @@ def run():
         print("Error: No se encontró canales.txt")
         return
 
+    # Clonamos el set para saber cuáles NO se encontraron al final
+    missing_ids = wanted_ids.copy()
+
     # Elementos raíz para el nuevo XML
     new_root = ET.Element("tv", {"generator-info-name": "MiRobotEPG"})
     
@@ -47,8 +50,11 @@ def run():
             
             # Buscar canales
             for c in tree.findall("channel"):
-                if c.get("id") in wanted_ids:
+                channel_id = c.get("id")
+                if channel_id in wanted_ids:
                     channels_found.append(c)
+                    # Si lo encontró, lo eliminamos de la lista de "no encontrados"
+                    missing_ids.discard(channel_id)
             
             # Buscar programas
             for p in tree.findall("programme"):
@@ -80,6 +86,21 @@ def run():
         print(f"¡Listo! Archivo comprimido {output_gz} generado con éxito.")
     except Exception as e:
         print(f"Error al comprimir a .gz: {e}")
+
+    # 3. Guardar el archivo de errores con los IDs no encontrados
+    output_errors = "errores canales.txt"
+    try:
+        with open(output_errors, "w", encoding="utf-8") as f_err:
+            if missing_ids:
+                # Escribir los IDs ordenados alfabéticamente para que sea más fácil revisarlos
+                for missing_id in sorted(missing_ids):
+                    f_err.write(f"{missing_id}\n")
+                print(f"Se generó '{output_errors}' con {len(missing_ids)} IDs no encontrados.")
+            else:
+                f_err.write("¡Felicidades! Todos los canales fueron encontrados con éxito.\n")
+                print("Todos los canales coinciden perfectamente.")
+    except Exception as e:
+        print(f"Error al guardar el archivo de errores: {e}")
 
 if __name__ == "__main__":
     run()
