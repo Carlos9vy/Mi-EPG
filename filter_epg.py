@@ -1,7 +1,6 @@
 import requests
 import xml.etree.ElementTree as ET
 import gzip
-import io
 
 # Fuentes originales
 SOURCES = [
@@ -31,7 +30,6 @@ def run():
     # Elementos raíz para el nuevo XML
     new_root = ET.Element("tv", {"generator-info-name": "MiRobotEPG"})
     
-    # Listas para organizar el XML final (primero canales, luego programas)
     channels_found = []
     programmes_found = []
 
@@ -67,11 +65,21 @@ def run():
     for p in programmes_found:
         new_root.append(p)
 
-    # Guardar el archivo final
-    output_file = "guia_personalizada.xml"
+    # 1. Guardar el archivo XML normal
+    output_xml = "guia_personalizada.xml"
     tree_out = ET.ElementTree(new_root)
-    tree_out.write(output_file, encoding="utf-8", xml_declaration=True)
-    print(f"¡Listo! Archivo {output_file} generado con éxito.")
+    tree_out.write(output_xml, encoding="utf-8", xml_declaration=True)
+    print(f"¡Listo! Archivo {output_xml} generado con éxito.")
+
+    # 2. Guardar el archivo XML comprimido (.gz)
+    output_gz = "guia_personalizada.xml.gz"
+    try:
+        with open(output_xml, "rb") as f_in:
+            with gzip.open(output_gz, "wb") as f_out:
+                f_out.writelines(f_in)
+        print(f"¡Listo! Archivo comprimido {output_gz} generado con éxito.")
+    except Exception as e:
+        print(f"Error al comprimir a .gz: {e}")
 
 if __name__ == "__main__":
     run()
