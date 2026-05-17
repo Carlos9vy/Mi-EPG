@@ -35,7 +35,6 @@ OUTPUT_FILE = "epg_reducida.xml"
 OUTPUT_GZ = "epg_reducida.xml.gz"
 
 def obtener_etiqueta_fuente(url):
-    """Asigna la etiqueta exacta que el usuario escribe en canales.txt"""
     url_low = url.lower()
     if "iptv-epg.org" in url_low:
         return "iptv-epg"
@@ -46,9 +45,14 @@ def obtener_etiqueta_fuente(url):
     return "fuente"
 
 def formatear_descripcion_quirurgica(texto):
+    """
+    Aplica tus correcciones visuales a la descripción original de la fuente.
+    Mantiene barras, códigos de series y añade puntos antes de los saltos de línea.
+    """
     if not texto: return ""
     texto = texto.strip()
     
+    # Formato para Series (ej. S1 E3 o T1 E2)
     patron_code = r'([TS]\d+\s?[E]\d+)'
     match = re.search(patron_code, texto, re.IGNORECASE)
     
@@ -68,6 +72,7 @@ def formatear_descripcion_quirurgica(texto):
                 resto += "."
             return f"{code} | {resto}"
 
+    # Formateo para Magacines u otros programas con saltos de línea
     if "\n" in texto:
         partes = texto.split("\n", 1)
         primera_linea = partes[0].strip()
@@ -75,6 +80,7 @@ def formatear_descripcion_quirurgica(texto):
             primera_linea += "."
         return f"{primera_linea}\n{partes[1].strip()}"
     
+    # Texto simple
     if texto and not texto.endswith(('.', ':', '!', '?')):
         texto += "."
     return texto
@@ -105,7 +111,6 @@ def filter_epg():
     }
 
     for url in EPG_SOURCES:
-        # CORRECCIÓN CLAVE: Usamos la etiqueta limpia (iptv-epg, open-epg, epgshare01) para validar
         etiqueta_actual = obtener_etiqueta_fuente(url)
         nombre_archivo = url.split('/')[-1]
         
@@ -122,12 +127,11 @@ def filter_epg():
             context = ET.iterparse(io.BytesIO(content), events=('end',))
             
             for event, elem in context:
-                # 1. Procesar Canales
+                # 1. Procesar Canales (Mantiene la estructura intacta)
                 if elem.tag == 'channel':
                     cid = elem.get('id')
                     if cid in whitelist and cid not in canales_procesados:
                         f_req = whitelist[cid]
-                        # CORRECCIÓN: Compara contra la etiqueta, no contra el nombre del archivo
                         if f_req and f_req != etiqueta_actual: 
                             elem.clear()
                             continue
@@ -138,7 +142,7 @@ def filter_epg():
                     
                     elem.clear()
 
-                # 2. Procesar Programas
+                # 2. Procesar Programas (Respeta la información e historial tal cual viene de la fuente)
                 elif elem.tag == 'programme':
                     pid = elem.get('channel')
                     start_time = elem.get('start')
@@ -146,13 +150,14 @@ def filter_epg():
                     
                     if pid in whitelist and prog_id not in programas_procesados:
                         f_req = whitelist[pid]
-                        # CORRECCIÓN: Compara contra la etiqueta, no contra el nombre del archivo
                         if f_req and f_req != etiqueta_actual: 
                             elem.clear()
                             continue
                         
+                        # Clonamos el programa original sin alterar sus fechas (start/stop)
                         clon_prog = copy.deepcopy(elem)
                         
+                        # Buscamos la descripción original para aplicar tus mejoras estéticas
                         d_elem = clon_prog.find('desc')
                         if d_elem is not None and d_elem.text:
                             d_elem.text = formatear_descripcion_quirurgica(d_elem.text)
@@ -172,7 +177,7 @@ def filter_epg():
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
-    print("EPG emparejada perfectamente usando etiquetas inteligentes.")
+    print("EPG reducida generada respetando fielmente los datos y tiempos de las fuentes.")
 
 if __name__ == "__main__":
     filter_epg()
