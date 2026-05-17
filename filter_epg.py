@@ -5,6 +5,7 @@ import gzip
 import io
 import re
 import copy
+import time # Necesario para generar el marcador de tiempo único
 
 # --- CONFIGURACIÓN DE FUENTES ---
 EPG_SOURCES = [
@@ -27,7 +28,7 @@ EPG_SOURCES = [
     "https://iptv-epg.org/files/epg-py.xml",
     "https://iptv-epg.org/files/epg-pa.xml",
     "https://www.open-epg.com/generate/aYzuzNSenh.xml",
-    "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz"
+    "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz" # Tu URL original intacta
 ]
 
 CANALES_FILE = "canales.txt"
@@ -105,15 +106,20 @@ def filter_epg():
     programas_procesados = set()
 
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Cache-Control': 'no-cache', # Le dice al servidor que no queremos datos cacheados
+        'Pragma': 'no-cache'
     }
 
     for url in EPG_SOURCES:
         etiqueta_actual = obtener_etiqueta_fuente(url)
         nombre_archivo = url.split('/')[-1]
         
+        # TRUCO DE CONTROL: Le inyectamos un número único a la URL para destruir la caché vieja
+        url_con_anti_cache = f"{url}?t={int(time.time())}"
+        
         try:
-            r = requests.get(url, headers=headers, timeout=45)
+            r = requests.get(url_con_anti_cache, headers=headers, timeout=45)
             if r.status_code != 200: 
                 print(f"Saltando {nombre_archivo}: Error {r.status_code}")
                 continue
@@ -122,7 +128,6 @@ def filter_epg():
             if url.endswith(".gz") or content[:2] == b'\x1f\x8b':
                 content = gzip.decompress(content)
             
-            # CORRECCIÓN: Obtenemos el contexto y el root del archivo para limpiarlo de forma segura
             context = ET.iterparse(io.BytesIO(content), events=('start', 'end'))
             context = iter(context)
             event, root_fuente = next(context)
@@ -130,7 +135,6 @@ def filter_epg():
             contador = 0
             for event, elem in context:
                 if event == 'end':
-                    # 1. Procesar Canales
                     if elem.tag == 'channel':
                         cid = elem.get('id')
                         if cid in whitelist and cid not in canales_procesados:
@@ -142,7 +146,6 @@ def filter_epg():
                             new_root.append(clon_canal)
                             canales_procesados.add(cid)
 
-                    # 2. Procesar Programas
                     elif elem.tag == 'programme':
                         pid = elem.get('channel')
                         start_time = elem.get('start')
@@ -160,14 +163,13 @@ def filter_epg():
                                 d_elem.text = formatear_descripcion_quirurgica(d_elem.text)
 
                             new_root.append(clon_prog)
-                            programas_procesados.add(prog_id)
+                            programas_processed_check = programas_procesados.add(prog_id)
                     
-                    # CORRECCIÓN DE RAM SEGURO: Limpia el documento fuente por bloques sin romper los hilos
                     contador += 1
                     if contador % 10000 == 0:
                         root_fuente.clear()
             
-            print(f"Fuente procesada al 100% con éxito: {nombre_archivo} ({etiqueta_actual})")
+            print(f"Fuente procesada con éxito forzando datos nuevos: {nombre_archivo}")
             
         except Exception as e: 
             print(f"Error procesando fuente {nombre_archivo}: {e}")
@@ -177,7 +179,7 @@ def filter_epg():
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
-    print("EPG reducida generada con éxito extrayendo absolutamente todos los días disponibles.")
+    print("EPG reducida generada con éxito rompiendo la caché de internet.")
 
 if __name__ == "__main__":
     filter_epg()
