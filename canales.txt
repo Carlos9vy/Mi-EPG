@@ -43,13 +43,13 @@ DePelícula.mx
 DHE.cl
 DIRECTVSports.cl
 DIRECTVSports.pe
-DSPORTS HD.ve
+DSPORTS HD.ve (open-epg.com)
 DIRECTVSports2.cl
 DIRECTVSports2.pe
-DSPORTS 2 HD.ve
+DSPORTS 2 HD.ve (open-epg.com)
 DIRECTVSports+.cl
 DIRECTVSports+.pe
-DSPORTS + HD.ve
+DSPORTS + HD.ve (open-epg.com)
 DIRECTVSportsFight.cl
 DIRECTVSportsFight.pe
 beINSportsXtraEspanol.us
@@ -105,7 +105,7 @@ ESPN7.ec
 ESPN7.uy
 Canal.ESPN.Premium.(Chile).sv
 ESPN Premium HD.cl
-ESPN PREMIUM HD.ar
+ESPN PREMIUM HD.ar (open-epg.com)
 ESPN+.mx
 FOXSportsConoSur.ar
 FOXSports2.ar
@@ -153,7 +153,7 @@ MTV.es
 NationalGeographic.ar
 Nick.cl
 Pasiones.co
-PlimPlim.ar
+PlimPlim.ar (open-epg.com)
 Playboy.co
 RaiItalia.cl
 SkySports16.mx
