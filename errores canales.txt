@@ -1,4 +1,4 @@
-AmcSeries.ar
+AmcSeries.ar (open-epg.com)
 CGTN Documentary.es
 CLAROSPORTS.mx
 CLAROSPORTS.ve
