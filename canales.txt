@@ -189,7 +189,7 @@ TNTSportsPremium.cl
 TNT SPORTS PREMIUM.ar
 Tooncast.co
 TVE.uy
-TUDNMexico.mx (iptv-epg)
+TUDNMexico.mx
 Canal.TUDN.(México).sv
 TUDNMexico.gt
 TyCSports.ar
