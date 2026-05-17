@@ -1,45 +1,32 @@
-name: Actualizar EPG Filtrada
+name: Actualizador Diario de EPG
 
 on:
   schedule:
-    - cron: '0 0 * * *' 
-  workflow_dispatch:      
+    - cron: '0 0 * * *' # Se ejecuta a las 00:00 UTC todos los días
+  workflow_dispatch: # Permite ejecutarlo manualmente desde la web
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    permissions:
-      contents: write
-
     steps:
-      - name: 1. Descargar el código
-        uses: actions/checkout@v4
+      - name: Checkout código
+        uses: actions/checkout@v3
 
-      - name: 2. Configurar Python
-        uses: actions/setup-python@v5
+      - name: Configurar Python
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.9'
 
-      - name: 3. Instalar librerías
+      - name: Instalar dependencias
         run: pip install requests
 
-      - name: 4. Ejecutar script de filtrado y shift
-        # ESTA ES LA PARTE QUE FALTABA: Conectamos el Secret con el script
-        env:
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      - name: Ejecutar Script de Filtro
         run: python filter_epg.py
 
-      - name: 5. Guardar y subir cambios
+      - name: Subir cambios a GitHub
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          
-          git add epg_reducida.xml epg_reducida.xml.gz errores_canales.txt
-          
-          if git diff --staged --quiet; then
-            echo "Sin cambios en la EPG."
-          else
-            git commit -m "EPG Actualizada con Shift y TMDB: $(date +'%Y-%m-%d %H:%M')"
-            git push
-          fi
+          git add guia_personalizada.xml
+          git commit -m "Actualización automática de EPG" || exit 0
+          git push
