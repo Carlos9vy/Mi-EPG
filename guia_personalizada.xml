@@ -227919,68 +227919,6 @@ El derecho de Nacer II.</desc>
     <desc lang="es">El rey de las compras.</desc>
     <title lang="es">El rey de las compras</title>
   </programme>
-  <programme start="20260515020000 -0600" stop="20260515030000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">Equipo F Centroamérica</title>
-  </programme>
-  <programme start="20260515030000 -0600" stop="20260515050000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">Sporting CP vs. Arsenal</title>
-    <sub-title lang="es">UEFA Champions League</sub-title>
-  </programme>
-  <programme start="20260515050000 -0600" stop="20260515070000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">Moto GP</title>
-    <sub-title lang="es">Gran Premio de Francia, Circuito de Bugatti</sub-title>
-  </programme>
-  <programme start="20260515070000 -0600" stop="20260515090000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">Real Madrid Vs. Bayern Múnich</title>
-    <sub-title lang="es">UEFA Champions League</sub-title>
-    <desc lang="es">Desde el estadio Santiago Bernabéu ubicado en la ciudad de Madrid, España, se enfrentan los equipos Real Madrid Club de Fútbol versus el Bayern Múnich.</desc>
-    <category lang="es">Deporte</category>
-    <category lang="es">Fútbol</category>
-    <icon src="https://imagenes.gatotv.com/categorias/deportes/miniatura/real_madrid_vs_bayern_munich.png" />
-  </programme>
-  <programme start="20260515090000 -0600" stop="20260515100000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">Equipo F Centroamérica</title>
-  </programme>
-  <programme start="20260515100000 -0600" stop="20260515120000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">ESPN's Thursday Night Baseball</title>
-    <sub-title lang="es">Seattle Mariners vs. Houston Astros, Temporada regular, Daikin Park</sub-title>
-  </programme>
-  <programme start="20260515120000 -0600" stop="20260515140000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">Moto GP</title>
-    <sub-title lang="es">Gran Premio de Francia, Circuito de Bugatti</sub-title>
-  </programme>
-  <programme start="20260515140000 -0600" stop="20260515150000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">Especial - SportsCenter</title>
-    <sub-title lang="es">World Baseball Classic</sub-title>
-  </programme>
-  <programme start="20260515150000 -0600" stop="20260515153000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">Goles de la Ligue 1</title>
-  </programme>
-  <programme start="20260515153000 -0600" stop="20260515160000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">Inside Serie A</title>
-  </programme>
-  <programme start="20260515160000 -0600" stop="20260515170000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">El show de la F1</title>
-  </programme>
-  <programme start="20260515170000 -0600" stop="20260515190000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">Barcelona vs. Atl. de Madrid</title>
-    <sub-title lang="es">UEFA Champions League</sub-title>
-  </programme>
-  <programme start="20260515190000 -0600" stop="20260515200000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">Dutch League Highlights</title>
-  </programme>
-  <programme start="20260515200000 -0600" stop="20260515220000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">ATP World Tour Masters 1000 - Internazionali BNL d'Italia</title>
-    <sub-title lang="es">Casper Ruud (Nor) vs. Luciano Darderi (Ita), Semifinals, Foro Italico, Rome, Italy</sub-title>
-  </programme>
-  <programme start="20260515220000 -0600" stop="20260516000000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">RC Lens vs. Paris Saint-Germain</title>
-    <sub-title lang="es">Ligue 1</sub-title>
-  </programme>
-  <programme start="20260516000000 -0600" stop="20260516020000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">ATP World Tour Masters 1000 - Internazionali BNL d'Italia</title>
-    <sub-title lang="es">Jannik Sinner (Ita) vs. Daniil Medvedev (Rus), Semifinals, Foro Italico, Rome, Italy</sub-title>
-  </programme>
   <programme start="20260516020000 -0600" stop="20260516030000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
     <title lang="es">Equipo F Centroamérica</title>
   </programme>
@@ -228089,60 +228027,6 @@ El derecho de Nacer II.</desc>
   <programme start="20260517170000 -0600" stop="20260517190000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
     <title lang="es">Al Nassr (KSA) vs. Gamba Osaka (Jpn)</title>
     <sub-title lang="es">AFC Champions League Two</sub-title>
-  </programme>
-  <programme start="20260515010000 -0600" stop="20260515020000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">ESPN Compact</title>
-  </programme>
-  <programme start="20260515020000 -0600" stop="20260515040000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">CONMEBOL Copa Sudamericana</title>
-  </programme>
-  <programme start="20260515040000 -0600" stop="20260515060000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">CONMEBOL Copa Sudamericana</title>
-  </programme>
-  <programme start="20260515060000 -0600" stop="20260515080000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">Fútbol Conmebol Copa Libertadores</title>
-  </programme>
-  <programme start="20260515080000 -0600" stop="20260515100000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">Fútbol Conmebol Copa Libertadores</title>
-  </programme>
-  <programme start="20260515100000 -0600" stop="20260515120000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">Fútbol Conmebol Copa Libertadores</title>
-  </programme>
-  <programme start="20260515120000 -0600" stop="20260515130000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">El show de la fórmula 1</title>
-  </programme>
-  <programme start="20260515130000 -0600" stop="20260515140000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">El Show de la Copa Libertadores</title>
-  </programme>
-  <programme start="20260515140000 -0600" stop="20260515143000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">UEFA Champions League Weekly</title>
-  </programme>
-  <programme start="20260515143000 -0600" stop="20260515150000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">EFL Highlights</title>
-  </programme>
-  <programme start="20260515150000 -0600" stop="20260515170000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">CONMEBOL Copa Sudamericana</title>
-  </programme>
-  <programme start="20260515170000 -0600" stop="20260515190000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">CONMEBOL Copa Sudamericana</title>
-  </programme>
-  <programme start="20260515190000 -0600" stop="20260515200000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">ESPN Compact</title>
-  </programme>
-  <programme start="20260515200000 -0600" stop="20260515210000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">ESPN Compact</title>
-  </programme>
-  <programme start="20260515210000 -0600" stop="20260515213000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">Bundesliga Preview Show</title>
-  </programme>
-  <programme start="20260515213000 -0600" stop="20260515220000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">UEFA Champions League Weekly</title>
-  </programme>
-  <programme start="20260515220000 -0600" stop="20260516000000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">CONMEBOL Copa Sudamericana</title>
-  </programme>
-  <programme start="20260516000000 -0600" stop="20260516010000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">El show de la fórmula 1</title>
   </programme>
   <programme start="20260516010000 -0600" stop="20260516020000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
     <title lang="es">ESPN Knockout</title>
@@ -228281,84 +228165,6 @@ El derecho de Nacer II.</desc>
   </programme>
   <programme start="20260518170000 -0600" stop="20260518190000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
     <title lang="es">ESPN Knockout</title>
-  </programme>
-  <programme start="20260515010000 -0600" stop="20260515020000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Cruz Azul vs. Chivas Guadalajara</title>
-    <sub-title lang="es">Liga MX en 60</sub-title>
-  </programme>
-  <programme start="20260515020000 -0600" stop="20260515030000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Contacto Deportivo</title>
-  </programme>
-  <programme start="20260515030000 -0600" stop="20260515040000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">UEFA Europa League en 60</title>
-  </programme>
-  <programme start="20260515040000 -0600" stop="20260515050000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Contacto Deportivo</title>
-  </programme>
-  <programme start="20260515050000 -0600" stop="20260515060000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Contacto Deportivo</title>
-  </programme>
-  <programme start="20260515060000 -0600" stop="20260515070000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Línea de cuatro</title>
-  </programme>
-  <programme start="20260515070000 -0600" stop="20260515080000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Contacto Deportivo</title>
-  </programme>
-  <programme start="20260515080000 -0600" stop="20260515090000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">UEFA Europa League en 60</title>
-  </programme>
-  <programme start="20260515090000 -0600" stop="20260515100000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Contacto Deportivo</title>
-  </programme>
-  <programme start="20260515100000 -0600" stop="20260515110000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Línea de cuatro</title>
-  </programme>
-  <programme start="20260515110000 -0600" stop="20260515120000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Cruz Azul vs. Atlas</title>
-    <sub-title lang="es">Liga MX en 60</sub-title>
-  </programme>
-  <programme start="20260515120000 -0600" stop="20260515130000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Contacto Deportivo</title>
-  </programme>
-  <programme start="20260515130000 -0600" stop="20260515140000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Línea de cuatro</title>
-  </programme>
-  <programme start="20260515140000 -0600" stop="20260515150000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Contacto Deportivo</title>
-  </programme>
-  <programme start="20260515150000 -0600" stop="20260515160000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">UEFA Europa League en 60</title>
-  </programme>
-  <programme start="20260515160000 -0600" stop="20260515170000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Faitelson sin censura</title>
-  </programme>
-  <programme start="20260515170000 -0600" stop="20260515180000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Atlas vs. Cruz Azul</title>
-    <sub-title lang="es">Liga MX en 60</sub-title>
-  </programme>
-  <programme start="20260515180000 -0600" stop="20260515190000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Pachuca vs. Pumas UNAM</title>
-    <sub-title lang="es">Liga MX en 60</sub-title>
-  </programme>
-  <programme start="20260515190000 -0600" stop="20260515200000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Cruz Azul vs. Atlas</title>
-    <sub-title lang="es">Liga MX en 60</sub-title>
-  </programme>
-  <programme start="20260515200000 -0600" stop="20260515210000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Pumas UNAM vs. América</title>
-    <sub-title lang="es">Liga MX en 60</sub-title>
-  </programme>
-  <programme start="20260515210000 -0600" stop="20260515220000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Contacto Deportivo</title>
-  </programme>
-  <programme start="20260515220000 -0600" stop="20260515230000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Línea de cuatro</title>
-  </programme>
-  <programme start="20260515230000 -0600" stop="20260516000000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Contacto Deportivo</title>
-  </programme>
-  <programme start="20260516000000 -0600" stop="20260516010000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Línea de cuatro</title>
   </programme>
   <programme start="20260516010000 -0600" stop="20260516020000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
     <title lang="es">Contacto Deportivo</title>
@@ -228600,71 +228406,68 @@ El derecho de Nacer II.</desc>
   <programme start="20260518230000 -0600" stop="20260519000000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
     <title lang="es">Contacto Deportivo</title>
   </programme>
-  <programme start="20260515020000 -0600" stop="20260515030000 -0600" channel="Canal.TUDN.(México).sv">
+  <programme start="20260519000000 -0600" stop="20260519010000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
+    <title lang="es">Línea de cuatro</title>
+  </programme>
+  <programme start="20260519010000 -0600" stop="20260519020000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
     <title lang="es">Contacto Deportivo</title>
   </programme>
-  <programme start="20260515030000 -0600" stop="20260515040000 -0600" channel="Canal.TUDN.(México).sv">
+  <programme start="20260519020000 -0600" stop="20260519030000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
+    <title lang="es">Línea de cuatro</title>
+  </programme>
+  <programme start="20260519030000 -0600" stop="20260519040000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
+    <title lang="es">UEFA Champions League en 60</title>
+  </programme>
+  <programme start="20260519040000 -0600" stop="20260519050000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
+    <title lang="es">Contacto Deportivo</title>
+  </programme>
+  <programme start="20260519050000 -0600" stop="20260519060000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
+    <title lang="es">Contacto Deportivo</title>
+  </programme>
+  <programme start="20260519060000 -0600" stop="20260519070000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
+    <title lang="es">Línea de cuatro</title>
+  </programme>
+  <programme start="20260519070000 -0600" stop="20260519080000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
+    <title lang="es">Contacto Deportivo</title>
+  </programme>
+  <programme start="20260519080000 -0600" stop="20260519090000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
     <title lang="es">Faitelson sin censura</title>
   </programme>
-  <programme start="20260515040000 -0600" stop="20260515060000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Fútbol Mexicano Primera División</title>
-    <sub-title lang="es">Cruz Azul vs. Atlas</sub-title>
-  </programme>
-  <programme start="20260515060000 -0600" stop="20260515070000 -0600" channel="Canal.TUDN.(México).sv">
+  <programme start="20260519090000 -0600" stop="20260519100000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
     <title lang="es">Contacto Deportivo</title>
   </programme>
-  <programme start="20260515070000 -0600" stop="20260515080000 -0600" channel="Canal.TUDN.(México).sv">
+  <programme start="20260519100000 -0600" stop="20260519110000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
     <title lang="es">Línea de cuatro</title>
   </programme>
-  <programme start="20260515080000 -0600" stop="20260515090000 -0600" channel="Canal.TUDN.(México).sv">
+  <programme start="20260519110000 -0600" stop="20260519120000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
+    <title lang="es">Pumas UNAM vs. América</title>
+    <sub-title lang="es">Liga MX en 60</sub-title>
+  </programme>
+  <programme start="20260519120000 -0600" stop="20260519130000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
     <title lang="es">Contacto Deportivo</title>
   </programme>
-  <programme start="20260515090000 -0600" stop="20260515100000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Hazaña: El deporte vive</title>
-    <sub-title lang="es">Enrique Borja, el Cyrano</sub-title>
-    <episode-num system="onscreen">S1 E2</episode-num>
-  </programme>
-  <programme start="20260515100000 -0600" stop="20260515110000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Contacto Deportivo</title>
-  </programme>
-  <programme start="20260515110000 -0600" stop="20260515130000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Fútbol Mexicano Primera División</title>
-    <sub-title lang="es">Pumas UNAM vs. América</sub-title>
-  </programme>
-  <programme start="20260515130000 -0600" stop="20260515140000 -0600" channel="Canal.TUDN.(México).sv">
+  <programme start="20260519130000 -0600" stop="20260519140000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
     <title lang="es">Faitelson sin censura</title>
   </programme>
-  <programme start="20260515140000 -0600" stop="20260515160000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Fútbol Mexicano Primera División</title>
-    <sub-title lang="es">Clausura 2024: Cruz Azul vs. UNAM</sub-title>
-    <episode-num system="onscreen">S2024</episode-num>
-  </programme>
-  <programme start="20260515160000 -0600" stop="20260515170000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Liga MX en 60</title>
-    <sub-title lang="es">Atlas vs. Cruz Azul</sub-title>
-    <episode-num system="onscreen">S2026</episode-num>
-  </programme>
-  <programme start="20260515170000 -0600" stop="20260515190000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Fútbol Mexicano Primera División</title>
-    <sub-title lang="es">Cruz Azul vs. Chivas de Guadalajara</sub-title>
-  </programme>
-  <programme start="20260515190000 -0600" stop="20260515200000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Ruta mundialista 2026</title>
-  </programme>
-  <programme start="20260515200000 -0600" stop="20260515210000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Amigos</title>
-  </programme>
-  <programme start="20260515210000 -0600" stop="20260515220000 -0600" channel="Canal.TUDN.(México).sv">
+  <programme start="20260519140000 -0600" stop="20260519150000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
     <title lang="es">Contacto Deportivo</title>
   </programme>
-  <programme start="20260515220000 -0600" stop="20260515230000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Línea de cuatro</title>
+  <programme start="20260519150000 -0600" stop="20260519160000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
+    <title lang="es">UEFA Champions League en 60</title>
   </programme>
-  <programme start="20260515230000 -0600" stop="20260516000000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Contacto Deportivo</title>
+  <programme start="20260519160000 -0600" stop="20260519170000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
+    <title lang="es">Atlas vs. Cruz Azul</title>
+    <sub-title lang="es">Liga MX en 60</sub-title>
   </programme>
-  <programme start="20260516000000 -0600" stop="20260516010000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Línea de cuatro</title>
+  <programme start="20260519170000 -0600" stop="20260519180000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
+    <title lang="es">América vs. Pumas UNAM</title>
+    <sub-title lang="es">Liga MX en 60</sub-title>
+  </programme>
+  <programme start="20260519180000 -0600" stop="20260519190000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
+    <title lang="es">UEFA Champions League en 60</title>
+  </programme>
+  <programme start="20260519190000 -0600" stop="20260519200000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
+    <title lang="es">Tricolor al día</title>
   </programme>
   <programme start="20260516010000 -0600" stop="20260516030000 -0600" channel="Canal.TUDN.(México).sv">
     <title lang="es">Fútbol Mexicano Primera División</title>
@@ -228863,6 +228666,69 @@ El derecho de Nacer II.</desc>
     <title lang="es">Línea de cuatro</title>
   </programme>
   <programme start="20260518230000 -0600" stop="20260519000000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Contacto Deportivo</title>
+  </programme>
+  <programme start="20260519000000 -0600" stop="20260519010000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Línea de cuatro</title>
+  </programme>
+  <programme start="20260519010000 -0600" stop="20260519030000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Fútbol Mexicano Primera División</title>
+    <sub-title lang="es">Cruz Azul vs. Atlas</sub-title>
+  </programme>
+  <programme start="20260519030000 -0600" stop="20260519040000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Contacto Deportivo</title>
+  </programme>
+  <programme start="20260519040000 -0600" stop="20260519060000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Archivo mundialista</title>
+    <sub-title lang="es">Sudáfrica 2010, final: Países Bajos vs. España</sub-title>
+  </programme>
+  <programme start="20260519060000 -0600" stop="20260519070000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Contacto Deportivo</title>
+  </programme>
+  <programme start="20260519070000 -0600" stop="20260519080000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Línea de cuatro</title>
+  </programme>
+  <programme start="20260519080000 -0600" stop="20260519090000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Contacto Deportivo</title>
+  </programme>
+  <programme start="20260519090000 -0600" stop="20260519100000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Hazaña: El deporte vive</title>
+    <sub-title lang="es">El fútbol mexicano: La salida al mundo</sub-title>
+  </programme>
+  <programme start="20260519100000 -0600" stop="20260519110000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Línea de cuatro</title>
+  </programme>
+  <programme start="20260519110000 -0600" stop="20260519120000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Contacto Deportivo</title>
+  </programme>
+  <programme start="20260519120000 -0600" stop="20260519140000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Fútbol Mexicano Primera División</title>
+    <sub-title lang="es">Pumas UNAM vs. América</sub-title>
+  </programme>
+  <programme start="20260519140000 -0600" stop="20260519160000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Archivo mundialista</title>
+    <sub-title lang="es">Italia 1990, final: Argentina vs. Alemania</sub-title>
+  </programme>
+  <programme start="20260519160000 -0600" stop="20260519170000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Faitelson sin censura</title>
+  </programme>
+  <programme start="20260519170000 -0600" stop="20260519190000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Archivo mundialista</title>
+    <sub-title lang="es">México 1986, final: Argentina vs. Alemania</sub-title>
+  </programme>
+  <programme start="20260519190000 -0600" stop="20260519200000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Tricolor al día</title>
+  </programme>
+  <programme start="20260519200000 -0600" stop="20260519210000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Fut en 60</title>
+  </programme>
+  <programme start="20260519210000 -0600" stop="20260519220000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Contacto Deportivo</title>
+  </programme>
+  <programme start="20260519220000 -0600" stop="20260519230000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Línea de cuatro</title>
+  </programme>
+  <programme start="20260519230000 -0600" stop="20260520000000 -0600" channel="Canal.TUDN.(México).sv">
     <title lang="es">Contacto Deportivo</title>
   </programme>
   </tv>
