@@ -9,7 +9,7 @@ EcuadorTV.ec
 OromarTV.ec
 A&E.co
 AMC.ar
-AmcSeries.ar
+AmcSeries.ar (open-epg.com)
 AXN.co
 AmericaTelevision.pe
 AnimalPlanet.co
