@@ -3,12 +3,7 @@ import requests
 import os
 import gzip
 import io
-import time
 import re
-import urllib.parse
-import unicodedata
-from datetime import datetime, timedelta
-from difflib import SequenceMatcher
 
 # --- CONFIGURACIÓN DE FUENTES ---
 EPG_SOURCES = [
@@ -93,7 +88,6 @@ def filter_epg():
     canales_procesados = set()
     programas_procesados = set()
 
-    # CORRECCIÓN: Definimos los Headers para saltar bloqueos de seguridad
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     }
@@ -102,8 +96,7 @@ def filter_epg():
         url_tag = url.lower()
         nombre_archivo = url.split('/')[-1]
         try:
-            # CORRECCIÓN: Agregamos headers y un timeout prudente de 30 segundos
-            r = requests.get(url, headers=headers, timeout=30)
+            r = requests.get(url, headers=headers, timeout=45)
             if r.status_code != 200: 
                 print(f"Saltando {nombre_archivo}: Error de estado {r.status_code}")
                 continue
@@ -112,36 +105,46 @@ def filter_epg():
             if url.endswith(".gz") or content[:2] == b'\x1f\x8b':
                 content = gzip.decompress(content)
             
-            temp_root = ET.fromstring(content)
+            # NUEVO MOTOR SÚPER LIGERO (iterparse)
+            # Esto evita que epgshare01 rompa la memoria de GitHub
+            context = ET.iterparse(io.BytesIO(content), events=('end',))
+            
+            for event, elem in context:
+                # 1. Procesar Canales en ruta
+                if elem.tag == 'channel':
+                    cid = elem.get('id')
+                    if cid in whitelist and cid not in canales_procesados:
+                        f_req = whitelist[cid]
+                        if f_req and f_req not in url_tag: 
+                            elem.clear()
+                            continue
+                        new_root.append(elem)
+                        canales_procesados.add(cid)
+                    else:
+                        elem.clear()
 
-            # 1. Procesar Canales
-            for channel in temp_root.findall('channel'):
-                cid = channel.get('id')
-                if cid in whitelist and cid not in canales_procesados:
-                    f_req = whitelist[cid]
-                    if f_req and f_req not in url_tag: continue
-                    new_root.append(channel)
-                    canales_procesados.add(cid)
-
-            # 2. Procesar Programas
-            for prog in temp_root.findall('programme'):
-                pid = prog.get('channel')
-                start_time = prog.get('start')
-                prog_id = f"{pid}_{start_time}"
-                
-                if pid in whitelist and prog_id not in programas_procesados:
-                    f_req = whitelist[pid]
-                    if f_req and f_req not in url_tag: continue
+                # 2. Procesar Programas en ruta
+                elif elem.tag == 'programme':
+                    pid = elem.get('channel')
+                    start_time = elem.get('start')
+                    prog_id = f"{pid}_{start_time}"
                     
-                    d_elem = prog.find('desc')
-                    if d_elem is not None and d_elem.text:
-                        d_elem.text = formatear_descripcion_quirurgica(d_elem.text)
+                    if pid in whitelist and prog_id not in programas_procesados:
+                        f_req = whitelist[pid]
+                        if f_req and f_req not in url_tag: 
+                            elem.clear()
+                            continue
+                        
+                        d_elem = elem.find('desc')
+                        if d_elem is not None and d_elem.text:
+                            d_elem.text = formatear_descripcion_quirurgica(d_elem.text)
 
-                    new_root.append(prog)
-                    programas_procesados.add(prog_id)
+                        new_root.append(elem)
+                        programas_procesados.add(prog_id)
+                    else:
+                        elem.clear()
             
             print(f"Fuente procesada con éxito: {nombre_archivo}")
-            temp_root.clear()
             
         except Exception as e: 
             print(f"Error procesando fuente {nombre_archivo}: {e}")
@@ -151,7 +154,7 @@ def filter_epg():
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
-    print("EPG reducida generada con éxito combinando todas las fuentes.")
+    print("EPG reducida generada con éxito combinando de forma segura todas las fuentes gigantes.")
 
 if __name__ == "__main__":
     filter_epg()
