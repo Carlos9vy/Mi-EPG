@@ -2,16 +2,16 @@ AmcSeries.ar (open-epg.com)
 CGTN Documentary.es
 CLAROSPORTS.mx
 CLAROSPORTS.ve
-DSPORTS + HD.ve
-DSPORTS 2 HD.ve
-DSPORTS HD.ve
+DSPORTS + HD.ve (open-epg.com)
+DSPORTS 2 HD.ve (open-epg.com)
+DSPORTS HD.ve (open-epg.com)
 ESPN 2.mx
 ESPN 3.mx
 ESPN 4.mx
-ESPN PREMIUM HD.ar
+ESPN PREMIUM HD.ar (open-epg.com)
 ESPN Premium HD.cl
 Kanal D Drama.cl
-PlimPlim.ar
+PlimPlim.ar (open-epg.com)
 TNT SPORTS PREMIUM.ar
 VENEVISION.ve
 Win+Futbol.co
