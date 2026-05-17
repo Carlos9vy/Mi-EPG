@@ -4,6 +4,7 @@ import os
 import gzip
 import io
 import re
+import copy  # Necesario para clonar los elementos de forma segura
 
 # --- CONFIGURACIÓN DE FUENTES ---
 EPG_SOURCES = [
@@ -105,12 +106,10 @@ def filter_epg():
             if url.endswith(".gz") or content[:2] == b'\x1f\x8b':
                 content = gzip.decompress(content)
             
-            # NUEVO MOTOR SÚPER LIGERO (iterparse)
-            # Esto evita que epgshare01 rompa la memoria de GitHub
             context = ET.iterparse(io.BytesIO(content), events=('end',))
             
             for event, elem in context:
-                # 1. Procesar Canales en ruta
+                # 1. Procesar Canales
                 if elem.tag == 'channel':
                     cid = elem.get('id')
                     if cid in whitelist and cid not in canales_procesados:
@@ -118,12 +117,15 @@ def filter_epg():
                         if f_req and f_req not in url_tag: 
                             elem.clear()
                             continue
-                        new_root.append(elem)
+                        
+                        # CORRECCIÓN: Clonamos el elemento de forma profunda e independiente
+                        clon_canal = copy.deepcopy(elem)
+                        new_root.append(clon_canal)
                         canales_procesados.add(cid)
-                    else:
-                        elem.clear()
+                    
+                    elem.clear() # Limpiamos el original para liberar RAM
 
-                # 2. Procesar Programas en ruta
+                # 2. Procesar Programas
                 elif elem.tag == 'programme':
                     pid = elem.get('channel')
                     start_time = elem.get('start')
@@ -135,14 +137,17 @@ def filter_epg():
                             elem.clear()
                             continue
                         
-                        d_elem = elem.find('desc')
+                        # CORRECCIÓN: Clonamos el programa para poder editarlo sin perder datos
+                        clon_prog = copy.deepcopy(elem)
+                        
+                        d_elem = clon_prog.find('desc')
                         if d_elem is not None and d_elem.text:
                             d_elem.text = formatear_descripcion_quirurgica(d_elem.text)
 
-                        new_root.append(elem)
+                        new_root.append(clon_prog)
                         programas_procesados.add(prog_id)
-                    else:
-                        elem.clear()
+                    
+                    elem.clear() # Limpiamos el original para liberar RAM
             
             print(f"Fuente procesada con éxito: {nombre_archivo}")
             
@@ -154,7 +159,7 @@ def filter_epg():
     tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUTPUT_GZ, 'wb') as f:
         tree.write(f, encoding='utf-8', xml_declaration=True)
-    print("EPG reducida generada con éxito combinando de forma segura todas las fuentes gigantes.")
+    print("EPG reducida generada con éxito clonando de forma segura cada fuente.")
 
 if __name__ == "__main__":
     filter_epg()
