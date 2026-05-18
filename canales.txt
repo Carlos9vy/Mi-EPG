@@ -23,15 +23,16 @@ Canal5.mx
 CartoonNetwork.co
 Cartoonito.co
 CGTNEspanol.es
-CGTN Documentary.es
+AmcSeries.ar (open-epg.com)
+CGTN Documentary.es (open-epg.com)
 Caracol.co
 RCN.co
 Cinecanal.co
 Cinemax.co
 Citytv.co
 CLAROSPORTS.uy
-CLAROSPORTS.mx
-CLAROSPORTS.ve
+CLAROSPORTS.mx (open-epg.com)
+CLAROSPORTS.ve (open-epg.com)
 CNNChile.cl
 ComedyCentral.co
 DAZN1.es
@@ -80,23 +81,23 @@ ESPNSur2.ar
 ESPNSur3.ar
 ESPN.mx
 ESPNNorte.mx
+ESPN 2.mx (open-epg.com)
 ESPN2.uy
 ESPN2.ar
 ESPN2.cl
 ESPN2.co
 ESPN2Colombia.ec
-ESPN 2.mx
 ESPN3Andina.ec
 ESPN3.ar
 ESPN3.co
 ESPN3.uy
 ESPN3.cl
-ESPN 3.mx
+ESPN 3.mx (open-epg.com)
 ESPN4.ec
 ESPN4.ar
 ESPN4.cl
 ESPN4.uy
-ESPN 4.mx
+ESPN 4.mx (open-epg.com)
 ESPN5.ec
 ESPN5.uy
 Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv
@@ -104,7 +105,7 @@ ESPN6.uy
 ESPN7.ec
 ESPN7.uy
 Canal.ESPN.Premium.(Chile).sv
-ESPN Premium HD.cl
+ESPN Premium HD.cl (open-epg.com)
 ESPN PREMIUM HD.ar (open-epg.com)
 ESPN+.mx
 FOXSportsConoSur.ar
@@ -139,7 +140,7 @@ HISTORY2.uy
 History2.co
 HOLATV.co
 KANALD.uy
-Kanal D Drama.cl
+Kanal D Drama.cl (open-epg.com)
 LASESTRELLAS.uy
 Lifetime.co
 Mega.cl
@@ -185,7 +186,7 @@ TNTSeries.pe
 TNTSeriesPAN.ec
 TNTSports.cl
 TNTSportsPremium.cl
-TNT SPORTS PREMIUM.ar
+TNT SPORTS PREMIUM.ar (open-epg.com)
 Tooncast.co
 TVE.uy
 TUDNMexico.mx
@@ -214,11 +215,11 @@ UltraMex.us
 UltraTainment.us
 Venus.ar
 Venus.co
-VENEVISION.ve
+VENEVISION.ve (open-epg.com)
 WarnerChannel.ar
 WarnerChannel.co
 WinSports.co
-Win+Futbol.co
+Win+Futbol.co (open-epg.com)
 Zoom.co
 
 
