@@ -1,4 +1,4 @@
 WarnerChannel.co,-1
 GoldenEdge.mx,-1.5
 Golden.mx,-0.5
-Canal.TUDN.(México).sv
+Canal.TUDN.(México).sv,-1
