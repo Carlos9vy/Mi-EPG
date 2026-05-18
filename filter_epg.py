@@ -1,6 +1,7 @@
 import requests
 import xml.etree.ElementTree as ET
 import gzip
+from datetime import datetime, timedelta
 
 # Fuentes originales
 SOURCES = [
@@ -21,27 +22,55 @@ def fix_description(desc_text):
     """Mejora la estética de la descripción añadiendo un punto antes del salto de línea."""
     if not desc_text:
         return ""
-    
-    # Validamos si la descripción contiene saltos de línea
     if "\n" in desc_text:
-        # Dividimos por líneas para analizar el 'título' del episodio
         lines = desc_text.split("\n")
         first_line = lines[0].strip()
-        
-        # Si la primera línea tiene texto y no termina en un signo de puntuación común
         if first_line and not first_line.endswith(('.', '!', '?', ':', '-')):
             lines[0] = first_line + "."
-            
-        # Volvemos a unir respetando el salto de línea original
         return "\n".join(lines)
-        
     return desc_text
+
+def apply_time_shift(time_str, hours_shift):
+    """Suma o resta horas al formato de tiempo estándar de EPG (ej. 20260517002000 +0000)."""
+    if not time_str or hours_shift == 0:
+        return time_str
+    try:
+        # Formato común EPG: AAAAMMDDHHMMSS +/-HHMM
+        parts = time_str.split()
+        base_time = parts[0]
+        tz = parts[1] if len(parts) > 1 else ""
+        
+        dt = datetime.strptime(base_time, "%Y%m%d%H%M%S")
+        # Convertimos las horas (ej. 0.5 o -1.0) en minutos para ser exactos
+        dt_shifted = dt + timedelta(minutes=int(hours_shift * 60))
+        
+        new_base_time = dt_shifted.strftime("%Y%m%d%H%M%S")
+        return f"{new_base_time} {tz}".strip()
+    except Exception:
+        return time_str
 
 def run():
     standard_wanted_ids = set()
     open_epg_wanted_ids = set()
     raw_lines_map = {} 
+    shifts = {}
 
+    # 1. Cargar el archivo shift.txt si existe
+    try:
+        with open("shift.txt", "r", encoding="utf-8") as f:
+            for line in f:
+                line_clean = line.strip()
+                if line_clean and "," in line_clean:
+                    cid, val = line_clean.split(",", 1)
+                    try:
+                        shifts[cid.strip()] = float(val.strip())
+                    except ValueError:
+                        print(f"Valor de shift inválido para el canal: {cid}")
+        print(f"Cargados {len(shifts)} ajustes de hora desde shift.txt")
+    except FileNotFoundError:
+        print("No se encontró shift.txt. Se procesará sin ajustes horarios.")
+
+    # 2. Cargar tus canales deseados desde canales.txt
     try:
         with open("canales.txt", "r", encoding="utf-8") as f:
             for line in f:
@@ -95,22 +124,31 @@ def run():
                             channels_found.append(c)
                             missing_clean_ids.discard(xml_id_clean)
             
-            # Procesar programas y corregir descripciones
+            # Procesar programas, corregir descripciones y aplicar shifts horario
             for p in tree.findall("programme"):
                 p_channel = p.get("channel")
                 if p_channel:
                     p_channel_clean = p_channel.strip()
                     
-                    # Verificar si el programa pertenece a nuestra lista de interés
                     is_match = (is_open_epg_url and p_channel_clean in all_clean_wanted) or \
                                (not is_open_epg_url and p_channel_clean in standard_wanted_ids)
                     
                     if is_match:
-                        # Buscamos la etiqueta <desc> dentro del programa
+                        # --- MEJORA ESTÉTICA DE LA DESCRIPCIÓN ---
                         desc_element = p.find("desc")
                         if desc_element is not None and desc_element.text:
-                            # Aplicamos la mejora estética al texto de la descripción
                             desc_element.text = fix_description(desc_element.text)
+                        
+                        # --- MEJORA AJUSTE HORARIO (TIME SHIFT) ---
+                        if p_channel_clean in shifts:
+                            shift_value = shifts[p_channel_clean]
+                            start_time = p.get("start")
+                            stop_time = p.get("stop")
+                            
+                            if start_time:
+                                p.set("start", apply_time_shift(start_time, shift_value))
+                            if stop_time:
+                                p.set("stop", apply_time_shift(stop_time, shift_value))
                         
                         programmes_found.append(p)
                     
