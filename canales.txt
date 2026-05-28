@@ -200,6 +200,7 @@ Unitel.pe
 UniversalTV.co
 UniversalTV.ar
 UNIVERSO.us
+Telemundo.us
 USA.uy
 UltraBanda.us
 UltraCine.us
