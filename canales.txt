@@ -42,17 +42,15 @@ DAZNF1.es
 DAZNLaLiga.es
 DePelícula.mx
 DHE.cl
-DIRECTVSports.cl
-DIRECTVSports.pe
+6996
+6997
+DirecTVSports2.us@Panregional
+6999
+DirecTVSportsPlus.us@Panregional
+7001
 DSPORTS HD.ve (open-epg.com)
-DIRECTVSports2.cl
-DIRECTVSports2.pe
 DSPORTS 2 HD.ve (open-epg.com)
-DIRECTVSports+.cl
-DIRECTVSports+.pe
 DSPORTS + HD.ve (open-epg.com)
-DIRECTVSportsFight.cl
-DIRECTVSportsFight.pe
 beINSportsXtraEspanol.us
 Discovery.cl
 DiscoveryChannel.ar
