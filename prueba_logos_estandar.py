@@ -8,8 +8,16 @@ from PIL import Image
 
 # Fuentes
 EPG_SOURCES = [
-    "https://iptv-epg.org/files/epg-ztjwyq.xml",
-    "https://www.open-epg.com/generate/aYzuzNSenh.xml",
+    "https://iptv-epg.org/files/epg-ar.xml",
+    "https://iptv-epg.org/files/epg-cl.xml",
+    "https://iptv-epg.org/files/epg-co.xml",
+    "https://iptv-epg.org/files/epg-ec.xml",
+    "https://iptv-epg.org/files/epg-mx.xml",
+    "https://iptv-epg.org/files/epg-pe.xml",
+    "https://iptv-epg.org/files/epg-es.xml",
+    "https://iptv-epg.org/files/epg-us.xml",
+    "https://iptv-epg.org/files/epg-uy.xml",
+    "https://iptv-epg.org/files/epg-ve.xml",
     "https://iptv-epg.org/files/epg-bo.xml",
     "https://iptv-epg.org/files/epg-cr.xml",
     "https://iptv-epg.org/files/epg-do.xml",
@@ -17,7 +25,10 @@ EPG_SOURCES = [
     "https://iptv-epg.org/files/epg-gt.xml",
     "https://iptv-epg.org/files/epg-hn.xml",
     "https://iptv-epg.org/files/epg-py.xml",
-    "https://iptv-epg.org/files/epg-pa.xml"
+    "https://iptv-epg.org/files/epg-pa.xml",
+    "https://github.com/Carlos9vy/mi-laboratorio-epg/raw/refs/heads/main/guia_laboratorio.xml",
+    "https://www.open-epg.com/generate/aYzuzNSenh.xml",
+    "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz"
 ]
 
 CANALES_FILE = "canales.txt"
