@@ -23,6 +23,7 @@ EPG_SOURCES = [
     "https://iptv-epg.org/files/epg-hn.xml",
     "https://iptv-epg.org/files/epg-py.xml",
     "https://iptv-epg.org/files/epg-pa.xml",
+    "https://github.com/Carlos9vy/mi-laboratorio-epg/raw/refs/heads/main/guia_laboratorio.xml",
     "https://www.open-epg.com/generate/aYzuzNSenh.xml",
     "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz"
 ]
