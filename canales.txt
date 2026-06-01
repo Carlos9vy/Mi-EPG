@@ -53,7 +53,7 @@ DSPORTS 2 HD.ve (open-epg.com)
 DSPORTS + HD.ve (open-epg.com)
 beINSportsXtraEspanol.us
 Discovery.cl
-DiscoveryChannel.ar
+DiscoveryChannel.cl
 DiscoveryHome&Health.pe
 InvestigationDiscovery.co
 DiscoveryKids.co
