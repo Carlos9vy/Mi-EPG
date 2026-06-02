@@ -5,6 +5,7 @@ TCtv.ec
 tc_television
 Teleamazonas.ec
 Gamavision.ec
+Gamavision.ec@SD
 RTU.ec
 EcuadorTV.ec
 OromarTV.ec
