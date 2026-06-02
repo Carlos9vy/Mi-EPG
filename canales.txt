@@ -1,7 +1,8 @@
 Ecuavisa.ec
 EcuavisaInternacional.ec
 RTS.ec
-TCtv.ec 
+TCtv.ec
+tc_television
 Teleamazonas.ec
 Gamavision.ec
 RTU.ec
