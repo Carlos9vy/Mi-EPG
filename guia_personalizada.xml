@@ -729,7 +729,9 @@
   </channel>
   <channel id="tc_television"><display-name>Canal TC Televisión</display-name></channel>
 <channel id="Gamavision.ec@SD"><display-name>Canal Gamavisión</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/9/94/Gamavisi%C3%B3n2018new.png" /></channel>
+<channel id="AmericaTelevision.pe@SD"><display-name>Canal América Televisión (Perú)</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Am%C3%A9rica_Televisi%C3%B3n.svg/500px-Am%C3%A9rica_Televisi%C3%B3n.svg.png" /></channel>
 <channel id="AzCorazon.mx@SD"><display-name>Canal TV Azteca Corazón</display-name><icon src="https://i.imgur.com/KIpSdQC.png" /></channel>
+<channel id="cgtn_espanol"><display-name>Canal CGTN-Español</display-name></channel>
 <channel id="TUDN.mx@SD"><display-name>Canal TUDN (México)</display-name><icon src="https://i.imgur.com/oT5CAvd.png" /></channel>
 <channel id="AvilaTV.ve@SD"><display-name>ÁVILA TV</display-name><icon src="https://i.imgur.com/hL2R9K1.png" /></channel>
 <channel id="6996"><display-name>DIRECTV SPORTS</display-name></channel>
@@ -190534,6 +190536,91 @@ El derecho de Nacer II.</desc>
 <programme start="20260607220000 +0000" stop="20260608000000 +0000" channel="7001"><title lang="es">Giro de Italia Women</title><desc lang="es">Vive lo mejor de las jornadas de competencia en el marco del Giro de Italia Femenino 2026. La carrera recorre el país de norte a sur y de este a oeste y expone no solo incones recónditos y lugares apartados sino también los lugares más emblemáticos del ciclismo italiano.</desc><category lang="es">Ciclismo</category><image>https://www.reportv.com.ar/buscador/img/Programas/1992593630.jpg</image></programme>
 <programme start="20260608000000 +0000" stop="20260608020000 +0000" channel="7001"><title lang="es">EuroLeague</title><desc lang="es">Vive los partidos de la 26º edición de la EuroLiga de básquet, la máxima competición de clubes de Europa.</desc><category lang="es">Básquet</category><image>https://www.reportv.com.ar/buscador/img/Programas/NoPicture.jpg</image></programme>
 <programme start="20260608020000 +0000" stop="20260608043000 +0000" channel="7001"><title lang="es">EuroLeague</title><desc lang="es">Vive los partidos de la 26º edición de la EuroLiga de básquet, la máxima competición de clubes de Europa.</desc><category lang="es">Básquet</category><image>https://www.reportv.com.ar/buscador/img/Programas/NoPicture.jpg</image></programme>
+<programme start="20260603043000 +0000" stop="20260603051000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Destilando amor</title></programme>
+<programme start="20260603051000 +0000" stop="20260603053000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">America espectaculos</title></programme>
+<programme start="20260603053000 +0000" stop="20260603063000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">America espectaculos</title></programme>
+<programme start="20260603063000 +0000" stop="20260603080000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Mande quien mande</title></programme>
+<programme start="20260603080000 +0000" stop="20260603081600 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Noticias</title></programme>
+<programme start="20260603081600 +0000" stop="20260603100000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Noticias</title></programme>
+<programme start="20260603100000 +0000" stop="20260603115000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Noticias</title></programme>
+<programme start="20260603115000 +0000" stop="20260603121000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Deportes</title></programme>
+<programme start="20260603121000 +0000" stop="20260603123000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">America espectaculos</title></programme>
+<programme start="20260603123000 +0000" stop="20260603140000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América hoy</title></programme>
+<programme start="20260603140000 +0000" stop="20260603150000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">America espectaculos</title></programme>
+<programme start="20260603150000 +0000" stop="20260603153500 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Noticias</title></programme>
+<programme start="20260603153500 +0000" stop="20260603154500 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Deportes</title></programme>
+<programme start="20260603154500 +0000" stop="20260603160000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">America espectaculos</title></programme>
+<programme start="20260603160000 +0000" stop="20260603164000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Destilando amor</title></programme>
+<programme start="20260603164000 +0000" stop="20260603181000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Mande quien mande</title></programme>
+<programme start="20260603181000 +0000" stop="20260603190000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Al fondo hay sitio</title></programme>
+<programme start="20260603190000 +0000" stop="20260603200000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Doménica Montero</title></programme>
+<programme start="20260603200000 +0000" stop="20260603210000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">El Chavo del Ocho</title><desc lang="es">Las aventuras del chavo, un niño de 8 años y sus amigos, Kiko, la Chilindrina, Ñoño que viven en la misma vecindad.</desc><image>https://imagenes.gatotv.com/categorias/programas/miniatura/el_chavo_del_ocho.jpg</image></programme>
+<programme start="20260603210000 +0000" stop="20260603215000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Los milagros de la rosa, Perú</title></programme>
+<programme start="20260603215000 +0000" stop="20260603223000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Los milagros de la rosa, Perú</title></programme>
+<programme start="20260603223000 +0000" stop="20260604000000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Esto es guerra</title></programme>
+<programme start="20260604000000 +0000" stop="20260604010000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Al fondo hay sitio</title></programme>
+<programme start="20260604010000 +0000" stop="20260604015000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Señora del destino</title></programme>
+<programme start="20260604015000 +0000" stop="20260604015300 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">La Tinka</title></programme>
+<programme start="20260604015300 +0000" stop="20260604020000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Señora del destino</title></programme>
+<programme start="20260604020000 +0000" stop="20260604021700 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América noticias Edición central</title></programme>
+<programme start="20260604021700 +0000" stop="20260604022400 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Deportes</title></programme>
+<programme start="20260604022400 +0000" stop="20260604022700 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América noticias Edición central</title></programme>
+<programme start="20260604022700 +0000" stop="20260604024500 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">America espectaculos</title></programme>
+<programme start="20260604024500 +0000" stop="20260604033000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Desvelados por el Mundial</title></programme>
+<programme start="20260604033000 +0000" stop="20260604043000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Doménica Montero</title></programme>
+<programme start="20260604043000 +0000" stop="20260604051000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Destilando amor</title></programme>
+<programme start="20260604043000 +0000" stop="20260604051000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Destilando amor</title></programme>
+<programme start="20260604051000 +0000" stop="20260604053000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">America espectaculos</title></programme>
+<programme start="20260604053000 +0000" stop="20260604063000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">America espectaculos</title></programme>
+<programme start="20260604063000 +0000" stop="20260604080000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Mande quien mande</title></programme>
+<programme start="20260604080000 +0000" stop="20260604081600 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Noticias</title></programme>
+<programme start="20260604081600 +0000" stop="20260604100000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Noticias</title></programme>
+<programme start="20260604100000 +0000" stop="20260604115000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Noticias</title></programme>
+<programme start="20260604115000 +0000" stop="20260604121000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Deportes</title></programme>
+<programme start="20260604121000 +0000" stop="20260604123000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">America espectaculos</title></programme>
+<programme start="20260604123000 +0000" stop="20260604140000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Hoy</title></programme>
+<programme start="20260604140000 +0000" stop="20260604150000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">America espectaculos</title></programme>
+<programme start="20260604150000 +0000" stop="20260604153500 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Noticias</title></programme>
+<programme start="20260604153500 +0000" stop="20260604154500 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Deportes</title></programme>
+<programme start="20260604154500 +0000" stop="20260604160000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">America espectaculos</title></programme>
+<programme start="20260604160000 +0000" stop="20260604164000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Destilando amor</title></programme>
+<programme start="20260604164000 +0000" stop="20260604181000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Mande quien mande</title></programme>
+<programme start="20260604181000 +0000" stop="20260604190000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Al fondo hay sitio</title></programme>
+<programme start="20260604190000 +0000" stop="20260604200000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Doménica Montero</title></programme>
+<programme start="20260604200000 +0000" stop="20260604210000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">El Chavo del Ocho</title><desc lang="es">Las aventuras del chavo, un niño de 8 años y sus amigos, Kiko, la Chilindrina, Ñoño que viven en la misma vecindad.</desc><image>https://imagenes.gatotv.com/categorias/programas/miniatura/el_chavo_del_ocho.jpg</image></programme>
+<programme start="20260604210000 +0000" stop="20260604215000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Los milagros de la rosa, Perú</title></programme>
+<programme start="20260604215000 +0000" stop="20260604223000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Los milagros de la rosa, Perú</title></programme>
+<programme start="20260604223000 +0000" stop="20260605000000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Esto es guerra</title></programme>
+<programme start="20260605000000 +0000" stop="20260605010000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Al fondo hay sitio</title></programme>
+<programme start="20260605010000 +0000" stop="20260605020000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Señora del destino</title></programme>
+<programme start="20260605020000 +0000" stop="20260605021700 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América noticias Edición central</title></programme>
+<programme start="20260605021700 +0000" stop="20260605022400 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Deportes</title></programme>
+<programme start="20260605022400 +0000" stop="20260605022700 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América noticias Edición central</title></programme>
+<programme start="20260605022700 +0000" stop="20260605024500 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">America espectaculos</title></programme>
+<programme start="20260605024500 +0000" stop="20260605033000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Desvelados por el Mundial</title></programme>
+<programme start="20260605033000 +0000" stop="20260605043000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Doménica Montero</title></programme>
+<programme start="20260605043000 +0000" stop="20260605051000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Destilando amor</title></programme>
+<programme start="20260605043000 +0000" stop="20260605051000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Destilando amor</title></programme>
+<programme start="20260605051000 +0000" stop="20260605053000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">America espectaculos</title></programme>
+<programme start="20260605053000 +0000" stop="20260605063000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">America espectaculos</title></programme>
+<programme start="20260605063000 +0000" stop="20260605080000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Mande quien mande</title></programme>
+<programme start="20260605080000 +0000" stop="20260605081600 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Noticias</title></programme>
+<programme start="20260605081600 +0000" stop="20260605100000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Noticias</title></programme>
+<programme start="20260605100000 +0000" stop="20260605115000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Noticias</title></programme>
+<programme start="20260605115000 +0000" stop="20260605121000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Deportes</title></programme>
+<programme start="20260605121000 +0000" stop="20260605123000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">America espectaculos</title></programme>
+<programme start="20260605123000 +0000" stop="20260605140000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América hoy</title></programme>
+<programme start="20260605140000 +0000" stop="20260605150000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">America espectaculos</title></programme>
+<programme start="20260605150000 +0000" stop="20260605153500 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Noticias</title></programme>
+<programme start="20260605153500 +0000" stop="20260605154500 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">América Deportes</title></programme>
+<programme start="20260605154500 +0000" stop="20260605160000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">America espectaculos</title></programme>
+<programme start="20260605160000 +0000" stop="20260605164000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Destilando amor</title></programme>
+<programme start="20260605164000 +0000" stop="20260605181000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Mande quien mande</title></programme>
+<programme start="20260605181000 +0000" stop="20260605190000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Al fondo hay sitio</title></programme>
+<programme start="20260605190000 +0000" stop="20260605200000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Doménica Montero</title></programme>
+<programme start="20260605200000 +0000" stop="20260605204500 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">El Chavo del Ocho</title><desc lang="es">Las aventuras del chavo, un niño de 8 años y sus amigos, Kiko, la Chilindrina, Ñoño que viven en la misma vecindad.</desc><image>https://imagenes.gatotv.com/categorias/programas/miniatura/el_chavo_del_ocho.jpg</image></programme>
+<programme start="20260605204500 +0000" stop="20260605213000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Los milagros de la rosa, Perú</title></programme>
+<programme start="20260605213000 +0000" stop="20260605220000 +0000" channel="AmericaTelevision.pe@SD"><title lang="es">Antesala</title></programme>
 <programme start="20260603040000 +0000" stop="20260603050000 +0000" channel="AvilaTV.ve@SD"><title lang="es">Programación Ávila TV</title><desc lang="es">No hay información disponible.</desc><category lang="es">Variedades</category><image>https://www.reportv.com.ar/buscador/img/Programas/4688330.jpg</image></programme>
 <programme start="20260603050000 +0000" stop="20260603060000 +0000" channel="AvilaTV.ve@SD"><title lang="es">Programación Ávila TV</title><desc lang="es">No hay información disponible.</desc><category lang="es">Variedades</category><image>https://www.reportv.com.ar/buscador/img/Programas/4688330.jpg</image></programme>
 <programme start="20260603060000 +0000" stop="20260603070000 +0000" channel="AvilaTV.ve@SD"><title lang="es">Programación Ávila TV</title><desc lang="es">No hay información disponible.</desc><category lang="es">Variedades</category><image>https://www.reportv.com.ar/buscador/img/Programas/4688330.jpg</image></programme>
