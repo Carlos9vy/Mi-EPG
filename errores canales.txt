@@ -4,6 +4,7 @@ CGTNEspanol.es
 DePelícula.mx
 ESPN PREMIUM HD.ar (open-epg.com)
 Gamavision.ec
+Gamavision.ec@SD
 OromarTV.ec
 TCtv.ec
 TNT SPORTS PREMIUM.ar (open-epg.com)
