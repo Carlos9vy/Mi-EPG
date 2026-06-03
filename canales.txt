@@ -13,6 +13,7 @@ A&E.co
 AMC.ar
 AmcSeries.ar (open-epg.com)
 AXN.co
+AmericaTelevision.pe@SD
 AmericaTelevision.pe
 AnimalPlanet.co
 Antena3.co
@@ -26,6 +27,7 @@ BabyFirst.us
 Canal5.mx
 CartoonNetwork.co
 Cartoonito.co
+cgtn_espanol
 CGTNEspanol.es
 AmcSeries.ar (open-epg.com)
 CGTN Documentary.es (open-epg.com)
