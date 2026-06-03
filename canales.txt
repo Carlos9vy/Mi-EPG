@@ -17,7 +17,9 @@ AmericaTelevision.pe
 AnimalPlanet.co
 Antena3.co
 Atreseries.es
+AzCorazon.mx@SD
 AzCorazón.mx
+AvilaTV.ve@SD
 AztecaInternacional.us
 BabyTV.cl
 BabyFirst.us
@@ -189,6 +191,7 @@ TNTSportsPremium.cl
 TNT SPORTS PREMIUM.ar (open-epg.com)
 Tooncast.co
 TVE.uy
+TUDN.mx@SD
 TUDNMexico.mx
 Canal.TUDN.(Centroamérica).sv
 Canal.TUDN.(Estados.Unidos).sv
