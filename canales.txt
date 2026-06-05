@@ -27,7 +27,7 @@ BabyFirst.us
 Canal5.mx
 CartoonNetwork.co
 Cartoonito.co
-cgtn_espanol
+CGTNSpanish.cn@SD
 CGTNEspanol.es
 AmcSeries.ar (open-epg.com)
 CGTN Documentary.es (open-epg.com)
@@ -47,6 +47,7 @@ DAZN3.es
 DAZNF1.es
 DAZNLaLiga.es
 DePelícula.mx
+137
 DHE.cl
 6996
 6997
@@ -145,6 +146,11 @@ History2.co
 HOLATV.co
 KANALD.uy
 Kanal D Drama.cl (open-epg.com)
+LA1.es
+LA2.es
+Boing.es
+Cuatro.es
+Telecinco.es
 LASESTRELLAS.uy
 Lifetime.co
 Mega.cl
