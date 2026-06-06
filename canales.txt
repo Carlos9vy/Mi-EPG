@@ -161,6 +161,7 @@ M+LigadeCampeones4.es
 M+#Vamos.es
 M+LaLigaTV.es
 MTV.es
+Multipremier.co
 NationalGeographic.ar
 Nick.cl
 Pasiones.co
