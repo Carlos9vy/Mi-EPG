@@ -177,6 +177,7 @@ PPV14SEXTREME.uy -> https://iptv-epg.org/images/414O7D3tBSb1L6reD7vBT1euy4ZxTaxW
 SonyEntertainmentTelevisionAndesfeed.ec -> https://iptv-epg.org/images/MG9JRrsBmNznmrIw2y6e7FETAx1y1R-VTCn98ZM_tlJlhy9Q-mrVj0v7ucx2-pmAhA6w-C4xAa50w3OG9dj_ciNwBSCnTDd8jl7Cn0pyNP1EUHeMxmQSUGH9zFs4Zr-ih_kF_KSUGzdY89Xc1lA
 Sony.mx -> https://iptv-epg.org/images/WUFWtvOJlFBzBoyfUWYgK0T5i4GgMvCIGq3FqTDn0-sCb9U0d6PBUXAEJH9DOwqtfOFTS6UA6fzHebpE9iax2i_mvPVs4TLIXcDRnvY
 Sony.cl -> https://iptv-epg.org/images/bqFHHg8MgT0QkHHpb-sCH0fDHZq3c4teFZ5KFBEUPIR7usCqtPWW6lDSc_suCOdeHWIlWW4UK1_lIkVNLIwMaXJhHoneLShYDMX5CQ
+SONYMOVIES.uy -> https://iptv-epg.org/images/lfUqu6QNTVeHsGXQ6DUyOYaEqDXlLWOwLT1R6d_CENrT_-H0_tC3bJerKEfwQHWZ-HFGxSW76TcY-wKv1EnoGcz3goiiNt57-CDH4GeUCcj2Q_cC
 SPACE.uy -> https://iptv-epg.org/images/pn6WS4DxktWMsB0i-QrnrfwnZ3jayjXm6o8LvPUsspmtlCMR0jamNl8-Zf2aLoXiVD6UACvZ3gTRU_3NNs2UUYpJaYOVAtWcrgCc_2lEqA
 Space.cl -> https://iptv-epg.org/images/js5WBM_RBp0faF6phe5DkIVEOwCKVY8PdPLWSnHJHdam4-ey6H70xAc3G5MOEqf_EYt3FkO9bhiD25-pA7RUbVMdWPIvobt0kDVENIM
 Space.pe -> https://iptv-epg.org/images/b-nVw5a3IcHo_HgAppS6Won5vQ6UfATxrWwAP8zo2bTicCO9QCINA2Ctni9qEB2k7-ZYeXsm0t5vsxgnatrPmdEj5dc8L4mdTL6m8Q
