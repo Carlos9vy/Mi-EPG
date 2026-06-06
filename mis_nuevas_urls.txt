@@ -139,6 +139,7 @@ PPV14SEXTREME.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logo
 SonyEntertainmentTelevisionAndesfeed.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/SonyEntertainmentTelevisionAndesfeed.ec.png
 Sony.mx -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Sony.mx.png
 Sony.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Sony.cl.png
+SONYMOVIES.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/SONYMOVIES.uy.png
 SPACE.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/SPACE.uy.png
 Space.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Space.cl.png
 Space.pe -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Space.pe.png
