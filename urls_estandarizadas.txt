@@ -229,6 +229,7 @@ WarnerChannel.co = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos
 Win+Futbol.co = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/Win+Futbol.co.png
 WinSports.co = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/WinSports.co.png
 Zoom.co = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/Zoom.co.png
+amcseries = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/amcseries.png
 avilatv = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/avilatv.png
 beINSportsXtraEspanol.us = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/beINSportsXtraEspanol.us.png
 ecdf = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/ecdf.png
