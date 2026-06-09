@@ -6,6 +6,7 @@ RTS.ec
 TCtv.ec
 tc_television
 Teleamazonas.ec
+Teleamazonas.ec@SD
 Gamavision.ec
 Gamavision.ec@SD
 RTU.ec
