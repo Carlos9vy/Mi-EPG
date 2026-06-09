@@ -1,4 +1,5 @@
 Ecuavisa.ec
+Ecuavisa.ec@SD
 EcuavisaInternacional.ec
 RTS.ec
 TCtv.ec
