@@ -1,0 +1,39 @@
+name: Robot Estandarizador de Logos IPTV
+
+on:
+  push:
+    paths:
+      - 'logos/**'
+  workflow_dispatch:
+
+jobs:
+  procesar-logos:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Descargar Repositorio
+      uses: actions/checkout@v4
+
+    - name: Configurar Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Instalar Librerías de Imagen
+      run: |
+        python -m pip install --upgrade pip
+        pip install Pillow
+
+    - name: Ejecutar Robot de Logos
+      env:
+        GITHUB_REPOSITORY: ${{ github.repository }}
+      run: python robot_logos.py
+
+    - name: Guardar y Subir Cambios Completados
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "GitHub Actions Bot"
+        
+        git add logos_estandar/ urls_estandarizadas.txt
+        
+        git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Robot: Limpieza y actualización de logos estándar" && git push)
