@@ -154,6 +154,12 @@ LA2.es
 Boing.es
 Cuatro.es
 Telecinco.es
+Teledeporte.es
+Energy.es
+Divinity.es
+Mega.es
+Nova.es
+Telemadrid.es
 LASESTRELLAS.uy
 Lifetime.co
 Mega.cl
