@@ -9,6 +9,9 @@ Gamavision.ec@SD
 RTU.ec
 EcuadorTV.ec
 OromarTV.ec
+ATV.pe
+ATV+.pe
+ATVSur.pe
 A&E.co
 AMC.ar
 AmcSeries.ar (open-epg.com)
