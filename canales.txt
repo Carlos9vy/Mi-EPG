@@ -10,6 +10,7 @@ Gamavision.ec
 Gamavision.ec@SD
 RTU.ec
 EcuadorTV.ec
+EcuadorTV.ec@SD
 OromarTV.ec
 ATV.pe
 ATV+.pe
