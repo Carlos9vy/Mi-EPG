@@ -1,3 +1,2 @@
-Canal.RTS.sv (epgshare01)
 ESPN PREMIUM HD.ar (open-epg.com)
 TNT SPORTS PREMIUM.ar (open-epg.com)

@@ -885,6 +885,12 @@
     <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/espn_premium-mediano.png" />
     <url>http://www.gatotv.com</url>
   </channel>
+  <channel id="Canal.RTS.sv">
+    <display-name lang="es">Canal RTS</display-name>
+    <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/rts-mediano.png" />
+    <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/rts-mediano.png" />
+    <url>http://www.gatotv.com</url>
+  </channel>
   <channel id="Canal.TUDN.(Centroamérica).sv">
     <display-name lang="es">Canal TUDN (Centroamérica)</display-name>
     <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/tudn-mediano.png" />
@@ -240817,6 +240823,384 @@ El derecho de Nacer II.</desc>
   </programme>
   <programme start="20260613180000 -0600" stop="20260613190000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
     <title lang="es">ESPN Compact</title>
+  </programme>
+  <programme start="20260610001500 -0600" stop="20260610010000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Fear the Walking Dead</title>
+    <desc lang="es">Ambientada en Los Ángeles al comienzo del apocalipsis zombi. Nos transporta a una época en la que el mundo estaba cambiando rápidamente por razones desconocidas, cuando la vida, tal como la conocían todos, dio un vuelco y se alteró de maneras que nadie podría haber imaginado.</desc>
+    <credits>
+      <actor>Kim Dickens</actor>
+      <actor>Cliff Curtis</actor>
+      <actor>Frank Dillane</actor>
+      <actor>Alycia Debnam-Carey</actor>
+      <actor>Elizabeth Rodríguez</actor>
+      <actor>Mercedes Mason</actor>
+      <actor>Lorenzo James Henrie</actor>
+      <writer>Robert Kirkman</writer>
+      <writer>Dave Erickson</writer>
+      <producer>Bill Johnson</producer>
+      <producer>Avram Butch Kaplan</producer>
+      <composer>Atticus Ross</composer>
+    </credits>
+    <date>2015</date>
+    <category lang="es">Drama</category>
+    <category lang="es">Terror</category>
+    <category lang="es">Ciencia Ficción</category>
+    <category lang="es">Suspenso</category>
+    <category lang="es">Serie</category>
+    <icon src="https://imagenes.gatotv.com/categorias/programas/miniatura/fear_the_walking_dead.jpg" />
+    <rating system="MX">
+      <value>TV-MA</value>
+    </rating>
+  </programme>
+  <programme start="20260610010000 -0600" stop="20260610030000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Lucha libre</title>
+  </programme>
+  <programme start="20260610030000 -0600" stop="20260610040000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Ecuador Multicolor</title>
+  </programme>
+  <programme start="20260610040000 -0600" stop="20260610050000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Educa</title>
+  </programme>
+  <programme start="20260610050000 -0600" stop="20260610060000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">La noticia</title>
+  </programme>
+  <programme start="20260610060000 -0600" stop="20260610070000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">El despertar de La Noticia</title>
+  </programme>
+  <programme start="20260610070000 -0600" stop="20260610080000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">La noticia</title>
+  </programme>
+  <programme start="20260610080000 -0600" stop="20260610093000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">La noticia en la comunidad</title>
+  </programme>
+  <programme start="20260610093000 -0600" stop="20260610110000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Noticias de la mañana</title>
+  </programme>
+  <programme start="20260610110000 -0600" stop="20260610120000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Mujer, casos de la vida real</title>
+  </programme>
+  <programme start="20260610120000 -0600" stop="20260610130000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Elif</title>
+  </programme>
+  <programme start="20260610130000 -0600" stop="20260610140000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">La Rosa de Guadalupe</title>
+  </programme>
+  <programme start="20260610140000 -0600" stop="20260610150000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Laura</title>
+  </programme>
+  <programme start="20260610150000 -0600" stop="20260610160000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Legado de Amor</title>
+  </programme>
+  <programme start="20260610160000 -0600" stop="20260610170000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Nazaré</title>
+  </programme>
+  <programme start="20260610170000 -0600" stop="20260610180000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Caso Cerrado</title>
+  </programme>
+  <programme start="20260610180000 -0600" stop="20260610190000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Todo por mi familia</title>
+  </programme>
+  <programme start="20260610190000 -0600" stop="20260610210000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Combate</title>
+  </programme>
+  <programme start="20260610210000 -0600" stop="20260610220000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Corazón abandonado</title>
+  </programme>
+  <programme start="20260610220000 -0600" stop="20260610230000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">La noticia</title>
+  </programme>
+  <programme start="20260610230000 -0600" stop="20260610233000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Copa</title>
+  </programme>
+  <programme start="20260610233000 -0600" stop="20260611001500 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Nueva novia</title>
+  </programme>
+  <programme start="20260611001500 -0600" stop="20260611010000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Fear the Walking Dead</title>
+    <desc lang="es">Ambientada en Los Ángeles al comienzo del apocalipsis zombi. Nos transporta a una época en la que el mundo estaba cambiando rápidamente por razones desconocidas, cuando la vida, tal como la conocían todos, dio un vuelco y se alteró de maneras que nadie podría haber imaginado.</desc>
+    <credits>
+      <actor>Kim Dickens</actor>
+      <actor>Cliff Curtis</actor>
+      <actor>Frank Dillane</actor>
+      <actor>Alycia Debnam-Carey</actor>
+      <actor>Elizabeth Rodríguez</actor>
+      <actor>Mercedes Mason</actor>
+      <actor>Lorenzo James Henrie</actor>
+      <writer>Robert Kirkman</writer>
+      <writer>Dave Erickson</writer>
+      <producer>Bill Johnson</producer>
+      <producer>Avram Butch Kaplan</producer>
+      <composer>Atticus Ross</composer>
+    </credits>
+    <date>2015</date>
+    <category lang="es">Drama</category>
+    <category lang="es">Terror</category>
+    <category lang="es">Ciencia Ficción</category>
+    <category lang="es">Suspenso</category>
+    <category lang="es">Serie</category>
+    <icon src="https://imagenes.gatotv.com/categorias/programas/miniatura/fear_the_walking_dead.jpg" />
+    <rating system="MX">
+      <value>TV-MA</value>
+    </rating>
+  </programme>
+  <programme start="20260611010000 -0600" stop="20260611030000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Lucha libre</title>
+  </programme>
+  <programme start="20260611030000 -0600" stop="20260611040000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Ecuador Multicolor</title>
+  </programme>
+  <programme start="20260611040000 -0600" stop="20260611050000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Educa</title>
+  </programme>
+  <programme start="20260611050000 -0600" stop="20260611060000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">La noticia</title>
+  </programme>
+  <programme start="20260611060000 -0600" stop="20260611070000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">El despertar de La Noticia</title>
+  </programme>
+  <programme start="20260611070000 -0600" stop="20260611080000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">La noticia</title>
+  </programme>
+  <programme start="20260611080000 -0600" stop="20260611093000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">La noticia en la comunidad</title>
+  </programme>
+  <programme start="20260611093000 -0600" stop="20260611110000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Noticias de la mañana</title>
+  </programme>
+  <programme start="20260611110000 -0600" stop="20260611120000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Mujer, casos de la vida real</title>
+  </programme>
+  <programme start="20260611120000 -0600" stop="20260611130000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Elif</title>
+  </programme>
+  <programme start="20260611130000 -0600" stop="20260611140000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">La Rosa de Guadalupe</title>
+  </programme>
+  <programme start="20260611140000 -0600" stop="20260611150000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Laura</title>
+  </programme>
+  <programme start="20260611150000 -0600" stop="20260611160000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Legado de Amor</title>
+  </programme>
+  <programme start="20260611160000 -0600" stop="20260611170000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Nazaré</title>
+  </programme>
+  <programme start="20260611170000 -0600" stop="20260611180000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Caso Cerrado</title>
+  </programme>
+  <programme start="20260611180000 -0600" stop="20260611190000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Todo por mi familia</title>
+  </programme>
+  <programme start="20260611190000 -0600" stop="20260611210000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Combate</title>
+  </programme>
+  <programme start="20260611210000 -0600" stop="20260611220000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Corazón abandonado</title>
+  </programme>
+  <programme start="20260611220000 -0600" stop="20260611230000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">La noticia</title>
+  </programme>
+  <programme start="20260611230000 -0600" stop="20260611233000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Copa</title>
+  </programme>
+  <programme start="20260611233000 -0600" stop="20260612001500 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Nueva novia</title>
+  </programme>
+  <programme start="20260612001500 -0600" stop="20260612010000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Fear the Walking Dead</title>
+    <desc lang="es">Ambientada en Los Ángeles al comienzo del apocalipsis zombi. Nos transporta a una época en la que el mundo estaba cambiando rápidamente por razones desconocidas, cuando la vida, tal como la conocían todos, dio un vuelco y se alteró de maneras que nadie podría haber imaginado.</desc>
+    <credits>
+      <actor>Kim Dickens</actor>
+      <actor>Cliff Curtis</actor>
+      <actor>Frank Dillane</actor>
+      <actor>Alycia Debnam-Carey</actor>
+      <actor>Elizabeth Rodríguez</actor>
+      <actor>Mercedes Mason</actor>
+      <actor>Lorenzo James Henrie</actor>
+      <writer>Robert Kirkman</writer>
+      <writer>Dave Erickson</writer>
+      <producer>Bill Johnson</producer>
+      <producer>Avram Butch Kaplan</producer>
+      <composer>Atticus Ross</composer>
+    </credits>
+    <date>2015</date>
+    <category lang="es">Drama</category>
+    <category lang="es">Terror</category>
+    <category lang="es">Ciencia Ficción</category>
+    <category lang="es">Suspenso</category>
+    <category lang="es">Serie</category>
+    <icon src="https://imagenes.gatotv.com/categorias/programas/miniatura/fear_the_walking_dead.jpg" />
+    <rating system="MX">
+      <value>TV-MA</value>
+    </rating>
+  </programme>
+  <programme start="20260612010000 -0600" stop="20260612030000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Lucha libre</title>
+  </programme>
+  <programme start="20260612030000 -0600" stop="20260612040000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Ecuador Multicolor</title>
+  </programme>
+  <programme start="20260612040000 -0600" stop="20260612050000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Educa</title>
+  </programme>
+  <programme start="20260612050000 -0600" stop="20260612060000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">La noticia</title>
+  </programme>
+  <programme start="20260612060000 -0600" stop="20260612070000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">El despertar de La Noticia</title>
+  </programme>
+  <programme start="20260612070000 -0600" stop="20260612080000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">La noticia</title>
+  </programme>
+  <programme start="20260612080000 -0600" stop="20260612093000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">La noticia en la comunidad</title>
+  </programme>
+  <programme start="20260612093000 -0600" stop="20260612110000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Noticias de la mañana</title>
+  </programme>
+  <programme start="20260612110000 -0600" stop="20260612120000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Mujer, casos de la vida real</title>
+  </programme>
+  <programme start="20260612120000 -0600" stop="20260612130000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Elif</title>
+  </programme>
+  <programme start="20260612130000 -0600" stop="20260612140000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">La Rosa de Guadalupe</title>
+  </programme>
+  <programme start="20260612140000 -0600" stop="20260612150000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Laura</title>
+  </programme>
+  <programme start="20260612150000 -0600" stop="20260612160000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Legado de Amor</title>
+  </programme>
+  <programme start="20260612160000 -0600" stop="20260612170000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Nazaré</title>
+  </programme>
+  <programme start="20260612170000 -0600" stop="20260612180000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Caso Cerrado</title>
+  </programme>
+  <programme start="20260612180000 -0600" stop="20260612190000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Todo por mi familia</title>
+  </programme>
+  <programme start="20260612190000 -0600" stop="20260612210000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Combate</title>
+  </programme>
+  <programme start="20260612210000 -0600" stop="20260612220000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Corazón abandonado</title>
+  </programme>
+  <programme start="20260612220000 -0600" stop="20260612230000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">La noticia</title>
+  </programme>
+  <programme start="20260612230000 -0600" stop="20260612233000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Copa</title>
+  </programme>
+  <programme start="20260612233000 -0600" stop="20260613001500 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Nueva novia</title>
+  </programme>
+  <programme start="20260613001500 -0600" stop="20260613010000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Fear the Walking Dead</title>
+    <desc lang="es">Ambientada en Los Ángeles al comienzo del apocalipsis zombi. Nos transporta a una época en la que el mundo estaba cambiando rápidamente por razones desconocidas, cuando la vida, tal como la conocían todos, dio un vuelco y se alteró de maneras que nadie podría haber imaginado.</desc>
+    <credits>
+      <actor>Kim Dickens</actor>
+      <actor>Cliff Curtis</actor>
+      <actor>Frank Dillane</actor>
+      <actor>Alycia Debnam-Carey</actor>
+      <actor>Elizabeth Rodríguez</actor>
+      <actor>Mercedes Mason</actor>
+      <actor>Lorenzo James Henrie</actor>
+      <writer>Robert Kirkman</writer>
+      <writer>Dave Erickson</writer>
+      <producer>Bill Johnson</producer>
+      <producer>Avram Butch Kaplan</producer>
+      <composer>Atticus Ross</composer>
+    </credits>
+    <date>2015</date>
+    <category lang="es">Drama</category>
+    <category lang="es">Terror</category>
+    <category lang="es">Ciencia Ficción</category>
+    <category lang="es">Suspenso</category>
+    <category lang="es">Serie</category>
+    <icon src="https://imagenes.gatotv.com/categorias/programas/miniatura/fear_the_walking_dead.jpg" />
+    <rating system="MX">
+      <value>TV-MA</value>
+    </rating>
+  </programme>
+  <programme start="20260613010000 -0600" stop="20260613030000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Lucha libre</title>
+  </programme>
+  <programme start="20260613030000 -0600" stop="20260613040000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Ecuador Multicolor</title>
+  </programme>
+  <programme start="20260613040000 -0600" stop="20260613050000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Educa</title>
+  </programme>
+  <programme start="20260613050000 -0600" stop="20260613060000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">La noticia</title>
+  </programme>
+  <programme start="20260613060000 -0600" stop="20260613070000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Ranti ranti</title>
+  </programme>
+  <programme start="20260613070000 -0600" stop="20260613073000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Beyblade Burst</title>
+  </programme>
+  <programme start="20260613073000 -0600" stop="20260613080000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">La Pantera Rosa e hijos</title>
+  </programme>
+  <programme start="20260613080000 -0600" stop="20260613083000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Una familia de diez</title>
+  </programme>
+  <programme start="20260613083000 -0600" stop="20260613090000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">La hora pico</title>
+  </programme>
+  <programme start="20260613090000 -0600" stop="20260613110000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Reto cuatro elementos</title>
+  </programme>
+  <programme start="20260613110000 -0600" stop="20260613120000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Hombre al agua</title>
+  </programme>
+  <programme start="20260613120000 -0600" stop="20260613130000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Hombre al agua</title>
+  </programme>
+  <programme start="20260613130000 -0600" stop="20260613140000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">The Rookie</title>
+    <desc lang="es">Comenzar de nuevo no es fácil, especialmente para un tipo de un pequeño pueblo John Nolan (Nathan Fillion) quien, después de un incidente que le altera la vida, está persiguiendo su sueño de ser un oficial de policía de Los Ángeles. Como el novato más viejo de la fuerza, se ha encontrado con el escepticismo de algunos altos mandos que lo ven como una simple crisis de la mediana edad. Si no puede mantenerse al día con los jóvenes policías y los delincuentes, estará arriesgando vidas, incluida la suya. Pero si puede usar su experiencia de vida, determinación y sentido del humor para darle una ventaja, puede que se convierta en un éxito en este nuevo capítulo de su vida.</desc>
+    <credits>
+      <actor>Nathan Fillion</actor>
+      <actor>Afton Williamson</actor>
+      <actor>Eric Winter</actor>
+      <actor>Melissa O'Neil</actor>
+      <actor>Richard T. Jones</actor>
+      <actor>Titus Makin</actor>
+      <actor>Alyssa Diaz</actor>
+      <actor>Mercedes Mason</actor>
+      <writer>Alexi Hawley</writer>
+    </credits>
+    <date>2018</date>
+    <category lang="es">Crimen</category>
+    <category lang="es">Drama</category>
+    <category lang="es">Serie</category>
+    <icon src="https://imagenes.gatotv.com/categorias/programas/miniatura/the_rookie.jpg" />
+    <rating system="MX">
+      <value>TV-14</value>
+    </rating>
+    <star-rating system="MX">
+      <value>8.0</value>
+    </star-rating>
+  </programme>
+  <programme start="20260613140000 -0600" stop="20260613150000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Hudson &amp; Rex</title>
+  </programme>
+  <programme start="20260613150000 -0600" stop="20260613160000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Los hombres de Paco</title>
+  </programme>
+  <programme start="20260613160000 -0600" stop="20260613170000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Macgyver</title>
+  </programme>
+  <programme start="20260613170000 -0600" stop="20260613180000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Marimar</title>
+  </programme>
+  <programme start="20260613180000 -0600" stop="20260613190000 -0600" channel="Canal.RTS.sv">
+    <title lang="es">Marimar</title>
   </programme>
   <programme start="20260610030000 -0600" stop="20260610070000 -0600" channel="Canal.TUDN.(Centroamérica).sv">
     <title lang="es">TUDN</title>
