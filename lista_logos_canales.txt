@@ -2,36 +2,44 @@ REPORTE DE LOGOS (ORDENADO SEGÚN CANALES.TXT)
 =============================================
 
 Ecuavisa.ec -> https://iptv-epg.org/images/MJhnNl3uoZx7j1dZkS9QDxMZz_gOKJgPSieYoBAd5Hwp492xzA4DutLSbTFskBSMJGuhyU-xcrbxUQ3t9m2VzntP5PdN2jziDOKwtl6RDl0-AA
+Ecuavisa.ec@SD -> https://i.imgur.com/Hl5wowk.png
 EcuavisaInternacional.ec -> https://iptv-epg.org/images/uU8MGQqE_-Y6hl3S2cm3nTjV6OzBThoGFN5ghi5Yi2Lp5DD_QhAuWDJ361qhLY6X1rBnOXK9ASLTbScUODSY2GYECcxU7OEvlLe1GFYvcCqYKAiDpQ5dIAQr3Et6ndw
+EcuavisaInternacional.ec@SD -> https://i.imgur.com/NJI6vt0.png
 RTS.ec -> https://iptv-epg.org/images/746CR1BLmBkbov1b-yWJGN2k7RC6l0KGmy6mj6lYFsSzGwsiPaeBKvjG1zI7T3TTiTcCj8exZcrJMZ9WEn5FwpCwEoCLUv21qdq5Jdk
-TCtv.ec -> (Sin logo encontrado)
+TCtv.ec -> https://iptv-epg.org/images/TuULmH0fQLmVyRzO8U9wIKcXMdBhXThuZWq3Nv9h-VGN3wlX3oJrr7YsNWBNQlcv-83ZoLFO_xnapJ9hWGaMZ4UahtmfRsFKTw3NiPAM
 tc_television -> (Sin logo encontrado)
 Teleamazonas.ec -> https://iptv-epg.org/images/2NRiRGF63ZCx5buMuYgYX0ghIoh7TinuYZ7sDe4QufcB5mSDEhdpq21WZF1Y6PAjJdkiKBAPWt8ZsQmzAyyv1HT64hHE14CpK7V36V3ysJeCS1dHFeQ
-Gamavision.ec -> (Sin logo encontrado)
+Teleamazonas.ec@SD -> https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Teleamazonas_Logo.png/960px-Teleamazonas_Logo.png
+Gamavision.ec -> https://iptv-epg.org/images/sBjaoYglvvkqIP_SB7VBDdW88saCtdc5EamCtyzhe7627biweAedkbeUiPFyNFk9DYnw8Q1AgjmyjMnlGLaISgUI8AOj5dOsC7SSJtef-NTC1xDg
 Gamavision.ec@SD -> https://upload.wikimedia.org/wikipedia/commons/9/94/Gamavisi%C3%B3n2018new.png
 RTU.ec -> https://iptv-epg.org/images/Hc_mThZrJj_aM6hauqoov1hCujM3NstUvPtFHSnrHsSxIRJrqsYySXMIP9d3Fx5MhoIDqGCM6uoJ03ceZjAcxGGSwnOo4_Qwj8DFAY0
 EcuadorTV.ec -> https://iptv-epg.org/images/6Eb5OYncImveIY7iq8sWUTE2lIaciSJ5p9RiRY2EFRVJPzY633Cf7L08aLTu6wIAe8HMxXHxK_1xrPPdC0VdLYdDwGNsjkLmSt9cKnQgK8b_KpY
-OromarTV.ec -> (Sin logo encontrado)
+EcuadorTV.ec@SD -> https://i.imgur.com/hj6EYwe.png
+OromarTV.ec -> https://iptv-epg.org/images/1fjVkPdWULQ8bg_XKkRlJ0eEcfZxn6rVBbEwUOi3lhg_m5bvdHjhYWRo3UkA9Jc_0OjF3hxDP08Wnji7X6mtgEuQ9LF9u-WLkaSmZFwasH1pFw
+ATV.pe -> https://iptv-epg.org/images/mkiVWHEL5DDZUS1j2Q9kBiUBmvqgnQgw1eggD5aT8Yefv27KSj0Aclp36ugb2r6lAolzr7LGCc53m5Zc9RtpR2nYzawlPDJ0jTk
+ATV+.pe -> https://iptv-epg.org/images/OFI9ED7loLjs8_Qpw9wx1xmskACFyFgOiz75MjTRSyL6ctXHEtYLH4cjT7UKXl5dcX98Lx8NLI6tWqaxYcbiOJHNXHb8rO24IezV_hw
+ATVSur.pe -> https://iptv-epg.org/images/mIb2H0THu3npDF3wucmM5en0QAlIJqI-v_nx9Vf3BiDRUJWGHZOU5z90oHlOqt_jdzdEHNTHc1l75tVwh_T-NuZYbiogTJDG2SszWtk
 A&E.co -> https://iptv-epg.org/images/A-dLziJmPtjYQ8m6BhwFWsPoij2QWszPLOtdi1PDQpclasT4kNav1RLhgSqVIYilH0QZ3P0lKftlYbiGsA34ZUQU_4GVXeLmX1oI-NKvGlA
 AMC.ar -> https://iptv-epg.org/images/QBLsvpGHQf_t6anNq3PcpdIr_owBj_tZz2BlzpbcavxZB4Qj7BdnNkjX8qDspOeHIR2t-ddzwXl-fPsSlE7vw4zHA-Bo7v2dNdiolnSTpA
 AmcSeries.ar (open-epg.com) -> (Sin logo encontrado)
 AXN.co -> https://iptv-epg.org/images/S5xgQDuomJG_5cq0ifp8xjPkwu8rF_Tyy1-nMm_vgqNxOD85rxITTe83msqy8UfmnE4EXcuua0s4bXRsJVG_rr3EEj2AmAaEW5GF3658
 AmericaTelevision.pe@SD -> https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Am%C3%A9rica_Televisi%C3%B3n.svg/500px-Am%C3%A9rica_Televisi%C3%B3n.svg.png
-AmericaTelevision.pe -> (Sin logo encontrado)
+AmericaTelevision.pe -> https://iptv-epg.org/images/wuoyo2cuTZIscKm40qVCEF8QRr5Pp-gdEE7H423hxv3QUqXW1nsCB5rQTtcjbVH4ceCnrCO1vqCMlfebc8u25pdO2gn2TgOTk9eIhOIeDM166KnzBjbgdA
 AnimalPlanet.co -> https://iptv-epg.org/images/_6wGQbYfYJdBdSiZT1dDTSk1ilKPtVE4ff8jvWcqpzjOpocjlc1OymbKgNqLxKsDgNRm5sqWDylPVfcOsvvrWPG4hRvXNsonTFJjQ-sID1NqumR29yLP
 Antena3.co -> https://iptv-epg.org/images/iGkO8jyT5iILp5iHen8DbIFHEZdqsuXnWEKvD5DW8XImJ9n_5DY5pupEAePWH1YO49Ux42IAIFjJ6etj4vyE_9F74N83z_1zh16fFWv8ZhLm5Q
 Atreseries.es -> https://iptv-epg.org/images/DP14GHjCK8oVqvPMJoBJgaz84FLv3i4hZsfR2P4mFCbnKXdwCmhaBWukwmyEQexEzd-e-iwuXO2lCydsAQz3Rrh4KJE_2WKwRHXxrfXWghFk7w
 AzCorazon.mx@SD -> https://i.imgur.com/KIpSdQC.png
-AzCorazón.mx -> (Sin logo encontrado)
+AzCorazón.mx -> https://iptv-epg.org/images/PH7--1gxda9kZzIFmXJNjusySHwNxekQboFI1k-YVNGBKHZMbmidTo5mcZn_-oAnyM1s4PrNAGoXkdqswrV9LTjROKMk-Kq7m2atWQrE5hQwaFoxdJ-w
 AvilaTV.ve@SD -> https://i.imgur.com/hL2R9K1.png
 AztecaInternacional.us -> https://iptv-epg.org/images/HzHgUwpZLJXrftW6qlGzIG8ZrVUgn6wcCWoy2bOxfRfBaufHW6SSvwNkj764FveJmLbpPqQZM0tae-3cTMZKN3r-tI8D6qgDLc7RZwk3Wr3SjWeIwZQObog
 BabyTV.cl -> https://iptv-epg.org/images/msjfCKnOnncgMyx3BgAhlfTKcrCvvKt4jpJ44PY9eW04kGIV-iChfCY4cY7RxKcCKP28neuNPt98QNy6sGnAwEANc09Q5_gFphxJo-EY
 BabyFirst.us -> https://iptv-epg.org/images/a6xeTgwc-Y_aPy5wNizpJT7u9BzeRhaREE6vaLiLq5qPN8m9-mHLmzPbjlPn-H063NtzbCTFixEUzQrWXENBFXSwI2lG8x7VPfvqxJ2K8w
 Canal5.mx -> https://iptv-epg.org/images/jQnQYLInVH7MB99Vt78IZh5j1KYs4wCZCmF1lCJN87u_f1lQVYXuPlbAUSFQZcB7AOdvQ7SmTs4B6DDXElRDvUBS2vfSV7bO3Hcmk1Sy3g
+Canal.5.de.México.(XHGC).sv -> https://imagenes.gatotv.com/logos/canales/oscuros/5_de_mexico-mediano.png
 CartoonNetwork.co -> https://iptv-epg.org/images/s_0t7qaNtAMK-PWL4V3Hgtnd_HruFxKyEdgIh_igFToVKgjJKKK1TzkFKKhAWG81dFyfka318biFblRznjFaVZgeeT_Cqmza9NLL8SN5msfGwY0uQCgjgOw
 Cartoonito.co -> https://iptv-epg.org/images/r_ICXAVwjbtsNiWNvnXaqH_d61yDXALgplKRa9BEgDdnaolyDOeeJI3nJHuaSvSqQVwhd89GmtaGybcDNitXW_cGEmz0ikfUwLuBmOMMTKTcma_lNA
 CGTNSpanish.cn@SD -> https://i.imgur.com/Poz3xfi.png
-CGTNEspanol.es -> (Sin logo encontrado)
+CGTNEspanol.es -> https://iptv-epg.org/images/hvYVIp-tzdraX6xCyrbOj2H4_0HvHGBhuVTe2bm-pTt4WWFegHwSVFi2HfnDXcZiuaaLbvt1Oi3gwAAmuKgL5WJuZsiO-qyse3Spu6TdiwTtX6c
 AmcSeries.ar (open-epg.com) -> (Sin logo encontrado)
 CGTN Documentary.es (open-epg.com) -> (Sin logo encontrado)
 Caracol.co -> https://iptv-epg.org/images/VBzu00A3R2vSQmfHFRT-M5-oweMAfXQopgPCHlp-lSXFsXl-Pee0DGTfNMweUAd_AuWTK32438FvHR2qat2Gwq8qMQbjHSnFaGDwYytALBMepQ
@@ -49,7 +57,7 @@ DAZN2.es -> https://iptv-epg.org/images/5f57aBlQSMAgyvm7bsLcYR90ihjfaK0eJ_7WBBeq
 DAZN3.es -> https://iptv-epg.org/images/mU4nBznFHotPm-hvUXidjqUdziOA1-smZtR4Xhn-emuplLZFhalwvnRHH5UESxpbIlCIcJCP7t8Ask0oKkP46O69J7Ff6rN8YziMiC4
 DAZNF1.es -> https://iptv-epg.org/images/_nenz8DnfVZ2bA6zZCbtObUrMYfTgqVe2MmKTmswVnB8_UU6a1VW1wiz04L6GxTJTg79zy9pOarXRXTPF0o22G3bhA7ArlbUXgaxT94b
 DAZNLaLiga.es -> https://iptv-epg.org/images/qMQtAIGQoLsWjo5ZU0KtnUnlifl0E0u_qaLs8fhNO8KKha0byvQNw-iVMPFyh5G3cGD2j544pdYxR6qtj9wY5ts3hiW1jghcaejBB75Ri_zkHA
-DePelícula.mx -> (Sin logo encontrado)
+DePelícula.mx -> https://iptv-epg.org/images/YJnfTen2uCNk-E93layHsGIm9idDg3yfWZMIK-1qY66mZNXsBm7gvacH4747daRnJ8c13BvdvaCB95NMAkT4MjqiQyV-e1gdo7dkS1N3154q3d8WOWilYQ
 137 -> (Sin logo encontrado)
 DHE.cl -> https://iptv-epg.org/images/EHH8-ZuE3CeIec-8rLdETnVO5H4Ja5CycUeZB_aaRDbyk1jAkoJDPtJAKoLC6WA7ucFgPq9Z23a2qcL00VWIYyGCQPU-dvY_Aj1r
 6996 -> (Sin logo encontrado)
@@ -154,9 +162,16 @@ LA2.es -> https://iptv-epg.org/images/Nf972M8j7T6IlS20wTZv7PWxbAe0OPWBRZYVzhr58T
 Boing.es -> https://iptv-epg.org/images/pIgxVDDjQ7_1dkbeN5A9yg_7a2lRRdIbt6fkK39fU5zDRXsB__brEGIgx1fNbPuNeRoInIV5Jjolgz_wbTSwzkCymvRZd0ZMYWJ_PTw
 Cuatro.es -> https://iptv-epg.org/images/HKu7IP1a5Q4W1dm1Q4NIXzdKfoYotfrEl-TfeXiE3NKIkT39ryhDuyDBkWRITHypnVPqTmSp828huLcKImKrOAqjQgnxRz7Q18xz9UnG
 Telecinco.es -> https://iptv-epg.org/images/BgHq6XhMeujhO3wAIvkInKq2VHn3--QdJ0GWJQqD8otwovWe9azkCc6QIpHXAQUiZBJji-XHq0OBouEBg5ZTejkJoFl3z-tEa4l4h3oasHiU
+Teledeporte.es -> https://iptv-epg.org/images/Q6siFI1D9uwVyryonu5C06M4nyham0_E_CED5-LultE3__VoBq9frkIch5SHyyXQ9XAciXD2iISitiKIK4bCRGV_Zle-zbxzffTNGksf3fS_NuE
+Energy.es -> https://iptv-epg.org/images/GKIZUTMddRi9QwCnZ2Dt3xqIsSuPKLSw_kSTk6im5rwbbGIw0S1ihusm3w-z3Bt32VjDC2oN5mrKjqqPZTtsJ7he1Pn3IhoNFJ53AHbd
+Divinity.es -> https://iptv-epg.org/images/Upac3YlyF0zDHCihoYgv8s7O267YHCxC4zK9JU-SpVYG84z0l6nhenQO6qWpSXCnRlsKrOhrMiI8rx6zRhaJKu5lzZhPMky0BW0_AR9XA-8
+Mega.es -> https://iptv-epg.org/images/8Y1pVAG_GNEfHaL7ysvfz8_tsjFYavoXzPFhQA02ODuxnguVO2jPVAluQunsECBDRZcf4CZDKWvpoED2bd5kg7tkAQpLqAPO3DUoww
+Nova.es -> https://iptv-epg.org/images/9oWzJFruN7oMjMXwvniCsk2V3Vie6vcIyLWpMqLPR72OP1Vg9iosLxMBqNO5q1WSeWiuJfBjsO3KW8vIjqGUzMlm1kKalDyo0Z0WBA
+Telemadrid.es -> https://iptv-epg.org/images/Z_yB61oPL1mipSF2u6VmKvDQPAEikKEhqoQwKj-YSqH-mbsB5KCI2SbzGI_76dS_Ezwm40mpxPVBmsY6y9xJvEbnSneN4-dwWVFTkPzqSn67_w
 LASESTRELLAS.uy -> https://iptv-epg.org/images/riRrSLuCFdNlwXpY8_0ZVoeRhd5DUHm3DtX60x31MoxotfAuOdD19i7eFdaudewy898I2PiYPh-eWU3YzdK11bNOINRW28JgouYZptQ9RdlvX-cm5gI
 Lifetime.co -> https://iptv-epg.org/images/Suef7hWnJ2ft1b17ofm_gcemMUtqRIMU7BBXifboRq27IV0g1VrOnypY2YSetkmTxVVpSW2NjpgPOnxHuyVpzHpnw8jlPf31IcKn-kJsmGc0l5o
 Mega.cl -> https://iptv-epg.org/images/-GmpZepbkfmdTV6jQYx5FAXBdbtKVFvTHWz_4XW_-6pr2uoCGuL_2i4HR284phpnAmfoQHFyACDG5xxZje26O0zwzdX4ip2r4fgqMQ
+M+Deportes.es -> https://iptv-epg.org/images/7NwI8l7A3z7NUJjd2IlPx0NXW5dJuO1s7exUN4G8rgg6F-Kb6Tb7aJpKr9fTlNjMv0ABFykz2RzqnP2VSNweow9HQKXoKXHQpn-eOr26j2e3hoGj
 M+LigadeCampeones.es -> https://iptv-epg.org/images/6ROvYWDZ-4VQRLGyhnpSApFW4peMn1uvp0urGiQpXsq9I6YBuB_3Q-xxZgLiElhSLR0kXPc7O3Sa2cgrav-_s2St2KJA0luLKnBD9x2jb7U4c2CHjaoUjYpQtQ
 M+LigadeCampeones2.es -> https://iptv-epg.org/images/pu9t4SRgMgSQzhZP4CZx78sr8agrK4a4ixnwR_unYe9dvNRhHyd5P0ljUFRHoqyeq__WpqQv7Gex4ZFCcgyITrRJDpc_fFs0b1o8rk8ANiqaLfkP5yvspC1Nnco
 M+LigadeCampeones3.es -> https://iptv-epg.org/images/KJfZzxyInr2KwzPzqZtn0IFwRBaTm8W0ZrTSislGCor6leklbcBa8-_Gs4nfM2xP2uJ6p0WGWrTLF-0SvQvfxXFT6ZN3EuHGGrSVJQz_kH7qf6ybyYAcEpHWi9s
@@ -210,7 +225,7 @@ TUDNMexico.mx -> https://iptv-epg.org/images/1rpExtt2TJem52VDhPngsJTJD0_9gcWvOGs
 Canal.TUDN.(Centroamérica).sv -> https://imagenes.gatotv.com/logos/canales/oscuros/tudn-mediano.png
 Canal.TUDN.(Estados.Unidos).sv -> https://imagenes.gatotv.com/logos/canales/oscuros/tudn-mediano.png
 Canal.TUDN.(México).sv -> https://imagenes.gatotv.com/logos/canales/oscuros/tudn-mediano.png
-TUDNMexico.gt -> (Sin logo encontrado)
+TUDNMexico.gt -> https://iptv-epg.org/images/43Ue7OxaOnRVCJJrdS67ffxy7i0VwGIexIt0Xn4LG5bSMKtFnSjkMl2m7jCALvkUxaky_U_u40U49E_Bvf2NS7-_O--bS6ZLzc8bBEisC4YHyNlNOdc
 TyCSports.ar -> https://iptv-epg.org/images/rH62N-Muw4irglg3kzRp24Fxs7jltfw80JMZFrVe4wFYp0ChnFkCeToODViUtmOY8ycK1rciKxLinI1Uui17iCXBcpKjy3j-evpmc1eEVK9g857Kxg
 TyCSports.co -> https://iptv-epg.org/images/LQFHznwhH72UrFFrOHkYKkrjK5-7gOz8Ow_L_TUBV7oinz-2xG_rVj-GJx_z26pK_o-_-QA9vmjUL80EaoiennKHSpi9E_mQ6CvffjtYWas6NZqL
 Unitel.pe -> https://iptv-epg.org/images/G5wdPeaD0I2OGSmeZ1ekz5VJ4ruSASQgyw66-tPqpdhP5LV1g5EnLRDkfjF8CNcSLj1Cz00648_UKF-t-Smd-L3hKdghA5zr95mV_7U
