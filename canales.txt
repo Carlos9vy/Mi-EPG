@@ -29,6 +29,7 @@ AzCorazon.mx@SD
 AzCorazón.mx
 AvilaTV.ve@SD
 AztecaInternacional.us
+6582f002a620e3000813b329
 BabyTV.cl
 BabyFirst.us
 Canal5.mx
@@ -125,6 +126,7 @@ FOXSportsConoSur.ar
 FOXSports2.ar
 FOXSports3.ar
 FIFA+.us
+FIFAPlus.uk@HispanicAmerica
 Eurochannel.co
 EWTN.cl
 film&arts.co
