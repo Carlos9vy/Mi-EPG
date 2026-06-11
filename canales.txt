@@ -3,6 +3,7 @@ Ecuavisa.ec@SD
 EcuavisaInternacional.ec
 EcuavisaInternacional.ec@SD
 RTS.ec
+Canal.RTS.sv (epgshare01)
 TCtv.ec
 tc_television
 Teleamazonas.ec
