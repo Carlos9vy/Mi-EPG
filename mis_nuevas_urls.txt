@@ -1,11 +1,18 @@
 Ecuavisa.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Ecuavisa.ec.png
+Canal.Ecuavisa.(Ecuador).sv -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Canal.Ecuavisa.%28Ecuador%29.sv.png
 EcuavisaInternacional.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/EcuavisaInternacional.ec.png
+Canal.Ecuavisa.Internacional.sv -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Canal.Ecuavisa.Internacional.sv.png
 RTS.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/RTS.ec.png
+Canal.RTS.sv -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Canal.RTS.sv.png
 TCtv.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/TCtv.ec.png
+Canal.TC.Televisión.sv -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Canal.TC.Televisi%C3%B3n.sv.png
 Teleamazonas.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Teleamazonas.ec.png
+Canal.Teleamazonas.sv -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Canal.Teleamazonas.sv.png
 Gamavision.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Gamavision.ec.png
+Canal.Gamavisión.sv -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Canal.Gamavisi%C3%B3n.sv.png
 RTU.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/RTU.ec.png
 EcuadorTV.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/EcuadorTV.ec.png
+Canal.Ecuador.TV.sv -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Canal.Ecuador.TV.sv.png
 OromarTV.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/OromarTV.ec.png
 ATV.pe -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ATV.pe.png
 ATV+.pe -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ATV%2B.pe.png
@@ -169,6 +176,7 @@ StudioUniversal.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/lo
 StudioUniversal.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/StudioUniversal.cl.png
 SUNCHANNEL.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/SUNCHANNEL.uy.png
 TCM.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/TCM.co.png
+Telefe.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Telefe.ar.png
 TelemundoInternacional.ec -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/TelemundoInternacional.ec.png
 Telesur.pe -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Telesur.pe.png
 TLC.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/TLC.co.png
