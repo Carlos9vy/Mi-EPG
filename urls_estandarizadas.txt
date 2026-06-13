@@ -100,6 +100,7 @@ ESPN7.ec = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estanda
 ESPN7.uy = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/ESPN7.uy.png
 ESPNColombia.ec = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/ESPNColombia.ec.png
 ESPNNorte.mx = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/ESPNNorte.mx.png
+ESPNPremiumOff = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/ESPNPremiumOff.png
 ESPNSur2.ar = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/ESPNSur2.ar.png
 ESPNSur3.ar = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/ESPNSur3.ar.png
 ESPN_PREMIUM_HD.ar = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/ESPN_PREMIUM_HD.ar.png
