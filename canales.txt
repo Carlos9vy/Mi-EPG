@@ -211,6 +211,7 @@ StudioUniversal.ar
 StudioUniversal.cl
 SUNCHANNEL.uy
 TCM.co
+Telefe.ar
 TelemundoInternacional.ec
 Telesur.pe
 TLC.co
