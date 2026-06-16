@@ -227826,76 +227826,7 @@ El legado que le ha dejado su padre es una carga muy pesada para Harvey, quien t
 <programme start="20260618020000 +0000" stop="20260618040000 +0000" channel="VENEVISION.ve"><title>Noticiero Venevisi�n - Emisi�n matutinaNoticiero</title><sub-title /><desc>Noticiero Venevisi�n - Emisi�n matutinaNoticiero</desc><episode-num system="xmltv_ns" /></programme>
 <programme start="20260618040000 +0000" stop="20260618040000 +0000" channel="VENEVISION.ve"><title>Los astros Magazine</title><sub-title /><desc>Los astros Magazine</desc><episode-num system="xmltv_ns" /></programme>
 <programme start="20260618040000 +0000" stop="20260618080000 +0000" channel="VENEVISION.ve"><title>Los astrosMagazine</title><sub-title /><desc>Los astrosMagazine</desc><episode-num system="xmltv_ns" /></programme>
-<programme start="20260614013000 -0600" stop="20260614053000 -0600" channel="Canal.5.de.México.(XHGC).sv">
-    <title lang="es">Infomerciales</title>
-  </programme>
-  <programme start="20260614053000 -0600" stop="20260614060000 -0600" channel="Canal.5.de.México.(XHGC).sv">
-    <title lang="es">Especial de R.T.C</title>
-  </programme>
-  <programme start="20260614060000 -0600" stop="20260614063000 -0600" channel="Canal.5.de.México.(XHGC).sv">
-    <title lang="es">Cronicas</title>
-  </programme>
-  <programme start="20260614063000 -0600" stop="20260614070000 -0600" channel="Canal.5.de.México.(XHGC).sv">
-    <title lang="es">Infomerciales</title>
-  </programme>
-  <programme start="20260614070000 -0600" stop="20260614090000 -0600" channel="Canal.5.de.México.(XHGC).sv">
-    <title lang="es">Beethoven y el tesoro</title>
-  </programme>
-  <programme start="20260614090000 -0600" stop="20260614104500 -0600" channel="Canal.5.de.México.(XHGC).sv">
-    <title lang="es">Clifford: El Gran Perro Rojo</title>
-    <desc lang="es">Cuando la estudiante de secundaria Emily Elizabeth Howard (Darby Camp) conoce a un rescatador de animales mágicos llamado Sr. Bridwell (John Cleese) quien le regala un cachorrito rojo, nunca anticipó despertarse para encontrar un perro gigante de diez pies en su pequeño apartamento en la ciudad de Nueva York. Mientras su madre soltera Maggie Howard (Sienna Guillory) está fuera por negocios, Emily y su divertido pero impulsivo tío Casey (Jack Whitehall) se embarcan en una aventura que te mantendrá al borde de tu asiento mientras nuestros héroes dan un mordisco. De la Gran Manzana.</desc>
-    <credits>
-      <director>Walt Becker</director>
-      <actor>Darby Camp</actor>
-      <actor>Jack Whitehall</actor>
-      <actor>Izaac Wang</actor>
-      <actor>John Cleese</actor>
-      <actor>Russell Wong</actor>
-      <actor>Paul Rodríguez</actor>
-      <actor>Tony Hale</actor>
-      <actor>Russell Peters</actor>
-      <producer>Jordan Kerner</producer>
-      <producer>Iole Lucchese</producer>
-      <composer>John Debney</composer>
-    </credits>
-    <date>2021</date>
-    <category lang="es">Animación</category>
-    <category lang="es">Aventura</category>
-    <category lang="es">Comedia</category>
-    <category lang="es">Familia</category>
-    <category lang="es">Fantasía</category>
-    <category lang="es">Romance</category>
-    <category lang="es">Película</category>
-    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/clifford_el_gran_perro_rojo.jpg" />
-    <rating system="MX">
-      <value>PG</value>
-    </rating>
-    <star-rating system="MX">
-      <value>8.0</value>
-    </star-rating>
-  </programme>
-  <programme start="20260614104500 -0600" stop="20260614124500 -0600" channel="Canal.5.de.México.(XHGC).sv">
-    <title lang="es">Los pitufos</title>
-  </programme>
-  <programme start="20260614124500 -0600" stop="20260614144000 -0600" channel="Canal.5.de.México.(XHGC).sv">
-    <title lang="es">Tom y Jerry</title>
-  </programme>
-  <programme start="20260614144000 -0600" stop="20260614170000 -0600" channel="Canal.5.de.México.(XHGC).sv">
-    <title lang="es">Países Bajos vs. Japón</title>
-    <desc lang="es">Enfrentamiento deportivo donde se miden las selecciones del Reino de los Países Bajos y el Estado del Japón.</desc>
-    <category lang="es">Deporte</category>
-    <icon src="https://imagenes.gatotv.com/categorias/deportes/miniatura/paises_bajos_vs_japon.png" />
-  </programme>
-  <programme start="20260614170000 -0600" stop="20260614190000 -0600" channel="Canal.5.de.México.(XHGC).sv">
-    <title lang="es">Corazón De Dragón</title>
-  </programme>
-  <programme start="20260614190000 -0600" stop="20260614221500 -0600" channel="Canal.5.de.México.(XHGC).sv">
-    <title lang="es">Troya</title>
-  </programme>
-  <programme start="20260614221500 -0600" stop="20260615010000 -0600" channel="Canal.5.de.México.(XHGC).sv">
-    <title lang="es">Gladiador</title>
-  </programme>
-  <programme start="20260615010000 -0600" stop="20260615020000 -0600" channel="Canal.5.de.México.(XHGC).sv">
+<programme start="20260615010000 -0600" stop="20260615020000 -0600" channel="Canal.5.de.México.(XHGC).sv">
     <title lang="es">Infomerciales</title>
   </programme>
   <programme start="20260615020000 -0600" stop="20260615023000 -0600" channel="Canal.5.de.México.(XHGC).sv">
@@ -228410,59 +228341,98 @@ El legado que le ha dejado su padre es una carga muy pesada para Harvey, quien t
   <programme start="20260617233000 -0600" stop="20260618010000 -0600" channel="Canal.5.de.México.(XHGC).sv">
     <title lang="es">La ley y el orden UVE</title>
   </programme>
-  <programme start="20260614010000 -0600" stop="20260614020000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">Barcelona soñar, jugar, ganar</title>
+  <programme start="20260618010000 -0600" stop="20260618040000 -0600" channel="Canal.5.de.México.(XHGC).sv">
+    <title lang="es">Infomerciales</title>
   </programme>
-  <programme start="20260614020000 -0600" stop="20260614035500 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">Liverpool vs. Paris Saint-Germain (Fra)</title>
-    <sub-title lang="es">UEFA Champions League</sub-title>
+  <programme start="20260618040000 -0600" stop="20260618043000 -0600" channel="Canal.5.de.México.(XHGC).sv">
+    <title lang="es">Cronicas</title>
   </programme>
-  <programme start="20260614035500 -0600" stop="20260614043500 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">FIM World Super Bike Series</title>
-    <sub-title lang="es">World SBK - Superpole Race - Pirelli Emilia-Romagna</sub-title>
+  <programme start="20260618043000 -0600" stop="20260618053000 -0600" channel="Canal.5.de.México.(XHGC).sv">
+    <title lang="es">Infomerciales</title>
   </programme>
-  <programme start="20260614043500 -0600" stop="20260614065500 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">ESPN Knockout</title>
-    <sub-title lang="es">Antonio Vargas vs. Jesse Rodríguez</sub-title>
+  <programme start="20260618053000 -0600" stop="20260618060000 -0600" channel="Canal.5.de.México.(XHGC).sv">
+    <title lang="es">Especial de R.T.C</title>
   </programme>
-  <programme start="20260614065500 -0600" stop="20260614080000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">FIM World Super Bike Series</title>
-    <sub-title lang="es">World SBK - Race 2 - Pirelli Emilia-Romagna</sub-title>
+  <programme start="20260618060000 -0600" stop="20260618070000 -0600" channel="Canal.5.de.México.(XHGC).sv">
+    <title lang="es">Infomerciales</title>
   </programme>
-  <programme start="20260614080000 -0600" stop="20260614110000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">Liga Mexicana de Béisbol</title>
-    <sub-title lang="es">Diablos Rojos del México vs. Charros de Jalisco, Temporada regular, Estadio Panamericano</sub-title>
+  <programme start="20260618070000 -0600" stop="20260618074500 -0600" channel="Canal.5.de.México.(XHGC).sv">
+    <title lang="es">el chavo animado</title>
   </programme>
-  <programme start="20260614110000 -0600" stop="20260614140000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">ESPN Knockout</title>
-    <sub-title lang="es">Lucas Fernando vs. Leon Soares</sub-title>
+  <programme start="20260618074500 -0600" stop="20260618101500 -0600" channel="Canal.5.de.México.(XHGC).sv">
+    <title lang="es">Meteoro La Película</title>
   </programme>
-  <programme start="20260614140000 -0600" stop="20260614160000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">Tour of Auvergne-Rhône-Alpes</title>
-    <sub-title lang="es">Etapa 8</sub-title>
+  <programme start="20260618101500 -0600" stop="20260618121500 -0600" channel="Canal.5.de.México.(XHGC).sv">
+    <title lang="es">Rápido y furioso Reto Tokio</title>
   </programme>
-  <programme start="20260614160000 -0600" stop="20260614190000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">ESPN Knockout</title>
-    <sub-title lang="es">Antonio Vargas vs. Jesse Rodríguez</sub-title>
+  <programme start="20260618121500 -0600" stop="20260618143000 -0600" channel="Canal.5.de.México.(XHGC).sv">
+    <title lang="es">Más Rápido, Más Furioso</title>
   </programme>
-  <programme start="20260614190000 -0600" stop="20260614200500 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">FIM World Super Bike Series</title>
-    <sub-title lang="es">World SBK - Race 1 - Pirelli Emilia-Romagna</sub-title>
+  <programme start="20260618143000 -0600" stop="20260618170000 -0600" channel="Canal.5.de.México.(XHGC).sv">
+    <title lang="es">Rápidos y Furiosos 5</title>
+    <desc lang="es">El fugitivo Dom Toretto (Vin Diesel) se asocia con el ex policía Brian O'Conner (Paul Walker) en el lado opuesto de la ley en la exótica ciudad de Rio de Janeiro, Brasil. Allí, son perseguidos por una poderosa fuerza de ataque estadounidense dirigida por Hobbs (Dwayne Johnson) y un ejército de policías corruptos que trabajan para un jefe de drogas despiadado. Para ganar su libertad y ganar esta carrera de velocidad máxima deben hacer un último trabajo – un ataque de locura de 100 millones de dólares.</desc>
+    <credits>
+      <director>Justin Lin</director>
+      <actor>Vin Diesel</actor>
+      <actor>Paul Walker</actor>
+      <actor>Dwayne Johnson</actor>
+      <actor>Jordana Brewster</actor>
+      <actor>Tyrese Gibson</actor>
+      <actor>Ludacris</actor>
+      <actor>Sung Kang</actor>
+      <actor>Gal Gadot</actor>
+      <producer>Neal H. Moritz</producer>
+      <producer>Vin Diesel</producer>
+      <composer>Brian Tyler</composer>
+    </credits>
+    <date>2011</date>
+    <category lang="es">Acción</category>
+    <category lang="es">Crimen</category>
+    <category lang="es">Suspenso</category>
+    <category lang="es">Película</category>
+    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/rapidos_y_furiosos_5.jpg" />
+    <country lang="es">Brasil</country>
+    <rating system="MX">
+      <value>PG-13</value>
+    </rating>
+    <star-rating system="MX">
+      <value>7.0</value>
+    </star-rating>
   </programme>
-  <programme start="20260614200500 -0600" stop="20260614205000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">FIM World Super Bike Series</title>
-    <sub-title lang="es">World SBK - Superpole Race - Pirelli Emilia-Romagna</sub-title>
+  <programme start="20260618170000 -0600" stop="20260618193000 -0600" channel="Canal.5.de.México.(XHGC).sv">
+    <title lang="es">Rápidos y Furiosos 6</title>
+    <desc lang="es">(Fast &amp; Furious 6) La banda de fugitivos comandados por Dominic Toretto (Vin Diesel) recibe una oferta de limpiar su historial criminal y volver a su país a cambio de ayudar al comandante Luke Hobbs (Dwayne Johnson) a atrapar a una organización mercenaria operada por Owen Shaw (Luke Evans) y su mano derecha Letty Ortiz (Michelle Rodriguez) quien se daba por muerta.</desc>
+    <credits>
+      <director>Justin Lin</director>
+      <actor>Vin Diesel</actor>
+      <actor>Paul Walker</actor>
+      <actor>Dwayne Johnson</actor>
+      <actor>Michelle Rodriguez</actor>
+      <producer>Neal H. Moritz</producer>
+      <producer>Vin Diesel</producer>
+      <composer>Lucas Vidal</composer>
+    </credits>
+    <date>2013</date>
+    <category lang="es">Acción</category>
+    <category lang="es">Crimen</category>
+    <category lang="es">Suspenso</category>
+    <category lang="es">Película</category>
+    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/rapidos_y_furiosos_6.jpg" />
+    <rating system="MX">
+      <value>PG-13</value>
+    </rating>
+    <star-rating system="MX">
+      <value>8.0</value>
+    </star-rating>
   </programme>
-  <programme start="20260614205000 -0600" stop="20260614220000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">FIM World Super Bike Series</title>
-    <sub-title lang="es">World SBK - Race 2 - Pirelli Emilia-Romagna</sub-title>
+  <programme start="20260618193000 -0600" stop="20260618220000 -0600" channel="Canal.5.de.México.(XHGC).sv">
+    <title lang="es">México vs. Corea del Sur</title>
+    <desc lang="es">Enfrentamiento deportivo donde se miden las selecciones de los Estados Unidos Mexicanos y la República de Corea.</desc>
+    <category lang="es">Deporte</category>
+    <icon src="https://imagenes.gatotv.com/categorias/deportes/miniatura/mexico_vs_corea_del_sur.png" />
   </programme>
-  <programme start="20260614220000 -0600" stop="20260614230000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">UEFA Champions League Weekly</title>
-  </programme>
-  <programme start="20260614230000 -0600" stop="20260615010000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
-    <title lang="es">Bayern Munich vs. Stuttgart</title>
-    <sub-title lang="es">German Cup</sub-title>
+  <programme start="20260618220000 -0600" stop="20260619000000 -0600" channel="Canal.5.de.México.(XHGC).sv">
+    <title lang="es">La jugada del veranoEn Vivo</title>
   </programme>
   <programme start="20260615010000 -0600" stop="20260615030000 -0600" channel="Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv">
     <title lang="es">Hull City vs. Middlesbrough</title>
@@ -228559,66 +228529,6 @@ El legado que le ha dejado su padre es una carga muy pesada para Harvey, quien t
     <title lang="es">Paris Saint-Germain (Fra) vs. Arsenal</title>
     <sub-title lang="es">UEFA Champions League</sub-title>
   </programme>
-  <programme start="20260614010000 -0600" stop="20260614020000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">ESPN Compact</title>
-  </programme>
-  <programme start="20260614020000 -0600" stop="20260614030000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">UEFA Champions League Weekly</title>
-  </programme>
-  <programme start="20260614030000 -0600" stop="20260614033000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">Acción de la NBA</title>
-  </programme>
-  <programme start="20260614033000 -0600" stop="20260614040000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">FIM Road Racing World Championship Highlights</title>
-  </programme>
-  <programme start="20260614040000 -0600" stop="20260614050000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">Campeonato Mundial de Superbikes FIM</title>
-  </programme>
-  <programme start="20260614050000 -0600" stop="20260614061000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">Automovilismo Fórmula 1</title>
-  </programme>
-  <programme start="20260614061000 -0600" stop="20260614073000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">Automovilismo Fórmula 1</title>
-  </programme>
-  <programme start="20260614073000 -0600" stop="20260614080000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">FIM Road Racing World Championship Highlights</title>
-  </programme>
-  <programme start="20260614080000 -0600" stop="20260614100000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">Roland-Garros 2026</title>
-  </programme>
-  <programme start="20260614100000 -0600" stop="20260614130000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">Roland-Garros 2026</title>
-  </programme>
-  <programme start="20260614130000 -0600" stop="20260614150000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">Automovilismo Fórmula 1</title>
-  </programme>
-  <programme start="20260614150000 -0600" stop="20260614153000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">FIM Road Racing World Championship Highlights</title>
-  </programme>
-  <programme start="20260614153000 -0600" stop="20260614170000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">Especial de 35 años Colo-Colo Campeón Copa Libertadores</title>
-  </programme>
-  <programme start="20260614170000 -0600" stop="20260614180000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">UEFA Europa &amp; Conference League Magazine</title>
-  </programme>
-  <programme start="20260614180000 -0600" stop="20260614190000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">UEFA Champions League Weekly</title>
-  </programme>
-  <programme start="20260614190000 -0600" stop="20260614210000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">Ciclismo UCI World Tour masculino</title>
-  </programme>
-  <programme start="20260614210000 -0600" stop="20260614220000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">ESPN Compact</title>
-  </programme>
-  <programme start="20260614220000 -0600" stop="20260614230000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">UEFA Europa &amp; Conference League Magazine</title>
-  </programme>
-  <programme start="20260614230000 -0600" stop="20260615000000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">UEFA Europa &amp; Conference League Magazine</title>
-  </programme>
-  <programme start="20260615000000 -0600" stop="20260615020000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
-    <title lang="es">Automovilismo Fórmula 1</title>
-  </programme>
   <programme start="20260615020000 -0600" stop="20260615023000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
     <title lang="es">FIM Road Racing World Championship Highlights</title>
   </programme>
@@ -228714,75 +228624,6 @@ El legado que le ha dejado su padre es una carga muy pesada para Harvey, quien t
   </programme>
   <programme start="20260616183000 -0600" stop="20260616200000 -0600" channel="Canal.ESPN.Premium.(Chile).sv">
     <title lang="es">Especial de 35 años Colo-Colo Campeón Copa Libertadores</title>
-  </programme>
-  <programme start="20260614003000 -0600" stop="20260614013000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Fanático</title>
-  </programme>
-  <programme start="20260614013000 -0600" stop="20260614033000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Café TV</title>
-  </programme>
-  <programme start="20260614033000 -0600" stop="20260614040000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Próxima parada</title>
-  </programme>
-  <programme start="20260614040000 -0600" stop="20260614060000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Telediario</title>
-  </programme>
-  <programme start="20260614060000 -0600" stop="20260614063000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Noticiero Quichua Willaykuna</title>
-  </programme>
-  <programme start="20260614063000 -0600" stop="20260614073000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Desde Cero</title>
-  </programme>
-  <programme start="20260614073000 -0600" stop="20260614080000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Misa</title>
-  </programme>
-  <programme start="20260614080000 -0600" stop="20260614083000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Rodando Ecuador</title>
-  </programme>
-  <programme start="20260614083000 -0600" stop="20260614090000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Próxima parada</title>
-  </programme>
-  <programme start="20260614090000 -0600" stop="20260614110000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Telediario</title>
-  </programme>
-  <programme start="20260614110000 -0600" stop="20260614120000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Café TV</title>
-  </programme>
-  <programme start="20260614120000 -0600" stop="20260614130000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Esta es mi canción</title>
-  </programme>
-  <programme start="20260614130000 -0600" stop="20260614140000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Desde Cero</title>
-  </programme>
-  <programme start="20260614140000 -0600" stop="20260614150000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Rodando Ecuador</title>
-  </programme>
-  <programme start="20260614150000 -0600" stop="20260614173000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Educa</title>
-  </programme>
-  <programme start="20260614173000 -0600" stop="20260614183000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Infantiles</title>
-  </programme>
-  <programme start="20260614183000 -0600" stop="20260614190000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Próxima parada</title>
-  </programme>
-  <programme start="20260614190000 -0600" stop="20260614200000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Telediario Dominical</title>
-  </programme>
-  <programme start="20260614200000 -0600" stop="20260614210000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Fanático</title>
-  </programme>
-  <programme start="20260614210000 -0600" stop="20260614213000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Próxima parada</title>
-  </programme>
-  <programme start="20260614213000 -0600" stop="20260614220000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">América ahora</title>
-  </programme>
-  <programme start="20260614220000 -0600" stop="20260614233000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Cortometraje</title>
-  </programme>
-  <programme start="20260614233000 -0600" stop="20260615003000 -0600" channel="Canal.Ecuador.TV.sv">
-    <title lang="es">Telediario</title>
   </programme>
   <programme start="20260615003000 -0600" stop="20260615013000 -0600" channel="Canal.Ecuador.TV.sv">
     <title lang="es">Fanático</title>
@@ -228910,61 +228751,6 @@ El legado que le ha dejado su padre es una carga muy pesada para Harvey, quien t
   <programme start="20260616183000 -0600" stop="20260616190000 -0600" channel="Canal.Ecuador.TV.sv">
     <title lang="es">Fanático</title>
   </programme>
-  <programme start="20260614010000 -0600" stop="20260614050000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
-    <title lang="es">Combo amarillo</title>
-  </programme>
-  <programme start="20260614050000 -0600" stop="20260614060000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
-    <title lang="es">El Hombre Increíble</title>
-  </programme>
-  <programme start="20260614060000 -0600" stop="20260614063000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
-    <title lang="es">Vive verde y rebelde</title>
-  </programme>
-  <programme start="20260614063000 -0600" stop="20260614073000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
-    <title lang="es">Ser</title>
-  </programme>
-  <programme start="20260614073000 -0600" stop="20260614083000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
-    <title lang="es">Ventas Mundo TV</title>
-  </programme>
-  <programme start="20260614083000 -0600" stop="20260614093000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
-    <title lang="es">Hacia un Nuevo Estilo de Vida</title>
-  </programme>
-  <programme start="20260614093000 -0600" stop="20260614103000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
-    <title lang="es">Panorama internacional</title>
-  </programme>
-  <programme start="20260614103000 -0600" stop="20260614113000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
-    <title lang="es">Políticamente correcto</title>
-  </programme>
-  <programme start="20260614113000 -0600" stop="20260614123000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
-    <title lang="es">Esta Semana con Pedro Jiménez</title>
-  </programme>
-  <programme start="20260614123000 -0600" stop="20260614130000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
-    <title lang="es">Entre flashes</title>
-  </programme>
-  <programme start="20260614130000 -0600" stop="20260614160000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
-    <title lang="es">Armagedon</title>
-  </programme>
-  <programme start="20260614160000 -0600" stop="20260614173000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
-    <title lang="es">Batalla naval</title>
-  </programme>
-  <programme start="20260614173000 -0600" stop="20260614180000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
-    <title lang="es">Previa partido Ecuador vs. Costa De Marfil / Costa de Marfil vs. Ecuador, Fe...</title>
-  </programme>
-  <programme start="20260614180000 -0600" stop="20260614190000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
-    <title lang="es">Batalla naval</title>
-  </programme>
-  <programme start="20260614190000 -0600" stop="20260614200000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
-    <title lang="es">Televistazo</title>
-    <sub-title lang="es">Dominical</sub-title>
-  </programme>
-  <programme start="20260614200000 -0600" stop="20260614203000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
-    <title lang="es">Post partido Ecuador vs. Costa De Marfil / Costa de Marfil vs. Ecuador, Fech...</title>
-  </programme>
-  <programme start="20260614203000 -0600" stop="20260614223000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
-    <title lang="es">Mundo Jurásico Dominio</title>
-  </programme>
-  <programme start="20260614223000 -0600" stop="20260615010000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
-    <title lang="es">La momia</title>
-  </programme>
   <programme start="20260615010000 -0600" stop="20260615050000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Telenovela</title>
   </programme>
@@ -229058,75 +228844,6 @@ El legado que le ha dejado su padre es una carga muy pesada para Harvey, quien t
   </programme>
   <programme start="20260616181500 -0600" stop="20260616190000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Destilando amor</title>
-  </programme>
-  <programme start="20260614003000 -0600" stop="20260614010000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Así pasa</title>
-  </programme>
-  <programme start="20260614010000 -0600" stop="20260614020000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">El Combo Amarillo</title>
-  </programme>
-  <programme start="20260614020000 -0600" stop="20260614040000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Prueba de amor</title>
-  </programme>
-  <programme start="20260614040000 -0600" stop="20260614050000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Milagros</title>
-  </programme>
-  <programme start="20260614050000 -0600" stop="20260614053000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Crecer sin límites</title>
-  </programme>
-  <programme start="20260614053000 -0600" stop="20260614060000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Plenitud de Vida</title>
-  </programme>
-  <programme start="20260614060000 -0600" stop="20260614063000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Medita conmigo</title>
-  </programme>
-  <programme start="20260614063000 -0600" stop="20260614070000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Saberes milenarios</title>
-  </programme>
-  <programme start="20260614070000 -0600" stop="20260614073000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Televistazo sábado</title>
-  </programme>
-  <programme start="20260614073000 -0600" stop="20260614080000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">América 360</title>
-  </programme>
-  <programme start="20260614080000 -0600" stop="20260614083000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Yoga terapia</title>
-  </programme>
-  <programme start="20260614083000 -0600" stop="20260614090000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Transición hacia la sanación</title>
-  </programme>
-  <programme start="20260614090000 -0600" stop="20260614093000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Good Mood</title>
-  </programme>
-  <programme start="20260614093000 -0600" stop="20260614103000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Hacia un Nuevo Estilo de Vida</title>
-  </programme>
-  <programme start="20260614103000 -0600" stop="20260614113000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Políticamente correcto</title>
-  </programme>
-  <programme start="20260614113000 -0600" stop="20260614123000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Esta semana</title>
-  </programme>
-  <programme start="20260614123000 -0600" stop="20260614140000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">En Contacto</title>
-  </programme>
-  <programme start="20260614140000 -0600" stop="20260614153000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Los hackers de la farándula</title>
-  </programme>
-  <programme start="20260614153000 -0600" stop="20260614170000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Resumen: Sí se puede</title>
-  </programme>
-  <programme start="20260614170000 -0600" stop="20260614190000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Resumen semanal: 3 familias</title>
-  </programme>
-  <programme start="20260614190000 -0600" stop="20260614200000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Televistazo Domingo</title>
-  </programme>
-  <programme start="20260614200000 -0600" stop="20260614230000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Resumen: Cholito forever</title>
-  </programme>
-  <programme start="20260614230000 -0600" stop="20260615003000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
-    <title lang="es">Los hackers de la farándula</title>
   </programme>
   <programme start="20260615003000 -0600" stop="20260615020000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">En Contacto</title>
@@ -229302,48 +229019,6 @@ El legado que le ha dejado su padre es una carga muy pesada para Harvey, quien t
   <programme start="20260617190000 -0600" stop="20260617210000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Televistazo</title>
   </programme>
-  <programme start="20260614053000 -0600" stop="20260614060000 -0600" channel="Canal.Gamavisión.sv">
-    <title lang="es">Ojo clínico</title>
-  </programme>
-  <programme start="20260614060000 -0600" stop="20260614070000 -0600" channel="Canal.Gamavisión.sv">
-    <title lang="es">Encanto de Japón</title>
-  </programme>
-  <programme start="20260614070000 -0600" stop="20260614083000 -0600" channel="Canal.Gamavisión.sv">
-    <title lang="es">Outlet TV</title>
-  </programme>
-  <programme start="20260614083000 -0600" stop="20260614170000 -0600" channel="Canal.Gamavisión.sv">
-    <title lang="es">Ventas Mundo TV</title>
-  </programme>
-  <programme start="20260614170000 -0600" stop="20260614173000 -0600" channel="Canal.Gamavisión.sv">
-    <title lang="es">NCC Salud</title>
-  </programme>
-  <programme start="20260614173000 -0600" stop="20260614183000 -0600" channel="Canal.Gamavisión.sv">
-    <title lang="es">Complejamente</title>
-  </programme>
-  <programme start="20260614183000 -0600" stop="20260614190000 -0600" channel="Canal.Gamavisión.sv">
-    <title lang="es">Los Protagonistas</title>
-  </programme>
-  <programme start="20260614190000 -0600" stop="20260614193000 -0600" channel="Canal.Gamavisión.sv">
-    <title lang="es">Iberoamérica en órbita</title>
-  </programme>
-  <programme start="20260614193000 -0600" stop="20260614200000 -0600" channel="Canal.Gamavisión.sv">
-    <title lang="es">NCC ciencia, tecnología y cultura</title>
-  </programme>
-  <programme start="20260614200000 -0600" stop="20260614210000 -0600" channel="Canal.Gamavisión.sv">
-    <title lang="es">El actuario</title>
-  </programme>
-  <programme start="20260614210000 -0600" stop="20260614220000 -0600" channel="Canal.Gamavisión.sv">
-    <title lang="es">El candidato ideal</title>
-  </programme>
-  <programme start="20260614220000 -0600" stop="20260614233000 -0600" channel="Canal.Gamavisión.sv">
-    <title lang="es">Verdades o mentiras</title>
-  </programme>
-  <programme start="20260614233000 -0600" stop="20260615000000 -0600" channel="Canal.Gamavisión.sv">
-    <title lang="es">Los Protagonistas</title>
-  </programme>
-  <programme start="20260615000000 -0600" stop="20260615053000 -0600" channel="Canal.Gamavisión.sv">
-    <title lang="es">Programación reprise</title>
-  </programme>
   <programme start="20260615053000 -0600" stop="20260615060000 -0600" channel="Canal.Gamavisión.sv">
     <title lang="es">Ojo clínico</title>
   </programme>
@@ -229490,143 +229165,6 @@ El legado que le ha dejado su padre es una carga muy pesada para Harvey, quien t
   </programme>
   <programme start="20260616183000 -0600" stop="20260616190000 -0600" channel="Canal.Gamavisión.sv">
     <title lang="es">Guardianes de la Salud</title>
-  </programme>
-  <programme start="20260614010000 -0600" stop="20260614030000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">Lucha libre</title>
-  </programme>
-  <programme start="20260614030000 -0600" stop="20260614040000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">Ranti ranti</title>
-  </programme>
-  <programme start="20260614040000 -0600" stop="20260614060000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">Cine de madrugada</title>
-  </programme>
-  <programme start="20260614060000 -0600" stop="20260614070000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">El diván</title>
-  </programme>
-  <programme start="20260614070000 -0600" stop="20260614073000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">Beyblade Burst</title>
-  </programme>
-  <programme start="20260614073000 -0600" stop="20260614080000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">El show de la pantera rosa</title>
-  </programme>
-  <programme start="20260614080000 -0600" stop="20260614090000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">Una familia de diez</title>
-  </programme>
-  <programme start="20260614090000 -0600" stop="20260614100000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">La hora pico</title>
-  </programme>
-  <programme start="20260614100000 -0600" stop="20260614120000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">Reto cuatro elementos</title>
-  </programme>
-  <programme start="20260614120000 -0600" stop="20260614123000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">Una familia de diez</title>
-  </programme>
-  <programme start="20260614123000 -0600" stop="20260614130000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">La hora pico</title>
-  </programme>
-  <programme start="20260614130000 -0600" stop="20260614140000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">The Rookie</title>
-    <desc lang="es">Comenzar de nuevo no es fácil, especialmente para un tipo de un pequeño pueblo John Nolan (Nathan Fillion) quien, después de un incidente que le altera la vida, está persiguiendo su sueño de ser un oficial de policía de Los Ángeles. Como el novato más viejo de la fuerza, se ha encontrado con el escepticismo de algunos altos mandos que lo ven como una simple crisis de la mediana edad. Si no puede mantenerse al día con los jóvenes policías y los delincuentes, estará arriesgando vidas, incluida la suya. Pero si puede usar su experiencia de vida, determinación y sentido del humor para darle una ventaja, puede que se convierta en un éxito en este nuevo capítulo de su vida.</desc>
-    <credits>
-      <actor>Nathan Fillion</actor>
-      <actor>Afton Williamson</actor>
-      <actor>Eric Winter</actor>
-      <actor>Melissa O'Neil</actor>
-      <actor>Richard T. Jones</actor>
-      <actor>Titus Makin</actor>
-      <actor>Alyssa Diaz</actor>
-      <actor>Mercedes Mason</actor>
-      <writer>Alexi Hawley</writer>
-    </credits>
-    <date>2018</date>
-    <category lang="es">Crimen</category>
-    <category lang="es">Drama</category>
-    <category lang="es">Serie</category>
-    <icon src="https://imagenes.gatotv.com/categorias/programas/miniatura/the_rookie.jpg" />
-    <rating system="MX">
-      <value>TV-14</value>
-    </rating>
-    <star-rating system="MX">
-      <value>8.0</value>
-    </star-rating>
-  </programme>
-  <programme start="20260614140000 -0600" stop="20260614150000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">Hudson &amp; Rex</title>
-  </programme>
-  <programme start="20260614150000 -0600" stop="20260614160000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">Los hombres de Paco</title>
-  </programme>
-  <programme start="20260614160000 -0600" stop="20260614170000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">Macgyver</title>
-  </programme>
-  <programme start="20260614170000 -0600" stop="20260614180000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">Marimar</title>
-  </programme>
-  <programme start="20260614180000 -0600" stop="20260614190000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">Marimar</title>
-  </programme>
-  <programme start="20260614190000 -0600" stop="20260614200000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">Caso Cerrado</title>
-  </programme>
-  <programme start="20260614200000 -0600" stop="20260614210000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">Caso Cerrado</title>
-  </programme>
-  <programme start="20260614210000 -0600" stop="20260614220000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">La Rosa de Guadalupe</title>
-  </programme>
-  <programme start="20260614220000 -0600" stop="20260614230000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">Fear the Walking Dead</title>
-    <desc lang="es">Ambientada en Los Ángeles al comienzo del apocalipsis zombi. Nos transporta a una época en la que el mundo estaba cambiando rápidamente por razones desconocidas, cuando la vida, tal como la conocían todos, dio un vuelco y se alteró de maneras que nadie podría haber imaginado.</desc>
-    <credits>
-      <actor>Kim Dickens</actor>
-      <actor>Cliff Curtis</actor>
-      <actor>Frank Dillane</actor>
-      <actor>Alycia Debnam-Carey</actor>
-      <actor>Elizabeth Rodríguez</actor>
-      <actor>Mercedes Mason</actor>
-      <actor>Lorenzo James Henrie</actor>
-      <writer>Robert Kirkman</writer>
-      <writer>Dave Erickson</writer>
-      <producer>Bill Johnson</producer>
-      <producer>Avram Butch Kaplan</producer>
-      <composer>Atticus Ross</composer>
-    </credits>
-    <date>2015</date>
-    <category lang="es">Drama</category>
-    <category lang="es">Terror</category>
-    <category lang="es">Ciencia Ficción</category>
-    <category lang="es">Suspenso</category>
-    <category lang="es">Serie</category>
-    <icon src="https://imagenes.gatotv.com/categorias/programas/miniatura/fear_the_walking_dead.jpg" />
-    <rating system="MX">
-      <value>TV-MA</value>
-    </rating>
-  </programme>
-  <programme start="20260614230000 -0600" stop="20260615010000 -0600" channel="Canal.RTS.sv">
-    <title lang="es">NCIS: Los Ángeles</title>
-    <desc lang="es">La Oficina de Proyectos Especiales (OSP), una división de NCIS que se encarga de aprehender a delincuentes peligrosos y elusivos que representan una amenaza para la seguridad del país. Al asumir identidades falsas y utilizar la tecnología más avanzada, este equipo de agentes altamente entrenados se oculta profundamente, poniendo sus vidas en línea en el campo para derribar sus objetivos. El agente especial "G" Callen (Chris O'Donnell) es un camaleón que se transforma en quien necesita ser para infiltrarse en el inframundo criminal. Su compañero es el agente especial Sam Hanna (LL Cool J.), un ex SEAL de la Marina de los Estados Unidos que ha participado en actividades tanto en Afganistán como en Irak, y un experto en vigilancia que utiliza equipos de monitoreo de vanguardia para vigilar a aquellos en el campo y darles información crucial. Asistiendo al equipo está la agente especial Kensi Blye (Daniela Ruah), la hija excepcionalmente brillante de un Marine asesinado que vive por la adrenalina que viene con el trabajo encubierto; El psicólogo operativo Nate Getz (Peter Cambor), experto en meterse en la cabeza de cualquiera, perfilando el objetivo y supervisando los estados de ánimo de los agentes antes, durante y después de las misiones; Dominic Vail (Adam Jamal Craig), la incorporación más reciente al equipo, está altamente calificada pero carece de experiencia práctica; y Henrietta "Hetty" Lange (Linda Hunt), quién supervisa el personal de apoyo "de trastienda" encargado de proporcionar todo, desde cámaras de micro vigilancia hasta automóviles para el equipo. Armada con lo último en equipos de alta tecnología y enviada regularmente a situaciones de riesgo vital, esta unidad muy unida confía el uno al otro para hacer lo que sea necesario para proteger los intereses nacionales.</desc>
-    <credits>
-      <actor>Chris O'Donnell</actor>
-      <actor>Peter Cambor</actor>
-      <actor>Daniela Ruah</actor>
-      <actor>Adam Jamal Craig</actor>
-      <actor>LL Cool J</actor>
-      <actor>Linda Hunt</actor>
-      <actor>Barrett Foa</actor>
-      <actor>Eric Christian Olsen</actor>
-      <writer>Shane Brennan</writer>
-      <composer>James S. Levine</composer>
-    </credits>
-    <date>2009</date>
-    <category lang="es">Crimen</category>
-    <category lang="es">Drama</category>
-    <category lang="es">Misterio</category>
-    <category lang="es">Suspenso</category>
-    <category lang="es">Serie</category>
-    <icon src="https://imagenes.gatotv.com/categorias/programas/miniatura/ncis_los_angeles.jpg" />
-    <rating system="MX">
-      <value>TV-PG</value>
-    </rating>
   </programme>
   <programme start="20260615010000 -0600" stop="20260615030000 -0600" channel="Canal.RTS.sv">
     <title lang="es">Lucha libre</title>
@@ -229855,72 +229393,6 @@ El legado que le ha dejado su padre es una carga muy pesada para Harvey, quien t
   <programme start="20260617180000 -0600" stop="20260617190000 -0600" channel="Canal.RTS.sv">
     <title lang="es">Esposa por obligación</title>
   </programme>
-  <programme start="20260614003000 -0600" stop="20260614023000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Soy el mejor</title>
-  </programme>
-  <programme start="20260614023000 -0600" stop="20260614033000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Mi padre es un héroe</title>
-  </programme>
-  <programme start="20260614033000 -0600" stop="20260614050000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Hitman El rey de los asesinos</title>
-  </programme>
-  <programme start="20260614050000 -0600" stop="20260614053000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Mi Bella Genio</title>
-  </programme>
-  <programme start="20260614053000 -0600" stop="20260614060000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Vida nueva</title>
-  </programme>
-  <programme start="20260614060000 -0600" stop="20260614070000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Impacto semanal</title>
-  </programme>
-  <programme start="20260614070000 -0600" stop="20260614073000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Espacio</title>
-  </programme>
-  <programme start="20260614073000 -0600" stop="20260614080000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Santa Misa</title>
-  </programme>
-  <programme start="20260614080000 -0600" stop="20260614103000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Luz Clarita</title>
-  </programme>
-  <programme start="20260614103000 -0600" stop="20260614120000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Operación escape</title>
-  </programme>
-  <programme start="20260614120000 -0600" stop="20260614123000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Hechizada</title>
-  </programme>
-  <programme start="20260614123000 -0600" stop="20260614130000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Mi Bella Genio</title>
-  </programme>
-  <programme start="20260614130000 -0600" stop="20260614150000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Hijo prodigo</title>
-  </programme>
-  <programme start="20260614150000 -0600" stop="20260614170000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Máscara del alma</title>
-  </programme>
-  <programme start="20260614170000 -0600" stop="20260614185500 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Cicatrices del Alma</title>
-  </programme>
-  <programme start="20260614185500 -0600" stop="20260614200000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Noticiero dominical</title>
-  </programme>
-  <programme start="20260614200000 -0600" stop="20260614210000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Verdades urbanas</title>
-  </programme>
-  <programme start="20260614210000 -0600" stop="20260614220000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Buenos muchachos</title>
-  </programme>
-  <programme start="20260614220000 -0600" stop="20260614230000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">El mejor torneo del mundo</title>
-  </programme>
-  <programme start="20260614230000 -0600" stop="20260614233000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">TC Deportes</title>
-  </programme>
-  <programme start="20260614233000 -0600" stop="20260615000000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Al fondo hay sitio</title>
-  </programme>
-  <programme start="20260615000000 -0600" stop="20260615003000 -0600" channel="Canal.TC.Televisión.sv">
-    <title lang="es">Un encuentro con la verdad</title>
-  </programme>
   <programme start="20260615003000 -0600" stop="20260615010000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Cuatro cuartos</title>
   </programme>
@@ -230047,24 +229519,6 @@ El legado que le ha dejado su padre es una carga muy pesada para Harvey, quien t
   <programme start="20260616173000 -0600" stop="20260616190000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Soy el mejor</title>
   </programme>
-  <programme start="20260614030000 -0600" stop="20260614070000 -0600" channel="Canal.TUDN.(Centroamérica).sv">
-    <title lang="es">TUDN</title>
-  </programme>
-  <programme start="20260614070000 -0600" stop="20260614110000 -0600" channel="Canal.TUDN.(Centroamérica).sv">
-    <title lang="es">TUDN</title>
-  </programme>
-  <programme start="20260614110000 -0600" stop="20260614150000 -0600" channel="Canal.TUDN.(Centroamérica).sv">
-    <title lang="es">TUDN</title>
-  </programme>
-  <programme start="20260614150000 -0600" stop="20260614190000 -0600" channel="Canal.TUDN.(Centroamérica).sv">
-    <title lang="es">TUDN</title>
-  </programme>
-  <programme start="20260614190000 -0600" stop="20260614230000 -0600" channel="Canal.TUDN.(Centroamérica).sv">
-    <title lang="es">TUDN</title>
-  </programme>
-  <programme start="20260614230000 -0600" stop="20260615030000 -0600" channel="Canal.TUDN.(Centroamérica).sv">
-    <title lang="es">TUDN</title>
-  </programme>
   <programme start="20260615030000 -0600" stop="20260615070000 -0600" channel="Canal.TUDN.(Centroamérica).sv">
     <title lang="es">TUDN</title>
   </programme>
@@ -230119,82 +229573,23 @@ El legado que le ha dejado su padre es una carga muy pesada para Harvey, quien t
   <programme start="20260617230000 -0600" stop="20260618030000 -0600" channel="Canal.TUDN.(Centroamérica).sv">
     <title lang="es">TUDN</title>
   </programme>
-  <programme start="20260614010000 -0600" stop="20260614020000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Contacto Deportivo</title>
+  <programme start="20260618030000 -0600" stop="20260618070000 -0600" channel="Canal.TUDN.(Centroamérica).sv">
+    <title lang="es">TUDN</title>
   </programme>
-  <programme start="20260614020000 -0600" stop="20260614030000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Línea de cuatro</title>
+  <programme start="20260618070000 -0600" stop="20260618110000 -0600" channel="Canal.TUDN.(Centroamérica).sv">
+    <title lang="es">TUDN</title>
   </programme>
-  <programme start="20260614030000 -0600" stop="20260614040000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">UEFA Europa League en 60</title>
+  <programme start="20260618110000 -0600" stop="20260618150000 -0600" channel="Canal.TUDN.(Centroamérica).sv">
+    <title lang="es">TUDN</title>
   </programme>
-  <programme start="20260614040000 -0600" stop="20260614050000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Contacto Deportivo</title>
+  <programme start="20260618150000 -0600" stop="20260618190000 -0600" channel="Canal.TUDN.(Centroamérica).sv">
+    <title lang="es">TUDN</title>
   </programme>
-  <programme start="20260614050000 -0600" stop="20260614060000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Contacto Deportivo</title>
+  <programme start="20260618190000 -0600" stop="20260618230000 -0600" channel="Canal.TUDN.(Centroamérica).sv">
+    <title lang="es">TUDN</title>
   </programme>
-  <programme start="20260614060000 -0600" stop="20260614070000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Línea de cuatro</title>
-  </programme>
-  <programme start="20260614070000 -0600" stop="20260614080000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">UEFA Champions League en 60</title>
-  </programme>
-  <programme start="20260614080000 -0600" stop="20260614090000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Tricolor al día</title>
-  </programme>
-  <programme start="20260614090000 -0600" stop="20260614100000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Contacto Deportivo</title>
-  </programme>
-  <programme start="20260614100000 -0600" stop="20260614110000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Línea de cuatro</title>
-  </programme>
-  <programme start="20260614110000 -0600" stop="20260614120000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Tricolor al día</title>
-  </programme>
-  <programme start="20260614120000 -0600" stop="20260614130000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Contacto Deportivo</title>
-  </programme>
-  <programme start="20260614130000 -0600" stop="20260614140000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">CONCACAF Champions Cup 2026 en 60</title>
-    <sub-title lang="es">LAFC vs. Cruz Azul</sub-title>
-  </programme>
-  <programme start="20260614140000 -0600" stop="20260614150000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Tricolor al día</title>
-  </programme>
-  <programme start="20260614150000 -0600" stop="20260614160000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">UEFA Champions League en 60</title>
-  </programme>
-  <programme start="20260614160000 -0600" stop="20260614170000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Pumas UNAM vs. Cruz Azul</title>
-    <sub-title lang="es">Liga MX en 60</sub-title>
-  </programme>
-  <programme start="20260614170000 -0600" stop="20260614180000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Contacto Deportivo</title>
-  </programme>
-  <programme start="20260614180000 -0600" stop="20260614190000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Tricolor al día</title>
-  </programme>
-  <programme start="20260614190000 -0600" stop="20260614200000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Selección mexicana en 60</title>
-    <sub-title lang="es">México vs. Australia</sub-title>
-  </programme>
-  <programme start="20260614200000 -0600" stop="20260614210000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Contacto Deportivo</title>
-  </programme>
-  <programme start="20260614210000 -0600" stop="20260614220000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Cruz Azul vs. Pumas Unam</title>
-    <sub-title lang="es">Liga MX en 60</sub-title>
-  </programme>
-  <programme start="20260614220000 -0600" stop="20260614230000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Tricolor al día</title>
-  </programme>
-  <programme start="20260614230000 -0600" stop="20260615000000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Contacto Deportivo</title>
-  </programme>
-  <programme start="20260615000000 -0600" stop="20260615010000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
-    <title lang="es">Selección mexicana en 60</title>
-    <sub-title lang="es">Mexico vs. Serbia</sub-title>
+  <programme start="20260618230000 -0600" stop="20260619030000 -0600" channel="Canal.TUDN.(Centroamérica).sv">
+    <title lang="es">TUDN</title>
   </programme>
   <programme start="20260615010000 -0600" stop="20260615020000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
     <title lang="es">Contacto Deportivo</title>
@@ -230404,69 +229799,6 @@ El legado que le ha dejado su padre es una carga muy pesada para Harvey, quien t
   <programme start="20260617190000 -0600" stop="20260617200000 -0600" channel="Canal.TUDN.(Estados.Unidos).sv">
     <title lang="es">Tricolor al día</title>
   </programme>
-  <programme start="20260614000000 -0600" stop="20260614020000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Archivo mundialista</title>
-    <sub-title lang="es">Corea-Japón 2002, final: Alemania vs. Brasil</sub-title>
-  </programme>
-  <programme start="20260614020000 -0600" stop="20260614030000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Contacto Deportivo</title>
-  </programme>
-  <programme start="20260614030000 -0600" stop="20260614050000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Archivo mundialista</title>
-    <sub-title lang="es">Sudáfrica 2010: Uruguay vs. Países Bajos</sub-title>
-  </programme>
-  <programme start="20260614050000 -0600" stop="20260614060000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Contacto Deportivo</title>
-  </programme>
-  <programme start="20260614060000 -0600" stop="20260614070000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Línea de cuatro</title>
-  </programme>
-  <programme start="20260614070000 -0600" stop="20260614090000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Archivo mundialista</title>
-    <sub-title lang="es">Sudáfrica 2010: Uruguay vs. Países Bajos</sub-title>
-  </programme>
-  <programme start="20260614090000 -0600" stop="20260614100000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">MLB esta semana</title>
-  </programme>
-  <programme start="20260614100000 -0600" stop="20260614110000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Los maestros</title>
-  </programme>
-  <programme start="20260614110000 -0600" stop="20260614120000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Más Deporte</title>
-  </programme>
-  <programme start="20260614120000 -0600" stop="20260614123000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Archivo mundialista</title>
-    <sub-title lang="es">Catar 2022: Argentina vs. Países Bajos</sub-title>
-  </programme>
-  <programme start="20260614123000 -0600" stop="20260614134000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Fútbol Central</title>
-  </programme>
-  <programme start="20260614134000 -0600" stop="20260614160000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Copa Mundial de la FIFA 2026</title>
-    <sub-title lang="es">Grupo F: Países Bajos vs. Japón</sub-title>
-  </programme>
-  <programme start="20260614160000 -0600" stop="20260614170000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Línea de cuatro</title>
-  </programme>
-  <programme start="20260614170000 -0600" stop="20260614180000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Tricolor al día</title>
-  </programme>
-  <programme start="20260614180000 -0600" stop="20260614200000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Archivo mundialista</title>
-  </programme>
-  <programme start="20260614200000 -0600" stop="20260614210000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Contacto Deportivo</title>
-  </programme>
-  <programme start="20260614210000 -0600" stop="20260614220000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Archivo mundialista</title>
-    <sub-title lang="es">Catar 2022: Argentina vs. Países Bajos</sub-title>
-  </programme>
-  <programme start="20260614220000 -0600" stop="20260614230000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">Línea de cuatro</title>
-  </programme>
-  <programme start="20260614230000 -0600" stop="20260615000000 -0600" channel="Canal.TUDN.(México).sv">
-    <title lang="es">La Jugada</title>
-  </programme>
   <programme start="20260615000000 -0600" stop="20260615020000 -0600" channel="Canal.TUDN.(México).sv">
     <title lang="es">Archivo mundialista</title>
   </programme>
@@ -230649,80 +229981,55 @@ El legado que le ha dejado su padre es una carga muy pesada para Harvey, quien t
   <programme start="20260617223000 -0600" stop="20260617230000 -0600" channel="Canal.TUDN.(México).sv">
     <title lang="es">Contacto Deportivo</title>
   </programme>
-  <programme start="20260614003000 -0600" stop="20260614010000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Sinfonía de Motores</title>
+  <programme start="20260617230000 -0600" stop="20260618000000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Línea de cuatro</title>
   </programme>
-  <programme start="20260614010000 -0600" stop="20260614024500 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Infinito</title>
+  <programme start="20260618000000 -0600" stop="20260618020000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Archivo mundialista</title>
+    <sub-title lang="es">Rusia 2018: Croacia vs. Inglaterra</sub-title>
   </programme>
-  <programme start="20260614024500 -0600" stop="20260614034500 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Aída</title>
+  <programme start="20260618020000 -0600" stop="20260618030000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Contacto Deportivo</title>
   </programme>
-  <programme start="20260614034500 -0600" stop="20260614043000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">24 Horas</title>
+  <programme start="20260618030000 -0600" stop="20260618050000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Archivo mundialista</title>
+    <sub-title lang="es">Catar 2022: Inglaterra vs. Francia</sub-title>
   </programme>
-  <programme start="20260614043000 -0600" stop="20260614050000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Geeks</title>
+  <programme start="20260618050000 -0600" stop="20260618060000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Contacto Deportivo</title>
   </programme>
-  <programme start="20260614050000 -0600" stop="20260614060000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Tres Patines</title>
+  <programme start="20260618060000 -0600" stop="20260618070000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Línea de cuatro</title>
   </programme>
-  <programme start="20260614060000 -0600" stop="20260614064500 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">La Cocina del Chef</title>
+  <programme start="20260618070000 -0600" stop="20260618083000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">La jugada del verano</title>
   </programme>
-  <programme start="20260614064500 -0600" stop="20260614072500 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Sinfonía de Motores</title>
+  <programme start="20260618083000 -0600" stop="20260618090000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Archivo mundialista</title>
+    <sub-title lang="es">Rusia 2018: México vs. Corea del Sur</sub-title>
   </programme>
-  <programme start="20260614072500 -0600" stop="20260614080000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Misa dominical</title>
+  <programme start="20260618090000 -0600" stop="20260618100000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Los maestros</title>
   </programme>
-  <programme start="20260614080000 -0600" stop="20260614100000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Tventas</title>
+  <programme start="20260618100000 -0600" stop="20260618120000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Archivo mundialista</title>
+    <sub-title lang="es">Francia 1998: México vs. Corea del Sur</sub-title>
   </programme>
-  <programme start="20260614100000 -0600" stop="20260614103000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Salud 360</title>
+  <programme start="20260618120000 -0600" stop="20260618130000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Tricolor al día</title>
   </programme>
-  <programme start="20260614103000 -0600" stop="20260614110000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Previa / Haití vs. Escocia, Fecha 1 - Grupo C, Gillette Stadium</title>
+  <programme start="20260618130000 -0600" stop="20260618153000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Archivo mundialista</title>
+    <sub-title lang="es">Rusia 2018: México vs. Corea del Sur</sub-title>
   </programme>
-  <programme start="20260614110000 -0600" stop="20260614130000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Copa Mundial de la FIFA 2026 / Haití vs. Escocia, Fecha 1 - Grupo C, Gillette...</title>
+  <programme start="20260618153000 -0600" stop="20260618163000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Línea de cuatro</title>
   </programme>
-  <programme start="20260614130000 -0600" stop="20260614133000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Post - Partido / Haití vs. Escocia, Fecha 1 - Grupo C, Gillette Stadium</title>
+  <programme start="20260618163000 -0600" stop="20260618173000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Línea de cuatro</title>
   </programme>
-  <programme start="20260614133000 -0600" stop="20260614143000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">24 Horas</title>
-  </programme>
-  <programme start="20260614143000 -0600" stop="20260614150000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Previa / Países Bajos vs. Japón, Fecha 1 - Grupo F, AT&amp;T Stadium</title>
-  </programme>
-  <programme start="20260614150000 -0600" stop="20260614170000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Copa Mundial de la FIFA 2026 / Países Bajos vs. Japón, Fecha 1 - Grupo F, AT&amp;...</title>
-  </programme>
-  <programme start="20260614170000 -0600" stop="20260614171500 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Post - Partido / Países Bajos vs. Japón, Fecha 1 - Grupo F, AT&amp;T Stadium</title>
-  </programme>
-  <programme start="20260614171500 -0600" stop="20260614180000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Previa / Costa de Marfil vs. Ecuador, Fecha 1 - Grupo E, Lincoln Financial Field</title>
-  </programme>
-  <programme start="20260614180000 -0600" stop="20260614200000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Copa Mundial de la FIFA 2026 / Costa de Marfil vs. Ecuador, Fecha 1 - Grupo E...</title>
-  </programme>
-  <programme start="20260614200000 -0600" stop="20260614210000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Post - Partido / Costa de Marfil vs. Ecuador, Fecha 1 - Grupo E, Lincoln Fina...</title>
-  </programme>
-  <programme start="20260614210000 -0600" stop="20260614213000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">24 Horas</title>
-  </programme>
-  <programme start="20260614213000 -0600" stop="20260614230000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Nuestro mundial al día</title>
-  </programme>
-  <programme start="20260614230000 -0600" stop="20260614233000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Previa / Australia vs. Turquía, Fecha 1 - Grupo D, BC Place</title>
-  </programme>
-  <programme start="20260614233000 -0600" stop="20260615013000 -0600" channel="Canal.Teleamazonas.sv">
-    <title lang="es">Copa Mundial de la FIFA 2026 / Australia vs. Turquía, Fecha 1 - Grupo D, BC P...</title>
+  <programme start="20260618173000 -0600" stop="20260618183000 -0600" channel="Canal.TUDN.(México).sv">
+    <title lang="es">Fútbol Central</title>
   </programme>
   <programme start="20260615013000 -0600" stop="20260615020000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Post - Partido / Australia vs. Turquía, Fecha 1 - Grupo D, BC Place</title>
