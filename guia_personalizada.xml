@@ -250253,16 +250253,16 @@ El derecho de Nacer II.</desc>
   <desc>Una taza diaria de actualidad, entrevistas profundas y análisis perspicaces sobre los temas que marcan la agenda nacional e internacional. 'Café TV' es tu dosis de información y entretenimiento.</desc></programme>
   <programme start="20260615100000 -0600" stop="20260615110000 -0600" channel="Canal.Ecuador.TV.sv">
     <title lang="es">Rodando Ecuador</title>
-  </programme>
+  <desc>Únete a un viaje inolvidable que rueda por los paisajes más espectaculares de Ecuador, revelando su rica cultura y sorprendentes historias.</desc></programme>
   <programme start="20260615110000 -0600" stop="20260615120000 -0600" channel="Canal.Ecuador.TV.sv">
     <title lang="es">Infantiles</title>
-  </programme>
+  <desc>Un universo de diversión y aprendizaje espera a los más pequeños. Con caricaturas, juegos y canciones, este espacio garantiza momentos mágicos y educativos para toda la familia.</desc></programme>
   <programme start="20260615120000 -0600" stop="20260615123000 -0600" channel="Canal.Ecuador.TV.sv">
     <title lang="es">Próxima parada</title>
   <desc>Emocionantes destinos te esperan en una aventura global. Descubre culturas vibrantes, paisajes asombrosos y las historias ocultas en cada próxima parada.</desc></programme>
   <programme start="20260615123000 -0600" stop="20260615130000 -0600" channel="Canal.Ecuador.TV.sv">
     <title lang="es">Hola,¿qué hace?</title>
-  </programme>
+  <desc>Un espacio vibrante que explora las últimas tendencias, entrevistas exclusivas y la vida de figuras destacadas del entretenimiento. Descubre qué están haciendo tus celebridades favoritas y mucho más.</desc></programme>
   <programme start="20260615130000 -0600" stop="20260615140000 -0600" channel="Canal.Ecuador.TV.sv">
     <title lang="es">Telediario</title>
   <desc>Información detallada y verificada de los sucesos más importantes en Ecuador y el mundo. Análisis profundos y reportajes exclusivos para entender el impacto de cada noticia.</desc></programme>
@@ -250372,7 +250372,7 @@ El derecho de Nacer II.</desc>
   <desc>Lo esencial del acontecer nacional e internacional. La cobertura más completa y el análisis que necesitas para entender los hechos que marcan la agenda.</desc></programme>
   <programme start="20260615090000 -0600" stop="20260615100000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Carita de Ángel</title>
-  </programme>
+  <desc>Dulce María, la tierna "Carita de Ángel", usará su inocencia y picardía para unir a su padre con un nuevo amor, guiada por su madre desde el cielo. Una conmovedora historia familiar llena de travesuras, fe y esperanza.</desc></programme>
   <programme start="20260615100000 -0600" stop="20260615130000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">En contacto</title>
   <desc>Conéctate con un espacio diario que te trae lo mejor en noticias, entrevistas y entretenimiento. Tu fuente de información y diversión para estar siempre al tanto.</desc></programme>
@@ -250388,7 +250388,7 @@ El derecho de Nacer II.</desc>
   </programme>
   <programme start="20260615163000 -0600" stop="20260615173000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Hermanas</title>
-  </programme>
+  <desc>La compleja relación de dos hermanas que, tras años de distanciamiento, se ven obligadas a convivir. Entre secretos del pasado y amores prohibidos, su vínculo familiar será puesto a prueba.</desc></programme>
   <programme start="20260615173000 -0600" stop="20260615181500 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Amores verdaderos</title>
   <desc>Una poderosa familia, sus guardaespaldas y un amor prohibido que desafía las barreras sociales. Entre intrigas y secretos, el destino pondrá a prueba si la verdadera pasión puede triunfar.</desc></programme>
@@ -250424,7 +250424,7 @@ El derecho de Nacer II.</desc>
   <desc>Lo esencial del acontecer nacional e internacional. La cobertura más completa y el análisis que necesitas para entender los hechos que marcan la agenda.</desc></programme>
   <programme start="20260616090000 -0600" stop="20260616100000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Carita de Ángel</title>
-  </programme>
+  <desc>Dulce María, la tierna "Carita de Ángel", usará su inocencia y picardía para unir a su padre con un nuevo amor, guiada por su madre desde el cielo. Una conmovedora historia familiar llena de travesuras, fe y esperanza.</desc></programme>
   <programme start="20260616100000 -0600" stop="20260616130000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">En contacto</title>
   <desc>Conéctate con un espacio diario que te trae lo mejor en noticias, entrevistas y entretenimiento. Tu fuente de información y diversión para estar siempre al tanto.</desc></programme>
