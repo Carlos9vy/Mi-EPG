@@ -56,13 +56,16 @@ def apply_time_shift(time_str, hours_shift):
 # ==========================================
 
 def obtener_descripcion_ia(titulo_programa):
-    """Consulta a la nueva API de Gemini (google-genai) para obtener la sinopsis."""
+    """Consulta a la nueva API de Gemini forzando la versión estable de la API (v1)."""
     gemini_key = os.environ.get("GEMINI_API_KEY")
     if not gemini_key:
         return ""
     try:
         from google import genai
-        client = genai.Client()
+        from google.genai import types
+        
+        # SOLUCIÓN AL ERROR 404: Forzamos al cliente a usar la versión de API estable 'v1'
+        client = genai.Client(http_options={'api_version': 'v1'})
         
         prompt = (
             f"Actúa como un proveedor experto de metadatos para guías de televisión (EPG).\n"
@@ -79,7 +82,7 @@ def obtener_descripcion_ia(titulo_programa):
         )
         descripcion = response.text.strip()
         
-        if list(descripcion) and not descripcion.endswith('.'):
+        if descripcion and not descripcion.endswith('.'):
             descripcion += '.'
         return descripcion
     except Exception as e:
