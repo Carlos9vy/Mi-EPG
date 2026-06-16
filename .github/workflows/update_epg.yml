@@ -15,12 +15,12 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.11'
 
       - name: Instalar dependencias
         run: |
           pip install requests
-          pip install google-generativeai
+          pip install google-genai
 
       - name: Ejecutar Script de Filtro con IA
         env:
@@ -31,7 +31,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # Añadimos descripciones_ia.json para guardar la base de datos de la IA
           git add guia_personalizada.xml guia_personalizada.xml.gz "errores canales.txt" descripciones_ia.json
           git commit -m "Actualización automática de EPG, informe de errores y memoria IA" || exit 0
           git push
