@@ -38,6 +38,7 @@ Canal5.mx = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estand
 Caracol.co = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/Caracol.co.png
 CartoonNetwork.co = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/CartoonNetwork.co.png
 Cartoonito.co = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/Cartoonito.co.png
+Chilevision.cl = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/Chilevision.cl.png
 Cinecanal.co = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/Cinecanal.co.png
 Cinemax.co = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/Cinemax.co.png
 Citytv.co = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/Citytv.co.png
