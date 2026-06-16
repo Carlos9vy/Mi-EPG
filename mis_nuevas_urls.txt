@@ -39,6 +39,7 @@ Cinecanal.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Ci
 Cinemax.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Cinemax.co.png
 Citytv.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Citytv.co.png
 CLAROSPORTS.uy -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/CLAROSPORTS.uy.png
+Chilevision.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Chilevision.cl.png
 CNNChile.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/CNNChile.cl.png
 ComedyCentral.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/ComedyCentral.co.png
 DAZN1.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DAZN1.es.png
