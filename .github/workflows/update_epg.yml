@@ -20,17 +20,14 @@ jobs:
       - name: Instalar dependencias
         run: |
           pip install requests
-          pip install google-genai
 
-      - name: Ejecutar Script de Filtro con IA
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Ejecutar Script de Filtro con Base de Datos Local
         run: python filter_epg.py
 
       - name: Subir cambios a GitHub
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add guia_personalizada.xml guia_personalizada.xml.gz "errores canales.txt" descripciones_ia.json
-          git commit -m "Actualización automática de EPG, informe de errores y memoria IA" || exit 0
+          git add guia_personalizada.xml guia_personalizada.xml.gz "errores canales.txt"
+          git commit -m "Actualización automática de EPG con descripciones locales de la base de datos" || exit 0
           git push
