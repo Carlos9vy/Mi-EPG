@@ -52,7 +52,7 @@ def apply_time_shift(time_str, hours_shift):
         return time_str
 
 # ==========================================
-# NUEVO MÓDULO: RELLENO DE DESCRIPCIONES CON IA (HTTP DIRECTO - GEMINI 2.5 FLASH)
+# MÓDULO IA: RELLENO DE DESCRIPCIONES CON HTTP DIRECTO (GEMINI 2.5 FLASH)
 # ==========================================
 
 def obtener_descripcion_ia(titulo_programa):
@@ -61,7 +61,7 @@ def obtener_descripcion_ia(titulo_programa):
     if not gemini_key:
         return ""
     try:
-        # CAMBIO CLAVE: Usamos la versión estable fija v1 y el modelo gemini-2.5-flash
+        # Apunta a la versión estable definitiva v1 y usa el modelo gemini-2.5-flash
         url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key={gemini_key}"
         
         headers = {'Content-Type': 'application/json'}
@@ -161,7 +161,8 @@ def ejecutar_modulo_ia(xml_path):
                         memoria[titulo] = nueva_desc
                         cambios_detectados = True
                         contador_ia += 1
-                        time.sleep(4)
+                        # Pausa de 13 segundos para respetar el límite estricto de 5 peticiones por minuto
+                        time.sleep(13)
 
     # 4. Guardar si hubo actualizaciones
     if cambios_detectados:
