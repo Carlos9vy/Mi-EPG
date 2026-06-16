@@ -56,14 +56,13 @@ def apply_time_shift(time_str, hours_shift):
 # ==========================================
 
 def obtener_descripcion_ia(titulo_programa):
-    """Consulta a la API de Gemini para obtener la sinopsis."""
+    """Consulta a la nueva API de Gemini (google-genai) para obtener la sinopsis."""
     gemini_key = os.environ.get("GEMINI_API_KEY")
     if not gemini_key:
         return ""
     try:
-        import google.generativeai as genai
-        genai.configure(api_key=gemini_key)
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        from google import genai
+        client = genai.Client()
         
         prompt = (
             f"Actúa como un proveedor experto de metadatos para guías de televisión (EPG).\n"
@@ -74,11 +73,13 @@ def obtener_descripcion_ia(titulo_programa):
             f"Devuelve ÚNICAMENTE el texto de la sinopsis terminado en punto."
         )
         
-        response = model.generate_content(prompt)
+        response = client.models.generate_content(
+            model='gemini-1.5-flash',
+            contents=prompt,
+        )
         descripcion = response.text.strip()
         
-        # Respetamos tu regla estética de que termine en punto
-        if descripcion and not descripcion.endswith('.'):
+        if list(descripcion) and not descripcion.endswith('.'):
             descripcion += '.'
         return descripcion
     except Exception as e:
@@ -149,7 +150,6 @@ def ejecutar_modulo_ia(xml_path):
                         memoria[titulo] = nueva_desc
                         cambios_detectados = True
                         contador_ia += 1
-                        # Pausa obligatoria de 4 segundos para evitar el límite de velocidad de la API gratuita
                         time.sleep(4)
 
     # 4. Guardar si hubo actualizaciones
@@ -276,17 +276,14 @@ def run():
     for p in programmes_found:
         new_root.append(p)
 
-    # Guardar archivos originales (Estructura base idéntica)
+    # Guardar archivos originales
     output_xml = "guia_personalizada.xml"
     ET.ElementTree(new_root).write(output_xml, encoding="utf-8", xml_declaration=True)
 
-    # -------------------------------------------------------------
-    # LLAMADA AL NUEVO MÓDULO IA ANTES DE LA COMPRESIÓN FINAL GZ
-    # -------------------------------------------------------------
+    # Inyección del módulo IA antes de comprimir
     ejecutar_modulo_ia(output_xml)
-    # -------------------------------------------------------------
 
-    # Comprimir el archivo final ya modificado por la IA (si aplicó cambios)
+    # Comprimir el archivo final modificado
     try:
         with open(output_xml, "rb") as f_in, gzip.open("guia_personalizada.xml.gz", "wb") as f_out:
             f_out.writelines(f_in)
