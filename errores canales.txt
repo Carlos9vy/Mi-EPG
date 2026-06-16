@@ -1,2 +1,23 @@
+137
+6582f002a620e3000813b329
+6996
+6997
+6999
+7001
+AmericaTelevision.pe@SD
+AvilaTV.ve@SD
+AzCorazon.mx@SD
+CGTNSpanish.cn@SD
+DirecTVSports2.us@Panregional
+DirecTVSportsPlus.us@Panregional
 ESPN PREMIUM HD.ar (open-epg.com)
+EcuadorTV.ec@SD
+Ecuavisa.ec@SD
+EcuavisaInternacional.ec@SD
+FIFAPlus.uk@HispanicAmerica
+Gamavision.ec@SD
 TNT SPORTS PREMIUM.ar (open-epg.com)
+TUDN.mx@SD
+Teleamazonas.ec@SD
+lch3300
+tc_television
