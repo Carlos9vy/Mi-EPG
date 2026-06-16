@@ -58,6 +58,7 @@ Citytv.co -> https://iptv-epg.org/images/NPij3V8qt789W0Sol3V909lAPd5zgVS8Apmhp0Q
 CLAROSPORTS.uy -> https://iptv-epg.org/images/wMXnmNkdAR7qG8PmCLbwgqBRYM4QrzKaDyqYQ1LgMJKzm9ki2hBCBXBjJEqja3LMoT1lLDUffPilMJZgY2G79wghKcxc_awDOpstRAvCMhIcih66Og
 CLAROSPORTS.mx (open-epg.com) -> (Sin logo encontrado)
 CLAROSPORTS.ve (open-epg.com) -> (Sin logo encontrado)
+Chilevision.cl -> https://iptv-epg.org/images/KVJI8H1Mt-VVIWzDW7uMtp5t5SE5evJfhSnK8mVVOLyH9GwpRNebO10-f16PpOqBevY7xmR1YpscJOd5MqV4N9vdszzkvRuTyAXxXlUcHYfkqiQ
 CNNChile.cl -> https://iptv-epg.org/images/Yft_On76vw2qygsgK4OmPGmN2VpxvoylzAdHTJ_e8fGDWrMsxjSygqKG5QoyFd4wcKYZljxhHq6-W63OPwLjfhL6_3RnbyUxaTN8jWRcD_U
 ComedyCentral.co -> https://iptv-epg.org/images/61wP8n2KRyZl_QgmLGD7EemDbZV_zPZ55XRWeBI0QrDHS6uyZW4faNzDQMB4JooElv5-krPI4HSSEGxpjOWJDoXQRshv-B4BV4gc_eDmphpqN9goSsOYgA
 DAZN1.es -> https://iptv-epg.org/images/mBFk8tSvy421N12piCtrb_6ZlvImOAHRL_lSpSLn0qqslqKY4_gA7Dlehp9ZXRkkgCOQqAH-zRdaAeJIwgsnyz93tQKva12grkDuEAE
