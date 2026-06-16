@@ -52,20 +52,19 @@ def apply_time_shift(time_str, hours_shift):
         return time_str
 
 # ==========================================
-# NUEVO MÓDULO: RELLENO DE DESCRIPCIONES CON IA
+# NUEVO MÓDULO: RELLENO DE DESCRIPCIONES CON IA (HTTP DIRECTO)
 # ==========================================
 
 def obtener_descripcion_ia(titulo_programa):
-    """Consulta a la nueva API de Gemini forzando la versión estable de la API (v1)."""
+    """Consulta directa a Gemini usando solicitudes HTTP sin librerías externas."""
     gemini_key = os.environ.get("GEMINI_API_KEY")
     if not gemini_key:
         return ""
     try:
-        from google import genai
-        from google.genai import types
+        # URL oficial y directa de la API estable de Google para Gemini Flash
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={gemini_key}"
         
-        # SOLUCIÓN AL ERROR 404: Forzamos al cliente a usar la versión de API estable 'v1'
-        client = genai.Client(http_options={'api_version': 'v1'})
+        headers = {'Content-Type': 'application/json'}
         
         prompt = (
             f"Actúa como un proveedor experto de metadatos para guías de televisión (EPG).\n"
@@ -76,17 +75,27 @@ def obtener_descripcion_ia(titulo_programa):
             f"Devuelve ÚNICAMENTE el texto de la sinopsis terminado en punto."
         )
         
-        response = client.models.generate_content(
-            model='gemini-1.5-flash',
-            contents=prompt,
-        )
-        descripcion = response.text.strip()
+        payload = {
+            "contents": [{
+                "parts": [{"text": prompt}]
+            }]
+        }
         
-        if descripcion and not descripcion.endswith('.'):
-            descripcion += '.'
-        return descripcion
+        response = requests.post(url, headers=headers, json=payload, timeout=30)
+        
+        if response.status_code == 200:
+            res_json = response.json()
+            # Extracción segura del texto desde la respuesta JSON nativa de Google
+            descripcion = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
+            
+            if descripcion and not descripcion.endswith('.'):
+                descripcion += '.'
+            return descripcion
+        else:
+            print(f"Error de API Gemini ({response.status_code}): {response.text}")
+            return ""
     except Exception as e:
-        print(f"Error con Gemini para '{titulo_programa}': {e}")
+        print(f"Error de conexión con Gemini para '{titulo_programa}': {e}")
         return ""
 
 def ejecutar_modulo_ia(xml_path):
