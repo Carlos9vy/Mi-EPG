@@ -1,1 +1,7 @@
-
+Canal.Ecuavisa.Internacional.sv
+Canal.Ecuavisa.(Ecuador).sv
+Canal.RTS.sv
+Canal.TC.Televisión.sv
+Canal.Teleamazonas.sv
+Canal.Ecuador.TV.sv
+Canal.Gamavisión.sv
