@@ -1,0 +1,31 @@
+name: Extractor Manual de Titulos Unicos
+
+on:
+  workflow_dispatch: # Esto activa el botón manual en la web de GitHub
+
+jobs:
+  run-extractor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Ejecutar Extractor de Títulos
+        run: python get_titles.py
+
+      - name: Guardar el borrador JSON en el repositorio
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add borrador_titulos.json
+          git commit -m "Borrador de títulos actualizado desde el celular" || exit 0
+          git push
