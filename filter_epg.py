@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 import os
 import json
 import time
+import re
 
 # Fuentes originales
 SOURCES = [
@@ -61,9 +62,7 @@ def obtener_descripcion_ia(titulo_programa):
     if not gemini_key:
         return ""
     try:
-        # Apunta a la versión estable definitiva v1 y usa el modelo gemini-2.5-flash
         url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key={gemini_key}"
-        
         headers = {'Content-Type': 'application/json'}
         
         prompt = (
@@ -161,7 +160,7 @@ def ejecutar_modulo_ia(xml_path):
                         memoria[titulo] = nueva_desc
                         cambios_detectados = True
                         contador_ia += 1
-                        # Pausa de 13 segundos para respetar el límite estricto de 5 peticiones por minuto
+                        # Pausa de 13 segundos para respetar el límite de la API
                         time.sleep(13)
 
     # 4. Guardar si hubo actualizaciones
@@ -229,12 +228,20 @@ def run():
         try:
             print(f"Descargando fuente: {url}")
             r = requests.get(url, timeout=60)
-            data = r.content
             
+            # --- MANEJO SEGURO DE DESCOMPRESIÓN Y CODENAMES ---
             if url.endswith(".gz"):
-                data = gzip.decompress(data)
+                data = gzip.decompress(r.content)
+                xml_text = data.decode("utf-8", errors="ignore")
+            else:
+                xml_text = r.text
+
+            # --- ESCUDO ANTIBLOQUEO XML (REPARA AMPERSANDS SUELTOS) ---
+            # Convierte '&' sueltos en '&amp;' sin dañar entidades ya válidas como &lt; o &quot;
+            xml_text = re.sub(r'&(?!([a-zA-Z0-9]+|#[0-9]+|#x[a-fA-F0-9]+);)', '&amp;', xml_text)
             
-            tree = ET.fromstring(data)
+            # Cargar el árbol desde el texto limpio purificado
+            tree = ET.fromstring(xml_text.encode("utf-8"))
             
             # Procesar canales
             for c in tree.findall("channel"):
