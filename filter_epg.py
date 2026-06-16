@@ -1,7 +1,9 @@
 import requests
 import xml.etree.ElementTree as ET
 import gzip
+import json
 from datetime import datetime, timedelta
+from xml.sax.saxutils import escape
 
 # Fuentes originales
 SOURCES = [
@@ -36,13 +38,11 @@ def apply_time_shift(time_str, hours_shift):
     if not time_str or hours_shift == 0:
         return time_str
     try:
-        # Formato común EPG: AAAAMMDDHHMMSS +/-HHMM
         parts = time_str.split()
         base_time = parts[0]
         tz = parts[1] if len(parts) > 1 else ""
         
         dt = datetime.strptime(base_time, "%Y%m%d%H%M%S")
-        # Convertimos las horas (ej. 0.5 o -1.0) en minutos para ser exactos
         dt_shifted = dt + timedelta(minutes=int(hours_shift * 60))
         
         new_base_time = dt_shifted.strftime("%Y%m%d%H%M%S")
@@ -55,6 +55,10 @@ def run():
     open_epg_wanted_ids = set()
     raw_lines_map = {} 
     shifts = {}
+    
+    # Mapeos para el módulo de inyección local de base de datos
+    allowed_ia_channels = set()
+    database_descriptions = {}
 
     # 1. Cargar el archivo shift.txt si existe
     try:
@@ -71,7 +75,28 @@ def run():
     except FileNotFoundError:
         print("No se encontró shift.txt. Se procesará sin ajustes horarios.")
 
-    # 2. Cargar tus canales deseados desde canales.txt
+    # 2. Cargar canales permitidos para inyección desde canales_ia.txt
+    try:
+        with open("canales_ia.txt", "r", encoding="utf-8") as f:
+            for line in f:
+                line_clean = line.strip()
+                if line_clean:
+                    allowed_ia_channels.add(line_clean)
+        print(f"📦 Módulo Local: Cargados {len(allowed_ia_channels)} canales permitidos desde canales_ia.txt")
+    except FileNotFoundError:
+        print("⚠️ Advertencia: No se encontró canales_ia.txt. No se inyectarán descripciones.")
+
+    # 3. Cargar diccionario de descripciones fijas desde descripciones_ia.json
+    try:
+        with open("descripciones_ia.json", "r", encoding="utf-8") as f:
+            database_descriptions = json.load(f)
+        print(f"📖 Base de datos cargada con éxito. Registros disponibles: {len(database_descriptions)}")
+    except FileNotFoundError:
+        print("⚠️ Advertencia: No se encontró descripciones_ia.json. No se realizarán reemplazos.")
+    except json.JSONDecodeError:
+        print("❌ Error: descripciones_ia.json tiene un formato JSON inválido.")
+
+    # 4. Cargar tus canales deseados desde canales.txt
     try:
         with open("canales.txt", "r", encoding="utf-8") as f:
             for line in f:
@@ -98,6 +123,7 @@ def run():
     new_root = ET.Element("tv", {"generator-info-name": "MiRobotEPG"})
     channels_found = []
     programmes_found = []
+    inserted_descriptions_count = 0
 
     for url in SOURCES:
         is_open_epg_url = "open-epg.com" in url
@@ -125,7 +151,7 @@ def run():
                             channels_found.append(c)
                             missing_clean_ids.discard(xml_id_clean)
             
-            # Procesar programas, corregir descripciones y aplicar shifts horario
+            # Procesar programas, corregir descripciones, aplicar shifts e inyectar JSON
             for p in tree.findall("programme"):
                 p_channel = p.get("channel")
                 if p_channel:
@@ -135,9 +161,26 @@ def run():
                                (not is_open_epg_url and p_channel_clean in standard_wanted_ids)
                     
                     if is_match:
-                        # --- MEJORA ESTÉTICA DE LA DESCRIPCIÓN ---
+                        # --- MEJORA ESTÉTICA O INYECCIÓN DE LA DESCRIPCIÓN ---
                         desc_element = p.find("desc")
-                        if desc_element is not None and desc_element.text:
+                        p_title_element = p.find("title")
+                        p_title = p_title_element.text.strip() if (p_title_element is not None and p_title_element.text) else ""
+
+                        # Si no existe la etiqueta desc, o existe pero está vacía
+                        is_desc_empty = (desc_element is not None and not str(desc_element.text).strip()) or (desc_element is None)
+
+                        if is_desc_empty and p_channel_clean in allowed_ia_channels and p_title in database_descriptions:
+                            # Conseguir la descripción desde la base de datos fija
+                            raw_db_desc = database_descriptions[p_title]
+                            # Escapar de forma estricta los caracteres para prevenir roturas en el XML final
+                            safe_db_desc = escape(raw_db_desc)
+                            
+                            if desc_element is None:
+                                desc_element = ET.SubElement(p, "desc", {"lang": "es"})
+                            
+                            desc_element.text = fix_description(safe_db_desc)
+                            inserted_descriptions_count += 1
+                        elif desc_element is not None and desc_element.text:
                             desc_element.text = fix_description(desc_element.text)
                         
                         # --- MEJORA AJUSTE HORARIO (TIME SHIFT) ---
@@ -155,6 +198,10 @@ def run():
                     
         except Exception as e:
             print(f"Error procesando {url}: {e}")
+
+    # Mensaje de confirmación del módulo de base de datos local
+    if inserted_descriptions_count > 0:
+        print(f"🎉 Módulo Local completado. Se insertaron {inserted_descriptions_count} descripciones guardadas.")
 
     # Unir canales sin duplicados
     unique_channels = {c.get("id").strip(): c for c in channels_found}.values()
