@@ -53,51 +53,11 @@ def apply_time_shift(time_str, hours_shift):
         return time_str
 
 # ==========================================
-# MÓDULO IA: RELLENO DE DESCRIPCIONES CON HTTP DIRECTO (GEMINI 2.5 FLASH)
+# MÓDULO BASE DE DATOS LOCAL (REEMPLAZA A LA IA)
 # ==========================================
 
-def obtener_descripcion_ia(titulo_programa):
-    """Consulta directa a la API estable v1 usando el modelo Gemini 2.5 Flash."""
-    gemini_key = os.environ.get("GEMINI_API_KEY")
-    if not gemini_key:
-        return ""
-    try:
-        url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key={gemini_key}"
-        headers = {'Content-Type': 'application/json'}
-        
-        prompt = (
-            f"Actúa como un proveedor experto de metadatos para guías de televisión (EPG).\n"
-            f"Genera una descripción o sinopsis breve, atractiva y en español (máximo 2 o 3 líneas) "
-            f"para el programa de televisión titulado: '{titulo_programa}'.\n"
-            f"Ten en cuenta el contexto de la televisión ecuatoriana e internacional.\n"
-            f"No incluyas horarios, canales, opiniones, ni introducciones.\n"
-            f"Devuelve ÚNICAMENTE el texto de la sinopsis terminado en punto."
-        )
-        
-        payload = {
-            "contents": [{
-                "parts": [{"text": prompt}]
-            }]
-        }
-        
-        response = requests.post(url, headers=headers, json=payload, timeout=30)
-        
-        if response.status_code == 200:
-            res_json = response.json()
-            descripcion = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
-            
-            if descripcion and not descripcion.endswith('.'):
-                descripcion += '.'
-            return descripcion
-        else:
-            print(f"Error de API Gemini ({response.status_code}): {response.text}")
-            return ""
-    except Exception as e:
-        print(f"Error de conexión con Gemini para '{titulo_programa}': {e}")
-        return ""
-
 def ejecutar_modulo_ia(xml_path):
-    """Filtra canales autorizados y llena sus descripciones vacías usando IA y memoria JSON."""
+    """Filtra canales autorizados y llena sus descripciones usando EXCLUSIVAMENTE la base de datos JSON."""
     ids_ia_autorizados = set()
     
     # 1. Cargar canales permitidos desde canales_ia.txt
@@ -107,70 +67,55 @@ def ejecutar_modulo_ia(xml_path):
                 line_clean = line.strip()
                 if line_clean:
                     ids_ia_autorizados.add(line_clean)
-        print(f"🤖 Módulo IA: Cargados {len(ids_ia_autorizados)} canales permitidos desde canales_ia.txt")
+        print(f"📦 Módulo Local: Cargados {len(ids_ia_autorizados)} canales permitidos desde canales_ia.txt")
     except FileNotFoundError:
-        print("⚠️ Módulo IA omitido: No se encontró canales_ia.txt")
+        print("⚠️ Módulo Local omitido: No se encontró canales_ia.txt")
         return
 
     if not ids_ia_autorizados:
         return
 
-    # 2. Cargar memoria JSON para ahorrar cuota de API
+    # 2. Cargar base de datos JSON local
     json_memoria = "descripciones_ia.json"
     memoria = {}
     if os.path.exists(json_memoria):
         try:
             with open(json_memoria, "r", encoding="utf-8") as f:
                 memoria = json.load(f)
+            print(f"📖 Base de datos cargada con éxito. Registros disponibles: {len(memoria)}")
         except Exception:
+            print("⚠️ Error al leer descripciones_ia.json o archivo corrupto.")
             memoria = {}
 
     tree = ET.parse(xml_path)
     root = tree.getroot()
     cambios_detectados = False
-    contador_ia = 0
+    contador_llenados = 0
 
-    # 3. Analizar programas de canales permitidos con descripciones vacías
+    # 3. Analizar programas con descripciones vacías y cruzarlos con el JSON
     for programme in root.findall("programme"):
         p_channel = programme.get("channel")
         if p_channel and p_channel.strip() in ids_ia_autorizados:
-            p_channel_clean = p_channel.strip()
             title_elem = programme.find("title")
             desc_elem = programme.find("desc")
 
             if title_elem is not None and (desc_elem is None or not desc_elem.text or desc_elem.text.strip() == ""):
                 titulo = title_elem.text.strip()
 
-                # Caso A: Ya está en la memoria JSON
-                if titulo in memoria:
+                # Buscar coincidencia exacta en tu base de datos local
+                if titulo in memoria and memoria[titulo].strip() != "":
                     if desc_elem is None:
                         desc_elem = ET.SubElement(programme, "desc")
                     desc_elem.text = memoria[titulo]
                     cambios_detectados = True
-                
-                # Caso B: No está en memoria, invocar a Gemini
-                else:
-                    print(f"🤖 Buscando en IA para [{p_channel_clean}]: {titulo}")
-                    nueva_desc = obtener_descripcion_ia(titulo)
-                    
-                    if nueva_desc:
-                        if desc_elem is None:
-                            desc_elem = ET.SubElement(programme, "desc")
-                        desc_elem.text = nueva_desc
-                        memoria[titulo] = nueva_desc
-                        cambios_detectados = True
-                        contador_ia += 1
-                        # Pausa de 13 segundos para respetar el límite de la API
-                        time.sleep(13)
+                    contador_llenados += 1
 
-    # 4. Guardar si hubo actualizaciones
+    # 4. Guardar la guía optimizada si se añadieron descripciones
     if cambios_detectados:
         tree.write(xml_path, encoding="utf-8", xml_declaration=True)
-        with open(json_memoria, "w", encoding="utf-8") as f:
-            json.dump(memoria, f, ensure_ascii=False, indent=4)
-        print(f"🎉 Módulo IA completado. Se generaron {contador_ia} descripciones nuevas.")
+        print(f"🎉 Módulo Local completado. Se insertaron {contador_llenados} descripciones guardadas.")
     else:
-        print("😎 Módulo IA: Todas las descripciones autorizadas están al día.")
+        print("😎 Módulo Local: Nada nuevo que inyectar, todo lo disponible está al día.")
 
 # ==========================================
 
@@ -229,7 +174,6 @@ def run():
             print(f"Descargando fuente: {url}")
             r = requests.get(url, timeout=60)
             
-            # --- MANEJO SEGURO DE DESCOMPRESIÓN Y CODENAMES ---
             if url.endswith(".gz"):
                 data = gzip.decompress(r.content)
                 xml_text = data.decode("utf-8", errors="ignore")
@@ -237,13 +181,10 @@ def run():
                 xml_text = r.text
 
             # --- ESCUDO ANTIBLOQUEO XML (REPARA AMPERSANDS SUELTOS) ---
-            # Convierte '&' sueltos en '&amp;' sin dañar entidades ya válidas como &lt; o &quot;
             xml_text = re.sub(r'&(?!([a-zA-Z0-9]+|#[0-9]+|#x[a-fA-F0-9]+);)', '&amp;', xml_text)
             
-            # Cargar el árbol desde el texto limpio purificado
             tree = ET.fromstring(xml_text.encode("utf-8"))
             
-            # Procesar canales
             for c in tree.findall("channel"):
                 xml_id = c.get("id")
                 if xml_id:
@@ -257,7 +198,6 @@ def run():
                             channels_found.append(c)
                             missing_clean_ids.discard(xml_id_clean)
             
-            # Procesar programas, corregir descripciones y aplicar shifts horario
             for p in tree.findall("programme"):
                 p_channel = p.get("channel")
                 if p_channel:
@@ -288,34 +228,30 @@ def run():
         except Exception as e:
             print(f"Error procesando {url}: {e}")
 
-    # Unir canales sin duplicados
     unique_channels = {c.get("id").strip(): c for c in channels_found}.values()
     for c in unique_channels:
         new_root.append(c)
     for p in programmes_found:
         new_root.append(p)
 
-    # Guardar archivos originales
     output_xml = "guia_personalizada.xml"
     ET.ElementTree(new_root).write(output_xml, encoding="utf-8", xml_declaration=True)
 
-    # Inyección del módulo IA antes de comprimir
+    # Inyección local rápida (Ya no usa Gemini)
     ejecutar_modulo_ia(output_xml)
 
-    # Comprimir el archivo final modificado
     try:
         with open(output_xml, "rb") as f_in, gzip.open("guia_personalizada.xml.gz", "wb") as f_out:
             f_out.writelines(f_in)
     except Exception as e:
         print(f"Error al comprimir: {e}")
 
-    # Reporte de errores
     output_errors = "errores canales.txt"
     with open(output_errors, "w", encoding="utf-8") as f_err:
         if missing_clean_ids:
             for missing_id in sorted(missing_clean_ids):
                 f_err.write(f"{raw_lines_map[missing_id]}\n")
-            print(f"Proceso concluido. Errores guardados en '{output_errors}'.")
+            print(f"Proceso concluido. Errores guardados in '{output_errors}'.")
         else:
             f_err.write("¡Felicidades! Todos los canales fueron encontrados con éxito.\n")
             print("¡Éxito total!")
