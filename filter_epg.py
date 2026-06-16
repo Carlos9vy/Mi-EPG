@@ -52,17 +52,17 @@ def apply_time_shift(time_str, hours_shift):
         return time_str
 
 # ==========================================
-# NUEVO MÓDULO: RELLENO DE DESCRIPCIONES CON IA (HTTP DIRECTO)
+# NUEVO MÓDULO: RELLENO DE DESCRIPCIONES CON IA (HTTP DIRECTO - GEMINI 2.5 FLASH)
 # ==========================================
 
 def obtener_descripcion_ia(titulo_programa):
-    """Consulta directa a Gemini usando solicitudes HTTP sin librerías externas."""
+    """Consulta directa a la API estable v1 usando el modelo Gemini 2.5 Flash."""
     gemini_key = os.environ.get("GEMINI_API_KEY")
     if not gemini_key:
         return ""
     try:
-        # URL oficial y directa de la API estable de Google para Gemini Flash
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={gemini_key}"
+        # CAMBIO CLAVE: Usamos la versión estable fija v1 y el modelo gemini-2.5-flash
+        url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key={gemini_key}"
         
         headers = {'Content-Type': 'application/json'}
         
@@ -85,7 +85,6 @@ def obtener_descripcion_ia(titulo_programa):
         
         if response.status_code == 200:
             res_json = response.json()
-            # Extracción segura del texto desde la respuesta JSON nativa de Google
             descripcion = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
             
             if descripcion and not descripcion.endswith('.'):
