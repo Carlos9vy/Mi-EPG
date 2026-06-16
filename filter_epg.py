@@ -2,10 +2,6 @@ import requests
 import xml.etree.ElementTree as ET
 import gzip
 from datetime import datetime, timedelta
-import os
-import json
-import time
-import re
 
 # Fuentes originales
 SOURCES = [
@@ -18,7 +14,7 @@ SOURCES = [
     "https://iptv-epg.org/files/epg-do.xml", "https://iptv-epg.org/files/epg-sv.xml",
     "https://iptv-epg.org/files/epg-gt.xml", "https://iptv-epg.org/files/epg-hn.xml",
     "https://iptv-epg.org/files/epg-py.xml", "https://iptv-epg.org/files/epg-pa.xml",
-    "https://github.com/Carlos9vy/mi-laboratorio-epg/raw/refs/heads/main/guia_laboratory.xml",
+    "https://github.com/Carlos9vy/mi-laboratorio-epg/raw/refs/heads/main/guia_laboratorio.xml",
     "https://www.open-epg.com/generate/aYzuzNSenh.xml",
     "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz"
 ]
@@ -40,84 +36,19 @@ def apply_time_shift(time_str, hours_shift):
     if not time_str or hours_shift == 0:
         return time_str
     try:
+        # Formato común EPG: AAAAMMDDHHMMSS +/-HHMM
         parts = time_str.split()
         base_time = parts[0]
         tz = parts[1] if len(parts) > 1 else ""
         
         dt = datetime.strptime(base_time, "%Y%m%d%H%M%S")
+        # Convertimos las horas (ej. 0.5 o -1.0) en minutos para ser exactos
         dt_shifted = dt + timedelta(minutes=int(hours_shift * 60))
         
         new_base_time = dt_shifted.strftime("%Y%m%d%H%M%S")
         return f"{new_base_time} {tz}".strip()
     except Exception:
         return time_str
-
-# ==========================================
-# MÓDULO BASE DE DATOS LOCAL (REEMPLAZA A LA IA)
-# ==========================================
-
-def ejecutar_modulo_ia(xml_path):
-    """Filtra canales autorizados y llena sus descripciones usando EXCLUSIVAMENTE la base de datos JSON."""
-    ids_ia_autorizados = set()
-    
-    # 1. Cargar canales permitidos desde canales_ia.txt
-    try:
-        with open("canales_ia.txt", "r", encoding="utf-8") as f:
-            for line in f:
-                line_clean = line.strip()
-                if line_clean:
-                    ids_ia_autorizados.add(line_clean)
-        print(f"📦 Módulo Local: Cargados {len(ids_ia_autorizados)} canales permitidos desde canales_ia.txt")
-    except FileNotFoundError:
-        print("⚠️ Módulo Local omitido: No se encontró canales_ia.txt")
-        return
-
-    if not ids_ia_autorizados:
-        return
-
-    # 2. Cargar base de datos JSON local
-    json_memoria = "descripciones_ia.json"
-    memoria = {}
-    if os.path.exists(json_memoria):
-        try:
-            with open(json_memoria, "r", encoding="utf-8") as f:
-                memoria = json.load(f)
-            print(f"📖 Base de datos cargada con éxito. Registros disponibles: {len(memoria)}")
-        except Exception:
-            print("⚠️ Error al leer descripciones_ia.json o archivo corrupto.")
-            memoria = {}
-
-    tree = ET.parse(xml_path)
-    root = tree.getroot()
-    cambios_detectados = False
-    contador_llenados = 0
-
-    # 3. Analizar programas con descripciones vacías y cruzarlos con el JSON
-    for programme in root.findall("programme"):
-        p_channel = programme.get("channel")
-        if p_channel and p_channel.strip() in ids_ia_autorizados:
-            title_elem = programme.find("title")
-            desc_elem = programme.find("desc")
-
-            if title_elem is not None and (desc_elem is None or not desc_elem.text or desc_elem.text.strip() == ""):
-                titulo = title_elem.text.strip()
-
-                # Buscar coincidencia exacta en tu base de datos local
-                if titulo in memoria and memoria[titulo].strip() != "":
-                    if desc_elem is None:
-                        desc_elem = ET.SubElement(programme, "desc")
-                    desc_elem.text = memoria[titulo]
-                    cambios_detectados = True
-                    contador_llenados += 1
-
-    # 4. Guardar la guía optimizada si se añadieron descripciones
-    if cambios_detectados:
-        tree.write(xml_path, encoding="utf-8", xml_declaration=True)
-        print(f"🎉 Módulo Local completado. Se insertaron {contador_llenados} descripciones guardadas.")
-    else:
-        print("😎 Módulo Local: Nada nuevo que inyectar, todo lo disponible está al día.")
-
-# ==========================================
 
 def run():
     standard_wanted_ids = set()
@@ -173,18 +104,14 @@ def run():
         try:
             print(f"Descargando fuente: {url}")
             r = requests.get(url, timeout=60)
+            data = r.content
             
             if url.endswith(".gz"):
-                data = gzip.decompress(r.content)
-                xml_text = data.decode("utf-8", errors="ignore")
-            else:
-                xml_text = r.text
-
-            # --- ESCUDO ANTIBLOQUEO XML (REPARA AMPERSANDS SUELTOS) ---
-            xml_text = re.sub(r'&(?!([a-zA-Z0-9]+|#[0-9]+|#x[a-fA-F0-9]+);)', '&amp;', xml_text)
+                data = gzip.decompress(data)
             
-            tree = ET.fromstring(xml_text.encode("utf-8"))
+            tree = ET.fromstring(data)
             
+            # Procesar canales
             for c in tree.findall("channel"):
                 xml_id = c.get("id")
                 if xml_id:
@@ -198,6 +125,7 @@ def run():
                             channels_found.append(c)
                             missing_clean_ids.discard(xml_id_clean)
             
+            # Procesar programas, corregir descripciones y aplicar shifts horario
             for p in tree.findall("programme"):
                 p_channel = p.get("channel")
                 if p_channel:
@@ -228,17 +156,16 @@ def run():
         except Exception as e:
             print(f"Error procesando {url}: {e}")
 
+    # Unir canales sin duplicados
     unique_channels = {c.get("id").strip(): c for c in channels_found}.values()
     for c in unique_channels:
         new_root.append(c)
     for p in programmes_found:
         new_root.append(p)
 
+    # Guardar archivos
     output_xml = "guia_personalizada.xml"
     ET.ElementTree(new_root).write(output_xml, encoding="utf-8", xml_declaration=True)
-
-    # Inyección local rápida (Ya no usa Gemini)
-    ejecutar_modulo_ia(output_xml)
 
     try:
         with open(output_xml, "rb") as f_in, gzip.open("guia_personalizada.xml.gz", "wb") as f_out:
@@ -246,12 +173,13 @@ def run():
     except Exception as e:
         print(f"Error al comprimir: {e}")
 
+    # Reporte de errores
     output_errors = "errores canales.txt"
     with open(output_errors, "w", encoding="utf-8") as f_err:
         if missing_clean_ids:
             for missing_id in sorted(missing_clean_ids):
                 f_err.write(f"{raw_lines_map[missing_id]}\n")
-            print(f"Proceso concluido. Errores guardados in '{output_errors}'.")
+            print(f"Proceso concluido. Errores guardados en '{output_errors}'.")
         else:
             f_err.write("¡Felicidades! Todos los canales fueron encontrados con éxito.\n")
             print("¡Éxito total!")
