@@ -55,6 +55,7 @@ Citytv.co
 CLAROSPORTS.uy
 CLAROSPORTS.mx (open-epg.com)
 CLAROSPORTS.ve (open-epg.com)
+Chilevision.cl
 CNNChile.cl
 ComedyCentral.co
 DAZN1.es
