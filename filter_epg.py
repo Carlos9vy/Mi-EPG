@@ -2,6 +2,9 @@ import requests
 import xml.etree.ElementTree as ET
 import gzip
 from datetime import datetime, timedelta
+import os
+import json
+import time
 
 # Fuentes originales
 SOURCES = [
@@ -14,7 +17,7 @@ SOURCES = [
     "https://iptv-epg.org/files/epg-do.xml", "https://iptv-epg.org/files/epg-sv.xml",
     "https://iptv-epg.org/files/epg-gt.xml", "https://iptv-epg.org/files/epg-hn.xml",
     "https://iptv-epg.org/files/epg-py.xml", "https://iptv-epg.org/files/epg-pa.xml",
-    "https://github.com/Carlos9vy/mi-laboratorio-epg/raw/refs/heads/main/guia_laboratorio.xml",
+    "https://github.com/Carlos9vy/mi-laboratorio-epg/raw/refs/heads/main/guia_laboratory.xml",
     "https://www.open-epg.com/generate/aYzuzNSenh.xml",
     "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz"
 ]
@@ -36,19 +39,129 @@ def apply_time_shift(time_str, hours_shift):
     if not time_str or hours_shift == 0:
         return time_str
     try:
-        # Formato común EPG: AAAAMMDDHHMMSS +/-HHMM
         parts = time_str.split()
         base_time = parts[0]
         tz = parts[1] if len(parts) > 1 else ""
         
         dt = datetime.strptime(base_time, "%Y%m%d%H%M%S")
-        # Convertimos las horas (ej. 0.5 o -1.0) en minutos para ser exactos
         dt_shifted = dt + timedelta(minutes=int(hours_shift * 60))
         
         new_base_time = dt_shifted.strftime("%Y%m%d%H%M%S")
         return f"{new_base_time} {tz}".strip()
     except Exception:
         return time_str
+
+# ==========================================
+# NUEVO MÓDULO: RELLENO DE DESCRIPCIONES CON IA
+# ==========================================
+
+def obtener_descripcion_ia(titulo_programa):
+    """Consulta a la API de Gemini para obtener la sinopsis."""
+    gemini_key = os.environ.get("GEMINI_API_KEY")
+    if not gemini_key:
+        return ""
+    try:
+        import google.generativeai as genai
+        genai.configure(api_key=gemini_key)
+        model = genai.GenerativeModel('gemini-1.5-flash')
+        
+        prompt = (
+            f"Actúa como un proveedor experto de metadatos para guías de televisión (EPG).\n"
+            f"Genera una descripción o sinopsis breve, atractiva y en español (máximo 2 o 3 líneas) "
+            f"para el programa de televisión titulado: '{titulo_programa}'.\n"
+            f"Ten en cuenta el contexto de la televisión ecuatoriana e internacional.\n"
+            f"No incluyas horarios, canales, opiniones, ni introducciones.\n"
+            f"Devuelve ÚNICAMENTE el texto de la sinopsis terminado en punto."
+        )
+        
+        response = model.generate_content(prompt)
+        descripcion = response.text.strip()
+        
+        # Respetamos tu regla estética de que termine en punto
+        if descripcion and not descripcion.endswith('.'):
+            descripcion += '.'
+        return descripcion
+    except Exception as e:
+        print(f"Error con Gemini para '{titulo_programa}': {e}")
+        return ""
+
+def ejecutar_modulo_ia(xml_path):
+    """Filtra canales autorizados y llena sus descripciones vacías usando IA y memoria JSON."""
+    ids_ia_autorizados = set()
+    
+    # 1. Cargar canales permitidos desde canales_ia.txt
+    try:
+        with open("canales_ia.txt", "r", encoding="utf-8") as f:
+            for line in f:
+                line_clean = line.strip()
+                if line_clean:
+                    ids_ia_autorizados.add(line_clean)
+        print(f"🤖 Módulo IA: Cargados {len(ids_ia_autorizados)} canales permitidos desde canales_ia.txt")
+    except FileNotFoundError:
+        print("⚠️ Módulo IA omitido: No se encontró canales_ia.txt")
+        return
+
+    if not ids_ia_autorizados:
+        return
+
+    # 2. Cargar memoria JSON para ahorrar cuota de API
+    json_memoria = "descripciones_ia.json"
+    memoria = {}
+    if os.path.exists(json_memoria):
+        try:
+            with open(json_memoria, "r", encoding="utf-8") as f:
+                memoria = json.load(f)
+        except Exception:
+            memoria = {}
+
+    tree = ET.parse(xml_path)
+    root = tree.getroot()
+    cambios_detectados = False
+    contador_ia = 0
+
+    # 3. Analizar programas de canales permitidos con descripciones vacías
+    for programme in root.findall("programme"):
+        p_channel = programme.get("channel")
+        if p_channel and p_channel.strip() in ids_ia_autorizados:
+            p_channel_clean = p_channel.strip()
+            title_elem = programme.find("title")
+            desc_elem = programme.find("desc")
+
+            if title_elem is not None and (desc_elem is None or not desc_elem.text or desc_elem.text.strip() == ""):
+                titulo = title_elem.text.strip()
+
+                # Caso A: Ya está en la memoria JSON
+                if titulo in memoria:
+                    if desc_elem is None:
+                        desc_elem = ET.SubElement(programme, "desc")
+                    desc_elem.text = memoria[titulo]
+                    cambios_detectados = True
+                
+                # Caso B: No está en memoria, invocar a Gemini
+                else:
+                    print(f"🤖 Buscando en IA para [{p_channel_clean}]: {titulo}")
+                    nueva_desc = obtener_descripcion_ia(titulo)
+                    
+                    if nueva_desc:
+                        if desc_elem is None:
+                            desc_elem = ET.SubElement(programme, "desc")
+                        desc_elem.text = nueva_desc
+                        memoria[titulo] = nueva_desc
+                        cambios_detectados = True
+                        contador_ia += 1
+                        # Pausa obligatoria de 4 segundos para evitar el límite de velocidad de la API gratuita
+                        time.sleep(4)
+
+    # 4. Guardar si hubo actualizaciones
+    if cambios_detectados:
+        tree.write(xml_path, encoding="utf-8", xml_declaration=True)
+        with open(json_memoria, "w", encoding="utf-8") as f:
+            json.dump(memoria, f, ensure_ascii=False, indent=4)
+        print(f"🎉 Módulo IA completado. Se generaron {contador_ia} descripciones nuevas.")
+    else:
+        print("😎 Módulo IA: Todas las descripciones autorizadas están al día.")
+
+# ==========================================
 
 def run():
     standard_wanted_ids = set()
@@ -163,10 +276,17 @@ def run():
     for p in programmes_found:
         new_root.append(p)
 
-    # Guardar archivos
+    # Guardar archivos originales (Estructura base idéntica)
     output_xml = "guia_personalizada.xml"
     ET.ElementTree(new_root).write(output_xml, encoding="utf-8", xml_declaration=True)
 
+    # -------------------------------------------------------------
+    # LLAMADA AL NUEVO MÓDULO IA ANTES DE LA COMPRESIÓN FINAL GZ
+    # -------------------------------------------------------------
+    ejecutar_modulo_ia(output_xml)
+    # -------------------------------------------------------------
+
+    # Comprimir el archivo final ya modificado por la IA (si aplicó cambios)
     try:
         with open(output_xml, "rb") as f_in, gzip.open("guia_personalizada.xml.gz", "wb") as f_out:
             f_out.writelines(f_in)
