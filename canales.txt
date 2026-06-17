@@ -240,6 +240,7 @@ Canal.TUDN.(México).sv
 TUDNMexico.gt
 TyCSports.ar
 TyCSports.co
+Canal.Tigo.Sports.(Guatemala).sv
 Unitel.pe
 UniversalTV.co
 UniversalTV.ar
