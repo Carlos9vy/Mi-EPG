@@ -8,3 +8,4 @@ Canal.Gamavisión.sv
 DIRECTVSports.cl
 DIRECTVSports2.cl
 DIRECTVSports+.cl
+TyCSports.ar
