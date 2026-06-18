@@ -69,6 +69,9 @@ DAZNLaLiga.es -> https://iptv-epg.org/images/qMQtAIGQoLsWjo5ZU0KtnUnlifl0E0u_qaL
 DePelícula.mx -> https://iptv-epg.org/images/YJnfTen2uCNk-E93layHsGIm9idDg3yfWZMIK-1qY66mZNXsBm7gvacH4747daRnJ8c13BvdvaCB95NMAkT4MjqiQyV-e1gdo7dkS1N3154q3d8WOWilYQ
 137 -> (Sin logo encontrado)
 DHE.cl -> https://iptv-epg.org/images/EHH8-ZuE3CeIec-8rLdETnVO5H4Ja5CycUeZB_aaRDbyk1jAkoJDPtJAKoLC6WA7ucFgPq9Z23a2qcL00VWIYyGCQPU-dvY_Aj1r
+DIRECTVSports.cl -> https://iptv-epg.org/images/sjAq7sPPLJcrEnQJ3BEk3eJYzhzYfi_BW5lBL4VHL0YZRT_slOls2AEUrm8ssbTSqaOlra2z2u5bZJaZknsw1r6VOplXLUbAR0H254dmot5fwUqqzQ
+DIRECTVSports2.cl -> https://iptv-epg.org/images/jTI7v-ODld2Bqo3fctQqK_1mq1We3iZP5vXnUgPLk1O0F5RF4hBTCGou9j_sObwP7PuZ5nY9B9jmOUKi4FV8R1Pm3pbwagcvJpIfWm3lFBs2tB-l5u8
+DIRECTVSports+.cl -> https://iptv-epg.org/images/_QN0R5XvXBQOVoPstckArCA5wPUt6KQfNAdp_3gDox_pv2S7k49-D60Y6qvFyOpcn4qXLj6cyjbtDBELXDSchOYsKch1eMuPyLDz4p0-eWO5nC0flWy6MQ
 6996 -> (Sin logo encontrado)
 6997 -> (Sin logo encontrado)
 DirecTVSports2.us@Panregional -> https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/DIRECTV_Sports_2_Latin_America_%282018%29.svg/960px-DIRECTV_Sports_2_Latin_America_%282018%29.svg.png
@@ -240,6 +243,8 @@ Canal.TUDN.(México).sv -> https://imagenes.gatotv.com/logos/canales/oscuros/tud
 TUDNMexico.gt -> https://iptv-epg.org/images/43Ue7OxaOnRVCJJrdS67ffxy7i0VwGIexIt0Xn4LG5bSMKtFnSjkMl2m7jCALvkUxaky_U_u40U49E_Bvf2NS7-_O--bS6ZLzc8bBEisC4YHyNlNOdc
 TyCSports.ar -> https://iptv-epg.org/images/rH62N-Muw4irglg3kzRp24Fxs7jltfw80JMZFrVe4wFYp0ChnFkCeToODViUtmOY8ycK1rciKxLinI1Uui17iCXBcpKjy3j-evpmc1eEVK9g857Kxg
 TyCSports.co -> https://iptv-epg.org/images/LQFHznwhH72UrFFrOHkYKkrjK5-7gOz8Ow_L_TUBV7oinz-2xG_rVj-GJx_z26pK_o-_-QA9vmjUL80EaoiennKHSpi9E_mQ6CvffjtYWas6NZqL
+TigoSport.cr -> https://iptv-epg.org/images/n0e8532Q36z_S6J0bu30Aci5Cxym_TWzqIUFSc1AjBn5E6Y7Npmop7bjFoXcNJ-2jNEXf4NZHhP_G5g-tPapCZvdtnqKBUZQ-jMmszM5sqDYY0FWviw
+Canal.Tigo.Sports.(Guatemala).sv -> https://imagenes.gatotv.com/logos/canales/oscuros/tigo_sports-mediano.png
 Unitel.pe -> https://iptv-epg.org/images/G5wdPeaD0I2OGSmeZ1ekz5VJ4ruSASQgyw66-tPqpdhP5LV1g5EnLRDkfjF8CNcSLj1Cz00648_UKF-t-Smd-L3hKdghA5zr95mV_7U
 UniversalTV.co -> https://iptv-epg.org/images/3M0KQifTDDk9l8WsMIiVxPG0tiLsdwBNlDNJheQIpJxt5PzaiZQEOq9l9jX0uSj5RpjWip42e3uPP5yriRI2RKq52i7XyiIhHZyCbNvm9CyQTeHMwUU
 UniversalTV.ar -> https://iptv-epg.org/images/qVeArl548RoAWma_bnq4RuPcS87e_vuCaQrzm7aoHsnWb1AFhf6OPn78d3nMmNHkBaSOtBPfpG9x6F2Ljy5S4eF8iU_ndaxkLH6YM1yoVd6EkVHApTUZ
