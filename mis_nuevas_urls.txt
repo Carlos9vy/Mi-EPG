@@ -49,6 +49,9 @@ DAZNF1.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DAZNF
 DAZNLaLiga.es -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DAZNLaLiga.es.png
 DePelícula.mx -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DePel%C3%ADcula.mx.png
 DHE.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DHE.cl.png
+DIRECTVSports.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DIRECTVSports.cl.png
+DIRECTVSports2.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DIRECTVSports2.cl.png
+DIRECTVSports+.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DIRECTVSports%2B.cl.png
 beINSportsXtraEspanol.us -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/beINSportsXtraEspanol.us.png
 Discovery.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Discovery.cl.png
 DiscoveryChannel.cl -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/DiscoveryChannel.cl.png
@@ -200,6 +203,8 @@ Canal.TUDN.(México).sv -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/ma
 TUDNMexico.gt -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/TUDNMexico.gt.png
 TyCSports.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/TyCSports.ar.png
 TyCSports.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/TyCSports.co.png
+TigoSport.cr -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/TigoSport.cr.png
+Canal.Tigo.Sports.(Guatemala).sv -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Canal.Tigo.Sports.%28Guatemala%29.sv.png
 Unitel.pe -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/Unitel.pe.png
 UniversalTV.co -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/UniversalTV.co.png
 UniversalTV.ar -> https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos/UniversalTV.ar.png
