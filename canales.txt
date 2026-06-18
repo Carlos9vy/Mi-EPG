@@ -152,6 +152,7 @@ GolfChannel.ec
 GolfChannel.co
 HBO.ec
 HBO.co
+HBO.cl
 HBO2.mx
 HBO2.co
 HBOFamily.co
