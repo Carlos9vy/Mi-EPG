@@ -259009,31 +259009,31 @@ El derecho de Nacer II.</desc>
   <programme start="20260622223000 -0600" stop="20260622230000 -0600" channel="Canal.TUDN.(México).sv">
     <title lang="es">Contacto Deportivo</title>
   </programme>
-  <programme start="20260619010000 -0600" stop="20260619013000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619000000 -0600" stop="20260619003000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Post partido / Uzbekistán vs. Colombia, Fecha 1 - Grupo K, Estadio Azteca</title>
   <desc lang="es">Análisis periodístico detallado del debut cafetero en el Estadio Azteca. Desmenuzamos el funcionamiento táctico de la selección de Colombia para vulnerar el bloque defensivo uzbeko, repasamos las mejores jugadas del partido, testimonios de los técnicos y las proyecciones de cara al segundo partido del grupo.</desc></programme>
-  <programme start="20260619013000 -0600" stop="20260619024500 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619003000 -0600" stop="20260619014500 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Nuestro mundial al día</title>
   <desc lang="es">Programa estelar de cobertura exhaustiva dedicado exclusivamente a desglosar los acontecimientos diarios de la Copa Mundial de la FIFA 2026, ofreciendo resúmenes de los goles de todas las selecciones, estadísticas de los grupos y reportes especiales en vivo.</desc></programme>
-  <programme start="20260619024500 -0600" stop="20260619030000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619014500 -0600" stop="20260619020000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">24 horas - Nacional I</title>
   <desc lang="es">Primera emisión oficial del noticiero a nivel nacional que recopila los hechos políticos más trascendentes, la situación económica del país y la crónica roja del momento antes del inicio de la jornada laboral.</desc></programme>
-  <programme start="20260619030000 -0600" stop="20260619031500 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619020000 -0600" stop="20260619021500 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Entrevistas en 24 horas</title>
   <desc lang="es">Espacio matutino de diálogo político riguroso donde los personajes del gobierno, asambleístas y líderes sociales comparecen ante las preguntas del periodismo para aclarar las decisiones legislativas y económicas que afectan al país.</desc></programme>
-  <programme start="20260619031500 -0600" stop="20260619040000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619021500 -0600" stop="20260619030000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">24 Horas</title>
   <desc lang="es">Emisión estelar del noticiero principal de la cadena, ofreciendo un desglose profundo, reportajes de investigación y un análisis crítico de los acontecimientos políticos, económicos y sociales que marcan la agenda del Ecuador y el mundo.</desc></programme>
-  <programme start="20260619040000 -0600" stop="20260619043000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619030000 -0600" stop="20260619033000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Yo soy tu madre</title>
   <desc lang="es">Conmovedora e intensa telenovela dramática de corte familiar que retrata la inquebrantable lucha, los sacrificios económicos y la valentía desinteresada de una madre soltera dispuesta a desafiar las leyes y enfrentar peligros con tal de resguardar a sus hijos.</desc></programme>
-  <programme start="20260619043000 -0600" stop="20260619044500 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619033000 -0600" stop="20260619034500 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">La Familia Peluche</title>
   <desc lang="es">Disparatada y popular comedia que muestra las exageradas vivencias, peleas matrimoniales y enredos absurdos de una disfuncional familia de clase media que habita en una particular metrópoli donde todo, desde la ropa hasta los edificios, está recubierto de peluche.</desc></programme>
-  <programme start="20260619044500 -0600" stop="20260619050000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619034500 -0600" stop="20260619040000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Derbez en cuando</title>
   <desc lang="es">Programa de humor que recopila los mejores momentos, parodias de telenovelas y los sketches más icónicos creados por el genial comediante Eugenio Derbez junto a sus entrañables e inolvidables personajes de la televisión.</desc></programme>
-  <programme start="20260619050000 -0600" stop="20260619053000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619040000 -0600" stop="20260619043000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">El Chapulín Colorado</title>
     <desc lang="es">El Chapulín Colorado, serie creada por Roberto Gómez Bolaños (Chespirito) que relata las aventuras de un Superhéroe. Transmitida por primera vez en México en 1970 y aceptada por las familias mexicanas y toda Latino América.Reconocido por su Chipote Chillón y por sus divertidas frases como "Síganme los buenos" y "No contaban con mi astucia".</desc>
     <credits>
@@ -259060,7 +259060,7 @@ El derecho de Nacer II.</desc>
       <value>TV-G</value>
     </rating>
   </programme>
-  <programme start="20260619053000 -0600" stop="20260619055500 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619043000 -0600" stop="20260619045500 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">El Chavo del Ocho</title>
     <desc lang="es">Las vivencias de El Chavo (Roberto Gómez Bolaños), Kiko (Carlos Villagrán), la Chilindrina (María Antonieta de las Nieves), Ñoño (Édgar Vivar) que juntos hacen un sinfín de travesuras a Doña Florinda (Florinda Meza), Don Ramón (Ramón Valdés), Doña Clotilde (Angelines Fernández), el Señor Barriga (Édgar Vivar) y el Profesor Jirafales (Rubén Aguirre).</desc>
     <date>1972</date>
@@ -259073,52 +259073,52 @@ El derecho de Nacer II.</desc>
       <value>9.0</value>
     </star-rating>
   </programme>
-  <programme start="20260619055500 -0600" stop="20260619070000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619045500 -0600" stop="20260619060000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">24 horas - 1ra emisión local</title>
   <desc lang="es">Informativo matutino enfocado por completo en las necesidades de la comunidad a nivel local. Incluye reportes del tránsito en vivo, seguridad barrial, denuncias ciudadanas y las primeras noticias que necesitas saber para arrancar el día.</desc></programme>
-  <programme start="20260619070000 -0600" stop="20260619073000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619060000 -0600" stop="20260619063000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">24 horas - Nacional I</title>
   <desc lang="es">Primera emisión oficial del noticiero a nivel nacional que recopila los hechos políticos más trascendentes, la situación económica del país y la crónica roja del momento antes del inicio de la jornada laboral.</desc></programme>
-  <programme start="20260619073000 -0600" stop="20260619080000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619063000 -0600" stop="20260619070000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Entrevistas en 24 horas</title>
   <desc lang="es">Espacio matutino de diálogo político riguroso donde los personajes del gobierno, asambleístas y líderes sociales comparecen ante las preguntas del periodismo para aclarar las decisiones legislativas y económicas que afectan al país.</desc></programme>
-  <programme start="20260619080000 -0600" stop="20260619093000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619070000 -0600" stop="20260619083000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">24 horas - 2da emisión local</title>
   <desc lang="es">Reporte periodístico del medio día enfocado en el seguimiento de los hechos de la comunidad, gestión municipal y los problemas sociales de la región, conectando directamente con los sectores afectados a través de microondas en vivo.</desc></programme>
-  <programme start="20260619093000 -0600" stop="20260619120000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619083000 -0600" stop="20260619110000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">EsTAmañana</title>
   <desc lang="es">Dinámica revista informativa de la mañana que ofrece un balance equilibrado entre la cobertura de las emergencias de la comunidad, el análisis rápido de la noticia, útiles recomendaciones del hogar y notas amenas de entretenimiento.</desc></programme>
-  <programme start="20260619120000 -0600" stop="20260619130000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619110000 -0600" stop="20260619120000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Telenovela</title>
   <desc lang="es">Una apasionante historia donde el amor prohibido y la traición se entrelazan con secretos familiares. Descubre si la pasión puede superar las adversidades más inesperadas.</desc></programme>
-  <programme start="20260619130000 -0600" stop="20260619133000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619120000 -0600" stop="20260619123000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">24 Horas</title>
   <desc lang="es">Emisión estelar del noticiero principal de la cadena, ofreciendo un desglose profundo, reportajes de investigación y un análisis crítico de los acontecimientos políticos, económicos y sociales que marcan la agenda del Ecuador y el mundo.</desc></programme>
-  <programme start="20260619133000 -0600" stop="20260619140000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619123000 -0600" stop="20260619130000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Previa - Copa Mundial de la FIFA 2026 / Rep</title>
   <desc lang="es">Bloque de antesala de la jornada de la Copa del Mundo de la FIFA 2026. Sigue los reportes informativos de última hora desde los diferentes estadios sedes del torneo, análisis estadísticos interactivos de los grupos en disputa, entrevistas exclusivas con especialistas y todo el ambiente festivo de las hinchadas globales.</desc></programme>
-  <programme start="20260619140000 -0600" stop="20260619160000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619130000 -0600" stop="20260619150000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Chequia vs. Sudáfrica</title>
     <desc lang="es">Enfrentamiento deportivo donde se miden las selecciones de la República Checa y la República de Sudáfrica.</desc>
     <category lang="es">Deporte</category>
     <icon src="https://imagenes.gatotv.com/categorias/deportes/miniatura/chequia_vs_sudafrica.png" />
   </programme>
-  <programme start="20260619160000 -0600" stop="20260619163000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619150000 -0600" stop="20260619153000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Post - Copa Mundial de la FIFA 2026 / Rep</title>
   <desc lang="es">Bloque continuo de análisis post-partido de la jornada de la Copa del Mundo 2026. Entrevistas exclusivas con las figuras del día, compactos de goles de todas las canchas en competencia, opiniones de especialistas en arbitraje y el debate sobre los fallos tecnológicos del VAR que marcaron los resultados del torneo.</desc></programme>
-  <programme start="20260619163000 -0600" stop="20260619170000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619153000 -0600" stop="20260619160000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Previa - Copa Mundial de la FIFA 2026 / Escocia vs. Marruecos, Fecha 2 - Grup...</title>
   </programme>
-  <programme start="20260619170000 -0600" stop="20260619190000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619160000 -0600" stop="20260619180000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Marruecos vs. Escocia</title>
     <desc lang="es">Enfrentamiento deportivo donde se miden las selecciones del Reino de Marruecos y Escocia.</desc>
     <category lang="es">Deporte</category>
     <icon src="https://imagenes.gatotv.com/categorias/deportes/miniatura/marruecos_vs_escocia.png" />
   </programme>
-  <programme start="20260619190000 -0600" stop="20260619193000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619180000 -0600" stop="20260619183000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Post - Copa Mundial de la FIFA 2026 / Escocia vs. Marruecos, Fecha 2 - Grupo ...</title>
   <desc lang="es">El desglose definitivo de los noventa minutos disputados por la Fecha 2 del Grupo C. Especialistas en el estudio debaten sobre el rendimiento colectivo de Escocia y Marruecos, analizando los datos avanzados de posesión de balón, tiros al arco, faltas y el impacto matemático que tiene este resultado en el grupo mundialista.</desc></programme>
-  <programme start="20260619193000 -0600" stop="20260619200000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619183000 -0600" stop="20260619190000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">El Chavo del Ocho</title>
     <desc lang="es">Las vivencias de El Chavo (Roberto Gómez Bolaños), Kiko (Carlos Villagrán), la Chilindrina (María Antonieta de las Nieves), Ñoño (Édgar Vivar) que juntos hacen un sinfín de travesuras a Doña Florinda (Florinda Meza), Don Ramón (Ramón Valdés), Doña Clotilde (Angelines Fernández), el Señor Barriga (Édgar Vivar) y el Profesor Jirafales (Rubén Aguirre).</desc>
     <date>1972</date>
@@ -259131,52 +259131,52 @@ El derecho de Nacer II.</desc>
       <value>9.0</value>
     </star-rating>
   </programme>
-  <programme start="20260619200000 -0600" stop="20260619210000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619190000 -0600" stop="20260619200000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">24 Horas</title>
   <desc lang="es">Emisión estelar del noticiero principal de la cadena, ofreciendo un desglose profundo, reportajes de investigación y un análisis crítico de los acontecimientos políticos, económicos y sociales que marcan la agenda del Ecuador y el mundo.</desc></programme>
-  <programme start="20260619210000 -0600" stop="20260619223000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619200000 -0600" stop="20260619213000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Nuestro mundial al día</title>
   <desc lang="es">Programa estelar de cobertura exhaustiva dedicado exclusivamente a desglosar los acontecimientos diarios de la Copa Mundial de la FIFA 2026, ofreciendo resúmenes de los goles de todas las selecciones, estadísticas de los grupos y reportes especiales en vivo.</desc></programme>
-  <programme start="20260619223000 -0600" stop="20260619230000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619213000 -0600" stop="20260619220000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Previa - Copa Mundial de la FIFA 2026 / México vs. Corea del Sur, Fecha 2 - G...</title>
   <desc lang="es">Los momentos previos al silbato inicial en el Estadio Akron para el electrizante cruce entre aztecas y asiáticos. Con coberturas especiales de los enviados de televisión, repasa el ambiente de los fanáticos en los alrededores del estadio, el análisis de las alineaciones titulares y las claves estratégicas del compromiso.</desc></programme>
-  <programme start="20260619230000 -0600" stop="20260620010000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260619220000 -0600" stop="20260620000000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">México vs. Corea del Sur</title>
     <desc lang="es">Enfrentamiento deportivo donde se miden las selecciones de los Estados Unidos Mexicanos y la República de Corea.</desc>
     <category lang="es">Deporte</category>
     <icon src="https://imagenes.gatotv.com/categorias/deportes/miniatura/mexico_vs_corea_del_sur.png" />
   </programme>
-  <programme start="20260620010000 -0600" stop="20260620013000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620000000 -0600" stop="20260620003000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Post - Copa Mundial de la FIFA 2026 / México vs. Corea del Sur, Fecha 2 - Gru...</title>
   <desc lang="es">El análisis periodístico de las incidencias del electrizante choque entre aztecas y asiáticos. Con móviles en directo desde los estadios de la Copa del Mundo, el panel desglosa el funcionamiento defensivo, los goles de la jornada futbolística y comparte los testimonios oficiales de los entrenadores en la rueda de prensa.</desc></programme>
-  <programme start="20260620013000 -0600" stop="20260620024500 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620003000 -0600" stop="20260620014500 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Nuestro mundial al día</title>
   <desc lang="es">Programa estelar de cobertura exhaustiva dedicado exclusivamente a desglosar los acontecimientos diarios de la Copa Mundial de la FIFA 2026, ofreciendo resúmenes de los goles de todas las selecciones, estadísticas de los grupos y reportes especiales en vivo.</desc></programme>
-  <programme start="20260620024500 -0600" stop="20260620030000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620014500 -0600" stop="20260620020000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">24 horas - Nacional I</title>
   <desc lang="es">Primera emisión oficial del noticiero a nivel nacional que recopila los hechos políticos más trascendentes, la situación económica del país y la crónica roja del momento antes del inicio de la jornada laboral.</desc></programme>
-  <programme start="20260620030000 -0600" stop="20260620031500 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620020000 -0600" stop="20260620021500 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Entrevistas en 24 horas</title>
   <desc lang="es">Espacio matutino de diálogo político riguroso donde los personajes del gobierno, asambleístas y líderes sociales comparecen ante las preguntas del periodismo para aclarar las decisiones legislativas y económicas que afectan al país.</desc></programme>
-  <programme start="20260620031500 -0600" stop="20260620040000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620021500 -0600" stop="20260620030000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">24 Horas</title>
   <desc lang="es">Emisión estelar del noticiero principal de la cadena, ofreciendo un desglose profundo, reportajes de investigación y un análisis crítico de los acontecimientos políticos, económicos y sociales que marcan la agenda del Ecuador y el mundo.</desc></programme>
-  <programme start="20260620040000 -0600" stop="20260620043000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620030000 -0600" stop="20260620033000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Yo soy tu madre</title>
   <desc lang="es">Conmovedora e intensa telenovela dramática de corte familiar que retrata la inquebrantable lucha, los sacrificios económicos y la valentía desinteresada de una madre soltera dispuesta a desafiar las leyes y enfrentar peligros con tal de resguardar a sus hijos.</desc></programme>
-  <programme start="20260620043000 -0600" stop="20260620050000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620033000 -0600" stop="20260620040000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Geeks</title>
   <desc lang="es">El espacio televisivo definitivo dedicado a la cultura pop, la tecnología, los videojuegos y los cómics. Analistas expertos repasan los últimos lanzamientos de consolas, adelantos de películas cinematográficas, entrevistas a desarrolladores y las novedades del mundo geek presentadas con un formato dinámico y entretenido.</desc></programme>
-  <programme start="20260620050000 -0600" stop="20260620060000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620040000 -0600" stop="20260620050000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Tres Patines</title>
   <desc lang="es">La clásica y legendaria comedia judicial basada en el popular programa de la Tremenda Corte. Diviértete con los absurdos casos presentados ante el estricto Señor Juez, donde el carismático y astuto José Candelario Tres Patines se defiende de ingeniosas acusaciones de estafa con divertidos juegos de palabras y enredos lingüísticos.</desc></programme>
-  <programme start="20260620060000 -0600" stop="20260620063000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620050000 -0600" stop="20260620053000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Geeks</title>
   <desc lang="es">El espacio televisivo definitivo dedicado a la cultura pop, la tecnología, los videojuegos y los cómics. Analistas expertos repasan los últimos lanzamientos de consolas, adelantos de películas cinematográficas, entrevistas a desarrolladores y las novedades del mundo geek presentadas con un formato dinámico y entretenido.</desc></programme>
-  <programme start="20260620063000 -0600" stop="20260620070000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620053000 -0600" stop="20260620060000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Game Shakers</title>
   <desc lang="es">Dos ingeniosas niñas de doce años crean por accidente un videojuego multimillonario y deciden fundar su propia compañía de entretenimiento tecnológico junto a una estrella del rap. Una divertida serie juvenil llena de travesuras, situaciones absurdas en la oficina y el reto de manejar un gran negocio.</desc></programme>
-  <programme start="20260620070000 -0600" stop="20260620073000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620060000 -0600" stop="20260620063000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Victorious</title>
     <desc lang="es">Una serie para chicos de Nickelodeon donde muestra la vida de dos hermanas en una escuela de arte.El caos se aproxima a la vida de Tori Vega (Victoria Justice). La chica de 16 años está comenzando en un nuevo colegio pero no un colegio cualquiera. Está en Hollywood Arts, una escuela de actuación y canto donde estudiantes talentosos pero alocados aprenden cómo convertirse en verdaderos artistas… Hasta ahora, Tori no cree que tiene mucho talento de por sí, y además de esto ella vive bajo las sobras de su hermana mayor, Trina (Daniella Monet). Pero todo eso está por cambiar si Tori puede ver en ella misma una luz, incluso una pequeña chispa, Pero esta escuela a pesar de ser Hollywood Arts es todavía un colegio o una escuela, como quieras llamarle, y Tori es la chica nueva. Ella tendrá que buscar nuevos amigos para hacer sus tareas, y todo lo que hacen los chicos de su edad.</desc>
     <credits>
@@ -259197,13 +259197,13 @@ El derecho de Nacer II.</desc>
       <value>7.0</value>
     </star-rating>
   </programme>
-  <programme start="20260620073000 -0600" stop="20260620080000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620063000 -0600" stop="20260620070000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">¡Oye, Arnold!</title>
   <desc lang="es">La entrañable serie animada que sigue las aventuras cotidianas de Arnold, un inteligente niño con cabeza de balón que vive con sus abuelos en una colorida casa de huéspedes urbana. Junto a su leal amigo Gerald y bajo la constante y secreta mirada enamorada de Helga Pataki, Arnold resuelve con empatía los dilemas del barrio.</desc></programme>
-  <programme start="20260620080000 -0600" stop="20260620100000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620070000 -0600" stop="20260620090000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Tventas</title>
   <desc lang="es">El canal de televentas por excelencia que te presenta las mejores demostraciones de productos novedosos para el hogar, la salud, la belleza y el acondicionamiento físico. Aprovecha exclusivas ofertas y promociones limitadas de artículos importados de alta utilidad práctica explicados al detalle por dinámicos presentadores en el estudio.</desc></programme>
-  <programme start="20260620100000 -0600" stop="20260620103000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620090000 -0600" stop="20260620093000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Los Simpson</title>
     <desc lang="es">Los Simpson son una familia de la clase media que viven en Sprinfield donde Homero, Bart, Lisa y Maggie viven sus aventuras recreando parodias de la cultura, sociedad y televisión americana.</desc>
     <date>1989</date>
@@ -259216,103 +259216,103 @@ El derecho de Nacer II.</desc>
       <value>9.0</value>
     </star-rating>
   </programme>
-  <programme start="20260620103000 -0600" stop="20260620110000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620093000 -0600" stop="20260620100000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Previa - Copa Mundial de la FIFA 2026 / Brasil vs. Haití, Fecha 2 - Grupo C, ...</title>
   <desc lang="es">El análisis preliminar más completo del choque mundialista desde el Lincoln Financial Field. Un repaso por las pizarras tácticas de los entrenadores, las novedades en el mediocampo de la Canarinha y despachos informativos de enviados especiales que te acercan todo el color previo al inicio de las acciones en vivo.</desc></programme>
-  <programme start="20260620110000 -0600" stop="20260620130000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620100000 -0600" stop="20260620120000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Brasil vs. Haití</title>
     <desc lang="es">Enfrentamiento deportivo de tipo internacional donde se miden las selecciones de la República Federativa del Brasil y la República de Haití.</desc>
     <category lang="es">Deporte</category>
     <icon src="https://imagenes.gatotv.com/categorias/deportes/miniatura/brasil_vs_haiti.png" />
   </programme>
-  <programme start="20260620130000 -0600" stop="20260620133000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620120000 -0600" stop="20260620123000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Post - Copa Mundial de la FIFA 2026 / Brasil vs. Haití, Fecha 2 - Grupo C, Li...</title>
   <desc lang="es">Toda la cobertura analítica y el debate al cierre del encuentro entre Brasil y Haití celebrado en el Lincoln Financial Field. Disfruta de los compactos de goles, el análisis de las jugadas polémicas bajo la lupa del VAR, las calificaciones individuales de las estrellas de la Canarinha y cómo se configura la tabla de posiciones.</desc></programme>
-  <programme start="20260620133000 -0600" stop="20260620143000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620123000 -0600" stop="20260620133000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">24 Horas</title>
   <desc lang="es">Emisión estelar del noticiero principal de la cadena, ofreciendo un desglose profundo, reportajes de investigación y un análisis crítico de los acontecimientos políticos, económicos y sociales que marcan la agenda del Ecuador y el mundo.</desc></programme>
-  <programme start="20260620143000 -0600" stop="20260620150000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620133000 -0600" stop="20260620140000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Previa - Copa Mundial de la FIFA 2026 / Alemania vs. Costa de Marfil, Fecha 2...</title>
   <desc lang="es">Toda la antesala informativa del compromiso por la Fecha 2 del Grupo E. Analistas desglosan las alineaciones confirmadas de Alemania y Costa de Marfil, el historial de partidos internacionales, los reportes médicos de última hora en las concentraciones y el ambiente festivo de la hinchada minutos antes del pitazo inicial.</desc></programme>
-  <programme start="20260620150000 -0600" stop="20260620170000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620140000 -0600" stop="20260620160000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Alemania vs. Costa de Marfil</title>
     <desc lang="es">Enfrentamiento deportivo donde se miden las selecciones de la República Federal de Alemania y la República de Costa de Marfil.</desc>
     <category lang="es">Deporte</category>
     <icon src="https://imagenes.gatotv.com/categorias/deportes/miniatura/alemania_vs_costa_de_marfil.png" />
   </programme>
-  <programme start="20260620170000 -0600" stop="20260620174500 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620160000 -0600" stop="20260620164500 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Post - Copa Mundial de la FIFA 2026 / Alemania vs. Costa de Marfil, Fecha 2 -...</title>
   <desc lang="es">Análisis minucioso inmediatamente después del silbato final de este vibrante cruce mundialista. Un panel experto de periodistas desglosa las jugadas clave que decidieron el destino del partido entre teutones y africanos, complementado con las conferencias de prensa completas de los directores técnicos y reacciones en zona mixta.</desc></programme>
-  <programme start="20260620174500 -0600" stop="20260620190000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620164500 -0600" stop="20260620180000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Previa - Copa Mundial de la FIFA 2026 / Ecuador vs. Curazao, Fecha 2 - Grupo ...</title>
   <desc lang="es">Las pantallas ecuatorianas se encienden para vivir la emocionante antesala del trascendental partido de la Tri. Disfruta de un análisis detallado del esquema ofensivo nacional, estadísticas de la fase de grupos, reportes climatológicos desde el estadio y entrevistas exclusivas con leyendas del fútbol local.</desc></programme>
-  <programme start="20260620190000 -0600" stop="20260620210000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620180000 -0600" stop="20260620200000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Copa Mundial de la FIFA 2026 / Ecuador vs. Curazao, Fecha 2 - Grupo E, Arrowh...</title>
   <desc lang="es">La Tri salta a la cancha del Arrowhead Stadium en un duelo trascendental por los tres puntos del Grupo E de la Copa del Mundo. La escuadra ecuatoriana busca imponer su característico ritmo veloz y despliegue físico por las bandas frente al ordenado esquema táctico de Curazao, en una transmisión oficial con toda la pasión mundialista.</desc></programme>
-  <programme start="20260620210000 -0600" stop="20260620213000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620200000 -0600" stop="20260620203000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Post - Copa Mundial de la FIFA 2026 / Ecuador vs. Curazao, Fecha 2 - Grupo E,...</title>
   <desc lang="es">El debate más caliente de las pantallas ecuatorianas tras concluir el compromiso de la Tri. Periodistas analizan el rendimiento táctico del esquema de Ecuador, repasan las mejores jugadas del partido, comparten las declaraciones calientes de los futbolistas en los vestuarios y proyectan lo que necesita la Selección de cara al futuro.</desc></programme>
-  <programme start="20260620213000 -0600" stop="20260620223000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620203000 -0600" stop="20260620213000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Nuestro mundial al día</title>
   <desc lang="es">Programa estelar de cobertura exhaustiva dedicado exclusivamente a desglosar los acontecimientos diarios de la Copa Mundial de la FIFA 2026, ofreciendo resúmenes de los goles de todas las selecciones, estadísticas de los grupos y reportes especiales en vivo.</desc></programme>
-  <programme start="20260620223000 -0600" stop="20260620230000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620213000 -0600" stop="20260620220000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">24 Horas</title>
   <desc lang="es">Emisión estelar del noticiero principal de la cadena, ofreciendo un desglose profundo, reportajes de investigación y un análisis crítico de los acontecimientos políticos, económicos y sociales que marcan la agenda del Ecuador y el mundo.</desc></programme>
-  <programme start="20260620230000 -0600" stop="20260621000000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620220000 -0600" stop="20260620230000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">América Vive</title>
   <desc lang="es">Prestigioso magacín ecuatoriano de investigación periodística dedicado a explorar los misterios más impactantes, leyendas urbanas y fenómenos paranormales del país. A través de reportajes profundos, recreaciones detalladas y testimonios de primera mano, el programa cautiva a la audiencia con historias que desafían la lógica.</desc></programme>
-  <programme start="20260621000000 -0600" stop="20260621003000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620230000 -0600" stop="20260620233000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Previa - Copa Mundial de la FIFA 2026 / Turquía vs. Paraguay, Fecha 2 - Grupo...</title>
   <desc lang="es">Información al instante desde el Levi's Stadium previo al inicio de las acciones de este atrapante cruce internacional. Especialistas analizan el debut táctico de Turquía frente a la rigurosa garra de la selección de Paraguay, repasando variantes en las alineaciones oficiales y testimonios en la víspera del duelo.</desc></programme>
-  <programme start="20260621003000 -0600" stop="20260621023000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260620233000 -0600" stop="20260621013000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Copa Mundial de la FIFA 2026 / Turquía vs. Paraguay, Fecha 2 - Grupo D, Levi'...</title>
   <desc lang="es">Acción directa del Grupo D desde el Levi's Stadium. La escuadra de Turquía busca plasmar su buen trato de balón e intensidad en el mediocampo para quebrar el cerrojo de la selección de Paraguay, un combinado que apelará a su tradicional garra guaraní, solidez defensiva y efectividad absoluta en las jugadas a balón parado.</desc></programme>
-  <programme start="20260621023000 -0600" stop="20260621030000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621013000 -0600" stop="20260621020000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Post - Copa Mundial de la FIFA 2026 / Turquía vs. Paraguay, Fecha 2 - Grupo D...</title>
   <desc lang="es">Análisis exhaustivo de la batalla futbolística entre turcos y guaraníes. Desmenuzamos el funcionamiento táctico empleado en las áreas, repasamos las jugadas más polémicas, tarjetas y tiros de esquina, junto a los testimonios directos de los protagonistas desde los vestuarios tras este decisivo compromiso del certamen.</desc></programme>
-  <programme start="20260621030000 -0600" stop="20260621034500 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621020000 -0600" stop="20260621024500 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Nuestro mundial al día</title>
   <desc lang="es">Programa estelar de cobertura exhaustiva dedicado exclusivamente a desglosar los acontecimientos diarios de la Copa Mundial de la FIFA 2026, ofreciendo resúmenes de los goles de todas las selecciones, estadísticas de los grupos y reportes especiales en vivo.</desc></programme>
-  <programme start="20260621034500 -0600" stop="20260621050000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621024500 -0600" stop="20260621040000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Aída</title>
   <desc lang="es">Divertidísima serie española que sigue el caótico y entrañable día a día de una madre soltera de clase trabajadora y su particular entorno en un barrio humilde. Con un humor ácido, situaciones delirantes y un elenco de personajes sumamente pícaros, esta producción se convierte en un retrato cómico de la supervivencia diaria.</desc></programme>
-  <programme start="20260621050000 -0600" stop="20260621053000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621040000 -0600" stop="20260621043000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Tres Patines</title>
   <desc lang="es">La clásica y legendaria comedia judicial basada en el popular programa de la Tremenda Corte. Diviértete con los absurdos casos presentados ante el estricto Señor Juez, donde el carismático y astuto José Candelario Tres Patines se defiende de ingeniosas acusaciones de estafa con divertidos juegos de palabras y enredos lingüísticos.</desc></programme>
-  <programme start="20260621053000 -0600" stop="20260621073000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621043000 -0600" stop="20260621063000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Copa Mundial de la FIFA 2026 / Ecuador vs. Curazao, Fecha 2 - Grupo E, Arrowh...</title>
   <desc lang="es">La Tri salta a la cancha del Arrowhead Stadium en un duelo trascendental por los tres puntos del Grupo E de la Copa del Mundo. La escuadra ecuatoriana busca imponer su característico ritmo veloz y despliegue físico por las bandas frente al ordenado esquema táctico de Curazao, en una transmisión oficial con toda la pasión mundialista.</desc></programme>
-  <programme start="20260621073000 -0600" stop="20260621080000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621063000 -0600" stop="20260621070000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Misa dominical</title>
   <desc lang="es">La tradicional celebración eucarística del domingo transmitida en vivo para toda la comunidad católica del país. Un espacio ideal para compartir en familia la palabra de Dios, escuchar la reflexión del párroco basada en los evangelios y renovar la fe cristiana con un mensaje reconfortante de esperanza para la semana.</desc></programme>
-  <programme start="20260621080000 -0600" stop="20260621100000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621070000 -0600" stop="20260621090000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Tventas</title>
   <desc lang="es">El canal de televentas por excelencia que te presenta las mejores demostraciones de productos novedosos para el hogar, la salud, la belleza y el acondicionamiento físico. Aprovecha exclusivas ofertas y promociones limitadas de artículos importados de alta utilidad práctica explicados al detalle por dinámicos presentadores en el estudio.</desc></programme>
-  <programme start="20260621100000 -0600" stop="20260621103000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621090000 -0600" stop="20260621093000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Salud 360</title>
   <desc lang="es">Un completo y dinámico espacio médico de orientación ideal para toda la familia. Con la conducción de especialistas de la salud, este programa aborda de forma sencilla la prevención de enfermedades comunes, consejos de nutrición clínica balanceada, la importancia de la medicina preventiva y respuestas a las consultas del público.</desc></programme>
-  <programme start="20260621103000 -0600" stop="20260621110000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621093000 -0600" stop="20260621100000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Previa - Copa Mundial de la FIFA 2026 / España vs. Arabia Saudita, Fecha 2 - ...</title>
   <desc lang="es">Toda la antesala del choque del Grupo H de la Copa del Mundo. Analistas deportivos desmenuzan los duelos individuales clave en el terreno de juego, repasando las conferencias de prensa oficiales de los directores técnicos y compartiendo las formaciones titulares confirmadas minutos antes de que ruede el balón.</desc></programme>
-  <programme start="20260621110000 -0600" stop="20260621130000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621100000 -0600" stop="20260621120000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Copa Mundial de la FIFA 2026 / España vs. Arabia Saudita, Fecha 2 - Grupo H, ...</title>
   <desc lang="es">Las emociones de la cita mundialista se encienden con el cruce del Grupo H en vivo. La selección de España saldrá a desplegar su tradicional filosofía de posesión absoluta, combinaciones rápidas y precisión fina en ataque, desafiando la resistencia física, intensidad y los veloces contraataques del conjunto de Arabia Saudita.</desc></programme>
-  <programme start="20260621130000 -0600" stop="20260621133000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621120000 -0600" stop="20260621123000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Post - Copa Mundial de la FIFA 2026 / España vs. Arabia Saudita, Fecha 2 - Gr...</title>
   <desc lang="es">Revisión técnica pormenorizada del duelo correspondiente al Grupo H. El equipo de analistas de DIRECTV repasa los aciertos y errores en los cambios del encuentro, complementado con repeticiones desde ángulos exclusivos, entrevistas a los capitanes a ras de campo y el ambiente festivo de las hinchadas tras el silbato.</desc></programme>
-  <programme start="20260621133000 -0600" stop="20260621143000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621123000 -0600" stop="20260621133000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">24 Horas</title>
   <desc lang="es">Emisión estelar del noticiero principal de la cadena, ofreciendo un desglose profundo, reportajes de investigación y un análisis crítico de los acontecimientos políticos, económicos y sociales que marcan la agenda del Ecuador y el mundo.</desc></programme>
-  <programme start="20260621143000 -0600" stop="20260621150000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621133000 -0600" stop="20260621140000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Previa - Copa Mundial de la FIFA 2026 / Países Bajos vs. Suecia, Fecha 2 - Gr...</title>
   <desc lang="es">La antesala informativa del gran clásico europeo por el Grupo F de la Copa del Mundo. Un completo equipo de periodistas deportivos analiza el planteamiento de posesión neerlandés y el esquema defensivo sueco, repasando las novedades en las formaciones y el ambiente mundialista que se vive en los graderíos.</desc></programme>
-  <programme start="20260621150000 -0600" stop="20260621170000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621140000 -0600" stop="20260621160000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Copa Mundial de la FIFA 2026 / Países Bajos vs. Suecia, Fecha 2 - Grupo F, NR...</title>
   <desc lang="es">Vibrante choque del Grupo F escenificado en el NRG Stadium. Un auténtico clásico del fútbol europeo donde la dinámica ofensiva, el juego asociativo y la jerarquía individual de los Países Bajos miden fuerzas ante el riguroso bloque defensivo, el juego aéreo y el contragolpe letal propuesto por la disciplinada escuadra de Suecia.</desc></programme>
-  <programme start="20260621170000 -0600" stop="20260621173000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621160000 -0600" stop="20260621163000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Post - Copa Mundial de la FIFA 2026 / Países Bajos vs. Suecia, Fecha 2 - Grup...</title>
   <desc lang="es">El cierre informativo de este gran clásico europeo de la Copa del Mundo. Expertos en táctica desmenuzan cómo se quebró el cerrojo del partido, compartiendo estadísticas de rendimiento de los jugadores clave de ambas selecciones, declaraciones calientes en zona mixta y un repaso a las mejores imágenes de la fecha.</desc></programme>
-  <programme start="20260621173000 -0600" stop="20260621180000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621163000 -0600" stop="20260621170000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Los Simpson</title>
     <desc lang="es">Los Simpson son una familia de la clase media que viven en Sprinfield donde Homero, Bart, Lisa y Maggie viven sus aventuras recreando parodias de la cultura, sociedad y televisión americana.</desc>
     <date>1989</date>
@@ -259325,46 +259325,46 @@ El derecho de Nacer II.</desc>
       <value>9.0</value>
     </star-rating>
   </programme>
-  <programme start="20260621180000 -0600" stop="20260621200000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621170000 -0600" stop="20260621190000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Guerra de papás</title>
   <desc lang="es">Divertida comedia cinematográfica que narra la hilarante y disparatada competencia entre un afable padrastro y el carismático padre biológico de los niños, quien regresa para ganarse el afecto de su familia. Un sinfín de situaciones absurdas, bromas pesadas y enredos familiares que garantizan risas para toda la familia.</desc></programme>
-  <programme start="20260621200000 -0600" stop="20260621210000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621190000 -0600" stop="20260621200000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">24 Horas</title>
   <desc lang="es">Emisión estelar del noticiero principal de la cadena, ofreciendo un desglose profundo, reportajes de investigación y un análisis crítico de los acontecimientos políticos, económicos y sociales que marcan la agenda del Ecuador y el mundo.</desc></programme>
-  <programme start="20260621210000 -0600" stop="20260621223000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621200000 -0600" stop="20260621213000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Nuestro mundial al día</title>
   <desc lang="es">Programa estelar de cobertura exhaustiva dedicado exclusivamente a desglosar los acontecimientos diarios de la Copa Mundial de la FIFA 2026, ofreciendo resúmenes de los goles de todas las selecciones, estadísticas de los grupos y reportes especiales en vivo.</desc></programme>
-  <programme start="20260621223000 -0600" stop="20260621233000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621213000 -0600" stop="20260621223000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">El buscador</title>
   <desc lang="es">Original programa de entrevistas conducido por Facundo Quiroga, donde se exploran las historias de vida de reconocidas personalidades públicas a través de su rastro digital. Un viaje profundo y emotivo por sus búsquedas en redes sociales, fotografías olvidadas y archivos de video que revelan su lado más humano.</desc></programme>
-  <programme start="20260621233000 -0600" stop="20260622000000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621223000 -0600" stop="20260621230000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Deporte Total</title>
   <desc lang="es">Completo y vertiginoso resumen de la jornada deportiva que repasa todos los goles del fútbol nacional e internacional, los mejores momentos del baloncesto, el automovilismo y el acontecer de los deportistas ecuatorianos en el mundo.</desc></programme>
-  <programme start="20260622000000 -0600" stop="20260622003000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621230000 -0600" stop="20260621233000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">En corto</title>
   <desc lang="es">El popular e irreverente segmento de entretenimiento y sátira política que, con un humor ágil y picante, revela el lado más curioso, los bloopers y las anécdotas extrañas de las celebridades de la farándula y los políticos del país.</desc></programme>
-  <programme start="20260622003000 -0600" stop="20260622011500 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260621233000 -0600" stop="20260622001500 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">La ley y el orden Unidad de víctimas especiales</title>
   <desc lang="es">La aclamada e histórica serie policial de DIRECTV que sigue el minucioso trabajo de la capitana Olivia Benson y su escuadrón de élite en la ciudad de Nueva York. El equipo se dedica a investigar y resolver los casos más complejos de delitos sexuales, protegiendo con valentía a las víctimas y buscando justicia en los tribunales.</desc></programme>
-  <programme start="20260622011500 -0600" stop="20260622021500 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622001500 -0600" stop="20260622011500 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Nuestro mundial al día</title>
   <desc lang="es">Programa estelar de cobertura exhaustiva dedicado exclusivamente a desglosar los acontecimientos diarios de la Copa Mundial de la FIFA 2026, ofreciendo resúmenes de los goles de todas las selecciones, estadísticas de los grupos y reportes especiales en vivo.</desc></programme>
-  <programme start="20260622021500 -0600" stop="20260622030000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622011500 -0600" stop="20260622020000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">24 Horas</title>
   <desc lang="es">Emisión estelar del noticiero principal de la cadena, ofreciendo un desglose profundo, reportajes de investigación y un análisis crítico de los acontecimientos políticos, económicos y sociales que marcan la agenda del Ecuador y el mundo.</desc></programme>
-  <programme start="20260622030000 -0600" stop="20260622033000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622020000 -0600" stop="20260622023000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Deporte Total</title>
   <desc lang="es">Completo y vertiginoso resumen de la jornada deportiva que repasa todos los goles del fútbol nacional e internacional, los mejores momentos del baloncesto, el automovilismo y el acontecer de los deportistas ecuatorianos en el mundo.</desc></programme>
-  <programme start="20260622033000 -0600" stop="20260622040000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622023000 -0600" stop="20260622030000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">En corto</title>
   <desc lang="es">El popular e irreverente segmento de entretenimiento y sátira política que, con un humor ágil y picante, revela el lado más curioso, los bloopers y las anécdotas extrañas de las celebridades de la farándula y los políticos del país.</desc></programme>
-  <programme start="20260622040000 -0600" stop="20260622043000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622030000 -0600" stop="20260622033000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">La Familia Peluche</title>
   <desc lang="es">Disparatada y popular comedia que muestra las exageradas vivencias, peleas matrimoniales y enredos absurdos de una disfuncional familia de clase media que habita en una particular metrópoli donde todo, desde la ropa hasta los edificios, está recubierto de peluche.</desc></programme>
-  <programme start="20260622043000 -0600" stop="20260622050000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622033000 -0600" stop="20260622040000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Derbez en cuando</title>
   <desc lang="es">Programa de humor que recopila los mejores momentos, parodias de telenovelas y los sketches más icónicos creados por el genial comediante Eugenio Derbez junto a sus entrañables e inolvidables personajes de la televisión.</desc></programme>
-  <programme start="20260622050000 -0600" stop="20260622053000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622040000 -0600" stop="20260622043000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">El Chapulín Colorado</title>
     <desc lang="es">El Chapulín Colorado, serie creada por Roberto Gómez Bolaños (Chespirito) que relata las aventuras de un Superhéroe. Transmitida por primera vez en México en 1970 y aceptada por las familias mexicanas y toda Latino América.Reconocido por su Chipote Chillón y por sus divertidas frases como "Síganme los buenos" y "No contaban con mi astucia".</desc>
     <credits>
@@ -259391,7 +259391,7 @@ El derecho de Nacer II.</desc>
       <value>TV-G</value>
     </rating>
   </programme>
-  <programme start="20260622053000 -0600" stop="20260622055500 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622043000 -0600" stop="20260622045500 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">El Chavo del Ocho</title>
     <desc lang="es">Las vivencias de El Chavo (Roberto Gómez Bolaños), Kiko (Carlos Villagrán), la Chilindrina (María Antonieta de las Nieves), Ñoño (Édgar Vivar) que juntos hacen un sinfín de travesuras a Doña Florinda (Florinda Meza), Don Ramón (Ramón Valdés), Doña Clotilde (Angelines Fernández), el Señor Barriga (Édgar Vivar) y el Profesor Jirafales (Rubén Aguirre).</desc>
     <date>1972</date>
@@ -259404,43 +259404,43 @@ El derecho de Nacer II.</desc>
       <value>9.0</value>
     </star-rating>
   </programme>
-  <programme start="20260622055500 -0600" stop="20260622070000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622045500 -0600" stop="20260622060000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">24 horas - 1ra emisión local</title>
   <desc lang="es">Informativo matutino enfocado por completo en las necesidades de la comunidad a nivel local. Incluye reportes del tránsito en vivo, seguridad barrial, denuncias ciudadanas y las primeras noticias que necesitas saber para arrancar el día.</desc></programme>
-  <programme start="20260622070000 -0600" stop="20260622073000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622060000 -0600" stop="20260622063000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">24 horas - Nacional I</title>
   <desc lang="es">Primera emisión oficial del noticiero a nivel nacional que recopila los hechos políticos más trascendentes, la situación económica del país y la crónica roja del momento antes del inicio de la jornada laboral.</desc></programme>
-  <programme start="20260622073000 -0600" stop="20260622080000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622063000 -0600" stop="20260622070000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Entrevistas en 24 horas</title>
   <desc lang="es">Espacio matutino de diálogo político riguroso donde los personajes del gobierno, asambleístas y líderes sociales comparecen ante las preguntas del periodismo para aclarar las decisiones legislativas y económicas que afectan al país.</desc></programme>
-  <programme start="20260622080000 -0600" stop="20260622093000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622070000 -0600" stop="20260622083000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">24 horas - 2da emisión local</title>
   <desc lang="es">Reporte periodístico del medio día enfocado en el seguimiento de los hechos de la comunidad, gestión municipal y los problemas sociales de la región, conectando directamente con los sectores afectados a través de microondas en vivo.</desc></programme>
-  <programme start="20260622093000 -0600" stop="20260622120000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622083000 -0600" stop="20260622110000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">EsTAmañana</title>
   <desc lang="es">Dinámica revista informativa de la mañana que ofrece un balance equilibrado entre la cobertura de las emergencias de la comunidad, el análisis rápido de la noticia, útiles recomendaciones del hogar y notas amenas de entretenimiento.</desc></programme>
-  <programme start="20260622120000 -0600" stop="20260622130000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622110000 -0600" stop="20260622120000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Por amar sin ley</title>
   <desc lang="es">Telenovela dramática legal de alta sintonía ambientada dentro de un prestigioso y caótico bufete de abogados de la ciudad, en la cual se entrelazan complejos casos judiciales de la vida real con los apasionados idilios y dilemas éticos de los defensores.</desc></programme>
-  <programme start="20260622130000 -0600" stop="20260622135000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622120000 -0600" stop="20260622125000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">24 Horas</title>
   <desc lang="es">Emisión estelar del noticiero principal de la cadena, ofreciendo un desglose profundo, reportajes de investigación y un análisis crítico de los acontecimientos políticos, económicos y sociales que marcan la agenda del Ecuador y el mundo.</desc></programme>
-  <programme start="20260622135000 -0600" stop="20260622143000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622125000 -0600" stop="20260622133000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Comunidad</title>
   <desc lang="es">Informativo netamente social que sirve como micrófono directo para los barrios ecuatorianos, exponiendo las denuncias sobre la delincuencia, falta de obras viales, servicios públicos deficientes y buscando respuestas inmediatas de las autoridades.</desc></programme>
-  <programme start="20260622143000 -0600" stop="20260622144000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622133000 -0600" stop="20260622134000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">En corto</title>
   <desc lang="es">El popular e irreverente segmento de entretenimiento y sátira política que, con un humor ágil y picante, revela el lado más curioso, los bloopers y las anécdotas extrañas de las celebridades de la farándula y los políticos del país.</desc></programme>
-  <programme start="20260622144000 -0600" stop="20260622151000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622134000 -0600" stop="20260622141000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Deporte Total</title>
   <desc lang="es">Completo y vertiginoso resumen de la jornada deportiva que repasa todos los goles del fútbol nacional e internacional, los mejores momentos del baloncesto, el automovilismo y el acontecer de los deportistas ecuatorianos en el mundo.</desc></programme>
-  <programme start="20260622151000 -0600" stop="20260622154500 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622141000 -0600" stop="20260622144500 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Bob Esponja</title>
   <desc lang="es">Las divertidas, surrealistas y alocadas aventuras de una entusiasta esponja de mar amarilla que trabaja como cocinero en el Crustáceo Cascarudo y vive en una piña en el fondo del océano junto a sus entrañables amigos en Fondo de Bikini.</desc></programme>
-  <programme start="20260622154500 -0600" stop="20260622161500 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622144500 -0600" stop="20260622151500 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Doraemon</title>
   <desc lang="es">Las divertidas peripecias de Nobita, un niño algo torpe, junto a Doraemon, un simpático e inteligente gato robot del siglo XXII que posee un bolsillo mágico repleto de fantásticos e increíbles inventos futuristas para resolver cualquier problema.</desc></programme>
-  <programme start="20260622161500 -0600" stop="20260622170000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622151500 -0600" stop="20260622160000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Los Simpson</title>
     <desc lang="es">Los Simpson son una familia de la clase media que viven en Sprinfield donde Homero, Bart, Lisa y Maggie viven sus aventuras recreando parodias de la cultura, sociedad y televisión americana.</desc>
     <date>1989</date>
@@ -259453,7 +259453,7 @@ El derecho de Nacer II.</desc>
       <value>9.0</value>
     </star-rating>
   </programme>
-  <programme start="20260622170000 -0600" stop="20260622173000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622160000 -0600" stop="20260622163000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">El Chapulín Colorado</title>
     <desc lang="es">El Chapulín Colorado, serie creada por Roberto Gómez Bolaños (Chespirito) que relata las aventuras de un Superhéroe. Transmitida por primera vez en México en 1970 y aceptada por las familias mexicanas y toda Latino América.Reconocido por su Chipote Chillón y por sus divertidas frases como "Síganme los buenos" y "No contaban con mi astucia".</desc>
     <credits>
@@ -259480,7 +259480,7 @@ El derecho de Nacer II.</desc>
       <value>TV-G</value>
     </rating>
   </programme>
-  <programme start="20260622173000 -0600" stop="20260622180000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622163000 -0600" stop="20260622170000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">El Chavo del Ocho</title>
     <desc lang="es">Las vivencias de El Chavo (Roberto Gómez Bolaños), Kiko (Carlos Villagrán), la Chilindrina (María Antonieta de las Nieves), Ñoño (Édgar Vivar) que juntos hacen un sinfín de travesuras a Doña Florinda (Florinda Meza), Don Ramón (Ramón Valdés), Doña Clotilde (Angelines Fernández), el Señor Barriga (Édgar Vivar) y el Profesor Jirafales (Rubén Aguirre).</desc>
     <date>1972</date>
@@ -259493,7 +259493,7 @@ El derecho de Nacer II.</desc>
       <value>9.0</value>
     </star-rating>
   </programme>
-  <programme start="20260622180000 -0600" stop="20260622190000 -0600" channel="Canal.Teleamazonas.sv">
+  <programme start="20260622170000 -0600" stop="20260622180000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Papás por Conveniencia</title>
   <desc lang="es">Emocionante e ingeniosa telenovela familiar de enredos que profundiza de forma divertida y realista en las complejas situaciones emocionales, económicas y cotidianas a las que se enfrentan los padres modernos al liderar hogares reconstituidos.</desc></programme>
   <programme start="20260619001500 -0600" stop="20260619021500 -0600" channel="Canal.Tigo.Sports.(Guatemala).sv">
