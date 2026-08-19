@@ -5,6 +5,7 @@ Canal.TC.Televisión.sv
 Canal.Teleamazonas.sv
 Canal.Ecuador.TV.sv
 Canal.Gamavisión.sv
+OromarTV.ec
 DIRECTVSports.cl
 DIRECTVSports2.cl
 DIRECTVSports+.cl
