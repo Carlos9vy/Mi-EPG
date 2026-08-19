@@ -31314,7 +31314,7 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">De Fútbol Se Habla Así Argentina</title>
-  </programme>
+  <desc lang="es">El clásico panel periodístico deportivo de DIRECTV conducido con el inconfundible estilo argentino. Un debate picante, analítico y sin filtros sobre la actualidad de la Liga Profesional, las actuaciones de la Selección, los planteamientos tácticos de la fecha y la controversia alrededor de las decisiones arbitrales.</desc></programme>
   <programme start="20260818183000 +0000" stop="20260818200000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Talk</category>
     <title lang="es">DSPORTS Noticias</title>
@@ -31336,12 +31336,12 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">CONMEBOL Sudamericana: Sao Paulo vs. Bolívar</title>
-  </programme>
+  <desc lang="es">Atrapante choque de la Copa Sudamericana entre la tradición paulista y la escuadra altiplánica. São Paulo salta al césped con la obligación de desplegar su fútbol ofensivo y contundencia en los últimos metros, frente a un Bolívar ordenado que apostará a cerrar espacios y explotar los contragolpes directos.</desc></programme>
   <programme start="20260819012000 +0000" stop="20260819033000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">São Paulo vs. Bolívar</title>
-  </programme>
+  <desc lang="es">Atrapante duelo de fútbol internacional que pone frente a frente la tradición y jerarquía ofensiva de São Paulo ante la propuesta ordenada del Bolívar. El Tricolor paulista buscará imponer la circulación rápida del balón y el ahogo táctico, mientras que el club paceño apostará por mantener la solidez en el fondo y salir al contraataque.</desc></programme>
   <programme start="20260819033000 +0000" stop="20260819033000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -31364,16 +31364,16 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
   <programme start="20260819063000 +0000" stop="20260819070000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">default</category>
     <title lang="es">Conmebol Sub-17 Futsal: Brasil vs. Argentina</title>
-  </programme>
+  <desc lang="es">El superclásico sudamericano se traslada al terreno del futsal juvenil en un partido electrificante de principio a fin. Ambas selecciones exponen la máxima habilidad técnica, velocidad en espacios reducidos y una rivalidad histórica, disputando cada balón con una intensidad táctica de nivel superlativo.</desc></programme>
   <programme start="20260819070000 +0000" stop="20260819080000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Talk</category>
     <title lang="es">Lo Mejor de DSPORTS Fight</title>
-  </programme>
+  <desc lang="es">Las peleas más brutales, nocauts espectaculares y sumisionesSubmission increíbles de las artes marciales mixtas, boxeo y deportes de contacto en la pantalla de DIRECTV. Un compilado repleto de adrenalina con las coberturas más destacadas, los combates estelares y las repeticiones de los momentos más impactantes.</desc></programme>
   <programme start="20260819080000 +0000" stop="20260819100000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">São Paulo vs. Bolívar</title>
-  </programme>
+  <desc lang="es">Atrapante duelo de fútbol internacional que pone frente a frente la tradición y jerarquía ofensiva de São Paulo ante la propuesta ordenada del Bolívar. El Tricolor paulista buscará imponer la circulación rápida del balón y el ahogo táctico, mientras que el club paceño apostará por mantener la solidez en el fondo y salir al contraataque.</desc></programme>
   <programme start="20260819100000 +0000" stop="20260819110000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -31387,15 +31387,15 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">São Paulo vs. Bolívar</title>
-  </programme>
+  <desc lang="es">Atrapante duelo de fútbol internacional que pone frente a frente la tradición y jerarquía ofensiva de São Paulo ante la propuesta ordenada del Bolívar. El Tricolor paulista buscará imponer la circulación rápida del balón y el ahogo táctico, mientras que el club paceño apostará por mantener la solidez en el fondo y salir al contraataque.</desc></programme>
   <programme start="20260819140000 +0000" stop="20260819143000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Documentary</category>
     <title lang="es">Simplemente Diego: El partido</title>
-  </programme>
+  <desc lang="es">Un análisis pormenorizado y emotivo centrado en una de las actuaciones más memorables y mágicas de Diego Armando Maradona en su carrera. DIRECTV desglosa jugada por jugada la genialidad, la picardía y el impacto táctico del astro argentino en noventa minutos que quedaron grabados en la memoria del deporte mundial.</desc></programme>
   <programme start="20260819143000 +0000" stop="20260819150000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">default</category>
     <title lang="es">Liga de Portugal: Casa Pia vs. Benfica</title>
-  </programme>
+  <desc lang="es">Las cámaras de DIRECTV se encienden para transmitir el choque entre Casa Pia y el poderoso Benfica. Las Águilas saldrán a controlar las acciones desde el primer minuto impulsando un fútbol de ataque continuo, frente a un rival local que apostará al desgaste físico y al juego ordenado en la última línea.</desc></programme>
   <programme start="20260819150000 +0000" stop="20260819170000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Gen. Interest</category>
     <title lang="es">DSPORTS Noticias Lite</title>
@@ -31404,7 +31404,7 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">De Fútbol Se Habla Así Argentina</title>
-  </programme>
+  <desc lang="es">El clásico panel periodístico deportivo de DIRECTV conducido con el inconfundible estilo argentino. Un debate picante, analítico y sin filtros sobre la actualidad de la Liga Profesional, las actuaciones de la Selección, los planteamientos tácticos de la fecha y la controversia alrededor de las decisiones arbitrales.</desc></programme>
   <programme start="20260819183000 +0000" stop="20260819193000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">default</category>
     <title lang="es">Puede pasar</title>
@@ -31413,36 +31413,36 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">LaLiga: Atlético de Madrid vs. Málaga</title>
-  </programme>
+  <desc lang="es">Transmisión oficial del choque entre colchoneros y andaluces por el campeonato español. El Atlético de Madrid busca asegurar los tres puntos en su feudo imponiendo la solidez del planteamiento de su cuerpo técnico, mientras que el Málaga intentará neutralizar la presión para golpear en las transiciones al arco.</desc></programme>
   <programme start="20260819195500 +0000" stop="20260819220000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Atlético de Madrid vs. Málaga CF</title>
-  </programme>
+  <desc lang="es">Un atrapante compromiso del fútbol español repleto de emociones tácticas en cada área. El conjunto colchonero saltará al césped dispuesto a imponer su disciplina y potencia en la pelota parada, enfrentando a un rocoso Málaga que buscará cerrar las líneas de pase y contragolpear con velocidad para dar la sorpresa.</desc></programme>
   <programme start="20260819220000 +0000" stop="20260819223000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Mini-Series</category>
     <title lang="es">Goleadas en Copa Sudamericana</title>
-  </programme>
+  <desc lang="es">Un recorrido nostálgico e impactante por los partidos más abultados, los festejos inolvidables y los hat-tricks memorables en la historia del torneo continental. Disfruta con las narraciones de DIRECTV de aquellas noches donde el ataque fue letal y las redes no pararon de moverse en las canchas de Sudamérica.</desc></programme>
   <programme start="20260819223000 +0000" stop="20260819225000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">CONMEBOL Sudamericana: Atlético Mineiro vs. Bragantino</title>
-  </programme>
+  <desc lang="es">La pasión de la Copa Sudamericana en vivo con un duelo de altísima intensidad entre brasileños. El Galo sale a la cancha a plasmar toda su jerarquía internacional y posesión ofensiva, mientras que Bragantino intentará responder con un ritmo vertiginoso, presión en la salida y transiciones verticales letales.</desc></programme>
   <programme start="20260819225000 +0000" stop="20260820010000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Atlético Mineiro vs. Red Bull Bragantino</title>
-  </programme>
+  <desc lang="es">Electrizante duelo del Brasileirão donde dos escuadras de propuesta muy dinámica se miden en el terreno de juego. El Galo intentará tomar la iniciativa mediante el control de la posesión y la jerarquía de su frente de ataque, desafiando el ritmo vertiginoso, la presión alta y la juventud del cuadro de Bragantino.</desc></programme>
   <programme start="20260820010000 +0000" stop="20260820012000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">CONMEBOL Sudamericana: Independiente Santa Fe vs. River Plate</title>
-  </programme>
+  <desc lang="es">Duelo de gigantes continentales en el marco de la Copa Sudamericana. El conjunto cardenal de Independiente Santa Fe intentará imponer la solidez de su bloque defensivo y la fuerza de su localía frente al juego de posesión fluida, combinaciones rápidas y el poderío ofensivo que caracteriza a River Plate.</desc></programme>
   <programme start="20260820012000 +0000" stop="20260820033000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Independiente Santa Fe vs. River Plate</title>
-  </programme>
+  <desc lang="es">Duelo vibrante de alto calibre internacional en el terreno sudamericano. Independiente Santa Fe saldrá a imponer la altura, el despliegue físico y el empuje de su hinchada, midiendo fuerzas ante la jerarquía colectiva, la velocidad de pases y la contundencia en los últimos metros que presenta River Plate.</desc></programme>
   <programme start="20260820033000 +0000" stop="20260820033000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -31456,7 +31456,7 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
   <programme start="20260820043000 +0000" stop="20260820050000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Mini-Series</category>
     <title lang="es">Goleadas en Copa Sudamericana</title>
-  </programme>
+  <desc lang="es">Un recorrido nostálgico e impactante por los partidos más abultados, los festejos inolvidables y los hat-tricks memorables en la historia del torneo continental. Disfruta con las narraciones de DIRECTV de aquellas noches donde el ataque fue letal y las redes no pararon de moverse en las canchas de Sudamérica.</desc></programme>
   <programme start="20260820050000 +0000" stop="20260820063000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Talk</category>
     <title lang="es">DSPORTS Noticias Nite</title>
@@ -31464,17 +31464,17 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
   <programme start="20260820063000 +0000" stop="20260820070000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">default</category>
     <title lang="es">Liga de Portugal: Casa Pia vs. Benfica</title>
-  </programme>
+  <desc lang="es">Las cámaras de DIRECTV se encienden para transmitir el choque entre Casa Pia y el poderoso Benfica. Las Águilas saldrán a controlar las acciones desde el primer minuto impulsando un fútbol de ataque continuo, frente a un rival local que apostará al desgaste físico y al juego ordenado en la última línea.</desc></programme>
   <programme start="20260820070000 +0000" stop="20260820080000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Basketball</category>
     <category>Sports</category>
     <title lang="es">DSPORTS Básquet</title>
-  </programme>
+  <desc lang="es">El programa especializado de DIRECTV para los fanáticos del baloncesto continental e internacional. Un análisis exhaustivo del rendimiento de los equipos, seguimiento a las máximas figuras de las ligas americanas y europeas, jugadas espectaculares, estadísticas avanzadas y los resúmenes más completos de cada jornada.</desc></programme>
   <programme start="20260820080000 +0000" stop="20260820100000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Montevideo City Torque vs. Tigre</title>
-  </programme>
+  <desc lang="es">Atrapante duelo de fútbol rioplatense que mide la propuesta moderna y asociativa del Montevideo City Torque ante la tradición, la garra y la intensidad física de Tigre. Un encuentro dinámico con ideas de juego contrapuestas donde el control del mediocampo resultará vital para quedarse con la victoria.</desc></programme>
   <programme start="20260820100000 +0000" stop="20260820110000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -31488,15 +31488,15 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Montevideo City Torque vs. Tigre</title>
-  </programme>
+  <desc lang="es">Atrapante duelo de fútbol rioplatense que mide la propuesta moderna y asociativa del Montevideo City Torque ante la tradición, la garra y la intensidad física de Tigre. Un encuentro dinámico con ideas de juego contrapuestas donde el control del mediocampo resultará vital para quedarse con la victoria.</desc></programme>
   <programme start="20260820140000 +0000" stop="20260820143000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Documentary</category>
     <title lang="es">Simplemente Diego: El Pelusa vs. El virrey del Fortín</title>
-  </programme>
+  <desc lang="es">Un imperdible episodio de archivo histórico que rememora los duelos inolvidables sobre el césped entre el equipo comandado por Diego Armando Maradona y el disciplinado Vélez Sarsfield dirigido por Carlos Bianchi. Un duelo de estrategias, carácter y mucho talento que marcó una época en el fútbol argentino.</desc></programme>
   <programme start="20260820143000 +0000" stop="20260820150000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">default</category>
     <title lang="es">Laliga: Atlético de Madrid vs. Málaga</title>
-  </programme>
+  <desc lang="es">Acción directa del fútbol español con el cruce entre la escuadra colchonera y el Málaga. Un partido donde la potencia física, las jugadas ensayadas de tiro libre y el rigor defensivo del Atlético de Madrid se ponen a prueba ante la velocidad y el atrevimiento del combinado andaluz en el campo de juego.</desc></programme>
   <programme start="20260820150000 +0000" stop="20260820170000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Sports</category>
     <title lang="es">DSPORTS Noticias Lite</title>
@@ -31505,7 +31505,7 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">De Fútbol Se Habla Así Argentina</title>
-  </programme>
+  <desc lang="es">El clásico panel periodístico deportivo de DIRECTV conducido con el inconfundible estilo argentino. Un debate picante, analítico y sin filtros sobre la actualidad de la Liga Profesional, las actuaciones de la Selección, los planteamientos tácticos de la fecha y la controversia alrededor de las decisiones arbitrales.</desc></programme>
   <programme start="20260820183000 +0000" stop="20260820200000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Talk</category>
     <title lang="es">DSPORTS Noticias</title>
@@ -31527,17 +31527,17 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">El juego</title>
-  </programme>
+  <desc lang="es">Intenso thriller psicológico y cinematográfico que coloca a los protagonistas en un laberinto de manipulación, secretos oscuros y engaños. Cuando las reglas de una aparente dinámica inocente comienzan a desdibujarse, los participantes deberán arriesgarlo todo para descubrir la verdad antes de que sea demasiado tarde.</desc></programme>
   <programme start="20260821010000 +0000" stop="20260821012000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">CONMEBOL Sudamericana: Botafogo vs. Cienciano</title>
-  </programme>
+  <desc lang="es">Toda la cobertura oficial del certamen continental en un duelo vibrante de pronóstico abierto. El Fogão busca tomar el control del trámite imponiendo la velocidad de sus extremos, enfrentando a un histórico Cienciano que apela a la disciplina táctica, el despliegue físico y las jugadas a balón parado.</desc></programme>
   <programme start="20260821012000 +0000" stop="20260821033000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Botafogo vs. Cienciano</title>
-  </programme>
+  <desc lang="es">Apasionante choque sudamericano por el torneo continental. El conjunto brasileño de Botafogo buscará hacer valer su localía imponiendo la potencia física y la fluidez de su frente de ataque, enfrentando la resistencia defensiva, la garra y el juego directo de la escuadra peruana de Cienciano en las áreas.</desc></programme>
   <programme start="20260821033000 +0000" stop="20260821033000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -31560,20 +31560,20 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
   <programme start="20260821063000 +0000" stop="20260821070000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">default</category>
     <title lang="es">Laliga: Atlético de Madrid vs. Málaga</title>
-  </programme>
+  <desc lang="es">Acción directa del fútbol español con el cruce entre la escuadra colchonera y el Málaga. Un partido donde la potencia física, las jugadas ensayadas de tiro libre y el rigor defensivo del Atlético de Madrid se ponen a prueba ante la velocidad y el atrevimiento del combinado andaluz en el campo de juego.</desc></programme>
   <programme start="20260821070000 +0000" stop="20260821073000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Mini-Series</category>
     <title lang="es">Goleadas en Copa Sudamericana</title>
-  </programme>
+  <desc lang="es">Un recorrido nostálgico e impactante por los partidos más abultados, los festejos inolvidables y los hat-tricks memorables en la historia del torneo continental. Disfruta con las narraciones de DIRECTV de aquellas noches donde el ataque fue letal y las redes no pararon de moverse en las canchas de Sudamérica.</desc></programme>
   <programme start="20260821073000 +0000" stop="20260821080000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Talk</category>
     <title lang="es">Zinedine Zidane</title>
-  </programme>
+  <desc lang="es">Un magnífico y elegante documental biográfico de DIRECTV dedicado a la trayectoria del astro francés. Un recorrido visual inolvidable que analiza su mágica visión de juego, sus goles históricos en finales del mundo y Champions League, así como su exitosa transición al banquillo como uno de los entrenadores más ganadores.</desc></programme>
   <programme start="20260821080000 +0000" stop="20260821100000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Botafogo vs. Cienciano</title>
-  </programme>
+  <desc lang="es">Apasionante choque sudamericano por el torneo continental. El conjunto brasileño de Botafogo buscará hacer valer su localía imponiendo la potencia física y la fluidez de su frente de ataque, enfrentando la resistencia defensiva, la garra y el juego directo de la escuadra peruana de Cienciano en las áreas.</desc></programme>
   <programme start="20260821100000 +0000" stop="20260821110000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -31587,15 +31587,15 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Atlético Madrid vs. Málaga CF</title>
-  </programme>
+  <desc lang="es">Intenso choque por el fútbol español de LaLiga entre el conjunto colchonero y la escuadra andaluza. El Atlético de Madrid buscará imponer su tradicional solidez defensiva, garra y presión alta en el mediocampo, intentando contener la velocidad en los extremos y las transiciones rápidas propuestas por el Málaga CF.</desc></programme>
   <programme start="20260821140000 +0000" stop="20260821143000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Mini-Series</category>
     <title lang="es">Goleadas en Copa Sudamericana</title>
-  </programme>
+  <desc lang="es">Un recorrido nostálgico e impactante por los partidos más abultados, los festejos inolvidables y los hat-tricks memorables en la historia del torneo continental. Disfruta con las narraciones de DIRECTV de aquellas noches donde el ataque fue letal y las redes no pararon de moverse en las canchas de Sudamérica.</desc></programme>
   <programme start="20260821143000 +0000" stop="20260821150000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">default</category>
     <title lang="es">CONMEBOL Sudamericana: Independiente Santa Fe vs. River Plate</title>
-  </programme>
+  <desc lang="es">Duelo de gigantes continentales en el marco de la Copa Sudamericana. El conjunto cardenal de Independiente Santa Fe intentará imponer la solidez de su bloque defensivo y la fuerza de su localía frente al juego de posesión fluida, combinaciones rápidas y el poderío ofensivo que caracteriza a River Plate.</desc></programme>
   <programme start="20260821150000 +0000" stop="20260821170000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Current</category>
     <title lang="es">DSPORTS Noticias Lite</title>
@@ -31604,7 +31604,7 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">De Fútbol Se Habla Así Argentina</title>
-  </programme>
+  <desc lang="es">El clásico panel periodístico deportivo de DIRECTV conducido con el inconfundible estilo argentino. Un debate picante, analítico y sin filtros sobre la actualidad de la Liga Profesional, las actuaciones de la Selección, los planteamientos tácticos de la fecha y la controversia alrededor de las decisiones arbitrales.</desc></programme>
   <programme start="20260821183000 +0000" stop="20260821193000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">default</category>
     <title lang="es">Puede pasar</title>
@@ -31613,12 +31613,12 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">LaLiga: Betis vs. Real Sociedad</title>
-  </programme>
+  <desc lang="es">Apasionante duelo directo por los puestos de competencias europeas en el balompié español. El Real Betis apuesta por la creatividad de sus mediocampistas y el aliento de su afición para romper el partido, ante una Real Sociedad que destaca por su fútbol asociativo, presión alta y orden en todas sus líneas.</desc></programme>
   <programme start="20260821195500 +0000" stop="20260821220000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Real Betis vs. Real Sociedad de Fútbol</title>
-  </programme>
+  <desc lang="es">Atrapante compromiso de LaLiga española caracterizado por la alta calidad técnica de sus plantillas. El Betis saldrá a imponer la posesión de balón y la creatividad de su mediocampo en casa, mientras que la Real Sociedad apelará a su presión en bloque alto, velocidad por las bandas y efectividad en el arco rival.</desc></programme>
   <programme start="20260821220000 +0000" stop="20260821230000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -31631,44 +31631,44 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
   <programme start="20260818173000 +0000" stop="20260818180000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Mini-Series</category>
     <title lang="es">Goleadas en Copa Sudamericana</title>
-  </programme>
+  <desc lang="es">Un recorrido nostálgico e impactante por los partidos más abultados, los festejos inolvidables y los hat-tricks memorables en la historia del torneo continental. Disfruta con las narraciones de DIRECTV de aquellas noches donde el ataque fue letal y las redes no pararon de moverse en las canchas de Sudamérica.</desc></programme>
   <programme start="20260818180000 +0000" stop="20260818200000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Borussia Dortmund vs. Roma</title>
-  </programme>
+  <desc lang="es">Vibrante compromiso internacional que cruza a dos gigantes del fútbol europeo sobre la cancha. La escuadra alemana del Borussia Dortmund apostará a su característico ritmo de alta intensidad, despliegue físico y dinamismo ofensivo, enfrentando el orden táctico, la pausa y el juego asociativo de la Roma.</desc></programme>
   <programme start="20260818200000 +0000" stop="20260818203000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Talk</category>
     <title lang="es">Martín Palermo</title>
-  </programme>
+  <desc lang="es">Especial biográfico de DIRECTV dedicado a uno de los centrodelanteros más extraordinarios y carismáticos de la historia del fútbol sudamericano. Revive sus goles inverosímiles, las épicas hazañas con la camiseta de Boca Juniors, su paso por la Selección y aquellas noches inolvidables que lo convirtieron en un verdadero titán del gol.</desc></programme>
   <programme start="20260818203000 +0000" stop="20260818223000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Tottenham Hotspur vs. TSG 1899 Hoffenheim</title>
-  </programme>
+  <desc lang="es">Atrapante compromiso de fútbol europeo que reúne a dos escuadras de propuesta marcadamente ofensiva. Los Spurs del Tottenham desplegarán su tradicional velocidad por las bandas, presión alta y ataque continuo, enfrentando la disciplina táctica y las transiciones dinámicas que acostumbra a mostrar el Hoffenheim.</desc></programme>
   <programme start="20260818223000 +0000" stop="20260818230000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">default</category>
     <title lang="es">Todo en 30</title>
-  </programme>
+  <desc lang="es">El dinámico formato informativo deportivo de DIRECTV que condensa en solo media hora los mejores resúmenes, todos los goles de la fecha, noticias de último minuto y los momentos más destacados de las principales ligas del mundo. La opción ideal para actualizarte con la actualidad deportiva de forma rápida y sintética.</desc></programme>
   <programme start="20260818230000 +0000" stop="20260819010000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Lazio vs. Mantova</title>
-  </programme>
+  <desc lang="es">Encuentro de fútbol italiano donde el conjunto romano de la Lazio busca ratificar su favoritismo y jerarquía colectiva sobre el césped. La escuadra de Mantova buscará estructurar un bloque defensivo compacto y disciplinado para cerrar los espacios y sorprender con contragolpes precisos a la zaga rival.</desc></programme>
   <programme start="20260819010000 +0000" stop="20260819020000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Talk</category>
     <title lang="es">Lo Mejor de DSPORTS Fight</title>
-  </programme>
+  <desc lang="es">Las peleas más brutales, nocauts espectaculares y sumisionesSubmission increíbles de las artes marciales mixtas, boxeo y deportes de contacto en la pantalla de DIRECTV. Un compilado repleto de adrenalina con las coberturas más destacadas, los combates estelares y las repeticiones de los momentos más impactantes.</desc></programme>
   <programme start="20260819020000 +0000" stop="20260819040000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Espanyol vs. Levante</title>
-  </programme>
+  <desc lang="es">Electrizante duelo del fútbol español donde el Espanyol busca imponer las condiciones de su cancha mediante un juego intenso por las bandas y presencia en el área. Por su parte, el Levante intentará imponer la movilidad de sus mediocampistas y las salidas rápidas para lastimar a la zaga rival.</desc></programme>
   <programme start="20260819040000 +0000" stop="20260819060000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Venezia vs. Modena</title>
-  </programme>
+  <desc lang="es">Apasionante choque táctico en el balompié italiano con dos escuadras que buscan imponer sus condiciones sobre el césped. Venezia saldrá a controlar la posesión del balón apoyado por su afición, mientras que Módena apostará por un bloque defensivo compacto, fuerte presión en el mediocampo y salidas veloces al arco rival.</desc></programme>
   <programme start="20260819060000 +0000" stop="20260819070000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Talk</category>
     <title lang="es">DSPORTS Noticias Nite</title>
@@ -31676,93 +31676,93 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
   <programme start="20260819070000 +0000" stop="20260819073000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">default</category>
     <title lang="es">Todo en 30</title>
-  </programme>
+  <desc lang="es">El dinámico formato informativo deportivo de DIRECTV que condensa en solo media hora los mejores resúmenes, todos los goles de la fecha, noticias de último minuto y los momentos más destacados de las principales ligas del mundo. La opción ideal para actualizarte con la actualidad deportiva de forma rápida y sintética.</desc></programme>
   <programme start="20260819073000 +0000" stop="20260819080000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Documentary</category>
     <title lang="es">Simplemente Diego: El partido</title>
-  </programme>
+  <desc lang="es">Un análisis pormenorizado y emotivo centrado en una de las actuaciones más memorables y mágicas de Diego Armando Maradona en su carrera. DIRECTV desglosa jugada por jugada la genialidad, la picardía y el impacto táctico del astro argentino en noventa minutos que quedaron grabados en la memoria del deporte mundial.</desc></programme>
   <programme start="20260819080000 +0000" stop="20260819100000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Casa Pia vs. Benfica</title>
-  </programme>
+  <desc lang="es">Compromiso de la Primeira Liga de Portugal donde las Águilas del Benfica visitan a la rocosa escuadra de Casa Pia. El equipo lisboeta saldrá a imponer su jerarquía individual, circulación fluida y jerarquía ofensiva, intentando derribar el bloque defensivo corto y compacto planteado por los locales.</desc></programme>
   <programme start="20260819100000 +0000" stop="20260819120000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Espanyol vs. Levante</title>
-  </programme>
+  <desc lang="es">Electrizante duelo del fútbol español donde el Espanyol busca imponer las condiciones de su cancha mediante un juego intenso por las bandas y presencia en el área. Por su parte, el Levante intentará imponer la movilidad de sus mediocampistas y las salidas rápidas para lastimar a la zaga rival.</desc></programme>
   <programme start="20260819120000 +0000" stop="20260819140000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Lazio vs. Mantova</title>
-  </programme>
+  <desc lang="es">Encuentro de fútbol italiano donde el conjunto romano de la Lazio busca ratificar su favoritismo y jerarquía colectiva sobre el césped. La escuadra de Mantova buscará estructurar un bloque defensivo compacto y disciplinado para cerrar los espacios y sorprender con contragolpes precisos a la zaga rival.</desc></programme>
   <programme start="20260819140000 +0000" stop="20260819143000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">La Fleche Wallone</title>
-  </programme>
+  <desc lang="es">Una de las Ardenas más míticas e impresionantes del ciclismo profesional. Los mejores clasicómanos del mundo se miden sobre la ruta belga para coronarse en la mítica cima del Mur de Huy, un muro de pendientes infernales donde la potencia explosiva y el ritmo de los últimos metros deciden al campeón indiscutido.</desc></programme>
   <programme start="20260819143000 +0000" stop="20260819164500 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Renewi Tour: Etapa 1</title>
-  </programme>
+  <desc lang="es">El arranque oficial de la prestigiosa prueba ciclista que recorre las carreteras de Bélgica y los Países Bajos. Una jornada de alta velocidad donde los equipos de los velocistas controlan las fugas del día para preparar una llegada masiva al sprint, disputando los primeros segundos de bonificación para la camiseta de líder.</desc></programme>
   <programme start="20260819164500 +0000" stop="20260819170000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Documentary</category>
     <title lang="es">Simplemente Diego: El Pelusa de la Paternal</title>
-  </programme>
+  <desc lang="es">Primer capítulo del especial dedicado al astro argentino, centrado en sus orígenes humildes y sus deslumbrantes comienzos en Argentinos Juniors. Revisa imágenes de archivo inéditas y testimonios de quienes vieron nacer al 'Pelusa' en las canchas de Villa Fiorito y la Paternal antes de su salto a la fama mundial.</desc></programme>
   <programme start="20260819170000 +0000" stop="20260819180000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Talk</category>
     <title lang="es">Lo Mejor de DSPORTS Fight</title>
-  </programme>
+  <desc lang="es">Las peleas más brutales, nocauts espectaculares y sumisionesSubmission increíbles de las artes marciales mixtas, boxeo y deportes de contacto en la pantalla de DIRECTV. Un compilado repleto de adrenalina con las coberturas más destacadas, los combates estelares y las repeticiones de los momentos más impactantes.</desc></programme>
   <programme start="20260819180000 +0000" stop="20260819200000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">São Paulo vs. Bolívar</title>
-  </programme>
+  <desc lang="es">Atrapante duelo de fútbol internacional que pone frente a frente la tradición y jerarquía ofensiva de São Paulo ante la propuesta ordenada del Bolívar. El Tricolor paulista buscará imponer la circulación rápida del balón y el ahogo táctico, mientras que el club paceño apostará por mantener la solidez en el fondo y salir al contraataque.</desc></programme>
   <programme start="20260819200000 +0000" stop="20260819203000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Talk</category>
     <title lang="es">Jugadores con redención</title>
-  </programme>
+  <desc lang="es">Un emotivo especial deportivo de DIRECTV centrado en las historias de aquellos futbolistas que lograron superar lesiones graves, crisis futbolísticas o problemas personales para volver al más alto nivel. Relatos inspiradores de resiliencia, disciplina y pasión que demuestran la grandeza del deporte.</desc></programme>
   <programme start="20260819203000 +0000" stop="20260819223000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Casa Pia vs. Benfica</title>
-  </programme>
+  <desc lang="es">Compromiso de la Primeira Liga de Portugal donde las Águilas del Benfica visitan a la rocosa escuadra de Casa Pia. El equipo lisboeta saldrá a imponer su jerarquía individual, circulación fluida y jerarquía ofensiva, intentando derribar el bloque defensivo corto y compacto planteado por los locales.</desc></programme>
   <programme start="20260819223000 +0000" stop="20260819230000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">default</category>
     <title lang="es">Liga de Portugal: Casa Pia vs. Benfica</title>
-  </programme>
+  <desc lang="es">Las cámaras de DIRECTV se encienden para transmitir el choque entre Casa Pia y el poderoso Benfica. Las Águilas saldrán a controlar las acciones desde el primer minuto impulsando un fútbol de ataque continuo, frente a un rival local que apostará al desgaste físico y al juego ordenado en la última línea.</desc></programme>
   <programme start="20260819230000 +0000" stop="20260820010000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Atlético de Madrid vs. Málaga CF</title>
-  </programme>
+  <desc lang="es">Un atrapante compromiso del fútbol español repleto de emociones tácticas en cada área. El conjunto colchonero saltará al césped dispuesto a imponer su disciplina y potencia en la pelota parada, enfrentando a un rocoso Málaga que buscará cerrar las líneas de pase y contragolpear con velocidad para dar la sorpresa.</desc></programme>
   <programme start="20260820010000 +0000" stop="20260820020000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Basketball</category>
     <category>Sports</category>
     <title lang="es">DSPORTS Básquet</title>
-  </programme>
+  <desc lang="es">El programa especializado de DIRECTV para los fanáticos del baloncesto continental e internacional. Un análisis exhaustivo del rendimiento de los equipos, seguimiento a las máximas figuras de las ligas americanas y europeas, jugadas espectaculares, estadísticas avanzadas y los resúmenes más completos de cada jornada.</desc></programme>
   <programme start="20260820020000 +0000" stop="20260820023000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Documentary</category>
     <title lang="es">Grajeas del fútbol argentino</title>
-  </programme>
+  <desc lang="es">Bloque especial de archivo deportivo de DIRECTV que recopila momentos insólitos, perlas tácticas, caños memorables y anécdotas imperdibles del fútbol argentino. Un compacto dinámico e histórico que rinde tributo a la riqueza, el color y la pasión única con la que se vive la pelota en la región.</desc></programme>
   <programme start="20260820023000 +0000" stop="20260820023000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Deportivo de La Coruña vs. Elche</title>
-  </programme>
+  <desc lang="es">Atrapante choque del fútbol español que mide las aspiraciones de dos históricos clubes. El Dépor saltará al césped a buscar la iniciativa mediante la posesión del balón y la presión en campo contrario, mientras que el Elche buscará plantar un esquema muy ordenado en defensa para golpear al contraataque.</desc></programme>
   <programme start="20260820023000 +0000" stop="20260820043000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Deportivo de La Coruña vs. Elche</title>
-  </programme>
+  <desc lang="es">Atrapante choque del fútbol español que mide las aspiraciones de dos históricos clubes. El Dépor saltará al césped a buscar la iniciativa mediante la posesión del balón y la presión en campo contrario, mientras que el Elche buscará plantar un esquema muy ordenado en defensa para golpear al contraataque.</desc></programme>
   <programme start="20260820043000 +0000" stop="20260820050000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">default</category>
     <title lang="es">Liga de Portugal: Casa Pia vs. Benfica</title>
-  </programme>
+  <desc lang="es">Las cámaras de DIRECTV se encienden para transmitir el choque entre Casa Pia y el poderoso Benfica. Las Águilas saldrán a controlar las acciones desde el primer minuto impulsando un fútbol de ataque continuo, frente a un rival local que apostará al desgaste físico y al juego ordenado en la última línea.</desc></programme>
   <programme start="20260820050000 +0000" stop="20260820070000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Palermo vs. Lecce</title>
-  </programme>
+  <desc lang="es">Un exigente compromiso de balompié italiano donde el histórico Palermo busca imponer su localía, el aliento de sus tifosis y la movilidad de su frente de ataque. Enfrente estará el Lecce, una escuadra sumamente ordenada que buscará entorpecer el juego interior del rival para salir con velocidad al contragolpe.</desc></programme>
   <programme start="20260820070000 +0000" stop="20260820080000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Talk</category>
     <title lang="es">DSPORTS Noticias Nite</title>
@@ -31771,74 +31771,74 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Atlético de Madrid vs. Málaga CF</title>
-  </programme>
+  <desc lang="es">Un atrapante compromiso del fútbol español repleto de emociones tácticas en cada área. El conjunto colchonero saltará al césped dispuesto a imponer su disciplina y potencia en la pelota parada, enfrentando a un rocoso Málaga que buscará cerrar las líneas de pase y contragolpear con velocidad para dar la sorpresa.</desc></programme>
   <programme start="20260820100000 +0000" stop="20260820120000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Casa Pia vs. Benfica</title>
-  </programme>
+  <desc lang="es">Compromiso de la Primeira Liga de Portugal donde las Águilas del Benfica visitan a la rocosa escuadra de Casa Pia. El equipo lisboeta saldrá a imponer su jerarquía individual, circulación fluida y jerarquía ofensiva, intentando derribar el bloque defensivo corto y compacto planteado por los locales.</desc></programme>
   <programme start="20260820120000 +0000" stop="20260820140000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Atlético de Madrid vs. Málaga CF</title>
-  </programme>
+  <desc lang="es">Un atrapante compromiso del fútbol español repleto de emociones tácticas en cada área. El conjunto colchonero saltará al césped dispuesto a imponer su disciplina y potencia en la pelota parada, enfrentando a un rocoso Málaga que buscará cerrar las líneas de pase y contragolpear con velocidad para dar la sorpresa.</desc></programme>
   <programme start="20260820140000 +0000" stop="20260820143000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Liege Bastogne</title>
-  </programme>
+  <desc lang="es">La mítica 'Decana' de las Grandes Clásicas del ciclismo mundial. Una carrera monumental sobre territorio belga caracterizada por su extenso recorrido y sus icónicas cotas de montaña, donde únicamente los corredores más resistentes y de mejor estrategia de carrera logran inscribir su nombre en la historia de la ruta.</desc></programme>
   <programme start="20260820143000 +0000" stop="20260820163000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Renewi Tour: Etapa 2</title>
-  </programme>
+  <desc lang="es">La segunda jornada de competencia del Renewi Tour con un trazado llano pero traicionero debido a los vientos de costado y los tramos estrechos. Los jefes de filas deberán estar muy atentos en la parte delantera del pelotón para evitar cortes de tiempo, mientras los rodadores buscan la victoria en el remate.</desc></programme>
   <programme start="20260820163000 +0000" stop="20260820170000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Motorcycle</category>
     <category>Sports</category>
     <title lang="es">Yongpyong: Men's Elite</title>
-  </programme>
+  <desc lang="es">La máxima emoción de los deportes de invierno con la transmisión de la prueba de slalom elite masculina desde Yongpyong. Los mejores esquiadores del planeta se deslizan a velocidades vertiginosas sobre pistas heladas de extrema dificultad, demostrando precisión milimétrica, técnica de giro impecable y reflejos asombrosos.</desc></programme>
   <programme start="20260820170000 +0000" stop="20260820180000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Basketball</category>
     <category>Sports</category>
     <title lang="es">DSPORTS Básquet</title>
-  </programme>
+  <desc lang="es">El programa especializado de DIRECTV para los fanáticos del baloncesto continental e internacional. Un análisis exhaustivo del rendimiento de los equipos, seguimiento a las máximas figuras de las ligas americanas y europeas, jugadas espectaculares, estadísticas avanzadas y los resúmenes más completos de cada jornada.</desc></programme>
   <programme start="20260820180000 +0000" stop="20260820230000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Golf</category>
     <category>Sports</category>
     <title lang="es">Indianapolis, ronda 1</title>
-  </programme>
+  <desc lang="es">La velocidad al máximo nivel con la jornada inaugural de las competencias automovilísticas o de supercross en Indianápolis. Pilotos y escuderías buscan ajustar sus configuraciones de motor para dominar la pista, sorteando curvas de alta velocidad en una búsqueda frenética por marcar el mejor tiempo de la clasificación.</desc></programme>
   <programme start="20260820230000 +0000" stop="20260821010000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Independiente Santa Fe vs. River Plate</title>
-  </programme>
+  <desc lang="es">Duelo vibrante de alto calibre internacional en el terreno sudamericano. Independiente Santa Fe saldrá a imponer la altura, el despliegue físico y el empuje de su hinchada, midiendo fuerzas ante la jerarquía colectiva, la velocidad de pases y la contundencia en los últimos metros que presenta River Plate.</desc></programme>
   <programme start="20260821010000 +0000" stop="20260821013000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Coppa Italia Highlights</title>
-  </programme>
+  <desc lang="es">El resumen deportivo definitivo con las mejores jugadas, momentos polémicos y todos los goles de la Coppa Italia. Un repaso detallado de la actuación de los grandes clubes del balompié italiano en su camino hacia el título, analizado con la calidad, precisión y repeticiones desde múltiples ángulos de DIRECTV.</desc></programme>
   <programme start="20260821013000 +0000" stop="20260821020000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Documentary</category>
     <title lang="es">Grajeas del fútbol argentino</title>
-  </programme>
+  <desc lang="es">Bloque especial de archivo deportivo de DIRECTV que recopila momentos insólitos, perlas tácticas, caños memorables y anécdotas imperdibles del fútbol argentino. Un compacto dinámico e histórico que rinde tributo a la riqueza, el color y la pasión única con la que se vive la pelota en la región.</desc></programme>
   <programme start="20260821020000 +0000" stop="20260821023000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">LaLiga Show</title>
-  </programme>
+  <desc lang="es">La revista televisiva semanal de DIRECTV dedicada a repasar todo el color, la antesala y los entretelones del fútbol español. Reportajes exclusivos a las grandes figuras del campeonato, análisis detallado del ambiente en los estadios, las estadísticas del torneo y las novedades de cara a la próxima jornada.</desc></programme>
   <programme start="20260821023000 +0000" stop="20260821023000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Atlético Madrid vs. Málaga CF</title>
-  </programme>
+  <desc lang="es">Intenso choque por el fútbol español de LaLiga entre el conjunto colchonero y la escuadra andaluza. El Atlético de Madrid buscará imponer su tradicional solidez defensiva, garra y presión alta en el mediocampo, intentando contener la velocidad en los extremos y las transiciones rápidas propuestas por el Málaga CF.</desc></programme>
   <programme start="20260821023000 +0000" stop="20260821043000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Atlético Madrid vs. Málaga CF</title>
-  </programme>
+  <desc lang="es">Intenso choque por el fútbol español de LaLiga entre el conjunto colchonero y la escuadra andaluza. El Atlético de Madrid buscará imponer su tradicional solidez defensiva, garra y presión alta en el mediocampo, intentando contener la velocidad en los extremos y las transiciones rápidas propuestas por el Málaga CF.</desc></programme>
   <programme start="20260821043000 +0000" stop="20260821063000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Espanyol vs. Levante</title>
-  </programme>
+  <desc lang="es">Electrizante duelo del fútbol español donde el Espanyol busca imponer las condiciones de su cancha mediante un juego intenso por las bandas y presencia en el área. Por su parte, el Levante intentará imponer la movilidad de sus mediocampistas y las salidas rápidas para lastimar a la zaga rival.</desc></programme>
   <programme start="20260821063000 +0000" stop="20260821073000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Talk</category>
     <title lang="es">DSPORTS Noticias Nite</title>
@@ -31846,291 +31846,291 @@ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y m
   <programme start="20260821073000 +0000" stop="20260821080000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Documentary</category>
     <title lang="es">Diego Maradona: Me verás volver</title>
-  </programme>
+  <desc lang="es">Un emotivo y conmovedor documental deportivo que repasa los momentos más intensos, las resurrecciones futbolísticas y el imborrable impacto cultural del astro argentino. A través de archivos inéditos y testimonios de quienes vivieron de cerca su trayectoria, se rinde homenaje al mito indiscutible del fútbol mundial.</desc></programme>
   <programme start="20260821080000 +0000" stop="20260821100000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Palermo vs. Lecce</title>
-  </programme>
+  <desc lang="es">Un exigente compromiso de balompié italiano donde el histórico Palermo busca imponer su localía, el aliento de sus tifosis y la movilidad de su frente de ataque. Enfrente estará el Lecce, una escuadra sumamente ordenada que buscará entorpecer el juego interior del rival para salir con velocidad al contragolpe.</desc></programme>
   <programme start="20260821100000 +0000" stop="20260821120000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Atlético Madrid vs. Málaga CF</title>
-  </programme>
+  <desc lang="es">Intenso choque por el fútbol español de LaLiga entre el conjunto colchonero y la escuadra andaluza. El Atlético de Madrid buscará imponer su tradicional solidez defensiva, garra y presión alta en el mediocampo, intentando contener la velocidad en los extremos y las transiciones rápidas propuestas por el Málaga CF.</desc></programme>
   <programme start="20260821120000 +0000" stop="20260821140000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Independiente Santa Fe vs. River Plate</title>
-  </programme>
+  <desc lang="es">Duelo vibrante de alto calibre internacional en el terreno sudamericano. Independiente Santa Fe saldrá a imponer la altura, el despliegue físico y el empuje de su hinchada, midiendo fuerzas ante la jerarquía colectiva, la velocidad de pases y la contundencia en los últimos metros que presenta River Plate.</desc></programme>
   <programme start="20260821140000 +0000" stop="20260821141500 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Documentary</category>
     <title lang="es">Perlas En La Sudamericana: Parte 2</title>
-  </programme>
+  <desc lang="es">La segunda entrega del especial exclusivo de DIRECTV que recopila los momentos más mágicos, las atajadas inverosímiles y las anotaciones inolvidables de la Copa Sudamericana. Una cuidada selección de archivo con los pasajes futbolísticos más destacados que han marcado la historia del certamen continental.</desc></programme>
   <programme start="20260821141500 +0000" stop="20260821170000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Renewi Tour: Etapa 3</title>
-  </programme>
+  <desc lang="es">La tercera entrega de la competencia ciclista internacional con un recorrido sumamente exigente de cotas cortas y firmes empedrados. Un terreno ideal para los ataques de los clasicómanos y los corredores más potentes, quienes buscarán romper el pelotón principal antes de encarar los últimos kilómetros de ruta.</desc></programme>
   <programme start="20260821170000 +0000" stop="20260821220000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Golf</category>
     <category>Sports</category>
     <title lang="es">Indianapolis, ronda 2</title>
-  </programme>
+  <desc lang="es">La continuación de la adrenalina en el icónico circuito de Indianápolis. En esta segunda fase de competencia, las estrategias de pits, el desgaste de neumáticos y los sobrepasos al límite de la adherencia determinan quiénes logran consolidar su ventaja en el campeonato frente a los principales perseguidores.</desc></programme>
   <programme start="20260821220000 +0000" stop="20260821223000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Coppa Italia Highlights</title>
-  </programme>
+  <desc lang="es">El resumen deportivo definitivo con las mejores jugadas, momentos polémicos y todos los goles de la Coppa Italia. Un repaso detallado de la actuación de los grandes clubes del balompié italiano en su camino hacia el título, analizado con la calidad, precisión y repeticiones desde múltiples ángulos de DIRECTV.</desc></programme>
   <programme start="20260821223000 +0000" stop="20260821230000 +0000" channel="DIRECTVSports2.cl">
     <category lang="es">default</category>
     <title lang="es">CONMEBOL Sudamericana: Independiente Santa Fe vs. River Plate</title>
-  </programme>
+  <desc lang="es">Duelo de gigantes continentales en el marco de la Copa Sudamericana. El conjunto cardenal de Independiente Santa Fe intentará imponer la solidez de su bloque defensivo y la fuerza de su localía frente al juego de posesión fluida, combinaciones rápidas y el poderío ofensivo que caracteriza a River Plate.</desc></programme>
   <programme start="20260818170000 +0000" stop="20260818173000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Liege Bastogne</title>
-  </programme>
+  <desc lang="es">La mítica 'Decana' de las Grandes Clásicas del ciclismo mundial. Una carrera monumental sobre territorio belga caracterizada por su extenso recorrido y sus icónicas cotas de montaña, donde únicamente los corredores más resistentes y de mejor estrategia de carrera logran inscribir su nombre en la historia de la ruta.</desc></programme>
   <programme start="20260818173000 +0000" stop="20260818180000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">default</category>
     <title lang="es">World's Strongest Man 2017</title>
-  </programme>
+  <desc lang="es">Revive la inolvidable edición de 2017 del torneo donde los titanes de la fuerza mundial midieron sus capacidades en las pruebas más brutales de resistencia. Un espectáculo único de potencia muscular, levantamientos titánicos y récords históricos que consagraron al atleta más dominante del planeta sobre la arena de competencia.</desc></programme>
   <programme start="20260818180000 +0000" stop="20260818200000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Torino vs. Carrarese</title>
-  </programme>
+  <desc lang="es">Un interesante choque del fútbol italiano donde el histórico Torino busca imponer la jerarquía de sus futbolistas, la intensidad física y la verticalidad en ataque. La escuadra de Carrarese saltará a la cancha con un planteamiento sumamente ordenado, buscando cerrar los espacios y apostando a la sorpresa en la pelota parada.</desc></programme>
   <programme start="20260818200000 +0000" stop="20260818203000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">La Fleche Wallone</title>
-  </programme>
+  <desc lang="es">Una de las Ardenas más míticas e impresionantes del ciclismo profesional. Los mejores clasicómanos del mundo se miden sobre la ruta belga para coronarse en la mítica cima del Mur de Huy, un muro de pendientes infernales donde la potencia explosiva y el ritmo de los últimos metros deciden al campeón indiscutido.</desc></programme>
   <programme start="20260818203000 +0000" stop="20260818223000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">default</category>
     <title lang="es">Final: Brasil Sub-17 vs. Argentina Sub-17</title>
-  </programme>
+  <desc lang="es">El partido por la gloria continental en el sudamericano de la categoría. Las dos mayores potencias de la región miden fuerzas en noventa minutos de pura intensidad, talento individual, garra e historia pura, buscando coronarse campeones en un marco repleto de emociones y máxima rivalidad deportiva.</desc></programme>
   <programme start="20260818223000 +0000" stop="20260819003000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Tour de Dinamarca: Etapa 5</title>
-  </programme>
+  <desc lang="es">El emocionante desenlace y etapa final de la competencia danesa de ciclismo sobre ruta. Las escuadras de los velocistas trabajan a fondo en la cabeza del pelotón para cazar a la fuga del día, preparando un sprint masivo espectacular mientras los candidatos a la clasificación general defienden cada segundo en la meta.</desc></programme>
   <programme start="20260819003000 +0000" stop="20260819010000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">De ciclismo se habla así</title>
-  </programme>
+  <desc lang="es">Espacio especializado conducido por expertos en el mundo del pedal que repasa al detalle las mejores etapas del ciclismo mundial. Análisis táctico de los equipos de WorldTour, rendimiento de los ciclistas latinoamericanos, altimetrías de las Grandes Vueltas y toda la información de las competencias continentales.</desc></programme>
   <programme start="20260819010000 +0000" stop="20260819030000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">default</category>
     <title lang="es">Final: Brasil Sub-17 vs. Argentina Sub-17</title>
-  </programme>
+  <desc lang="es">El partido por la gloria continental en el sudamericano de la categoría. Las dos mayores potencias de la región miden fuerzas en noventa minutos de pura intensidad, talento individual, garra e historia pura, buscando coronarse campeones en un marco repleto de emociones y máxima rivalidad deportiva.</desc></programme>
   <programme start="20260819030000 +0000" stop="20260819030000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Etapa 7</title>
-  </programme>
+  <desc lang="es">Transmisión en directo del tramo decisivo de la competencia ciclista. Los corredores afrontan una jornada de altísima exigencia táctica sobre la ruta, donde los líderes de la clasificación general deben defender sus tiempos frente a los ataques sorpresa en los puertos de montaña y los tramos llanos con viento.</desc></programme>
   <programme start="20260819030000 +0000" stop="20260819050000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Etapa 7</title>
-  </programme>
+  <desc lang="es">Transmisión en directo del tramo decisivo de la competencia ciclista. Los corredores afrontan una jornada de altísima exigencia táctica sobre la ruta, donde los líderes de la clasificación general deben defender sus tiempos frente a los ataques sorpresa en los puertos de montaña y los tramos llanos con viento.</desc></programme>
   <programme start="20260819050000 +0000" stop="20260819053000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">De ciclismo se habla así</title>
-  </programme>
+  <desc lang="es">Espacio especializado conducido por expertos en el mundo del pedal que repasa al detalle las mejores etapas del ciclismo mundial. Análisis táctico de los equipos de WorldTour, rendimiento de los ciclistas latinoamericanos, altimetrías de las Grandes Vueltas y toda la información de las competencias continentales.</desc></programme>
   <programme start="20260819053000 +0000" stop="20260819060000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Yongpyong: Men's Elite</title>
-  </programme>
+  <desc lang="es">La máxima emoción de los deportes de invierno con la transmisión de la prueba de slalom elite masculina desde Yongpyong. Los mejores esquiadores del planeta se deslizan a velocidades vertiginosas sobre pistas heladas de extrema dificultad, demostrando precisión milimétrica, técnica de giro impecable y reflejos asombrosos.</desc></programme>
   <programme start="20260819060000 +0000" stop="20260819070000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Talk</category>
     <title lang="es">Lo Mejor de DSPORTS Fight</title>
-  </programme>
+  <desc lang="es">Las peleas más brutales, nocauts espectaculares y sumisionesSubmission increíbles de las artes marciales mixtas, boxeo y deportes de contacto en la pantalla de DIRECTV. Un compilado repleto de adrenalina con las coberturas más destacadas, los combates estelares y las repeticiones de los momentos más impactantes.</desc></programme>
   <programme start="20260819070000 +0000" stop="20260819100000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Martial Arts</category>
     <category>Sports</category>
     <title lang="es">ONE Friday Fights 166</title>
-  </programme>
+  <desc lang="es">La máxima emoción de los deportes de combate desde el icónico estadio Lumpinee de Bangkok. Una velada estelar que combina los mejores enfrentamientos de Muay Thai, Kickboxing y Artes Marciales Mixtas con nocauts electrizantes, técnicas impecables y la disputa de atractivos bonos para los peleadores más destacados.</desc></programme>
   <programme start="20260819100000 +0000" stop="20260819120000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Etapa 7</title>
-  </programme>
+  <desc lang="es">Transmisión en directo del tramo decisivo de la competencia ciclista. Los corredores afrontan una jornada de altísima exigencia táctica sobre la ruta, donde los líderes de la clasificación general deben defender sus tiempos frente a los ataques sorpresa en los puertos de montaña y los tramos llanos con viento.</desc></programme>
   <programme start="20260819120000 +0000" stop="20260819123000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">default</category>
     <title lang="es">World's Strongest Man</title>
-  </programme>
+  <desc lang="es">La competencia anual más impresionante del planeta que reúne a los hombres más fuertes del mundo para someterlos a pruebas físicas extremas. Desde arrastrar camiones y levantar piedras monumentales hasta soportar pesos sobrehumanos, los atletas llevan la resistencia física y la potencia muscular a límites verdaderamente asombrosos.</desc></programme>
   <programme start="20260819123000 +0000" stop="20260819143000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Tottenham Hotspur vs. TSG 1899 Hoffenheim</title>
-  </programme>
+  <desc lang="es">Atrapante compromiso de fútbol europeo que reúne a dos escuadras de propuesta marcadamente ofensiva. Los Spurs del Tottenham desplegarán su tradicional velocidad por las bandas, presión alta y ataque continuo, enfrentando la disciplina táctica y las transiciones dinámicas que acostumbra a mostrar el Hoffenheim.</desc></programme>
   <programme start="20260819143000 +0000" stop="20260819150000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Talk</category>
     <title lang="es">Pau Gasol</title>
-  </programme>
+  <desc lang="es">Documental deportivo premium que repasa la deslumbrante trayectoria del legendario baloncestista español. Un viaje íntimo que analiza sus inicios en el Barcelona, sus anillos de campeonato de la NBA junto a Kobe Bryant en los Lakers y su papel imborrable como líder de la época dorada de la selección de España.</desc></programme>
   <programme start="20260819150000 +0000" stop="20260819170000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">FC Utrecht vs. Ajax</title>
-  </programme>
+  <desc lang="es">Un clásico lleno de tensión y rivalidad histórica en la Eredivisie de los Países Bajos. El FC Utrecht suele plantear un partido de altísima fricción física y presión ahogante ante su gente, desafiando la tradicional filosofía de fútbol asociativo, posesión técnica y ataque directo que caracteriza al Ajax.</desc></programme>
   <programme start="20260819170000 +0000" stop="20260819173000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Yongpyong: Men's Elite</title>
-  </programme>
+  <desc lang="es">La máxima emoción de los deportes de invierno con la transmisión de la prueba de slalom elite masculina desde Yongpyong. Los mejores esquiadores del planeta se deslizan a velocidades vertiginosas sobre pistas heladas de extrema dificultad, demostrando precisión milimétrica, técnica de giro impecable y reflejos asombrosos.</desc></programme>
   <programme start="20260819173000 +0000" stop="20260819180000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">default</category>
     <title lang="es">World's Strongest Man 2017</title>
-  </programme>
+  <desc lang="es">Revive la inolvidable edición de 2017 del torneo donde los titanes de la fuerza mundial midieron sus capacidades en las pruebas más brutales de resistencia. Un espectáculo único de potencia muscular, levantamientos titánicos y récords históricos que consagraron al atleta más dominante del planeta sobre la arena de competencia.</desc></programme>
   <programme start="20260819180000 +0000" stop="20260819200000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Palermo vs. Lecce</title>
-  </programme>
+  <desc lang="es">Un exigente compromiso de balompié italiano donde el histórico Palermo busca imponer su localía, el aliento de sus tifosis y la movilidad de su frente de ataque. Enfrente estará el Lecce, una escuadra sumamente ordenada que buscará entorpecer el juego interior del rival para salir con velocidad al contragolpe.</desc></programme>
   <programme start="20260819200000 +0000" stop="20260819221500 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Renewi Tour: Etapa 1</title>
-  </programme>
+  <desc lang="es">El arranque oficial de la prestigiosa prueba ciclista que recorre las carreteras de Bélgica y los Países Bajos. Una jornada de alta velocidad donde los equipos de los velocistas controlan las fugas del día para preparar una llegada masiva al sprint, disputando los primeros segundos de bonificación para la camiseta de líder.</desc></programme>
   <programme start="20260819221500 +0000" stop="20260819223000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Documentary</category>
     <title lang="es">Simplemente Diego: El Pelusa de la Paternal</title>
-  </programme>
+  <desc lang="es">Primer capítulo del especial dedicado al astro argentino, centrado en sus orígenes humildes y sus deslumbrantes comienzos en Argentinos Juniors. Revisa imágenes de archivo inéditas y testimonios de quienes vieron nacer al 'Pelusa' en las canchas de Villa Fiorito y la Paternal antes de su salto a la fama mundial.</desc></programme>
   <programme start="20260819223000 +0000" stop="20260820003000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">default</category>
     <title lang="es">Final: Brasil Sub-17 vs. Argentina Sub-17</title>
-  </programme>
+  <desc lang="es">El partido por la gloria continental en el sudamericano de la categoría. Las dos mayores potencias de la región miden fuerzas en noventa minutos de pura intensidad, talento individual, garra e historia pura, buscando coronarse campeones en un marco repleto de emociones y máxima rivalidad deportiva.</desc></programme>
   <programme start="20260820003000 +0000" stop="20260820010000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">La Fleche Wallone</title>
-  </programme>
+  <desc lang="es">Una de las Ardenas más míticas e impresionantes del ciclismo profesional. Los mejores clasicómanos del mundo se miden sobre la ruta belga para coronarse en la mítica cima del Mur de Huy, un muro de pendientes infernales donde la potencia explosiva y el ritmo de los últimos metros deciden al campeón indiscutido.</desc></programme>
   <programme start="20260820010000 +0000" stop="20260820030000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Lazio vs. Mantova</title>
-  </programme>
+  <desc lang="es">Encuentro de fútbol italiano donde el conjunto romano de la Lazio busca ratificar su favoritismo y jerarquía colectiva sobre el césped. La escuadra de Mantova buscará estructurar un bloque defensivo compacto y disciplinado para cerrar los espacios y sorprender con contragolpes precisos a la zaga rival.</desc></programme>
   <programme start="20260820030000 +0000" stop="20260820030000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Renewi Tour: Etapa 1</title>
-  </programme>
+  <desc lang="es">El arranque oficial de la prestigiosa prueba ciclista que recorre las carreteras de Bélgica y los Países Bajos. Una jornada de alta velocidad donde los equipos de los velocistas controlan las fugas del día para preparar una llegada masiva al sprint, disputando los primeros segundos de bonificación para la camiseta de líder.</desc></programme>
   <programme start="20260820030000 +0000" stop="20260820051500 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Renewi Tour: Etapa 1</title>
-  </programme>
+  <desc lang="es">El arranque oficial de la prestigiosa prueba ciclista que recorre las carreteras de Bélgica y los Países Bajos. Una jornada de alta velocidad donde los equipos de los velocistas controlan las fugas del día para preparar una llegada masiva al sprint, disputando los primeros segundos de bonificación para la camiseta de líder.</desc></programme>
   <programme start="20260820051500 +0000" stop="20260820053000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Documentary</category>
     <title lang="es">Simplemente Diego: El Pelusa de la Paternal</title>
-  </programme>
+  <desc lang="es">Primer capítulo del especial dedicado al astro argentino, centrado en sus orígenes humildes y sus deslumbrantes comienzos en Argentinos Juniors. Revisa imágenes de archivo inéditas y testimonios de quienes vieron nacer al 'Pelusa' en las canchas de Villa Fiorito y la Paternal antes de su salto a la fama mundial.</desc></programme>
   <programme start="20260820053000 +0000" stop="20260820100000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Martial Arts</category>
     <category>Sports</category>
     <title lang="es">PFL New York</title>
-  </programme>
+  <desc lang="es">Toda la espectacularidad de la Professional Fighters League desde la ciudad de Nueva York. Las estrellas de las Artes Marciales Mixtas disputan combates decisivos de la temporada regular buscando asegurar su pase a los playoffs, en un formato competitivo único donde cada nocaut y sumisión suma puntos dorados.</desc></programme>
   <programme start="20260820100000 +0000" stop="20260820121500 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Renewi Tour: Etapa 1</title>
-  </programme>
+  <desc lang="es">El arranque oficial de la prestigiosa prueba ciclista que recorre las carreteras de Bélgica y los Países Bajos. Una jornada de alta velocidad donde los equipos de los velocistas controlan las fugas del día para preparar una llegada masiva al sprint, disputando los primeros segundos de bonificación para la camiseta de líder.</desc></programme>
   <programme start="20260820121500 +0000" stop="20260820123000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Documentary</category>
     <title lang="es">Simplemente Diego: El Pelusa de la Paternal</title>
-  </programme>
+  <desc lang="es">Primer capítulo del especial dedicado al astro argentino, centrado en sus orígenes humildes y sus deslumbrantes comienzos en Argentinos Juniors. Revisa imágenes de archivo inéditas y testimonios de quienes vieron nacer al 'Pelusa' en las canchas de Villa Fiorito y la Paternal antes de su salto a la fama mundial.</desc></programme>
   <programme start="20260820123000 +0000" stop="20260820143000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">default</category>
     <title lang="es">Final: Brasil Sub-17 vs. Argentina Sub-17</title>
-  </programme>
+  <desc lang="es">El partido por la gloria continental en el sudamericano de la categoría. Las dos mayores potencias de la región miden fuerzas en noventa minutos de pura intensidad, talento individual, garra e historia pura, buscando coronarse campeones en un marco repleto de emociones y máxima rivalidad deportiva.</desc></programme>
   <programme start="20260820143000 +0000" stop="20260820150000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Talk</category>
     <title lang="es">Luis Scola</title>
-  </programme>
+  <desc lang="es">Un conmovedor e inspirador documental deportivo dedicado a la figura emblemática de la Generación Dorada del básquetbol argentino. Un recorrido íntimo por la carrera de Luis Scola, analizando su mentalidad competitiva, su liderazgo indiscutido, sus títulos internacionales y su huella eterna en la NBA y la Selección.</desc></programme>
   <programme start="20260820150000 +0000" stop="20260820170000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Deportivo de La Coruña vs. Elche</title>
-  </programme>
+  <desc lang="es">Atrapante choque del fútbol español que mide las aspiraciones de dos históricos clubes. El Dépor saltará al césped a buscar la iniciativa mediante la posesión del balón y la presión en campo contrario, mientras que el Elche buscará plantar un esquema muy ordenado en defensa para golpear al contraataque.</desc></programme>
   <programme start="20260820170000 +0000" stop="20260820173000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Eschborn, Frankfurt</title>
-  </programme>
+  <desc lang="es">Toda la emoción de la clásica ciclista alemana disputada en la región de Fráncfort. Un recorrido sumamente exigente con cotas rompepiernas donde las principales escuadras del WorldTour deben gestionar la estrategia en equipo para neutralizar las fugas y posicionar a sus mejores velocistas en el sprint final.</desc></programme>
   <programme start="20260820173000 +0000" stop="20260820180000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">default</category>
     <title lang="es">World's Strongest Man 2017</title>
-  </programme>
+  <desc lang="es">Revive la inolvidable edición de 2017 del torneo donde los titanes de la fuerza mundial midieron sus capacidades en las pruebas más brutales de resistencia. Un espectáculo único de potencia muscular, levantamientos titánicos y récords históricos que consagraron al atleta más dominante del planeta sobre la arena de competencia.</desc></programme>
   <programme start="20260820180000 +0000" stop="20260820200000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Lazio vs. Mantova</title>
-  </programme>
+  <desc lang="es">Encuentro de fútbol italiano donde el conjunto romano de la Lazio busca ratificar su favoritismo y jerarquía colectiva sobre el césped. La escuadra de Mantova buscará estructurar un bloque defensivo compacto y disciplinado para cerrar los espacios y sorprender con contragolpes precisos a la zaga rival.</desc></programme>
   <programme start="20260820200000 +0000" stop="20260820203000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Motorcycle</category>
     <category>Sports</category>
     <title lang="es">Yongpyong: Men's Elite</title>
-  </programme>
+  <desc lang="es">La máxima emoción de los deportes de invierno con la transmisión de la prueba de slalom elite masculina desde Yongpyong. Los mejores esquiadores del planeta se deslizan a velocidades vertiginosas sobre pistas heladas de extrema dificultad, demostrando precisión milimétrica, técnica de giro impecable y reflejos asombrosos.</desc></programme>
   <programme start="20260820203000 +0000" stop="20260820223000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Renewi Tour: Etapa 2</title>
-  </programme>
+  <desc lang="es">La segunda jornada de competencia del Renewi Tour con un trazado llano pero traicionero debido a los vientos de costado y los tramos estrechos. Los jefes de filas deberán estar muy atentos en la parte delantera del pelotón para evitar cortes de tiempo, mientras los rodadores buscan la victoria en el remate.</desc></programme>
   <programme start="20260820223000 +0000" stop="20260821003000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Frosinone vs. Juve Stabia</title>
-  </programme>
+  <desc lang="es">Atrapante compromiso del balompié italiano caracterizado por la paridad física y táctica. El Frosinone saldrá a tomar la iniciativa del juego respaldado por su afición, intentando resquebrajar el ordenado bloque defensivo y la capacidad de contragolpe que suele desplegar la escuadra de Juve Stabia.</desc></programme>
   <programme start="20260821003000 +0000" stop="20260821010000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Liege Bastogne</title>
-  </programme>
+  <desc lang="es">La mítica 'Decana' de las Grandes Clásicas del ciclismo mundial. Una carrera monumental sobre territorio belga caracterizada por su extenso recorrido y sus icónicas cotas de montaña, donde únicamente los corredores más resistentes y de mejor estrategia de carrera logran inscribir su nombre en la historia de la ruta.</desc></programme>
   <programme start="20260821010000 +0000" stop="20260821030000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">default</category>
     <title lang="es">Final: Brasil Sub-17 vs. Argentina Sub-17</title>
-  </programme>
+  <desc lang="es">El partido por la gloria continental en el sudamericano de la categoría. Las dos mayores potencias de la región miden fuerzas en noventa minutos de pura intensidad, talento individual, garra e historia pura, buscando coronarse campeones en un marco repleto de emociones y máxima rivalidad deportiva.</desc></programme>
   <programme start="20260821030000 +0000" stop="20260821030000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Renewi Tour: Etapa 2</title>
-  </programme>
+  <desc lang="es">La segunda jornada de competencia del Renewi Tour con un trazado llano pero traicionero debido a los vientos de costado y los tramos estrechos. Los jefes de filas deberán estar muy atentos en la parte delantera del pelotón para evitar cortes de tiempo, mientras los rodadores buscan la victoria en el remate.</desc></programme>
   <programme start="20260821030000 +0000" stop="20260821050000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Renewi Tour: Etapa 2</title>
-  </programme>
+  <desc lang="es">La segunda jornada de competencia del Renewi Tour con un trazado llano pero traicionero debido a los vientos de costado y los tramos estrechos. Los jefes de filas deberán estar muy atentos en la parte delantera del pelotón para evitar cortes de tiempo, mientras los rodadores buscan la victoria en el remate.</desc></programme>
   <programme start="20260821050000 +0000" stop="20260821070000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Palermo vs. Lecce</title>
-  </programme>
+  <desc lang="es">Un exigente compromiso de balompié italiano donde el histórico Palermo busca imponer su localía, el aliento de sus tifosis y la movilidad de su frente de ataque. Enfrente estará el Lecce, una escuadra sumamente ordenada que buscará entorpecer el juego interior del rival para salir con velocidad al contragolpe.</desc></programme>
   <programme start="20260821070000 +0000" stop="20260821100000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Martial Arts</category>
     <category>Sports</category>
     <title lang="es">ONE Friday Fights 166</title>
-  </programme>
+  <desc lang="es">La máxima emoción de los deportes de combate desde el icónico estadio Lumpinee de Bangkok. Una velada estelar que combina los mejores enfrentamientos de Muay Thai, Kickboxing y Artes Marciales Mixtas con nocauts electrizantes, técnicas impecables y la disputa de atractivos bonos para los peleadores más destacados.</desc></programme>
   <programme start="20260821100000 +0000" stop="20260821120000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Renewi Tour: Etapa 2</title>
-  </programme>
+  <desc lang="es">La segunda jornada de competencia del Renewi Tour con un trazado llano pero traicionero debido a los vientos de costado y los tramos estrechos. Los jefes de filas deberán estar muy atentos en la parte delantera del pelotón para evitar cortes de tiempo, mientras los rodadores buscan la victoria en el remate.</desc></programme>
   <programme start="20260821120000 +0000" stop="20260821130000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">default</category>
     <title lang="es">World's Strongest Man</title>
-  </programme>
+  <desc lang="es">La competencia anual más impresionante del planeta que reúne a los hombres más fuertes del mundo para someterlos a pruebas físicas extremas. Desde arrastrar camiones y levantar piedras monumentales hasta soportar pesos sobrehumanos, los atletas llevan la resistencia física y la potencia muscular a límites verdaderamente asombrosos.</desc></programme>
   <programme start="20260821130000 +0000" stop="20260821133000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Talk</category>
     <title lang="es">Ray Sugar Leonard</title>
-  </programme>
+  <desc lang="es">Un fascinante repaso biográfico por la vida y carrera de una de las leyendas más grandes y elegantes de la historia del boxeo mundial. Conoce de cerca sus combates épicos frente a Roberto Durán, Thomas Hearns y Marvin Hagler, destacando su velocidad relámpago, carisma único e inteligencia sobre el cuadrilátero.</desc></programme>
   <programme start="20260821133000 +0000" stop="20260821143000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Talk</category>
     <title lang="es">Lo Mejor de DSPORTS Fight</title>
-  </programme>
+  <desc lang="es">Las peleas más brutales, nocauts espectaculares y sumisionesSubmission increíbles de las artes marciales mixtas, boxeo y deportes de contacto en la pantalla de DIRECTV. Un compilado repleto de adrenalina con las coberturas más destacadas, los combates estelares y las repeticiones de los momentos más impactantes.</desc></programme>
   <programme start="20260821143000 +0000" stop="20260821173000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Martial Arts</category>
     <category>Sports</category>
     <title lang="es">ONE Friday Fights 167</title>
-  </programme>
+  <desc lang="es">Una noche cargada de acción pura y adrenalina sobre el cuadrilátero de ONE Championship. Los mejores exponentes internacionales del Striking y las MMA se miden en combates de ritmo frenético, buscando finalizar a sus oponentes con golpes espectaculares, combinaciones veloces y llaves de sumisión de alto nivel.</desc></programme>
   <programme start="20260821173000 +0000" stop="20260821180000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">default</category>
     <title lang="es">World's Strongest Man 2017</title>
-  </programme>
+  <desc lang="es">Revive la inolvidable edición de 2017 del torneo donde los titanes de la fuerza mundial midieron sus capacidades en las pruebas más brutales de resistencia. Un espectáculo único de potencia muscular, levantamientos titánicos y récords históricos que consagraron al atleta más dominante del planeta sobre la arena de competencia.</desc></programme>
   <programme start="20260821180000 +0000" stop="20260821200000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Cremonese vs. Sampdoria</title>
-  </programme>
+  <desc lang="es">Un exigente compromiso de fútbol italiano repleto de lucha física y disciplina táctica sobre el césped. La escuadra de Cremonese buscará imponer la fortaleza en su cancha y el juego de bandas, frente a una tradicional Sampdoria que apostará por el control del mediocampo y la contundencia en las jugadas de estrategia.</desc></programme>
   <programme start="20260821200000 +0000" stop="20260821203000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Eschborn, Frankfurt</title>
-  </programme>
+  <desc lang="es">Toda la emoción de la clásica ciclista alemana disputada en la región de Fráncfort. Un recorrido sumamente exigente con cotas rompepiernas donde las principales escuadras del WorldTour deben gestionar la estrategia en equipo para neutralizar las fugas y posicionar a sus mejores velocistas en el sprint final.</desc></programme>
   <programme start="20260821203000 +0000" stop="20260822001500 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Bicycle</category>
     <title lang="es">Renewi Tour: Etapa 3; UCI Mountain Bike World Series, Les Gets: Cross-country Olímpico femenino y masculino</title>
-  </programme>
+  <desc lang="es">Un bloque deportivo doble de máxima adrenalina. Disfruta de la acción de la tercera etapa del Renewi Tour en la ruta, emparejada con la transmisión estelar de la World Series de Mountain Bike desde Les Gets, donde los mejores exponentes del MTB mundial disputan una prueba de Cross-country extrema.</desc></programme>
   <programme start="20260822001500 +0000" stop="20260822003000 +0000" channel="DIRECTVSports+.cl">
     <category lang="es">Documentary</category>
     <title lang="es">Simplemente Diego: El Pelusa de la Paternal</title>
-  </programme>
+  <desc lang="es">Primer capítulo del especial dedicado al astro argentino, centrado en sus orígenes humildes y sus deslumbrantes comienzos en Argentinos Juniors. Revisa imágenes de archivo inéditas y testimonios de quienes vieron nacer al 'Pelusa' en las canchas de Villa Fiorito y la Paternal antes de su salto a la fama mundial.</desc></programme>
   <programme start="20260818161900 +0000" stop="20260818180300 +0000" channel="Discovery.cl">
     <desc lang="es">S14 E9 — Leyendas y novatos.
 Los sobrevivientes legendarios Max y Rylie van a la selva sudafricana con dos seguidores novatos, para tratar de sobrevivir 21 días entre cobras que escupen, jabalíes agresivos, rinocerontes y leopardos.</desc>
@@ -136118,299 +136118,299 @@ Espacio que contribuye a divulgar, fomentar e interpretar las actividades cient�
   <programme start="20260818170000 +0000" stop="20260818180000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Noticias Oromar</title>
-  </programme>
+  <desc lang="es">El noticiero estelar que te brinda la información más veraz, imparcial y actualizada de la agenda nacional de Ecuador y el plano internacional. Con despachos en vivo de sus reporteros en todo el país, cobertura de sucesos, análisis económico y el deporte local, ofreciendo un amplio panorama periodístico.</desc></programme>
   <programme start="20260818180000 +0000" stop="20260818190000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Comunidad Oromar</title>
-  </programme>
+  <desc lang="es">Espacio informativo y de orientación comunitaria enfocado en dar voz a las necesidades, denuncias y logros de las diversas localidades del país. Con reportajes en directo, servicio a la ciudadanía y un enfoque profundamente humano, el programa construye un puente entre la población y las soluciones públicas.</desc></programme>
   <programme start="20260818190000 +0000" stop="20260818200000 +0000" channel="OromarTV.ec">
     <category lang="es">Romance</category>
     <title lang="es">El triunfo del amor</title>
-  </programme>
+  <desc lang="es">La icónica telenovela que sigue el conmovedor camino de Victoria, una prestigiosa diseñadora de modas atormentada por haber perdido a su hija años atrás. Por giros del destino, la joven María Desamparada entra a trabajar a su casa de modas sin saber que las une un lazo de sangre que cambiará sus vidas.</desc></programme>
   <programme start="20260818200000 +0000" stop="20260818210000 +0000" channel="OromarTV.ec">
     <category lang="es">Romance</category>
     <title lang="es">El triunfo del amor</title>
-  </programme>
+  <desc lang="es">La icónica telenovela que sigue el conmovedor camino de Victoria, una prestigiosa diseñadora de modas atormentada por haber perdido a su hija años atrás. Por giros del destino, la joven María Desamparada entra a trabajar a su casa de modas sin saber que las une un lazo de sangre que cambiará sus vidas.</desc></programme>
   <programme start="20260818210000 +0000" stop="20260818220000 +0000" channel="OromarTV.ec">
     <category lang="es">Soap Opera</category>
     <title lang="es">La hija del mariachi</title>
-  </programme>
+  <desc lang="es">La aclamada e inolvidable telenovela que narra la apasionante historia de amor entre Emiliano Sánchez-Guallardo, un refinado alto ejecutivo mexicano prófugo de la justicia, y Rosario Guerrero, una humilde cantante de mariachis. Unidos por la música, lucharán contra las mentiras y los peligros de la noche.</desc></programme>
   <programme start="20260818220000 +0000" stop="20260818230000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">Bonanza</title>
-  </programme>
+  <desc lang="es">La emblemática e histórica serie del wéstern televisivo que sigue las aventuras del patriarca Ben Cartwright y sus tres hijos en el imponente rancho La Ponderosa. A través de disputas por la tierra, valores familiares inquebrantables y enfrentamientos contra fuera de la ley, esta familia defiende con honor su legado.</desc></programme>
   <programme start="20260818230000 +0000" stop="20260819000000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">Bonanza</title>
-  </programme>
+  <desc lang="es">La emblemática e histórica serie del wéstern televisivo que sigue las aventuras del patriarca Ben Cartwright y sus tres hijos en el imponente rancho La Ponderosa. A través de disputas por la tierra, valores familiares inquebrantables y enfrentamientos contra fuera de la ley, esta familia defiende con honor su legado.</desc></programme>
   <programme start="20260819000000 +0000" stop="20260819010000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Noticias Oromar</title>
-  </programme>
+  <desc lang="es">El noticiero estelar que te brinda la información más veraz, imparcial y actualizada de la agenda nacional de Ecuador y el plano internacional. Con despachos en vivo de sus reporteros en todo el país, cobertura de sucesos, análisis económico y el deporte local, ofreciendo un amplio panorama periodístico.</desc></programme>
   <programme start="20260819010000 +0000" stop="20260819033000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">BLN: La dinastía</title>
-  </programme>
+  <desc lang="es">El aclamado programa de competencia, baile y entretenimiento de la televisión ecuatoriana. Dos equipos de destacados competidores miden su rendimiento físico, agilidad y destreza en desafiantes circuitos en vivo, todo enmarcado en un show lleno de dramatismo, rivalidades de estudio y mucha adrenalina.</desc></programme>
   <programme start="20260819033000 +0000" stop="20260819040000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Noticias Oromar</title>
-  </programme>
+  <desc lang="es">El noticiero estelar que te brinda la información más veraz, imparcial y actualizada de la agenda nacional de Ecuador y el plano internacional. Con despachos en vivo de sus reporteros en todo el país, cobertura de sucesos, análisis económico y el deporte local, ofreciendo un amplio panorama periodístico.</desc></programme>
   <programme start="20260819040000 +0000" stop="20260819040000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Iglesia Universal</title>
-  </programme>
+  <desc lang="es">Espacio de orientación espiritual, fe y reflexión dedicado a transmitir mensajes de esperanza, oraciones comunitarias y consejos prácticos para la vida diaria. A través de testimonios reales de transformación y superar problemas familiares o financieros, el programa invita a fortalecer la fe en el hogar.</desc></programme>
   <programme start="20260819040000 +0000" stop="20260819050000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Iglesia Universal</title>
-  </programme>
+  <desc lang="es">Espacio de orientación espiritual, fe y reflexión dedicado a transmitir mensajes de esperanza, oraciones comunitarias y consejos prácticos para la vida diaria. A través de testimonios reales de transformación y superar problemas familiares o financieros, el programa invita a fortalecer la fe en el hogar.</desc></programme>
   <programme start="20260819050000 +0000" stop="20260819073000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Mar de risas</title>
-  </programme>
+  <desc lang="es">Un hilarante y desenfadado programa de comedia y entretenimiento ambientado en escenarios playeros y de descanso. Con rutinas de humor en vivo, sketches absurdos, chistes de actualidad y bromas de cámara oculta, es el espacio ideal para desconectar de la rutina y disfrutar de un momento ligero en familia.</desc></programme>
   <programme start="20260819073000 +0000" stop="20260819083000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">El talismán</title>
-  </programme>
+  <desc lang="es">Apasionante melodrama romántico que narra la disputada historia de amor entre Camila Nájera y Pedro Ibarra en la opulenta hacienda 'El Talismán'. Rodeados de ambiciones familiares, traiciones del pasado y enemigos despiadados, lucharán por defender un sentimiento puro que desafía todas las adversidades del destino.</desc></programme>
   <programme start="20260819083000 +0000" stop="20260819093000 +0000" channel="OromarTV.ec">
     <category lang="es">Romance</category>
     <title lang="es">Corazón apasionado</title>
-  </programme>
+  <desc lang="es">Intensa y cautivadora telenovela romántica que narra la historia de Patricia Campos, una mujer de carácter firme marcada por un desamor del pasado. Su vida da un giro radical cuando conoce al impulsivo e indomable capataz Armando Marcano, desatando una pasional batalla entre el orgullo, el deber y el verdadero amor.</desc></programme>
   <programme start="20260819093000 +0000" stop="20260819100000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Noticias Oromar</title>
-  </programme>
+  <desc lang="es">El noticiero estelar que te brinda la información más veraz, imparcial y actualizada de la agenda nacional de Ecuador y el plano internacional. Con despachos en vivo de sus reporteros en todo el país, cobertura de sucesos, análisis económico y el deporte local, ofreciendo un amplio panorama periodístico.</desc></programme>
   <programme start="20260819100000 +0000" stop="20260819110000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Iglesia Universal</title>
-  </programme>
+  <desc lang="es">Espacio de orientación espiritual, fe y reflexión dedicado a transmitir mensajes de esperanza, oraciones comunitarias y consejos prácticos para la vida diaria. A través de testimonios reales de transformación y superar problemas familiares o financieros, el programa invita a fortalecer la fe en el hogar.</desc></programme>
   <programme start="20260819110000 +0000" stop="20260819120000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Desde tempranito</title>
-  </programme>
+  <desc lang="es">El dinámico magacín matutino diseñado para acompañar las primeras horas de la mañana con optimismo e información práctica. Con segmentos de noticias de actualidad, recomendaciones de salud, cocina en vivo, invitados especiales y tendencias, es la opción perfecta para iniciar la jornada perfectamente informado.</desc></programme>
   <programme start="20260819120000 +0000" stop="20260819130000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Noticias Oromar</title>
-  </programme>
+  <desc lang="es">El noticiero estelar que te brinda la información más veraz, imparcial y actualizada de la agenda nacional de Ecuador y el plano internacional. Con despachos en vivo de sus reporteros en todo el país, cobertura de sucesos, análisis económico y el deporte local, ofreciendo un amplio panorama periodístico.</desc></programme>
   <programme start="20260819130000 +0000" stop="20260819140000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">El talismán</title>
-  </programme>
+  <desc lang="es">Apasionante melodrama romántico que narra la disputada historia de amor entre Camila Nájera y Pedro Ibarra en la opulenta hacienda 'El Talismán'. Rodeados de ambiciones familiares, traiciones del pasado y enemigos despiadados, lucharán por defender un sentimiento puro que desafía todas las adversidades del destino.</desc></programme>
   <programme start="20260819140000 +0000" stop="20260819150000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Walker Ranger de Texas</title>
-  </programme>
+  <desc lang="es">La legendaria serie de acción protagonizada por Chuck Norris en el papel de Cordell Walker, un intrépido e incorruptible Ranger de Texas. Guiado por un estricto código de honor y sus habilidades impecables en artes marciales, Walker combate el crimen organizado, defiende a los desamparados y hace cumplir la justicia.</desc></programme>
   <programme start="20260819150000 +0000" stop="20260819160000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">Bonanza</title>
-  </programme>
+  <desc lang="es">La emblemática e histórica serie del wéstern televisivo que sigue las aventuras del patriarca Ben Cartwright y sus tres hijos en el imponente rancho La Ponderosa. A través de disputas por la tierra, valores familiares inquebrantables y enfrentamientos contra fuera de la ley, esta familia defiende con honor su legado.</desc></programme>
   <programme start="20260819160000 +0000" stop="20260819170000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">Bonanza</title>
-  </programme>
+  <desc lang="es">La emblemática e histórica serie del wéstern televisivo que sigue las aventuras del patriarca Ben Cartwright y sus tres hijos en el imponente rancho La Ponderosa. A través de disputas por la tierra, valores familiares inquebrantables y enfrentamientos contra fuera de la ley, esta familia defiende con honor su legado.</desc></programme>
   <programme start="20260819170000 +0000" stop="20260819180000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Noticias Oromar</title>
-  </programme>
+  <desc lang="es">El noticiero estelar que te brinda la información más veraz, imparcial y actualizada de la agenda nacional de Ecuador y el plano internacional. Con despachos en vivo de sus reporteros en todo el país, cobertura de sucesos, análisis económico y el deporte local, ofreciendo un amplio panorama periodístico.</desc></programme>
   <programme start="20260819180000 +0000" stop="20260819190000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Comunidad Oromar</title>
-  </programme>
+  <desc lang="es">Espacio informativo y de orientación comunitaria enfocado en dar voz a las necesidades, denuncias y logros de las diversas localidades del país. Con reportajes en directo, servicio a la ciudadanía y un enfoque profundamente humano, el programa construye un puente entre la población y las soluciones públicas.</desc></programme>
   <programme start="20260819190000 +0000" stop="20260819200000 +0000" channel="OromarTV.ec">
     <category lang="es">Romance</category>
     <title lang="es">El triunfo del amor</title>
-  </programme>
+  <desc lang="es">La icónica telenovela que sigue el conmovedor camino de Victoria, una prestigiosa diseñadora de modas atormentada por haber perdido a su hija años atrás. Por giros del destino, la joven María Desamparada entra a trabajar a su casa de modas sin saber que las une un lazo de sangre que cambiará sus vidas.</desc></programme>
   <programme start="20260819200000 +0000" stop="20260819210000 +0000" channel="OromarTV.ec">
     <category lang="es">Romance</category>
     <title lang="es">El triunfo del amor</title>
-  </programme>
+  <desc lang="es">La icónica telenovela que sigue el conmovedor camino de Victoria, una prestigiosa diseñadora de modas atormentada por haber perdido a su hija años atrás. Por giros del destino, la joven María Desamparada entra a trabajar a su casa de modas sin saber que las une un lazo de sangre que cambiará sus vidas.</desc></programme>
   <programme start="20260819210000 +0000" stop="20260819220000 +0000" channel="OromarTV.ec">
     <category lang="es">Soap Opera</category>
     <title lang="es">La hija del mariachi</title>
-  </programme>
+  <desc lang="es">La aclamada e inolvidable telenovela que narra la apasionante historia de amor entre Emiliano Sánchez-Guallardo, un refinado alto ejecutivo mexicano prófugo de la justicia, y Rosario Guerrero, una humilde cantante de mariachis. Unidos por la música, lucharán contra las mentiras y los peligros de la noche.</desc></programme>
   <programme start="20260819220000 +0000" stop="20260819230000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">Bonanza</title>
-  </programme>
+  <desc lang="es">La emblemática e histórica serie del wéstern televisivo que sigue las aventuras del patriarca Ben Cartwright y sus tres hijos en el imponente rancho La Ponderosa. A través de disputas por la tierra, valores familiares inquebrantables y enfrentamientos contra fuera de la ley, esta familia defiende con honor su legado.</desc></programme>
   <programme start="20260819230000 +0000" stop="20260820000000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">Bonanza</title>
-  </programme>
+  <desc lang="es">La emblemática e histórica serie del wéstern televisivo que sigue las aventuras del patriarca Ben Cartwright y sus tres hijos en el imponente rancho La Ponderosa. A través de disputas por la tierra, valores familiares inquebrantables y enfrentamientos contra fuera de la ley, esta familia defiende con honor su legado.</desc></programme>
   <programme start="20260820000000 +0000" stop="20260820010000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Noticias Oromar</title>
-  </programme>
+  <desc lang="es">El noticiero estelar que te brinda la información más veraz, imparcial y actualizada de la agenda nacional de Ecuador y el plano internacional. Con despachos en vivo de sus reporteros en todo el país, cobertura de sucesos, análisis económico y el deporte local, ofreciendo un amplio panorama periodístico.</desc></programme>
   <programme start="20260820010000 +0000" stop="20260820033000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">BLN: La dinastía</title>
-  </programme>
+  <desc lang="es">El aclamado programa de competencia, baile y entretenimiento de la televisión ecuatoriana. Dos equipos de destacados competidores miden su rendimiento físico, agilidad y destreza en desafiantes circuitos en vivo, todo enmarcado en un show lleno de dramatismo, rivalidades de estudio y mucha adrenalina.</desc></programme>
   <programme start="20260820033000 +0000" stop="20260820040000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Noticias Oromar</title>
-  </programme>
+  <desc lang="es">El noticiero estelar que te brinda la información más veraz, imparcial y actualizada de la agenda nacional de Ecuador y el plano internacional. Con despachos en vivo de sus reporteros en todo el país, cobertura de sucesos, análisis económico y el deporte local, ofreciendo un amplio panorama periodístico.</desc></programme>
   <programme start="20260820040000 +0000" stop="20260820040000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Iglesia Universal</title>
-  </programme>
+  <desc lang="es">Espacio de orientación espiritual, fe y reflexión dedicado a transmitir mensajes de esperanza, oraciones comunitarias y consejos prácticos para la vida diaria. A través de testimonios reales de transformación y superar problemas familiares o financieros, el programa invita a fortalecer la fe en el hogar.</desc></programme>
   <programme start="20260820040000 +0000" stop="20260820050000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Iglesia Universal</title>
-  </programme>
+  <desc lang="es">Espacio de orientación espiritual, fe y reflexión dedicado a transmitir mensajes de esperanza, oraciones comunitarias y consejos prácticos para la vida diaria. A través de testimonios reales de transformación y superar problemas familiares o financieros, el programa invita a fortalecer la fe en el hogar.</desc></programme>
   <programme start="20260820050000 +0000" stop="20260820073000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Mar de risas</title>
-  </programme>
+  <desc lang="es">Un hilarante y desenfadado programa de comedia y entretenimiento ambientado en escenarios playeros y de descanso. Con rutinas de humor en vivo, sketches absurdos, chistes de actualidad y bromas de cámara oculta, es el espacio ideal para desconectar de la rutina y disfrutar de un momento ligero en familia.</desc></programme>
   <programme start="20260820073000 +0000" stop="20260820083000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">El talismán</title>
-  </programme>
+  <desc lang="es">Apasionante melodrama romántico que narra la disputada historia de amor entre Camila Nájera y Pedro Ibarra en la opulenta hacienda 'El Talismán'. Rodeados de ambiciones familiares, traiciones del pasado y enemigos despiadados, lucharán por defender un sentimiento puro que desafía todas las adversidades del destino.</desc></programme>
   <programme start="20260820083000 +0000" stop="20260820093000 +0000" channel="OromarTV.ec">
     <category lang="es">Romance</category>
     <title lang="es">Corazón apasionado</title>
-  </programme>
+  <desc lang="es">Intensa y cautivadora telenovela romántica que narra la historia de Patricia Campos, una mujer de carácter firme marcada por un desamor del pasado. Su vida da un giro radical cuando conoce al impulsivo e indomable capataz Armando Marcano, desatando una pasional batalla entre el orgullo, el deber y el verdadero amor.</desc></programme>
   <programme start="20260820093000 +0000" stop="20260820100000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Noticias Oromar</title>
-  </programme>
+  <desc lang="es">El noticiero estelar que te brinda la información más veraz, imparcial y actualizada de la agenda nacional de Ecuador y el plano internacional. Con despachos en vivo de sus reporteros en todo el país, cobertura de sucesos, análisis económico y el deporte local, ofreciendo un amplio panorama periodístico.</desc></programme>
   <programme start="20260820100000 +0000" stop="20260820110000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Iglesia Universal</title>
-  </programme>
+  <desc lang="es">Espacio de orientación espiritual, fe y reflexión dedicado a transmitir mensajes de esperanza, oraciones comunitarias y consejos prácticos para la vida diaria. A través de testimonios reales de transformación y superar problemas familiares o financieros, el programa invita a fortalecer la fe en el hogar.</desc></programme>
   <programme start="20260820110000 +0000" stop="20260820120000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Desde tempranito</title>
-  </programme>
+  <desc lang="es">El dinámico magacín matutino diseñado para acompañar las primeras horas de la mañana con optimismo e información práctica. Con segmentos de noticias de actualidad, recomendaciones de salud, cocina en vivo, invitados especiales y tendencias, es la opción perfecta para iniciar la jornada perfectamente informado.</desc></programme>
   <programme start="20260820120000 +0000" stop="20260820130000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Noticias Oromar</title>
-  </programme>
+  <desc lang="es">El noticiero estelar que te brinda la información más veraz, imparcial y actualizada de la agenda nacional de Ecuador y el plano internacional. Con despachos en vivo de sus reporteros en todo el país, cobertura de sucesos, análisis económico y el deporte local, ofreciendo un amplio panorama periodístico.</desc></programme>
   <programme start="20260820130000 +0000" stop="20260820140000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">El talismán</title>
-  </programme>
+  <desc lang="es">Apasionante melodrama romántico que narra la disputada historia de amor entre Camila Nájera y Pedro Ibarra en la opulenta hacienda 'El Talismán'. Rodeados de ambiciones familiares, traiciones del pasado y enemigos despiadados, lucharán por defender un sentimiento puro que desafía todas las adversidades del destino.</desc></programme>
   <programme start="20260820140000 +0000" stop="20260820150000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Walker Ranger de Texas</title>
-  </programme>
+  <desc lang="es">La legendaria serie de acción protagonizada por Chuck Norris en el papel de Cordell Walker, un intrépido e incorruptible Ranger de Texas. Guiado por un estricto código de honor y sus habilidades impecables en artes marciales, Walker combate el crimen organizado, defiende a los desamparados y hace cumplir la justicia.</desc></programme>
   <programme start="20260820150000 +0000" stop="20260820160000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">Bonanza</title>
-  </programme>
+  <desc lang="es">La emblemática e histórica serie del wéstern televisivo que sigue las aventuras del patriarca Ben Cartwright y sus tres hijos en el imponente rancho La Ponderosa. A través de disputas por la tierra, valores familiares inquebrantables y enfrentamientos contra fuera de la ley, esta familia defiende con honor su legado.</desc></programme>
   <programme start="20260820160000 +0000" stop="20260820170000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">Bonanza</title>
-  </programme>
+  <desc lang="es">La emblemática e histórica serie del wéstern televisivo que sigue las aventuras del patriarca Ben Cartwright y sus tres hijos en el imponente rancho La Ponderosa. A través de disputas por la tierra, valores familiares inquebrantables y enfrentamientos contra fuera de la ley, esta familia defiende con honor su legado.</desc></programme>
   <programme start="20260820170000 +0000" stop="20260820180000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Noticias Oromar</title>
-  </programme>
+  <desc lang="es">El noticiero estelar que te brinda la información más veraz, imparcial y actualizada de la agenda nacional de Ecuador y el plano internacional. Con despachos en vivo de sus reporteros en todo el país, cobertura de sucesos, análisis económico y el deporte local, ofreciendo un amplio panorama periodístico.</desc></programme>
   <programme start="20260820180000 +0000" stop="20260820190000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Comunidad Oromar</title>
-  </programme>
+  <desc lang="es">Espacio informativo y de orientación comunitaria enfocado en dar voz a las necesidades, denuncias y logros de las diversas localidades del país. Con reportajes en directo, servicio a la ciudadanía y un enfoque profundamente humano, el programa construye un puente entre la población y las soluciones públicas.</desc></programme>
   <programme start="20260820190000 +0000" stop="20260820200000 +0000" channel="OromarTV.ec">
     <category lang="es">Romance</category>
     <title lang="es">El triunfo del amor</title>
-  </programme>
+  <desc lang="es">La icónica telenovela que sigue el conmovedor camino de Victoria, una prestigiosa diseñadora de modas atormentada por haber perdido a su hija años atrás. Por giros del destino, la joven María Desamparada entra a trabajar a su casa de modas sin saber que las une un lazo de sangre que cambiará sus vidas.</desc></programme>
   <programme start="20260820200000 +0000" stop="20260820210000 +0000" channel="OromarTV.ec">
     <category lang="es">Romance</category>
     <title lang="es">El triunfo del amor</title>
-  </programme>
+  <desc lang="es">La icónica telenovela que sigue el conmovedor camino de Victoria, una prestigiosa diseñadora de modas atormentada por haber perdido a su hija años atrás. Por giros del destino, la joven María Desamparada entra a trabajar a su casa de modas sin saber que las une un lazo de sangre que cambiará sus vidas.</desc></programme>
   <programme start="20260820210000 +0000" stop="20260820220000 +0000" channel="OromarTV.ec">
     <category lang="es">Soap Opera</category>
     <title lang="es">La hija del mariachi</title>
-  </programme>
+  <desc lang="es">La aclamada e inolvidable telenovela que narra la apasionante historia de amor entre Emiliano Sánchez-Guallardo, un refinado alto ejecutivo mexicano prófugo de la justicia, y Rosario Guerrero, una humilde cantante de mariachis. Unidos por la música, lucharán contra las mentiras y los peligros de la noche.</desc></programme>
   <programme start="20260820220000 +0000" stop="20260820230000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">Bonanza</title>
-  </programme>
+  <desc lang="es">La emblemática e histórica serie del wéstern televisivo que sigue las aventuras del patriarca Ben Cartwright y sus tres hijos en el imponente rancho La Ponderosa. A través de disputas por la tierra, valores familiares inquebrantables y enfrentamientos contra fuera de la ley, esta familia defiende con honor su legado.</desc></programme>
   <programme start="20260820230000 +0000" stop="20260821000000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">Bonanza</title>
-  </programme>
+  <desc lang="es">La emblemática e histórica serie del wéstern televisivo que sigue las aventuras del patriarca Ben Cartwright y sus tres hijos en el imponente rancho La Ponderosa. A través de disputas por la tierra, valores familiares inquebrantables y enfrentamientos contra fuera de la ley, esta familia defiende con honor su legado.</desc></programme>
   <programme start="20260821000000 +0000" stop="20260821010000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Noticias Oromar</title>
-  </programme>
+  <desc lang="es">El noticiero estelar que te brinda la información más veraz, imparcial y actualizada de la agenda nacional de Ecuador y el plano internacional. Con despachos en vivo de sus reporteros en todo el país, cobertura de sucesos, análisis económico y el deporte local, ofreciendo un amplio panorama periodístico.</desc></programme>
   <programme start="20260821010000 +0000" stop="20260821033000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">BLN: La dinastía</title>
-  </programme>
+  <desc lang="es">El aclamado programa de competencia, baile y entretenimiento de la televisión ecuatoriana. Dos equipos de destacados competidores miden su rendimiento físico, agilidad y destreza en desafiantes circuitos en vivo, todo enmarcado en un show lleno de dramatismo, rivalidades de estudio y mucha adrenalina.</desc></programme>
   <programme start="20260821033000 +0000" stop="20260821040000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Noticias Oromar</title>
-  </programme>
+  <desc lang="es">El noticiero estelar que te brinda la información más veraz, imparcial y actualizada de la agenda nacional de Ecuador y el plano internacional. Con despachos en vivo de sus reporteros en todo el país, cobertura de sucesos, análisis económico y el deporte local, ofreciendo un amplio panorama periodístico.</desc></programme>
   <programme start="20260821040000 +0000" stop="20260821050000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Iglesia Universal</title>
-  </programme>
+  <desc lang="es">Espacio de orientación espiritual, fe y reflexión dedicado a transmitir mensajes de esperanza, oraciones comunitarias y consejos prácticos para la vida diaria. A través de testimonios reales de transformación y superar problemas familiares o financieros, el programa invita a fortalecer la fe en el hogar.</desc></programme>
   <programme start="20260821050000 +0000" stop="20260821073000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Mar de risas</title>
-  </programme>
+  <desc lang="es">Un hilarante y desenfadado programa de comedia y entretenimiento ambientado en escenarios playeros y de descanso. Con rutinas de humor en vivo, sketches absurdos, chistes de actualidad y bromas de cámara oculta, es el espacio ideal para desconectar de la rutina y disfrutar de un momento ligero en familia.</desc></programme>
   <programme start="20260821073000 +0000" stop="20260821083000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">El talismán</title>
-  </programme>
+  <desc lang="es">Apasionante melodrama romántico que narra la disputada historia de amor entre Camila Nájera y Pedro Ibarra en la opulenta hacienda 'El Talismán'. Rodeados de ambiciones familiares, traiciones del pasado y enemigos despiadados, lucharán por defender un sentimiento puro que desafía todas las adversidades del destino.</desc></programme>
   <programme start="20260821083000 +0000" stop="20260821093000 +0000" channel="OromarTV.ec">
     <category lang="es">Romance</category>
     <title lang="es">Corazón apasionado</title>
-  </programme>
+  <desc lang="es">Intensa y cautivadora telenovela romántica que narra la historia de Patricia Campos, una mujer de carácter firme marcada por un desamor del pasado. Su vida da un giro radical cuando conoce al impulsivo e indomable capataz Armando Marcano, desatando una pasional batalla entre el orgullo, el deber y el verdadero amor.</desc></programme>
   <programme start="20260821093000 +0000" stop="20260821100000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Noticias Oromar</title>
-  </programme>
+  <desc lang="es">El noticiero estelar que te brinda la información más veraz, imparcial y actualizada de la agenda nacional de Ecuador y el plano internacional. Con despachos en vivo de sus reporteros en todo el país, cobertura de sucesos, análisis económico y el deporte local, ofreciendo un amplio panorama periodístico.</desc></programme>
   <programme start="20260821100000 +0000" stop="20260821110000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Iglesia Universal</title>
-  </programme>
+  <desc lang="es">Espacio de orientación espiritual, fe y reflexión dedicado a transmitir mensajes de esperanza, oraciones comunitarias y consejos prácticos para la vida diaria. A través de testimonios reales de transformación y superar problemas familiares o financieros, el programa invita a fortalecer la fe en el hogar.</desc></programme>
   <programme start="20260821110000 +0000" stop="20260821120000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Desde tempranito</title>
-  </programme>
+  <desc lang="es">El dinámico magacín matutino diseñado para acompañar las primeras horas de la mañana con optimismo e información práctica. Con segmentos de noticias de actualidad, recomendaciones de salud, cocina en vivo, invitados especiales y tendencias, es la opción perfecta para iniciar la jornada perfectamente informado.</desc></programme>
   <programme start="20260821120000 +0000" stop="20260821130000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Noticias Oromar</title>
-  </programme>
+  <desc lang="es">El noticiero estelar que te brinda la información más veraz, imparcial y actualizada de la agenda nacional de Ecuador y el plano internacional. Con despachos en vivo de sus reporteros en todo el país, cobertura de sucesos, análisis económico y el deporte local, ofreciendo un amplio panorama periodístico.</desc></programme>
   <programme start="20260821130000 +0000" stop="20260821140000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">El talismán</title>
-  </programme>
+  <desc lang="es">Apasionante melodrama romántico que narra la disputada historia de amor entre Camila Nájera y Pedro Ibarra en la opulenta hacienda 'El Talismán'. Rodeados de ambiciones familiares, traiciones del pasado y enemigos despiadados, lucharán por defender un sentimiento puro que desafía todas las adversidades del destino.</desc></programme>
   <programme start="20260821140000 +0000" stop="20260821150000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Walker Ranger de Texas</title>
-  </programme>
+  <desc lang="es">La legendaria serie de acción protagonizada por Chuck Norris en el papel de Cordell Walker, un intrépido e incorruptible Ranger de Texas. Guiado por un estricto código de honor y sus habilidades impecables en artes marciales, Walker combate el crimen organizado, defiende a los desamparados y hace cumplir la justicia.</desc></programme>
   <programme start="20260821150000 +0000" stop="20260821160000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">Bonanza</title>
-  </programme>
+  <desc lang="es">La emblemática e histórica serie del wéstern televisivo que sigue las aventuras del patriarca Ben Cartwright y sus tres hijos en el imponente rancho La Ponderosa. A través de disputas por la tierra, valores familiares inquebrantables y enfrentamientos contra fuera de la ley, esta familia defiende con honor su legado.</desc></programme>
   <programme start="20260821160000 +0000" stop="20260821170000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">Bonanza</title>
-  </programme>
+  <desc lang="es">La emblemática e histórica serie del wéstern televisivo que sigue las aventuras del patriarca Ben Cartwright y sus tres hijos en el imponente rancho La Ponderosa. A través de disputas por la tierra, valores familiares inquebrantables y enfrentamientos contra fuera de la ley, esta familia defiende con honor su legado.</desc></programme>
   <programme start="20260821170000 +0000" stop="20260821180000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Noticias Oromar</title>
-  </programme>
+  <desc lang="es">El noticiero estelar que te brinda la información más veraz, imparcial y actualizada de la agenda nacional de Ecuador y el plano internacional. Con despachos en vivo de sus reporteros en todo el país, cobertura de sucesos, análisis económico y el deporte local, ofreciendo un amplio panorama periodístico.</desc></programme>
   <programme start="20260821180000 +0000" stop="20260821190000 +0000" channel="OromarTV.ec">
     <category lang="es">default</category>
     <title lang="es">Comunidad Oromar</title>
-  </programme>
+  <desc lang="es">Espacio informativo y de orientación comunitaria enfocado en dar voz a las necesidades, denuncias y logros de las diversas localidades del país. Con reportajes en directo, servicio a la ciudadanía y un enfoque profundamente humano, el programa construye un puente entre la población y las soluciones públicas.</desc></programme>
   <programme start="20260821190000 +0000" stop="20260821200000 +0000" channel="OromarTV.ec">
     <category lang="es">Romance</category>
     <title lang="es">El triunfo del amor</title>
-  </programme>
+  <desc lang="es">La icónica telenovela que sigue el conmovedor camino de Victoria, una prestigiosa diseñadora de modas atormentada por haber perdido a su hija años atrás. Por giros del destino, la joven María Desamparada entra a trabajar a su casa de modas sin saber que las une un lazo de sangre que cambiará sus vidas.</desc></programme>
   <programme start="20260821200000 +0000" stop="20260821210000 +0000" channel="OromarTV.ec">
     <category lang="es">Romance</category>
     <title lang="es">El triunfo del amor</title>
-  </programme>
+  <desc lang="es">La icónica telenovela que sigue el conmovedor camino de Victoria, una prestigiosa diseñadora de modas atormentada por haber perdido a su hija años atrás. Por giros del destino, la joven María Desamparada entra a trabajar a su casa de modas sin saber que las une un lazo de sangre que cambiará sus vidas.</desc></programme>
   <programme start="20260821210000 +0000" stop="20260821220000 +0000" channel="OromarTV.ec">
     <category lang="es">Soap Opera</category>
     <title lang="es">La hija del mariachi</title>
-  </programme>
+  <desc lang="es">La aclamada e inolvidable telenovela que narra la apasionante historia de amor entre Emiliano Sánchez-Guallardo, un refinado alto ejecutivo mexicano prófugo de la justicia, y Rosario Guerrero, una humilde cantante de mariachis. Unidos por la música, lucharán contra las mentiras y los peligros de la noche.</desc></programme>
   <programme start="20260821220000 +0000" stop="20260821230000 +0000" channel="OromarTV.ec">
     <category lang="es">Drama</category>
     <title lang="es">Bonanza</title>
-  </programme>
+  <desc lang="es">La emblemática e histórica serie del wéstern televisivo que sigue las aventuras del patriarca Ben Cartwright y sus tres hijos en el imponente rancho La Ponderosa. A través de disputas por la tierra, valores familiares inquebrantables y enfrentamientos contra fuera de la ley, esta familia defiende con honor su legado.</desc></programme>
   <programme start="20260818163000 +0000" stop="20260818170000 +0000" channel="TCtv.ec">
     <category lang="es">Drama</category>
     <title lang="es">Caminos de amor</title>
@@ -270445,13 +270445,13 @@ Rina.</desc>
   <desc lang="es">Lo esencial del acontecer nacional e internacional. La cobertura más completa y el análisis que necesitas para entender los hechos que marcan la agenda.</desc></programme>
   <programme start="20260818140000 -0600" stop="20260818153000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Háckers del espectáculo</title>
-  </programme>
+  <desc lang="es">El programa ecuatoriano líder de la farándula nacional que te trae de primera mano los chismes, exclusivas y controversias más sonadas del entrenamiento. Con un panel picante de presentadores y reporteros de campo, el espacio desglosa el estilo de vida, romances y escándalos de los famosos locales.</desc></programme>
   <programme start="20260818153000 -0600" stop="20260818163000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Escalera al cielo</title>
-  </programme>
+  <desc lang="es">El aclamado e inolvidable drama surcoreano que narra la profunda y trágica historia de amor entre Song-joo y Jung-seo. Separados por la envidia familiar, la pérdida de memoria y terribles enfermedades, ambos lucharán contra el destino para mantener viva una promesa de amor que desafía al tiempo y la distancia.</desc></programme>
   <programme start="20260818163000 -0600" stop="20260818173000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Engañada</title>
-  </programme>
+  <desc lang="es">Intrigante y apasionante serie dramática que gira en torno a una red de mentiras, traiciones matrimoniales y secretos financieros que salen a la luz tras un evento inesperado. La protagonista deberá reconstruir los pedazos de su vida mientras investiga quiénes en su entorno cercano realmente jugaron en su contra.</desc></programme>
   <programme start="20260818173000 -0600" stop="20260818190000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Destilando amor</title>
   <desc lang="es">Una humilde jimadora de agave y el heredero de una dinastía tequilera se enamoran perdidamente. Su amor, tan puro como el agave azul, desafiará intrigas y ambiciones familiares para forjar su propio destino.</desc></programme>
@@ -270461,7 +270461,7 @@ Rina.</desc>
   <desc lang="es">Lo esencial del acontecer nacional e internacional. La cobertura más completa y el análisis que necesitas para entender los hechos que marcan la agenda.</desc></programme>
   <programme start="20260818210000 -0600" stop="20260818220000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Leyla</title>
-  </programme>
+  <desc lang="es">Atrapante drama televisivo que sigue la intensa historia de una mujer determinada a reconstruir su vida tras enfrentar terribles injusticias del pasado. Con una mezcla de misterio, traiciones de alta esfera y secretos familiares, Leyla ejecutará un plan calculado para hacer justicia y proteger a quienes más ama.</desc></programme>
   <programme start="20260818220000 -0600" stop="20260818230000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">El otro lado del amor</title>
   <desc lang="es">Cautivadora y compleja serie dramática de intriga romántica que explora los límites de la lealtad, las mentiras piadosas y los profundos sacrificios individuales que se esconden detrás del éxito aparente de una gran historia de amor.</desc></programme>
@@ -270494,13 +270494,13 @@ Rina.</desc>
   <desc lang="es">Lo esencial del acontecer nacional e internacional. La cobertura más completa y el análisis que necesitas para entender los hechos que marcan la agenda.</desc></programme>
   <programme start="20260819140000 -0600" stop="20260819153000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Háckers del espectáculo</title>
-  </programme>
+  <desc lang="es">El programa ecuatoriano líder de la farándula nacional que te trae de primera mano los chismes, exclusivas y controversias más sonadas del entrenamiento. Con un panel picante de presentadores y reporteros de campo, el espacio desglosa el estilo de vida, romances y escándalos de los famosos locales.</desc></programme>
   <programme start="20260819153000 -0600" stop="20260819163000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Escalera al cielo</title>
-  </programme>
+  <desc lang="es">El aclamado e inolvidable drama surcoreano que narra la profunda y trágica historia de amor entre Song-joo y Jung-seo. Separados por la envidia familiar, la pérdida de memoria y terribles enfermedades, ambos lucharán contra el destino para mantener viva una promesa de amor que desafía al tiempo y la distancia.</desc></programme>
   <programme start="20260819163000 -0600" stop="20260819173000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Engañada</title>
-  </programme>
+  <desc lang="es">Intrigante y apasionante serie dramática que gira en torno a una red de mentiras, traiciones matrimoniales y secretos financieros que salen a la luz tras un evento inesperado. La protagonista deberá reconstruir los pedazos de su vida mientras investiga quiénes en su entorno cercano realmente jugaron en su contra.</desc></programme>
   <programme start="20260819173000 -0600" stop="20260819190000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Destilando amor</title>
   <desc lang="es">Una humilde jimadora de agave y el heredero de una dinastía tequilera se enamoran perdidamente. Su amor, tan puro como el agave azul, desafiará intrigas y ambiciones familiares para forjar su propio destino.</desc></programme>
@@ -270510,7 +270510,7 @@ Rina.</desc>
   <desc lang="es">Lo esencial del acontecer nacional e internacional. La cobertura más completa y el análisis que necesitas para entender los hechos que marcan la agenda.</desc></programme>
   <programme start="20260819210000 -0600" stop="20260819220000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Leyla</title>
-  </programme>
+  <desc lang="es">Atrapante drama televisivo que sigue la intensa historia de una mujer determinada a reconstruir su vida tras enfrentar terribles injusticias del pasado. Con una mezcla de misterio, traiciones de alta esfera y secretos familiares, Leyla ejecutará un plan calculado para hacer justicia y proteger a quienes más ama.</desc></programme>
   <programme start="20260819220000 -0600" stop="20260819230000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">El otro lado del amor</title>
   <desc lang="es">Cautivadora y compleja serie dramática de intriga romántica que explora los límites de la lealtad, las mentiras piadosas y los profundos sacrificios individuales que se esconden detrás del éxito aparente de una gran historia de amor.</desc></programme>
@@ -270543,13 +270543,13 @@ Rina.</desc>
   <desc lang="es">Lo esencial del acontecer nacional e internacional. La cobertura más completa y el análisis que necesitas para entender los hechos que marcan la agenda.</desc></programme>
   <programme start="20260820140000 -0600" stop="20260820153000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Háckers del espectáculo</title>
-  </programme>
+  <desc lang="es">El programa ecuatoriano líder de la farándula nacional que te trae de primera mano los chismes, exclusivas y controversias más sonadas del entrenamiento. Con un panel picante de presentadores y reporteros de campo, el espacio desglosa el estilo de vida, romances y escándalos de los famosos locales.</desc></programme>
   <programme start="20260820153000 -0600" stop="20260820163000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Escalera al cielo</title>
-  </programme>
+  <desc lang="es">El aclamado e inolvidable drama surcoreano que narra la profunda y trágica historia de amor entre Song-joo y Jung-seo. Separados por la envidia familiar, la pérdida de memoria y terribles enfermedades, ambos lucharán contra el destino para mantener viva una promesa de amor que desafía al tiempo y la distancia.</desc></programme>
   <programme start="20260820163000 -0600" stop="20260820173000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Engañada</title>
-  </programme>
+  <desc lang="es">Intrigante y apasionante serie dramática que gira en torno a una red de mentiras, traiciones matrimoniales y secretos financieros que salen a la luz tras un evento inesperado. La protagonista deberá reconstruir los pedazos de su vida mientras investiga quiénes en su entorno cercano realmente jugaron en su contra.</desc></programme>
   <programme start="20260820173000 -0600" stop="20260820190000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Destilando amor</title>
   <desc lang="es">Una humilde jimadora de agave y el heredero de una dinastía tequilera se enamoran perdidamente. Su amor, tan puro como el agave azul, desafiará intrigas y ambiciones familiares para forjar su propio destino.</desc></programme>
@@ -270559,7 +270559,7 @@ Rina.</desc>
   <desc lang="es">Lo esencial del acontecer nacional e internacional. La cobertura más completa y el análisis que necesitas para entender los hechos que marcan la agenda.</desc></programme>
   <programme start="20260820210000 -0600" stop="20260820220000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Leyla</title>
-  </programme>
+  <desc lang="es">Atrapante drama televisivo que sigue la intensa historia de una mujer determinada a reconstruir su vida tras enfrentar terribles injusticias del pasado. Con una mezcla de misterio, traiciones de alta esfera y secretos familiares, Leyla ejecutará un plan calculado para hacer justicia y proteger a quienes más ama.</desc></programme>
   <programme start="20260820220000 -0600" stop="20260820230000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">El otro lado del amor</title>
   <desc lang="es">Cautivadora y compleja serie dramática de intriga romántica que explora los límites de la lealtad, las mentiras piadosas y los profundos sacrificios individuales que se esconden detrás del éxito aparente de una gran historia de amor.</desc></programme>
@@ -270592,13 +270592,13 @@ Rina.</desc>
   <desc lang="es">Lo esencial del acontecer nacional e internacional. La cobertura más completa y el análisis que necesitas para entender los hechos que marcan la agenda.</desc></programme>
   <programme start="20260821140000 -0600" stop="20260821153000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Háckers del espectáculo</title>
-  </programme>
+  <desc lang="es">El programa ecuatoriano líder de la farándula nacional que te trae de primera mano los chismes, exclusivas y controversias más sonadas del entrenamiento. Con un panel picante de presentadores y reporteros de campo, el espacio desglosa el estilo de vida, romances y escándalos de los famosos locales.</desc></programme>
   <programme start="20260821153000 -0600" stop="20260821163000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Escalera al cielo</title>
-  </programme>
+  <desc lang="es">El aclamado e inolvidable drama surcoreano que narra la profunda y trágica historia de amor entre Song-joo y Jung-seo. Separados por la envidia familiar, la pérdida de memoria y terribles enfermedades, ambos lucharán contra el destino para mantener viva una promesa de amor que desafía al tiempo y la distancia.</desc></programme>
   <programme start="20260821163000 -0600" stop="20260821173000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Engañada</title>
-  </programme>
+  <desc lang="es">Intrigante y apasionante serie dramática que gira en torno a una red de mentiras, traiciones matrimoniales y secretos financieros que salen a la luz tras un evento inesperado. La protagonista deberá reconstruir los pedazos de su vida mientras investiga quiénes en su entorno cercano realmente jugaron en su contra.</desc></programme>
   <programme start="20260821173000 -0600" stop="20260821190000 -0600" channel="Canal.Ecuavisa.(Ecuador).sv">
     <title lang="es">Destilando amor</title>
   <desc lang="es">Una humilde jimadora de agave y el heredero de una dinastía tequilera se enamoran perdidamente. Su amor, tan puro como el agave azul, desafiará intrigas y ambiciones familiares para forjar su propio destino.</desc></programme>
@@ -270616,7 +270616,7 @@ Rina.</desc>
   <desc lang="es">Lo esencial del acontecer nacional e internacional. La cobertura más completa y el análisis que necesitas para entender los hechos que marcan la agenda.</desc></programme>
   <programme start="20260818060000 -0600" stop="20260818070000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Televistazo al amanecer</title>
-  </programme>
+  <desc lang="es">El noticiero matutino pionero de la televisión ecuatoriana que te brinda la información indispensable para arrancar el día. Con un enfoque ágil, reportes del tránsito en vivo, estado del tiempo, cobertura de sucesos de la noche anterior y entrevistas de actualidad, te mantiene al tanto de la agenda del país desde primera hora.</desc></programme>
   <programme start="20260818070000 -0600" stop="20260818073000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Contacto Directo</title>
   <desc lang="es">El espacio periodístico dominical de entrevistas políticas por excelencia, donde se analizan cara a cara los acontecimientos que definen el rumbo del país junto a los principales líderes de opinión, ministros y actores políticos nacionales.</desc></programme>
@@ -270640,13 +270640,13 @@ Rina.</desc>
   <desc lang="es">Espacio comercial televisivo reservado para la emisión de infomerciales publicitarios extendidos, demostraciones de productos domésticos novedosos, suplementos de bienestar y ofertas exclusivas de compras por televisión.</desc></programme>
   <programme start="20260818180000 -0600" stop="20260818190000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">García</title>
-  </programme>
+  <desc lang="es">Impactante película dramática de suspenso que sigue a un hombre común cuyo mundo se desmorona cuando su esposa es secuestrada bajo misteriosas circunstancias. Sin la ayuda de las autoridades, el protagonista se adentrará en un oscuro entramado criminal, llevando sus propios límites físicos y morales hasta el extremo.</desc></programme>
   <programme start="20260818190000 -0600" stop="20260818210000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Televistazo</title>
   <desc lang="es">Lo esencial del acontecer nacional e internacional. La cobertura más completa y el análisis que necesitas para entender los hechos que marcan la agenda.</desc></programme>
   <programme start="20260818210000 -0600" stop="20260818220000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Ojitos hechiceros</title>
-  </programme>
+  <desc lang="es">Conmovedora telenovela peruana que sigue la vida de Estrella, una joven soñadora con un talento natural y prodigioso para el cante. A pesar de los constantes obstáculos de su entorno, la envidia y los dramas familiares, luchará incansablemente por abrirse paso en el competitivo mundo de la cumbia y alcanzar el éxito.</desc></programme>
   <programme start="20260818220000 -0600" stop="20260818230000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Los hackers de la farándula</title>
   <desc lang="es">El controversial panel de espectáculos de la televisión local que enciende las redes sociales, dedicado a revelar las exclusivas más candentes, peleas en vivo, chismes de pasillo y secretos ocultos de las celebridades del Ecuador.</desc></programme>
@@ -270667,7 +270667,7 @@ Rina.</desc>
   <desc lang="es">Lo esencial del acontecer nacional e internacional. La cobertura más completa y el análisis que necesitas para entender los hechos que marcan la agenda.</desc></programme>
   <programme start="20260819060000 -0600" stop="20260819070000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Televistazo al amanecer</title>
-  </programme>
+  <desc lang="es">El noticiero matutino pionero de la televisión ecuatoriana que te brinda la información indispensable para arrancar el día. Con un enfoque ágil, reportes del tránsito en vivo, estado del tiempo, cobertura de sucesos de la noche anterior y entrevistas de actualidad, te mantiene al tanto de la agenda del país desde primera hora.</desc></programme>
   <programme start="20260819070000 -0600" stop="20260819073000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Contacto Directo</title>
   <desc lang="es">El espacio periodístico dominical de entrevistas políticas por excelencia, donde se analizan cara a cara los acontecimientos que definen el rumbo del país junto a los principales líderes de opinión, ministros y actores políticos nacionales.</desc></programme>
@@ -270691,13 +270691,13 @@ Rina.</desc>
   <desc lang="es">Espacio comercial televisivo reservado para la emisión de infomerciales publicitarios extendidos, demostraciones de productos domésticos novedosos, suplementos de bienestar y ofertas exclusivas de compras por televisión.</desc></programme>
   <programme start="20260819180000 -0600" stop="20260819190000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">García</title>
-  </programme>
+  <desc lang="es">Impactante película dramática de suspenso que sigue a un hombre común cuyo mundo se desmorona cuando su esposa es secuestrada bajo misteriosas circunstancias. Sin la ayuda de las autoridades, el protagonista se adentrará en un oscuro entramado criminal, llevando sus propios límites físicos y morales hasta el extremo.</desc></programme>
   <programme start="20260819190000 -0600" stop="20260819210000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Televistazo</title>
   <desc lang="es">Lo esencial del acontecer nacional e internacional. La cobertura más completa y el análisis que necesitas para entender los hechos que marcan la agenda.</desc></programme>
   <programme start="20260819210000 -0600" stop="20260819220000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Ojitos hechiceros</title>
-  </programme>
+  <desc lang="es">Conmovedora telenovela peruana que sigue la vida de Estrella, una joven soñadora con un talento natural y prodigioso para el cante. A pesar de los constantes obstáculos de su entorno, la envidia y los dramas familiares, luchará incansablemente por abrirse paso en el competitivo mundo de la cumbia y alcanzar el éxito.</desc></programme>
   <programme start="20260819220000 -0600" stop="20260819230000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Los hackers de la farándula</title>
   <desc lang="es">El controversial panel de espectáculos de la televisión local que enciende las redes sociales, dedicado a revelar las exclusivas más candentes, peleas en vivo, chismes de pasillo y secretos ocultos de las celebridades del Ecuador.</desc></programme>
@@ -270718,7 +270718,7 @@ Rina.</desc>
   <desc lang="es">Lo esencial del acontecer nacional e internacional. La cobertura más completa y el análisis que necesitas para entender los hechos que marcan la agenda.</desc></programme>
   <programme start="20260820060000 -0600" stop="20260820070000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Televistazo al amanecer</title>
-  </programme>
+  <desc lang="es">El noticiero matutino pionero de la televisión ecuatoriana que te brinda la información indispensable para arrancar el día. Con un enfoque ágil, reportes del tránsito en vivo, estado del tiempo, cobertura de sucesos de la noche anterior y entrevistas de actualidad, te mantiene al tanto de la agenda del país desde primera hora.</desc></programme>
   <programme start="20260820070000 -0600" stop="20260820073000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Contacto Directo</title>
   <desc lang="es">El espacio periodístico dominical de entrevistas políticas por excelencia, donde se analizan cara a cara los acontecimientos que definen el rumbo del país junto a los principales líderes de opinión, ministros y actores políticos nacionales.</desc></programme>
@@ -270742,13 +270742,13 @@ Rina.</desc>
   <desc lang="es">Espacio comercial televisivo reservado para la emisión de infomerciales publicitarios extendidos, demostraciones de productos domésticos novedosos, suplementos de bienestar y ofertas exclusivas de compras por televisión.</desc></programme>
   <programme start="20260820180000 -0600" stop="20260820190000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">García</title>
-  </programme>
+  <desc lang="es">Impactante película dramática de suspenso que sigue a un hombre común cuyo mundo se desmorona cuando su esposa es secuestrada bajo misteriosas circunstancias. Sin la ayuda de las autoridades, el protagonista se adentrará en un oscuro entramado criminal, llevando sus propios límites físicos y morales hasta el extremo.</desc></programme>
   <programme start="20260820190000 -0600" stop="20260820210000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Televistazo</title>
   <desc lang="es">Lo esencial del acontecer nacional e internacional. La cobertura más completa y el análisis que necesitas para entender los hechos que marcan la agenda.</desc></programme>
   <programme start="20260820210000 -0600" stop="20260820220000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Ojitos hechiceros</title>
-  </programme>
+  <desc lang="es">Conmovedora telenovela peruana que sigue la vida de Estrella, una joven soñadora con un talento natural y prodigioso para el cante. A pesar de los constantes obstáculos de su entorno, la envidia y los dramas familiares, luchará incansablemente por abrirse paso en el competitivo mundo de la cumbia y alcanzar el éxito.</desc></programme>
   <programme start="20260820220000 -0600" stop="20260820230000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Los hackers de la farándula</title>
   <desc lang="es">El controversial panel de espectáculos de la televisión local que enciende las redes sociales, dedicado a revelar las exclusivas más candentes, peleas en vivo, chismes de pasillo y secretos ocultos de las celebridades del Ecuador.</desc></programme>
@@ -270769,7 +270769,7 @@ Rina.</desc>
   <desc lang="es">Lo esencial del acontecer nacional e internacional. La cobertura más completa y el análisis que necesitas para entender los hechos que marcan la agenda.</desc></programme>
   <programme start="20260821060000 -0600" stop="20260821070000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Televistazo al amanecer</title>
-  </programme>
+  <desc lang="es">El noticiero matutino pionero de la televisión ecuatoriana que te brinda la información indispensable para arrancar el día. Con un enfoque ágil, reportes del tránsito en vivo, estado del tiempo, cobertura de sucesos de la noche anterior y entrevistas de actualidad, te mantiene al tanto de la agenda del país desde primera hora.</desc></programme>
   <programme start="20260821070000 -0600" stop="20260821073000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Contacto Directo</title>
   <desc lang="es">El espacio periodístico dominical de entrevistas políticas por excelencia, donde se analizan cara a cara los acontecimientos que definen el rumbo del país junto a los principales líderes de opinión, ministros y actores políticos nacionales.</desc></programme>
@@ -270793,13 +270793,13 @@ Rina.</desc>
   <desc lang="es">Espacio comercial televisivo reservado para la emisión de infomerciales publicitarios extendidos, demostraciones de productos domésticos novedosos, suplementos de bienestar y ofertas exclusivas de compras por televisión.</desc></programme>
   <programme start="20260821180000 -0600" stop="20260821190000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">García</title>
-  </programme>
+  <desc lang="es">Impactante película dramática de suspenso que sigue a un hombre común cuyo mundo se desmorona cuando su esposa es secuestrada bajo misteriosas circunstancias. Sin la ayuda de las autoridades, el protagonista se adentrará en un oscuro entramado criminal, llevando sus propios límites físicos y morales hasta el extremo.</desc></programme>
   <programme start="20260821190000 -0600" stop="20260821210000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Televistazo</title>
   <desc lang="es">Lo esencial del acontecer nacional e internacional. La cobertura más completa y el análisis que necesitas para entender los hechos que marcan la agenda.</desc></programme>
   <programme start="20260821210000 -0600" stop="20260821220000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Ojitos hechiceros</title>
-  </programme>
+  <desc lang="es">Conmovedora telenovela peruana que sigue la vida de Estrella, una joven soñadora con un talento natural y prodigioso para el cante. A pesar de los constantes obstáculos de su entorno, la envidia y los dramas familiares, luchará incansablemente por abrirse paso en el competitivo mundo de la cumbia y alcanzar el éxito.</desc></programme>
   <programme start="20260821220000 -0600" stop="20260821230000 -0600" channel="Canal.Ecuavisa.Internacional.sv">
     <title lang="es">Los hackers de la farándula</title>
   <desc lang="es">El controversial panel de espectáculos de la televisión local que enciende las redes sociales, dedicado a revelar las exclusivas más candentes, peleas en vivo, chismes de pasillo y secretos ocultos de las celebridades del Ecuador.</desc></programme>
@@ -271162,7 +271162,7 @@ Rina.</desc>
   <desc lang="es">Emocionante drama romántico de época que pone en escena la intensa batalla de una pareja por defender su relación sentimental frente a los prejuicios de clase social, las intrigas de la aristocracia y la codicia de sus propios familiares.</desc></programme>
   <programme start="20260818160000 -0600" stop="20260818170000 -0600" channel="Canal.RTS.sv">
     <title lang="es">Cuando los ángeles caen</title>
-  </programme>
+  <desc lang="es">Emotiva y conmovedora producción cinematográfica de suspenso y drama psicológico que explora los límites de la fe y la redención humana. Un grupo de personajes atrapados en situaciones críticas de vida deberá tomar decisiones trascendentales que cuestionarán sus principios morales en medio de oscuros secretos familiares.</desc></programme>
   <programme start="20260818170000 -0600" stop="20260818180000 -0600" channel="Canal.RTS.sv">
     <title lang="es">Caso Cerrado</title>
   <desc lang="es">La carismática e implacable Dra. Ana María Polo conduce este célebre espacio legal donde se exponen, discuten y resuelven polémicos litigios de la vida real, abarcando desde disputas familiares hasta casos extremos de justicia social.</desc></programme>
@@ -271241,7 +271241,7 @@ Rina.</desc>
   <desc lang="es">Emocionante drama romántico de época que pone en escena la intensa batalla de una pareja por defender su relación sentimental frente a los prejuicios de clase social, las intrigas de la aristocracia y la codicia de sus propios familiares.</desc></programme>
   <programme start="20260819160000 -0600" stop="20260819170000 -0600" channel="Canal.RTS.sv">
     <title lang="es">Cuando los ángeles caen</title>
-  </programme>
+  <desc lang="es">Emotiva y conmovedora producción cinematográfica de suspenso y drama psicológico que explora los límites de la fe y la redención humana. Un grupo de personajes atrapados en situaciones críticas de vida deberá tomar decisiones trascendentales que cuestionarán sus principios morales en medio de oscuros secretos familiares.</desc></programme>
   <programme start="20260819170000 -0600" stop="20260819180000 -0600" channel="Canal.RTS.sv">
     <title lang="es">Caso Cerrado</title>
   <desc lang="es">La carismática e implacable Dra. Ana María Polo conduce este célebre espacio legal donde se exponen, discuten y resuelven polémicos litigios de la vida real, abarcando desde disputas familiares hasta casos extremos de justicia social.</desc></programme>
@@ -271320,7 +271320,7 @@ Rina.</desc>
   <desc lang="es">Emocionante drama romántico de época que pone en escena la intensa batalla de una pareja por defender su relación sentimental frente a los prejuicios de clase social, las intrigas de la aristocracia y la codicia de sus propios familiares.</desc></programme>
   <programme start="20260820160000 -0600" stop="20260820170000 -0600" channel="Canal.RTS.sv">
     <title lang="es">Cuando los ángeles caen</title>
-  </programme>
+  <desc lang="es">Emotiva y conmovedora producción cinematográfica de suspenso y drama psicológico que explora los límites de la fe y la redención humana. Un grupo de personajes atrapados en situaciones críticas de vida deberá tomar decisiones trascendentales que cuestionarán sus principios morales en medio de oscuros secretos familiares.</desc></programme>
   <programme start="20260820170000 -0600" stop="20260820180000 -0600" channel="Canal.RTS.sv">
     <title lang="es">Caso Cerrado</title>
   <desc lang="es">La carismática e implacable Dra. Ana María Polo conduce este célebre espacio legal donde se exponen, discuten y resuelven polémicos litigios de la vida real, abarcando desde disputas familiares hasta casos extremos de justicia social.</desc></programme>
@@ -271399,7 +271399,7 @@ Rina.</desc>
   <desc lang="es">Emocionante drama romántico de época que pone en escena la intensa batalla de una pareja por defender su relación sentimental frente a los prejuicios de clase social, las intrigas de la aristocracia y la codicia de sus propios familiares.</desc></programme>
   <programme start="20260821160000 -0600" stop="20260821170000 -0600" channel="Canal.RTS.sv">
     <title lang="es">Cuando los ángeles caen</title>
-  </programme>
+  <desc lang="es">Emotiva y conmovedora producción cinematográfica de suspenso y drama psicológico que explora los límites de la fe y la redención humana. Un grupo de personajes atrapados en situaciones críticas de vida deberá tomar decisiones trascendentales que cuestionarán sus principios morales en medio de oscuros secretos familiares.</desc></programme>
   <programme start="20260821170000 -0600" stop="20260821180000 -0600" channel="Canal.RTS.sv">
     <title lang="es">Caso Cerrado</title>
   <desc lang="es">La carismática e implacable Dra. Ana María Polo conduce este célebre espacio legal donde se exponen, discuten y resuelven polémicos litigios de la vida real, abarcando desde disputas familiares hasta casos extremos de justicia social.</desc></programme>
@@ -271408,13 +271408,13 @@ Rina.</desc>
   <desc lang="es">Intrincado drama de pasión romántica de origen turco que relata la historia de una pareja forzada a contraer un matrimonio de conveniencia por exigencias de sus clanes familiares, terminando por desatar una tormenta de amor y odio ocultos.</desc></programme>
   <programme start="20260818003000 -0600" stop="20260818004500 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Antuca me enamora</title>
-  </programme>
+  <desc lang="es">Exitosa comedia dramática ecuatoriana que sigue las vivencias cotidianas, amores y enredos de la familia Mena Cano. Centrada en las personalidades únicas de las hermanas Antuca, Chini y Sixta, esta historia combina humor fresco, folklore urbano y situaciones familiares con las que la audiencia se identificará inmediatamente.</desc></programme>
   <programme start="20260818004500 -0600" stop="20260818013000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Antuca me enamora</title>
-  </programme>
+  <desc lang="es">Exitosa comedia dramática ecuatoriana que sigue las vivencias cotidianas, amores y enredos de la familia Mena Cano. Centrada en las personalidades únicas de las hermanas Antuca, Chini y Sixta, esta historia combina humor fresco, folklore urbano y situaciones familiares con las que la audiencia se identificará inmediatamente.</desc></programme>
   <programme start="20260818013000 -0600" stop="20260818020000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Antuca me enamora</title>
-  </programme>
+  <desc lang="es">Exitosa comedia dramática ecuatoriana que sigue las vivencias cotidianas, amores y enredos de la familia Mena Cano. Centrada en las personalidades únicas de las hermanas Antuca, Chini y Sixta, esta historia combina humor fresco, folklore urbano y situaciones familiares con las que la audiencia se identificará inmediatamente.</desc></programme>
   <programme start="20260818020000 -0600" stop="20260818033000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Soy el mejor</title>
   <desc lang="es">El exitoso e impactante show reality de baile más visto de la televisión nacional, donde conocidas personalidades del medio artístico local compiten arduamente en complejas coreografías semanales para ganar el favor de los jueces y cumplir un noble caso social.</desc></programme>
@@ -271456,7 +271456,7 @@ Rina.</desc>
   <desc lang="es">Profunda serie documental que rescata y relata con un enfoque humano las conmovedoras historias de superación personal de ciudadanos comunes que, tras enfrentar tragedias de gran magnitud, lograron salir adelante.</desc></programme>
   <programme start="20260818161500 -0600" stop="20260818173000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Propuesta de amor</title>
-  </programme>
+  <desc lang="es">Apasionante melodrama que gira en torno a un matrimonio por conveniencia pactado para salvar de la quiebra a una importante empresa familiar. A pesar de haber iniciado como un frío acuerdo financiero, las convivencias diarias, los celos y los imprevistos del destino harán surgir una profunda y verdadera historia de pasión.</desc></programme>
   <programme start="20260818173000 -0600" stop="20260818190000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Soy el mejor</title>
   <desc lang="es">El exitoso e impactante show reality de baile más visto de la televisión nacional, donde conocidas personalidades del medio artístico local compiten arduamente en complejas coreografías semanales para ganar el favor de los jueces y cumplir un noble caso social.</desc></programme>
@@ -271468,7 +271468,7 @@ Rina.</desc>
   <desc lang="es">Especial musical de homenaje que profundiza en la trayectoria artística, los videos más recordados, las anécdotas y los más grandes éxitos del eterno e inolvidable 'Rey del Despecho' de la música popular.</desc></programme>
   <programme start="20260818220000 -0600" stop="20260818230000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">El último verano</title>
-  </programme>
+  <desc lang="es">Cautivadora producción dramática que sigue a un grupo de jóvenes durante un verano decisivo en sus vidas. Entre promesas de futuro, amores inesperados, descubrimientos personales y dilemas familiares, los protagonistas vivirán experiencias intensas que los obligarán a madurar y dejar atrás la inocencia de la juventud.</desc></programme>
   <programme start="20260818230000 -0600" stop="20260819000000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Alerta roja</title>
   <desc lang="es">Programa de investigación periodística con un enfoque de alto impacto, dedicado a mostrar reportajes policiales exclusivos, crónicas de rescates extremos, emergencias médicas y el crudo día a día de la seguridad en el país.</desc></programme>
@@ -271477,13 +271477,13 @@ Rina.</desc>
   <desc lang="es">Programa de corte reflexivo, humanitario y de orientación espiritual que expone crudos testimonios de vida, caídas emocionales y caminos de redención moral, invitando a la audiencia a la introspección personal y la práctica de valores humanos.</desc></programme>
   <programme start="20260819003000 -0600" stop="20260819004500 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Antuca me enamora</title>
-  </programme>
+  <desc lang="es">Exitosa comedia dramática ecuatoriana que sigue las vivencias cotidianas, amores y enredos de la familia Mena Cano. Centrada en las personalidades únicas de las hermanas Antuca, Chini y Sixta, esta historia combina humor fresco, folklore urbano y situaciones familiares con las que la audiencia se identificará inmediatamente.</desc></programme>
   <programme start="20260819004500 -0600" stop="20260819013000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Antuca me enamora</title>
-  </programme>
+  <desc lang="es">Exitosa comedia dramática ecuatoriana que sigue las vivencias cotidianas, amores y enredos de la familia Mena Cano. Centrada en las personalidades únicas de las hermanas Antuca, Chini y Sixta, esta historia combina humor fresco, folklore urbano y situaciones familiares con las que la audiencia se identificará inmediatamente.</desc></programme>
   <programme start="20260819013000 -0600" stop="20260819020000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Antuca me enamora</title>
-  </programme>
+  <desc lang="es">Exitosa comedia dramática ecuatoriana que sigue las vivencias cotidianas, amores y enredos de la familia Mena Cano. Centrada en las personalidades únicas de las hermanas Antuca, Chini y Sixta, esta historia combina humor fresco, folklore urbano y situaciones familiares con las que la audiencia se identificará inmediatamente.</desc></programme>
   <programme start="20260819020000 -0600" stop="20260819033000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Soy el mejor</title>
   <desc lang="es">El exitoso e impactante show reality de baile más visto de la televisión nacional, donde conocidas personalidades del medio artístico local compiten arduamente en complejas coreografías semanales para ganar el favor de los jueces y cumplir un noble caso social.</desc></programme>
@@ -271525,7 +271525,7 @@ Rina.</desc>
   <desc lang="es">Profunda serie documental que rescata y relata con un enfoque humano las conmovedoras historias de superación personal de ciudadanos comunes que, tras enfrentar tragedias de gran magnitud, lograron salir adelante.</desc></programme>
   <programme start="20260819161500 -0600" stop="20260819173000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Propuesta de amor</title>
-  </programme>
+  <desc lang="es">Apasionante melodrama que gira en torno a un matrimonio por conveniencia pactado para salvar de la quiebra a una importante empresa familiar. A pesar de haber iniciado como un frío acuerdo financiero, las convivencias diarias, los celos y los imprevistos del destino harán surgir una profunda y verdadera historia de pasión.</desc></programme>
   <programme start="20260819173000 -0600" stop="20260819190000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Soy el mejor</title>
   <desc lang="es">El exitoso e impactante show reality de baile más visto de la televisión nacional, donde conocidas personalidades del medio artístico local compiten arduamente en complejas coreografías semanales para ganar el favor de los jueces y cumplir un noble caso social.</desc></programme>
@@ -271537,7 +271537,7 @@ Rina.</desc>
   <desc lang="es">Especial musical de homenaje que profundiza en la trayectoria artística, los videos más recordados, las anécdotas y los más grandes éxitos del eterno e inolvidable 'Rey del Despecho' de la música popular.</desc></programme>
   <programme start="20260819220000 -0600" stop="20260819230000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">El último verano</title>
-  </programme>
+  <desc lang="es">Cautivadora producción dramática que sigue a un grupo de jóvenes durante un verano decisivo en sus vidas. Entre promesas de futuro, amores inesperados, descubrimientos personales y dilemas familiares, los protagonistas vivirán experiencias intensas que los obligarán a madurar y dejar atrás la inocencia de la juventud.</desc></programme>
   <programme start="20260819230000 -0600" stop="20260820000000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Alerta roja</title>
   <desc lang="es">Programa de investigación periodística con un enfoque de alto impacto, dedicado a mostrar reportajes policiales exclusivos, crónicas de rescates extremos, emergencias médicas y el crudo día a día de la seguridad en el país.</desc></programme>
@@ -271546,13 +271546,13 @@ Rina.</desc>
   <desc lang="es">Programa de corte reflexivo, humanitario y de orientación espiritual que expone crudos testimonios de vida, caídas emocionales y caminos de redención moral, invitando a la audiencia a la introspección personal y la práctica de valores humanos.</desc></programme>
   <programme start="20260820003000 -0600" stop="20260820004500 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Antuca me enamora</title>
-  </programme>
+  <desc lang="es">Exitosa comedia dramática ecuatoriana que sigue las vivencias cotidianas, amores y enredos de la familia Mena Cano. Centrada en las personalidades únicas de las hermanas Antuca, Chini y Sixta, esta historia combina humor fresco, folklore urbano y situaciones familiares con las que la audiencia se identificará inmediatamente.</desc></programme>
   <programme start="20260820004500 -0600" stop="20260820013000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Antuca me enamora</title>
-  </programme>
+  <desc lang="es">Exitosa comedia dramática ecuatoriana que sigue las vivencias cotidianas, amores y enredos de la familia Mena Cano. Centrada en las personalidades únicas de las hermanas Antuca, Chini y Sixta, esta historia combina humor fresco, folklore urbano y situaciones familiares con las que la audiencia se identificará inmediatamente.</desc></programme>
   <programme start="20260820013000 -0600" stop="20260820020000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Antuca me enamora</title>
-  </programme>
+  <desc lang="es">Exitosa comedia dramática ecuatoriana que sigue las vivencias cotidianas, amores y enredos de la familia Mena Cano. Centrada en las personalidades únicas de las hermanas Antuca, Chini y Sixta, esta historia combina humor fresco, folklore urbano y situaciones familiares con las que la audiencia se identificará inmediatamente.</desc></programme>
   <programme start="20260820020000 -0600" stop="20260820033000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Soy el mejor</title>
   <desc lang="es">El exitoso e impactante show reality de baile más visto de la televisión nacional, donde conocidas personalidades del medio artístico local compiten arduamente en complejas coreografías semanales para ganar el favor de los jueces y cumplir un noble caso social.</desc></programme>
@@ -271594,7 +271594,7 @@ Rina.</desc>
   <desc lang="es">Profunda serie documental que rescata y relata con un enfoque humano las conmovedoras historias de superación personal de ciudadanos comunes que, tras enfrentar tragedias de gran magnitud, lograron salir adelante.</desc></programme>
   <programme start="20260820161500 -0600" stop="20260820173000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Propuesta de amor</title>
-  </programme>
+  <desc lang="es">Apasionante melodrama que gira en torno a un matrimonio por conveniencia pactado para salvar de la quiebra a una importante empresa familiar. A pesar de haber iniciado como un frío acuerdo financiero, las convivencias diarias, los celos y los imprevistos del destino harán surgir una profunda y verdadera historia de pasión.</desc></programme>
   <programme start="20260820173000 -0600" stop="20260820190000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Soy el mejor</title>
   <desc lang="es">El exitoso e impactante show reality de baile más visto de la televisión nacional, donde conocidas personalidades del medio artístico local compiten arduamente en complejas coreografías semanales para ganar el favor de los jueces y cumplir un noble caso social.</desc></programme>
@@ -271606,7 +271606,7 @@ Rina.</desc>
   <desc lang="es">Especial musical de homenaje que profundiza en la trayectoria artística, los videos más recordados, las anécdotas y los más grandes éxitos del eterno e inolvidable 'Rey del Despecho' de la música popular.</desc></programme>
   <programme start="20260820220000 -0600" stop="20260820230000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">El último verano</title>
-  </programme>
+  <desc lang="es">Cautivadora producción dramática que sigue a un grupo de jóvenes durante un verano decisivo en sus vidas. Entre promesas de futuro, amores inesperados, descubrimientos personales y dilemas familiares, los protagonistas vivirán experiencias intensas que los obligarán a madurar y dejar atrás la inocencia de la juventud.</desc></programme>
   <programme start="20260820230000 -0600" stop="20260821000000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Alerta roja</title>
   <desc lang="es">Programa de investigación periodística con un enfoque de alto impacto, dedicado a mostrar reportajes policiales exclusivos, crónicas de rescates extremos, emergencias médicas y el crudo día a día de la seguridad en el país.</desc></programme>
@@ -271615,13 +271615,13 @@ Rina.</desc>
   <desc lang="es">Programa de corte reflexivo, humanitario y de orientación espiritual que expone crudos testimonios de vida, caídas emocionales y caminos de redención moral, invitando a la audiencia a la introspección personal y la práctica de valores humanos.</desc></programme>
   <programme start="20260821003000 -0600" stop="20260821004500 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Antuca me enamora</title>
-  </programme>
+  <desc lang="es">Exitosa comedia dramática ecuatoriana que sigue las vivencias cotidianas, amores y enredos de la familia Mena Cano. Centrada en las personalidades únicas de las hermanas Antuca, Chini y Sixta, esta historia combina humor fresco, folklore urbano y situaciones familiares con las que la audiencia se identificará inmediatamente.</desc></programme>
   <programme start="20260821004500 -0600" stop="20260821013000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Antuca me enamora</title>
-  </programme>
+  <desc lang="es">Exitosa comedia dramática ecuatoriana que sigue las vivencias cotidianas, amores y enredos de la familia Mena Cano. Centrada en las personalidades únicas de las hermanas Antuca, Chini y Sixta, esta historia combina humor fresco, folklore urbano y situaciones familiares con las que la audiencia se identificará inmediatamente.</desc></programme>
   <programme start="20260821013000 -0600" stop="20260821020000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Antuca me enamora</title>
-  </programme>
+  <desc lang="es">Exitosa comedia dramática ecuatoriana que sigue las vivencias cotidianas, amores y enredos de la familia Mena Cano. Centrada en las personalidades únicas de las hermanas Antuca, Chini y Sixta, esta historia combina humor fresco, folklore urbano y situaciones familiares con las que la audiencia se identificará inmediatamente.</desc></programme>
   <programme start="20260821020000 -0600" stop="20260821033000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Soy el mejor</title>
   <desc lang="es">El exitoso e impactante show reality de baile más visto de la televisión nacional, donde conocidas personalidades del medio artístico local compiten arduamente en complejas coreografías semanales para ganar el favor de los jueces y cumplir un noble caso social.</desc></programme>
@@ -271663,7 +271663,7 @@ Rina.</desc>
   <desc lang="es">Profunda serie documental que rescata y relata con un enfoque humano las conmovedoras historias de superación personal de ciudadanos comunes que, tras enfrentar tragedias de gran magnitud, lograron salir adelante.</desc></programme>
   <programme start="20260821161500 -0600" stop="20260821173000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Propuesta de amor</title>
-  </programme>
+  <desc lang="es">Apasionante melodrama que gira en torno a un matrimonio por conveniencia pactado para salvar de la quiebra a una importante empresa familiar. A pesar de haber iniciado como un frío acuerdo financiero, las convivencias diarias, los celos y los imprevistos del destino harán surgir una profunda y verdadera historia de pasión.</desc></programme>
   <programme start="20260821173000 -0600" stop="20260821190000 -0600" channel="Canal.TC.Televisión.sv">
     <title lang="es">Soy el mejor</title>
   <desc lang="es">El exitoso e impactante show reality de baile más visto de la televisión nacional, donde conocidas personalidades del medio artístico local compiten arduamente en complejas coreografías semanales para ganar el favor de los jueces y cumplir un noble caso social.</desc></programme>
@@ -272458,7 +272458,7 @@ Rina.</desc>
   </programme>
   <programme start="20260818170000 -0600" stop="20260818180000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Papás por siempre</title>
-  </programme>
+  <desc lang="es">Una divertida y entrañable serie de comedia que explora las alegrías, los caóticos retos y las divertidas torpezas de un grupo de padres modernos al criar a sus hijos. A través de vivencias cotidianas, reuniones escolares y enredos familiares, la producción muestra con humor y calidez la hermosa aventura de la paternidad.</desc></programme>
   <programme start="20260818180000 -0600" stop="20260818190000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">100 Ecuatorianos dicen</title>
   <desc lang="es">Divertido y dinámico programa de concursos familiar donde dos equipos compiten cara a cara por adivinar las respuestas más populares de los ciudadanos ecuatorianos ante preguntas de cultura general y situaciones cotidianas.</desc></programme>
@@ -272467,7 +272467,7 @@ Rina.</desc>
   <desc lang="es">Emisión estelar del noticiero principal de la cadena, ofreciendo un desglose profundo, reportajes de investigación y un análisis crítico de los acontecimientos políticos, económicos y sociales que marcan la agenda del Ecuador y el mundo.</desc></programme>
   <programme start="20260818200000 -0600" stop="20260818213000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Nuevo rico, nuevo pobre</title>
-  </programme>
+  <desc lang="es">La exitosa y divertidísima telenovela colombiana que narra las peripecias de Brayan Galindo y Andrés Ferreira, dos hombres de clases sociales totalmente opuestas que descubren que fueron intercambiados al nacer en el hospital. De la noche a la mañana, ambos deberán adaptarse a sus nuevas y disparatadas vidas.</desc></programme>
   <programme start="20260818213000 -0600" stop="20260818220000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">El After</title>
   <desc lang="es">El debate deportivo no termina con el silbato final. Este espacio analiza con soltura y de forma relajada todo lo que dejó la jornada del fútbol, repasando el color de las tribunas, las declaraciones más curiosas, los memes del día y las polémicas desde un enfoque entretenido ideal para cerrar la noche.</desc></programme>
@@ -272655,7 +272655,7 @@ Rina.</desc>
   </programme>
   <programme start="20260819170000 -0600" stop="20260819180000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Papás por siempre</title>
-  </programme>
+  <desc lang="es">Una divertida y entrañable serie de comedia que explora las alegrías, los caóticos retos y las divertidas torpezas de un grupo de padres modernos al criar a sus hijos. A través de vivencias cotidianas, reuniones escolares y enredos familiares, la producción muestra con humor y calidez la hermosa aventura de la paternidad.</desc></programme>
   <programme start="20260819180000 -0600" stop="20260819190000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">100 Ecuatorianos dicen</title>
   <desc lang="es">Divertido y dinámico programa de concursos familiar donde dos equipos compiten cara a cara por adivinar las respuestas más populares de los ciudadanos ecuatorianos ante preguntas de cultura general y situaciones cotidianas.</desc></programme>
@@ -272664,7 +272664,7 @@ Rina.</desc>
   <desc lang="es">Emisión estelar del noticiero principal de la cadena, ofreciendo un desglose profundo, reportajes de investigación y un análisis crítico de los acontecimientos políticos, económicos y sociales que marcan la agenda del Ecuador y el mundo.</desc></programme>
   <programme start="20260819200000 -0600" stop="20260819213000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Nuevo rico, nuevo pobre</title>
-  </programme>
+  <desc lang="es">La exitosa y divertidísima telenovela colombiana que narra las peripecias de Brayan Galindo y Andrés Ferreira, dos hombres de clases sociales totalmente opuestas que descubren que fueron intercambiados al nacer en el hospital. De la noche a la mañana, ambos deberán adaptarse a sus nuevas y disparatadas vidas.</desc></programme>
   <programme start="20260819213000 -0600" stop="20260819220000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">El After</title>
   <desc lang="es">El debate deportivo no termina con el silbato final. Este espacio analiza con soltura y de forma relajada todo lo que dejó la jornada del fútbol, repasando el color de las tribunas, las declaraciones más curiosas, los memes del día y las polémicas desde un enfoque entretenido ideal para cerrar la noche.</desc></programme>
@@ -272852,7 +272852,7 @@ Rina.</desc>
   </programme>
   <programme start="20260820170000 -0600" stop="20260820180000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Papás por siempre</title>
-  </programme>
+  <desc lang="es">Una divertida y entrañable serie de comedia que explora las alegrías, los caóticos retos y las divertidas torpezas de un grupo de padres modernos al criar a sus hijos. A través de vivencias cotidianas, reuniones escolares y enredos familiares, la producción muestra con humor y calidez la hermosa aventura de la paternidad.</desc></programme>
   <programme start="20260820180000 -0600" stop="20260820190000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">100 Ecuatorianos dicen</title>
   <desc lang="es">Divertido y dinámico programa de concursos familiar donde dos equipos compiten cara a cara por adivinar las respuestas más populares de los ciudadanos ecuatorianos ante preguntas de cultura general y situaciones cotidianas.</desc></programme>
@@ -272861,7 +272861,7 @@ Rina.</desc>
   <desc lang="es">Emisión estelar del noticiero principal de la cadena, ofreciendo un desglose profundo, reportajes de investigación y un análisis crítico de los acontecimientos políticos, económicos y sociales que marcan la agenda del Ecuador y el mundo.</desc></programme>
   <programme start="20260820200000 -0600" stop="20260820213000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Nuevo rico, nuevo pobre</title>
-  </programme>
+  <desc lang="es">La exitosa y divertidísima telenovela colombiana que narra las peripecias de Brayan Galindo y Andrés Ferreira, dos hombres de clases sociales totalmente opuestas que descubren que fueron intercambiados al nacer en el hospital. De la noche a la mañana, ambos deberán adaptarse a sus nuevas y disparatadas vidas.</desc></programme>
   <programme start="20260820213000 -0600" stop="20260820220000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Enchufe TV</title>
   <desc lang="es">La exitosa producción ecuatoriana de comedia de sketches que se convirtió en un fenómeno global en las plataformas digitales. Disfruta de las situaciones más absurdas de la vida cotidiana, las dinámicas familiares, los noviazgos y los enredos estudiantiles retratados con un humor ágil, original y con la inconfundible chispa local.</desc></programme>
@@ -273051,5 +273051,5 @@ Rina.</desc>
   </programme>
   <programme start="20260821170000 -0600" stop="20260821180000 -0600" channel="Canal.Teleamazonas.sv">
     <title lang="es">Papás por siempre</title>
-  </programme>
+  <desc lang="es">Una divertida y entrañable serie de comedia que explora las alegrías, los caóticos retos y las divertidas torpezas de un grupo de padres modernos al criar a sus hijos. A través de vivencias cotidianas, reuniones escolares y enredos familiares, la producción muestra con humor y calidez la hermosa aventura de la paternidad.</desc></programme>
   </tv>
