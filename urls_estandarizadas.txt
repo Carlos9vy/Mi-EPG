@@ -256,6 +256,7 @@ Zoom.co = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar
 amcseries = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/amcseries.png
 avilatv = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/avilatv.png
 beINSportsXtraEspanol.us = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/beINSportsXtraEspanol.us.png
+cisnetv = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/cisnetv.png
 ecdf = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/ecdf.png
 film&arts.co = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/film&arts.co.png
 heinow = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/heinow.png
