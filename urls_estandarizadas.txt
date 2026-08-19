@@ -261,5 +261,6 @@ ecdf = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/ec
 film&arts.co = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/film&arts.co.png
 heinow = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/heinow.png
 ligaproec = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/ligaproec.png
+nitro = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/nitro.png
 telerama = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/telerama.png
 venevision = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/venevision.png
