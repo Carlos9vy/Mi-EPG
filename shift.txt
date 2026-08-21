@@ -5,3 +5,11 @@ Canal.TUDN.(México).sv,-1
 Sony.mx,+1
 Canal.Teleamazonas.sv,-1
 Canal.Ecuavisa.(Ecuador).sv,-1
+Canal.Ecuavisa.Internacional.sv,-1
+Canal.RTS.sv,-1
+Canal.TC.Televisión.sv,-1
+Canal.Ecuador.TV.sv,-1
+Canal.Gamavisión.sv,-1
+
+
+
