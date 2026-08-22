@@ -150,6 +150,13 @@ GoldenPremier.mx
 GoldenPremier2.mx
 GolfChannel.ec
 GolfChannel.co
+HBO2.gt
+HBOFamily.gt
+HBOMundi.gt
+HBOOeste.gt
+HBOPlusPanregional.gt
+HBOSignature.gt
+HBOXtreme.gt
 HBO.ec
 HBO.co
 HBO.cl
