@@ -10,6 +10,12 @@ Canal.RTS.sv,-1
 Canal.TC.Televisión.sv,-1
 Canal.Ecuador.TV.sv,-1
 Canal.Gamavisión.sv,-1
+ESPN.mx,-1
+ESPN 2.mx,-1
+ESPN 3.mx,-1
+ESPN 4.mx,-1
+Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv,-1
+
 
 
 
