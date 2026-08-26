@@ -129,7 +129,8 @@ def run():
         is_open_epg_url = "open-epg.com" in url
         try:
             print(f"Descargando fuente: {url}")
-            r = requests.get(url, timeout=60)
+            # Timeout optimizado a 15 segundos para evitar cuelgues del runner
+            r = requests.get(url, timeout=15)
             data = r.content
             
             if url.endswith(".gz"):
@@ -170,9 +171,7 @@ def run():
                         is_desc_empty = (desc_element is not None and not str(desc_element.text).strip()) or (desc_element is None)
 
                         if is_desc_empty and p_channel_clean in allowed_ia_channels and p_title in database_descriptions:
-                            # Conseguir la descripción desde la base de datos fija
                             raw_db_desc = database_descriptions[p_title]
-                            # Escapar de forma estricta los caracteres para prevenir roturas en el XML final
                             safe_db_desc = escape(raw_db_desc)
                             
                             if desc_element is None:
@@ -196,6 +195,9 @@ def run():
                         
                         programmes_found.append(p)
                     
+        except requests.exceptions.Timeout:
+            print(f"⚠️ Aviso: La fuente {url} tardó demasiado en responder (Timeout). Saltando...")
+            continue
         except Exception as e:
             print(f"Error procesando {url}: {e}")
 
