@@ -1,18 +1,18 @@
-name: Limpieza Automática de Historial
+name: Limpieza Profunda de Historial
 
 on:
   schedule:
-    - cron: '0 0 */3 * *' # Se ejecuta automáticamente cada 3 días a medianoche (UTC)
-  workflow_dispatch: # Permite lanzarlo manualmente cuando quieras desde la web
+    - cron: '0 0 */3 * *' # Se ejecuta cada 3 días automáticamente
+  workflow_dispatch: # Para lanzarlo manualmente cuando quieras
 
 jobs:
   delete_runs:
     runs-on: ubuntu-latest
     steps:
-      - name: Borrar ejecuciones antiguas
+      - name: Borrar todas las ejecuciones antiguas
         uses: Mattraks/delete-workflow-runs@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
-          retain_days: 1      # Mantiene únicamente el registro del último día y borra todo lo anterior
-          keep_minimum_runs: 3 # Deja siempre guardadas al menos las últimas 3 ejecuciones de respaldo
+          retain_days: 0      # Borra todo lo que tenga más de 0 días de antigüedad
+          keep_minimum_runs: 1 # Mantiene únicamente la última ejecución exitosa de respaldo por workflow
