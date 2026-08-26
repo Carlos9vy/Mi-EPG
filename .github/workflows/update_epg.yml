@@ -2,8 +2,13 @@ name: Actualizador Diario de EPG
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Se ejecuta todos los días a las 00:00 UTC
+    - cron: '0 10 * * *' # Se ejecuta todos los días a las 10:00 UTC (5:00 a.m. en Ecuador)
   workflow_dispatch: # Permite ejecutarlo manualmente desde la web
+
+# Control de concurrencia: Evita colas atascadas cancelando ejecuciones anteriores si se lanza una nueva
+concurrency:
+  group: update-epg-actions
+  cancel-in-progress: true
 
 jobs:
   build:
