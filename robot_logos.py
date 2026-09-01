@@ -61,13 +61,19 @@ def estandarizar_logos():
                         # Convertir a RGBA para canales de transparencia completos
                         img = img.convert("RGBA")
                         
+                        # Recortar espacios vacíos (arriba, abajo, izquierda y derecha)
+                        # getbbox() analiza los píxeles no transparentes (o no uniformes) y devuelve los límites (izq, sup, der, inf)
+                        caja_recorte = img.getbbox()
+                        if caja_recorte:
+                            img = img.crop(caja_recorte)
+                        
                         # Cambiar tamaño de forma proporcional (Filtro Lanczos de alta nitidez)
                         img.thumbnail(TAMANO_ESTANDAR, Image.Resampling.LANCZOS)
                         
                         # Crear lienzo nuevo transparente de 400x225
                         lienzo_nuevo = Image.new("RGBA", TAMANO_ESTANDAR, (0, 0, 0, 0))
                         
-                        # Calcular coordenadas para centrar perfectamente el logo
+                        # Calcular coordenadas para centrar perfectamente el logo ya recortado
                         posicion_x = (TAMANO_ESTANDAR[0] - img.size[0]) // 2
                         posicion_y = (TAMANO_ESTANDAR[1] - img.size[1]) // 2
                         
@@ -82,12 +88,12 @@ def estandarizar_logos():
                     
                     # Escribir línea en formato estándar: NombreCanal = URL
                     f_urls.write(f"{nombre_base} = {url_logo}\n")
-                    print(f"✔ Procesado: {nuevo_nombre}")
+                    print(f"✔ Procesado y recortado: {nuevo_nombre}")
                     
                 except Exception as e:
                     print(f"❌ Error al procesar {archivo}: {e}")
 
 if __name__ == "__main__":
-    print("=== INICIANDO ROBOT DE OPTIMIZACIÓN DE LOGOS ===")
+    print("=== INICIANDO ROBOT DE OPTIMIZACIÓN Y RECORTE DE LOGOS ===")
     estandarizar_logos()
     print("=== PROCESO FINALIZADO CON ÉXITO ===")
