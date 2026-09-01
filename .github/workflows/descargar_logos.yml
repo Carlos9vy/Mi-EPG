@@ -6,7 +6,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # Permisos necesarios para que el robot pueda escribir archivos en tu repo
     permissions:
       contents: write
 
@@ -20,7 +19,7 @@ jobs:
           python-version: '3.x'
 
       - name: Instalar librerías
-        run: pip install requests
+        run: pip install requests pillow
 
       - name: Ejecutar script de procesamiento
         run: |
@@ -28,9 +27,9 @@ jobs:
           import os
           import requests
           import urllib.parse
+          from PIL import Image
+          import io
 
-          # --- CONFIGURACIÓN ---
-          # El robot detecta automáticamente tu usuario y repo
           repo_full = os.getenv('GITHUB_REPOSITORY') 
           lista_entrada = "lista_logos_canales.txt"
           carpeta_logos = "logos"
@@ -48,25 +47,23 @@ jobs:
                       tvg_id = partes[0].strip()
                       url_original = partes[1].strip()
                       
-                      # Nombre de archivo limpio para evitar errores en la TV LG
                       nombre_archivo = f"{tvg_id}.png".replace(" ", "_")
                       ruta_archivo = os.path.join(carpeta_logos, nombre_archivo)
                       
                       try:
-                          print(f"Descargando: {tvg_id}")
+                          print(f"Descargando y preparando: {tvg_id}")
                           r = requests.get(url_original, timeout=15)
                           if r.status_code == 200:
+                              # Opcional: O si prefieres que el script de python procese de golpe, 
+                              # puedes recortar aquí mismo o dejar que robot_logos.py lo haga.
                               with open(ruta_archivo, 'wb') as img:
                                   img.write(r.content)
                               
-                              # Generamos la URL RAW de tu GitHub
-                              # Reemplazamos caracteres raros para que la URL sea válida
                               url_raw = f"https://raw.githubusercontent.com/{repo_full}/main/{carpeta_logos}/{urllib.parse.quote(nombre_archivo)}"
                               nuevas_lineas.append(f"{tvg_id} -> {url_raw}\n")
                       except Exception as e:
                           print(f"Error con {tvg_id}: {e}")
 
-          # Guardar el nuevo archivo con todas las URLs juntas
           with open(lista_salida, 'w', encoding='utf-8') as f_out:
               f_out.writelines(nuevas_lineas)
           EOF
@@ -76,5 +73,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "LogoRobot"
           git add logos/*.png mis_nuevas_urls.txt
-          git commit -m "Robot: Logos descargados y lista de URLs generada" || exit 0
+          git commit -m "Robot: Logos descargados, recortados y lista de URLs generada" || exit 0
           git push
