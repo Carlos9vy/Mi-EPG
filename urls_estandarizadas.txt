@@ -131,6 +131,7 @@ FOXSportsConoSur.ar = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/lo
 FRANCE24.uy = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/FRANCE24.uy.png
 FX.co = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/FX.co.png
 FoxLogo = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/FoxLogo.png
+Free_Accion = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/Free_Accion.png
 Gamavision.ec = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/Gamavision.ec.png
 Golden.mx = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/Golden.mx.png
 GoldenEdge.mx = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/GoldenEdge.mx.png
