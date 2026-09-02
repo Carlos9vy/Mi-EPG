@@ -1,3 +1,17 @@
 CGTN Documentary.es (open-epg.com)
+Canal.5.de.México.(XHGC).sv
+Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv
+Canal.ESPN.Premium.(Chile).sv
+Canal.Ecuador.TV.sv
+Canal.Ecuavisa.(Ecuador).sv
+Canal.Ecuavisa.Internacional.sv
+Canal.Gamavisión.sv
+Canal.RTS.sv
+Canal.TC.Televisión.sv
+Canal.TUDN.(Centroamérica).sv
+Canal.TUDN.(Estados.Unidos).sv
+Canal.TUDN.(México).sv
+Canal.Teleamazonas.sv
+Canal.Tigo.Sports.(Guatemala).sv
 ESPN PREMIUM HD.ar (open-epg.com)
 TNT SPORTS PREMIUM.ar (open-epg.com)
