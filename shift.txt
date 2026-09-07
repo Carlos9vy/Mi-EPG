@@ -2,7 +2,6 @@ WarnerChannel.co,-0.75
 GoldenEdge.mx,-1.5
 Golden.mx,-0.5
 Canal.TUDN.(México).sv,-1
-Sony.mx,+1
 Canal.Teleamazonas.sv,-1
 Canal.Ecuavisa.(Ecuador).sv,-1
 Canal.Ecuavisa.Internacional.sv,-1
