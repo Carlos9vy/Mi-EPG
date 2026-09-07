@@ -140,10 +140,6 @@
     <display-name>CL - Rai Italia</display-name>
     <icon src="https://iptv-epg.org/images/mR7Fw-_cSKVojfoalNPfG83ZQ7E640_VuOrwgkRwlsZqPmx4E547iNgPxMFBc4RRf_gk8wgDXdP2dSH8jtNjH7f1nTwRlqWMg-3ZejPZLbVT" />
   </channel>
-  <channel id="Sony.cl">
-    <display-name>CL - Sony</display-name>
-    <icon src="https://iptv-epg.org/images/bqFHHg8MgT0QkHHpb-sCH0fDHZq3c4teFZ5KFBEUPIR7usCqtPWW6lDSc_suCOdeHWIlWW4UK1_lIkVNLIwMaXJhHoneLShYDMX5CQ" />
-  </channel>
   <channel id="Space.cl">
     <display-name>CL - Space</display-name>
     <icon src="https://iptv-epg.org/images/js5WBM_RBp0faF6phe5DkIVEOwCKVY8PdPLWSnHJHdam4-ey6H70xAc3G5MOEqf_EYt3FkO9bhiD25-pA7RUbVMdWPIvobt0kDVENIM" />
@@ -344,6 +340,10 @@
   <channel id="RCN.co">
     <display-name>CO - RCN</display-name>
     <icon src="https://iptv-epg.org/images/SN79XoVvdCmyyoYq7bDNHCPLEkWWlWuSqaqA0uMvhe3On1ddyY4d1FcRUnjsdQ0rDGHwILEP0Vy-qDETD1CRrvbuzH5IRSThqqoavptb" />
+  </channel>
+  <channel id="Sony.co">
+    <display-name>CO - Sony</display-name>
+    <icon src="https://iptv-epg.org/images/blfLBaGweNQo_JlspwS5-I_kqR7dlz4vKNRvmX1CuXHo8ZwlZITp1KNRxXTJjJCnLGFL5Kto3bKsYcGtAKGsKNgGFrgV0tuoe_OF-eqyOw" />
   </channel>
   <channel id="TCM.co">
     <display-name>CO - TCM</display-name>
@@ -22272,366 +22272,6 @@ Este programao buscará entretener tus tardes con diversos temas que van desde l
 Macarena Pizarro y Daniel Matamala presentan el noticiero más creíble del país. Coberturas, notas y reportajes a fondo para estar informado con todo lo que ocurrió durante la jornada.</desc>
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">CHV noticias Central</title>
-  </programme>
-  <programme start="20260906220000 +0000" stop="20260906230000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260906230000 +0000" stop="20260907000000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907000000 +0000" stop="20260907010000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907010000 +0000" stop="20260907020000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907020000 +0000" stop="20260907030000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907030000 +0000" stop="20260907040000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907040000 +0000" stop="20260907050000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907050000 +0000" stop="20260907060000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907060000 +0000" stop="20260907070000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907070000 +0000" stop="20260907080000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907080000 +0000" stop="20260907090000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907090000 +0000" stop="20260907100000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907100000 +0000" stop="20260907110000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907110000 +0000" stop="20260907120000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907120000 +0000" stop="20260907130000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907130000 +0000" stop="20260907140000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907140000 +0000" stop="20260907150000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907150000 +0000" stop="20260907160000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907160000 +0000" stop="20260907170000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907170000 +0000" stop="20260907180000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907180000 +0000" stop="20260907190000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907190000 +0000" stop="20260907200000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907200000 +0000" stop="20260907210000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907210000 +0000" stop="20260907220000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907220000 +0000" stop="20260907230000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260907230000 +0000" stop="20260908000000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908000000 +0000" stop="20260908010000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908010000 +0000" stop="20260908020000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908020000 +0000" stop="20260908030000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908030000 +0000" stop="20260908040000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908040000 +0000" stop="20260908050000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908050000 +0000" stop="20260908060000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908060000 +0000" stop="20260908070000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908070000 +0000" stop="20260908080000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908080000 +0000" stop="20260908090000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908090000 +0000" stop="20260908100000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908100000 +0000" stop="20260908110000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908110000 +0000" stop="20260908120000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908120000 +0000" stop="20260908130000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908130000 +0000" stop="20260908140000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908140000 +0000" stop="20260908150000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908150000 +0000" stop="20260908160000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908160000 +0000" stop="20260908170000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908170000 +0000" stop="20260908180000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908180000 +0000" stop="20260908190000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908190000 +0000" stop="20260908200000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908200000 +0000" stop="20260908210000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908210000 +0000" stop="20260908220000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908220000 +0000" stop="20260908230000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260908230000 +0000" stop="20260909000000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909000000 +0000" stop="20260909010000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909010000 +0000" stop="20260909020000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909020000 +0000" stop="20260909030000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909030000 +0000" stop="20260909040000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909040000 +0000" stop="20260909050000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909050000 +0000" stop="20260909060000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909060000 +0000" stop="20260909070000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909070000 +0000" stop="20260909080000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909080000 +0000" stop="20260909090000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909090000 +0000" stop="20260909100000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909100000 +0000" stop="20260909110000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909110000 +0000" stop="20260909120000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909120000 +0000" stop="20260909130000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909130000 +0000" stop="20260909140000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909140000 +0000" stop="20260909150000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909150000 +0000" stop="20260909160000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909160000 +0000" stop="20260909170000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909170000 +0000" stop="20260909180000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909180000 +0000" stop="20260909190000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909190000 +0000" stop="20260909200000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909200000 +0000" stop="20260909210000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20260909210000 +0000" stop="20260909220000 +0000" channel="Sony.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20260906220000 +0000" stop="20260906230000 +0000" channel="StudioUniversal.cl">
     <title>No Data</title>
@@ -67623,6 +67263,906 @@ Una serie que presenta el día a día de un hospital y el drama de sus empleados
 Un repaso nocturno por los acontecimientos más relevantes de la jornada, con toda la información a nivel nacional e internacional.</desc>
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">Noticias late</title>
+  </programme>
+  <programme start="20260906002500 +0000" stop="20260906025500 +0000" channel="Sony.co">
+    <category lang="es">Acción</category>
+    <credits>
+      <director>Antoine Fuqua</director>
+      <actor>Denzel Washington</actor>
+      <actor>Marton Csokas</actor>
+      <actor>David Harbour</actor>
+      <actor>Haley Bennett</actor>
+      <actor>Bill Pullman</actor>
+    </credits>
+    <date>2014</date>
+    <desc lang="es">McCall está convencido de haber dejado atrás su misterioso pasado y ahora se dedica a construir una vida nueva y tranquila. Pero cuando conoce a una joven que está en manos de gánsteres rusos ultra violentos, se sentirá obligado a ayudarla.</desc>
+    <icon src="https://iptv-epg.org/images/0yH7EOquK2jfn_hYqqYGX4CM8XLAjz0IrSY_XdkRfVg9o7uJc5dZTX8u8tZLTiCLuUGBUvPoPigLSWYWa-Pj3P2rJ7lzAI4XrKuss3F35r36fQF5Ds_thR1dh5Eo" />
+    <title lang="es">El justiciero</title>
+    <title lang="en">The Equalizer</title>
+  </programme>
+  <programme start="20260906025500 +0000" stop="20260906050500 +0000" channel="Sony.co">
+    <category lang="es">Acción</category>
+    <credits>
+      <director>Antoine Fuqua</director>
+      <actor>Denzel Washington</actor>
+      <actor>Pedro Pascal</actor>
+      <actor>Bill Pullman</actor>
+      <actor>Melissa Leo</actor>
+      <actor>Ashton Sanders</actor>
+    </credits>
+    <date>2018</date>
+    <desc lang="es">Robert McCall se entera de que una de sus amigas, Susan, ha sido asesinada. McCall decide volver a sus viejos métodos y buscar, encontrar y castigar a los perpetradores.</desc>
+    <icon src="https://iptv-epg.org/images/0GWfQv2j-xe7ldy2bKmYHXudquNiiTE1BwTnbTnfDLZHQEqfn7qXcp_KSe-zUq3LHKcmTfsSPmqDuM_HcKk4vRjSsP8-d58Uv7dtfgLlpdI1LsvCL5zLJmLUHKdX-k8" />
+    <title lang="es">El justiciero 2</title>
+    <title lang="en">The Equalizer 2</title>
+  </programme>
+  <programme start="20260906050500 +0000" stop="20260906072000 +0000" channel="Sony.co">
+    <category lang="es">Suspenso</category>
+    <credits>
+      <director>Phillip Noyce</director>
+      <actor>Denzel Washington</actor>
+      <actor>Angelina Jolie</actor>
+      <actor>Luis Guzmán</actor>
+      <actor>Bobby Cannavale</actor>
+      <actor>Mike McGlone</actor>
+    </credits>
+    <date>1999</date>
+    <desc lang="es">Lincoln Rhyme es un criminalista forense que quedó discapacitado mientras servía en el ejército. Cuando se suceden varios y curiosos asesinatos, deberá trabajar junto a Amelia, una joven oficial de policía, para encontrar al culpable.</desc>
+    <icon src="https://iptv-epg.org/images/_opl8_gRxVuHRDU9ILp2j1jeVJGU_KQo0ByhPUfxG707atvRkaMqa2I5fLWsutdZPEgogrnF52m6hk6htQhle7Tt4C9xQ5uepHWV9ucd6R6DhB_ilmTeamjeeZYn4AClgJVC_eAPSI8J2w" />
+    <title lang="es">El coleccionista de huesos</title>
+    <title lang="en">The Bone Collector</title>
+  </programme>
+  <programme start="20260906072000 +0000" stop="20260906075000 +0000" channel="Sony.co">
+    <desc lang="es">S7 E17 — Shovel Off to Buffalo.
+Fans se reúnen en Sugarbaker's cuando el rostro de Elvis aparece en una pala de nieve de Mary Jo, quien atrae la atención de un experto en "paraespectáculos", especialmente cuando aparentemente restaura la audición dañada de su vecino.</desc>
+    <episode-num>S7 E17</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Chicas con clase</title>
+    <title lang="en">Designing Women</title>
+  </programme>
+  <programme start="20260906075000 +0000" stop="20260906082000 +0000" channel="Sony.co">
+    <desc lang="es">S7 E18 — It's Not So Easy Being Green.
+El amigo de Etienne los visita y parece que Etienne y "Punch" tienen mucho en común y comparten muchos recuerdos. Anthony se pone celoso e intenta ser amable con su amistad.</desc>
+    <episode-num>S7 E18</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Chicas con clase</title>
+    <title lang="en">Designing Women</title>
+  </programme>
+  <programme start="20260906082000 +0000" stop="20260906091000 +0000" channel="Sony.co">
+    <desc lang="es">S9 E8 — Übergriffe.
+Rike teme por Oliver Weiss, que resulta herido durante una operación. Cuando su vida está fuera de peligro, ella se da cuenta de que ya no tiene planificación familiar. ¿Ella acepta eso?</desc>
+    <episode-num>S9 E8</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Bettys Diagnose</title>
+  </programme>
+  <programme start="20260906091000 +0000" stop="20260906100000 +0000" channel="Sony.co">
+    <desc lang="es">S9 E9 — Findelkind.
+Rike Köhler no puede aceptar que Oliver Weiss haya terminado por completo la planificación familiar y haya tomado una decisión.</desc>
+    <episode-num>S9 E9</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Bettys Diagnose</title>
+  </programme>
+  <programme start="20260906100000 +0000" stop="20260906110000 +0000" channel="Sony.co">
+    <desc lang="es">S3 E2 — Deudas.
+El doctor Marcus Andrews promete ayudar a un buen samaritano que resultó herido al detener una agresión sexual. Por otro lado, la doctora Audrey Lim enfrenta una decisión difícil.</desc>
+    <episode-num>S3 E2</episode-num>
+    <icon src="https://iptv-epg.org/images/daezR6e5dJ21iNz9Y6tJqEplfaaiSusyUrHqahBQjpk68j1tfILcehlrQScKEtuBluVgRkohUeJHR1lWRISv5VBSh1QPwxuEsA4DKW9U3quirbW5-h31VfrIyxLbJ2Ipm5GwFwBdPnc" />
+    <title lang="es">The Good Doctor</title>
+  </programme>
+  <programme start="20260906110000 +0000" stop="20260906113000 +0000" channel="Sony.co">
+    <desc lang="es">S7 E17 — Shovel Off to Buffalo.
+Fans se reúnen en Sugarbaker's cuando el rostro de Elvis aparece en una pala de nieve de Mary Jo, quien atrae la atención de un experto en "paraespectáculos", especialmente cuando aparentemente restaura la audición dañada de su vecino.</desc>
+    <episode-num>S7 E17</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Chicas con clase</title>
+    <title lang="en">Designing Women</title>
+  </programme>
+  <programme start="20260906113000 +0000" stop="20260906120000 +0000" channel="Sony.co">
+    <desc lang="es">S7 E18 — It's Not So Easy Being Green.
+El amigo de Etienne los visita y parece que Etienne y "Punch" tienen mucho en común y comparten muchos recuerdos. Anthony se pone celoso e intenta ser amable con su amistad.</desc>
+    <episode-num>S7 E18</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Chicas con clase</title>
+    <title lang="en">Designing Women</title>
+  </programme>
+  <programme start="20260906120000 +0000" stop="20260906123000 +0000" channel="Sony.co">
+    <desc lang="es">S7 E19 — The Woman Who Came to Sugarbakers.
+Los Sugarbaker reciben la visita sorpresa de la exprofesora de Julia, a quien Julia no soporta. La mujer dice que su difunto esposo le pidió que la visitara. Julia decide organizar una sesión espiritista para que la mujer se marche.</desc>
+    <episode-num>S7 E19</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Chicas con clase</title>
+    <title lang="en">Designing Women</title>
+  </programme>
+  <programme start="20260906123000 +0000" stop="20260906130000 +0000" channel="Sony.co">
+    <desc lang="es">S7 E20 — The Lying Game.
+Carlene tiene un nuevo novio que parece demasiado bueno para ser verdad. Sin embargo, todos notan que no está disponible tres noches a la semana y se preguntan por qué. Un poco de indagación y descubren algo inusual.</desc>
+    <episode-num>S7 E20</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Chicas con clase</title>
+    <title lang="en">Designing Women</title>
+  </programme>
+  <programme start="20260906130000 +0000" stop="20260906140000 +0000" channel="Sony.co">
+    <desc lang="es">S9 E9 — Findelkind.
+Rike Köhler no puede aceptar que Oliver Weiss haya terminado por completo la planificación familiar y haya tomado una decisión.</desc>
+    <episode-num>S9 E9</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Bettys Diagnose</title>
+  </programme>
+  <programme start="20260906140000 +0000" stop="20260906150000 +0000" channel="Sony.co">
+    <desc lang="es">S9 E10 — Liebestest.
+La felicidad de Rike con Oliver es tan grande que finalmente tira la pastilla. Después de una noche con Oliver, el frasco de pastillas cae en sus manos y su conciencia culpable arde.</desc>
+    <episode-num>S9 E10</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Bettys Diagnose</title>
+  </programme>
+  <programme start="20260906150000 +0000" stop="20260906174500 +0000" channel="Sony.co">
+    <category lang="es">Drama</category>
+    <credits>
+      <director>Ron Howard</director>
+      <actor>Tom Hanks</actor>
+      <actor>Audrey Tautou</actor>
+      <actor>Jean Reno</actor>
+      <actor>Paul Bettany</actor>
+      <actor>Jürgen Prochnow</actor>
+    </credits>
+    <date>2006</date>
+    <desc lang="es">El afamado simbologista Robert Langdon se ve obligado a acudir una noche al Museo del Louvre, cuando el crimen de un restaurador deja tras de sí un misterioso rastro de símbolos y pistas que podrían conectarse con una misteriosa sociedad.</desc>
+    <icon src="https://iptv-epg.org/images/LJOZT3_Kh6hbduY7-YXDpoxWB3SiuH33_O2OTrdJx899h-MZG3Hwo0YoG4HtDsMxSmQyaJx_el8Pe8CRogyU7VlSnPzzKA2Ly403vn5SD6BX2BfrAtBGxeRsX62rhxaDznk" />
+    <title lang="es">El código Da Vinci</title>
+    <title lang="en">The Da Vinci Code</title>
+  </programme>
+  <programme start="20260906174500 +0000" stop="20260906201500 +0000" channel="Sony.co">
+    <category lang="es">Drama</category>
+    <credits>
+      <director>Gina Prince-Bythewood</director>
+      <actor>Viola Davis</actor>
+      <actor>John Boyega</actor>
+      <actor>Hero Fiennes-Tiffin</actor>
+      <actor>Thuso Mbedu</actor>
+      <actor>Adrienne Warren</actor>
+    </credits>
+    <date>2022</date>
+    <desc lang="es">Sigue el viaje épico e intenso de la general Nanisca, a la vez que entrena a la siguiente generación de reclutas y las prepara para la batalla contra un enemigo decidido a destruir su modo de vida.</desc>
+    <icon src="https://iptv-epg.org/images/ytj-Omkvy6ncLxyb52iFXsOcND3Ptpn00mAON5J02ngXeExPFe2Q0HbIzsBArVJD6J0sacvZH_rFV8TgZjCh6Gdi6CBzTfjNRjqhFKjFTyHQNoYXALXp" />
+    <title lang="es">La mujer rey</title>
+    <title lang="en">The Woman King</title>
+  </programme>
+  <programme start="20260906201500 +0000" stop="20260906224500 +0000" channel="Sony.co">
+    <category lang="es">Acción</category>
+    <credits>
+      <director>Antoine Fuqua</director>
+      <actor>Denzel Washington</actor>
+      <actor>Marton Csokas</actor>
+      <actor>David Harbour</actor>
+      <actor>Haley Bennett</actor>
+      <actor>Bill Pullman</actor>
+    </credits>
+    <date>2014</date>
+    <desc lang="es">McCall está convencido de haber dejado atrás su misterioso pasado y ahora se dedica a construir una vida nueva y tranquila. Pero cuando conoce a una joven que está en manos de gánsteres rusos ultra violentos, se sentirá obligado a ayudarla.</desc>
+    <icon src="https://iptv-epg.org/images/0yH7EOquK2jfn_hYqqYGX4CM8XLAjz0IrSY_XdkRfVg9o7uJc5dZTX8u8tZLTiCLuUGBUvPoPigLSWYWa-Pj3P2rJ7lzAI4XrKuss3F35r36fQF5Ds_thR1dh5Eo" />
+    <title lang="es">El justiciero</title>
+    <title lang="en">The Equalizer</title>
+  </programme>
+  <programme start="20260906224500 +0000" stop="20260907005500 +0000" channel="Sony.co">
+    <category lang="es">Acción</category>
+    <credits>
+      <director>Antoine Fuqua</director>
+      <actor>Denzel Washington</actor>
+      <actor>Pedro Pascal</actor>
+      <actor>Bill Pullman</actor>
+      <actor>Melissa Leo</actor>
+      <actor>Ashton Sanders</actor>
+    </credits>
+    <date>2018</date>
+    <desc lang="es">Robert McCall se entera de que una de sus amigas, Susan, ha sido asesinada. McCall decide volver a sus viejos métodos y buscar, encontrar y castigar a los perpetradores.</desc>
+    <icon src="https://iptv-epg.org/images/0GWfQv2j-xe7ldy2bKmYHXudquNiiTE1BwTnbTnfDLZHQEqfn7qXcp_KSe-zUq3LHKcmTfsSPmqDuM_HcKk4vRjSsP8-d58Uv7dtfgLlpdI1LsvCL5zLJmLUHKdX-k8" />
+    <title lang="es">El justiciero 2</title>
+    <title lang="en">The Equalizer 2</title>
+  </programme>
+  <programme start="20260907005500 +0000" stop="20260907031000 +0000" channel="Sony.co">
+    <category lang="es">Acción</category>
+    <credits>
+      <director>Jonathan Hensleigh</director>
+      <actor>John Travolta</actor>
+      <actor>Thomas Jane</actor>
+      <actor>Will Patton</actor>
+      <actor>A. Russell Andrews</actor>
+      <actor>Omar Avila</actor>
+    </credits>
+    <date>2004</date>
+    <desc lang="es">Frank Castle es un agente del FBI cuya familia es asesinada por los seguidores del corrupto empresario Howard Saint y su esposa Livia. Castle se valdrá de sus propios medios para vengar la masacre y castigar a los responsables.</desc>
+    <icon src="https://iptv-epg.org/images/XEuNWa14yAVBZPH966nH25zQz42YVXzqdO9LWqSE2pnLMvO4dR5JA3z_-EDYPm3zc3BdsJ0qbamVNMfny3oDs-Y7l8r07FOccLMzBTZUPvYPT1kwsVH064H_YeGL" />
+    <title lang="es">El castigador</title>
+    <title lang="en">The Punisher</title>
+  </programme>
+  <programme start="20260907031000 +0000" stop="20260907050500 +0000" channel="Sony.co">
+    <category lang="es">Acción</category>
+    <credits>
+      <director>Robert Rodriguez</director>
+      <actor>Antonio Banderas</actor>
+      <actor>Salma Hayek</actor>
+      <actor>Joaquim de Almeida</actor>
+      <actor>Steve Buscemi</actor>
+      <actor>Danny Trejo</actor>
+    </credits>
+    <date>1995</date>
+    <desc lang="es">Antonio Banderas es un pistolero que llega a un pueblo fronterizo de México en busca del jefe de una banda de maleantes. Él se enamora de una bella joven, quien es la amante del más poderoso mafioso del lugar.</desc>
+    <icon src="https://iptv-epg.org/images/TdjxhxTSiakqZ9zMSfkaNbtanS5SXfz4mQnCDoQNstFBw4wiZP6kbeY5wwXEtmIVG4q3rq5wGVJKXudKK2LLnFzvgRM_k6htNY8RxNIpiZ4WMjYGXlX5V1TllAX-sGbZsZlkyDA8ow" />
+    <title lang="es">La balada del pistolero</title>
+    <title lang="en">Desperado</title>
+  </programme>
+  <programme start="20260907050500 +0000" stop="20260907065000 +0000" channel="Sony.co">
+    <category lang="es">Acción</category>
+    <credits>
+      <director>Andy Serkis</director>
+      <actor>Tom Hardy</actor>
+      <actor>Woody Harrelson</actor>
+      <actor>Naomie Harris</actor>
+      <actor>Stephen Graham</actor>
+      <actor>Peggy Lu</actor>
+    </credits>
+    <date>2021</date>
+    <desc lang="es">Eddie Brock intenta relanzar su carrera entrevistando al asesino en serie Cletus Kasady, que se convierte en el huésped del simbionte Carnage y escapa de la cárcel tras una ejecución fallida.</desc>
+    <icon src="https://iptv-epg.org/images/ytj-Omkvy6ncLxyb52iFXsOcND3Ptpn00mAON5J02ngXeExPFe2Q0HbIzsBArVJD6J0sacvZH_rFV8TgZjCh6Gdi6CBzTfjNRjqhFKjFTyHQNoYXALXp" />
+    <title lang="es">Venom: Carnage liberado</title>
+    <title lang="en">Venom: Let There Be Carnage</title>
+  </programme>
+  <programme start="20260907065000 +0000" stop="20260907072000 +0000" channel="Sony.co">
+    <desc lang="es">S7 E18 — It's Not So Easy Being Green.
+El amigo de Etienne los visita y parece que Etienne y "Punch" tienen mucho en común y comparten muchos recuerdos. Anthony se pone celoso e intenta ser amable con su amistad.</desc>
+    <episode-num>S7 E18</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Chicas con clase</title>
+    <title lang="en">Designing Women</title>
+  </programme>
+  <programme start="20260907072000 +0000" stop="20260907075000 +0000" channel="Sony.co">
+    <desc lang="es">S7 E19 — The Woman Who Came to Sugarbakers.
+Los Sugarbaker reciben la visita sorpresa de la exprofesora de Julia, a quien Julia no soporta. La mujer dice que su difunto esposo le pidió que la visitara. Julia decide organizar una sesión espiritista para que la mujer se marche.</desc>
+    <episode-num>S7 E19</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Chicas con clase</title>
+    <title lang="en">Designing Women</title>
+  </programme>
+  <programme start="20260907075000 +0000" stop="20260907082000 +0000" channel="Sony.co">
+    <desc lang="es">S7 E20 — The Lying Game.
+Carlene tiene un nuevo novio que parece demasiado bueno para ser verdad. Sin embargo, todos notan que no está disponible tres noches a la semana y se preguntan por qué. Un poco de indagación y descubren algo inusual.</desc>
+    <episode-num>S7 E20</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Chicas con clase</title>
+    <title lang="en">Designing Women</title>
+  </programme>
+  <programme start="20260907082000 +0000" stop="20260907091000 +0000" channel="Sony.co">
+    <desc lang="es">S9 E9 — Findelkind.
+Rike Köhler no puede aceptar que Oliver Weiss haya terminado por completo la planificación familiar y haya tomado una decisión.</desc>
+    <episode-num>S9 E9</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Bettys Diagnose</title>
+  </programme>
+  <programme start="20260907091000 +0000" stop="20260907100000 +0000" channel="Sony.co">
+    <desc lang="es">S9 E10 — Liebestest.
+La felicidad de Rike con Oliver es tan grande que finalmente tira la pastilla. Después de una noche con Oliver, el frasco de pastillas cae en sus manos y su conciencia culpable arde.</desc>
+    <episode-num>S9 E10</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Bettys Diagnose</title>
+  </programme>
+  <programme start="20260907100000 +0000" stop="20260907110000 +0000" channel="Sony.co">
+    <desc lang="es">S3 E3 — Claire.
+La doctora Claire Brown se prepara para su primera operación como cirujana jefa, pero complicaciones en su plano personal le perjudican.</desc>
+    <episode-num>S3 E3</episode-num>
+    <icon src="https://iptv-epg.org/images/dmsDzWcmKWcOtY4MzCC8QTM-e0hYwSX12GFkk-oJayKXVi1UlOnqjSqBuYCLJIN4gSkvdY2d9aQn1rdZ5qdpETb1F9qgTDrmqPwY7IGwvyiZhDR8EzVcvNA6lNgkN6q6g31PhgUyZ5o" />
+    <title lang="es">The Good Doctor</title>
+  </programme>
+  <programme start="20260907110000 +0000" stop="20260907120000 +0000" channel="Sony.co">
+    <desc lang="es">S3 E6 — Ángulo de 45 grados.
+El Dr. Shaun se enfrenta a su primera cirugía como jefe y la Dra. Lim le deja practicar con su equipo, pero el joven doctor termina enfrentándose con una enfermera que pone en peligro su carrera.</desc>
+    <episode-num>S3 E6</episode-num>
+    <icon src="https://iptv-epg.org/images/AvoRzJIcEllSQOkrue0dNKP-sY7nxy1yu7Ku692BiJr4IhHuTMXlRjc4UNxhjGbJc4-Ug5JiXhDogvuBuqe0bUO-uvH9PSA08Juvf0dVnXwolELlHJ-jsX6UZVqQiNs4m9vjMOKYPkGhOpv2LARVXU4" />
+    <title lang="es">The Good Doctor</title>
+  </programme>
+  <programme start="20260907120000 +0000" stop="20260907130000 +0000" channel="Sony.co">
+    <desc lang="es">S3 E7 — DAEF.
+La capacidad única del Dr. Shaun Murphy de relacionarse con un paciente aislado por una inmunodeficiencia produce un resultado inesperado.</desc>
+    <episode-num>S3 E7</episode-num>
+    <icon src="https://iptv-epg.org/images/PqNMh-_1mHK6Nogc5HbvSDOkwC4DCZ8bhIrbYY0x_vJABxTnxxXMFqOpgrpkRD2Ak_z52bCeMmRDsayVDzmXQq0VlOob6g55UGWHBn6rpTQn8iauHdFJ39bGx6nBeKs4LcBnH5oM" />
+    <title lang="es">The Good Doctor</title>
+  </programme>
+  <programme start="20260907130000 +0000" stop="20260907140000 +0000" channel="Sony.co">
+    <desc lang="es">S9 E13 — Alles auf Anfang.
+Rike se hace una prueba de embarazo después de dejar de tomar la píldora en secreto. ¿Ella está embarazada?</desc>
+    <episode-num>S9 E13</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Bettys Diagnose</title>
+  </programme>
+  <programme start="20260907140000 +0000" stop="20260907145500 +0000" channel="Sony.co">
+    <desc lang="es">S9 E14 — Böse Jungs.
+El motociclista Sven Ritter tiene el ojo puesto en su hermana Ava. A ella parece gustarle el encantador temerario. Pero entonces Sven recibe un diagnóstico grave.</desc>
+    <episode-num>S9 E14</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Bettys Diagnose</title>
+  </programme>
+  <programme start="20260907145500 +0000" stop="20260907152500 +0000" channel="Sony.co">
+    <desc lang="es">S5 E1 — La mañana siguiente.
+Preocupada por que Maxwell la abandone, Fran le pide consejos a su prima Sheila.</desc>
+    <episode-num>S5 E1</episode-num>
+    <icon src="https://iptv-epg.org/images/wPO6GHk6wTd9sZpk3w_16AjgfACsUwMQsOOk0sloc24Yg5y1GzOwqvENcnQ2qAT5xokUAAfzIJn2YmbXIata7w4IohlCZ5Uy7DLFPekvSrtmJKpKmVjDXkt9Rs-lBhK5Lv1LD-XTP7Jq" />
+    <title lang="es">La niñera</title>
+    <title lang="en">The Nanny</title>
+  </programme>
+  <programme start="20260907152500 +0000" stop="20260907155500 +0000" channel="Sony.co">
+    <desc lang="es">S5 E2 — La primera cita.
+Maxwell invita a Fran a una cena exclusiva con el cantante Elton John.</desc>
+    <episode-num>S5 E2</episode-num>
+    <icon src="https://iptv-epg.org/images/_Xrezp5gBH-kOPBRbEUhwaruc7tayftvqwoFTX7Aze0VS2vLydlsoJXJTNH2hs1aIlAFFXd50_JxRDTDi4_xHTX_FTQjAhlt0m7ga5gOXlAX18R4Ecl9HyeN-sLxKtNisHY9HtQr" />
+    <title lang="es">La niñera</title>
+    <title lang="en">The Nanny</title>
+  </programme>
+  <programme start="20260907155500 +0000" stop="20260907162500 +0000" channel="Sony.co">
+    <desc lang="es">S5 E3 — La historia de Bobbie Fleckman.
+Cuando la vieja compañera de Maxwell, Bobbie Flekman, comienza a insinuársele, los amigos de Fran sugieren que a Maxwell solo le gusta porque se parece a Fran.</desc>
+    <episode-num>S5 E3</episode-num>
+    <icon src="https://iptv-epg.org/images/aV5PMGHDfL-t7LccmRdLbFWNpEzcBzUDKc2lqGCe2GgbLkRyGZIiRD8hrVxprJbPffrGZR4Qz9WPEvdZ67mqbJku1BerNPrBv954sK6Mp8EVuPwe6gzNysuj4KtPCijDETdtdh5J34fc5meDs6-QxjheTOw" />
+    <title lang="es">La niñera</title>
+    <title lang="en">The Nanny</title>
+  </programme>
+  <programme start="20260907162500 +0000" stop="20260907165500 +0000" channel="Sony.co">
+    <desc lang="es">S5 E8 — Nuevo inquilino.
+Un nuevo vecino llega al edificio para rentar uno de los departamentos y Silvia se enamora de él. Por su parte, Germán quiere tatuarse y pide recomendaciones.</desc>
+    <episode-num>S5 E8</episode-num>
+    <icon src="https://iptv-epg.org/images/C9l4uvUxCk5ZRjwr1D1OMSu0JHlxy3UXHcp6_J23O1BDYPoTgE7JJ69eDbD0vVv2ngoDfqOB_xorLKy9zeqwVvkDwXVwQip4B6H2IEPipWN9irA0KLRF5CsHqwYWS9GYbFVjibHP7QGyepU" />
+    <title lang="es">Vecinos</title>
+  </programme>
+  <programme start="20260907165500 +0000" stop="20260907172500 +0000" channel="Sony.co">
+    <desc lang="es">S5 E9 — La venganza de la maestra.
+Alejandra descubre que la maestra de Morris fue su compañera en la primaria y ahora le está haciendo la vida imposible a su hijo como venganza por el pasado. Mientras, Chelo, la empleada doméstica de Silvia, tiene más suerte en el amor.</desc>
+    <episode-num>S5 E9</episode-num>
+    <icon src="https://iptv-epg.org/images/AVgyb9MZAX-XsX8bxw3uIRCQR5mp-xn32McUhf-tZNn6DObj_3QVdXguoQMP3JU5EhcS-mZUi_ftyCH1vfdeskC_0D8keF2P-dPeoP_Z5x49TbpBQ3FgHCJRKBJCsy4eDccmzvc" />
+    <title lang="es">Vecinos</title>
+  </programme>
+  <programme start="20260907172500 +0000" stop="20260907175500 +0000" channel="Sony.co">
+    <desc lang="es">S5 E10 — Arturo amuleto.
+Jorjáis cree que Arturo le trae buena suerte a su equipo de fútbol cuando va a los partidos, por lo que buscará la manera para que él esté presente en la final del torneo y así poder ganarlo.</desc>
+    <episode-num>S5 E10</episode-num>
+    <icon src="https://iptv-epg.org/images/4WALy912gesLz37q47XPxAy8LHi-ZNP3FUD1PUD3Xm7pH94KtTBQPxWcVxFB442_laSg3JMnfl6O1XmE59wZcseaQIGqrR8v4S0BitZhezooDCrrS6SC_MWXE8YIg9i2f8DyGsGg5Mk" />
+    <title lang="es">Vecinos</title>
+  </programme>
+  <programme start="20260907175500 +0000" stop="20260907182500 +0000" channel="Sony.co">
+    <desc lang="es">S4 E12 — La dama no es vagabunda.
+La imaginación de Michael se descontrola cuando encuentra condones en la mochila de su hija Claire el mismo día que el novio, Tony, vuelve después de pasar un mes en el desierto.</desc>
+    <episode-num>S4 E12</episode-num>
+    <icon src="https://iptv-epg.org/images/lmPkofhEBu3Y0Bsie8GpOa-sJ40Wc5qVuRPzsoiqGqIc5i7kBqcWBntgklpygul2qvQzLHp6rAr3YJEWxtrzFfiqz2K_BmupQIVjuA44M_kHw2jePywOn8ym38vS4CLT4tUQr_EZggGGdyLaDcC75JpdsEw5Hke9woaA6dnKxw" />
+    <title lang="es">Mi esposa y mis hijos</title>
+    <title lang="en">My Wife and Kids</title>
+  </programme>
+  <programme start="20260907182500 +0000" stop="20260907185500 +0000" channel="Sony.co">
+    <desc lang="es">S4 E13 — De ratones y hombres.
+Jay encuentra excremento de rata en la casa y le exige a Michael que contrate un exterminador, pero él quiere hacer las cosas solo. Claire también enloquece por un roedor cuando, por accidente, pisa una ardilla al ir manejando a la casa.</desc>
+    <episode-num>S4 E13</episode-num>
+    <icon src="https://iptv-epg.org/images/MZWloqxKts2pTMN8tez2dQLuGfcgUEekUE_iUjVWhUpr12DpJEebekhcjZSKbzoxruhH4drIUJbo9yEu-7WFXGPLSGWzPAMKVbtst8E6Sc54PJ95WoJ_aIiSUitWF5JkdQoZS50bbdY0kNAClbSUZHW_aL3M7-w" />
+    <title lang="es">Mi esposa y mis hijos</title>
+    <title lang="en">My Wife and Kids</title>
+  </programme>
+  <programme start="20260907185500 +0000" stop="20260907192500 +0000" channel="Sony.co">
+    <desc lang="es">S4 E14 — Moving on Out.
+Jr está cansado de vivir en el garage y busca apartamento. Pone al amigo John como cosignatario, pero este tiene que disfrazarse y fingir ser la abuela de Jr ante la agente de bienes raíces.</desc>
+    <episode-num>S4 E14</episode-num>
+    <icon src="https://iptv-epg.org/images/z4riRS6Q7QGB9sJyww7yTzptYht14e3xuy62vWlGzJNusx1rqbWuwRt5qnCz0_wf1LpG8GsRoVOFjuGPkbd9Vbja-EV4vdwGCB4nQ_ho1T-M7otrfcQziudOLIvP17atQbyXTg_eWWf6qH166ALzeggukRKw" />
+    <title lang="es">Mi esposa y mis hijos</title>
+    <title lang="en">My Wife and Kids</title>
+  </programme>
+  <programme start="20260907192500 +0000" stop="20260907212000 +0000" channel="Sony.co">
+    <category lang="es">Comedia</category>
+    <credits>
+      <director>Josh Gordon</director>
+      <actor>Constance Wu</actor>
+      <actor>Winslow Fegley</actor>
+      <actor>Scoot McNairy</actor>
+      <actor>Brett Gelman</actor>
+      <actor>Sal Viscuso</actor>
+    </credits>
+    <date>2022</date>
+    <desc lang="es">La familia Primm se muda a Nueva York, donde Josh, el pequeño de la casa, tiene problemas para adaptarse a la escuela y hacer amigos. Todo cambia cuando Josh conoce a Lilo, un cocodrilo al que le apasiona la música, bañarse y el caviar.</desc>
+    <icon src="https://iptv-epg.org/images/ytj-Omkvy6ncLxyb52iFXsOcND3Ptpn00mAON5J02ngXeExPFe2Q0HbIzsBArVJD6J0sacvZH_rFV8TgZjCh6Gdi6CBzTfjNRjqhFKjFTyHQNoYXALXp" />
+    <title lang="es">Lilo, Lilo, Cocodrilo</title>
+    <title lang="en">Lyle, Lyle, Crocodile</title>
+  </programme>
+  <programme start="20260907212000 +0000" stop="20260907232000 +0000" channel="Sony.co">
+    <category lang="es">C.Ficción</category>
+    <credits>
+      <director>Robert Zemeckis</director>
+      <actor>Christopher Lloyd</actor>
+      <actor>Elisabeth Shue</actor>
+      <actor>James Tolkan</actor>
+      <actor>Jeffrey Weissman</actor>
+      <actor>Casey Siemaszko</actor>
+    </credits>
+    <date>1989</date>
+    <desc lang="es">Marty McFly está tranquilo disfrutando de la familia perfecta hasta que llega Doc con el Delorean modernizado y deben viajar una y otra vez, de un tiempo al otro, para reparar las catástrofes de un destino alterado.</desc>
+    <icon src="https://iptv-epg.org/images/SqjiLvhvEKEGgkLl6EgWjauDvnt3PrO-s6Pao-WJyVtgSLGbY6-bTlTNJqQov2QqJrxj1CFNN2KBf5p0zbpezBQkSlSVqXT63Q6yQ0Muc05q88ysgCdniMTaXbnoGU1sPxMq" />
+    <title lang="es">Volver al futuro II</title>
+    <title lang="en">Back to the Future II</title>
+  </programme>
+  <programme start="20260907232000 +0000" stop="20260908010000 +0000" channel="Sony.co">
+    <category lang="es">Animación</category>
+    <credits>
+      <director>Kyle Balda</director>
+      <actor>Steve Carell</actor>
+      <actor>Alan Arkin</actor>
+      <actor>Russell Brand</actor>
+      <actor>Taraji P. Henson</actor>
+      <actor>Jean Claude Van Damme</actor>
+    </credits>
+    <date>2022</date>
+    <desc lang="es">Son los años setenta y Gru crece en un barrio residencial, en pleno boom de los peinados cardados y los pantalones de campana. Como fan de un famoso grupo de villanos, Gru idea un plan para demostrarles que puede trabajar con ellos.</desc>
+    <icon src="https://iptv-epg.org/images/ytj-Omkvy6ncLxyb52iFXsOcND3Ptpn00mAON5J02ngXeExPFe2Q0HbIzsBArVJD6J0sacvZH_rFV8TgZjCh6Gdi6CBzTfjNRjqhFKjFTyHQNoYXALXp" />
+    <title lang="es">Minions: nace un villano</title>
+    <title lang="en">Minions: The Rise of Gru</title>
+  </programme>
+  <programme start="20260908010000 +0000" stop="20260908031500 +0000" channel="Sony.co">
+    <category lang="es">Comedia</category>
+    <credits>
+      <director>Dennis Dugan</director>
+      <actor>Adam Sandler</actor>
+      <actor>Jennifer Aniston</actor>
+      <actor>Nick Swardson</actor>
+      <actor>Brooklyn Decker</actor>
+      <actor>Griffin Gluck</actor>
+    </credits>
+    <date>2011</date>
+    <desc lang="es">Danny desea conquistar a Palmer, una chica mucho más joven que él. Para despertar su interés, contrata a su asistente, Katherine, para demostrarle que su amor por ella es tal que está a punto de divorciarse de su mujer.</desc>
+    <icon src="https://iptv-epg.org/images/w9P-o8cKDERyDSYLUlhQlxniITH4LerLlXnSis9bgy-NIBMms4WaaoD3ouUJIo85C6fX_8yLz2PDj2OEPx6B98_nALLfPTphsOk8xidMUxmeaF4kmmdth_534eXvaM-M2SC4dEM" />
+    <title lang="es">Una esposa de mentira</title>
+    <title lang="en">Just Go with It</title>
+  </programme>
+  <programme start="20260908031500 +0000" stop="20260908063500 +0000" channel="Sony.co">
+    <category lang="es">Drama</category>
+    <credits>
+      <director>Andy Wachowski</director>
+      <actor>Tom Hanks</actor>
+      <actor>Jim Broadbent</actor>
+      <actor>Hugo Weaving</actor>
+      <actor>Doona Bae</actor>
+      <actor>Ben Whishaw</actor>
+    </credits>
+    <date>2012</date>
+    <desc lang="es">Un recorrido por distintas historias a lo largo de 500 años. Hechos en el pasado que afectan en el futuro, asesinos que en vidas posteriores son héroes, y actos bondadosos que siglos después inspiran revoluciones.</desc>
+    <icon src="https://iptv-epg.org/images/_jB5-1CxRlH1G9qflBM45mE-zELT4iUE8mbWMFfJUGz82wnYVeRSI6r2w2aeBPffI4Cu3Jw-HM2iank1jd0XcB_RiZ31h9bWddF97IVXA002sPEpwT8Wr8uAkqZgbcxkF7It0iOuoZWjMOHv" />
+    <title lang="es">Cloud Atlas: la red invisible</title>
+    <title lang="en">Cloud Atlas</title>
+  </programme>
+  <programme start="20260908063500 +0000" stop="20260908070500 +0000" channel="Sony.co">
+    <desc lang="es">S4 E12 — La dama no es vagabunda.
+La imaginación de Michael se descontrola cuando encuentra condones en la mochila de su hija Claire el mismo día que el novio, Tony, vuelve después de pasar un mes en el desierto.</desc>
+    <episode-num>S4 E12</episode-num>
+    <icon src="https://iptv-epg.org/images/lmPkofhEBu3Y0Bsie8GpOa-sJ40Wc5qVuRPzsoiqGqIc5i7kBqcWBntgklpygul2qvQzLHp6rAr3YJEWxtrzFfiqz2K_BmupQIVjuA44M_kHw2jePywOn8ym38vS4CLT4tUQr_EZggGGdyLaDcC75JpdsEw5Hke9woaA6dnKxw" />
+    <title lang="es">Mi esposa y mis hijos</title>
+    <title lang="en">My Wife and Kids</title>
+  </programme>
+  <programme start="20260908070500 +0000" stop="20260908073500 +0000" channel="Sony.co">
+    <desc lang="es">S4 E13 — De ratones y hombres.
+Jay encuentra excremento de rata en la casa y le exige a Michael que contrate un exterminador, pero él quiere hacer las cosas solo. Claire también enloquece por un roedor cuando, por accidente, pisa una ardilla al ir manejando a la casa.</desc>
+    <episode-num>S4 E13</episode-num>
+    <icon src="https://iptv-epg.org/images/MZWloqxKts2pTMN8tez2dQLuGfcgUEekUE_iUjVWhUpr12DpJEebekhcjZSKbzoxruhH4drIUJbo9yEu-7WFXGPLSGWzPAMKVbtst8E6Sc54PJ95WoJ_aIiSUitWF5JkdQoZS50bbdY0kNAClbSUZHW_aL3M7-w" />
+    <title lang="es">Mi esposa y mis hijos</title>
+    <title lang="en">My Wife and Kids</title>
+  </programme>
+  <programme start="20260908073500 +0000" stop="20260908080500 +0000" channel="Sony.co">
+    <desc lang="es">S5 E8 — Nuevo inquilino.
+Un nuevo vecino llega al edificio para rentar uno de los departamentos y Silvia se enamora de él. Por su parte, Germán quiere tatuarse y pide recomendaciones.</desc>
+    <episode-num>S5 E8</episode-num>
+    <icon src="https://iptv-epg.org/images/C9l4uvUxCk5ZRjwr1D1OMSu0JHlxy3UXHcp6_J23O1BDYPoTgE7JJ69eDbD0vVv2ngoDfqOB_xorLKy9zeqwVvkDwXVwQip4B6H2IEPipWN9irA0KLRF5CsHqwYWS9GYbFVjibHP7QGyepU" />
+    <title lang="es">Vecinos</title>
+  </programme>
+  <programme start="20260908080500 +0000" stop="20260908083500 +0000" channel="Sony.co">
+    <desc lang="es">S5 E9 — La venganza de la maestra.
+Alejandra descubre que la maestra de Morris fue su compañera en la primaria y ahora le está haciendo la vida imposible a su hijo como venganza por el pasado. Mientras, Chelo, la empleada doméstica de Silvia, tiene más suerte en el amor.</desc>
+    <episode-num>S5 E9</episode-num>
+    <icon src="https://iptv-epg.org/images/AVgyb9MZAX-XsX8bxw3uIRCQR5mp-xn32McUhf-tZNn6DObj_3QVdXguoQMP3JU5EhcS-mZUi_ftyCH1vfdeskC_0D8keF2P-dPeoP_Z5x49TbpBQ3FgHCJRKBJCsy4eDccmzvc" />
+    <title lang="es">Vecinos</title>
+  </programme>
+  <programme start="20260908083500 +0000" stop="20260908090500 +0000" channel="Sony.co">
+    <desc lang="es">S5 E10 — Arturo amuleto.
+Jorjáis cree que Arturo le trae buena suerte a su equipo de fútbol cuando va a los partidos, por lo que buscará la manera para que él esté presente en la final del torneo y así poder ganarlo.</desc>
+    <episode-num>S5 E10</episode-num>
+    <icon src="https://iptv-epg.org/images/4WALy912gesLz37q47XPxAy8LHi-ZNP3FUD1PUD3Xm7pH94KtTBQPxWcVxFB442_laSg3JMnfl6O1XmE59wZcseaQIGqrR8v4S0BitZhezooDCrrS6SC_MWXE8YIg9i2f8DyGsGg5Mk" />
+    <title lang="es">Vecinos</title>
+  </programme>
+  <programme start="20260908090500 +0000" stop="20260908100000 +0000" channel="Sony.co">
+    <desc lang="es">S21 E15 — Bust Your Windows.
+La plataforma de un limpiador de ventanas se estrella contra la ventana de un hospital, poniendo a prueba los límites del personal del Grey Sloan. Blue y Simone se enfrentan por sus condiciones de vida.</desc>
+    <episode-num>S21 E15</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Anatomía según Grey</title>
+    <title lang="en">Grey's Anatomy</title>
+  </programme>
+  <programme start="20260908100000 +0000" stop="20260908110000 +0000" channel="Sony.co">
+    <desc lang="es">S1 E1 — Temporada 1 Episodio 1.
+El padre de Ömer muere en el hospital privado Gümüsok, donde llegó herido. Ömer responsabiliza al hospital de esta muerte y trata de pedirle cuentas a su manera.</desc>
+    <episode-num>S1 E1</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">The Town Doctor</title>
+    <title lang="en">Kasaba Doktoru</title>
+  </programme>
+  <programme start="20260908110000 +0000" stop="20260908120000 +0000" channel="Sony.co">
+    <desc lang="es">S3 E7 — DAEF.
+La capacidad única del Dr. Shaun Murphy de relacionarse con un paciente aislado por una inmunodeficiencia produce un resultado inesperado.</desc>
+    <episode-num>S3 E7</episode-num>
+    <icon src="https://iptv-epg.org/images/PqNMh-_1mHK6Nogc5HbvSDOkwC4DCZ8bhIrbYY0x_vJABxTnxxXMFqOpgrpkRD2Ak_z52bCeMmRDsayVDzmXQq0VlOob6g55UGWHBn6rpTQn8iauHdFJ39bGx6nBeKs4LcBnH5oM" />
+    <title lang="es">The Good Doctor</title>
+  </programme>
+  <programme start="20260908120000 +0000" stop="20260908130000 +0000" channel="Sony.co">
+    <desc lang="es">S3 E8 — Lanzamiento a la luna.
+La relación de Carly y Shaun parece que está en un punto muerto, y cuanto más se intenta acercar a él más frustrante es. Mientras tanto la Dra. Lim y el Dr. Meléndez están enfrascados en cómo separar el trabajo de su relación sentimental.</desc>
+    <episode-num>S3 E8</episode-num>
+    <icon src="https://iptv-epg.org/images/ZrgbUpknKg7_yEiEzcRk_GHpwoyj6qPnV-z6HwpX0diHjnFQnx0nD96NgxBiY4-5zVTx9eVOWklDr4ZTwjyrnkmyogJT8gFYNRrhQB7ZKLPD3Qn4jmDZS4uINUGrJKn-pC-tgrojVVCYvw" />
+    <title lang="es">The Good Doctor</title>
+  </programme>
+  <programme start="20260908130000 +0000" stop="20260908140000 +0000" channel="Sony.co">
+    <desc lang="es">S9 E14 — Böse Jungs.
+El motociclista Sven Ritter tiene el ojo puesto en su hermana Ava. A ella parece gustarle el encantador temerario. Pero entonces Sven recibe un diagnóstico grave.</desc>
+    <episode-num>S9 E14</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Bettys Diagnose</title>
+  </programme>
+  <programme start="20260908140000 +0000" stop="20260908150000 +0000" channel="Sony.co">
+    <desc lang="es">S9 E15 — Einbrüche.
+El Prof. Dr. Alexander von Arnstett resulta gravemente herido y trasladado a la Karlsklinik tras un accidente de esquí. ¿Sobrevivirá?</desc>
+    <episode-num>S9 E15</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Bettys Diagnose</title>
+  </programme>
+  <programme start="20260908150000 +0000" stop="20260908153000 +0000" channel="Sony.co">
+    <desc lang="es">S5 E2 — La primera cita.
+Maxwell invita a Fran a una cena exclusiva con el cantante Elton John.</desc>
+    <episode-num>S5 E2</episode-num>
+    <icon src="https://iptv-epg.org/images/_Xrezp5gBH-kOPBRbEUhwaruc7tayftvqwoFTX7Aze0VS2vLydlsoJXJTNH2hs1aIlAFFXd50_JxRDTDi4_xHTX_FTQjAhlt0m7ga5gOXlAX18R4Ecl9HyeN-sLxKtNisHY9HtQr" />
+    <title lang="es">La niñera</title>
+    <title lang="en">The Nanny</title>
+  </programme>
+  <programme start="20260908153000 +0000" stop="20260908160000 +0000" channel="Sony.co">
+    <desc lang="es">S5 E3 — La historia de Bobbie Fleckman.
+Cuando la vieja compañera de Maxwell, Bobbie Flekman, comienza a insinuársele, los amigos de Fran sugieren que a Maxwell solo le gusta porque se parece a Fran.</desc>
+    <episode-num>S5 E3</episode-num>
+    <icon src="https://iptv-epg.org/images/aV5PMGHDfL-t7LccmRdLbFWNpEzcBzUDKc2lqGCe2GgbLkRyGZIiRD8hrVxprJbPffrGZR4Qz9WPEvdZ67mqbJku1BerNPrBv954sK6Mp8EVuPwe6gzNysuj4KtPCijDETdtdh5J34fc5meDs6-QxjheTOw" />
+    <title lang="es">La niñera</title>
+    <title lang="en">The Nanny</title>
+  </programme>
+  <programme start="20260908160000 +0000" stop="20260908163000 +0000" channel="Sony.co">
+    <desc lang="es">S5 E6 — Una propuesta decente.
+La cita de Fran con el comediante Chevy Chase pone celoso a Maxwell.</desc>
+    <episode-num>S5 E6</episode-num>
+    <icon src="https://iptv-epg.org/images/xdQVLB5vpPjGx1IihvzUmxDytXQM_MEfuQ-mYqTp_Ucvkc8YsY6h_w_5nIiQLDzx_yR5pItb9KGauuZElW0xxN8edUvqb6PxRh6CNa00mTjVfr-1VQAE3WipUn9fklJPse2EGDM53RyJIfowww" />
+    <title lang="es">La niñera</title>
+    <title lang="en">The Nanny</title>
+  </programme>
+  <programme start="20260908163000 +0000" stop="20260908170000 +0000" channel="Sony.co">
+    <desc lang="es">S5 E9 — La venganza de la maestra.
+Alejandra descubre que la maestra de Morris fue su compañera en la primaria y ahora le está haciendo la vida imposible a su hijo como venganza por el pasado. Mientras, Chelo, la empleada doméstica de Silvia, tiene más suerte en el amor.</desc>
+    <episode-num>S5 E9</episode-num>
+    <icon src="https://iptv-epg.org/images/AVgyb9MZAX-XsX8bxw3uIRCQR5mp-xn32McUhf-tZNn6DObj_3QVdXguoQMP3JU5EhcS-mZUi_ftyCH1vfdeskC_0D8keF2P-dPeoP_Z5x49TbpBQ3FgHCJRKBJCsy4eDccmzvc" />
+    <title lang="es">Vecinos</title>
+  </programme>
+  <programme start="20260908170000 +0000" stop="20260908173000 +0000" channel="Sony.co">
+    <desc lang="es">S5 E10 — Arturo amuleto.
+Jorjáis cree que Arturo le trae buena suerte a su equipo de fútbol cuando va a los partidos, por lo que buscará la manera para que él esté presente en la final del torneo y así poder ganarlo.</desc>
+    <episode-num>S5 E10</episode-num>
+    <icon src="https://iptv-epg.org/images/4WALy912gesLz37q47XPxAy8LHi-ZNP3FUD1PUD3Xm7pH94KtTBQPxWcVxFB442_laSg3JMnfl6O1XmE59wZcseaQIGqrR8v4S0BitZhezooDCrrS6SC_MWXE8YIg9i2f8DyGsGg5Mk" />
+    <title lang="es">Vecinos</title>
+  </programme>
+  <programme start="20260908173000 +0000" stop="20260908180000 +0000" channel="Sony.co">
+    <desc lang="es">S5 E11 — La bomba de agua.
+Los vecinos le piden a Germán que repare la bomba de agua del edificio para evitar pagarle a un plomero profesional. Entre tanto, Jovita intenta hacer que Pedro cambie sus hábitos alimenticios, pero él se rehúsa y hace una huelga de hambre.</desc>
+    <episode-num>S5 E11</episode-num>
+    <icon src="https://iptv-epg.org/images/9xdiQVOOevnToYx0DUt0bLjfp8ENN-vv916dp2QJGBGXclJbBDXYMJsBa8HvCTrNzdGPxfqkZzh_mxPKAGBQPSlB2OuV7iSC0NX3-NX6pkpBkMkFQhVwRCSrqWvtRKyoTrNzOtyiq8HHSA" />
+    <title lang="es">Vecinos</title>
+  </programme>
+  <programme start="20260908180000 +0000" stop="20260908183000 +0000" channel="Sony.co">
+    <desc lang="es">S4 E13 — De ratones y hombres.
+Jay encuentra excremento de rata en la casa y le exige a Michael que contrate un exterminador, pero él quiere hacer las cosas solo. Claire también enloquece por un roedor cuando, por accidente, pisa una ardilla al ir manejando a la casa.</desc>
+    <episode-num>S4 E13</episode-num>
+    <icon src="https://iptv-epg.org/images/MZWloqxKts2pTMN8tez2dQLuGfcgUEekUE_iUjVWhUpr12DpJEebekhcjZSKbzoxruhH4drIUJbo9yEu-7WFXGPLSGWzPAMKVbtst8E6Sc54PJ95WoJ_aIiSUitWF5JkdQoZS50bbdY0kNAClbSUZHW_aL3M7-w" />
+    <title lang="es">Mi esposa y mis hijos</title>
+    <title lang="en">My Wife and Kids</title>
+  </programme>
+  <programme start="20260908183000 +0000" stop="20260908190000 +0000" channel="Sony.co">
+    <desc lang="es">S4 E14 — Moving on Out.
+Jr está cansado de vivir en el garage y busca apartamento. Pone al amigo John como cosignatario, pero este tiene que disfrazarse y fingir ser la abuela de Jr ante la agente de bienes raíces.</desc>
+    <episode-num>S4 E14</episode-num>
+    <icon src="https://iptv-epg.org/images/z4riRS6Q7QGB9sJyww7yTzptYht14e3xuy62vWlGzJNusx1rqbWuwRt5qnCz0_wf1LpG8GsRoVOFjuGPkbd9Vbja-EV4vdwGCB4nQ_ho1T-M7otrfcQziudOLIvP17atQbyXTg_eWWf6qH166ALzeggukRKw" />
+    <title lang="es">Mi esposa y mis hijos</title>
+    <title lang="en">My Wife and Kids</title>
+  </programme>
+  <programme start="20260908190000 +0000" stop="20260908210500 +0000" channel="Sony.co">
+    <category lang="es">Comedia</category>
+    <credits>
+      <director>Dennis Dugan</director>
+      <actor>Adam Sandler</actor>
+      <actor>Jennifer Aniston</actor>
+      <actor>Nick Swardson</actor>
+      <actor>Brooklyn Decker</actor>
+      <actor>Griffin Gluck</actor>
+    </credits>
+    <date>2011</date>
+    <desc lang="es">Danny desea conquistar a Palmer, una chica mucho más joven que él. Para despertar su interés, contrata a su asistente, Katherine, para demostrarle que su amor por ella es tal que está a punto de divorciarse de su mujer.</desc>
+    <icon src="https://iptv-epg.org/images/w9P-o8cKDERyDSYLUlhQlxniITH4LerLlXnSis9bgy-NIBMms4WaaoD3ouUJIo85C6fX_8yLz2PDj2OEPx6B98_nALLfPTphsOk8xidMUxmeaF4kmmdth_534eXvaM-M2SC4dEM" />
+    <title lang="es">Una esposa de mentira</title>
+    <title lang="en">Just Go with It</title>
+  </programme>
+  <programme start="20260908210500 +0000" stop="20260909000000 +0000" channel="Sony.co">
+    <category lang="es">Drama</category>
+    <credits>
+      <director>Ridley Scott</director>
+      <actor>Russell Crowe</actor>
+      <actor>Joaquin Phoenix</actor>
+      <actor>Oliver Reed</actor>
+      <actor>Richard Harris</actor>
+      <actor>Derek Jacobi</actor>
+    </credits>
+    <date>2000</date>
+    <desc lang="es">Cuando el general romano Máximo es traicionado y su familia asesinada por el hijo corrupto del emperador, vuelve a Roma como un gladiador, movilizado unicamente por la posibilidad de vengarse del crimen de sus seres queridos.</desc>
+    <icon src="https://iptv-epg.org/images/IBBwrn7GNGPB1VJJ3xOSO7UWyTSfk4p6RajkkBPtQ-JqDxwE4q8dTl9qnpYbS_l2hNiKGZS3xV3vOGfxAc29F7BRpzFQOPl9JZ9FN74uZ1d1AzywqVcJ1kY" />
+    <title lang="es">Gladiador</title>
+    <title lang="en">Gladiator</title>
+  </programme>
+  <programme start="20260909000000 +0000" stop="20260909023000 +0000" channel="Sony.co">
+    <category lang="es">Western</category>
+    <credits>
+      <director>Antoine Fuqua</director>
+      <actor>Lee Byung-Hun</actor>
+      <actor>Vincent D'Onofrio</actor>
+      <actor>Chris Pratt</actor>
+      <actor>Martin Sensmeier</actor>
+      <actor>Haley Bennett</actor>
+    </credits>
+    <date>2016</date>
+    <desc lang="es">Siete forajidos son contratados por los habitantes de Rose Creek para defenderse de la constante amenaza del industrial Bartholomew Bogue. Sin embargo, pronto descubrirán que estos hombres luchan por algo más que el dinero.</desc>
+    <icon src="https://iptv-epg.org/images/k0p-9mb0KDizAWE5I7FCPu1c7E26mez80mp6LpOjVmQvTLb_3ixwSlqHYxX_HTnwxdlldDQD_wKcexaAF8cx90RiwnKb64UVoIZtBgeSJV9yt4_4p9ZMGPN3XkFtI7NKXGll-w" />
+    <title lang="es">Los siete magníficos</title>
+    <title lang="en">The Magnificent Seven</title>
+  </programme>
+  <programme start="20260909023000 +0000" stop="20260909052500 +0000" channel="Sony.co">
+    <category lang="es">Drama</category>
+    <credits>
+      <director>Ridley Scott</director>
+      <actor>Russell Crowe</actor>
+      <actor>Joaquin Phoenix</actor>
+      <actor>Oliver Reed</actor>
+      <actor>Richard Harris</actor>
+      <actor>Derek Jacobi</actor>
+    </credits>
+    <date>2000</date>
+    <desc lang="es">Cuando el general romano Máximo es traicionado y su familia asesinada por el hijo corrupto del emperador, vuelve a Roma como un gladiador, movilizado unicamente por la posibilidad de vengarse del crimen de sus seres queridos.</desc>
+    <icon src="https://iptv-epg.org/images/IBBwrn7GNGPB1VJJ3xOSO7UWyTSfk4p6RajkkBPtQ-JqDxwE4q8dTl9qnpYbS_l2hNiKGZS3xV3vOGfxAc29F7BRpzFQOPl9JZ9FN74uZ1d1AzywqVcJ1kY" />
+    <title lang="es">Gladiador</title>
+    <title lang="en">Gladiator</title>
+  </programme>
+  <programme start="20260909052500 +0000" stop="20260909071000 +0000" channel="Sony.co">
+    <category lang="es">Acción</category>
+    <credits>
+      <director>Pierre Morel</director>
+      <actor>Liam Neeson</actor>
+      <actor>Maggie Grace</actor>
+      <actor>Leland Orser</actor>
+      <actor>Jon Gries</actor>
+      <actor>David Warshofsky</actor>
+    </credits>
+    <date>2008</date>
+    <desc lang="es">Bryan Mills, un agente jubilado de la CIA y de las Fuerzas Especiales, vuela a Paris a rescatar a su hija Kim de una organización criminal albanokosovar que se dedica a secuestrar mujeres para una red de trata.</desc>
+    <icon src="https://iptv-epg.org/images/Sz9_Gofq2fqKMCqgskIF0FBbCcdFV7jR8jT7dFRp7HHrndAhHFdrD4bsEZWtFrzvrIJX3MqBE2fEuS5-TcdPCZ2VTgR_SnMHHPPl9lL6AF_5_FG4PGYqB6DwgN_N2Bk93R8e" />
+    <title lang="es">Búsqueda implacable</title>
+    <title lang="en">Taken</title>
+  </programme>
+  <programme start="20260909071000 +0000" stop="20260909074000 +0000" channel="Sony.co">
+    <desc lang="es">S4 E13 — De ratones y hombres.
+Jay encuentra excremento de rata en la casa y le exige a Michael que contrate un exterminador, pero él quiere hacer las cosas solo. Claire también enloquece por un roedor cuando, por accidente, pisa una ardilla al ir manejando a la casa.</desc>
+    <episode-num>S4 E13</episode-num>
+    <icon src="https://iptv-epg.org/images/MZWloqxKts2pTMN8tez2dQLuGfcgUEekUE_iUjVWhUpr12DpJEebekhcjZSKbzoxruhH4drIUJbo9yEu-7WFXGPLSGWzPAMKVbtst8E6Sc54PJ95WoJ_aIiSUitWF5JkdQoZS50bbdY0kNAClbSUZHW_aL3M7-w" />
+    <title lang="es">Mi esposa y mis hijos</title>
+    <title lang="en">My Wife and Kids</title>
+  </programme>
+  <programme start="20260909074000 +0000" stop="20260909081000 +0000" channel="Sony.co">
+    <desc lang="es">S4 E14 — Moving on Out.
+Jr está cansado de vivir en el garage y busca apartamento. Pone al amigo John como cosignatario, pero este tiene que disfrazarse y fingir ser la abuela de Jr ante la agente de bienes raíces.</desc>
+    <episode-num>S4 E14</episode-num>
+    <icon src="https://iptv-epg.org/images/z4riRS6Q7QGB9sJyww7yTzptYht14e3xuy62vWlGzJNusx1rqbWuwRt5qnCz0_wf1LpG8GsRoVOFjuGPkbd9Vbja-EV4vdwGCB4nQ_ho1T-M7otrfcQziudOLIvP17atQbyXTg_eWWf6qH166ALzeggukRKw" />
+    <title lang="es">Mi esposa y mis hijos</title>
+    <title lang="en">My Wife and Kids</title>
+  </programme>
+  <programme start="20260909081000 +0000" stop="20260909084000 +0000" channel="Sony.co">
+    <desc lang="es">S5 E10 — Arturo amuleto.
+Jorjáis cree que Arturo le trae buena suerte a su equipo de fútbol cuando va a los partidos, por lo que buscará la manera para que él esté presente en la final del torneo y así poder ganarlo.</desc>
+    <episode-num>S5 E10</episode-num>
+    <icon src="https://iptv-epg.org/images/4WALy912gesLz37q47XPxAy8LHi-ZNP3FUD1PUD3Xm7pH94KtTBQPxWcVxFB442_laSg3JMnfl6O1XmE59wZcseaQIGqrR8v4S0BitZhezooDCrrS6SC_MWXE8YIg9i2f8DyGsGg5Mk" />
+    <title lang="es">Vecinos</title>
+  </programme>
+  <programme start="20260909084000 +0000" stop="20260909091000 +0000" channel="Sony.co">
+    <desc lang="es">S5 E11 — La bomba de agua.
+Los vecinos le piden a Germán que repare la bomba de agua del edificio para evitar pagarle a un plomero profesional. Entre tanto, Jovita intenta hacer que Pedro cambie sus hábitos alimenticios, pero él se rehúsa y hace una huelga de hambre.</desc>
+    <episode-num>S5 E11</episode-num>
+    <icon src="https://iptv-epg.org/images/9xdiQVOOevnToYx0DUt0bLjfp8ENN-vv916dp2QJGBGXclJbBDXYMJsBa8HvCTrNzdGPxfqkZzh_mxPKAGBQPSlB2OuV7iSC0NX3-NX6pkpBkMkFQhVwRCSrqWvtRKyoTrNzOtyiq8HHSA" />
+    <title lang="es">Vecinos</title>
+  </programme>
+  <programme start="20260909091000 +0000" stop="20260909100000 +0000" channel="Sony.co">
+    <desc lang="es">S21 E16 — Papa Was a Rollin' Stone.
+Amelia realiza una cirugía cerebral de alto riesgo en un paciente joven, mientras Winston y Jules no están de acuerdo sobre cómo tratar con la familia de un paciente con trauma. Además, Jo y Link luchan con los preparativos de la boda.</desc>
+    <episode-num>S21 E16</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Anatomía según Grey</title>
+    <title lang="en">Grey's Anatomy</title>
+  </programme>
+  <programme start="20260909100000 +0000" stop="20260909110000 +0000" channel="Sony.co">
+    <desc lang="es">S1 E2 — Temporada 1 Episodio 2.
+Hakan inmediatamente lleva a Leyla a cirugía después de que la llevan a la sala de emergencias.</desc>
+    <episode-num>S1 E2</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">The Town Doctor</title>
+    <title lang="en">Kasaba Doktoru</title>
+  </programme>
+  <programme start="20260909110000 +0000" stop="20260909120000 +0000" channel="Sony.co">
+    <desc lang="es">S3 E8 — Lanzamiento a la luna.
+La relación de Carly y Shaun parece que está en un punto muerto, y cuanto más se intenta acercar a él más frustrante es. Mientras tanto la Dra. Lim y el Dr. Meléndez están enfrascados en cómo separar el trabajo de su relación sentimental.</desc>
+    <episode-num>S3 E8</episode-num>
+    <icon src="https://iptv-epg.org/images/ZrgbUpknKg7_yEiEzcRk_GHpwoyj6qPnV-z6HwpX0diHjnFQnx0nD96NgxBiY4-5zVTx9eVOWklDr4ZTwjyrnkmyogJT8gFYNRrhQB7ZKLPD3Qn4jmDZS4uINUGrJKn-pC-tgrojVVCYvw" />
+    <title lang="es">The Good Doctor</title>
+  </programme>
+  <programme start="20260909120000 +0000" stop="20260909130000 +0000" channel="Sony.co">
+    <desc lang="es">S3 E9 — Incompleto.
+Shaun está listo para el siguiente paso en su relación con Carly. Una mujer joven debe decidir un procedimiento para salvarle la vida, que podría destruir su matrimonio.</desc>
+    <episode-num>S3 E9</episode-num>
+    <icon src="https://iptv-epg.org/images/qSFTF9Lh81yHQBAuD50mTm4IuvEMik6Xlg_RQ7kCyayx2PeOEUBbflwXmLooDXn-4TbEiKwAom8TMHfXBuGo77RBhi_4b9pShA7X6fpbpaIlKI6uEd6ZFlTr6yqTxyIn5uayTVn13KXoD0OK" />
+    <title lang="es">The Good Doctor</title>
+  </programme>
+  <programme start="20260909130000 +0000" stop="20260909135500 +0000" channel="Sony.co">
+    <desc lang="es">S9 E15 — Einbrüche.
+El Prof. Dr. Alexander von Arnstett resulta gravemente herido y trasladado a la Karlsklinik tras un accidente de esquí. ¿Sobrevivirá?</desc>
+    <episode-num>S9 E15</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Bettys Diagnose</title>
+  </programme>
+  <programme start="20260909135500 +0000" stop="20260909145000 +0000" channel="Sony.co">
+    <desc lang="es">S9 E16 — Herausgefordert.
+La madre de Koopmann, Marion, se enteró de la supuesta muerte de Mirko y exigió ver su tumba. Pero de repente tiene problemas de salud.</desc>
+    <episode-num>S9 E16</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Bettys Diagnose</title>
+  </programme>
+  <programme start="20260909145000 +0000" stop="20260909152000 +0000" channel="Sony.co">
+    <desc lang="es">S5 E3 — La historia de Bobbie Fleckman.
+Cuando la vieja compañera de Maxwell, Bobbie Flekman, comienza a insinuársele, los amigos de Fran sugieren que a Maxwell solo le gusta porque se parece a Fran.</desc>
+    <episode-num>S5 E3</episode-num>
+    <icon src="https://iptv-epg.org/images/aV5PMGHDfL-t7LccmRdLbFWNpEzcBzUDKc2lqGCe2GgbLkRyGZIiRD8hrVxprJbPffrGZR4Qz9WPEvdZ67mqbJku1BerNPrBv954sK6Mp8EVuPwe6gzNysuj4KtPCijDETdtdh5J34fc5meDs6-QxjheTOw" />
+    <title lang="es">La niñera</title>
+    <title lang="en">The Nanny</title>
+  </programme>
+  <programme start="20260909152000 +0000" stop="20260909155000 +0000" channel="Sony.co">
+    <desc lang="es">S5 E6 — Una propuesta decente.
+La cita de Fran con el comediante Chevy Chase pone celoso a Maxwell.</desc>
+    <episode-num>S5 E6</episode-num>
+    <icon src="https://iptv-epg.org/images/xdQVLB5vpPjGx1IihvzUmxDytXQM_MEfuQ-mYqTp_Ucvkc8YsY6h_w_5nIiQLDzx_yR5pItb9KGauuZElW0xxN8edUvqb6PxRh6CNa00mTjVfr-1VQAE3WipUn9fklJPse2EGDM53RyJIfowww" />
+    <title lang="es">La niñera</title>
+    <title lang="en">The Nanny</title>
+  </programme>
+  <programme start="20260909155000 +0000" stop="20260909162000 +0000" channel="Sony.co">
+    <desc lang="es">S5 E4 — Franson.
+Yetta necesita ingresos extras para pagarse la boda, por lo que contrata a Fran como "paseadora de perros" para Chester. Mientras lo pasea por el parque en compañía de Gracie, un hombre se lleva al perro y pide un rescate por él.</desc>
+    <episode-num>S5 E4</episode-num>
+    <icon src="https://iptv-epg.org/images/ylA33o1R8k3jJ3UA3uOFwsdrAnXs6QWu6MLGtrxOpS8lMWtZ7cjlR3UmxFPorQkK81rIe2af6uUCXrQzIWOnyE5D4Gq8u0tblnFQQ-ONP1RaoUqg-lRrEMKo7xhe58p7_rjb" />
+    <title lang="es">La niñera</title>
+    <title lang="en">The Nanny</title>
+  </programme>
+  <programme start="20260909162000 +0000" stop="20260909165000 +0000" channel="Sony.co">
+    <desc lang="es">S5 E5 — El nuevo mayordomo.
+Fran y C.C. le piden al Dr. Joyce Brothers que decida quién es mejor para Maxwell. Entretanto, Niles exige un aumento y Maxwell se niega, lo que lo lleva a renunciar.</desc>
+    <episode-num>S5 E5</episode-num>
+    <icon src="https://iptv-epg.org/images/E4qEyYa6sIq8IPBxgcYDMqmZZQnVxC2CJDwU_2K4jneKgbgVj5OG16u2jz3ppu7O-odnEpfZUCjgAN64h0YhDhnXNZ6cvc12TOg-dCbJjve8_ZMDhBEu02hh3aHzs9egSjc_LZ_CabM" />
+    <title lang="es">La niñera</title>
+    <title lang="en">The Nanny</title>
+  </programme>
+  <programme start="20260909165000 +0000" stop="20260909172000 +0000" channel="Sony.co">
+    <desc lang="es">S5 E10 — Arturo amuleto.
+Jorjáis cree que Arturo le trae buena suerte a su equipo de fútbol cuando va a los partidos, por lo que buscará la manera para que él esté presente en la final del torneo y así poder ganarlo.</desc>
+    <episode-num>S5 E10</episode-num>
+    <icon src="https://iptv-epg.org/images/4WALy912gesLz37q47XPxAy8LHi-ZNP3FUD1PUD3Xm7pH94KtTBQPxWcVxFB442_laSg3JMnfl6O1XmE59wZcseaQIGqrR8v4S0BitZhezooDCrrS6SC_MWXE8YIg9i2f8DyGsGg5Mk" />
+    <title lang="es">Vecinos</title>
+  </programme>
+  <programme start="20260909172000 +0000" stop="20260909175000 +0000" channel="Sony.co">
+    <desc lang="es">S5 E11 — La bomba de agua.
+Los vecinos le piden a Germán que repare la bomba de agua del edificio para evitar pagarle a un plomero profesional. Entre tanto, Jovita intenta hacer que Pedro cambie sus hábitos alimenticios, pero él se rehúsa y hace una huelga de hambre.</desc>
+    <episode-num>S5 E11</episode-num>
+    <icon src="https://iptv-epg.org/images/9xdiQVOOevnToYx0DUt0bLjfp8ENN-vv916dp2QJGBGXclJbBDXYMJsBa8HvCTrNzdGPxfqkZzh_mxPKAGBQPSlB2OuV7iSC0NX3-NX6pkpBkMkFQhVwRCSrqWvtRKyoTrNzOtyiq8HHSA" />
+    <title lang="es">Vecinos</title>
+  </programme>
+  <programme start="20260909175000 +0000" stop="20260909182000 +0000" channel="Sony.co">
+    <desc lang="es">S5 E12 — Echando cohetes.
+Los vecinos se molestan por el ruido que provocan los cohetes de una fiesta. Además, Rocko se queja de que Alejandra no es cariñosa con él.</desc>
+    <episode-num>S5 E12</episode-num>
+    <icon src="https://iptv-epg.org/images/A89lzLmVknCrfIpEU0Ty2KTakLchLxDhQagBsDb4v5BquRPBam9JT5_hwoOaQd0jaGGQpVgLXPCKLDbs99daYaKMzDMk2BWzV20zILJe39zKY4QbzPAUivhy1Y4ftTXQF8OF-aC9hEwx" />
+    <title lang="es">Vecinos</title>
+  </programme>
+  <programme start="20260909182000 +0000" stop="20260909185000 +0000" channel="Sony.co">
+    <desc lang="es">S4 E14 — Moving on Out.
+Jr está cansado de vivir en el garage y busca apartamento. Pone al amigo John como cosignatario, pero este tiene que disfrazarse y fingir ser la abuela de Jr ante la agente de bienes raíces.</desc>
+    <episode-num>S4 E14</episode-num>
+    <icon src="https://iptv-epg.org/images/z4riRS6Q7QGB9sJyww7yTzptYht14e3xuy62vWlGzJNusx1rqbWuwRt5qnCz0_wf1LpG8GsRoVOFjuGPkbd9Vbja-EV4vdwGCB4nQ_ho1T-M7otrfcQziudOLIvP17atQbyXTg_eWWf6qH166ALzeggukRKw" />
+    <title lang="es">Mi esposa y mis hijos</title>
+    <title lang="en">My Wife and Kids</title>
+  </programme>
+  <programme start="20260909185000 +0000" stop="20260909192000 +0000" channel="Sony.co">
+    <desc lang="es">S4 E15 — Candy Wars.
+Kady quiere pasar más tiempo con el padre y le pide ayuda a Michael con la competencia de dulces de la escuela.</desc>
+    <episode-num>S4 E15</episode-num>
+    <icon src="https://iptv-epg.org/images/Bzsdisw0VsaesNJwcLfyiGGCzcgoLaOZ3OchXnwwoJEvowGxsLd4-0AmsNncYmzDGEcMZ61bFqq1yJ7zPR0NvHo4P7_fQpgZQvMbgVKfVJ1-4ca18HdpQyePwJ72kau-bFyVYzl8ABHJ9tiGsQqDtbUF" />
+    <title lang="es">Mi esposa y mis hijos</title>
+    <title lang="en">My Wife and Kids</title>
+  </programme>
+  <programme start="20260909192000 +0000" stop="20260909211500 +0000" channel="Sony.co">
+    <category lang="es">Acción</category>
+    <credits>
+      <director>Olivier Megaton</director>
+      <actor>Zoe Saldana</actor>
+      <actor>Jordi Mollà</actor>
+      <actor>Cliff Curtis</actor>
+      <actor>Jesse Borrego</actor>
+      <actor>Cynthia Addai-Robinson</actor>
+    </credits>
+    <date>2011</date>
+    <desc lang="es">Tras presenciar el asesinato de sus padres, Cataleya, una pequeña de tan solo 9 años, escapa a Estados Unidos junto a su tío. Allí es entrenada para matar, y se emplea como asesina profesional. Quince años después decide buscar venganza.</desc>
+    <icon src="https://iptv-epg.org/images/NW6J-FWxGZFfsH7OAh0THZO3AbZaFOJKjwcjKeEQvvnm9OxpHskWfenSJlrvY5rRxKgJ_S92BfH9I9HyVFlV98-x81OrnsNBIxMwBdZBUVmU1z-jct3izRgjXS0XWDjRHgG3" />
+    <title lang="es">Venganza despiadada</title>
+    <title lang="en">Colombiana</title>
+  </programme>
+  <programme start="20260909211500 +0000" stop="20260909231500 +0000" channel="Sony.co">
+    <category lang="es">Acción</category>
+    <credits>
+      <director>Renny Harlin</director>
+      <actor>Sylvester Stallone</actor>
+      <actor>Michael Rooker</actor>
+      <actor>John Lithgow</actor>
+      <actor>Janine Turner</actor>
+      <actor>Paul Winfield</actor>
+    </credits>
+    <date>1993</date>
+    <desc lang="es">Tras un accidente que lo separó del servicio de Rescate de Montaña, Gabe Walker vuelve a la acción cuando un grupo de personas, perdidas en lo alto de Rocky Mountain a causa de un supuesto accidente, piden auxilio por radio.</desc>
+    <icon src="https://iptv-epg.org/images/A_Lea_jufOt31DHjpwyCj4tAFNT_7iv5OB5L91FwOmj03Dzi5OdTd1vs0TJ9YnbeigMsp4NNhAm4ZxKUKg0JA3GIN_fviE6YEgmek3DPt0PQVOifGEP4XZ3F8mU" />
+    <title lang="es">Riesgo total</title>
+    <title lang="en">Cliffhanger</title>
+  </programme>
+  <programme start="20260909231500 +0000" stop="20260910010000 +0000" channel="Sony.co">
+    <category lang="es">Acción</category>
+    <credits>
+      <director>Pierre Morel</director>
+      <actor>Liam Neeson</actor>
+      <actor>Maggie Grace</actor>
+      <actor>Leland Orser</actor>
+      <actor>Jon Gries</actor>
+      <actor>David Warshofsky</actor>
+    </credits>
+    <date>2008</date>
+    <desc lang="es">Bryan Mills, un agente jubilado de la CIA y de las Fuerzas Especiales, vuela a Paris a rescatar a su hija Kim de una organización criminal albanokosovar que se dedica a secuestrar mujeres para una red de trata.</desc>
+    <icon src="https://iptv-epg.org/images/Sz9_Gofq2fqKMCqgskIF0FBbCcdFV7jR8jT7dFRp7HHrndAhHFdrD4bsEZWtFrzvrIJX3MqBE2fEuS5-TcdPCZ2VTgR_SnMHHPPl9lL6AF_5_FG4PGYqB6DwgN_N2Bk93R8e" />
+    <title lang="es">Búsqueda implacable</title>
+    <title lang="en">Taken</title>
+  </programme>
+  <programme start="20260910010000 +0000" stop="20260910030500 +0000" channel="Sony.co">
+    <category lang="es">Comedia</category>
+    <credits>
+      <director>Seth Gordon</director>
+      <actor>Jason Bateman</actor>
+      <actor>Jon Favreau</actor>
+      <actor>Amanda Peet</actor>
+      <actor>Génesis Rodríguez</actor>
+      <actor>Morris Chestnut</actor>
+    </credits>
+    <date>2013</date>
+    <desc lang="es">La vida de Sandy se destruye cuando descubre que una mujer recibió un crédito con su nombre y comenzó a gastar alocadamente. Ahora, Sandy deberá encontrar a esta mujer y convencerla de dejar su lujosa nueva vida para recuperar la propia.</desc>
+    <icon src="https://iptv-epg.org/images/lUulZmFkemCU3VZ5hjbdax5hJtS4ovv8O1-ZE6NQIxa90q9WjUx9naproY8QaVKlwFxHC_O4QJ8iy0OkTf0rkg12QuJ8AktyiLr9e4h0UH94vZwxPH1U0hbxb3rw4oeQxx0j2iju" />
+    <title lang="es">Ladrona de identidades</title>
+    <title lang="en">Identity Thief</title>
+  </programme>
+  <programme start="20260910030500 +0000" stop="20260910031500 +0000" channel="Sony.co">
+    <desc lang="es">Cocina.
+Conducido por Nicolás de Zubiría, Aventura Gastronómica busca redescubrir los sabores, la biodiversidad y la pluriculturalidad del país, a través de las raíces y tradiciones culinarias de cada región.</desc>
+    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
+    <title lang="es">Aventura gastronómica Colombia</title>
   </programme>
   <programme start="20260906020000 +0000" stop="20260906025100 +0000" channel="TCM.co">
     <desc lang="es">S1 E14 — Típico de Aries.
