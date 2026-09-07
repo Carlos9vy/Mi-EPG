@@ -14,7 +14,7 @@ ESPN 2.mx,-1
 ESPN 3.mx,-1
 ESPN 4.mx,-1
 Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv,-1
-
+Sony.mx,-0.5
 
 
 
