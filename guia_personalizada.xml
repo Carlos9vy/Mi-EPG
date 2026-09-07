@@ -88726,7 +88726,7 @@ En Vivo</title>
     <icon src="https://iptv-epg.org/images/WLIxSCrxFE8Fj55-8V8h-iqPfn91wkBAFBkNTDjrAJtm9lM3mM7Y80EVOlpIMVCOWZVnlBETZphBsr1okMX4uxg46bj9MfJPHGdZDHRaFEBPve5hvVoCNMAJi8uPngwDj0troND3M_h_JdWmWV8iM6P9oBY-sB34ulKOQPE" />
     <title lang="es">Athletic Club vs. Atlético de Madrid</title>
   </programme>
-  <programme start="20260906010000 +0000" stop="20260906033000 +0000" channel="Sony.mx">
+  <programme start="20260906003000 +0000" stop="20260906030000 +0000" channel="Sony.mx">
     <category lang="es">Acción</category>
     <credits>
       <director>Antoine Fuqua</director>
@@ -88742,7 +88742,7 @@ En Vivo</title>
     <title lang="es">El justiciero</title>
     <title lang="en">The Equalizer</title>
   </programme>
-  <programme start="20260906033000 +0000" stop="20260906054400 +0000" channel="Sony.mx">
+  <programme start="20260906030000 +0000" stop="20260906051400 +0000" channel="Sony.mx">
     <category lang="es">Acción</category>
     <credits>
       <director>Antoine Fuqua</director>
@@ -88758,7 +88758,7 @@ En Vivo</title>
     <title lang="es">El justiciero 2</title>
     <title lang="en">The Equalizer 2</title>
   </programme>
-  <programme start="20260906054400 +0000" stop="20260906080000 +0000" channel="Sony.mx">
+  <programme start="20260906051400 +0000" stop="20260906073000 +0000" channel="Sony.mx">
     <category lang="es">Suspenso</category>
     <credits>
       <director>Phillip Noyce</director>
@@ -88774,7 +88774,7 @@ En Vivo</title>
     <title lang="es">El coleccionista de huesos</title>
     <title lang="en">The Bone Collector</title>
   </programme>
-  <programme start="20260906080000 +0000" stop="20260906083000 +0000" channel="Sony.mx">
+  <programme start="20260906073000 +0000" stop="20260906080000 +0000" channel="Sony.mx">
     <desc lang="es">S4 E19 — Outbreak Monkey.
 Michael está extasiado cuando gana entradas para ver a LeBron James en Madison Square Garden. Cuando toda su familia se enferma, Mike toma medidas extremas para no contagiarse.</desc>
     <episode-num>S4 E19</episode-num>
@@ -88782,7 +88782,7 @@ Michael está extasiado cuando gana entradas para ver a LeBron James en Madison 
     <title lang="es">Mi esposa y mis hijos</title>
     <title lang="en">My Wife and Kids</title>
   </programme>
-  <programme start="20260906083000 +0000" stop="20260906090000 +0000" channel="Sony.mx">
+  <programme start="20260906080000 +0000" stop="20260906083000 +0000" channel="Sony.mx">
     <desc lang="es">S4 E20 — Empty Nest.
 En una ocasión poco común, Michael y Jay tienen la casa para ellos y recuerdan los buenos tiempos que pasaron con los hijos y amigos.</desc>
     <episode-num>S4 E20</episode-num>
@@ -88790,7 +88790,7 @@ En una ocasión poco común, Michael y Jay tienen la casa para ellos y recuerdan
     <title lang="es">Mi esposa y mis hijos</title>
     <title lang="en">My Wife and Kids</title>
   </programme>
-  <programme start="20260906090000 +0000" stop="20260906093000 +0000" channel="Sony.mx">
+  <programme start="20260906083000 +0000" stop="20260906090000 +0000" channel="Sony.mx">
     <desc lang="es">S4 E21 — Empty Nest.
 En una ocasión poco frecuente en que tienen la casa para ellos solos, Michael y Jay empiezan a rememorar los momentos divertidos que han pasado con sus hijos y varios amigos.</desc>
     <episode-num>S4 E21</episode-num>
@@ -88798,7 +88798,7 @@ En una ocasión poco frecuente en que tienen la casa para ellos solos, Michael y
     <title lang="es">Mi esposa y mis hijos</title>
     <title lang="en">My Wife and Kids</title>
   </programme>
-  <programme start="20260906093000 +0000" stop="20260906095400 +0000" channel="Sony.mx">
+  <programme start="20260906090000 +0000" stop="20260906092400 +0000" channel="Sony.mx">
     <desc lang="es">S4 E22 — Calvin Comes to Stay.
 Calvin, el padre de Vanessa, discute con la esposa, Jasmine, y lo echan de la casa. Va a vivir con los Kyle en contra de la voluntad de la familia. Empieza a comer todo lo que tiene a la vista y no los deja dormir con sus ronquidos.</desc>
     <episode-num>S4 E22</episode-num>
@@ -88806,7 +88806,7 @@ Calvin, el padre de Vanessa, discute con la esposa, Jasmine, y lo echan de la ca
     <title lang="es">Mi esposa y mis hijos</title>
     <title lang="en">My Wife and Kids</title>
   </programme>
-  <programme start="20260906095400 +0000" stop="20260906102000 +0000" channel="Sony.mx">
+  <programme start="20260906092400 +0000" stop="20260906095000 +0000" channel="Sony.mx">
     <desc lang="es">S4 E19 — Outbreak Monkey.
 Michael está extasiado cuando gana entradas para ver a LeBron James en Madison Square Garden. Cuando toda su familia se enferma, Mike toma medidas extremas para no contagiarse.</desc>
     <episode-num>S4 E19</episode-num>
@@ -88814,40 +88814,40 @@ Michael está extasiado cuando gana entradas para ver a LeBron James en Madison 
     <title lang="es">Mi esposa y mis hijos</title>
     <title lang="en">My Wife and Kids</title>
   </programme>
-  <programme start="20260906102000 +0000" stop="20260906111000 +0000" channel="Sony.mx">
+  <programme start="20260906095000 +0000" stop="20260906104000 +0000" channel="Sony.mx">
     <desc lang="es">Drama.
 Bettina Ewald es una joven, respetuosa, competente y firme enfermera alemana que trabaja en un ajetreado hospital, donde junto a sus compañeros y doctores intenta hacer lo posible por mantener su buen humor ante las típicas situaciones.</desc>
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">Bettys Diagnose</title>
   </programme>
-  <programme start="20260906111000 +0000" stop="20260906120000 +0000" channel="Sony.mx">
+  <programme start="20260906104000 +0000" stop="20260906113000 +0000" channel="Sony.mx">
     <desc lang="es">Drama.
 Bettina Ewald es una joven, respetuosa, competente y firme enfermera alemana que trabaja en un ajetreado hospital, donde junto a sus compañeros y doctores intenta hacer lo posible por mantener su buen humor ante las típicas situaciones.</desc>
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">Bettys Diagnose</title>
   </programme>
-  <programme start="20260906120000 +0000" stop="20260906123000 +0000" channel="Sony.mx">
+  <programme start="20260906113000 +0000" stop="20260906120000 +0000" channel="Sony.mx">
     <desc lang="es">S1 E13 — Fotos y recuerdos.
 Pablo y Jimena visitan un estudio fotográfico donde él se reencuentra con un excompañero.</desc>
     <episode-num>S1 E13</episode-num>
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Enloqueciendo contigo</title>
   </programme>
-  <programme start="20260906123000 +0000" stop="20260906130000 +0000" channel="Sony.mx">
+  <programme start="20260906120000 +0000" stop="20260906123000 +0000" channel="Sony.mx">
     <desc lang="es">S1 E14 — Todos en familia.
 Jimena está tensa por la visita de sus padres, pero Pablo la anima a que confronte a su familia.</desc>
     <episode-num>S1 E14</episode-num>
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Enloqueciendo contigo</title>
   </programme>
-  <programme start="20260906130000 +0000" stop="20260906133000 +0000" channel="Sony.mx">
+  <programme start="20260906123000 +0000" stop="20260906130000 +0000" channel="Sony.mx">
     <desc lang="es">S1 E15 — El pintor.
 Diego, ex de Jimena, pinta el departamento de la pareja y Fernanda termina teniendo sexo con él.</desc>
     <episode-num>S1 E15</episode-num>
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Enloqueciendo contigo</title>
   </programme>
-  <programme start="20260906133000 +0000" stop="20260906153500 +0000" channel="Sony.mx">
+  <programme start="20260906130000 +0000" stop="20260906150500 +0000" channel="Sony.mx">
     <category lang="es">C.Ficción</category>
     <credits>
       <director>Morten Tyldum</director>
@@ -88863,7 +88863,7 @@ Diego, ex de Jimena, pinta el departamento de la pareja y Fernanda termina tenie
     <title lang="es">Pasajeros</title>
     <title lang="en">Passengers</title>
   </programme>
-  <programme start="20260906153500 +0000" stop="20260906182000 +0000" channel="Sony.mx">
+  <programme start="20260906150500 +0000" stop="20260906175000 +0000" channel="Sony.mx">
     <category lang="es">Drama</category>
     <credits>
       <director>Ron Howard</director>
@@ -88879,7 +88879,7 @@ Diego, ex de Jimena, pinta el departamento de la pareja y Fernanda termina tenie
     <title lang="es">El código Da Vinci</title>
     <title lang="en">The Da Vinci Code</title>
   </programme>
-  <programme start="20260906182000 +0000" stop="20260906205000 +0000" channel="Sony.mx">
+  <programme start="20260906175000 +0000" stop="20260906202000 +0000" channel="Sony.mx">
     <category lang="es">Drama</category>
     <credits>
       <director>Gina Prince-Bythewood</director>
@@ -88895,7 +88895,7 @@ Diego, ex de Jimena, pinta el departamento de la pareja y Fernanda termina tenie
     <title lang="es">La mujer rey</title>
     <title lang="en">The Woman King</title>
   </programme>
-  <programme start="20260906205000 +0000" stop="20260906232000 +0000" channel="Sony.mx">
+  <programme start="20260906202000 +0000" stop="20260906225000 +0000" channel="Sony.mx">
     <category lang="es">Acción</category>
     <credits>
       <director>Antoine Fuqua</director>
@@ -88911,7 +88911,7 @@ Diego, ex de Jimena, pinta el departamento de la pareja y Fernanda termina tenie
     <title lang="es">El justiciero</title>
     <title lang="en">The Equalizer</title>
   </programme>
-  <programme start="20260906232000 +0000" stop="20260907013500 +0000" channel="Sony.mx">
+  <programme start="20260906225000 +0000" stop="20260907010500 +0000" channel="Sony.mx">
     <category lang="es">Acción</category>
     <credits>
       <director>Antoine Fuqua</director>
@@ -88927,7 +88927,7 @@ Diego, ex de Jimena, pinta el departamento de la pareja y Fernanda termina tenie
     <title lang="es">El justiciero 2</title>
     <title lang="en">The Equalizer 2</title>
   </programme>
-  <programme start="20260907013500 +0000" stop="20260907035000 +0000" channel="Sony.mx">
+  <programme start="20260907010500 +0000" stop="20260907032000 +0000" channel="Sony.mx">
     <category lang="es">Acción</category>
     <credits>
       <director>Jonathan Hensleigh</director>
@@ -88943,7 +88943,7 @@ Diego, ex de Jimena, pinta el departamento de la pareja y Fernanda termina tenie
     <title lang="es">El castigador</title>
     <title lang="en">The Punisher</title>
   </programme>
-  <programme start="20260907035000 +0000" stop="20260907053000 +0000" channel="Sony.mx">
+  <programme start="20260907032000 +0000" stop="20260907050000 +0000" channel="Sony.mx">
     <category lang="es">Acción</category>
     <credits>
       <director>Andy Serkis</director>
@@ -88959,14 +88959,14 @@ Diego, ex de Jimena, pinta el departamento de la pareja y Fernanda termina tenie
     <title lang="es">Venom: Carnage liberado</title>
     <title lang="en">Venom: Let There Be Carnage</title>
   </programme>
-  <programme start="20260907053000 +0000" stop="20260907060000 +0000" channel="Sony.mx">
+  <programme start="20260907050000 +0000" stop="20260907053000 +0000" channel="Sony.mx">
     <desc lang="es">S3 E19 — Temporada 3 Episodio 19.
 Un ex jugador de fútbol americano, trabaja como gerente de una zapatería, todo lo que jamás soñó. Día a día, experimenta distintas situaciones de la vida cotidiana junto a su esposa, hijos y vecinos, una pareja peculiar y divertida.</desc>
     <episode-num>S3 E19</episode-num>
     <icon src="https://iptv-epg.org/images/th5VIvTNfgaujpH-z-5QECcsJdNg_Vmmfzuzw4AZGPha-yCjfqMCuz1JI6VMYHt5k3jZ0Z8NFNK3jNwJjmMu18dytbgv671ix7YzxbSp0M99KvD6y37E2W_B_tSpMoKuKwiH3Y47gjTpoaj9mh1rkhl8bQ7NLA" />
     <title lang="es">Casados con hijos</title>
   </programme>
-  <programme start="20260907060000 +0000" stop="20260907081000 +0000" channel="Sony.mx">
+  <programme start="20260907053000 +0000" stop="20260907074000 +0000" channel="Sony.mx">
     <category lang="es">Acción</category>
     <credits>
       <director>Ruben Fleischer</director>
@@ -88982,91 +88982,91 @@ Un ex jugador de fútbol americano, trabaja como gerente de una zapatería, todo
     <title lang="es">Uncharted: fuera del mapa</title>
     <title lang="en">Uncharted</title>
   </programme>
-  <programme start="20260907081000 +0000" stop="20260907084000 +0000" channel="Sony.mx">
+  <programme start="20260907074000 +0000" stop="20260907081000 +0000" channel="Sony.mx">
     <desc lang="es">S1 E13 — Fotos y recuerdos.
 Pablo y Jimena visitan un estudio fotográfico donde él se reencuentra con un excompañero.</desc>
     <episode-num>S1 E13</episode-num>
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Enloqueciendo contigo</title>
   </programme>
-  <programme start="20260907084000 +0000" stop="20260907091000 +0000" channel="Sony.mx">
+  <programme start="20260907081000 +0000" stop="20260907084000 +0000" channel="Sony.mx">
     <desc lang="es">S1 E14 — Todos en familia.
 Jimena está tensa por la visita de sus padres, pero Pablo la anima a que confronte a su familia.</desc>
     <episode-num>S1 E14</episode-num>
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Enloqueciendo contigo</title>
   </programme>
-  <programme start="20260907091000 +0000" stop="20260907094000 +0000" channel="Sony.mx">
+  <programme start="20260907084000 +0000" stop="20260907091000 +0000" channel="Sony.mx">
     <desc lang="es">S1 E15 — El pintor.
 Diego, ex de Jimena, pinta el departamento de la pareja y Fernanda termina teniendo sexo con él.</desc>
     <episode-num>S1 E15</episode-num>
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Enloqueciendo contigo</title>
   </programme>
-  <programme start="20260907094000 +0000" stop="20260907101000 +0000" channel="Sony.mx">
+  <programme start="20260907091000 +0000" stop="20260907094000 +0000" channel="Sony.mx">
     <desc lang="es">S1 E16 — Estoy feliz por ti.
 Jimena celebra su ascenso, mientras Pablo lidia con su frustración laboral.</desc>
     <episode-num>S1 E16</episode-num>
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Enloqueciendo contigo</title>
   </programme>
-  <programme start="20260907101000 +0000" stop="20260907110000 +0000" channel="Sony.mx">
+  <programme start="20260907094000 +0000" stop="20260907103000 +0000" channel="Sony.mx">
     <desc lang="es">S5 E1 — Consequences.
 Si bien es necesario una aclaración entre Betty y Oliver después del malentendido sobre el prolongado viaje de pesca, el Dr. Stern y Hanna vuelven.</desc>
     <episode-num>S5 E1</episode-num>
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Bettys Diagnose</title>
   </programme>
-  <programme start="20260907110000 +0000" stop="20260907120000 +0000" channel="Sony.mx">
+  <programme start="20260907103000 +0000" stop="20260907113000 +0000" channel="Sony.mx">
     <desc lang="es">S5 E2 — Everything Is Fake.
 El Dr. Lewandowski logra poner celosa a Talula. Sin embargo, cuando se da cuenta de que siente algo por él, él arruina la oportunidad.</desc>
     <episode-num>S5 E2</episode-num>
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Bettys Diagnose</title>
   </programme>
-  <programme start="20260907120000 +0000" stop="20260907130000 +0000" channel="Sony.mx">
+  <programme start="20260907113000 +0000" stop="20260907123000 +0000" channel="Sony.mx">
     <desc lang="es">S4 E5 — Culpa.
 El Dr. Shaun Murphy cuestiona su decisión de dar autonomía a los nuevos residentes cuando uno de los diagnósticos erróneos de un paciente por parte de su interno tiene graves consecuencias.</desc>
     <episode-num>S4 E5</episode-num>
     <icon src="https://iptv-epg.org/images/HiWHA0ya4yEgcUltfXuc3ctf3BFbRVVaa9yuKR4Kf3tmftPLZVC8hNFZzKZLPLK88Tzuxc02pYgKEfaJ5eqlogbXAU7OfJmlJCQoQ9UYL7VTbeAsLGfN2KyVqvG4AygJRWqNNNiwfw" />
     <title lang="es">The Good Doctor</title>
   </programme>
-  <programme start="20260907130000 +0000" stop="20260907135400 +0000" channel="Sony.mx">
+  <programme start="20260907123000 +0000" stop="20260907132400 +0000" channel="Sony.mx">
     <desc lang="es">S4 E6 — Lim.
 Como Jefa de Cirugía, Audrey Lim lucha para hacer frente al trauma emocional residual del COVID-19 y se encuentra con un joven veterano de guerra luchando contra el debilitante TEPT.</desc>
     <episode-num>S4 E6</episode-num>
     <icon src="https://iptv-epg.org/images/P_il4b7HY4O_kiJO2BkSWGShqRrnrikyfOkio5vJym73O4m1kX1_i5pLO5knEKdEEtc_KqVZdsSyFfTMlu5pryAddc3ApKf5nyHrtNo4Cpvk7Lm5FZl-HHuMwgheoZNntyniXbI" />
     <title lang="es">The Good Doctor</title>
   </programme>
-  <programme start="20260907135400 +0000" stop="20260907142400 +0000" channel="Sony.mx">
+  <programme start="20260907132400 +0000" stop="20260907135400 +0000" channel="Sony.mx">
     <desc lang="es">S6 E2 — Primera cita.
 Magdalena es la nueva jefa de seguridad y, debido a los robos en el edificio, instalará cámaras con la ayuda de Germán. Silvita y Luisito tienen su primera cita. Checa quién osará interferir en ese agradable momento juntos.</desc>
     <episode-num>S6 E2</episode-num>
     <icon src="https://iptv-epg.org/images/EniUjFbOpieomizqx4m2r5cWTayktqLcTZVlB91AtLc19yjr-h4zzlj9B3kH96A_atd9PSlo-lNEoC9YFRfBnfcHa2TYdx9e9Gev46rgzOy-xi_iHhGGp4lA1Dw-cSBoKTFBtRAR" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260907142400 +0000" stop="20260907145400 +0000" channel="Sony.mx">
+  <programme start="20260907135400 +0000" stop="20260907142400 +0000" channel="Sony.mx">
     <desc lang="es">S6 E3 — El cumple de Silvia.
 Luis se entera de que es el cumple de Silvia, por lo que planea darle un regalo sorpresa. Checa qué le aconsejarán sus vecinos para sorprenderla y si a Silvia le gustará el detalle. Morris ha desaparecido y nadie sabe dónde se metió.</desc>
     <episode-num>S6 E3</episode-num>
     <icon src="https://iptv-epg.org/images/i-vQC7PR3rOYz19Lf1BzFzlfFiSgUHeS-gZhH7B_mgal1habJ7vWgbych2TQZx_vfr6y6ohnbE6ab0CayHTzxNRvaKNzcTOwqk6f1cj0q9cMGbTTyULZmfO9VH8FRsLkcoE1YYill_NX7KHThA" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260907145400 +0000" stop="20260907152400 +0000" channel="Sony.mx">
+  <programme start="20260907142400 +0000" stop="20260907145400 +0000" channel="Sony.mx">
     <desc lang="es">S6 E4 — Luis pobretón.
 Luis se ha quedado sin trabajo, por lo que buscará una nueva actividad para poder invitar a Silvia a salir. ¿Cómo tomarán ella y los vecinos su desempleo? En otra situación, Luismi ha llegado solo al edificio. Mira quién querrá adoptarlo.</desc>
     <episode-num>S6 E4</episode-num>
     <icon src="https://iptv-epg.org/images/HNHoMr6sjhnkwXcnbLCwzcmIXk9A98oRXoIacUgREduWlDP0hl_Te2486UtqEPJlhc-OuF3-BEUU2rnJ3p4wLHY0ZVOBAIG4qqT9ESkvZXWcQeEotJaa4L2JhKYfw9qJw_HWWhXo1Q" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260907152400 +0000" stop="20260907155400 +0000" channel="Sony.mx">
+  <programme start="20260907145400 +0000" stop="20260907152400 +0000" channel="Sony.mx">
     <desc lang="es">S6 E5 — La novia de Pedro.
 Pedro consigue una cita doble, para él y para Luis. Mira quiénes son las chicas que ha invitado y cómo les irá con ellas. Germán es el elegido para resolver el problema de vialidad afuera del edificio. ¿Qué crees que hará para solucionarlo?</desc>
     <episode-num>S6 E5</episode-num>
     <icon src="https://iptv-epg.org/images/xoDs7zcXazzU59-8qOuAqPFVsAXNevPZwSPnVruKLWf5tjb_KjPmpVwEp8Hgddg7O8r0DAyxkT9-UFiDHZ3mOC6ZKzzpVmdfRKxlKYXaIZoeFVLUv9udAOZBTxGrCXU9DebUxdgZ4Eg1GQw" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260907155400 +0000" stop="20260907182900 +0000" channel="Sony.mx">
+  <programme start="20260907152400 +0000" stop="20260907175900 +0000" channel="Sony.mx">
     <category lang="es">Acción</category>
     <credits>
       <director>Harald Zwart</director>
@@ -89082,7 +89082,7 @@ Pedro consigue una cita doble, para él y para Luis. Mira quiénes son las chica
     <title lang="es">Karate Kid</title>
     <title lang="en">The Karate Kid</title>
   </programme>
-  <programme start="20260907182900 +0000" stop="20260907203900 +0000" channel="Sony.mx">
+  <programme start="20260907175900 +0000" stop="20260907200900 +0000" channel="Sony.mx">
     <category lang="es">Acción</category>
     <credits>
       <director>Ruben Fleischer</director>
@@ -89098,21 +89098,21 @@ Pedro consigue una cita doble, para él y para Luis. Mira quiénes son las chica
     <title lang="es">Uncharted: fuera del mapa</title>
     <title lang="en">Uncharted</title>
   </programme>
-  <programme start="20260907203900 +0000" stop="20260907210900 +0000" channel="Sony.mx">
+  <programme start="20260907200900 +0000" stop="20260907203900 +0000" channel="Sony.mx">
     <desc lang="es">S6 E3 — El cumple de Silvia.
 Luis se entera de que es el cumple de Silvia, por lo que planea darle un regalo sorpresa. Checa qué le aconsejarán sus vecinos para sorprenderla y si a Silvia le gustará el detalle. Morris ha desaparecido y nadie sabe dónde se metió.</desc>
     <episode-num>S6 E3</episode-num>
     <icon src="https://iptv-epg.org/images/i-vQC7PR3rOYz19Lf1BzFzlfFiSgUHeS-gZhH7B_mgal1habJ7vWgbych2TQZx_vfr6y6ohnbE6ab0CayHTzxNRvaKNzcTOwqk6f1cj0q9cMGbTTyULZmfO9VH8FRsLkcoE1YYill_NX7KHThA" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260907210900 +0000" stop="20260907214000 +0000" channel="Sony.mx">
+  <programme start="20260907203900 +0000" stop="20260907211000 +0000" channel="Sony.mx">
     <desc lang="es">S6 E4 — Luis pobretón.
 Luis se ha quedado sin trabajo, por lo que buscará una nueva actividad para poder invitar a Silvia a salir. ¿Cómo tomarán ella y los vecinos su desempleo? En otra situación, Luismi ha llegado solo al edificio. Mira quién querrá adoptarlo.</desc>
     <episode-num>S6 E4</episode-num>
     <icon src="https://iptv-epg.org/images/HNHoMr6sjhnkwXcnbLCwzcmIXk9A98oRXoIacUgREduWlDP0hl_Te2486UtqEPJlhc-OuF3-BEUU2rnJ3p4wLHY0ZVOBAIG4qqT9ESkvZXWcQeEotJaa4L2JhKYfw9qJw_HWWhXo1Q" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260907214000 +0000" stop="20260908002000 +0000" channel="Sony.mx">
+  <programme start="20260907211000 +0000" stop="20260907235000 +0000" channel="Sony.mx">
     <category lang="es">Acción</category>
     <credits>
       <director>Sam Mendes</director>
@@ -89128,7 +89128,7 @@ Luis se ha quedado sin trabajo, por lo que buscará una nueva actividad para pod
     <title lang="es">007 Operación Skyfall</title>
     <title lang="en">Skyfall</title>
   </programme>
-  <programme start="20260908002000 +0000" stop="20260908020000 +0000" channel="Sony.mx">
+  <programme start="20260907235000 +0000" stop="20260908013000 +0000" channel="Sony.mx">
     <category lang="es">Acción</category>
     <credits>
       <director>Andy Serkis</director>
@@ -89144,7 +89144,7 @@ Luis se ha quedado sin trabajo, por lo que buscará una nueva actividad para pod
     <title lang="es">Venom: Carnage liberado</title>
     <title lang="en">Venom: Let There Be Carnage</title>
   </programme>
-  <programme start="20260908020000 +0000" stop="20260908041000 +0000" channel="Sony.mx">
+  <programme start="20260908013000 +0000" stop="20260908034000 +0000" channel="Sony.mx">
     <category lang="es">Comedia</category>
     <credits>
       <director>Dennis Dugan</director>
@@ -89160,7 +89160,7 @@ Luis se ha quedado sin trabajo, por lo que buscará una nueva actividad para pod
     <title lang="es">Una esposa de mentira</title>
     <title lang="en">Just Go with It</title>
   </programme>
-  <programme start="20260908041000 +0000" stop="20260908062400 +0000" channel="Sony.mx">
+  <programme start="20260908034000 +0000" stop="20260908055400 +0000" channel="Sony.mx">
     <category lang="es">Acción</category>
     <credits>
       <director>Michael Bay</director>
@@ -89176,7 +89176,7 @@ Luis se ha quedado sin trabajo, por lo que buscará una nueva actividad para pod
     <title lang="es">Dos policías rebeldes</title>
     <title lang="en">Bad Boys</title>
   </programme>
-  <programme start="20260908062400 +0000" stop="20260908092900 +0000" channel="Sony.mx">
+  <programme start="20260908055400 +0000" stop="20260908085900 +0000" channel="Sony.mx">
     <category lang="es">Drama</category>
     <credits>
       <director>Andy Wachowski</director>
@@ -89192,7 +89192,7 @@ Luis se ha quedado sin trabajo, por lo que buscará una nueva actividad para pod
     <title lang="es">Cloud Atlas: la red invisible</title>
     <title lang="en">Cloud Atlas</title>
   </programme>
-  <programme start="20260908092900 +0000" stop="20260908101900 +0000" channel="Sony.mx">
+  <programme start="20260908085900 +0000" stop="20260908094900 +0000" channel="Sony.mx">
     <desc lang="es">S21 E16 — Papa Was a Rollin' Stone.
 Amelia realiza una cirugía cerebral de alto riesgo en un paciente joven, mientras Winston y Jules no están de acuerdo sobre cómo tratar con la familia de un paciente con trauma. Además, Jo y Link luchan con los preparativos de la boda.</desc>
     <episode-num>S21 E16</episode-num>
@@ -89200,63 +89200,63 @@ Amelia realiza una cirugía cerebral de alto riesgo en un paciente joven, mientr
     <title lang="es">Anatomía según Grey</title>
     <title lang="en">Grey's Anatomy</title>
   </programme>
-  <programme start="20260908101900 +0000" stop="20260908110900 +0000" channel="Sony.mx">
+  <programme start="20260908094900 +0000" stop="20260908103900 +0000" channel="Sony.mx">
     <desc lang="es">S5 E3 — Nur Ein Spiel.
 Oliver intenta volver a encarrilar su matrimonio con Betty y compra una guía para parejas. Pero las sugerencias no les parecen correctas a ninguno de los dos hasta que a Betty se le ocurre una idea espontánea.</desc>
     <episode-num>S5 E3</episode-num>
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Bettys Diagnose</title>
   </programme>
-  <programme start="20260908110900 +0000" stop="20260908120000 +0000" channel="Sony.mx">
+  <programme start="20260908103900 +0000" stop="20260908113000 +0000" channel="Sony.mx">
     <desc lang="es">S5 E4 — Awaken.
 Mientras continúa la crisis matrimonial de Oliver y Betty, Oliver sugiere que se separen y uno de ellos se muda. La sugerencia no cuenta con la aprobación de Betty. El contrato temporal de Hanna en la Karlsklinik está llegando a su fin.</desc>
     <episode-num>S5 E4</episode-num>
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Bettys Diagnose</title>
   </programme>
-  <programme start="20260908120000 +0000" stop="20260908130000 +0000" channel="Sony.mx">
+  <programme start="20260908113000 +0000" stop="20260908123000 +0000" channel="Sony.mx">
     <desc lang="es">S4 E7 — El principio de la incertidumbre.
 Shaun descubre de forma accidental que Lea ha estado casada. Por otra parte, Enrique, uno de los nuevos internos, le pide una cita a Claire.</desc>
     <episode-num>S4 E7</episode-num>
     <icon src="https://iptv-epg.org/images/iVjZIvd86CNl8lN1o_HHUx4mQMxuruKB815YPs_-vCLaLNK2wiSQ5WekepeelEzEDZDpTgBp6FmkuII29i3cgoEMPs5Y7c-Ck78-A9rGk_gJLmxKOQhpqZYIkyvFBAcfKQuJGKdNPB3EkprnbF53QB6Iwt47GI47IZxS" />
     <title lang="es">The Good Doctor</title>
   </programme>
-  <programme start="20260908130000 +0000" stop="20260908135000 +0000" channel="Sony.mx">
+  <programme start="20260908123000 +0000" stop="20260908132000 +0000" channel="Sony.mx">
     <desc lang="es">S4 E8 — Ser padres.
 Mientras Shaun se prepara para conocer a los padres de Lea, el equipo de St. Bonaventure trata a una gimnasta de élite y a su entrenador, que también es su padre.</desc>
     <episode-num>S4 E8</episode-num>
     <icon src="https://iptv-epg.org/images/3-Qw0UwymwctMLi3-Vjtsm_zFy9WvEB_X9L72uVRh9K5VTAbX24Uvi12qHDhQDhd4E9oAGYvAIOq0jtfJGQfP4uvXLYPAYs7RXy4elTqwkyHwX9biKM_gCdopgHzxqiYdJEsWFNNyJFMHd0" />
     <title lang="es">The Good Doctor</title>
   </programme>
-  <programme start="20260908135000 +0000" stop="20260908142000 +0000" channel="Sony.mx">
+  <programme start="20260908132000 +0000" stop="20260908135000 +0000" channel="Sony.mx">
     <desc lang="es">S6 E6 — En una relación.
 Silvia rechaza la invitación de Luis de salir a comer. Mientras tanto, Magdalena y Arturo no pueden dormir por culpa del alumbrado público.</desc>
     <episode-num>S6 E6</episode-num>
     <icon src="https://iptv-epg.org/images/ihKix3hJK4s7qVKMsgej30DUqNKHgUyXMVSR3BCy-X9hVh84UXxDrMJxDj602HYacpIS4YiGxdTGHdfw41rP5E6F9sxrVyZUgm73njKUHb9Yry2FvXrXOGENY3-KhB06-QSSkw2BTryl" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260908142000 +0000" stop="20260908145000 +0000" channel="Sony.mx">
+  <programme start="20260908135000 +0000" stop="20260908142000 +0000" channel="Sony.mx">
     <desc lang="es">S6 E7 — Beso fallido.
 Luis invita a Silvia a ver una película a su casa, pero Pedro interrumpirá su romántico momento, pues quiere recuperar su tele. Por otra parte, Arturo jugará póker con Germán, Jorjais y Benito. Descubre quién es su amuleto de la suerte.</desc>
     <episode-num>S6 E7</episode-num>
     <icon src="https://iptv-epg.org/images/XfOg8n3DX43M85Q3fe71CtNuAe5po8EIPsGeOdXFD44PZQ_s0uANvSyN_YjVDvjzqDYxb1wK4iiKfCtJeBYfumYPAsVWZDVr2OiIZT30zkFDDuPIWgtnJ_JEzORucujLKn496mjI" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260908145000 +0000" stop="20260908152000 +0000" channel="Sony.mx">
+  <programme start="20260908142000 +0000" stop="20260908145000 +0000" channel="Sony.mx">
     <desc lang="es">S6 E8 — Las pantuflas de Luis.
 Luis y Pedro debaten sobre cómo se dice correctamente: pantunflas o pantuflas. Mira quién está en lo correcto y qué habrán apostado. Lorena tiene una cita con su nuevo amigo, Alfonso, pero, ¿Benito le dará permiso de salir?</desc>
     <episode-num>S6 E8</episode-num>
     <icon src="https://iptv-epg.org/images/wWj8CFrE4tOQ_mCF24sWgOe6F1SGvnXquBVa3BlKleNYxT2N3W2NXu-kb8ba8nb-l3HBZJbUDBBO4heVc356N8ejpoRyKDTA96-5YEZx-MYOjGX3EjQ5RxM4fgdxjdMk3EtScO0D9vSFgk8pw2pr" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260908152000 +0000" stop="20260908155000 +0000" channel="Sony.mx">
+  <programme start="20260908145000 +0000" stop="20260908152000 +0000" channel="Sony.mx">
     <desc lang="es">S6 E9 — Segundo aire.
 Germán descubre que en el edificio hay una plaga de cucarachas, por lo que Magdalena le ordena que haga una inspección en su departamento.</desc>
     <episode-num>S6 E9</episode-num>
     <icon src="https://iptv-epg.org/images/lhuCO_U9Cc4LIWGMVtGbZlCo680jeVojizuHjnk9NbFUz5GPSntFPXuGHNfEjMcJ6QH87DNANL_S_N1D1UKY7ai0-Qemi0pQoNRzu_uEP_Wv3Z5asjq1oXM4iGf-4ccfDg8sejBe" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260908155000 +0000" stop="20260908175400 +0000" channel="Sony.mx">
+  <programme start="20260908152000 +0000" stop="20260908172400 +0000" channel="Sony.mx">
     <category lang="es">Drama</category>
     <credits>
       <director>Martha Coolidge</director>
@@ -89272,7 +89272,7 @@ Germán descubre que en el edificio hay una plaga de cucarachas, por lo que Magd
     <title lang="es">El príncipe y yo</title>
     <title lang="en">The Prince and Me</title>
   </programme>
-  <programme start="20260908175400 +0000" stop="20260908205000 +0000" channel="Sony.mx">
+  <programme start="20260908172400 +0000" stop="20260908202000 +0000" channel="Sony.mx">
     <category lang="es">Acción</category>
     <credits>
       <director>Roland Emmerich</director>
@@ -89287,21 +89287,21 @@ Germán descubre que en el edificio hay una plaga de cucarachas, por lo que Magd
     <icon src="https://iptv-epg.org/images/MYu9TeLQxvQu7diZLxXSD5zGzeF9FVVX7WIQuYgtIsVuw0zYL230eZ45gd0h8639vVVKE6eANHE3yQXIBPSbnuPn0UEEUiqGuj639_mtkfCDBOrh" />
     <title lang="es">2012</title>
   </programme>
-  <programme start="20260908205000 +0000" stop="20260908212000 +0000" channel="Sony.mx">
+  <programme start="20260908202000 +0000" stop="20260908205000 +0000" channel="Sony.mx">
     <desc lang="es">S6 E8 — Las pantuflas de Luis.
 Luis y Pedro debaten sobre cómo se dice correctamente: pantunflas o pantuflas. Mira quién está en lo correcto y qué habrán apostado. Lorena tiene una cita con su nuevo amigo, Alfonso, pero, ¿Benito le dará permiso de salir?</desc>
     <episode-num>S6 E8</episode-num>
     <icon src="https://iptv-epg.org/images/wWj8CFrE4tOQ_mCF24sWgOe6F1SGvnXquBVa3BlKleNYxT2N3W2NXu-kb8ba8nb-l3HBZJbUDBBO4heVc356N8ejpoRyKDTA96-5YEZx-MYOjGX3EjQ5RxM4fgdxjdMk3EtScO0D9vSFgk8pw2pr" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260908212000 +0000" stop="20260908215000 +0000" channel="Sony.mx">
+  <programme start="20260908205000 +0000" stop="20260908212000 +0000" channel="Sony.mx">
     <desc lang="es">S6 E9 — Segundo aire.
 Germán descubre que en el edificio hay una plaga de cucarachas, por lo que Magdalena le ordena que haga una inspección en su departamento.</desc>
     <episode-num>S6 E9</episode-num>
     <icon src="https://iptv-epg.org/images/lhuCO_U9Cc4LIWGMVtGbZlCo680jeVojizuHjnk9NbFUz5GPSntFPXuGHNfEjMcJ6QH87DNANL_S_N1D1UKY7ai0-Qemi0pQoNRzu_uEP_Wv3Z5asjq1oXM4iGf-4ccfDg8sejBe" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260908215000 +0000" stop="20260909000000 +0000" channel="Sony.mx">
+  <programme start="20260908212000 +0000" stop="20260908233000 +0000" channel="Sony.mx">
     <category lang="es">Comedia</category>
     <credits>
       <director>Dennis Dugan</director>
@@ -89317,7 +89317,7 @@ Germán descubre que en el edificio hay una plaga de cucarachas, por lo que Magd
     <title lang="es">Una esposa de mentira</title>
     <title lang="en">Just Go with It</title>
   </programme>
-  <programme start="20260909000000 +0000" stop="20260909025400 +0000" channel="Sony.mx">
+  <programme start="20260908233000 +0000" stop="20260909022400 +0000" channel="Sony.mx">
     <category lang="es">Drama</category>
     <credits>
       <director>Ridley Scott</director>
@@ -89333,7 +89333,7 @@ Germán descubre que en el edificio hay una plaga de cucarachas, por lo que Magd
     <title lang="es">Gladiador</title>
     <title lang="en">Gladiator</title>
   </programme>
-  <programme start="20260909025400 +0000" stop="20260909052400 +0000" channel="Sony.mx">
+  <programme start="20260909022400 +0000" stop="20260909045400 +0000" channel="Sony.mx">
     <category lang="es">Western</category>
     <credits>
       <director>Antoine Fuqua</director>
@@ -89349,7 +89349,7 @@ Germán descubre que en el edificio hay una plaga de cucarachas, por lo que Magd
     <title lang="es">Los siete magníficos</title>
     <title lang="en">The Magnificent Seven</title>
   </programme>
-  <programme start="20260909052400 +0000" stop="20260909081900 +0000" channel="Sony.mx">
+  <programme start="20260909045400 +0000" stop="20260909074900 +0000" channel="Sony.mx">
     <category lang="es">Drama</category>
     <credits>
       <director>Ridley Scott</director>
@@ -89365,7 +89365,7 @@ Germán descubre que en el edificio hay una plaga de cucarachas, por lo que Magd
     <title lang="es">Gladiador</title>
     <title lang="en">Gladiator</title>
   </programme>
-  <programme start="20260909081900 +0000" stop="20260909100500 +0000" channel="Sony.mx">
+  <programme start="20260909074900 +0000" stop="20260909093500 +0000" channel="Sony.mx">
     <category lang="es">Acción</category>
     <credits>
       <director>Pierre Morel</director>
@@ -89381,63 +89381,63 @@ Germán descubre que en el edificio hay una plaga de cucarachas, por lo que Magd
     <title lang="es">Búsqueda implacable</title>
     <title lang="en">Taken</title>
   </programme>
-  <programme start="20260909100500 +0000" stop="20260909110000 +0000" channel="Sony.mx">
+  <programme start="20260909093500 +0000" stop="20260909103000 +0000" channel="Sony.mx">
     <desc lang="es">S5 E5 — Respectively.
 En la fiesta donde celebran la mudanza de Betty a un departamento compartido, las relaciones de Betty, Hanna y Talula toman nuevos giros.</desc>
     <episode-num>S5 E5</episode-num>
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Bettys Diagnose</title>
   </programme>
-  <programme start="20260909110000 +0000" stop="20260909120000 +0000" channel="Sony.mx">
+  <programme start="20260909103000 +0000" stop="20260909113000 +0000" channel="Sony.mx">
     <desc lang="es">S5 E6 — Eine Kleinigkeit Zu Viel.
 Mientras Hanna y Talula mantienen su relación con el Dr. Stern y el Dr. Lewandowski, Betty se siente incómoda con la separación física de Oliver.</desc>
     <episode-num>S5 E6</episode-num>
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Bettys Diagnose</title>
   </programme>
-  <programme start="20260909120000 +0000" stop="20260909130000 +0000" channel="Sony.mx">
+  <programme start="20260909113000 +0000" stop="20260909123000 +0000" channel="Sony.mx">
     <desc lang="es">S4 E9 — Hábitos irresponsables en el bufé de ensaladas.
 Lim se enfrenta a las circunstancias únicas que rodean a un paciente embarazado con un tumor agresivo. Después de diagnosticar erróneamente a un paciente, Claire hace un descubrimiento desconcertante sobre ciertas prácticas en el hospital.</desc>
     <episode-num>S4 E9</episode-num>
     <icon src="https://iptv-epg.org/images/ejsOhGkCtYWRieef5yl4lxCmj450fFn__Ar3BMu6X9lyul1xpECA8oO4DiLd8YL4fhCF3KFk3tziv1luYfX-iRzBcJqOMh31gw4-WiTa1kos7TTFciz1FC3ujwcTT9Ag-bO6FwWbDxid_6vdaE9BnOQDvdGXxZs1BZKdic1tHGGT5oU" />
     <title lang="es">The Good Doctor</title>
   </programme>
-  <programme start="20260909130000 +0000" stop="20260909140000 +0000" channel="Sony.mx">
+  <programme start="20260909123000 +0000" stop="20260909133000 +0000" channel="Sony.mx">
     <desc lang="es">S4 E10 — Desencríptalo.
 Cuando el hospital se ve afectado por un ciberataque que amenaza con apagar las máquinas que salvan vidas, Lea acepta el desafío y busca ser más astuta que los piratas informáticos para demostrar su valía.</desc>
     <episode-num>S4 E10</episode-num>
     <icon src="https://iptv-epg.org/images/O-K8k3ubbshTqbTIXd5PGcC2lNhxOErMlU4d92EE7QENXwzgUdtGbbYBgWSSSn1KYb_8mNCeElLVpezwj0YlK9M1kSAhyvcVTMmBqWshIIwwgV15hu2B94eAWQy1z-Dc5f-m0NT2kQWo" />
     <title lang="es">The Good Doctor</title>
   </programme>
-  <programme start="20260909140000 +0000" stop="20260909143000 +0000" channel="Sony.mx">
+  <programme start="20260909133000 +0000" stop="20260909140000 +0000" channel="Sony.mx">
     <desc lang="es">S6 E10 — Número equivocado.
 Alguien ha grafiteado la fachada del edificio. Y para retirarlo, Germán cambiará el número de la entrada. Ahora, descubre si Luis recibirá el paquete que espera y si acudirán a pintar el departamento de Lorena.</desc>
     <episode-num>S6 E10</episode-num>
     <icon src="https://iptv-epg.org/images/a-nwu-5J-TkLrVr_ZprILOHQW8Yy0dTovcBn0bdgXJzZtsdNN3FyMdWwJNzdQNNmQsgK9oD4Lxq2Xf81h0slncjl_OeBQN-cMQvzLKSD8Uon0rNTpm8wlA6MYOb2WqnhNJVCoUxGOAf4T7U" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260909143000 +0000" stop="20260909150000 +0000" channel="Sony.mx">
+  <programme start="20260909140000 +0000" stop="20260909143000 +0000" channel="Sony.mx">
     <desc lang="es">S6 E11 — Magdalena y la tercera edad.
 Magdalena se entera de que la alcaldía entregará tarjetas de ayuda a personas de la tercera edad. Mira qué hará la familia López Pérez para obtener ese beneficio. Además, checa por qué a Luis le molesta que Benito tenga carro nuevo.</desc>
     <episode-num>S6 E11</episode-num>
     <icon src="https://iptv-epg.org/images/wAmPSAo7UmybviBVtkSRRMhXpoG3SRaz9gtb8NNjbgDOL3JB262osbaVpFdqUbD8DZZbSHzwceFtcDrIJrnsiChAsFxfvZUf5AZ0KunFpWdvyG65Z6ShB-9W4-yjSPQ1VvzpgqGLDwwMXCr4nI71d0NWuMO4" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260909150000 +0000" stop="20260909153000 +0000" channel="Sony.mx">
+  <programme start="20260909143000 +0000" stop="20260909150000 +0000" channel="Sony.mx">
     <desc lang="es">S6 E12 — Cásate conmigo.
 Silvia y Luis están enojados, por lo que entre ellos comenzará una guerra de desquites. Pero, ¿también será broma cuando él le pida matrimonio a Silvia? Por otro lado, Lorena le pide a Germán que le arregle la mesa de su comedor.</desc>
     <episode-num>S6 E12</episode-num>
     <icon src="https://iptv-epg.org/images/3hhOmTtX_tuLsmbPOm9QcQlmEqUeGYiYKOFXUGi-ud4MPIBmfzBZCDq33EkD8AC62mS-Q_iYcjp5v8Wts7U9rWGJqblnIRH6XD3vHuJjMk5JTB9dyQ2NejwifhLS0rfqmzUrRYx4baI" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260909153000 +0000" stop="20260909160000 +0000" channel="Sony.mx">
+  <programme start="20260909150000 +0000" stop="20260909153000 +0000" channel="Sony.mx">
     <desc lang="es">S6 E13 — La boda.
 Silvita y Luis, con ayuda de los vecinos, realizan los preparativos de su boda. Pero, ¿se van a casar porque Silvita está embarazada? Además, ¿habrá algún impedimento para que su esperada boda se realice?</desc>
     <episode-num>S6 E13</episode-num>
     <icon src="https://iptv-epg.org/images/xIs2RQpIXVz-aGT541poY1XeIWtkwdfpEM677LDjBtt7K7YphULOojrnrJA2ZSABeD-ICZCENfTcs3tjz7yd95EJsL9ZYQvl-h9lRZDHDxa7lQ37Jn2I68v4VZjtQeQU8Q" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260909160000 +0000" stop="20260909181000 +0000" channel="Sony.mx">
+  <programme start="20260909153000 +0000" stop="20260909174000 +0000" channel="Sony.mx">
     <category lang="es">Aventura</category>
     <credits>
       <director>Francis Lawrence</director>
@@ -89453,7 +89453,7 @@ Silvita y Luis, con ayuda de los vecinos, realizan los preparativos de su boda. 
     <title lang="es">Los juegos del hambre: Sinsajo - Parte 1</title>
     <title lang="en">The Hunger Games: Mockingjay - Part 1</title>
   </programme>
-  <programme start="20260909181000 +0000" stop="20260909204000 +0000" channel="Sony.mx">
+  <programme start="20260909174000 +0000" stop="20260909201000 +0000" channel="Sony.mx">
     <category lang="es">C.Ficción</category>
     <credits>
       <director>Francis Lawrence</director>
@@ -89469,28 +89469,28 @@ Silvita y Luis, con ayuda de los vecinos, realizan los preparativos de su boda. 
     <title lang="es">Los juegos del hambre: Sinsajo - Parte 2</title>
     <title lang="en">The Hunger Games: Mockingjay - Part 2</title>
   </programme>
-  <programme start="20260909204000 +0000" stop="20260909211000 +0000" channel="Sony.mx">
+  <programme start="20260909201000 +0000" stop="20260909204000 +0000" channel="Sony.mx">
     <desc lang="es">S6 E11 — Magdalena y la tercera edad.
 Magdalena se entera de que la alcaldía entregará tarjetas de ayuda a personas de la tercera edad. Mira qué hará la familia López Pérez para obtener ese beneficio. Además, checa por qué a Luis le molesta que Benito tenga carro nuevo.</desc>
     <episode-num>S6 E11</episode-num>
     <icon src="https://iptv-epg.org/images/wAmPSAo7UmybviBVtkSRRMhXpoG3SRaz9gtb8NNjbgDOL3JB262osbaVpFdqUbD8DZZbSHzwceFtcDrIJrnsiChAsFxfvZUf5AZ0KunFpWdvyG65Z6ShB-9W4-yjSPQ1VvzpgqGLDwwMXCr4nI71d0NWuMO4" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260909211000 +0000" stop="20260909214000 +0000" channel="Sony.mx">
+  <programme start="20260909204000 +0000" stop="20260909211000 +0000" channel="Sony.mx">
     <desc lang="es">S6 E12 — Cásate conmigo.
 Silvia y Luis están enojados, por lo que entre ellos comenzará una guerra de desquites. Pero, ¿también será broma cuando él le pida matrimonio a Silvia? Por otro lado, Lorena le pide a Germán que le arregle la mesa de su comedor.</desc>
     <episode-num>S6 E12</episode-num>
     <icon src="https://iptv-epg.org/images/3hhOmTtX_tuLsmbPOm9QcQlmEqUeGYiYKOFXUGi-ud4MPIBmfzBZCDq33EkD8AC62mS-Q_iYcjp5v8Wts7U9rWGJqblnIRH6XD3vHuJjMk5JTB9dyQ2NejwifhLS0rfqmzUrRYx4baI" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260909214000 +0000" stop="20260909221000 +0000" channel="Sony.mx">
+  <programme start="20260909211000 +0000" stop="20260909214000 +0000" channel="Sony.mx">
     <desc lang="es">S6 E13 — La boda.
 Silvita y Luis, con ayuda de los vecinos, realizan los preparativos de su boda. Pero, ¿se van a casar porque Silvita está embarazada? Además, ¿habrá algún impedimento para que su esperada boda se realice?</desc>
     <episode-num>S6 E13</episode-num>
     <icon src="https://iptv-epg.org/images/xIs2RQpIXVz-aGT541poY1XeIWtkwdfpEM677LDjBtt7K7YphULOojrnrJA2ZSABeD-ICZCENfTcs3tjz7yd95EJsL9ZYQvl-h9lRZDHDxa7lQ37Jn2I68v4VZjtQeQU8Q" />
     <title lang="es">Vecinos</title>
   </programme>
-  <programme start="20260909221000 +0000" stop="20260910001500 +0000" channel="Sony.mx">
+  <programme start="20260909214000 +0000" stop="20260909234500 +0000" channel="Sony.mx">
     <category lang="es">Acción</category>
     <credits>
       <director>Renny Harlin</director>
@@ -89506,7 +89506,7 @@ Silvita y Luis, con ayuda de los vecinos, realizan los preparativos de su boda. 
     <title lang="es">Riesgo total</title>
     <title lang="en">Cliffhanger</title>
   </programme>
-  <programme start="20260910001500 +0000" stop="20260910015900 +0000" channel="Sony.mx">
+  <programme start="20260909234500 +0000" stop="20260910012900 +0000" channel="Sony.mx">
     <category lang="es">Acción</category>
     <credits>
       <director>Pierre Morel</director>
@@ -89522,7 +89522,7 @@ Silvita y Luis, con ayuda de los vecinos, realizan los preparativos de su boda. 
     <title lang="es">Búsqueda implacable</title>
     <title lang="en">Taken</title>
   </programme>
-  <programme start="20260910015900 +0000" stop="20260910040400 +0000" channel="Sony.mx">
+  <programme start="20260910012900 +0000" stop="20260910033400 +0000" channel="Sony.mx">
     <category lang="es">Comedia</category>
     <credits>
       <director>Seth Gordon</director>
