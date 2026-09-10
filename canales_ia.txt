@@ -1,10 +1,16 @@
 Canal.Ecuavisa.Internacional.sv
 Canal.Ecuavisa.(Ecuador).sv
+Ecuavisa.ec
 Canal.RTS.sv
+RTS.ec
 Canal.TC.Televisión.sv
+TCtv.ec
 Canal.Teleamazonas.sv
+Teleamazonas.ec
 Canal.Ecuador.TV.sv
+EcuadorTV.ec
 Canal.Gamavisión.sv
+Gamavision.ec
 OromarTV.ec
 DIRECTVSports.cl
 DIRECTVSports2.cl
