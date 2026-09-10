@@ -20,21 +20,21 @@ def cargar_json(path):
 
 def guardar_json(path, data):
     with open(path, "w", encoding="utf-8") as f:
-        # json.dump elimina cualquier duplicado de clave automáticamente al guardar
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 def limpiar_historial_antiguo(descripciones_ia):
     """
-    Conserva únicamente las entradas guardadas dentro de los últimos 7 días.
-    Y normaliza la estructura del diccionario.
+    Conserva las entradas guardadas en los últimos 7 días y MANTIENE 
+    las descripciones de formato antiguo (texto plano) asignándoles la fecha de hoy.
     """
     limite_fecha = datetime.now() - timedelta(days=7)
+    fecha_hoy = datetime.now().strftime("%Y-%m-%d")
     descripciones_limpias = {}
 
     for titulo, contenido in descripciones_ia.items():
-        # Elimina espacios extras al inicio/final para evitar falsos duplicados
         titulo_limpio = titulo.strip()
 
+        # Si ya tiene la estructura con fecha_registro
         if isinstance(contenido, dict) and "fecha_registro" in contenido:
             try:
                 fecha_item = datetime.strptime(contenido["fecha_registro"], "%Y-%m-%d")
@@ -42,9 +42,18 @@ def limpiar_historial_antiguo(descripciones_ia):
                     descripciones_limpias[titulo_limpio] = contenido
             except ValueError:
                 descripciones_limpias[titulo_limpio] = contenido
-        else:
-            # Soporte de retrocompatibilidad para textos planos
-            descripciones_limpias[titulo_limpio] = contenido
+        
+        # Si es un texto plano (formato anterior) o un diccionario con "descripcion", le asignamos fecha de hoy
+        elif isinstance(contenido, str) and contenido.strip():
+            descripciones_limpias[titulo_limpio] = {
+                "descripcion": contenido,
+                "fecha_registro": fecha_hoy
+            }
+        elif isinstance(contenido, dict) and "descripcion" in contenido:
+            descripciones_limpias[titulo_limpio] = {
+                "descripcion": contenido["descripcion"],
+                "fecha_registro": fecha_hoy
+            }
 
     return descripciones_limpias
 
@@ -91,43 +100,43 @@ def main():
     borrador = cargar_json(PATH_BORRADOR)
     descripciones_actuales = cargar_json(PATH_DESCRIPCIONES)
 
-    # 1. Depurar el archivo manteniendo solo los últimos 7 días
-    # Esto elimina automáticamente cualquier duplicado que pudiera existir
+    # 1. Depurar el archivo reconociendo el formato antiguo
     descripciones_limpias = limpiar_historial_antiguo(descripciones_actuales)
 
-    # Convertir a lista y limpiar nombres si borrador es dict o list
+    # Cargar títulos del borrador
     if isinstance(borrador, dict):
         titulos_borrador = [t.strip() for t in borrador.keys()]
     else:
         titulos_borrador = [t.strip() for t in borrador]
 
-    # Eliminar duplicados dentro del mismo borrador actual
     titulos_unicos_borrador = list(set(titulos_borrador))
 
-    # 2. VERIFICACIÓN: Filtrar y omitir completamente los títulos que ya existen en descripciones_ia.json
+    # 2. Filtrar únicamente los títulos que realmente NO tienen descripción válida
     titulos_pendientes = [
         titulo for titulo in titulos_unicos_borrador 
-        if titulo not in descripciones_limpias
+        if titulo not in descripciones_limpias or not descripciones_limpias[titulo]
     ]
 
     print(f"Títulos únicos en borrador: {len(titulos_unicos_borrador)}")
-    print(f"Títulos que ya existían y se OMITEN: {len(titulos_unicos_borrador) - len(titulos_pendientes)}")
+    print(f"Títulos que ya existen con descripción: {len(titulos_unicos_borrador) - len(titulos_pendientes)}")
     print(f"Títulos NUEVOS a procesar con Gemini: {len(titulos_pendientes)}")
 
     if titulos_pendientes:
-        # 3. Consultar la API solo para los títulos nuevos
+        # 3. Consultar Gemini para los nuevos
         nuevas = obtener_descripciones_gemini(titulos_pendientes)
         fecha_hoy = datetime.now().strftime("%Y-%m-%d")
 
         for titulo, desc in nuevas.items():
+            # Si el valor retornado es directamente un string o dict
+            texto_desc = desc.get("descripcion", desc) if isinstance(desc, dict) else desc
             descripciones_limpias[titulo.strip()] = {
-                "descripcion": desc,
+                "descripcion": texto_desc,
                 "fecha_registro": fecha_hoy
             }
 
-    # 4. Guardar archivo consolidado (sin duplicados)
+    # 4. Guardar archivo consolidado
     guardar_json(PATH_DESCRIPCIONES, descripciones_limpias)
-    print("Archivo descripciones_ia.json actualizado y depurado correctamente.")
+    print("Archivo descripciones_ia.json actualizado correctamente.")
 
 if __name__ == "__main__":
     main()
