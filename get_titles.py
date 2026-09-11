@@ -4,6 +4,7 @@ import gzip
 import re
 import json
 import os
+import unicodedata
 
 # Las 21 fuentes de televisión
 SOURCES = [
@@ -21,30 +22,34 @@ SOURCES = [
     "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz"
 ]
 
+def normalizar_texto(texto):
+    """
+    Convierte el texto a minúsculas y quita tildes/espacios extras
+    para detectar coincidencias exactas sin importar formato.
+    """
+    texto = texto.strip().lower()
+    return ''.join(
+        c for c in unicodedata.normalize('NFD', texto)
+        if unicodedata.category(c) != 'Mn'
+    )
+
 def extraer_plantilla_json():
     ids_ia_autorizados = set()
-    titulos_unicos = set()
-    titulos_ya_existentes = set()
+    titulos_nuevos = {}  # Guardará {titulo_normalizado: titulo_original}
+    normalizados_existentes = set()
 
-    # 1. LEER LA BASE DE DATOS ACTUAL (Para omitir lo que ya está hecho)
+    # 1. LEER LA BASE DE DATOS ACTUAL (descripciones_ia.json)
     base_datos_real = "descripciones_ia.json"
     if os.path.exists(base_datos_real):
         try:
             with open(base_datos_real, "r", encoding="utf-8") as f_db:
                 data_db = json.load(f_db)
-                for titulo, contenido in data_db.items():
-                    titulo_limpio = titulo.strip()
-                    # Soporta formato simple (texto) y formato objeto/diccionario
-                    if isinstance(contenido, str) and contenido.strip():
-                        titulos_ya_existentes.add(titulo_limpio)
-                    elif isinstance(contenido, dict) and contenido.get("descripcion"):
-                        titulos_ya_existentes.add(titulo_limpio)
-                    elif contenido: # Cualquier otra estructura con contenido válido
-                        titulos_ya_existentes.add(titulo_limpio)
-
-            print(f"🧠 Base de datos detectada: Se omitirán {len(titulos_ya_existentes)} títulos que ya tienen sinopsis.")
+                for titulo in data_db.keys():
+                    if titulo and str(titulo).strip():
+                        normalizados_existentes.add(normalizar_texto(str(titulo)))
+            print(f"🧠 Base de datos detectada: Se omitirán {len(normalizados_existentes)} títulos que ya existen en descripciones_ia.json.")
         except Exception as e:
-            print(f"⚠️ No se pudo leer '{base_datos_real}' o está vacío. Se procesará todo. Error: {e}")
+            print(f"⚠️ No se pudo leer '{base_datos_real}'. Error: {e}")
 
     # 2. Leer canales autorizados
     try:
@@ -72,7 +77,6 @@ def extraer_plantilla_json():
             else:
                 xml_text = r.text
 
-            # Reparación rápida de ampersands peligrosos
             xml_text = re.sub(r'&(?!([a-zA-Z0-9]+|#[0-9]+|#x[a-fA-F0-9]+);)', '&amp;', xml_text)
             tree = ET.fromstring(xml_text.encode("utf-8"))
             
@@ -81,18 +85,19 @@ def extraer_plantilla_json():
                 if p_channel and p_channel.strip() in ids_ia_autorizados:
                     title_elem = p.find("title")
                     if title_elem is not None and title_elem.text:
-                        titulo_limpio = title_elem.text.strip()
+                        titulo_original = title_elem.text.strip()
+                        titulo_norm = normalizar_texto(titulo_original)
                         
-                        # Omite el título si ya existe en la base de datos
-                        if titulo_limpio and (titulo_limpio not in titulos_ya_existentes):
-                            titulos_unicos.add(titulo_limpio)
+                        # VERIFICACIÓN: Si no está en descripciones_ia.json Y tampoco se ha agregado antes en este mismo escaneo
+                        if titulo_norm and (titulo_norm not in normalizados_existentes) and (titulo_norm not in titulos_nuevos):
+                            titulos_nuevos[titulo_norm] = titulo_original
                             
         except Exception:
             continue
 
-    # 4. Crear el archivo borrador sólo si hay novedades reales
+    # 4. Crear el archivo borrador sólo con los títulos únicos que no existían
     output_file = "borrador_titulos.json"
-    plantilla_json = {titulo: "" for titulo in sorted(titulos_unicos)}
+    plantilla_json = {titulo_orig: "" for titulo_orig in sorted(titulos_nuevos.values())}
 
     with open(output_file, "w", encoding="utf-8") as f_out:
         json.dump(plantilla_json, f_out, ensure_ascii=False, indent=4)
@@ -101,7 +106,7 @@ def extraer_plantilla_json():
         print(f"\n🎉 ¡Filtrado completado! Se encontraron {len(plantilla_json)} títulos NUEVOS para rellenar.")
         print(f"📁 Archivo de novedades generado: '{output_file}'")
     else:
-        print("\n😎 ¡Al día! Todos los programas en emisión ya tienen su sinopsis en la base de datos. Nada nuevo que agregar.")
+        print("\n😎 ¡Al día! Todos los programas en emisión ya están registrados. Nada nuevo que agregar a borrador_titulos.json.")
 
 if __name__ == "__main__":
     extraer_plantilla_json()
