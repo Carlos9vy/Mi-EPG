@@ -19,26 +19,39 @@ def cargar_json(path):
 
 def guardar_json(path, data):
     with open(path, "w", encoding="utf-8") as f:
+        # json.dump elimina cualquier duplicado de clave automáticamente al guardar
         json.dump(data, f, ensure_ascii=False, indent=4)
 
-def normalizar_formato_sencillo(descripciones_ia):
+def depurar_y_eliminar_duplicados(descripciones_ia):
     """
-    Convierte cualquier entrada previa con 'fecha_registro' al formato sencillo: "Título": "Texto".
+    Lee todas las entradas, limpia espacios invisibles en los títulos
+    y elimina duplicados manteniendo solo la primera descripción encontrada.
     """
-    descripciones_sencillas = {}
+    descripciones_unicas = {}
+    duplicados_eliminados = 0
 
     for titulo, contenido in descripciones_ia.items():
+        # Limpiamos espacios al inicio y final del título
         titulo_limpio = titulo.strip()
 
-        # Si viene en el formato con diccionario/fecha, extrae solo el texto de la descripción
+        # Extraemos la descripción como texto simple
         if isinstance(contenido, dict):
-            texto = contenido.get("descripcion", "")
-            if texto:
-                descripciones_sencillas[titulo_limpio] = texto
-        elif isinstance(contenido, str) and contenido.strip():
-            descripciones_sencillas[titulo_limpio] = contenido.strip()
+            texto_desc = contenido.get("descripcion", "").strip()
+        else:
+            texto_desc = str(contenido).strip()
 
-    return descripciones_sencillas
+        # Si el título ya existe en nuestro nuevo diccionario, lo saltamos (es duplicado)
+        if titulo_limpio in descripciones_unicas:
+            duplicados_eliminados += 1
+            continue
+
+        if texto_desc:
+            descripciones_unicas[titulo_limpio] = texto_desc
+
+    if duplicados_eliminados > 0:
+        print(f"🧹 Se encontraron y eliminaron {duplicados_eliminados} títulos duplicados.")
+    
+    return descripciones_unicas
 
 def obtener_descripciones_gemini(titulos_pendientes):
     if not titulos_pendientes:
@@ -83,8 +96,8 @@ def main():
     borrador = cargar_json(PATH_BORRADOR)
     descripciones_actuales = cargar_json(PATH_DESCRIPCIONES)
 
-    # 1. Convertir automáticamente el contenido existente de descripciones_ia.json a texto sencillo
-    descripciones_limpias = normalizar_formato_sencillo(descripciones_actuales)
+    # 1. Analizar descripciones_ia.json, quitar espacios y borrar duplicados
+    descripciones_limpias = depurar_y_eliminar_duplicados(descripciones_actuales)
 
     # Cargar títulos del borrador
     if isinstance(borrador, dict):
@@ -94,27 +107,27 @@ def main():
 
     titulos_unicos_borrador = list(set(titulos_borrador))
 
-    # 2. Filtrar títulos que aún no tienen descripción
+    # 2. Filtrar únicamente títulos que verdaderamente no existen
     titulos_pendientes = [
         titulo for titulo in titulos_unicos_borrador 
         if titulo not in descripciones_limpias or not descripciones_limpias[titulo]
     ]
 
     print(f"Títulos únicos en borrador: {len(titulos_unicos_borrador)}")
-    print(f"Títulos que ya existen con descripción: {len(titulos_unicos_borrador) - len(titulos_pendientes)}")
+    print(f"Títulos que ya existen y se OMITEN: {len(titulos_unicos_borrador) - len(titulos_pendientes)}")
     print(f"Títulos NUEVOS a procesar con Gemini: {len(titulos_pendientes)}")
 
     if titulos_pendientes:
-        # 3. Consultar Gemini para los nuevos
+        # 3. Consultar Gemini para lo nuevo
         nuevas = obtener_descripciones_gemini(titulos_pendientes)
 
         for titulo, desc in nuevas.items():
             texto_desc = desc.get("descripcion", desc) if isinstance(desc, dict) else desc
-            descripciones_limpias[titulo.strip()] = texto_desc
+            descripciones_limpias[titulo.strip()] = texto_desc.strip()
 
-    # 4. Guardar forzando la estructura plana "Título": "Descripción"
+    # 4. Guardar archivo depurado y sin duplicados
     guardar_json(PATH_DESCRIPCIONES, descripciones_limpias)
-    print("Archivo descripciones_ia.json actualizado al formato sencillo correctamente.")
+    print("Archivo descripciones_ia.json depurado y guardado correctamente.")
 
 if __name__ == "__main__":
     main()
