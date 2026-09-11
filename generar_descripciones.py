@@ -19,8 +19,26 @@ def cargar_json(path):
 
 def guardar_json(path, data):
     with open(path, "w", encoding="utf-8") as f:
-        # json.dump elimina cualquier duplicado de clave automáticamente al guardar
         json.dump(data, f, ensure_ascii=False, indent=4)
+
+def normalizar_formato_sencillo(descripciones_ia):
+    """
+    Convierte cualquier entrada previa con 'fecha_registro' al formato sencillo: "Título": "Texto".
+    """
+    descripciones_sencillas = {}
+
+    for titulo, contenido in descripciones_ia.items():
+        titulo_limpio = titulo.strip()
+
+        # Si viene en el formato con diccionario/fecha, extrae solo el texto de la descripción
+        if isinstance(contenido, dict):
+            texto = contenido.get("descripcion", "")
+            if texto:
+                descripciones_sencillas[titulo_limpio] = texto
+        elif isinstance(contenido, str) and contenido.strip():
+            descripciones_sencillas[titulo_limpio] = contenido.strip()
+
+    return descripciones_sencillas
 
 def obtener_descripciones_gemini(titulos_pendientes):
     if not titulos_pendientes:
@@ -65,6 +83,9 @@ def main():
     borrador = cargar_json(PATH_BORRADOR)
     descripciones_actuales = cargar_json(PATH_DESCRIPCIONES)
 
+    # 1. Convertir automáticamente el contenido existente de descripciones_ia.json a texto sencillo
+    descripciones_limpias = normalizar_formato_sencillo(descripciones_actuales)
+
     # Cargar títulos del borrador
     if isinstance(borrador, dict):
         titulos_borrador = [t.strip() for t in borrador.keys()]
@@ -73,28 +94,27 @@ def main():
 
     titulos_unicos_borrador = list(set(titulos_borrador))
 
-    # Omitir cualquier título que ya exista en descripciones_ia.json
+    # 2. Filtrar títulos que aún no tienen descripción
     titulos_pendientes = [
         titulo for titulo in titulos_unicos_borrador 
-        if titulo not in descripciones_actuales or not descripciones_actuales[titulo]
+        if titulo not in descripciones_limpias or not descripciones_limpias[titulo]
     ]
 
     print(f"Títulos únicos en borrador: {len(titulos_unicos_borrador)}")
-    print(f"Títulos que ya existían y se OMITEN: {len(titulos_unicos_borrador) - len(titulos_pendientes)}")
+    print(f"Títulos que ya existen con descripción: {len(titulos_unicos_borrador) - len(titulos_pendientes)}")
     print(f"Títulos NUEVOS a procesar con Gemini: {len(titulos_pendientes)}")
 
     if titulos_pendientes:
-        # Consultar Gemini para los nuevos
+        # 3. Consultar Gemini para los nuevos
         nuevas = obtener_descripciones_gemini(titulos_pendientes)
 
         for titulo, desc in nuevas.items():
-            # Si el valor retornado es un diccionario por error, extrae solo el texto
             texto_desc = desc.get("descripcion", desc) if isinstance(desc, dict) else desc
-            descripciones_actuales[titulo.strip()] = texto_desc
+            descripciones_limpias[titulo.strip()] = texto_desc
 
-    # Guardar en formato simple {"Título": "Descripción"}
-    guardar_json(PATH_DESCRIPCIONES, descripciones_actuales)
-    print("Archivo descripciones_ia.json actualizado correctamente.")
+    # 4. Guardar forzando la estructura plana "Título": "Descripción"
+    guardar_json(PATH_DESCRIPCIONES, descripciones_limpias)
+    print("Archivo descripciones_ia.json actualizado al formato sencillo correctamente.")
 
 if __name__ == "__main__":
     main()
