@@ -32,15 +32,21 @@ def extraer_plantilla_json():
         try:
             with open(base_datos_real, "r", encoding="utf-8") as f_db:
                 data_db = json.load(f_db)
-                # Guardamos los títulos que ya tienen una sinopsis (que no estén vacías)
-                for titulo, descripcion in data_db.items():
-                    if descripcion.strip(): 
-                        titulos_ya_existentes.add(titulo)
+                for titulo, contenido in data_db.items():
+                    titulo_limpio = titulo.strip()
+                    # Soporta formato simple (texto) y formato objeto/diccionario
+                    if isinstance(contenido, str) and contenido.strip():
+                        titulos_ya_existentes.add(titulo_limpio)
+                    elif isinstance(contenido, dict) and contenido.get("descripcion"):
+                        titulos_ya_existentes.add(titulo_limpio)
+                    elif contenido: # Cualquier otra estructura con contenido válido
+                        titulos_ya_existentes.add(titulo_limpio)
+
             print(f"🧠 Base de datos detectada: Se omitirán {len(titulos_ya_existentes)} títulos que ya tienen sinopsis.")
         except Exception as e:
-            print(f"⚠️ No se pudo leer '{base_datos_real}' o está vacío. Se procesará todo. Extre: {e}")
+            print(f"⚠️ No se pudo leer '{base_datos_real}' o está vacío. Se procesará todo. Error: {e}")
 
-    # 2. Leer tus 7 canales autorizados
+    # 2. Leer canales autorizados
     try:
         with open("canales_ia.txt", "r", encoding="utf-8") as f:
             for line in f:
@@ -77,20 +83,21 @@ def extraer_plantilla_json():
                     if title_elem is not None and title_elem.text:
                         titulo_limpio = title_elem.text.strip()
                         
-                        # ¡AQUÍ ESTÁ TU IDEA! Si el título ya existe en la base de datos, lo ignora por completo
+                        # Omite el título si ya existe en la base de datos
                         if titulo_limpio and (titulo_limpio not in titulos_ya_existentes):
                             titulos_unicos.add(titulo_limpio)
                             
         except Exception:
             continue
 
-    # 4. Crear el archivo borrador solo con las novedades
+    # 4. Crear el archivo borrador sólo si hay novedades reales
     output_file = "borrador_titulos.json"
     plantilla_json = {titulo: "" for titulo in sorted(titulos_unicos)}
 
+    with open(output_file, "w", encoding="utf-8") as f_out:
+        json.dump(plantilla_json, f_out, ensure_ascii=False, indent=4)
+
     if plantilla_json:
-        with open(output_file, "w", encoding="utf-8") as f_out:
-            json.dump(plantilla_json, f_out, ensure_ascii=False, indent=4)
         print(f"\n🎉 ¡Filtrado completado! Se encontraron {len(plantilla_json)} títulos NUEVOS para rellenar.")
         print(f"📁 Archivo de novedades generado: '{output_file}'")
     else:
