@@ -102,6 +102,7 @@ ESPNColombia.ec
 ESPN.cl
 ESPN.uy
 ESPN.pe
+ESPN.ve
 ESPNSur2.ar
 ESPNSur3.ar
 ESPN.mx
@@ -112,16 +113,19 @@ ESPN2.ar
 ESPN2.cl
 ESPN2.co
 ESPN2Colombia.ec
+ESPN2.ve
 ESPN3Andina.ec
 ESPN3.ar
 ESPN3.co
 ESPN3.uy
 ESPN3.cl
+ESPN3.ve
 ESPN 3.mx (open-epg.com)
 ESPN4.ec
 ESPN4.ar
 ESPN4.cl
 ESPN4.uy
+ESPN4.ve
 ESPN 4.mx (open-epg.com)
 ESPN5.ec
 ESPN5.uy
