@@ -34,15 +34,13 @@ def fix_description(desc_text):
     return desc_text
 
 def apply_time_shift(time_str, hours_shift):
-    """Suma o horas al tiempo y asegura el formato de zona horaria obligatorio para Smart IPTV."""
+    """Suma o resta horas al formato de tiempo estándar de EPG (ej. 20260517002000 +0000)."""
     if not time_str or hours_shift == 0:
-        if time_str and " " not in time_str:
-            return f"{time_str} +0000"
         return time_str
     try:
         parts = time_str.split()
         base_time = parts[0]
-        tz = parts[1] if len(parts) > 1 else "+0000"
+        tz = parts[1] if len(parts) > 1 else ""
         
         dt = datetime.strptime(base_time, "%Y%m%d%H%M%S")
         dt_shifted = dt + timedelta(minutes=int(hours_shift * 60))
@@ -50,24 +48,7 @@ def apply_time_shift(time_str, hours_shift):
         new_base_time = dt_shifted.strftime("%Y%m%d%H%M%S")
         return f"{new_base_time} {tz}".strip()
     except Exception:
-        if " " not in time_str:
-            return f"{time_str} +0000"
         return time_str
-
-def clean_tag(tag):
-    """Elimina namespaces de ElementTree para evitar prefijos que rompen reproductores estrictos."""
-    if '}' in tag:
-        return tag.split('}', 1)[1]
-    return tag
-
-def clone_clean_element(elem):
-    """Clona un elemento XML limpiando namespaces para compatibilidad universal (Smart IPTV y SS-IPTV)."""
-    new_elem = ET.Element(clean_tag(elem.tag), elem.attrib)
-    new_elem.text = elem.text
-    new_elem.tail = elem.tail
-    for child in elem:
-        new_elem.append(clone_clean_element(child))
-    return new_elem
 
 def run():
     standard_wanted_ids = set()
@@ -75,10 +56,11 @@ def run():
     raw_lines_map = {} 
     shifts = {}
     
+    # Mapeos para el módulo de inyección local de base de datos
     allowed_ia_channels = set()
     database_descriptions = {}
 
-    # 1. Cargar shift.txt
+    # 1. Cargar el archivo shift.txt si existe
     try:
         with open("shift.txt", "r", encoding="utf-8") as f:
             for line in f:
@@ -93,7 +75,7 @@ def run():
     except FileNotFoundError:
         print("No se encontró shift.txt. Se procesará sin ajustes horarios.")
 
-    # 2. Cargar canales permitidos desde canales_ia.txt
+    # 2. Cargar canales permitidos para inyección desde canales_ia.txt
     try:
         with open("canales_ia.txt", "r", encoding="utf-8") as f:
             for line in f:
@@ -104,7 +86,7 @@ def run():
     except FileNotFoundError:
         print("⚠️ Advertencia: No se encontró canales_ia.txt. No se inyectarán descripciones.")
 
-    # 3. Cargar descripciones_ia.json
+    # 3. Cargar diccionario de descripciones fijas desde descripciones_ia.json
     try:
         with open("descripciones_ia.json", "r", encoding="utf-8") as f:
             database_descriptions = json.load(f)
@@ -114,7 +96,7 @@ def run():
     except json.JSONDecodeError:
         print("❌ Error: descripciones_ia.json tiene un formato JSON inválido.")
 
-    # 4. Cargar canales deseados desde canales.txt
+    # 4. Cargar tus canales deseados desde canales.txt
     try:
         with open("canales.txt", "r", encoding="utf-8") as f:
             for line in f:
@@ -147,6 +129,7 @@ def run():
         is_open_epg_url = "open-epg.com" in url
         try:
             print(f"Descargando fuente: {url}")
+            # Timeout optimizado a 15 segundos para evitar cuelgues del runner
             r = requests.get(url, timeout=15)
             data = r.content
             
@@ -155,70 +138,62 @@ def run():
             
             tree = ET.fromstring(data)
             
-            # Procesar canales buscando profundamente sin importar namespaces
-            for c in tree.findall(".//*"):
-                if clean_tag(c.tag) == "channel":
-                    xml_id = c.get("id")
-                    if xml_id:
-                        xml_id_clean = xml_id.strip()
-                        if is_open_epg_url:
-                            if xml_id_clean in all_clean_wanted:
-                                channels_found.append(clone_clean_element(c))
-                                missing_clean_ids.discard(xml_id_clean)
-                        else:
-                            if xml_id_clean in standard_wanted_ids:
-                                channels_found.append(clone_clean_element(c))
-                                missing_clean_ids.discard(xml_id_clean)
+            # Procesar canales
+            for c in tree.findall("channel"):
+                xml_id = c.get("id")
+                if xml_id:
+                    xml_id_clean = xml_id.strip()
+                    if is_open_epg_url:
+                        if xml_id_clean in all_clean_wanted:
+                            channels_found.append(c)
+                            missing_clean_ids.discard(xml_id_clean)
+                    else:
+                        if xml_id_clean in standard_wanted_ids:
+                            channels_found.append(c)
+                            missing_clean_ids.discard(xml_id_clean)
             
-            # Procesar programas profundamente
-            for p in tree.findall(".//*"):
-                if clean_tag(p.tag) == "programme":
-                    p_channel = p.get("channel")
-                    if p_channel:
-                        p_channel_clean = p_channel.strip()
-                        
-                        is_match = (is_open_epg_url and p_channel_clean in all_clean_wanted) or \
-                                   (not is_open_epg_url and p_channel_clean in standard_wanted_ids)
-                        
-                        if is_match:
-                            p_clean = clone_clean_element(p)
-                            
-                            # --- INYECCIÓN Y ESTÉTICA DE DESCRIPCIÓN ---
-                            desc_element = p_clean.find("desc")
-                            p_title_element = p_clean.find("title")
-                            p_title = p_title_element.text.strip() if (p_title_element is not None and p_title_element.text) else ""
+            # Procesar programas, corregir descripciones, aplicar shifts e inyectar JSON
+            for p in tree.findall("programme"):
+                p_channel = p.get("channel")
+                if p_channel:
+                    p_channel_clean = p_channel.strip()
+                    
+                    is_match = (is_open_epg_url and p_channel_clean in all_clean_wanted) or \
+                               (not is_open_epg_url and p_channel_clean in standard_wanted_ids)
+                    
+                    if is_match:
+                        # --- MEJORA ESTÉTICA O INYECCIÓN DE LA DESCRIPCIÓN ---
+                        desc_element = p.find("desc")
+                        p_title_element = p.find("title")
+                        p_title = p_title_element.text.strip() if (p_title_element is not None and p_title_element.text) else ""
 
-                            is_desc_empty = (desc_element is not None and not str(desc_element.text).strip()) or (desc_element is None)
+                        # Si no existe la etiqueta desc, o existe pero está vacía
+                        is_desc_empty = (desc_element is not None and not str(desc_element.text).strip()) or (desc_element is None)
 
-                            if is_desc_empty and p_channel_clean in allowed_ia_channels and p_title in database_descriptions:
-                                raw_db_desc = database_descriptions[p_title]
-                                safe_db_desc = escape(raw_db_desc)
-                                
-                                if desc_element is None:
-                                    desc_element = ET.SubElement(p_clean, "desc", {"lang": "es"})
-                                
-                                desc_element.text = fix_description(safe_db_desc)
-                                inserted_descriptions_count += 1
-                            elif desc_element is not None and desc_element.text:
-                                desc_element.text = fix_description(desc_element.text)
+                        if is_desc_empty and p_channel_clean in allowed_ia_channels and p_title in database_descriptions:
+                            raw_db_desc = database_descriptions[p_title]
+                            safe_db_desc = escape(raw_db_desc)
                             
-                            # --- AJUSTE HORARIO Y ZONA HORARIA OBLIGATORIA ---
-                            start_time = p_clean.get("start")
-                            stop_time = p_clean.get("stop")
+                            if desc_element is None:
+                                desc_element = ET.SubElement(p, "desc", {"lang": "es"})
                             
-                            if p_channel_clean in shifts:
-                                shift_value = shifts[p_channel_clean]
-                                if start_time:
-                                    p_clean.set("start", apply_time_shift(start_time, shift_value))
-                                if stop_time:
-                                    p_clean.set("stop", apply_time_shift(stop_time, shift_value))
-                            else:
-                                if start_time and " " not in start_time:
-                                    p_clean.set("start", f"{start_time} +0000")
-                                if stop_time and " " not in stop_time:
-                                    p_clean.set("stop", f"{stop_time} +0000")
+                            desc_element.text = fix_description(safe_db_desc)
+                            inserted_descriptions_count += 1
+                        elif desc_element is not None and desc_element.text:
+                            desc_element.text = fix_description(desc_element.text)
+                        
+                        # --- MEJORA AJUSTE HORARIO (TIME SHIFT) ---
+                        if p_channel_clean in shifts:
+                            shift_value = shifts[p_channel_clean]
+                            start_time = p.get("start")
+                            stop_time = p.get("stop")
                             
-                            programmes_found.append(p_clean)
+                            if start_time:
+                                p.set("start", apply_time_shift(start_time, shift_value))
+                            if stop_time:
+                                p.set("stop", apply_time_shift(stop_time, shift_value))
+                        
+                        programmes_found.append(p)
                     
         except requests.exceptions.Timeout:
             print(f"⚠️ Aviso: La fuente {url} tardó demasiado en responder (Timeout). Saltando...")
@@ -226,31 +201,18 @@ def run():
         except Exception as e:
             print(f"Error procesando {url}: {e}")
 
+    # Mensaje de confirmación del módulo de base de datos local
     if inserted_descriptions_count > 0:
         print(f"🎉 Módulo Local completado. Se insertaron {inserted_descriptions_count} descripciones guardadas.")
 
-    # Unir canales limpios eliminando duplicados
-    unique_channels = {}
-    for c in channels_found:
-        cid = c.get("id").strip()
-        if cid not in unique_channels:
-            unique_channels[cid] = c
-            
-    for c in unique_channels.values():
+    # Unir canales sin duplicados
+    unique_channels = {c.get("id").strip(): c for c in channels_found}.values()
+    for c in unique_channels:
         new_root.append(c)
-        
-    # Deduplicar programas por canal, inicio y fin para que Smart IPTV no colapse
-    seen_programmes = set()
     for p in programmes_found:
-        ch = p.get("channel")
-        st = p.get("start")
-        et = p.get("stop")
-        prog_key = (ch, st, et)
-        if prog_key not in seen_programmes:
-            seen_programmes.add(prog_key)
-            new_root.append(p)
+        new_root.append(p)
 
-    # Guardar archivos XML y su versión comprimida GZIP
+    # Guardar archivos
     output_xml = "guia_personalizada.xml"
     ET.ElementTree(new_root).write(output_xml, encoding="utf-8", xml_declaration=True)
 
