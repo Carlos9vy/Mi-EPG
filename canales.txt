@@ -21,7 +21,6 @@ AzCorazón.mx
 AvilaTV.ve@SD
 AztecaInternacional.us
 6582f002a620e3000813b329
-BabyTV.cl
 BabyFirst.us
 Canal5.mx
 Canal.5.de.México.(XHGC).sv
@@ -49,64 +48,26 @@ DSPORTS 2 HD.ve (open-epg.com)
 DSPORTS + HD.ve (open-epg.com)
 beINSportsXtraEspanol.us
 ESNE.mx
-ESPN.co
-ESPN.ar
-ESPNColombia.ec
-ESPN.cl
-ESPN.uy
-ESPN.pe
 ESPN.ve
-ESPNSur2.ar
-ESPNSur3.ar
 ESPN.mx
 ESPNNorte.mx
 ESPN 2.mx (open-epg.com)
-ESPN2.uy
-ESPN2.ar
-ESPN2.cl
-ESPN2.co
-ESPN2Colombia.ec
 ESPN2.ve
-ESPN3Andina.ec
-ESPN3.ar
-ESPN3.co
-ESPN3.uy
-ESPN3.cl
 ESPN3.ve
 ESPN 3.mx (open-epg.com)
-ESPN4.ec
-ESPN4.ar
-ESPN4.cl
-ESPN4.uy
 ESPN4.ve
 ESPN 4.mx (open-epg.com)
-ESPN5.ec
-ESPN5.uy
 Canal.ESPN.5.(Centroamérica.y.República.Dominicana).sv
-ESPN6.uy
-ESPN7.ec
-ESPN7.uy
 Canal.ESPN.Premium.(Chile).sv
 ESPN Premium HD.cl (open-epg.com)
 ESPN PREMIUM HD.ar (open-epg.com)
 ESPN+.mx
-FOXSportsConoSur.ar
-FOXSports2.ar
-FOXSports3.ar
 FIFA+.us
 FIFAPlus.uk@HispanicAmerica
-Eurochannel.co
-EWTN.cl
-film&arts.co
-FOODNETWORK.uy
-FRANCE24.uy
-FX.co
 Golden.mx
 GoldenEdge.mx
 GoldenPremier.mx
 GoldenPremier2.mx
-GolfChannel.ec
-GolfChannel.co
 HBO2.gt
 HBOFamily.gt
 HBOMundi.gt
@@ -114,9 +75,6 @@ HBOOeste.gt
 HBOPlusPanregional.gt
 HBOSignature.gt
 HBOXtreme.gt
-HBO.ec
-HBO.co
-HBO.cl
 HBO2.mx
 HBO2.co
 HBOFamily.co
