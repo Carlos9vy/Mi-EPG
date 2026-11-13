@@ -5,15 +5,9 @@ import io
 
 # --- LAS 20 FUENTES COMPLETAS EN ORDEN ---
 EPG_SOURCES = [
-    "https://iptv-epg.org/files/epg-ar.xml",
-    "https://iptv-epg.org/files/epg-cl.xml",
-    "https://iptv-epg.org/files/epg-co.xml",
-    "https://iptv-epg.org/files/epg-ec.xml",
     "https://iptv-epg.org/files/epg-mx.xml",
-    "https://iptv-epg.org/files/epg-pe.xml",
     "https://iptv-epg.org/files/epg-es.xml",
     "https://iptv-epg.org/files/epg-us.xml",
-    "https://iptv-epg.org/files/epg-uy.xml",
     "https://iptv-epg.org/files/epg-ve.xml",
     "https://iptv-epg.org/files/epg-bo.xml",
     "https://iptv-epg.org/files/epg-cr.xml",
