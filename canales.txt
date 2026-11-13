@@ -76,19 +76,6 @@ HBOPlusPanregional.gt
 HBOSignature.gt
 HBOXtreme.gt
 HBO2.mx
-HBO2.co
-HBOFamily.co
-HBOMundi.co
-HBOPlus(Panamericano).co
-HBOPLUS.uy
-HBOPop.co
-HBOSignature.co
-HBOXtreme.co
-History.co
-HISTORY2.uy
-History2.co
-HOLATV.co
-KANALD.uy
 Kanal D Drama.cl (open-epg.com)
 LA1.es
 LA2.es
@@ -101,9 +88,6 @@ Divinity.es
 Mega.es
 Nova.es
 Telemadrid.es
-LASESTRELLAS.uy
-Lifetime.co
-Mega.cl
 lch3300
 M+Deportes.es
 M+LigadeCampeones.es
@@ -113,64 +97,22 @@ M+LigadeCampeones4.es
 M+#Vamos.es
 M+LaLigaTV.es
 MTV.es
-Multipremier.co
-MULTICINEMA.uy
-NationalGeographic.ar
-Nick.cl
-Pasiones.co
 PlimPlim.ar (open-epg.com)
-Playboy.co
-RaiItalia.cl
 SkySports16.mx
-PPV14SEXTREME.uy
-SonyEntertainmentTelevisionAndesfeed.ec
 Sony.mx
-Sony.co
-SONYMOVIES.uy
-SPACE.uy
-Space.cl
-Space.pe
-StarChannel.cl
-STARChannel.ec
-StarChannel.pe
-STARCHANNEL.uy
-StudioUniversal.ar
-StudioUniversal.cl
-SUNCHANNEL.uy
-TCM.co
-Telefe.ar
-TelemundoInternacional.ec
-Telesur.pe
-TLC.co
-TLNovelas.cl
 TLNovelas.ve
-TNT.co
-TNT.cl
-TNTNOVELAS.uy
 TNTNovelas.bo
-TNTSeries.pe
-TNTSeriesPAN.ec
-TNTSports.cl
-TNTSportsPremium.cl
 TNT SPORTS PREMIUM.ar (open-epg.com)
-Tooncast.co
-TVE.uy
 TUDN.mx@SD
 TUDNMexico.mx
 Canal.TUDN.(Centroamérica).sv
 Canal.TUDN.(Estados.Unidos).sv
 Canal.TUDN.(México).sv
 TUDNMexico.gt
-TyCSports.ar
-TyCSports.co
 TigoSport.cr
 Canal.Tigo.Sports.(Guatemala).sv
-Unitel.pe
-UniversalTV.co
-UniversalTV.ar
 UNIVERSO.us
 Telemundo.us
-USA.uy
 UltraBanda.us
 UltraCine.us
 UltraClasico.us
@@ -183,13 +125,7 @@ UltraLuna.us
 UltraMacho.us
 UltraMex.us
 UltraTainment.us
-Venus.ar
-Venus.co
 VENEVISION.ve (open-epg.com)
-WarnerChannel.ar
-WarnerChannel.co
-WinSports.co
 Win+Futbol.co (open-epg.com)
-Zoom.co
 
 
