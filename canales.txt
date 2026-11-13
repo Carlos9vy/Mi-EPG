@@ -1,36 +1,20 @@
-Ecuavisa.ec
 Ecuavisa.ec@SD
 Canal.Ecuavisa.(Ecuador).sv
 EcuavisaInternacional.ec
 EcuavisaInternacional.ec@SD
 Canal.Ecuavisa.Internacional.sv
-RTS.ec
 Canal.RTS.sv
-TCtv.ec
 tc_television
 Canal.TC.Televisión.sv
-Teleamazonas.ec
 Teleamazonas.ec@SD
 Canal.Teleamazonas.sv
-Gamavision.ec
 Gamavision.ec@SD
 Canal.Gamavisión.sv
-RTU.ec
-EcuadorTV.ec
 EcuadorTV.ec@SD
 Canal.Ecuador.TV.sv
-OromarTV.ec
-ATV.pe
-ATV+.pe
-ATVSur.pe
-A&E.co
-AMC.ar
 AmcSeries.ar (open-epg.com)
-AXN.co
 AmericaTelevision.pe@SD
-AmericaTelevision.pe
 AnimalPlanet.co
-Antena3.co
 Atreseries.es
 AzCorazon.mx@SD
 AzCorazón.mx
@@ -41,23 +25,13 @@ BabyTV.cl
 BabyFirst.us
 Canal5.mx
 Canal.5.de.México.(XHGC).sv
-CartoonNetwork.co
-Cartoonito.co
 CGTNSpanish.cn@SD
 CGTNEspanol.es
 AmcSeries.ar (open-epg.com)
 CGTN Documentary.es (open-epg.com)
-Caracol.co
-RCN.co
-Cinecanal.co
-Cinemax.co
-Citytv.co
 CLAROSPORTS.uy
 CLAROSPORTS.mx (open-epg.com)
 CLAROSPORTS.ve (open-epg.com)
-Chilevision.cl
-CNNChile.cl
-ComedyCentral.co
 DAZN1.es
 DAZN2.es
 DAZN3.es
@@ -66,9 +40,6 @@ DAZNLaLiga.es
 DePelícula.mx
 137
 DHE.cl
-DIRECTVSports.cl
-DIRECTVSports2.cl
-DIRECTVSports+.cl
 6996
 6997
 DirecTVSports2.us@Panregional
@@ -79,17 +50,6 @@ DSPORTS HD.ve (open-epg.com)
 DSPORTS 2 HD.ve (open-epg.com)
 DSPORTS + HD.ve (open-epg.com)
 beINSportsXtraEspanol.us
-Discovery.cl
-DiscoveryChannel.cl
-DiscoveryHome&Health.pe
-InvestigationDiscovery.co
-DiscoveryKids.co
-DiscoveryScience.co
-DiscoveryTheater.cl
-DiscoveryTurbo.co
-DiscoveryWorld.co
-DisneyChannel.co
-DisneyChannel.ar
 DISNEYJR.uy
 ENTERTAINMENTTELEVISION.uy
 ElGourmet.co
