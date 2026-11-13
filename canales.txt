@@ -14,7 +14,6 @@ EcuadorTV.ec@SD
 Canal.Ecuador.TV.sv
 AmcSeries.ar (open-epg.com)
 AmericaTelevision.pe@SD
-AnimalPlanet.co
 Atreseries.es
 AzCorazon.mx@SD
 AzCorazón.mx
