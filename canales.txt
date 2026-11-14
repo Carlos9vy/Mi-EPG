@@ -70,8 +70,12 @@ ESPN Premium HD.cl (open-epg.com)
 ESPN PREMIUM HD.ar (open-epg.com)
 ESPN+.mx
 espn_premium_chile
+Enlace.py
 EnlaceJuvenil.gt
+Eurochannel.pa
+EWTN.mx
 FX.ve
+Canal.Golf.Channel.(Latinoamérica).sv
 FoxSports.ve
 FoxSports2.ve
 FoxSports3.ve
@@ -181,9 +185,10 @@ Win+Futbol.co (open-epg.com)
 402
 198 
 401
-
-
-
+390
+302
+384
+691
 
 
 
