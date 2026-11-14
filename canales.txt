@@ -94,6 +94,7 @@ HBOSignature.gt
 HBOXtreme.gt
 HBO2.mx
 Kanal D Drama.cl (open-epg.com)
+LasEstrellas.ve
 LA1.es
 LA2.es
 Boing.es
@@ -106,6 +107,7 @@ Mega.es
 Nova.es
 Telemadrid.es
 lch3300
+Canal.Mega.(Chile).sv
 M+Deportes.es
 M+LigadeCampeones.es
 M+LigadeCampeones2.es
@@ -113,8 +115,12 @@ M+LigadeCampeones3.es
 M+LigadeCampeones4.es
 M+#Vamos.es
 M+LaLigaTV.es
+Multipremier.mx
 MTV.es
+Nickelodeon.ve
+Pasiones.bo
 PlimPlim.ar (open-epg.com)
+RaiItalia.gt
 SkySports16.mx
 Sony.mx
 TLNovelas.ve
@@ -189,6 +195,15 @@ Win+Futbol.co (open-epg.com)
 302
 384
 691
+392
+435
+330
+468
+
+
+
+
+
 
 
 
