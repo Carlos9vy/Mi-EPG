@@ -23,6 +23,10 @@ AztecaInternacional.us
 BabyFirst.us
 Canal5.mx
 Canal.5.de.México.(XHGC).sv
+CaracolInternacional.bo
+Canal.Caracol.(Colombia).sv
+Canal.RCN.(Colombia).sv
+Canal.City.TV.sv
 CGTNSpanish.cn@SD
 CGTNEspanol.es
 AmcSeries.ar (open-epg.com)
@@ -46,6 +50,10 @@ DSPORTS HD.ve (open-epg.com)
 DSPORTS 2 HD.ve (open-epg.com)
 DSPORTS + HD.ve (open-epg.com)
 beINSportsXtraEspanol.us
+ComedyCentral.ve
+Canal.CNN.Chile.sv
+Canal.Chilevisión.(CHV).sv
+DHE.py
 ESNE.mx
 ESPN.ve
 ESPN.mx
@@ -61,6 +69,12 @@ Canal.ESPN.Premium.(Chile).sv
 ESPN Premium HD.cl (open-epg.com)
 ESPN PREMIUM HD.ar (open-epg.com)
 ESPN+.mx
+espn_premium_chile
+EnlaceJuvenil.gt
+FX.ve
+FoxSports.ve
+FoxSports2.ve
+FoxSports3.ve
 FIFA+.us
 FIFAPlus.uk@HispanicAmerica
 Golden.mx
