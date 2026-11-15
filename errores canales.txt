@@ -8,8 +8,17 @@
 435
 468
 CGTN Documentary.es (open-epg.com)
+CLAROSPORTS.mx (open-epg.com)
+CLAROSPORTS.ve (open-epg.com)
+DSPORTS + HD.ve (open-epg.com)
+DSPORTS 2 HD.ve (open-epg.com)
+DSPORTS HD.ve (open-epg.com)
+ESPN 2.mx (open-epg.com)
+ESPN 3.mx (open-epg.com)
+ESPN 4.mx (open-epg.com)
 ESPN PREMIUM HD.ar (open-epg.com)
 ESPN Premium HD.cl (open-epg.com)
 Kanal D Drama.cl (open-epg.com)
 TNT SPORTS PREMIUM.ar (open-epg.com)
+VENEVISION.ve (open-epg.com)
 Win+Futbol.co (open-epg.com)
