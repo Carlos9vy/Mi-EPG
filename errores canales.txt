@@ -7,16 +7,39 @@
 401
 435
 468
+Atreseries.es
+Boing.es
 CGTN Documentary.es (open-epg.com)
+CGTNEspanol.es
 CLAROSPORTS.mx (open-epg.com)
+Cuatro.es
+DAZN3.es
+DAZNLaLiga.es
 DSPORTS + HD.ve (open-epg.com)
 DSPORTS 2 HD.ve (open-epg.com)
 DSPORTS HD.ve (open-epg.com)
+Divinity.es
 ESPN 2.mx (open-epg.com)
 ESPN 3.mx (open-epg.com)
 ESPN 4.mx (open-epg.com)
 ESPN PREMIUM HD.ar (open-epg.com)
 ESPN Premium HD.cl (open-epg.com)
+Energy.es
 Kanal D Drama.cl (open-epg.com)
+LA1.es
+LA2.es
+M+#Vamos.es
+M+Deportes.es
+M+LaLigaTV.es
+M+LigadeCampeones.es
+M+LigadeCampeones2.es
+M+LigadeCampeones3.es
+M+LigadeCampeones4.es
+MTV.es
+Mega.es
+Nova.es
 TNT SPORTS PREMIUM.ar (open-epg.com)
+Telecinco.es
+Teledeporte.es
+Telemadrid.es
 Win+Futbol.co (open-epg.com)
