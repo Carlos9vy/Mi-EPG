@@ -5,6 +5,7 @@ ATV+.pe = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar
 ATV.pe = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/ATV.pe.png
 ATVSur.pe = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/ATVSur.pe.png
 AXN.co = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/AXN.co.png
+AdultSwim = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/AdultSwim.png
 Aguacatetv = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/Aguacatetv.png
 AmericaTelevision.pe = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/AmericaTelevision.pe.png
 AnimalPlanet.co = https://raw.githubusercontent.com/Carlos9vy/Mi-EPG/main/logos_estandar/AnimalPlanet.co.png
