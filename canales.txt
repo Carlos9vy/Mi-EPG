@@ -50,6 +50,7 @@ DirecTVSportsPlus.us@Panregional
 DSPORTS HD.ve (open-epg.com)
 DSPORTS 2 HD.ve (open-epg.com)
 DSPORTS + HD.ve (open-epg.com)
+Canal.DW.(Latinoamérica).sv
 beINSportsXtraEspanol.us
 ComedyCentral.ve
 Canal.CNN.Chile.sv
