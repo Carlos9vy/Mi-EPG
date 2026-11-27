@@ -29,6 +29,7 @@ Canal.RCN.(Colombia).sv
 Canal.City.TV.sv
 CGTNSpanish.cn@SD
 CGTNEspanol.es
+CNNenEspanol.bo
 AmcSeries.ar (open-epg.com)
 CGTN Documentary.es (open-epg.com)
 CLAROSPORTS.mx (open-epg.com)
